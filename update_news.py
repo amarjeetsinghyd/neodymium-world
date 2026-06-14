@@ -5,6 +5,8 @@ import re
 import google.generativeai as genai
 from datetime import datetime
 import trafilatura
+from urllib.parse import urlparse
+from jinja2 import Environment, FileSystemLoader
 
 # Configure Gemini API
 API_KEY = os.environ.get("GEMINI_API_KEY")
@@ -82,6 +84,17 @@ def main():
     print(f"Fetching RSS feed from {RSS_FEED_URL}...")
     feed = feedparser.parse(RSS_FEED_URL)
     
+    # Setup Jinja2 Environment
+    env = Environment(loader=FileSystemLoader('.'))
+    try:
+        template = env.get_template('article_template.html')
+    except Exception as e:
+        print(f"Could not load article_template.html: {e}")
+        return
+
+    # Ensure articles directory exists
+    os.makedirs('articles', exist_ok=True)
+    
     # Load existing data
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, 'r', encoding='utf-8') as f:
@@ -126,15 +139,44 @@ def main():
         
         full_report = rewrite_content(title, article_text)
         
+        # Generate Slug
+        slug = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')
+        if not slug:
+            slug = f"article-{int(datetime.utcnow().timestamp())}"
+        
+        article_url = f"articles/{slug}.html"
+        
+        # Parse publisher name
+        publisher_name = "Unknown Source"
+        try:
+            publisher_name = urlparse(link).netloc.replace('www.', '')
+        except:
+            publisher_name = link
+            
         news_item = {
             "title": title,
             "full_report": full_report,
             "original_link": link,
             "image_url": image_url,
             "published_at": published_date,
-            "added_at": datetime.utcnow().isoformat()
+            "added_at": datetime.utcnow().isoformat(),
+            "slug": slug,
+            "article_url": article_url
         }
         new_items.append(news_item)
+        
+        # Render and save static HTML
+        html_content = template.render(
+            title=title,
+            full_report=full_report,
+            image_url=image_url,
+            published_at=published_date,
+            original_link=link,
+            publisher_name=publisher_name
+        )
+        with open(article_url, 'w', encoding='utf-8') as f:
+            f.write(html_content)
+        print(f"Generated static page: {article_url}")
 
     if new_items:
         print(f"Adding {len(new_items)} new articles.")

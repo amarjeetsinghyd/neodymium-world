@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Neodymium | Future Tech & Defense Portal</title>
-  <meta name="description" content="Premium next-generation institutional data and news dashboard for Future Tech and Defense.">
+  <title>{{ title }} | Neodymium</title>
+  <meta name="description" content="{{ full_report.executive_summary }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -742,141 +742,44 @@
   </nav>
 
   <!-- Hero / Featured Briefs -->
-  <section class="hero" id="briefs">
-    <div class="container">
-      <div class="section-header">
-        <div>
-          <h1 class="section-title">Top Global <span class="text-gradient">Intelligence Briefs</span></h1>
-          <p class="section-subtitle">Real-time synthesis of geopolitical shifts, defense tech, and institutional strategy.</p>
-        </div>
-        <div class="header-actions">
-          <button class="btn btn-glass">View All Reports</button>
-        </div>
-      </div>
 
-      <div class="featured-grid">
-        <!-- Main Featured Card -->
-        <article class="featured-main glass-card">
-          <div id="featured-bg"></div>
-          <span class="tag tag-primary">Featured Brief</span>
-          <h2 id="featured-title">Quantum Encryption Paradigms in Next-Gen Satellite Networks</h2>
-          
-          
-          <div class="meta">
-            <div class="meta-item">
-              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-              <span id="featured-date">June 14, 2026</span>
-            </div>
-            <a href="#" id="featured-link" class="meta-item" style="color: white; text-decoration: none;">
-              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
-              Full Report
-            </a>
-          </div>
-        </article>
-
-        <!-- Side Briefs -->
-        <aside class="briefs-sidebar">
-          <article class="brief-card glass-card">
-            <span class="tag tag-outline">Intelligence</span>
-            <h3 id="side1-title">Strategic Semiconductor Supply Chain Restructuring</h3>
-            
-            <div class="meta" style="margin-top: auto;">
-              <span id="side1-date" style="color: var(--text-light); font-size: 0.8rem;">Updated recently</span>
-              <a href="#" id="side1-link" style="margin-left: auto; color: var(--accent-blue); text-decoration: none; font-size: 0.8rem; font-weight: 600;">Read &rarr;</a>
-            </div>
-          </article>
-
-          <article class="brief-card glass-card">
-            <span class="tag tag-outline-violet">Intelligence</span>
-            <h3 id="side2-title">Swarm Logic Optimization in Multi-Domain Operations</h3>
-            
-            <div class="meta" style="margin-top: auto;">
-              <span id="side2-date" style="color: var(--text-light); font-size: 0.8rem;">Updated recently</span>
-              <a href="#" id="side2-link" style="margin-left: auto; color: var(--accent-violet); text-decoration: none; font-size: 0.8rem; font-weight: 600;">Read &rarr;</a>
-            </div>
-          </article>
-        </aside>
-      </div>
+  <article class="container" style="padding-top: 10rem; padding-bottom: 5rem; max-width: 900px;">
+    {% if image_url %}
+    <div style="width: 100%; height: 400px; background-image: url('{{ image_url }}'); background-size: cover; background-position: center; border-radius: var(--radius-lg); margin-bottom: 3rem; box-shadow: var(--glass-shadow);"></div>
+    {% endif %}
+    
+    <h1 style="font-size: 3rem; margin-bottom: 1rem; line-height: 1.1;">{{ title }}</h1>
+    
+    <div style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 3rem; display: flex; gap: 2rem; align-items: center;">
+      <span><strong>Published:</strong> {{ published_at }}</span>
+      <a href="{{ original_link }}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-blue); text-decoration: none; font-weight: 600;">View Original Source &rarr;</a>
     </div>
-  </section>
 
-  <!-- Analytics Grid -->
-  <section class="analytics-section" id="analytics">
-    <div class="container">
-      <div class="section-header">
-        <div>
-          <h2 class="section-title">Tech & Defense <span class="text-gradient">Analytics</span></h2>
-          <p class="section-subtitle">Data-driven insights and market intelligence for the aerospace and defense sectors.</p>
-        </div>
-      </div>
+    <section style="margin-bottom: 3rem;">
+      <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Executive Summary</h2>
+      <p style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);">{{ full_report.executive_summary }}</p>
+    </section>
 
-      <div class="grid-3">
-        <!-- Card 1 -->
-        <div class="analytics-card glass-card">
-          <div class="card-icon">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
-          </div>
-          <h3 id="an1-title">Global Defense Spending Index</h3>
-          
-          <div class="data-viz">
-            <div class="bar" style="height: 40%; animation-delay: 0.1s;"></div>
-            <div class="bar" style="height: 55%; animation-delay: 0.2s;"></div>
-            <div class="bar" style="height: 45%; animation-delay: 0.3s;"></div>
-            <div class="bar" style="height: 70%; animation-delay: 0.4s;"></div>
-            <div class="bar" style="height: 60%; animation-delay: 0.5s;"></div>
-            <div class="bar" style="height: 85%; animation-delay: 0.6s;"></div>
-            <div class="bar" style="height: 95%; animation-delay: 0.7s;"></div>
-          </div>
-          <div class="card-footer" style="margin-top: 1.5rem;">
-            <a href="#" id="an1-link" class="read-more">Access Data <span>&rarr;</span></a>
-            <span style="font-size: 0.85rem; color: var(--text-light);">Analysis Report</span>
-          </div>
-        </div>
+    <section style="margin-bottom: 3rem;">
+      <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Technical Deep-Dive</h2>
+      <p style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);">{{ full_report.technical_deep_dive }}</p>
+    </section>
 
-        <!-- Card 2 -->
-        <div class="analytics-card glass-card">
-          <div class="card-icon">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
-          </div>
-          <h3 id="an2-title">Material Sciences Innovation</h3>
-          
-          <div class="data-viz" style="align-items: center; justify-content: space-around; background: none;">
-            <div style="width: 60px; height: 60px; border-radius: 50%; border: 6px solid var(--accent-cyan); border-right-color: transparent; transform: rotate(45deg);"></div>
-            <div style="width: 40px; height: 40px; border-radius: 50%; border: 4px solid var(--accent-violet); border-bottom-color: transparent; transform: rotate(-20deg);"></div>
-          </div>
-          <div class="card-footer" style="margin-top: 1.5rem;">
-            <a href="#" id="an2-link" class="read-more">Read Analysis <span>&rarr;</span></a>
-            <span style="font-size: 0.85rem; color: var(--text-light);">Analysis Report</span>
-          </div>
-        </div>
+    <section style="background: rgba(37, 99, 235, 0.05); border-left: 4px solid var(--accent-blue); padding: 2rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-bottom: 3rem;">
+      <h2 style="color: var(--accent-blue); margin-bottom: 1rem; font-size: 1.2rem;">Strategic Impact</h2>
+      <p style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main); font-weight: 500;">{{ full_report.strategic_impact }}</p>
+    </section>
 
-        <!-- Card 3 -->
-        <div class="analytics-card glass-card">
-          <div class="card-icon">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
-          </div>
-          <h3 id="an3-title">Cyber Infrastructure Resilience</h3>
-          
-          <div class="data-viz" style="background: none; display: flex; flex-direction: column; justify-content: center; gap: 8px;">
-            <div style="width: 100%; height: 8px; background: rgba(0,0,0,0.05); border-radius: 4px; overflow: hidden;">
-              <div style="width: 85%; height: 100%; background: var(--gradient-primary);"></div>
-            </div>
-            <div style="width: 100%; height: 8px; background: rgba(0,0,0,0.05); border-radius: 4px; overflow: hidden;">
-              <div style="width: 62%; height: 100%; background: var(--accent-cyan);"></div>
-            </div>
-            <div style="width: 100%; height: 8px; background: rgba(0,0,0,0.05); border-radius: 4px; overflow: hidden;">
-              <div style="width: 93%; height: 100%; background: var(--accent-violet);"></div>
-            </div>
-          </div>
-          <div class="card-footer" style="margin-top: 1.5rem;">
-            <a href="#" id="an3-link" class="read-more">View Dashboard <span>&rarr;</span></a>
-            <span style="font-size: 0.85rem; color: var(--text-light);">Analysis Report</span>
-          </div>
-        </div>
-      </div>
+    <section style="margin-bottom: 4rem;">
+      <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Conclusion</h2>
+      <p style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);">{{ full_report.conclusion }}</p>
+    </section>
+    
+    <div style="border-top: 1px solid rgba(0,0,0,0.1); padding-top: 2rem; display: flex; justify-content: space-between; align-items: center;">
+      <a href="../index.html" class="btn btn-primary">&larr; Back to Dashboard</a>
+      <span style="color: var(--text-muted); font-weight: 500;">Source: {{ publisher_name }}</span>
     </div>
-  </section>
-
+  </article>
   <!-- Footer -->
   <footer>
     <div class="container">
@@ -942,123 +845,5 @@
     </div>
   </footer>
 
-  <script>
-    let globalNewsData = [];
-
-    
-
-    // Navbar scroll effect
-    const navbar = document.getElementById('navbar');
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 50) {
-        navbar.classList.add('scrolled');
-      } else {
-        navbar.classList.remove('scrolled');
-      }
-    });
-
-    // Smooth reveal animation for bars in analytics
-    const observerOptions = {
-      root: null,
-      rootMargin: '0px',
-      threshold: 0.1
-    };
-
-    const observer = new IntersectionObserver((entries, observer) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const bars = entry.target.querySelectorAll('.bar');
-          bars.forEach(bar => {
-            bar.style.animationPlayState = 'running';
-          });
-          observer.unobserve(entry.target);
-        }
-      });
-    }, observerOptions);
-
-    document.querySelectorAll('.analytics-card').forEach(card => {
-      // Pause animations initially
-      const bars = card.querySelectorAll('.bar');
-      bars.forEach(bar => {
-        bar.style.animationPlayState = 'paused';
-      });
-      observer.observe(card);
-    });
-
-    // Fetch and populate news data
-    async function loadNewsData() {
-      try {
-        const response = await fetch('news_data.json');
-        if (!response.ok) {
-          console.warn('news_data.json not found or could not be loaded. Displaying placeholders.');
-          return;
-        }
-        
-        const news = await response.json();
-        if (!news || news.length === 0) return;
-        globalNewsData = news;
-
-        // Formatter for dates
-        const formatDate = (isoString) => {
-          if (!isoString) return 'Recent';
-          const date = new Date(isoString);
-          return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
-        };
-
-        // Populate Featured Main (Index 0)
-        const featured = news[0];
-        if (featured) {
-          document.getElementById('featured-title').textContent = featured.title;
-                    document.getElementById('featured-date').textContent = formatDate(featured.published_at || featured.added_at);
-          document.getElementById('featured-link').href = featured.article_url || featured.link || '#';
-                    
-          if (featured.image_url) {
-            document.getElementById('featured-bg').style.backgroundImage = `url('${featured.image_url}')`;
-          }
-        }
-
-        // Populate Side Briefs (Index 1 and 2)
-        const side1 = news[1];
-        if (side1) {
-          document.getElementById('side1-title').textContent = side1.title;
-                    document.getElementById('side1-date').textContent = formatDate(side1.published_at || side1.added_at);
-          document.getElementById('side1-link').href = side1.article_url || side1.link || '#';
-                  }
-
-        const side2 = news[2];
-        if (side2) {
-          document.getElementById('side2-title').textContent = side2.title;
-                    document.getElementById('side2-date').textContent = formatDate(side2.published_at || side2.added_at);
-          document.getElementById('side2-link').href = side2.article_url || side2.link || '#';
-                  }
-
-        // Populate Analytics Grid (Index 3, 4, 5)
-        const an1 = news[3];
-        if (an1) {
-          document.getElementById('an1-title').textContent = an1.title;
-                    document.getElementById('an1-link').href = an1.article_url || an1.link || '#';
-                  }
-
-        const an2 = news[4];
-        if (an2) {
-          document.getElementById('an2-title').textContent = an2.title;
-                    document.getElementById('an2-link').href = an2.article_url || an2.link || '#';
-                  }
-
-        const an3 = news[5];
-        if (an3) {
-          document.getElementById('an3-title').textContent = an3.title;
-                    document.getElementById('an3-link').href = an3.article_url || an3.link || '#';
-                  }
-
-      } catch (err) {
-        console.error("Error loading news data:", err);
-      }
-    }
-
-    // Initialize
-    document.addEventListener('DOMContentLoaded', loadNewsData);
-
-  </script>
 </body>
 </html>
