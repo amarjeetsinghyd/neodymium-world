@@ -287,13 +287,12 @@
       overflow: hidden;
     }
 
-    .featured-main::before {
-      content: '';
+    #featured-bg {
       position: absolute;
       inset: 0;
-      /* Generated abstract background for the featured post */
       background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600"><defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="%232563eb"/><stop offset="100%" stop-color="%237c3aed"/></linearGradient></defs><rect width="100%" height="100%" fill="url(%23g)"/></svg>') center/cover;
       z-index: -2;
+      transition: background-image 0.5s ease;
     }
 
     .featured-main::after {
@@ -632,43 +631,42 @@
       <div class="featured-grid">
         <!-- Main Featured Card -->
         <article class="featured-main glass-card">
-          <span class="tag tag-primary">Defense Tech</span>
-          <h2>Quantum Encryption Paradigms in Next-Gen Satellite Networks</h2>
-          <p>An in-depth analysis of the shift towards post-quantum cryptographic standards across institutional orbital assets and global communications infrastructure.</p>
+          <div id="featured-bg"></div>
+          <span class="tag tag-primary">Featured Brief</span>
+          <h2 id="featured-title">Quantum Encryption Paradigms in Next-Gen Satellite Networks</h2>
+          <p id="featured-desc">An in-depth analysis of the shift towards post-quantum cryptographic standards across institutional orbital assets and global communications infrastructure.</p>
           
           <div class="meta">
             <div class="meta-item">
               <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-              June 14, 2026
+              <span id="featured-date">June 14, 2026</span>
             </div>
-            <div class="meta-item">
-              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-              8 min read
-            </div>
-            <div class="meta-item">
+            <a href="#" id="featured-link" class="meta-item" style="color: white; text-decoration: none;">
               <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
               Full Report
-            </div>
+            </a>
           </div>
         </article>
 
         <!-- Side Briefs -->
         <aside class="briefs-sidebar">
           <article class="brief-card glass-card">
-            <span class="tag tag-outline">Geopolitics</span>
-            <h3>Strategic Semiconductor Supply Chain Restructuring</h3>
-            <p>Evaluating the impact of recent legislative frameworks on global foundry capacities and advanced node distribution strategies over the next decade.</p>
+            <span class="tag tag-outline">Intelligence</span>
+            <h3 id="side1-title">Strategic Semiconductor Supply Chain Restructuring</h3>
+            <p id="side1-desc">Evaluating the impact of recent legislative frameworks on global foundry capacities and advanced node distribution strategies over the next decade.</p>
             <div class="meta" style="margin-top: auto;">
-              <span style="color: var(--text-light); font-size: 0.8rem;">Updated 2h ago</span>
+              <span id="side1-date" style="color: var(--text-light); font-size: 0.8rem;">Updated recently</span>
+              <a href="#" id="side1-link" style="margin-left: auto; color: var(--accent-blue); text-decoration: none; font-size: 0.8rem; font-weight: 600;">Read &rarr;</a>
             </div>
           </article>
 
           <article class="brief-card glass-card">
-            <span class="tag tag-outline-violet">Autonomous Systems</span>
-            <h3>Swarm Logic Optimization in Multi-Domain Operations</h3>
-            <p>Advancements in decentralized AI models enabling robust coordination among heterogeneous unmanned vehicles in degraded communication environments.</p>
+            <span class="tag tag-outline-violet">Intelligence</span>
+            <h3 id="side2-title">Swarm Logic Optimization in Multi-Domain Operations</h3>
+            <p id="side2-desc">Advancements in decentralized AI models enabling robust coordination among heterogeneous unmanned vehicles in degraded communication environments.</p>
             <div class="meta" style="margin-top: auto;">
-              <span style="color: var(--text-light); font-size: 0.8rem;">Updated 5h ago</span>
+              <span id="side2-date" style="color: var(--text-light); font-size: 0.8rem;">Updated recently</span>
+              <a href="#" id="side2-link" style="margin-left: auto; color: var(--accent-violet); text-decoration: none; font-size: 0.8rem; font-weight: 600;">Read &rarr;</a>
             </div>
           </article>
         </aside>
@@ -692,8 +690,8 @@
           <div class="card-icon">
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
           </div>
-          <h3>Global Defense Spending Index</h3>
-          <p>Tracking macroeconomic shifts and budgetary allocations across major institutional players for FY2027.</p>
+          <h3 id="an1-title">Global Defense Spending Index</h3>
+          <p id="an1-desc">Tracking macroeconomic shifts and budgetary allocations across major institutional players for FY2027.</p>
           <div class="data-viz">
             <div class="bar" style="height: 40%; animation-delay: 0.1s;"></div>
             <div class="bar" style="height: 55%; animation-delay: 0.2s;"></div>
@@ -704,8 +702,8 @@
             <div class="bar" style="height: 95%; animation-delay: 0.7s;"></div>
           </div>
           <div class="card-footer" style="margin-top: 1.5rem;">
-            <a href="#" class="read-more">Access Data <span>&rarr;</span></a>
-            <span style="font-size: 0.85rem; color: var(--text-light);">Q3 Projection</span>
+            <a href="#" id="an1-link" class="read-more">Access Data <span>&rarr;</span></a>
+            <span style="font-size: 0.85rem; color: var(--text-light);">Analysis Report</span>
           </div>
         </div>
 
@@ -714,15 +712,15 @@
           <div class="card-icon">
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
           </div>
-          <h3>Material Sciences Innovation</h3>
-          <p>Analysis of advanced composites and metamaterials scaling for aerospace manufacturing pipelines.</p>
+          <h3 id="an2-title">Material Sciences Innovation</h3>
+          <p id="an2-desc">Analysis of advanced composites and metamaterials scaling for aerospace manufacturing pipelines.</p>
           <div class="data-viz" style="align-items: center; justify-content: space-around; background: none;">
             <div style="width: 60px; height: 60px; border-radius: 50%; border: 6px solid var(--accent-cyan); border-right-color: transparent; transform: rotate(45deg);"></div>
             <div style="width: 40px; height: 40px; border-radius: 50%; border: 4px solid var(--accent-violet); border-bottom-color: transparent; transform: rotate(-20deg);"></div>
           </div>
           <div class="card-footer" style="margin-top: 1.5rem;">
-            <a href="#" class="read-more">Read Analysis <span>&rarr;</span></a>
-            <span style="font-size: 0.85rem; color: var(--text-light);">Sector Report</span>
+            <a href="#" id="an2-link" class="read-more">Read Analysis <span>&rarr;</span></a>
+            <span style="font-size: 0.85rem; color: var(--text-light);">Analysis Report</span>
           </div>
         </div>
 
@@ -731,8 +729,8 @@
           <div class="card-icon">
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
           </div>
-          <h3>Cyber Infrastructure Resilience</h3>
-          <p>Real-time threat landscape evaluation and zero-trust architecture adoption rates across enterprise domains.</p>
+          <h3 id="an3-title">Cyber Infrastructure Resilience</h3>
+          <p id="an3-desc">Real-time threat landscape evaluation and zero-trust architecture adoption rates across enterprise domains.</p>
           <div class="data-viz" style="background: none; display: flex; flex-direction: column; justify-content: center; gap: 8px;">
             <div style="width: 100%; height: 8px; background: rgba(0,0,0,0.05); border-radius: 4px; overflow: hidden;">
               <div style="width: 85%; height: 100%; background: var(--gradient-primary);"></div>
@@ -745,8 +743,8 @@
             </div>
           </div>
           <div class="card-footer" style="margin-top: 1.5rem;">
-            <a href="#" class="read-more">View Dashboard <span>&rarr;</span></a>
-            <span style="font-size: 0.85rem; color: var(--text-light);">Live Metrics</span>
+            <a href="#" id="an3-link" class="read-more">View Dashboard <span>&rarr;</span></a>
+            <span style="font-size: 0.85rem; color: var(--text-light);">Analysis Report</span>
           </div>
         </div>
       </div>
@@ -856,6 +854,86 @@
       });
       observer.observe(card);
     });
+
+    // Fetch and populate news data
+    async function loadNewsData() {
+      try {
+        const response = await fetch('news_data.json');
+        if (!response.ok) {
+          console.warn('news_data.json not found or could not be loaded. Displaying placeholders.');
+          return;
+        }
+        
+        const news = await response.json();
+        if (!news || news.length === 0) return;
+
+        // Formatter for dates
+        const formatDate = (isoString) => {
+          if (!isoString) return 'Recent';
+          const date = new Date(isoString);
+          return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+        };
+
+        // Populate Featured Main (Index 0)
+        const featured = news[0];
+        if (featured) {
+          document.getElementById('featured-title').textContent = featured.title;
+          document.getElementById('featured-desc').textContent = featured.description;
+          document.getElementById('featured-date').textContent = formatDate(featured.published_at || featured.added_at);
+          document.getElementById('featured-link').href = featured.link;
+          
+          if (featured.image_url) {
+            document.getElementById('featured-bg').style.backgroundImage = `url('${featured.image_url}')`;
+          }
+        }
+
+        // Populate Side Briefs (Index 1 and 2)
+        const side1 = news[1];
+        if (side1) {
+          document.getElementById('side1-title').textContent = side1.title;
+          document.getElementById('side1-desc').textContent = side1.description;
+          document.getElementById('side1-date').textContent = formatDate(side1.published_at || side1.added_at);
+          document.getElementById('side1-link').href = side1.link;
+        }
+
+        const side2 = news[2];
+        if (side2) {
+          document.getElementById('side2-title').textContent = side2.title;
+          document.getElementById('side2-desc').textContent = side2.description;
+          document.getElementById('side2-date').textContent = formatDate(side2.published_at || side2.added_at);
+          document.getElementById('side2-link').href = side2.link;
+        }
+
+        // Populate Analytics Grid (Index 3, 4, 5)
+        const an1 = news[3];
+        if (an1) {
+          document.getElementById('an1-title').textContent = an1.title;
+          document.getElementById('an1-desc').textContent = an1.description;
+          document.getElementById('an1-link').href = an1.link;
+        }
+
+        const an2 = news[4];
+        if (an2) {
+          document.getElementById('an2-title').textContent = an2.title;
+          document.getElementById('an2-desc').textContent = an2.description;
+          document.getElementById('an2-link').href = an2.link;
+        }
+
+        const an3 = news[5];
+        if (an3) {
+          document.getElementById('an3-title').textContent = an3.title;
+          document.getElementById('an3-desc').textContent = an3.description;
+          document.getElementById('an3-link').href = an3.link;
+        }
+
+      } catch (err) {
+        console.error("Error loading news data:", err);
+      }
+    }
+
+    // Initialize
+    document.addEventListener('DOMContentLoaded', loadNewsData);
+
   </script>
 </body>
 </html>
