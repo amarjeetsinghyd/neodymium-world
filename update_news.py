@@ -15,7 +15,7 @@ if not API_KEY:
 
 genai.configure(api_key=API_KEY)
 # Use a recommended gemini model
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-1.5-pro-latest')
 
 # Feed configuration
 # Using a standard Tech/Defense RSS Feed (Breaking Defense as an example)
