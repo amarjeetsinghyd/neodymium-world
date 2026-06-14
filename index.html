@@ -688,29 +688,11 @@
       letter-spacing: 0.05em;
     }
 
-    .modal-bullets {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    .modal-bullets li {
-      position: relative;
-      padding-left: 1.5rem;
+    .modal-text {
       font-size: 1.05rem;
       color: var(--text-muted);
-    }
-
-    .modal-bullets li::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0.5rem;
-      width: 8px;
-      height: 8px;
-      background: var(--gradient-primary);
-      border-radius: 50%;
+      line-height: 1.7;
+      margin-bottom: 1rem;
     }
 
     .impact-section {
@@ -966,17 +948,25 @@
       <button id="close-modal" class="modal-close">&times;</button>
       <div id="modal-image" class="modal-header-img"></div>
       <article class="modal-body">
-        <h1 id="modal-title" class="modal-title">Brief Title</h1>
+        <h1 id="modal-title" class="modal-title">Intelligence Report</h1>
         <section class="modal-section">
-          <h2>Technical & Strategic Analysis</h2>
-          <ul id="modal-bullets" class="modal-bullets"></ul>
+          <h2>Executive Summary</h2>
+          <div id="modal-summary" class="modal-text"></div>
+        </section>
+        <section class="modal-section">
+          <h2>Technical Deep-Dive</h2>
+          <div id="modal-deep-dive" class="modal-text"></div>
         </section>
         <section class="modal-section impact-section">
           <h2>Strategic Impact</h2>
-          <p id="modal-impact"></p>
+          <div id="modal-impact"></div>
+        </section>
+        <section class="modal-section">
+          <h2>Conclusion</h2>
+          <div id="modal-conclusion" class="modal-text"></div>
         </section>
         <div class="modal-footer">
-          <a href="#" id="modal-source-link" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Read Full Story &rarr;</a>
+          <a href="#" id="modal-source-link" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Read Source Article &rarr;</a>
         </div>
       </article>
     </div>
@@ -990,8 +980,10 @@
     const closeBtn = document.getElementById('close-modal');
     const mImg = document.getElementById('modal-image');
     const mTitle = document.getElementById('modal-title');
-    const mBullets = document.getElementById('modal-bullets');
+    const mSummary = document.getElementById('modal-summary');
+    const mDeepDive = document.getElementById('modal-deep-dive');
     const mImpact = document.getElementById('modal-impact');
+    const mConclusion = document.getElementById('modal-conclusion');
     const mLink = document.getElementById('modal-source-link');
 
     closeBtn.addEventListener('click', () => modal.close());
@@ -1009,17 +1001,15 @@
       mImg.style.backgroundImage = item.image_url ? `url('${item.image_url}')` : 'none';
       mImg.style.display = item.image_url ? 'block' : 'none';
       
-      mTitle.textContent = item.title || 'Untitled Brief';
+      mTitle.textContent = item.title || 'Intelligence Report';
       
-      mBullets.innerHTML = '';
-      const bullets = Array.isArray(item.bullet_points) ? item.bullet_points : [item.description || ''];
-      bullets.forEach(b => {
-        const li = document.createElement('li');
-        li.textContent = b;
-        mBullets.appendChild(li);
-      });
-
-      mImpact.textContent = item.strategic_impact || 'No impact analysis available.';
+      const report = item.full_report || {};
+      
+      mSummary.textContent = report.executive_summary || (Array.isArray(item.bullet_points) ? item.bullet_points[0] : item.description) || 'No summary available.';
+      mDeepDive.textContent = report.technical_deep_dive || 'No technical analysis available.';
+      mImpact.textContent = report.strategic_impact || item.strategic_impact || 'No impact assessment available.';
+      mConclusion.textContent = report.conclusion || 'No conclusion available.';
+      
       mLink.href = item.original_link || item.link || '#';
       
       modal.showModal();
@@ -1087,7 +1077,7 @@
         const featured = news[0];
         if (featured) {
           document.getElementById('featured-title').textContent = featured.title;
-          document.getElementById('featured-desc').textContent = Array.isArray(featured.bullet_points) ? featured.bullet_points[0] : featured.description;
+          document.getElementById('featured-desc').textContent = featured.full_report ? featured.full_report.executive_summary : (Array.isArray(featured.bullet_points) ? featured.bullet_points[0] : featured.description);
           document.getElementById('featured-date').textContent = formatDate(featured.published_at || featured.added_at);
           document.getElementById('featured-link').href = 'javascript:void(0)';
           document.getElementById('featured-link').onclick = (e) => { e.preventDefault(); openModal(0); };
@@ -1101,7 +1091,7 @@
         const side1 = news[1];
         if (side1) {
           document.getElementById('side1-title').textContent = side1.title;
-          document.getElementById('side1-desc').textContent = Array.isArray(side1.bullet_points) ? side1.bullet_points[0] : side1.description;
+          document.getElementById('side1-desc').textContent = side1.full_report ? side1.full_report.executive_summary : (Array.isArray(side1.bullet_points) ? side1.bullet_points[0] : side1.description);
           document.getElementById('side1-date').textContent = formatDate(side1.published_at || side1.added_at);
           document.getElementById('side1-link').href = 'javascript:void(0)';
           document.getElementById('side1-link').onclick = (e) => { e.preventDefault(); openModal(1); };
@@ -1110,7 +1100,7 @@
         const side2 = news[2];
         if (side2) {
           document.getElementById('side2-title').textContent = side2.title;
-          document.getElementById('side2-desc').textContent = Array.isArray(side2.bullet_points) ? side2.bullet_points[0] : side2.description;
+          document.getElementById('side2-desc').textContent = side2.full_report ? side2.full_report.executive_summary : (Array.isArray(side2.bullet_points) ? side2.bullet_points[0] : side2.description);
           document.getElementById('side2-date').textContent = formatDate(side2.published_at || side2.added_at);
           document.getElementById('side2-link').href = 'javascript:void(0)';
           document.getElementById('side2-link').onclick = (e) => { e.preventDefault(); openModal(2); };
@@ -1120,7 +1110,7 @@
         const an1 = news[3];
         if (an1) {
           document.getElementById('an1-title').textContent = an1.title;
-          document.getElementById('an1-desc').textContent = Array.isArray(an1.bullet_points) ? an1.bullet_points[0] : an1.description;
+          document.getElementById('an1-desc').textContent = an1.full_report ? an1.full_report.executive_summary : (Array.isArray(an1.bullet_points) ? an1.bullet_points[0] : an1.description);
           document.getElementById('an1-link').href = 'javascript:void(0)';
           document.getElementById('an1-link').onclick = (e) => { e.preventDefault(); openModal(3); };
         }
@@ -1128,7 +1118,7 @@
         const an2 = news[4];
         if (an2) {
           document.getElementById('an2-title').textContent = an2.title;
-          document.getElementById('an2-desc').textContent = Array.isArray(an2.bullet_points) ? an2.bullet_points[0] : an2.description;
+          document.getElementById('an2-desc').textContent = an2.full_report ? an2.full_report.executive_summary : (Array.isArray(an2.bullet_points) ? an2.bullet_points[0] : an2.description);
           document.getElementById('an2-link').href = 'javascript:void(0)';
           document.getElementById('an2-link').onclick = (e) => { e.preventDefault(); openModal(4); };
         }
@@ -1136,7 +1126,7 @@
         const an3 = news[5];
         if (an3) {
           document.getElementById('an3-title').textContent = an3.title;
-          document.getElementById('an3-desc').textContent = Array.isArray(an3.bullet_points) ? an3.bullet_points[0] : an3.description;
+          document.getElementById('an3-desc').textContent = an3.full_report ? an3.full_report.executive_summary : (Array.isArray(an3.bullet_points) ? an3.bullet_points[0] : an3.description);
           document.getElementById('an3-link').href = 'javascript:void(0)';
           document.getElementById('an3-link').onclick = (e) => { e.preventDefault(); openModal(5); };
         }

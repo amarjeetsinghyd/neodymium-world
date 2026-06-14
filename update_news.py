@@ -4,6 +4,7 @@ import os
 import re
 import google.generativeai as genai
 from datetime import datetime
+import trafilatura
 
 # Configure Gemini API
 API_KEY = os.environ.get("GEMINI_API_KEY")
@@ -36,26 +37,24 @@ def get_image_url(entry):
             return match.group(1)
     return None
 
-def rewrite_content(title, description):
-    """Uses Gemini to rewrite title and description into an Executive Brief."""
+def rewrite_content(title, text):
+    """Uses Gemini to rewrite article into an Intelligence Report."""
     prompt = f"""
-You are a senior intelligence analyst and editor for a premium, institutional Future Tech and Defense dashboard called 'Neodymium'.
-Rewrite the following news title and description into an 'Executive Brief'.
-The brief must feature:
-1. A crisp Headline (title)
-2. 3-4 Bullet points (Technical & Strategic analysis)
-3. 'Strategic Impact' assessment (Why this defense/tech shift matters for institutional players)
-
-Remove any clickbait, sensationalism, or informal language. Make it sound highly advanced, objective, and premium.
+You are a Chief Defense Analyst. Rewrite this article into a professional, high-impact 500-word Intelligence Report.
+Include: Executive Summary, Technical Deep-Dive, Strategic Impact, and Conclusion.
+Use a formal, institutional tone.
 
 Original Title: {title}
-Original Description: {description}
+Original Content: {text}
 
 Respond strictly in the following JSON format without any markdown blocks or extra text:
 {{
-    "title": "Crisp Headline Here",
-    "bullet_points": ["Point 1", "Point 2", "Point 3"],
-    "strategic_impact": "Strategic impact assessment here"
+    "full_report": {{
+        "executive_summary": "Summary here...",
+        "technical_deep_dive": "Deep dive here...",
+        "strategic_impact": "Impact assessment here...",
+        "conclusion": "Conclusion here..."
+    }}
 }}
 """
     try:
@@ -68,14 +67,15 @@ Respond strictly in the following JSON format without any markdown blocks or ext
             result_text = result_text[3:-3].strip()
         
         rewritten_data = json.loads(result_text)
-        return rewritten_data
+        return rewritten_data.get("full_report", {})
     except Exception as e:
         print(f"Error during Gemini rewriting: {e}")
         # Fallback
         return {
-            "title": title,
-            "bullet_points": [description],
-            "strategic_impact": "Analysis pending."
+            "executive_summary": text[:200] + "...",
+            "technical_deep_dive": "Pending technical analysis.",
+            "strategic_impact": "Analysis pending.",
+            "conclusion": "Pending conclusion."
         }
 
 def main():
@@ -108,12 +108,27 @@ def main():
         published_date = entry.get('published', datetime.utcnow().isoformat())
         
         print(f"Processing new article: {title}")
-        rewritten_data = rewrite_content(title, raw_description)
+        
+        # Scrape full text with Trafilatura
+        article_text = raw_description
+        downloaded = trafilatura.fetch_url(link)
+        if downloaded:
+            extracted = trafilatura.extract(downloaded, output_format='json')
+            if extracted:
+                try:
+                    ext_data = json.loads(extracted)
+                    if ext_data.get('text'):
+                        article_text = ext_data['text']
+                    if ext_data.get('image'):
+                        image_url = ext_data['image']
+                except json.JSONDecodeError:
+                    pass
+        
+        full_report = rewrite_content(title, article_text)
         
         news_item = {
-            "title": rewritten_data.get("title", title),
-            "bullet_points": rewritten_data.get("bullet_points", [raw_description]),
-            "strategic_impact": rewritten_data.get("strategic_impact", "Analysis pending."),
+            "title": title,
+            "full_report": full_report,
             "original_link": link,
             "image_url": image_url,
             "published_at": published_date,
