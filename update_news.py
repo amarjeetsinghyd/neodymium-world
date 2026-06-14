@@ -72,15 +72,28 @@ Respond strictly in the following JSON format without any markdown blocks or ext
                 genai.types.HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: genai.types.HarmBlockThreshold.BLOCK_NONE,
             }
         )
-        # The response is guaranteed to be JSON
-        rewritten_data = json.loads(response.text.strip())
-        return rewritten_data.get("full_report", {})
+        
+        result_text = response.text.strip()
+        if result_text.startswith("```json"):
+            result_text = result_text[7:-3].strip()
+        elif result_text.startswith("```"):
+            result_text = result_text[3:-3].strip()
+            
+        rewritten_data = json.loads(result_text)
+        
+        if "full_report" in rewritten_data:
+            return rewritten_data["full_report"]
+        elif "executive_summary" in rewritten_data:
+            return rewritten_data
+        else:
+            return rewritten_data.get("full_report", {})
+            
     except Exception as e:
         print(f"Error during Gemini rewriting: {e}")
-        # Fallback
+        # Fallback with error logging
         return {
             "executive_summary": text[:200] + "...",
-            "technical_deep_dive": "Pending technical analysis.",
+            "technical_deep_dive": f"Exception occurred during generation: {str(e)}\n\nResponse snippet: {getattr(response, 'text', 'No text')[:200] if 'response' in locals() else 'No response object'}",
             "strategic_impact": "Analysis pending.",
             "conclusion": "Pending conclusion."
         }
