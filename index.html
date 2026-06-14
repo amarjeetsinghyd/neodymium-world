@@ -966,7 +966,7 @@
           <div id="modal-conclusion" class="modal-text"></div>
         </section>
         <div class="modal-footer">
-          <a href="#" id="modal-source-link" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Read Source Article &rarr;</a>
+          <span style="color: var(--text-muted); font-size: 0.95rem; font-weight: 500;" id="modal-source-text"></span>
         </div>
       </article>
     </div>
@@ -984,7 +984,7 @@
     const mDeepDive = document.getElementById('modal-deep-dive');
     const mImpact = document.getElementById('modal-impact');
     const mConclusion = document.getElementById('modal-conclusion');
-    const mLink = document.getElementById('modal-source-link');
+    const mSourceText = document.getElementById('modal-source-text');
 
     closeBtn.addEventListener('click', () => modal.close());
     modal.addEventListener('click', (e) => {
@@ -1010,7 +1010,16 @@
       mImpact.textContent = report.strategic_impact || item.strategic_impact || 'No impact assessment available.';
       mConclusion.textContent = report.conclusion || 'No conclusion available.';
       
-      mLink.href = item.original_link || item.link || '#';
+      let publisherName = 'Unknown Source';
+      const linkToParse = item.original_link || item.link;
+      if (linkToParse) {
+        try {
+          publisherName = new URL(linkToParse).hostname.replace('www.', '');
+        } catch (e) {
+          publisherName = linkToParse;
+        }
+      }
+      mSourceText.textContent = 'Source: ' + publisherName;
       
       modal.showModal();
     }
