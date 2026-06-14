@@ -1,1897 +1,861 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NEODYMIUM.WORLD — Future Intelligence Platform</title>
-  <meta name="description" content="neodymium.world is a next-generation defense and future-tech intelligence platform. Military-grade AI, real-time threat synthesis, and global situational awareness at your command." />
-  <meta name="keywords" content="defense intelligence, future tech, AI surveillance, military platform, threat analysis, neodymium" />
-  <meta property="og:title" content="NEODYMIUM.WORLD — Future Intelligence Platform" />
-  <meta property="og:description" content="Military-grade AI intelligence for the next era of defense and future technology." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Share+Tech+Mono&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neodymium | Future Tech & Defense Portal</title>
+  <meta name="description" content="Premium next-generation institutional data and news dashboard for Future Tech and Defense.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
-    /* =====================================================
-       DESIGN TOKENS & RESET
-    ===================================================== */
     :root {
-      --bg-void:       #020609;
-      --bg-deep:       #050d12;
-      --bg-surface:    #081620;
-      --bg-card:       rgba(8, 22, 32, 0.72);
-      --cyan:          #00f5ff;
-      --cyan-dim:      #00b8c8;
-      --cyan-glow:     rgba(0, 245, 255, 0.18);
-      --cyan-glow-lg:  rgba(0, 245, 255, 0.08);
-      --green:         #39ff8a;
-      --green-dim:     #28cc6a;
-      --green-glow:    rgba(57, 255, 138, 0.18);
-      --amber:         #ffb300;
-      --red-warn:      #ff3c5c;
-      --text-primary:  #e8f4f8;
-      --text-secondary:#7aa8b8;
-      --text-muted:    #3d6270;
-      --border-glass:  rgba(0, 245, 255, 0.12);
-      --border-dim:    rgba(0, 245, 255, 0.06);
-      --grid-line:     rgba(0, 245, 255, 0.04);
-      --font-display:  'Orbitron', monospace;
-      --font-mono:     'Share Tech Mono', monospace;
-      --font-body:     'Inter', sans-serif;
-      --radius-sm:     6px;
-      --radius-md:     12px;
-      --radius-lg:     20px;
-      --transition:    0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      --bg-color: #f3f5f9;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --text-light: #94a3b8;
+      
+      --accent-blue: #2563eb;
+      --accent-violet: #7c3aed;
+      --accent-cyan: #06b6d4;
+      
+      --gradient-primary: linear-gradient(135deg, #2563eb, #7c3aed);
+      --gradient-hover: linear-gradient(135deg, #3b82f6, #8b5cf6);
+      
+      --glass-bg: rgba(255, 255, 255, 0.65);
+      --glass-border: rgba(255, 255, 255, 0.4);
+      --glass-shadow: 0 8px 32px rgba(31, 38, 135, 0.07);
+      
+      --font-heading: 'Outfit', sans-serif;
+      --font-body: 'Inter', sans-serif;
+      
+      --radius-sm: 8px;
+      --radius-md: 16px;
+      --radius-lg: 24px;
+      --radius-xl: 32px;
+      
+      --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
     body {
-      background: var(--bg-void);
-      color: var(--text-primary);
       font-family: var(--font-body);
+      color: var(--text-main);
+      background-color: var(--bg-color);
       overflow-x: hidden;
       line-height: 1.6;
     }
 
-    body::before {
+    /* Vibrant Background Gradients */
+    body::before, body::after {
       content: '';
       position: fixed;
-      inset: 0;
-      background-image:
-        linear-gradient(var(--grid-line) 1px, transparent 1px),
-        linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
-      background-size: 48px 48px;
-      pointer-events: none;
-      z-index: 0;
+      border-radius: 50%;
+      filter: blur(100px);
+      z-index: -1;
+      animation: float 20s infinite alternate ease-in-out;
+    }
+
+    body::before {
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(124, 58, 237, 0.15) 0%, transparent 70%);
+      top: -200px;
+      left: -100px;
     }
 
     body::after {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background:
-        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(0,245,255,0.07) 0%, transparent 70%),
-        radial-gradient(ellipse 60% 40% at 80% 110%, rgba(57,255,138,0.05) 0%, transparent 60%);
-      pointer-events: none;
-      z-index: 0;
+      width: 700px;
+      height: 700px;
+      background: radial-gradient(circle, rgba(37, 99, 235, 0.15) 0%, transparent 70%);
+      bottom: -300px;
+      right: -100px;
+      animation-delay: -10s;
     }
 
-    /* =====================================================
-       NAVBAR
-    ===================================================== */
-    #navbar {
+    @keyframes float {
+      0% { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(50px, 50px) scale(1.1); }
+    }
+
+    /* Container */
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    /* Typography */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .text-gradient {
+      background: var(--gradient-primary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* Navbar */
+    .navbar {
       position: fixed;
-      top: 0; left: 0; right: 0;
+      top: 0;
+      left: 0;
+      width: 100%;
       z-index: 1000;
-      padding: 0 5%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 72px;
-      border-bottom: 1px solid var(--border-dim);
-      background: rgba(2, 6, 9, 0.82);
+      padding: 1.25rem 0;
+      transition: all var(--transition);
+    }
+
+    .navbar.scrolled {
+      background: rgba(255, 255, 255, 0.85);
       backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px);
-      transition: border-color var(--transition);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      padding: 1rem 0;
     }
 
-    #navbar.scrolled {
-      border-bottom-color: var(--border-glass);
-      background: rgba(2, 6, 9, 0.95);
+    .nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
-    .nav-logo {
+    .brand {
+      font-family: var(--font-heading);
+      font-size: 1.75rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      text-decoration: none;
       display: flex;
       align-items: center;
-      gap: 10px;
-      text-decoration: none;
+      gap: 0.5rem;
     }
 
-    .nav-logo-icon { width: 36px; height: 36px; flex-shrink: 0; }
-    .nav-logo-icon svg { width: 100%; height: 100%; }
-
-    .nav-logo-text {
-      font-family: var(--font-display);
-      font-size: 0.9rem;
-      font-weight: 700;
-      letter-spacing: 0.15em;
-      color: var(--cyan);
-      text-shadow: 0 0 16px var(--cyan);
+    .brand-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: var(--radius-sm);
+      background: var(--gradient-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.25rem;
+      font-weight: 800;
     }
-
-    .nav-logo-text span { color: var(--text-secondary); font-weight: 400; }
 
     .nav-links {
       display: flex;
-      align-items: center;
-      gap: 36px;
+      gap: 2.5rem;
       list-style: none;
     }
 
     .nav-links a {
-      font-family: var(--font-mono);
-      font-size: 0.75rem;
-      letter-spacing: 0.12em;
-      color: var(--text-secondary);
       text-decoration: none;
-      text-transform: uppercase;
+      color: var(--text-muted);
+      font-weight: 500;
+      font-size: 0.95rem;
       transition: color var(--transition);
       position: relative;
+    }
+
+    .nav-links a:hover {
+      color: var(--accent-blue);
     }
 
     .nav-links a::after {
       content: '';
       position: absolute;
-      bottom: -4px; left: 0;
-      width: 0; height: 1px;
-      background: var(--cyan);
-      box-shadow: 0 0 6px var(--cyan);
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--gradient-primary);
       transition: width var(--transition);
+      border-radius: 2px;
     }
 
-    .nav-links a:hover { color: var(--cyan); }
-    .nav-links a:hover::after { width: 100%; }
-
-    .nav-cta {
-      font-family: var(--font-mono);
-      font-size: 0.72rem;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--bg-void);
-      background: var(--cyan);
-      border: none;
-      padding: 9px 22px;
-      border-radius: var(--radius-sm);
-      cursor: pointer;
-      font-weight: 600;
-      box-shadow: 0 0 18px var(--cyan-glow), 0 0 36px rgba(0,245,255,0.08);
-      transition: all var(--transition);
+    .nav-links a:hover::after {
+      width: 100%;
     }
 
-    .nav-cta:hover {
-      background: var(--text-primary);
-      box-shadow: 0 0 28px var(--cyan-glow), 0 0 60px rgba(0,245,255,0.15);
-      transform: translateY(-1px);
-    }
-
-    /* =====================================================
-       HERO
-    ===================================================== */
-    #hero {
-      position: relative;
-      z-index: 1;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 120px 5% 80px;
-      overflow: hidden;
-    }
-
-    .radar-rings {
-      position: absolute;
-      top: 50%; left: 50%;
-      transform: translate(-50%, -50%);
-      pointer-events: none;
-      z-index: -1;
-    }
-
-    .radar-ring {
-      position: absolute;
-      border-radius: 50%;
-      border: 1px solid rgba(0, 245, 255, 0.1);
-      top: 50%; left: 50%;
-      transform: translate(-50%, -50%);
-      animation: radarPulse 4s ease-out infinite;
-    }
-
-    .radar-ring:nth-child(1) { width: 300px; height: 300px; animation-delay: 0s; }
-    .radar-ring:nth-child(2) { width: 550px; height: 550px; animation-delay: 0.8s; }
-    .radar-ring:nth-child(3) { width: 800px; height: 800px; animation-delay: 1.6s; }
-    .radar-ring:nth-child(4) { width: 1100px; height: 1100px; animation-delay: 2.4s; }
-
-    @keyframes radarPulse {
-      0%   { opacity: 0.6; transform: translate(-50%,-50%) scale(0.9); }
-      100% { opacity: 0;   transform: translate(-50%,-50%) scale(1.1); }
-    }
-
-    .radar-sweep-wrap {
-      position: absolute;
-      top: 50%; left: 50%;
-      width: 420px; height: 420px;
-      transform: translate(-50%, -50%);
-      border-radius: 50%;
-      border: 1px solid rgba(0,245,255,0.08);
-      overflow: hidden;
-      pointer-events: none;
-      z-index: -1;
-      transition: transform 0.6s ease;
-    }
-
-    .radar-sweep {
-      position: absolute;
-      inset: 0;
-      background: conic-gradient(
-        from 0deg,
-        transparent 0deg,
-        transparent 340deg,
-        rgba(0, 245, 255, 0.18) 355deg,
-        rgba(0, 245, 255, 0.06) 360deg
-      );
-      animation: radarSpin 4s linear infinite;
-      transform-origin: center;
-    }
-
-    @keyframes radarSpin {
-      from { transform: rotate(0deg); }
-      to   { transform: rotate(360deg); }
-    }
-
-    .radar-blip {
-      position: absolute;
-      width: 5px; height: 5px;
-      border-radius: 50%;
-      background: var(--green);
-      box-shadow: 0 0 8px var(--green), 0 0 16px var(--green-glow);
-      animation: blipFade 4s ease-in-out infinite;
-    }
-
-    .radar-blip:nth-child(1) { top: 30%; left: 62%; animation-delay: 0.5s; }
-    .radar-blip:nth-child(2) { top: 58%; left: 35%; animation-delay: 1.8s; }
-    .radar-blip:nth-child(3) { top: 42%; left: 70%; animation-delay: 3.1s; }
-    .radar-blip:nth-child(4) { top: 68%; left: 52%; animation-delay: 2.2s; }
-
-    @keyframes blipFade {
-      0%, 100% { opacity: 0; transform: scale(0.5); }
-      20%, 80%  { opacity: 1; transform: scale(1); }
-    }
-
-    .hero-status {
+    .btn {
       display: inline-flex;
       align-items: center;
-      gap: 8px;
-      font-family: var(--font-mono);
-      font-size: 0.68rem;
-      letter-spacing: 0.2em;
-      color: var(--green);
-      text-transform: uppercase;
-      border: 1px solid rgba(57, 255, 138, 0.25);
-      padding: 6px 18px;
-      border-radius: 100px;
-      background: rgba(57, 255, 138, 0.06);
-      margin-bottom: 32px;
-      animation: fadeSlideDown 0.8s ease forwards;
-    }
-
-    .status-dot {
-      width: 6px; height: 6px;
-      border-radius: 50%;
-      background: var(--green);
-      box-shadow: 0 0 8px var(--green);
-      animation: statusPulse 2s ease-in-out infinite;
-    }
-
-    @keyframes statusPulse {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50%       { opacity: 0.4; transform: scale(0.7); }
-    }
-
-    .hero-eyebrow {
-      font-family: var(--font-mono);
-      font-size: 0.72rem;
-      letter-spacing: 0.35em;
-      color: var(--text-muted);
-      text-transform: uppercase;
-      margin-bottom: 16px;
-      animation: fadeSlideDown 0.9s ease 0.1s both;
-    }
-
-    .hero-title {
-      font-family: var(--font-display);
-      font-size: clamp(2.8rem, 7vw, 6.5rem);
-      font-weight: 900;
-      line-height: 1.05;
-      letter-spacing: -0.02em;
-      margin-bottom: 28px;
-      animation: fadeSlideDown 1s ease 0.2s both;
-    }
-
-    .hero-title .line-cyan {
-      color: var(--cyan);
-      text-shadow: 0 0 30px rgba(0,245,255,0.6), 0 0 80px rgba(0,245,255,0.25);
-      display: block;
-    }
-
-    .hero-title .line-white { color: var(--text-primary); display: block; }
-
-    .hero-title .line-dim {
-      color: var(--text-muted);
-      font-size: 0.55em;
-      letter-spacing: 0.2em;
-      display: block;
-      margin-top: 6px;
-    }
-
-    .hero-desc {
-      max-width: 640px;
-      margin: 0 auto 48px;
-      font-size: 1.05rem;
-      color: var(--text-secondary);
-      line-height: 1.75;
-      font-weight: 300;
-      animation: fadeSlideDown 1s ease 0.35s both;
-    }
-
-    .hero-actions {
-      display: flex;
-      align-items: center;
       justify-content: center;
-      gap: 18px;
-      flex-wrap: wrap;
-      animation: fadeSlideDown 1s ease 0.5s both;
+      padding: 0.75rem 1.5rem;
+      border-radius: 100px;
+      font-family: var(--font-body);
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-decoration: none;
+      transition: all var(--transition);
+      cursor: pointer;
+      border: none;
     }
 
     .btn-primary {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      font-family: var(--font-mono);
-      font-size: 0.78rem;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--bg-void);
-      background: var(--cyan);
-      border: none;
-      padding: 15px 32px;
-      border-radius: var(--radius-sm);
-      cursor: pointer;
-      font-weight: 700;
-      box-shadow: 0 0 24px var(--cyan-glow), 0 0 60px rgba(0,245,255,0.1);
-      transition: all var(--transition);
-      text-decoration: none;
+      background: var(--gradient-primary);
+      color: white;
+      box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
     }
 
     .btn-primary:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 0 40px rgba(0,245,255,0.4), 0 0 80px rgba(0,245,255,0.15);
-      background: #20f8ff;
-    }
-
-    .btn-secondary {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      font-family: var(--font-mono);
-      font-size: 0.78rem;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--cyan);
-      background: transparent;
-      border: 1px solid rgba(0, 245, 255, 0.3);
-      padding: 14px 30px;
-      border-radius: var(--radius-sm);
-      cursor: pointer;
-      transition: all var(--transition);
-      text-decoration: none;
-    }
-
-    .btn-secondary:hover {
-      background: rgba(0, 245, 255, 0.08);
-      border-color: var(--cyan);
-      box-shadow: 0 0 20px rgba(0,245,255,0.15);
+      background: var(--gradient-hover);
+      box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
       transform: translateY(-2px);
     }
 
-    .hero-metrics {
+    .btn-glass {
+      background: rgba(255, 255, 255, 0.5);
+      color: var(--text-main);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.8);
+    }
+
+    .btn-glass:hover {
+      background: rgba(255, 255, 255, 0.8);
+      transform: translateY(-2px);
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 10rem 0 5rem;
+    }
+
+    .section-header {
+      margin-bottom: 3rem;
       display: flex;
-      justify-content: center;
-      gap: 0;
-      margin-top: 80px;
-      animation: fadeSlideDown 1s ease 0.7s both;
-      flex-wrap: wrap;
-    }
-
-    .metric-item {
-      padding: 24px 48px;
-      text-align: center;
-      border-right: 1px solid var(--border-glass);
-    }
-
-    .metric-item:last-child { border-right: none; }
-
-    .metric-val {
-      font-family: var(--font-display);
-      font-size: 2.2rem;
-      font-weight: 700;
-      color: var(--cyan);
-      text-shadow: 0 0 20px var(--cyan-glow);
-      display: block;
-      line-height: 1;
-    }
-
-    .metric-label {
-      font-family: var(--font-mono);
-      font-size: 0.62rem;
-      letter-spacing: 0.2em;
-      color: var(--text-muted);
-      text-transform: uppercase;
-      margin-top: 6px;
-      display: block;
-    }
-
-    /* =====================================================
-       SECTION SHARED
-    ===================================================== */
-    section {
-      position: relative;
-      z-index: 1;
-      padding: 120px 5%;
-    }
-
-    .section-label {
-      font-family: var(--font-mono);
-      font-size: 0.68rem;
-      letter-spacing: 0.3em;
-      color: var(--cyan);
-      text-transform: uppercase;
-      margin-bottom: 14px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .section-label::before {
-      content: '';
-      width: 30px; height: 1px;
-      background: var(--cyan);
-      box-shadow: 0 0 6px var(--cyan);
+      justify-content: space-between;
+      align-items: flex-end;
     }
 
     .section-title {
-      font-family: var(--font-display);
-      font-size: clamp(1.8rem, 3.5vw, 3rem);
-      font-weight: 700;
-      line-height: 1.2;
-      margin-bottom: 20px;
-      letter-spacing: -0.01em;
+      font-size: 2.5rem;
+      letter-spacing: -0.02em;
     }
 
-    .section-desc {
-      font-size: 1rem;
-      color: var(--text-secondary);
-      max-width: 580px;
-      line-height: 1.75;
+    .section-subtitle {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
     }
 
-    /* =====================================================
-       INTEL MODULES
-    ===================================================== */
-    #intel {
-      background: linear-gradient(180deg, transparent 0%, rgba(0,245,255,0.015) 50%, transparent 100%);
-    }
-
-    .intel-header {
-      max-width: 560px;
-      margin-bottom: 72px;
-    }
-
-    .intel-grid {
+    /* Featured Briefs (Hero Layout) */
+    .featured-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 24px;
+      grid-template-columns: 2fr 1fr;
+      gap: 2rem;
     }
 
-    .intel-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border-glass);
-      border-radius: var(--radius-md);
-      padding: 36px 32px;
+    .glass-card {
+      background: var(--glass-bg);
       backdrop-filter: blur(16px);
       -webkit-backdrop-filter: blur(16px);
-      transition: all var(--transition);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--glass-shadow);
+      overflow: hidden;
+      transition: transform var(--transition), box-shadow var(--transition);
       position: relative;
+    }
+
+    .glass-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 40px rgba(31, 38, 135, 0.1);
+    }
+
+    .featured-main {
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 3rem;
+      position: relative;
+      color: white;
+      border-radius: var(--radius-lg);
       overflow: hidden;
     }
 
-    .intel-card::before {
+    .featured-main::before {
       content: '';
       position: absolute;
       inset: 0;
-      background: linear-gradient(135deg, rgba(0,245,255,0.04) 0%, transparent 60%);
-      opacity: 0;
-      transition: opacity var(--transition);
+      /* Generated abstract background for the featured post */
+      background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600"><defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="%232563eb"/><stop offset="100%" stop-color="%237c3aed"/></linearGradient></defs><rect width="100%" height="100%" fill="url(%23g)"/></svg>') center/cover;
+      z-index: -2;
     }
 
-    .intel-card:hover {
-      border-color: rgba(0, 245, 255, 0.3);
-      transform: translateY(-4px);
-      box-shadow: 0 16px 48px rgba(0,0,0,0.4), 0 0 30px rgba(0,245,255,0.08);
-    }
-
-    .intel-card:hover::before { opacity: 1; }
-
-    .intel-card::after {
+    .featured-main::after {
       content: '';
       position: absolute;
-      top: 12px; right: 12px;
-      width: 16px; height: 16px;
-      border-top: 1px solid var(--cyan);
-      border-right: 1px solid var(--cyan);
-      opacity: 0.4;
-      transition: opacity var(--transition);
+      inset: 0;
+      background: linear-gradient(to top, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.2) 60%, transparent 100%);
+      z-index: -1;
     }
 
-    .intel-card:hover::after { opacity: 1; }
+    .tag {
+      display: inline-block;
+      padding: 0.35rem 1rem;
+      border-radius: 100px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 1rem;
+    }
+
+    .tag-primary {
+      background: var(--gradient-primary);
+      color: white;
+    }
+
+    .tag-light {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .featured-main h2 {
+      font-size: 2.75rem;
+      margin-bottom: 1rem;
+      line-height: 1.1;
+      text-wrap: balance;
+    }
+
+    .featured-main p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      max-width: 600px;
+      margin-bottom: 1.5rem;
+    }
+
+    .meta {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      font-size: 0.85rem;
+      opacity: 0.8;
+    }
+
+    .meta-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .meta-item svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    /* Side Briefs */
+    .briefs-sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .brief-card {
+      flex: 1;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .brief-card h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .brief-card p {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .tag-outline {
+      background: transparent;
+      color: var(--accent-blue);
+      border: 1px solid rgba(37, 99, 235, 0.3);
+    }
+
+    .tag-outline-violet {
+      background: transparent;
+      color: var(--accent-violet);
+      border: 1px solid rgba(124, 58, 237, 0.3);
+    }
+
+    /* Analytics Grid Section */
+    .analytics-section {
+      padding: 5rem 0 8rem;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+
+    .analytics-card {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
 
     .card-icon {
-      width: 52px; height: 52px;
-      border-radius: var(--radius-sm);
+      width: 48px;
+      height: 48px;
+      border-radius: var(--radius-md);
+      background: rgba(255, 255, 255, 0.8);
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-bottom: 24px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      color: var(--accent-blue);
     }
 
-    .card-icon.cyan  { background: rgba(0,245,255,0.08);  border: 1px solid rgba(0,245,255,0.2); }
-    .card-icon.green { background: rgba(57,255,138,0.08); border: 1px solid rgba(57,255,138,0.2); }
-    .card-icon.amber { background: rgba(255,179,0,0.08);  border: 1px solid rgba(255,179,0,0.2); }
-    .card-icon svg { width: 26px; height: 26px; }
-
-    .card-tag {
-      font-family: var(--font-mono);
-      font-size: 0.6rem;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      padding: 3px 10px;
-      border-radius: 100px;
-      margin-bottom: 14px;
-      display: inline-block;
+    .analytics-card h3 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
     }
 
-    .tag-cyan  { color: var(--cyan);     background: rgba(0,245,255,0.08);  border: 1px solid rgba(0,245,255,0.2); }
-    .tag-green { color: var(--green);    background: rgba(57,255,138,0.08); border: 1px solid rgba(57,255,138,0.2); }
-    .tag-amber { color: var(--amber);    background: rgba(255,179,0,0.08);  border: 1px solid rgba(255,179,0,0.2); }
-    .tag-red   { color: var(--red-warn); background: rgba(255,60,92,0.08);  border: 1px solid rgba(255,60,92,0.2); }
-
-    .card-title {
-      font-family: var(--font-display);
-      font-size: 1.05rem;
-      font-weight: 600;
-      letter-spacing: 0.03em;
-      margin-bottom: 12px;
-    }
-
-    .card-desc {
-      font-size: 0.9rem;
-      color: var(--text-secondary);
-      line-height: 1.7;
+    .analytics-card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+      flex-grow: 1;
     }
 
     .card-footer {
-      margin-top: 24px;
-      padding-top: 20px;
-      border-top: 1px solid var(--border-dim);
       display: flex;
-      align-items: center;
       justify-content: space-between;
-    }
-
-    .card-stat {
-      font-family: var(--font-mono);
-      font-size: 0.7rem;
-      color: var(--text-muted);
-      letter-spacing: 0.1em;
-    }
-
-    .card-stat strong { color: var(--cyan); font-size: 1rem; }
-
-    /* =====================================================
-       CONSOLE SECTION
-    ===================================================== */
-    #console-section { padding: 80px 5%; }
-
-    .console-wrap {
-      display: grid;
-      grid-template-columns: 1fr 1.4fr;
-      gap: 60px;
       align-items: center;
-      max-width: 1200px;
-      margin: 0 auto;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(0,0,0,0.05);
     }
 
-    .console-features {
-      margin-top: 40px;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-
-    .console-feature {
-      display: flex;
-      align-items: flex-start;
-      gap: 16px;
-      padding: 18px 20px;
-      background: var(--bg-card);
-      border: 1px solid var(--border-dim);
-      border-radius: var(--radius-sm);
-      transition: all var(--transition);
-    }
-
-    .console-feature:hover {
-      border-color: var(--border-glass);
-      background: rgba(0,245,255,0.04);
-    }
-
-    .feature-dot {
-      width: 8px; height: 8px;
-      border-radius: 50%;
-      margin-top: 6px;
-      flex-shrink: 0;
-    }
-
-    .dot-cyan  { background: var(--cyan);  box-shadow: 0 0 8px var(--cyan); }
-    .dot-green { background: var(--green); box-shadow: 0 0 8px var(--green); }
-    .dot-amber { background: var(--amber); box-shadow: 0 0 8px var(--amber); }
-
-    .feature-text h4 {
-      font-family: var(--font-display);
-      font-size: 0.82rem;
+    .read-more {
       font-weight: 600;
-      letter-spacing: 0.05em;
-      margin-bottom: 4px;
-    }
-
-    .feature-text p {
-      font-size: 0.82rem;
-      color: var(--text-secondary);
-      line-height: 1.5;
-    }
-
-    .terminal-display {
-      background: rgba(5,13,18,0.9);
-      border: 1px solid rgba(0,245,255,0.2);
-      border-radius: var(--radius-md);
-      overflow: hidden;
-      box-shadow: 0 0 0 1px rgba(0,245,255,0.05), 0 32px 64px rgba(0,0,0,0.6), 0 0 60px rgba(0,245,255,0.05);
-      font-family: var(--font-mono);
-    }
-
-    .terminal-header {
+      color: var(--accent-blue);
+      text-decoration: none;
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      padding: 12px 20px;
-      background: rgba(0,245,255,0.04);
-      border-bottom: 1px solid rgba(0,245,255,0.1);
+      gap: 0.25rem;
+      font-size: 0.9rem;
+      transition: gap var(--transition);
     }
 
-    .terminal-dots { display: flex; gap: 6px; }
-    .terminal-dot { width: 10px; height: 10px; border-radius: 50%; }
-    .terminal-dot.red   { background: #ff5f57; }
-    .terminal-dot.amber { background: #febc2e; }
-    .terminal-dot.green { background: #28c840; }
-
-    .terminal-title {
-      font-size: 0.65rem;
-      letter-spacing: 0.15em;
-      color: var(--text-muted);
-      text-transform: uppercase;
+    .read-more:hover {
+      gap: 0.5rem;
     }
 
-    .terminal-badge {
-      font-size: 0.6rem;
-      letter-spacing: 0.15em;
-      color: var(--green);
-      background: rgba(57,255,138,0.1);
-      border: 1px solid rgba(57,255,138,0.25);
-      padding: 2px 8px;
-      border-radius: 100px;
-    }
-
-    .terminal-body {
-      padding: 24px 20px;
-      min-height: 380px;
-      font-size: 0.78rem;
-      line-height: 1.9;
-    }
-
-    .term-line {
-      display: flex;
-      gap: 10px;
-      margin-bottom: 2px;
-      opacity: 0;
-      animation: termFadeIn 0.3s ease forwards;
-    }
-
-    .term-prompt  { color: var(--cyan); }
-    .term-cmd     { color: var(--text-primary); }
-    .term-out     { color: var(--text-secondary); }
-    .term-success { color: var(--green); }
-    .term-warn    { color: var(--amber); }
-    .term-error   { color: var(--red-warn); }
-    .term-comment { color: var(--text-muted); font-style: italic; }
-
-    @keyframes termFadeIn {
-      from { opacity: 0; transform: translateY(4px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
-
-    .term-cursor {
-      display: inline-block;
-      width: 8px; height: 1em;
-      background: var(--cyan);
-      margin-left: 2px;
-      vertical-align: middle;
-      animation: blink 1s step-end infinite;
-    }
-
-    @keyframes blink {
-      0%, 100% { opacity: 1; }
-      50%       { opacity: 0; }
-    }
-
-    /* =====================================================
-       GLOBAL NETWORK
-    ===================================================== */
-    #network {
-      background: linear-gradient(180deg, transparent 0%, rgba(57,255,138,0.015) 50%, transparent 100%);
-    }
-
-    .network-grid {
-      display: grid;
-      grid-template-columns: 1.2fr 1fr;
-      gap: 80px;
-      align-items: center;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .world-map-container {
+    /* Data Visualization Placeholder */
+    .data-viz {
+      margin-top: 1.5rem;
+      height: 80px;
+      background: linear-gradient(180deg, transparent 50%, rgba(37, 99, 235, 0.05) 50%);
+      background-size: 100% 20px;
       position: relative;
-      aspect-ratio: 16 / 9;
-      background: rgba(5,13,18,0.7);
-      border: 1px solid var(--border-glass);
-      border-radius: var(--radius-md);
-      overflow: hidden;
-      backdrop-filter: blur(8px);
-    }
-
-    .world-map-container::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background-image:
-        linear-gradient(rgba(0,245,255,0.04) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(0,245,255,0.04) 1px, transparent 1px);
-      background-size: 24px 24px;
-    }
-
-    .map-svg { width: 100%; height: 100%; padding: 16px; opacity: 0.6; }
-
-    .node-point {
-      position: absolute;
-      width: 8px; height: 8px;
-      border-radius: 50%;
-    }
-
-    .node-point::before {
-      content: '';
-      position: absolute;
-      inset: -4px;
-      border-radius: 50%;
-      border: 1px solid currentColor;
-      opacity: 0.4;
-      animation: nodeRing 2s ease-out infinite;
-    }
-
-    @keyframes nodeRing {
-      0%   { transform: scale(1); opacity: 0.4; }
-      100% { transform: scale(2.5); opacity: 0; }
-    }
-
-    .node-cyan  { background: var(--cyan);  color: var(--cyan);  box-shadow: 0 0 10px var(--cyan); }
-    .node-green { background: var(--green); color: var(--green); box-shadow: 0 0 10px var(--green); }
-    .node-amber { background: var(--amber); color: var(--amber); box-shadow: 0 0 10px var(--amber); }
-
-    .map-label {
-      position: absolute;
-      bottom: 12px; left: 12px;
-      font-family: var(--font-mono);
-      font-size: 0.6rem;
-      letter-spacing: 0.15em;
-      color: var(--text-muted);
-      text-transform: uppercase;
-    }
-
-    .map-status {
-      position: absolute;
-      top: 12px; right: 12px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-family: var(--font-mono);
-      font-size: 0.62rem;
-      letter-spacing: 0.12em;
-      color: var(--green);
-    }
-
-    .network-stats {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-      margin-top: 36px;
-    }
-
-    .stat-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border-glass);
       border-radius: var(--radius-sm);
-      padding: 20px;
-      backdrop-filter: blur(12px);
-      transition: all var(--transition);
-    }
-
-    .stat-card:hover {
-      border-color: rgba(0,245,255,0.25);
-      transform: translateY(-2px);
-    }
-
-    .stat-num {
-      font-family: var(--font-display);
-      font-size: 1.6rem;
-      font-weight: 700;
-      color: var(--cyan);
-      text-shadow: 0 0 16px var(--cyan-glow);
-    }
-
-    .stat-unit { font-size: 0.8rem; color: var(--text-muted); }
-    .stat-lbl {
-      font-family: var(--font-mono);
-      font-size: 0.62rem;
-      letter-spacing: 0.15em;
-      color: var(--text-muted);
-      text-transform: uppercase;
-      margin-top: 4px;
-    }
-
-    /* =====================================================
-       THREAT BARS
-    ===================================================== */
-    #threat { padding: 80px 5%; }
-
-    .threat-wrap { max-width: 1200px; margin: 0 auto; }
-
-    .threat-header {
+      overflow: hidden;
       display: flex;
       align-items: flex-end;
-      justify-content: space-between;
-      margin-bottom: 48px;
-      flex-wrap: wrap;
-      gap: 20px;
+      gap: 4px;
+      padding: 0 10px;
     }
 
-    .threat-bar-list { display: flex; flex-direction: column; gap: 20px; }
-
-    .threat-bar-item {
-      display: grid;
-      grid-template-columns: 200px 1fr 80px;
-      align-items: center;
-      gap: 20px;
-    }
-
-    .threat-bar-label {
-      font-family: var(--font-mono);
-      font-size: 0.72rem;
-      letter-spacing: 0.12em;
-      color: var(--text-secondary);
-      text-transform: uppercase;
-    }
-
-    .threat-bar-track {
-      height: 6px;
-      background: rgba(255,255,255,0.05);
-      border-radius: 100px;
-      overflow: hidden;
-    }
-
-    .threat-bar-fill {
-      height: 100%;
-      border-radius: 100px;
-      width: 0;
-      transition: width 1.4s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .fill-cyan  { background: linear-gradient(90deg, var(--cyan-dim),  var(--cyan));     box-shadow: 0 0 8px var(--cyan); }
-    .fill-green { background: linear-gradient(90deg, var(--green-dim), var(--green));    box-shadow: 0 0 8px var(--green); }
-    .fill-amber { background: linear-gradient(90deg, #cc8a00,          var(--amber));    box-shadow: 0 0 8px var(--amber); }
-    .fill-red   { background: linear-gradient(90deg, #cc1c38,          var(--red-warn)); box-shadow: 0 0 8px var(--red-warn); }
-
-    .threat-bar-val {
-      font-family: var(--font-mono);
-      font-size: 0.78rem;
-      color: var(--text-secondary);
-      text-align: right;
-      letter-spacing: 0.05em;
-    }
-
-    /* =====================================================
-       CLEARANCE / TESTIMONIALS
-    ===================================================== */
-    #clearance {
-      padding: 120px 5%;
-      background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.4) 50%, transparent 100%);
-    }
-
-    .clearance-cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 24px;
-      margin-top: 60px;
-    }
-
-    .clearance-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border-glass);
-      border-radius: var(--radius-md);
-      padding: 36px;
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      position: relative;
-      transition: all var(--transition);
-    }
-
-    .clearance-card::before {
-      content: '"';
-      position: absolute;
-      top: 20px; right: 28px;
-      font-family: var(--font-display);
-      font-size: 6rem;
-      line-height: 1;
-      color: var(--cyan);
-      opacity: 0.06;
-    }
-
-    .clearance-card:hover {
-      border-color: rgba(0,245,255,0.22);
-      transform: translateY(-4px);
-      box-shadow: 0 20px 48px rgba(0,0,0,0.5), 0 0 30px rgba(0,245,255,0.06);
-    }
-
-    .clearance-text {
-      font-size: 0.93rem;
-      color: var(--text-secondary);
-      line-height: 1.8;
-      margin-bottom: 28px;
-    }
-
-    .clearance-author { display: flex; align-items: center; gap: 14px; }
-
-    .author-avatar {
-      width: 44px; height: 44px;
-      border-radius: 50%;
-      background: linear-gradient(135deg, rgba(0,245,255,0.2), rgba(57,255,138,0.1));
-      border: 1px solid var(--border-glass);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: var(--font-display);
-      font-size: 0.75rem;
-      font-weight: 700;
-      color: var(--cyan);
-      flex-shrink: 0;
-    }
-
-    .author-info h5 {
-      font-family: var(--font-display);
-      font-size: 0.8rem;
-      font-weight: 600;
-      letter-spacing: 0.06em;
-      margin-bottom: 2px;
-    }
-
-    .author-info span {
-      font-family: var(--font-mono);
-      font-size: 0.62rem;
-      letter-spacing: 0.12em;
-      color: var(--text-muted);
-      text-transform: uppercase;
-    }
-
-    .clearance-level {
-      position: absolute;
-      top: 20px; left: 36px;
-      font-family: var(--font-mono);
-      font-size: 0.58rem;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      padding: 3px 8px;
-      border-radius: 3px;
-    }
-
-    /* =====================================================
-       CTA
-    ===================================================== */
-    #cta {
-      padding: 160px 5%;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .cta-glow {
-      position: absolute;
-      top: 50%; left: 50%;
-      transform: translate(-50%, -50%);
-      width: 600px; height: 300px;
-      background: radial-gradient(ellipse, rgba(0,245,255,0.07) 0%, transparent 70%);
-      pointer-events: none;
-    }
-
-    .cta-inner {
-      position: relative;
-      z-index: 1;
-      max-width: 700px;
-      margin: 0 auto;
-    }
-
-    .cta-inner .section-title { font-size: clamp(2rem, 4vw, 3.5rem); margin-bottom: 20px; }
-
-    .cta-form {
-      display: flex;
-      gap: 12px;
-      margin: 40px auto 0;
-      max-width: 480px;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-    .cta-input {
+    .bar {
       flex: 1;
-      min-width: 220px;
-      background: rgba(8,22,32,0.8);
-      border: 1px solid var(--border-glass);
-      border-radius: var(--radius-sm);
-      padding: 14px 20px;
-      font-family: var(--font-mono);
-      font-size: 0.78rem;
-      letter-spacing: 0.08em;
-      color: var(--text-primary);
-      outline: none;
-      transition: all var(--transition);
+      background: var(--gradient-primary);
+      border-radius: 4px 4px 0 0;
+      opacity: 0.7;
+      animation: growUp 1s ease-out forwards;
+      transform-origin: bottom;
+      transform: scaleY(0);
     }
 
-    .cta-input::placeholder { color: var(--text-muted); }
-    .cta-input:focus { border-color: var(--cyan); box-shadow: 0 0 16px rgba(0,245,255,0.15); }
-
-    .cta-note {
-      margin-top: 16px;
-      font-family: var(--font-mono);
-      font-size: 0.62rem;
-      letter-spacing: 0.15em;
-      color: var(--text-muted);
-      text-transform: uppercase;
+    @keyframes growUp {
+      to { transform: scaleY(1); }
     }
 
-    /* =====================================================
-       FOOTER
-    ===================================================== */
+    /* Footer */
     footer {
-      position: relative;
-      z-index: 1;
-      padding: 40px 5%;
-      border-top: 1px solid var(--border-dim);
+      background: white;
+      border-top: 1px solid rgba(0,0,0,0.05);
+      padding: 4rem 0 2rem;
     }
 
-    .footer-inner {
+    .footer-content {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 3rem;
+      margin-bottom: 4rem;
+    }
+
+    .footer-col h4 {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .footer-links {
+      list-style: none;
       display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 20px;
+      flex-direction: column;
+      gap: 0.75rem;
     }
-
-    .footer-brand {
-      font-family: var(--font-display);
-      font-size: 0.78rem;
-      font-weight: 700;
-      letter-spacing: 0.15em;
-      color: var(--cyan);
-      text-shadow: 0 0 12px var(--cyan);
-    }
-
-    .footer-copy {
-      font-family: var(--font-mono);
-      font-size: 0.62rem;
-      letter-spacing: 0.12em;
-      color: var(--text-muted);
-      text-transform: uppercase;
-    }
-
-    .footer-links { display: flex; gap: 24px; list-style: none; }
 
     .footer-links a {
-      font-family: var(--font-mono);
-      font-size: 0.62rem;
-      letter-spacing: 0.12em;
       color: var(--text-muted);
       text-decoration: none;
-      text-transform: uppercase;
+      font-size: 0.95rem;
       transition: color var(--transition);
     }
 
-    .footer-links a:hover { color: var(--cyan); }
-
-    /* =====================================================
-       ANIMATIONS
-    ===================================================== */
-    @keyframes fadeSlideDown {
-      from { opacity: 0; transform: translateY(-16px); }
-      to   { opacity: 1; transform: translateY(0); }
+    .footer-links a:hover {
+      color: var(--accent-violet);
     }
 
-    .reveal {
-      opacity: 0;
-      transform: translateY(30px);
-      transition: opacity 0.8s ease, transform 0.8s ease;
+    .newsletter-form {
+      display: flex;
+      margin-top: 1rem;
     }
 
-    .reveal.visible { opacity: 1; transform: translateY(0); }
-    .reveal-delay-1 { transition-delay: 0.1s; }
-    .reveal-delay-2 { transition-delay: 0.2s; }
-    .reveal-delay-3 { transition-delay: 0.3s; }
-    .reveal-delay-4 { transition-delay: 0.4s; }
-
-    ::-webkit-scrollbar { width: 5px; }
-    ::-webkit-scrollbar-track { background: var(--bg-void); }
-    ::-webkit-scrollbar-thumb { background: rgba(0,245,255,0.25); border-radius: 100px; }
-    ::-webkit-scrollbar-thumb:hover { background: rgba(0,245,255,0.45); }
-
-    /* =====================================================
-       SCANLINES
-    ===================================================== */
-    .scanlines {
-      position: fixed;
-      inset: 0;
-      pointer-events: none;
-      z-index: 9999;
-      background: repeating-linear-gradient(
-        0deg,
-        transparent,
-        transparent 2px,
-        rgba(0,0,0,0.03) 2px,
-        rgba(0,0,0,0.03) 4px
-      );
+    .newsletter-form input {
+      flex: 1;
+      padding: 0.75rem 1rem;
+      border: 1px solid rgba(0,0,0,0.1);
+      border-radius: var(--radius-sm) 0 0 var(--radius-sm);
+      font-family: var(--font-body);
+      outline: none;
+      transition: border-color var(--transition);
     }
 
-    /* GLITCH */
-    .glitch { position: relative; }
-
-    .glitch::before, .glitch::after {
-      content: attr(data-text);
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      font-family: inherit; font-size: inherit;
-      font-weight: inherit; letter-spacing: inherit;
+    .newsletter-form input:focus {
+      border-color: var(--accent-blue);
     }
 
-    .glitch::before {
-      left: 2px;
-      text-shadow: -1px 0 rgba(255,60,92,0.6);
-      color: transparent;
-      animation: glitch1 6s infinite;
-      clip-path: polygon(0 15%, 100% 15%, 100% 30%, 0 30%);
+    .newsletter-form button {
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      padding: 0.75rem 1.5rem;
     }
 
-    .glitch::after {
-      left: -2px;
-      text-shadow: 1px 0 rgba(0,245,255,0.6);
-      color: transparent;
-      animation: glitch2 6s infinite;
-      clip-path: polygon(0 65%, 100% 65%, 100% 80%, 0 80%);
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(0,0,0,0.05);
+      color: var(--text-light);
+      font-size: 0.85rem;
     }
 
-    @keyframes glitch1 {
-      0%,92%,100% { transform: translateX(0); opacity: 0; }
-      93% { transform: translateX(-3px); opacity: 1; }
-      95% { transform: translateX(3px);  opacity: 1; }
-      97% { transform: translateX(0);   opacity: 0; }
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .featured-grid {
+        grid-template-columns: 1fr;
+      }
+      .grid-3 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .footer-content {
+        grid-template-columns: 1fr 1fr;
+      }
     }
 
-    @keyframes glitch2 {
-      0%,92%,100% { transform: translateX(0); opacity: 0; }
-      94% { transform: translateX(3px);  opacity: 1; }
-      96% { transform: translateX(-3px); opacity: 1; }
-      98% { transform: translateX(0);   opacity: 0; }
-    }
-
-    /* =====================================================
-       RESPONSIVE
-    ===================================================== */
-    @media (max-width: 900px) {
-      .console-wrap, .network-grid { grid-template-columns: 1fr; gap: 48px; }
-      .nav-links { display: none; }
-      .metric-item { padding: 20px 28px; }
-      .threat-bar-item { grid-template-columns: 140px 1fr 60px; gap: 12px; }
-    }
-
-    @media (max-width: 600px) {
-      .hero-metrics { flex-direction: column; align-items: center; }
-      .metric-item { border-right: none; border-bottom: 1px solid var(--border-glass); width: 100%; }
-      .metric-item:last-child { border-bottom: none; }
-      .threat-bar-item { grid-template-columns: 1fr; gap: 8px; }
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+      }
+      .grid-3 {
+        grid-template-columns: 1fr;
+      }
+      .footer-content {
+        grid-template-columns: 1fr;
+      }
+      .featured-main h2 {
+        font-size: 2rem;
+      }
     }
   </style>
 </head>
 <body>
 
-<div class="scanlines" aria-hidden="true"></div>
-
-<!-- NAVBAR -->
-<nav id="navbar" role="navigation" aria-label="Main navigation">
-  <a href="#" class="nav-logo" aria-label="neodymium.world home">
-    <div class="nav-logo-icon" aria-hidden="true">
-      <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <polygon points="18,2 34,10 34,26 18,34 2,26 2,10" fill="none" stroke="#00f5ff" stroke-width="1.5" opacity="0.9"/>
-        <polygon points="18,7 29,13 29,23 18,29 7,23 7,13" fill="none" stroke="#00f5ff" stroke-width="0.8" opacity="0.4"/>
-        <circle cx="18" cy="18" r="5" fill="none" stroke="#00f5ff" stroke-width="1.2"/>
-        <circle cx="18" cy="18" r="2" fill="#00f5ff"/>
-        <line x1="18" y1="2"  x2="18" y2="7"  stroke="#00f5ff" stroke-width="1.5" opacity="0.6"/>
-        <line x1="18" y1="29" x2="18" y2="34" stroke="#00f5ff" stroke-width="1.5" opacity="0.6"/>
-        <line x1="34" y1="10" x2="29" y2="13" stroke="#00f5ff" stroke-width="1.5" opacity="0.6"/>
-        <line x1="2"  y1="10" x2="7"  y2="13" stroke="#00f5ff" stroke-width="1.5" opacity="0.6"/>
-        <line x1="34" y1="26" x2="29" y2="23" stroke="#00f5ff" stroke-width="1.5" opacity="0.6"/>
-        <line x1="2"  y1="26" x2="7"  y2="23" stroke="#00f5ff" stroke-width="1.5" opacity="0.6"/>
-      </svg>
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand">
+        <div class="brand-icon">N</div>
+        Neodymium
+      </a>
+      <ul class="nav-links">
+        <li><a href="#briefs">Intelligence Briefs</a></li>
+        <li><a href="#analytics">Data & Analytics</a></li>
+        <li><a href="#">Policy Watch</a></li>
+        <li><a href="#">Global Index</a></li>
+      </ul>
+      <a href="#" class="btn btn-primary">Subscribe to Terminal</a>
     </div>
-    <span class="nav-logo-text">NEODYMIUM<span>.WORLD</span></span>
-  </a>
+  </nav>
 
-  <ul class="nav-links">
-    <li><a href="#intel">Intel Modules</a></li>
-    <li><a href="#console-section">Console</a></li>
-    <li><a href="#network">Network</a></li>
-    <li><a href="#clearance">Clearance</a></li>
-    <li><a href="#cta">Access</a></li>
-  </ul>
-
-  <button class="nav-cta" id="navRequestAccess" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">
-    Request Access
-  </button>
-</nav>
-
-<!-- HERO -->
-<section id="hero" aria-labelledby="heroHeading">
-  <div class="radar-rings" aria-hidden="true">
-    <div class="radar-ring"></div>
-    <div class="radar-ring"></div>
-    <div class="radar-ring"></div>
-    <div class="radar-ring"></div>
-  </div>
-
-  <div class="radar-sweep-wrap" aria-hidden="true">
-    <div class="radar-sweep"></div>
-    <div class="radar-blip"></div>
-    <div class="radar-blip"></div>
-    <div class="radar-blip"></div>
-    <div class="radar-blip"></div>
-  </div>
-
-  <div class="hero-status" aria-label="System status">
-    <div class="status-dot" aria-hidden="true"></div>
-    ALL NETWORKS OPERATIONAL &middot; CLASSIFICATION: TOP SECRET
-  </div>
-
-  <p class="hero-eyebrow">NEODYMIUM.WORLD // PLATFORM v4.7 // EST. 2024</p>
-
-  <h1 id="heroHeading" class="hero-title">
-    <span class="line-dim">NEXT-GENERATION</span>
-    <span class="line-white">DEFENSE</span>
-    <span class="line-cyan glitch" data-text="INTELLIGENCE">INTELLIGENCE</span>
-  </h1>
-
-  <p class="hero-desc">
-    A sovereign-grade AI intelligence platform engineered for defense organizations, intelligence agencies, and future-tech operators. Real-time global awareness. Zero latency. Zero compromise.
-  </p>
-
-  <div class="hero-actions">
-    <a href="#cta" class="btn-primary" id="heroRequestAccess">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-        <path d="M8 1L15 8L8 15M15 8H1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-      Request Access
-    </a>
-    <a href="#intel" class="btn-secondary" id="heroViewModules">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-        <circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.2"/>
-        <circle cx="8" cy="8" r="2" fill="currentColor"/>
-      </svg>
-      View Intel Modules
-    </a>
-  </div>
-
-  <div class="hero-metrics">
-    <div class="metric-item">
-      <span class="metric-val" id="metricNodes">0</span>
-      <span class="metric-label">Active Nodes</span>
-    </div>
-    <div class="metric-item">
-      <span class="metric-val" id="metricThreats">0</span>
-      <span class="metric-label">Threats Neutralized</span>
-    </div>
-    <div class="metric-item">
-      <span class="metric-val" id="metricUptime">0</span>
-      <span class="metric-label">Uptime %</span>
-    </div>
-    <div class="metric-item">
-      <span class="metric-val" id="metricLatency">0</span>
-      <span class="metric-label">Latency (ms)</span>
-    </div>
-  </div>
-</section>
-
-<!-- INTEL MODULES -->
-<section id="intel" aria-labelledby="intelHeading">
-  <div class="intel-header reveal">
-    <div class="section-label">Intel Modules</div>
-    <h2 id="intelHeading" class="section-title">Military-Grade<br/>Capabilities</h2>
-    <p class="section-desc">Every module is hardened against adversarial interference, zero-day exploits, and quantum decryption attempts. Sovereign-grade by design.</p>
-  </div>
-
-  <div class="intel-grid">
-    <div class="intel-card reveal reveal-delay-1" id="cardThreatSynthesis">
-      <div class="card-icon cyan" aria-hidden="true">
-        <svg viewBox="0 0 26 26" fill="none">
-          <path d="M13 2L24 7.5V14C24 19 19 23 13 25C7 23 2 19 2 14V7.5Z" stroke="#00f5ff" stroke-width="1.5"/>
-          <path d="M9 13L12 16L17 10" stroke="#00f5ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
+  <!-- Hero / Featured Briefs -->
+  <section class="hero" id="briefs">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h1 class="section-title">Top Global <span class="text-gradient">Intelligence Briefs</span></h1>
+          <p class="section-subtitle">Real-time synthesis of geopolitical shifts, defense tech, and institutional strategy.</p>
+        </div>
+        <div class="header-actions">
+          <button class="btn btn-glass">View All Reports</button>
+        </div>
       </div>
-      <span class="card-tag tag-cyan">ACTIVE</span>
-      <h3 class="card-title">Threat Synthesis Engine</h3>
-      <p class="card-desc">Autonomous multi-vector threat correlation across 140+ global data feeds. Real-time attribution, pattern modeling, and predictive risk scoring using quantum-accelerated AI.</p>
-      <div class="card-footer">
-        <div class="card-stat"><strong id="threatSynth">14,812</strong> threats/hr</div>
-        <span class="card-tag tag-green">PROCESSING</span>
+
+      <div class="featured-grid">
+        <!-- Main Featured Card -->
+        <article class="featured-main glass-card">
+          <span class="tag tag-primary">Defense Tech</span>
+          <h2>Quantum Encryption Paradigms in Next-Gen Satellite Networks</h2>
+          <p>An in-depth analysis of the shift towards post-quantum cryptographic standards across institutional orbital assets and global communications infrastructure.</p>
+          
+          <div class="meta">
+            <div class="meta-item">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+              June 14, 2026
+            </div>
+            <div class="meta-item">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              8 min read
+            </div>
+            <div class="meta-item">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+              Full Report
+            </div>
+          </div>
+        </article>
+
+        <!-- Side Briefs -->
+        <aside class="briefs-sidebar">
+          <article class="brief-card glass-card">
+            <span class="tag tag-outline">Geopolitics</span>
+            <h3>Strategic Semiconductor Supply Chain Restructuring</h3>
+            <p>Evaluating the impact of recent legislative frameworks on global foundry capacities and advanced node distribution strategies over the next decade.</p>
+            <div class="meta" style="margin-top: auto;">
+              <span style="color: var(--text-light); font-size: 0.8rem;">Updated 2h ago</span>
+            </div>
+          </article>
+
+          <article class="brief-card glass-card">
+            <span class="tag tag-outline-violet">Autonomous Systems</span>
+            <h3>Swarm Logic Optimization in Multi-Domain Operations</h3>
+            <p>Advancements in decentralized AI models enabling robust coordination among heterogeneous unmanned vehicles in degraded communication environments.</p>
+            <div class="meta" style="margin-top: auto;">
+              <span style="color: var(--text-light); font-size: 0.8rem;">Updated 5h ago</span>
+            </div>
+          </article>
+        </aside>
       </div>
     </div>
+  </section>
 
-    <div class="intel-card reveal reveal-delay-2" id="cardSignalIntel">
-      <div class="card-icon green" aria-hidden="true">
-        <svg viewBox="0 0 26 26" fill="none">
-          <path d="M4 13C4 8.03 8.03 4 13 4" stroke="#39ff8a" stroke-width="1.5" stroke-linecap="round"/>
-          <path d="M22 13C22 17.97 17.97 22 13 22" stroke="#39ff8a" stroke-width="1.5" stroke-linecap="round"/>
-          <path d="M7 13C7 9.69 9.69 7 13 7" stroke="#39ff8a" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
-          <path d="M19 13C19 16.31 16.31 19 13 19" stroke="#39ff8a" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
-          <circle cx="13" cy="13" r="2" fill="#39ff8a"/>
-        </svg>
+  <!-- Analytics Grid -->
+  <section class="analytics-section" id="analytics">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Tech & Defense <span class="text-gradient">Analytics</span></h2>
+          <p class="section-subtitle">Data-driven insights and market intelligence for the aerospace and defense sectors.</p>
+        </div>
       </div>
-      <span class="card-tag tag-green">LIVE</span>
-      <h3 class="card-title">SIGINT &amp; ELINT Collection</h3>
-      <p class="card-desc">Full-spectrum signals intelligence gathering across RF, microwave, and optical domains. Passive interception with active signature analysis and direction finding at continental scale.</p>
-      <div class="card-footer">
-        <div class="card-stat"><strong>3.2M</strong> channels</div>
-        <span class="card-tag tag-cyan">MONITORING</span>
-      </div>
-    </div>
 
-    <div class="intel-card reveal reveal-delay-3" id="cardCyberOps">
-      <div class="card-icon amber" aria-hidden="true">
-        <svg viewBox="0 0 26 26" fill="none">
-          <rect x="3" y="6" width="20" height="14" rx="2" stroke="#ffb300" stroke-width="1.5"/>
-          <path d="M8 12L11 15L18 9" stroke="#ffb300" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
-          <path d="M3 10H23" stroke="#ffb300" stroke-width="1" opacity="0.3"/>
-        </svg>
-      </div>
-      <span class="card-tag tag-amber">STANDBY</span>
-      <h3 class="card-title">Offensive Cyber Operations</h3>
-      <p class="card-desc">Nation-state level cyberwarfare toolkit with zero-day exploit reservoir, autonomous infiltration agents, and controlled attribution masking for deniable operations.</p>
-      <div class="card-footer">
-        <div class="card-stat"><strong>847</strong> exploits ready</div>
-        <span class="card-tag tag-amber">CLASSIFIED</span>
-      </div>
-    </div>
-
-    <div class="intel-card reveal reveal-delay-1" id="cardGeospatial">
-      <div class="card-icon cyan" aria-hidden="true">
-        <svg viewBox="0 0 26 26" fill="none">
-          <circle cx="13" cy="13" r="10" stroke="#00f5ff" stroke-width="1.5"/>
-          <ellipse cx="13" cy="13" rx="5" ry="10" stroke="#00f5ff" stroke-width="1" opacity="0.5"/>
-          <path d="M3 13H23" stroke="#00f5ff" stroke-width="1" opacity="0.5"/>
-          <path d="M4 9H22M4 17H22" stroke="#00f5ff" stroke-width="0.8" opacity="0.3"/>
-        </svg>
-      </div>
-      <span class="card-tag tag-cyan">ACTIVE</span>
-      <h3 class="card-title">Geospatial Fusion &amp; IMINT</h3>
-      <p class="card-desc">Sub-30cm resolution SAR, EO/IR, and hyperspectral imagery fusion. Change detection over 190 nations with AI-assisted object recognition and battle damage assessment.</p>
-      <div class="card-footer">
-        <div class="card-stat"><strong>190</strong> nations covered</div>
-        <span class="card-tag tag-green">LIVE FEED</span>
-      </div>
-    </div>
-
-    <div class="intel-card reveal reveal-delay-2" id="cardQuantumComms">
-      <div class="card-icon green" aria-hidden="true">
-        <svg viewBox="0 0 26 26" fill="none">
-          <path d="M6 13C6 9.13 9.13 6 13 6C16.87 6 20 9.13 20 13" stroke="#39ff8a" stroke-width="1.5" stroke-linecap="round"/>
-          <path d="M2 13H6M20 13H24" stroke="#39ff8a" stroke-width="1.5" stroke-linecap="round"/>
-          <path d="M13 6V2M13 20V24" stroke="#39ff8a" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
-          <circle cx="13" cy="13" r="3" fill="none" stroke="#39ff8a" stroke-width="1.5"/>
-        </svg>
-      </div>
-      <span class="card-tag tag-green">QUANTUM</span>
-      <h3 class="card-title">Quantum-Secured Communications</h3>
-      <p class="card-desc">Post-quantum cryptography layer with QKD-enabled channel establishment. Mathematically unbreakable communications architecture resistant to all known and theoretical attacks.</p>
-      <div class="card-footer">
-        <div class="card-stat"><strong>AES-512</strong> + QKD</div>
-        <span class="card-tag tag-green">ENCRYPTED</span>
-      </div>
-    </div>
-
-    <div class="intel-card reveal reveal-delay-3" id="cardAICommand">
-      <div class="card-icon cyan" aria-hidden="true">
-        <svg viewBox="0 0 26 26" fill="none">
-          <rect x="4"  y="4"  width="8" height="8" rx="1" stroke="#00f5ff" stroke-width="1.5"/>
-          <rect x="14" y="4"  width="8" height="8" rx="1" stroke="#00f5ff" stroke-width="1.5"/>
-          <rect x="4"  y="14" width="8" height="8" rx="1" stroke="#00f5ff" stroke-width="1.5"/>
-          <rect x="14" y="14" width="8" height="8" rx="1" stroke="#00f5ff" stroke-width="1.5" opacity="0.4"/>
-          <circle cx="18" cy="18" r="3" fill="#00f5ff"/>
-        </svg>
-      </div>
-      <span class="card-tag tag-red">AI CORE</span>
-      <h3 class="card-title">Autonomous Command &amp; Control</h3>
-      <p class="card-desc">Distributed AI decision architecture enabling unmanned system coordination, swarm intelligence, and autonomous rules-of-engagement enforcement across contested domains.</p>
-      <div class="card-footer">
-        <div class="card-stat"><strong>12ms</strong> decision latency</div>
-        <span class="card-tag tag-red">AUTONOMOUS</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- CONSOLE SECTION -->
-<section id="console-section" aria-labelledby="consoleHeading">
-  <div class="console-wrap">
-    <div class="console-info">
-      <div class="section-label">Operations Console</div>
-      <h2 id="consoleHeading" class="section-title">Command &amp;<br/>Control at Speed</h2>
-      <p class="section-desc">Neodymium's integrated C2 console provides operators with a unified view across all intelligence domains. Execute, monitor, and respond with military precision.</p>
-      <div class="console-features">
-        <div class="console-feature reveal">
-          <div class="feature-dot dot-cyan"></div>
-          <div class="feature-text">
-            <h4>Zero-Latency Data Ingestion</h4>
-            <p>Sub-10ms feed ingestion from 14,000+ sensor endpoints across all domains.</p>
+      <div class="grid-3">
+        <!-- Card 1 -->
+        <div class="analytics-card glass-card">
+          <div class="card-icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+          </div>
+          <h3>Global Defense Spending Index</h3>
+          <p>Tracking macroeconomic shifts and budgetary allocations across major institutional players for FY2027.</p>
+          <div class="data-viz">
+            <div class="bar" style="height: 40%; animation-delay: 0.1s;"></div>
+            <div class="bar" style="height: 55%; animation-delay: 0.2s;"></div>
+            <div class="bar" style="height: 45%; animation-delay: 0.3s;"></div>
+            <div class="bar" style="height: 70%; animation-delay: 0.4s;"></div>
+            <div class="bar" style="height: 60%; animation-delay: 0.5s;"></div>
+            <div class="bar" style="height: 85%; animation-delay: 0.6s;"></div>
+            <div class="bar" style="height: 95%; animation-delay: 0.7s;"></div>
+          </div>
+          <div class="card-footer" style="margin-top: 1.5rem;">
+            <a href="#" class="read-more">Access Data <span>&rarr;</span></a>
+            <span style="font-size: 0.85rem; color: var(--text-light);">Q3 Projection</span>
           </div>
         </div>
-        <div class="console-feature reveal reveal-delay-1">
-          <div class="feature-dot dot-green"></div>
-          <div class="feature-text">
-            <h4>Autonomous Alert Triage</h4>
-            <p>AI-prioritized alert queues eliminate noise. Only mission-critical events surface.</p>
+
+        <!-- Card 2 -->
+        <div class="analytics-card glass-card">
+          <div class="card-icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+          </div>
+          <h3>Material Sciences Innovation</h3>
+          <p>Analysis of advanced composites and metamaterials scaling for aerospace manufacturing pipelines.</p>
+          <div class="data-viz" style="align-items: center; justify-content: space-around; background: none;">
+            <div style="width: 60px; height: 60px; border-radius: 50%; border: 6px solid var(--accent-cyan); border-right-color: transparent; transform: rotate(45deg);"></div>
+            <div style="width: 40px; height: 40px; border-radius: 50%; border: 4px solid var(--accent-violet); border-bottom-color: transparent; transform: rotate(-20deg);"></div>
+          </div>
+          <div class="card-footer" style="margin-top: 1.5rem;">
+            <a href="#" class="read-more">Read Analysis <span>&rarr;</span></a>
+            <span style="font-size: 0.85rem; color: var(--text-light);">Sector Report</span>
           </div>
         </div>
-        <div class="console-feature reveal reveal-delay-2">
-          <div class="feature-dot dot-amber"></div>
-          <div class="feature-text">
-            <h4>Operator-in-the-Loop Overrides</h4>
-            <p>Human authority retained at every decision node with cryptographic audit trail.</p>
+
+        <!-- Card 3 -->
+        <div class="analytics-card glass-card">
+          <div class="card-icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+          </div>
+          <h3>Cyber Infrastructure Resilience</h3>
+          <p>Real-time threat landscape evaluation and zero-trust architecture adoption rates across enterprise domains.</p>
+          <div class="data-viz" style="background: none; display: flex; flex-direction: column; justify-content: center; gap: 8px;">
+            <div style="width: 100%; height: 8px; background: rgba(0,0,0,0.05); border-radius: 4px; overflow: hidden;">
+              <div style="width: 85%; height: 100%; background: var(--gradient-primary);"></div>
+            </div>
+            <div style="width: 100%; height: 8px; background: rgba(0,0,0,0.05); border-radius: 4px; overflow: hidden;">
+              <div style="width: 62%; height: 100%; background: var(--accent-cyan);"></div>
+            </div>
+            <div style="width: 100%; height: 8px; background: rgba(0,0,0,0.05); border-radius: 4px; overflow: hidden;">
+              <div style="width: 93%; height: 100%; background: var(--accent-violet);"></div>
+            </div>
+          </div>
+          <div class="card-footer" style="margin-top: 1.5rem;">
+            <a href="#" class="read-more">View Dashboard <span>&rarr;</span></a>
+            <span style="font-size: 0.85rem; color: var(--text-light);">Live Metrics</span>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <div class="terminal-display reveal" id="terminalDisplay" role="log" aria-label="Intelligence console">
-      <div class="terminal-header">
-        <div class="terminal-dots" aria-hidden="true">
-          <div class="terminal-dot red"></div>
-          <div class="terminal-dot amber"></div>
-          <div class="terminal-dot green"></div>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <a href="#" class="brand" style="margin-bottom: 1.5rem;">
+            <div class="brand-icon" style="width: 28px; height: 28px; font-size: 1rem;">N</div>
+            Neodymium
+          </a>
+          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.7;">
+            The premier institutional dashboard for actionable intelligence, predictive data, and strategic analysis in future tech and defense.
+          </p>
+          <div class="newsletter" style="margin-top: 1.5rem;">
+            <h4 style="margin-bottom: 0.5rem; font-size: 0.95rem;">Executive Briefing Newsletter</h4>
+            <form class="newsletter-form">
+              <input type="email" placeholder="work@organization.com" required>
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
         </div>
-        <span class="terminal-title">NDM-CONSOLE // SECURED CHANNEL</span>
-        <span class="terminal-badge">&#9679; LIVE</span>
+        
+        <div class="footer-col">
+          <h4>Intelligence</h4>
+          <ul class="footer-links">
+            <li><a href="#">Geopolitics</a></li>
+            <li><a href="#">Defense Technology</a></li>
+            <li><a href="#">Cyber Security</a></li>
+            <li><a href="#">Space Economy</a></li>
+            <li><a href="#">AI & Autonomy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Data Products</h4>
+          <ul class="footer-links">
+            <li><a href="#">Terminal Access</a></li>
+            <li><a href="#">API Documentation</a></li>
+            <li><a href="#">Market Indices</a></li>
+            <li><a href="#">Custom Reporting</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Organization</h4>
+          <ul class="footer-links">
+            <li><a href="#">About Neodymium</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press Room</a></li>
+            <li><a href="#">Contact Support</a></li>
+            <li><a href="#">Security Policy</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="terminal-body" id="terminalBody" aria-live="polite"></div>
-    </div>
-  </div>
-</section>
-
-<!-- GLOBAL NETWORK -->
-<section id="network" aria-labelledby="networkHeading">
-  <div class="network-grid">
-    <div class="world-map-container reveal" role="img" aria-label="Global network map">
-      <svg class="map-svg" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <g opacity="0.25" fill="none" stroke="#00f5ff" stroke-width="1">
-          <path d="M80,120 L140,90 L180,80 L220,85 L250,100 L260,130 L240,160 L220,190 L200,220 L170,240 L150,260 L130,250 L110,230 L90,200 L75,170 Z"/>
-          <path d="M180,260 L220,250 L250,260 L270,290 L260,340 L240,380 L210,400 L190,390 L175,360 L165,320 L170,290 Z"/>
-          <path d="M330,80 L370,70 L400,75 L420,90 L410,115 L390,120 L370,115 L350,105 L330,95 Z"/>
-          <path d="M330,130 L380,120 L420,130 L440,165 L435,220 L420,265 L390,290 L360,285 L335,265 L320,230 L315,180 L320,150 Z"/>
-          <path d="M420,70 L500,60 L580,65 L650,80 L700,100 L710,130 L690,160 L650,170 L600,165 L550,155 L500,150 L470,140 L440,130 L425,110 Z"/>
-          <path d="M600,270 L650,260 L690,270 L700,300 L690,330 L660,345 L630,340 L605,320 L595,295 Z"/>
-        </g>
-        <g stroke="#00f5ff" stroke-width="0.5" opacity="0.06">
-          <line x1="0" y1="112" x2="800" y2="112"/>
-          <line x1="0" y1="225" x2="800" y2="225"/>
-          <line x1="0" y1="337" x2="800" y2="337"/>
-        </g>
-        <g stroke="#00f5ff" stroke-width="0.8" opacity="0.2" stroke-dasharray="4 6">
-          <line x1="200" y1="150" x2="370" y2="90"/>
-          <line x1="370" y1="90"  x2="550" y2="110"/>
-          <line x1="550" y1="110" x2="650" y2="130"/>
-          <line x1="200" y1="150" x2="350" y2="200"/>
-          <line x1="550" y1="110" x2="640" y2="290"/>
-        </g>
-      </svg>
-      <div class="node-point node-cyan"  style="top:33%;left:25%" aria-hidden="true"></div>
-      <div class="node-point node-green" style="top:20%;left:46%" aria-hidden="true"></div>
-      <div class="node-point node-cyan"  style="top:25%;left:68%" aria-hidden="true"></div>
-      <div class="node-point node-amber" style="top:45%;left:45%" aria-hidden="true"></div>
-      <div class="node-point node-green" style="top:30%;left:80%" aria-hidden="true"></div>
-      <div class="node-point node-cyan"  style="top:65%;left:79%" aria-hidden="true"></div>
-      <div class="map-label">GLOBAL NODE PRESENCE // 6 CONTINENTAL CLUSTERS</div>
-      <div class="map-status"><div class="status-dot" aria-hidden="true"></div>LIVE</div>
-    </div>
-
-    <div class="reveal">
-      <div class="section-label">Global Network</div>
-      <h2 id="networkHeading" class="section-title">Planetary<br/>Reach</h2>
-      <p class="section-desc">Neodymium operates across a globally distributed sovereign infrastructure spanning 6 continents, 47 data centers, and 14,000+ field sensor nodes — all hardened against physical and electronic attack.</p>
-      <div class="network-stats">
-        <div class="stat-card">
-          <div class="stat-num">47<span class="stat-unit"> DC</span></div>
-          <div class="stat-lbl">Data Centers</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-num">14k<span class="stat-unit">+</span></div>
-          <div class="stat-lbl">Field Sensors</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-num">6<span class="stat-unit"> cont.</span></div>
-          <div class="stat-lbl">Continents</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-num">99.99<span class="stat-unit">%</span></div>
-          <div class="stat-lbl">Uptime SLA</div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Neodymium Data Services. All rights reserved.</p>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#" style="color: var(--text-light); text-decoration: none;">Terms of Service</a>
+          <a href="#" style="color: var(--text-light); text-decoration: none;">Privacy Policy</a>
+          <a href="#" style="color: var(--text-light); text-decoration: none;">Cookie Settings</a>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </footer>
 
-<!-- THREAT BARS -->
-<section id="threat" aria-labelledby="threatHeading">
-  <div class="threat-wrap">
-    <div class="threat-header reveal">
-      <div>
-        <div class="section-label">Threat Intelligence</div>
-        <h2 id="threatHeading" class="section-title">Live Threat<br/>Landscape</h2>
-      </div>
-      <p class="section-desc" style="max-width:400px">Continuously updated threat exposure indices across all major attack vectors. Data sourced from 140+ classified and open-source feeds.</p>
-    </div>
+  <script>
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
 
-    <div class="threat-bar-list">
-      <div class="threat-bar-item reveal">
-        <span class="threat-bar-label">Cyber Intrusion</span>
-        <div class="threat-bar-track"><div class="threat-bar-fill fill-cyan" data-width="87" style="width:0%"></div></div>
-        <span class="threat-bar-val">87%</span>
-      </div>
-      <div class="threat-bar-item reveal reveal-delay-1">
-        <span class="threat-bar-label">SIGINT Exposure</span>
-        <div class="threat-bar-track"><div class="threat-bar-fill fill-green" data-width="64" style="width:0%"></div></div>
-        <span class="threat-bar-val">64%</span>
-      </div>
-      <div class="threat-bar-item reveal reveal-delay-2">
-        <span class="threat-bar-label">Supply Chain</span>
-        <div class="threat-bar-track"><div class="threat-bar-fill fill-amber" data-width="73" style="width:0%"></div></div>
-        <span class="threat-bar-val">73%</span>
-      </div>
-      <div class="threat-bar-item reveal reveal-delay-3">
-        <span class="threat-bar-label">State Actor Activity</span>
-        <div class="threat-bar-track"><div class="threat-bar-fill fill-red" data-width="91" style="width:0%"></div></div>
-        <span class="threat-bar-val">91%</span>
-      </div>
-      <div class="threat-bar-item reveal">
-        <span class="threat-bar-label">Physical Perimeter</span>
-        <div class="threat-bar-track"><div class="threat-bar-fill fill-cyan" data-width="42" style="width:0%"></div></div>
-        <span class="threat-bar-val">42%</span>
-      </div>
-      <div class="threat-bar-item reveal reveal-delay-1">
-        <span class="threat-bar-label">AI Adversarial</span>
-        <div class="threat-bar-track"><div class="threat-bar-fill fill-amber" data-width="78" style="width:0%"></div></div>
-        <span class="threat-bar-val">78%</span>
-      </div>
-    </div>
-  </div>
-</section>
+    // Smooth reveal animation for bars in analytics
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1
+    };
 
-<!-- CLEARANCE -->
-<section id="clearance" aria-labelledby="clearanceHeading">
-  <div style="text-align:center;max-width:600px;margin:0 auto" class="reveal">
-    <div class="section-label" style="justify-content:center;margin-bottom:14px">Operator Clearance</div>
-    <h2 id="clearanceHeading" class="section-title">Trusted by Those<br/>Who Cannot Be Named</h2>
-    <p class="section-desc" style="margin:16px auto 0">Personnel across allied intelligence communities operate on Neodymium. All identities classified. All testimonials are declassified excerpts.</p>
-  </div>
-
-  <div class="clearance-cards">
-    <div class="clearance-card reveal">
-      <span class="clearance-level tag-red">CLASSIFIED</span>
-      <p class="clearance-text" style="margin-top:28px">"Neodymium changed how we process adversarial signatures. What used to take 72 hours of human analysis now resolves in under 4 minutes. The threat engine is unlike anything we've deployed in the field."</p>
-      <div class="clearance-author">
-        <div class="author-avatar" aria-hidden="true">&#916;7</div>
-        <div class="author-info">
-          <h5>AGENT DELTA-7</h5>
-          <span>Allied Intelligence Directorate &middot; REDACTED</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="clearance-card reveal reveal-delay-1">
-      <span class="clearance-level tag-amber">RESTRICTED</span>
-      <p class="clearance-text" style="margin-top:28px">"The SIGINT collection suite handles spectrum density that would saturate conventional systems. We've identified persistent intrusion campaigns invisible to every other platform. Absolute force multiplier."</p>
-      <div class="clearance-author">
-        <div class="author-avatar" aria-hidden="true">&#931;C</div>
-        <div class="author-info">
-          <h5>COMMANDER SIGMA</h5>
-          <span>Signals Corps &middot; CLASSIFIED UNIT</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="clearance-card reveal reveal-delay-2">
-      <span class="clearance-level tag-cyan">CONFIDENTIAL</span>
-      <p class="clearance-text" style="margin-top:28px">"Quantum-secured channels gave us the confidence to run operations across denied areas. No other platform provides this level of communications assurance. Mission-critical, without question."</p>
-      <div class="clearance-author">
-        <div class="author-avatar" aria-hidden="true">&#937;1</div>
-        <div class="author-info">
-          <h5>OPERATOR OMEGA-1</h5>
-          <span>Special Operations &middot; THEATRE UNDISCLOSED</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- CTA -->
-<section id="cta" aria-labelledby="ctaHeading">
-  <div class="cta-glow" aria-hidden="true"></div>
-  <div class="cta-inner reveal">
-    <div class="section-label" style="justify-content:center;margin-bottom:20px">Secure Access Portal</div>
-    <h2 id="ctaHeading" class="section-title">
-      Ready to Operate at<br/>
-      <span style="color:var(--cyan);text-shadow:0 0 30px rgba(0,245,255,0.5)">Maximum Clarity?</span>
-    </h2>
-    <p class="section-desc" style="margin:0 auto;text-align:center">Submit your credentials for vetting. Access is granted only to authorized personnel from allied governments, defense contractors, and cleared intelligence organizations.</p>
-
-    <form class="cta-form" id="accessForm" onsubmit="handleFormSubmit(event)" aria-label="Access request form">
-      <input
-        type="email"
-        id="accessEmail"
-        class="cta-input"
-        placeholder="operator@domain.gov"
-        aria-label="Government or organization email"
-        autocomplete="email"
-        required
-      />
-      <button type="submit" class="btn-primary" id="submitAccess">
-        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-          <path d="M7 1L13 7L7 13M13 7H1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        Submit
-      </button>
-    </form>
-    <p class="cta-note" id="formMessage" role="status" aria-live="polite">
-      All submissions are screened. Unauthorized access attempts are logged and reported.
-    </p>
-  </div>
-</section>
-
-<!-- FOOTER -->
-<footer role="contentinfo">
-  <div class="footer-inner">
-    <span class="footer-brand">NEODYMIUM.WORLD</span>
-    <ul class="footer-links">
-      <li><a href="#intel">Modules</a></li>
-      <li><a href="#network">Network</a></li>
-      <li><a href="#cta">Access</a></li>
-    </ul>
-    <p class="footer-copy">&copy; 2026 NEODYMIUM.WORLD &mdash; CLASSIFICATION: SOVEREIGN // ALL RIGHTS RESERVED</p>
-  </div>
-</footer>
-
-<!-- JAVASCRIPT -->
-<script>
-'use strict';
-
-/* NAVBAR */
-const navbar = document.getElementById('navbar');
-window.addEventListener('scroll', () => {
-  navbar.classList.toggle('scrolled', window.scrollY > 40);
-}, { passive: true });
-
-/* SCROLL REVEAL */
-const revealObserver = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-      revealObserver.unobserve(entry.target);
-    }
-  });
-}, { threshold: 0.12 });
-
-document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
-
-/* THREAT BARS */
-const barObserver = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      const fills = entry.target.querySelectorAll('.threat-bar-fill');
-      fills.forEach(fill => {
-        const w = fill.getAttribute('data-width');
-        if (w) setTimeout(() => { fill.style.width = w + '%'; }, 250);
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const bars = entry.target.querySelectorAll('.bar');
+          bars.forEach(bar => {
+            bar.style.animationPlayState = 'running';
+          });
+          observer.unobserve(entry.target);
+        }
       });
-      barObserver.unobserve(entry.target);
-    }
-  });
-}, { threshold: 0.3 });
+    }, observerOptions);
 
-document.querySelectorAll('.threat-bar-item').forEach(el => barObserver.observe(el));
-
-/* COUNTERS */
-function animateCounter(el, target, suffix, duration) {
-  duration = duration || 2000;
-  suffix = suffix || '';
-  const start = performance.now();
-  const update = (time) => {
-    const elapsed = time - start;
-    const progress = Math.min(elapsed / duration, 1);
-    const ease = 1 - Math.pow(1 - progress, 4);
-    const val = Math.round(ease * target);
-    el.textContent = val.toLocaleString() + suffix;
-    if (progress < 1) requestAnimationFrame(update);
-  };
-  requestAnimationFrame(update);
-}
-
-const metricsObserver = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      animateCounter(document.getElementById('metricNodes'),   14287);
-      animateCounter(document.getElementById('metricThreats'), 98341);
-      animateCounter(document.getElementById('metricUptime'),  99, '.99');
-      animateCounter(document.getElementById('metricLatency'), 8);
-      metricsObserver.disconnect();
-    }
-  });
-}, { threshold: 0.5 });
-
-const metricsEl = document.querySelector('.hero-metrics');
-if (metricsEl) metricsObserver.observe(metricsEl);
-
-/* LIVE TICKER */
-const tsEl = document.getElementById('threatSynth');
-if (tsEl) {
-  let base = 14812;
-  setInterval(() => {
-    base += Math.floor(Math.random() * 40) - 10;
-    tsEl.textContent = base.toLocaleString();
-  }, 1200);
-}
-
-/* TERMINAL */
-const termLines = [
-  { cls: 'term-comment', text: '# NEODYMIUM PLATFORM v4.7  SECURE SESSION INIT' },
-  { cmd: 'ndm@core:~$',  text: 'system.auth --level=TOPSECRET --mfa=QKD' },
-  { cls: 'term-success', text: '  \u2713 Identity verified \xb7 QKD channel established' },
-  { cmd: 'ndm@core:~$',  text: 'threat.scan --global --realtime' },
-  { cls: 'term-out',     text: '  [\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0] Ingesting 14,287 node feeds...' },
-  { cls: 'term-warn',    text: '  \u26a0 ALERT: Anomalous traffic \xb7 APT-41 signature \xb7 SRC: 103.12.x.x' },
-  { cls: 'term-success', text: '  \u2192 Routed to Threat Synthesis Engine \xb7 ETA: 4.2s' },
-  { cmd: 'ndm@core:~$',  text: 'sigint.sweep --spectrum=FULL --passive' },
-  { cls: 'term-success', text: '  \u2713 3,241,088 channels active \xb7 No hostile emissions' },
-  { cmd: 'ndm@core:~$',  text: 'geospatial.query --target=GRID_7G --res=30cm' },
-  { cls: 'term-out',     text: '  Fusing SAR + EO/IR + Hyperspectral imagery...' },
-  { cls: 'term-success', text: '  \u2713 Change detection: 2 new structures \xb7 BDA updated' },
-  { cmd: 'ndm@core:~$',  text: 'comms.status --all-nodes' },
-  { cls: 'term-success', text: '  \u2713 47/47 data centers ONLINE \xb7 Uptime: 99.99%' },
-  { cursor: true }
-];
-
-const termBody = document.getElementById('terminalBody');
-
-function buildTermLine(entry, index) {
-  const div = document.createElement('div');
-  div.className = 'term-line';
-  div.style.animationDelay = (index * 220) + 'ms';
-
-  if (entry.cursor) {
-    div.innerHTML = '<span class="term-prompt">ndm@core:~$</span><span class="term-cursor" aria-hidden="true"></span>';
-  } else if (entry.cmd) {
-    div.innerHTML = '<span class="term-prompt">' + entry.cmd + '</span><span class="term-cmd">' + entry.text + '</span>';
-  } else {
-    div.innerHTML = '<span class="' + entry.cls + '">' + entry.text + '</span>';
-  }
-  return div;
-}
-
-const termObserver = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      termLines.forEach(function(line, i) {
-        termBody.appendChild(buildTermLine(line, i));
+    document.querySelectorAll('.analytics-card').forEach(card => {
+      // Pause animations initially
+      const bars = card.querySelectorAll('.bar');
+      bars.forEach(bar => {
+        bar.style.animationPlayState = 'paused';
       });
-      termObserver.disconnect();
-    }
-  });
-}, { threshold: 0.2 });
-
-if (termBody) termObserver.observe(termBody);
-
-/* CTA FORM */
-function handleFormSubmit(e) {
-  e.preventDefault();
-  const email = document.getElementById('accessEmail').value.trim();
-  const msg   = document.getElementById('formMessage');
-  const btn   = document.getElementById('submitAccess');
-  if (!email) return;
-
-  btn.disabled = true;
-  btn.textContent = 'Verifying...';
-
-  setTimeout(function() {
-    msg.style.color = 'var(--green)';
-    msg.textContent = '\u2713 Request received. Vetting in progress. Expect clearance within 24\u201372 hours.';
-    btn.textContent = '\u2713 Submitted';
-    btn.style.background = 'var(--green)';
-    document.getElementById('accessEmail').value = '';
-  }, 2200);
-}
-
-/* MOUSE PARALLAX */
-const heroSection = document.getElementById('hero');
-const radarWrap   = document.querySelector('.radar-sweep-wrap');
-if (heroSection && radarWrap) {
-  heroSection.addEventListener('mousemove', function(e) {
-    const rect = heroSection.getBoundingClientRect();
-    const dx = (e.clientX - rect.left - rect.width  / 2) / (rect.width  / 2);
-    const dy = (e.clientY - rect.top  - rect.height / 2) / (rect.height / 2);
-    radarWrap.style.transform = 'translate(calc(-50% + ' + (dx * 12) + 'px), calc(-50% + ' + (dy * 8) + 'px))';
-  });
-  heroSection.addEventListener('mouseleave', function() {
-    radarWrap.style.transform = 'translate(-50%, -50%)';
-  });
-}
-
-/* SMOOTH SCROLL */
-document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
-  anchor.addEventListener('click', function(e) {
-    const target = document.querySelector(anchor.getAttribute('href'));
-    if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
-  });
-});
-</script>
+      observer.observe(card);
+    });
+  </script>
 </body>
 </html>
