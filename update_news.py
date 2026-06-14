@@ -42,8 +42,8 @@ def get_image_url(entry):
 def rewrite_content(title, text):
     """Uses Gemini to rewrite article into an Intelligence Report."""
     prompt = f"""
-You are a Chief Defense Analyst. Rewrite this article into a professional, high-impact 500-word Intelligence Report.
-Include: Executive Summary, Technical Deep-Dive, Strategic Impact, and Conclusion.
+You are a Chief Defense Analyst. Rewrite this article in its entirety. Do not summarize or shorten it. Produce a comprehensive, highly elaborative Intelligence Report that matches or exceeds the length and depth of the original article.
+Include: Executive Summary, Technical Deep-Dive, Strategic Impact, and Conclusion. The Technical Deep-Dive should be exceptionally detailed.
 Use a formal, institutional tone.
 
 Original Title: {title}
