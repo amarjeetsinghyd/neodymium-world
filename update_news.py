@@ -15,7 +15,7 @@ if not API_KEY:
 
 genai.configure(api_key=API_KEY)
 # Use a recommended gemini model
-model = genai.GenerativeModel('gemini-1.5-pro-latest')
+model = genai.GenerativeModel('gemini-pro')
 
 # Feed configuration
 # Using a standard Tech/Defense RSS Feed (Breaking Defense as an example)
@@ -62,9 +62,6 @@ Respond strictly in the following JSON format without any markdown blocks or ext
     try:
         response = model.generate_content(
             prompt,
-            generation_config=genai.types.GenerationConfig(
-                response_mime_type="application/json",
-            ),
             safety_settings={
                 genai.types.HarmCategory.HARM_CATEGORY_HATE_SPEECH: genai.types.HarmBlockThreshold.BLOCK_NONE,
                 genai.types.HarmCategory.HARM_CATEGORY_HARASSMENT: genai.types.HarmBlockThreshold.BLOCK_NONE,
