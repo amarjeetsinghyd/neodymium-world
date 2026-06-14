@@ -87,9 +87,24 @@ Respond strictly in the following JSON format without any markdown blocks or ext
             
     except Exception as e:
         print(f"Error during Gemini rewriting: {e}")
+        
+        # Debug: Fetch available models
+        available_models_text = "Could not fetch models list."
+        try:
+            models_url = f"https://generativelanguage.googleapis.com/v1beta/models?key={API_KEY}"
+            models_resp = requests.get(models_url)
+            models_data = models_resp.json()
+            if "models" in models_data:
+                model_names = [m.get("name") for m in models_data["models"]]
+                available_models_text = "Available models on this API key: " + ", ".join(model_names)
+            else:
+                available_models_text = f"Models fetch error: {models_data}"
+        except Exception as ex:
+            available_models_text = f"Failed to list models: {ex}"
+
         return {
             "executive_summary": text[:200] + "...",
-            "technical_deep_dive": f"Exception occurred during generation: {str(e)}",
+            "technical_deep_dive": f"Exception occurred during generation: {str(e)}\n\nDEBUG INFO:\n{available_models_text}",
             "strategic_impact": "Analysis pending.",
             "conclusion": "Pending conclusion."
         }
