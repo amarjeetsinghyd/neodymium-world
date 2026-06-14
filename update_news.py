@@ -2,9 +2,9 @@ import feedparser
 import json
 import os
 import re
-import google.generativeai as genai
-from datetime import datetime
+import requests
 import trafilatura
+from datetime import datetime
 from urllib.parse import urlparse
 from jinja2 import Environment, FileSystemLoader
 
@@ -13,26 +13,18 @@ API_KEY = os.environ.get("GEMINI_API_KEY")
 if not API_KEY:
     raise ValueError("GEMINI_API_KEY environment variable not set.")
 
-genai.configure(api_key=API_KEY)
-# Use a recommended gemini model
-model = genai.GenerativeModel('gemini-pro')
-
 # Feed configuration
-# Using a standard Tech/Defense RSS Feed (Breaking Defense as an example)
 RSS_FEED_URL = "https://breakingdefense.com/feed/"
 DATA_FILE = "news_data.json"
 
 def get_image_url(entry):
     """Extracts image URL from an RSS entry if available."""
-    # Check for media content
     if 'media_content' in entry and len(entry.media_content) > 0:
         return entry.media_content[0].get('url')
-    # Check for enclosures
     if 'enclosures' in entry and len(entry.enclosures) > 0:
         for enc in entry.enclosures:
             if 'image' in enc.get('type', ''):
                 return enc.get('href')
-    # Regex fallback to find image in summary
     if 'summary' in entry:
         match = re.search(r'<img[^>]+src="([^">]+)"', entry.summary)
         if match:
@@ -60,17 +52,28 @@ Respond strictly in the following JSON format without any markdown blocks or ext
 }}
 """
     try:
-        response = model.generate_content(
-            prompt,
-            safety_settings={
-                genai.types.HarmCategory.HARM_CATEGORY_HATE_SPEECH: genai.types.HarmBlockThreshold.BLOCK_NONE,
-                genai.types.HarmCategory.HARM_CATEGORY_HARASSMENT: genai.types.HarmBlockThreshold.BLOCK_NONE,
-                genai.types.HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: genai.types.HarmBlockThreshold.BLOCK_NONE,
-                genai.types.HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: genai.types.HarmBlockThreshold.BLOCK_NONE,
-            }
-        )
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={API_KEY}"
+        payload = {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {
+                "responseMimeType": "application/json"
+            },
+            "safetySettings": [
+                {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
+                {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
+                {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
+                {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"}
+            ]
+        }
         
-        result_text = response.text.strip()
+        resp = requests.post(url, json=payload)
+        data = resp.json()
+        
+        if "error" in data:
+            raise Exception(f"API Error {data['error'].get('code')}: {data['error'].get('message')}")
+            
+        result_text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+        
         if result_text.startswith("```json"):
             result_text = result_text[7:-3].strip()
         elif result_text.startswith("```"):
@@ -87,10 +90,9 @@ Respond strictly in the following JSON format without any markdown blocks or ext
             
     except Exception as e:
         print(f"Error during Gemini rewriting: {e}")
-        # Fallback with error logging
         return {
             "executive_summary": text[:200] + "...",
-            "technical_deep_dive": f"Exception occurred during generation: {str(e)}\n\nResponse snippet: {getattr(response, 'text', 'No text')[:200] if 'response' in locals() else 'No response object'}",
+            "technical_deep_dive": f"Exception occurred during generation: {str(e)}",
             "strategic_impact": "Analysis pending.",
             "conclusion": "Pending conclusion."
         }
