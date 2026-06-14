@@ -3,6 +3,7 @@ import json
 import os
 import re
 import requests
+import time
 import trafilatura
 from datetime import datetime
 from urllib.parse import urlparse
@@ -52,7 +53,7 @@ Respond strictly in the following JSON format without any markdown blocks or ext
 }}
 """
     try:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent?key={API_KEY}"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={API_KEY}"
         payload = {
             "contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {
@@ -170,6 +171,9 @@ def main():
                     pass
         
         full_report = rewrite_content(title, article_text)
+        
+        # Free Tier Rate Limit Handling: 5 Requests Per Minute = 12.5 seconds per request.
+        time.sleep(12.5)
         
         # Generate Slug
         slug = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')
