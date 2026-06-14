@@ -594,6 +594,150 @@
         font-size: 2rem;
       }
     }
+
+    /* Modal System */
+    .glass-modal {
+      border: none;
+      background: transparent;
+      padding: 0;
+      margin: auto;
+      max-width: 800px;
+      width: 90%;
+      border-radius: var(--radius-xl);
+    }
+    
+    .glass-modal::backdrop {
+      background: rgba(15, 23, 42, 0.7);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+
+    .modal-content {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-xl);
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      max-height: 90vh;
+      animation: modalFadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    @keyframes modalFadeIn {
+      from { opacity: 0; transform: translateY(20px) scale(0.95); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      background: rgba(255, 255, 255, 0.5);
+      border: 1px solid rgba(0,0,0,0.1);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 10;
+      transition: all var(--transition);
+      color: var(--text-main);
+    }
+
+    .modal-close:hover {
+      background: white;
+      transform: scale(1.1);
+    }
+
+    .modal-header-img {
+      width: 100%;
+      height: 250px;
+      background-size: cover;
+      background-position: center;
+      background-color: var(--text-main); /* fallback */
+    }
+
+    .modal-body {
+      padding: 3rem;
+      overflow-y: auto;
+    }
+
+    .modal-title {
+      font-size: 2.25rem;
+      margin-bottom: 2rem;
+      color: var(--text-main);
+      line-height: 1.2;
+    }
+
+    .modal-section {
+      margin-bottom: 2rem;
+    }
+
+    .modal-section h2 {
+      font-size: 1.1rem;
+      color: var(--accent-violet);
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .modal-bullets {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .modal-bullets li {
+      position: relative;
+      padding-left: 1.5rem;
+      font-size: 1.05rem;
+      color: var(--text-muted);
+    }
+
+    .modal-bullets li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.5rem;
+      width: 8px;
+      height: 8px;
+      background: var(--gradient-primary);
+      border-radius: 50%;
+    }
+
+    .impact-section {
+      background: rgba(37, 99, 235, 0.05);
+      border-left: 4px solid var(--accent-blue);
+      padding: 1.5rem;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    }
+
+    .impact-section h2 {
+      color: var(--accent-blue);
+      margin-bottom: 0.5rem;
+    }
+
+    .impact-section p {
+      font-size: 1.05rem;
+      font-weight: 500;
+      color: var(--text-main);
+    }
+
+    .modal-footer {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(0,0,0,0.05);
+      display: flex;
+      justify-content: flex-end;
+    }
   </style>
 </head>
 <body>
@@ -816,7 +960,71 @@
     </div>
   </footer>
 
+  <!-- Modal System -->
+  <dialog id="brief-modal" class="glass-modal">
+    <div class="modal-content">
+      <button id="close-modal" class="modal-close">&times;</button>
+      <div id="modal-image" class="modal-header-img"></div>
+      <article class="modal-body">
+        <h1 id="modal-title" class="modal-title">Brief Title</h1>
+        <section class="modal-section">
+          <h2>Technical & Strategic Analysis</h2>
+          <ul id="modal-bullets" class="modal-bullets"></ul>
+        </section>
+        <section class="modal-section impact-section">
+          <h2>Strategic Impact</h2>
+          <p id="modal-impact"></p>
+        </section>
+        <div class="modal-footer">
+          <a href="#" id="modal-source-link" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Read Full Story &rarr;</a>
+        </div>
+      </article>
+    </div>
+  </dialog>
+
   <script>
+    let globalNewsData = [];
+
+    // Modal logic
+    const modal = document.getElementById('brief-modal');
+    const closeBtn = document.getElementById('close-modal');
+    const mImg = document.getElementById('modal-image');
+    const mTitle = document.getElementById('modal-title');
+    const mBullets = document.getElementById('modal-bullets');
+    const mImpact = document.getElementById('modal-impact');
+    const mLink = document.getElementById('modal-source-link');
+
+    closeBtn.addEventListener('click', () => modal.close());
+    modal.addEventListener('click', (e) => {
+      const dialogDimensions = modal.getBoundingClientRect();
+      if (e.clientX < dialogDimensions.left || e.clientX > dialogDimensions.right || e.clientY < dialogDimensions.top || e.clientY > dialogDimensions.bottom) {
+        modal.close();
+      }
+    });
+
+    function openModal(index) {
+      const item = globalNewsData[index];
+      if (!item) return;
+
+      mImg.style.backgroundImage = item.image_url ? `url('${item.image_url}')` : 'none';
+      mImg.style.display = item.image_url ? 'block' : 'none';
+      
+      mTitle.textContent = item.title || 'Untitled Brief';
+      
+      mBullets.innerHTML = '';
+      const bullets = Array.isArray(item.bullet_points) ? item.bullet_points : [item.description || ''];
+      bullets.forEach(b => {
+        const li = document.createElement('li');
+        li.textContent = b;
+        mBullets.appendChild(li);
+      });
+
+      mImpact.textContent = item.strategic_impact || 'No impact analysis available.';
+      mLink.href = item.original_link || item.link || '#';
+      
+      modal.showModal();
+    }
+
     // Navbar scroll effect
     const navbar = document.getElementById('navbar');
     window.addEventListener('scroll', () => {
@@ -866,6 +1074,7 @@
         
         const news = await response.json();
         if (!news || news.length === 0) return;
+        globalNewsData = news;
 
         // Formatter for dates
         const formatDate = (isoString) => {
@@ -878,9 +1087,10 @@
         const featured = news[0];
         if (featured) {
           document.getElementById('featured-title').textContent = featured.title;
-          document.getElementById('featured-desc').textContent = featured.description;
+          document.getElementById('featured-desc').textContent = Array.isArray(featured.bullet_points) ? featured.bullet_points[0] : featured.description;
           document.getElementById('featured-date').textContent = formatDate(featured.published_at || featured.added_at);
-          document.getElementById('featured-link').href = featured.link;
+          document.getElementById('featured-link').href = 'javascript:void(0)';
+          document.getElementById('featured-link').onclick = (e) => { e.preventDefault(); openModal(0); };
           
           if (featured.image_url) {
             document.getElementById('featured-bg').style.backgroundImage = `url('${featured.image_url}')`;
@@ -891,39 +1101,44 @@
         const side1 = news[1];
         if (side1) {
           document.getElementById('side1-title').textContent = side1.title;
-          document.getElementById('side1-desc').textContent = side1.description;
+          document.getElementById('side1-desc').textContent = Array.isArray(side1.bullet_points) ? side1.bullet_points[0] : side1.description;
           document.getElementById('side1-date').textContent = formatDate(side1.published_at || side1.added_at);
-          document.getElementById('side1-link').href = side1.link;
+          document.getElementById('side1-link').href = 'javascript:void(0)';
+          document.getElementById('side1-link').onclick = (e) => { e.preventDefault(); openModal(1); };
         }
 
         const side2 = news[2];
         if (side2) {
           document.getElementById('side2-title').textContent = side2.title;
-          document.getElementById('side2-desc').textContent = side2.description;
+          document.getElementById('side2-desc').textContent = Array.isArray(side2.bullet_points) ? side2.bullet_points[0] : side2.description;
           document.getElementById('side2-date').textContent = formatDate(side2.published_at || side2.added_at);
-          document.getElementById('side2-link').href = side2.link;
+          document.getElementById('side2-link').href = 'javascript:void(0)';
+          document.getElementById('side2-link').onclick = (e) => { e.preventDefault(); openModal(2); };
         }
 
         // Populate Analytics Grid (Index 3, 4, 5)
         const an1 = news[3];
         if (an1) {
           document.getElementById('an1-title').textContent = an1.title;
-          document.getElementById('an1-desc').textContent = an1.description;
-          document.getElementById('an1-link').href = an1.link;
+          document.getElementById('an1-desc').textContent = Array.isArray(an1.bullet_points) ? an1.bullet_points[0] : an1.description;
+          document.getElementById('an1-link').href = 'javascript:void(0)';
+          document.getElementById('an1-link').onclick = (e) => { e.preventDefault(); openModal(3); };
         }
 
         const an2 = news[4];
         if (an2) {
           document.getElementById('an2-title').textContent = an2.title;
-          document.getElementById('an2-desc').textContent = an2.description;
-          document.getElementById('an2-link').href = an2.link;
+          document.getElementById('an2-desc').textContent = Array.isArray(an2.bullet_points) ? an2.bullet_points[0] : an2.description;
+          document.getElementById('an2-link').href = 'javascript:void(0)';
+          document.getElementById('an2-link').onclick = (e) => { e.preventDefault(); openModal(4); };
         }
 
         const an3 = news[5];
         if (an3) {
           document.getElementById('an3-title').textContent = an3.title;
-          document.getElementById('an3-desc').textContent = an3.description;
-          document.getElementById('an3-link').href = an3.link;
+          document.getElementById('an3-desc').textContent = Array.isArray(an3.bullet_points) ? an3.bullet_points[0] : an3.description;
+          document.getElementById('an3-link').href = 'javascript:void(0)';
+          document.getElementById('an3-link').onclick = (e) => { e.preventDefault(); openModal(5); };
         }
 
       } catch (err) {

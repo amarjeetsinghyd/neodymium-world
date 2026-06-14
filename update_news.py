@@ -37,19 +37,25 @@ def get_image_url(entry):
     return None
 
 def rewrite_content(title, description):
-    """Uses Gemini to rewrite title and description in an institutional tone."""
+    """Uses Gemini to rewrite title and description into an Executive Brief."""
     prompt = f"""
 You are a senior intelligence analyst and editor for a premium, institutional Future Tech and Defense dashboard called 'Neodymium'.
-Rewrite the following news title and description into a highly advanced, objective, and premium institutional tone. 
-Remove any clickbait, sensationalism, or informal language. Make it sound like an executive briefing.
+Rewrite the following news title and description into an 'Executive Brief'.
+The brief must feature:
+1. A crisp Headline (title)
+2. 3-4 Bullet points (Technical & Strategic analysis)
+3. 'Strategic Impact' assessment (Why this defense/tech shift matters for institutional players)
+
+Remove any clickbait, sensationalism, or informal language. Make it sound highly advanced, objective, and premium.
 
 Original Title: {title}
 Original Description: {description}
 
 Respond strictly in the following JSON format without any markdown blocks or extra text:
 {{
-    "title": "Rewritten Title Here",
-    "description": "Rewritten Description Here"
+    "title": "Crisp Headline Here",
+    "bullet_points": ["Point 1", "Point 2", "Point 3"],
+    "strategic_impact": "Strategic impact assessment here"
 }}
 """
     try:
@@ -62,11 +68,15 @@ Respond strictly in the following JSON format without any markdown blocks or ext
             result_text = result_text[3:-3].strip()
         
         rewritten_data = json.loads(result_text)
-        return rewritten_data.get("title", title), rewritten_data.get("description", description)
+        return rewritten_data
     except Exception as e:
         print(f"Error during Gemini rewriting: {e}")
-        # Fallback to original if rewriting fails
-        return title, description
+        # Fallback
+        return {
+            "title": title,
+            "bullet_points": [description],
+            "strategic_impact": "Analysis pending."
+        }
 
 def main():
     print(f"Fetching RSS feed from {RSS_FEED_URL}...")
@@ -82,7 +92,7 @@ def main():
     else:
         existing_news = []
 
-    existing_links = {item['link'] for item in existing_news}
+    existing_links = {item.get('original_link', item.get('link')) for item in existing_news}
     new_items = []
 
     # Process top 5 entries
@@ -98,12 +108,13 @@ def main():
         published_date = entry.get('published', datetime.utcnow().isoformat())
         
         print(f"Processing new article: {title}")
-        rewritten_title, rewritten_desc = rewrite_content(title, raw_description)
+        rewritten_data = rewrite_content(title, raw_description)
         
         news_item = {
-            "title": rewritten_title,
-            "description": rewritten_desc,
-            "link": link,
+            "title": rewritten_data.get("title", title),
+            "bullet_points": rewritten_data.get("bullet_points", [raw_description]),
+            "strategic_impact": rewritten_data.get("strategic_impact", "Analysis pending."),
+            "original_link": link,
             "image_url": image_url,
             "published_at": published_date,
             "added_at": datetime.utcnow().isoformat()
