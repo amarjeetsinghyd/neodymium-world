@@ -60,15 +60,20 @@ Respond strictly in the following JSON format without any markdown blocks or ext
 }}
 """
     try:
-        response = model.generate_content(prompt)
-        # Clean up response if it contains markdown JSON blocks
-        result_text = response.text.strip()
-        if result_text.startswith("```json"):
-            result_text = result_text[7:-3].strip()
-        elif result_text.startswith("```"):
-            result_text = result_text[3:-3].strip()
-        
-        rewritten_data = json.loads(result_text)
+        response = model.generate_content(
+            prompt,
+            generation_config=genai.types.GenerationConfig(
+                response_mime_type="application/json",
+            ),
+            safety_settings={
+                genai.types.HarmCategory.HARM_CATEGORY_HATE_SPEECH: genai.types.HarmBlockThreshold.BLOCK_NONE,
+                genai.types.HarmCategory.HARM_CATEGORY_HARASSMENT: genai.types.HarmBlockThreshold.BLOCK_NONE,
+                genai.types.HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: genai.types.HarmBlockThreshold.BLOCK_NONE,
+                genai.types.HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: genai.types.HarmBlockThreshold.BLOCK_NONE,
+            }
+        )
+        # The response is guaranteed to be JSON
+        rewritten_data = json.loads(response.text.strip())
         return rewritten_data.get("full_report", {})
     except Exception as e:
         print(f"Error during Gemini rewriting: {e}")
