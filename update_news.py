@@ -239,8 +239,8 @@ def main():
         print(f"Adding {len(new_items)} new articles.")
         # Prepend new items
         updated_news = new_items + existing_news
-        # Keep only the latest 50 articles to prevent massive files
-        updated_news = updated_news[:50]
+        # Keep up to 1000 articles to build a deep historical database
+        updated_news = updated_news[:1000]
         
         with open(DATA_FILE, 'w', encoding='utf-8') as f:
             json.dump(updated_news, f, indent=4, ensure_ascii=False)
