@@ -1,1 +1,66 @@
-[]
+[
+    {
+        "title": "France enters ‘exclusive’ negotiations with MBDA, Safran for long-range strike: DefMin",
+        "category": "Error",
+        "full_report": {
+            "executive_summary": "<p>The move effectively knocks out other competitors to replace France&#8217;s current LRU arsenal, including a recent surprise bid by Lockheed Martin....</p>",
+            "technical_deep_dive": "<p>Exception occurred during generation: API Error 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.</p>\n<p>DEBUG INFO:\nAvailable models on this API key: models/gemini-2.5-flash, models/gemini-2.5-pro, models/gemini-2.0-flash, models/gemini-2.0-flash-001, models/gemini-2.0-flash-lite-001, models/gemini-2.0-flash-lite, models/gemini-2.5-flash-preview-tts, models/gemini-2.5-pro-preview-tts, models/gemma-4-26b-a4b-it, models/gemma-4-31b-it, models/gemini-flash-latest, models/gemini-flash-lite-latest, models/gemini-pro-latest, models/gemini-2.5-flash-lite, models/gemini-2.5-flash-image, models/gemini-3-pro-preview, models/gemini-3-flash-preview, models/gemini-3.1-pro-preview, models/gemini-3.1-pro-preview-customtools, models/gemini-3.1-flash-lite-preview, models/gemini-3.1-flash-lite, models/gemini-3-pro-image-preview, models/gemini-3-pro-image, models/nano-banana-pro-preview, models/gemini-3.1-flash-image-preview, models/gemini-3.1-flash-image, models/gemini-3.5-flash, models/lyria-3-clip-preview, models/lyria-3-pro-preview, models/gemini-3.1-flash-tts-preview, models/gemini-robotics-er-1.5-preview, models/gemini-robotics-er-1.6-preview, models/gemini-2.5-computer-use-preview-10-2025, models/antigravity-preview-05-2026, models/deep-research-max-preview-04-2026, models/deep-research-preview-04-2026, models/deep-research-pro-preview-12-2025, models/gemini-embedding-001, models/gemini-embedding-2-preview, models/gemini-embedding-2, models/aqa, models/imagen-4.0-generate-001, models/imagen-4.0-ultra-generate-001, models/imagen-4.0-fast-generate-001, models/veo-2.0-generate-001, models/veo-3.0-generate-001, models/veo-3.0-fast-generate-001, models/veo-3.1-generate-preview, models/veo-3.1-fast-generate-preview, models/veo-3.1-lite-generate-preview</p>",
+            "strategic_impact": "<p>Analysis pending.</p>",
+            "conclusion": "<p>Pending conclusion.</p>"
+        },
+        "original_link": "https://breakingdefense.com/2026/06/france-enters-exclusive-negotiations-with-mbda-safran-for-long-range-strike-defmin/",
+        "image_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/260615_MBDA_thundart_BD-e1781524644978-1024x577.jpeg",
+        "published_at": "Mon, 15 Jun 2026 12:35:01 +0000",
+        "added_at": "2026-06-15T12:50:18.994136",
+        "slug": "france-enters-exclusive-negotiations-with-mbda-safran-for-long-range-strike-defmin",
+        "article_url": "articles/france-enters-exclusive-negotiations-with-mbda-safran-for-long-range-strike-defmin.html"
+    },
+    {
+        "title": "Thales upgrades its laser guided rocket with new LiDAR sensor to target drones",
+        "category": "Error",
+        "full_report": {
+            "executive_summary": "<p>“We have integrated a new sensor behind the guidance kit, which is activated when it gets closer to the target,” one Thales Belgium official told Breaking Defense. ...</p>",
+            "technical_deep_dive": "<p>Exception occurred during generation: API Error 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.</p>\n<p>DEBUG INFO:\nAvailable models on this API key: models/gemini-2.5-flash, models/gemini-2.5-pro, models/gemini-2.0-flash, models/gemini-2.0-flash-001, models/gemini-2.0-flash-lite-001, models/gemini-2.0-flash-lite, models/gemini-2.5-flash-preview-tts, models/gemini-2.5-pro-preview-tts, models/gemma-4-26b-a4b-it, models/gemma-4-31b-it, models/gemini-flash-latest, models/gemini-flash-lite-latest, models/gemini-pro-latest, models/gemini-2.5-flash-lite, models/gemini-2.5-flash-image, models/gemini-3-pro-preview, models/gemini-3-flash-preview, models/gemini-3.1-pro-preview, models/gemini-3.1-pro-preview-customtools, models/gemini-3.1-flash-lite-preview, models/gemini-3.1-flash-lite, models/gemini-3-pro-image-preview, models/gemini-3-pro-image, models/nano-banana-pro-preview, models/gemini-3.1-flash-image-preview, models/gemini-3.1-flash-image, models/gemini-3.5-flash, models/lyria-3-clip-preview, models/lyria-3-pro-preview, models/gemini-3.1-flash-tts-preview, models/gemini-robotics-er-1.5-preview, models/gemini-robotics-er-1.6-preview, models/gemini-2.5-computer-use-preview-10-2025, models/antigravity-preview-05-2026, models/deep-research-max-preview-04-2026, models/deep-research-preview-04-2026, models/deep-research-pro-preview-12-2025, models/gemini-embedding-001, models/gemini-embedding-2-preview, models/gemini-embedding-2, models/aqa, models/imagen-4.0-generate-001, models/imagen-4.0-ultra-generate-001, models/imagen-4.0-fast-generate-001, models/veo-2.0-generate-001, models/veo-3.0-generate-001, models/veo-3.0-fast-generate-001, models/veo-3.1-generate-preview, models/veo-3.1-fast-generate-preview, models/veo-3.1-lite-generate-preview</p>",
+            "strategic_impact": "<p>Analysis pending.</p>",
+            "conclusion": "<p>Pending conclusion.</p>"
+        },
+        "original_link": "https://breakingdefense.com/2026/06/thales-upgrades-its-laser-guided-rocket-with-new-lidar-sensor-to-target-drones/",
+        "image_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/guided-rocket-1024x576.jpeg",
+        "published_at": "Mon, 15 Jun 2026 10:17:15 +0000",
+        "added_at": "2026-06-15T12:50:43.574937",
+        "slug": "thales-upgrades-its-laser-guided-rocket-with-new-lidar-sensor-to-target-drones",
+        "article_url": "articles/thales-upgrades-its-laser-guided-rocket-with-new-lidar-sensor-to-target-drones.html"
+    },
+    {
+        "title": "A satellite just learned to find things on its own — here’s what that means",
+        "category": "Error",
+        "full_report": {
+            "executive_summary": "<p>For the first time, an Earth observation satellite has found what it was looking for — on its own, without human analysts on the ground. The milestone, which occurred in April, marks the first reporte...</p>",
+            "technical_deep_dive": "<p>Exception occurred during generation: API Error 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.</p>\n<p>DEBUG INFO:\nAvailable models on this API key: models/gemini-2.5-flash, models/gemini-2.5-pro, models/gemini-2.0-flash, models/gemini-2.0-flash-001, models/gemini-2.0-flash-lite-001, models/gemini-2.0-flash-lite, models/gemini-2.5-flash-preview-tts, models/gemini-2.5-pro-preview-tts, models/gemma-4-26b-a4b-it, models/gemma-4-31b-it, models/gemini-flash-latest, models/gemini-flash-lite-latest, models/gemini-pro-latest, models/gemini-2.5-flash-lite, models/gemini-2.5-flash-image, models/gemini-3-pro-preview, models/gemini-3-flash-preview, models/gemini-3.1-pro-preview, models/gemini-3.1-pro-preview-customtools, models/gemini-3.1-flash-lite-preview, models/gemini-3.1-flash-lite, models/gemini-3-pro-image-preview, models/gemini-3-pro-image, models/nano-banana-pro-preview, models/gemini-3.1-flash-image-preview, models/gemini-3.1-flash-image, models/gemini-3.5-flash, models/lyria-3-clip-preview, models/lyria-3-pro-preview, models/gemini-3.1-flash-tts-preview, models/gemini-robotics-er-1.5-preview, models/gemini-robotics-er-1.6-preview, models/gemini-2.5-computer-use-preview-10-2025, models/antigravity-preview-05-2026, models/deep-research-max-preview-04-2026, models/deep-research-preview-04-2026, models/deep-research-pro-preview-12-2025, models/gemini-embedding-001, models/gemini-embedding-2-preview, models/gemini-embedding-2, models/aqa, models/imagen-4.0-generate-001, models/imagen-4.0-ultra-generate-001, models/imagen-4.0-fast-generate-001, models/veo-2.0-generate-001, models/veo-3.0-generate-001, models/veo-3.0-fast-generate-001, models/veo-3.1-generate-preview, models/veo-3.1-fast-generate-preview, models/veo-3.1-lite-generate-preview</p>",
+            "strategic_impact": "<p>Analysis pending.</p>",
+            "conclusion": "<p>Pending conclusion.</p>"
+        },
+        "original_link": "https://techcrunch.com/2026/06/15/a-satellite-just-learned-to-find-things-on-its-own-heres-what-that-means/",
+        "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/coast_ground_postprocess.png?resize=1200,900",
+        "published_at": "Mon, 15 Jun 2026 12:00:00 +0000",
+        "added_at": "2026-06-15T12:51:01.778068",
+        "slug": "a-satellite-just-learned-to-find-things-on-its-own-here-s-what-that-means",
+        "article_url": "articles/a-satellite-just-learned-to-find-things-on-its-own-here-s-what-that-means.html"
+    },
+    {
+        "title": "The AI layoff wave is becoming a powder keg",
+        "category": "Error",
+        "full_report": {
+            "executive_summary": "<p>Something strange is happening in tech right now. Companies are posting record profits and revenue while laying off tens of thousands of people, citing AI as the official explanation. So far this year...</p>",
+            "technical_deep_dive": "<p>Exception occurred during generation: API Error 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.</p>\n<p>DEBUG INFO:\nAvailable models on this API key: models/gemini-2.5-flash, models/gemini-2.5-pro, models/gemini-2.0-flash, models/gemini-2.0-flash-001, models/gemini-2.0-flash-lite-001, models/gemini-2.0-flash-lite, models/gemini-2.5-flash-preview-tts, models/gemini-2.5-pro-preview-tts, models/gemma-4-26b-a4b-it, models/gemma-4-31b-it, models/gemini-flash-latest, models/gemini-flash-lite-latest, models/gemini-pro-latest, models/gemini-2.5-flash-lite, models/gemini-2.5-flash-image, models/gemini-3-pro-preview, models/gemini-3-flash-preview, models/gemini-3.1-pro-preview, models/gemini-3.1-pro-preview-customtools, models/gemini-3.1-flash-lite-preview, models/gemini-3.1-flash-lite, models/gemini-3-pro-image-preview, models/gemini-3-pro-image, models/nano-banana-pro-preview, models/gemini-3.1-flash-image-preview, models/gemini-3.1-flash-image, models/gemini-3.5-flash, models/lyria-3-clip-preview, models/lyria-3-pro-preview, models/gemini-3.1-flash-tts-preview, models/gemini-robotics-er-1.5-preview, models/gemini-robotics-er-1.6-preview, models/gemini-2.5-computer-use-preview-10-2025, models/antigravity-preview-05-2026, models/deep-research-max-preview-04-2026, models/deep-research-preview-04-2026, models/deep-research-pro-preview-12-2025, models/gemini-embedding-001, models/gemini-embedding-2-preview, models/gemini-embedding-2, models/aqa, models/imagen-4.0-generate-001, models/imagen-4.0-ultra-generate-001, models/imagen-4.0-fast-generate-001, models/veo-2.0-generate-001, models/veo-3.0-generate-001, models/veo-3.0-fast-generate-001, models/veo-3.1-generate-preview, models/veo-3.1-fast-generate-preview, models/veo-3.1-lite-generate-preview</p>",
+            "strategic_impact": "<p>Analysis pending.</p>",
+            "conclusion": "<p>Pending conclusion.</p>"
+        },
+        "original_link": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/",
+        "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/Powder-Keg.png?resize=1200,960",
+        "published_at": "Mon, 15 Jun 2026 07:25:41 +0000",
+        "added_at": "2026-06-15T12:51:14.893741",
+        "slug": "the-ai-layoff-wave-is-becoming-a-powder-keg",
+        "article_url": "articles/the-ai-layoff-wave-is-becoming-a-powder-keg.html"
+    }
+]
