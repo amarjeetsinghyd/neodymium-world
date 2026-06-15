@@ -49,6 +49,7 @@ Original Content: {text}
 
 Respond strictly in the following JSON format without any markdown blocks or extra text:
 {{
+    "category": "One of: Geopolitics, Defense Technology, Cyber Security, Space Economy, AI & Autonomy, Global Tech",
     "full_report": {{
         "executive_summary": "Summary here...",
         "technical_deep_dive": "Deep dive here...",
@@ -87,12 +88,14 @@ Respond strictly in the following JSON format without any markdown blocks or ext
             
         rewritten_data = json.loads(result_text)
         
-        if "full_report" in rewritten_data:
-            return rewritten_data["full_report"]
-        elif "executive_summary" in rewritten_data:
+        if "full_report" in rewritten_data and "category" in rewritten_data:
             return rewritten_data
+        elif "full_report" in rewritten_data:
+            return {"category": "Global Tech", "full_report": rewritten_data["full_report"]}
+        elif "executive_summary" in rewritten_data:
+            return {"category": "Global Tech", "full_report": rewritten_data}
         else:
-            return rewritten_data.get("full_report", {})
+            return {"category": "Global Tech", "full_report": rewritten_data.get("full_report", {})}
             
     except Exception as e:
         print(f"Error during Gemini rewriting: {e}")
@@ -112,10 +115,13 @@ Respond strictly in the following JSON format without any markdown blocks or ext
             available_models_text = f"Failed to list models: {ex}"
 
         return {
-            "executive_summary": text[:200] + "...",
-            "technical_deep_dive": f"Exception occurred during generation: {str(e)}\n\nDEBUG INFO:\n{available_models_text}",
-            "strategic_impact": "Analysis pending.",
-            "conclusion": "Pending conclusion."
+            "category": "Error",
+            "full_report": {
+                "executive_summary": text[:200] + "...",
+                "technical_deep_dive": f"Exception occurred during generation: {str(e)}\n\nDEBUG INFO:\n{available_models_text}",
+                "strategic_impact": "Analysis pending.",
+                "conclusion": "Pending conclusion."
+            }
         }
 
 def main():
@@ -186,7 +192,9 @@ def main():
                 except json.JSONDecodeError:
                     pass
         
-        full_report = rewrite_content(title, article_text)
+        rewrite_result = rewrite_content(title, article_text)
+        category = rewrite_result.get("category", "Global Tech")
+        full_report = rewrite_result.get("full_report", {})
         
         # Convert markdown fields to HTML
         for key in full_report:
@@ -212,6 +220,7 @@ def main():
             
         news_item = {
             "title": title,
+            "category": category,
             "full_report": full_report,
             "original_link": link,
             "image_url": image_url,
@@ -225,6 +234,7 @@ def main():
         # Render and save static HTML
         html_content = template.render(
             title=title,
+            category=category,
             full_report=full_report,
             image_url=image_url,
             published_at=published_date,

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Neodymium | Future Tech & Defense Portal</title>
   <meta name="description" content="Premium next-generation institutional data and news dashboard for Future Tech and Defense.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -776,26 +777,46 @@
 
         <!-- Side Briefs -->
         <aside class="briefs-sidebar">
-          <article class="brief-card glass-card">
-            <span class="tag tag-outline">Intelligence</span>
-            <h3 id="side1-title">Strategic Semiconductor Supply Chain Restructuring</h3>
-            
-            <div class="meta" style="margin-top: auto;">
-              <span id="side1-date" style="color: var(--text-light); font-size: 0.8rem;">Updated recently</span>
-              <a href="#" id="side1-link" style="margin-left: auto; color: var(--accent-blue); text-decoration: none; font-size: 0.8rem; font-weight: 600;">Read &rarr;</a>
+          <article class="brief-card glass-card" style="padding: 0;">
+            <div id="side1-img" style="width: 100%; height: 160px; background-size: cover; background-position: center; border-bottom: 1px solid var(--glass-border); background-color: rgba(37, 99, 235, 0.1);"></div>
+            <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+              <span id="side1-tag" class="tag tag-outline" style="align-self: flex-start;">Intelligence</span>
+              <h3 id="side1-title" style="font-size: 1.15rem; line-height: 1.3;">Strategic Semiconductor Supply Chain Restructuring</h3>
+              
+              <div class="meta" style="margin-top: auto; padding-top: 1rem;">
+                <span id="side1-date" style="color: var(--text-light); font-size: 0.8rem;">Updated recently</span>
+                <a href="#" id="side1-link" style="margin-left: auto; color: var(--accent-blue); text-decoration: none; font-size: 0.8rem; font-weight: 600;">Read &rarr;</a>
+              </div>
             </div>
           </article>
 
-          <article class="brief-card glass-card">
-            <span class="tag tag-outline-violet">Intelligence</span>
-            <h3 id="side2-title">Swarm Logic Optimization in Multi-Domain Operations</h3>
-            
-            <div class="meta" style="margin-top: auto;">
-              <span id="side2-date" style="color: var(--text-light); font-size: 0.8rem;">Updated recently</span>
-              <a href="#" id="side2-link" style="margin-left: auto; color: var(--accent-violet); text-decoration: none; font-size: 0.8rem; font-weight: 600;">Read &rarr;</a>
+          <article class="brief-card glass-card" style="padding: 0;">
+            <div id="side2-img" style="width: 100%; height: 160px; background-size: cover; background-position: center; border-bottom: 1px solid var(--glass-border); background-color: rgba(124, 58, 237, 0.1);"></div>
+            <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+              <span id="side2-tag" class="tag tag-outline-violet" style="align-self: flex-start;">Intelligence</span>
+              <h3 id="side2-title" style="font-size: 1.15rem; line-height: 1.3;">Swarm Logic Optimization in Multi-Domain Operations</h3>
+              
+              <div class="meta" style="margin-top: auto; padding-top: 1rem;">
+                <span id="side2-date" style="color: var(--text-light); font-size: 0.8rem;">Updated recently</span>
+                <a href="#" id="side2-link" style="margin-left: auto; color: var(--accent-violet); text-decoration: none; font-size: 0.8rem; font-weight: 600;">Read &rarr;</a>
+              </div>
             </div>
           </article>
         </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Live Intelligence Feed Section -->
+  <section class="feed-section" id="live-feed" style="padding: 2rem 0 5rem;">
+    <div class="container">
+      <div class="section-header" style="margin-bottom: 2rem; border-bottom: 2px solid rgba(0,0,0,0.05); padding-bottom: 1rem;">
+        <h2 style="font-size: 2rem; color: var(--text-main);">Live Intelligence Feed</h2>
+      </div>
+      
+      <div id="live-feed-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2rem;">
+        <!-- Articles will be injected here via JavaScript -->
+        <p style="color: var(--text-muted);">Loading intelligence feed...</p>
       </div>
     </div>
   </section>
@@ -1021,43 +1042,140 @@
         const side1 = news[1];
         if (side1) {
           document.getElementById('side1-title').textContent = side1.title;
-                    document.getElementById('side1-date').textContent = formatDate(side1.published_at || side1.added_at);
+          document.getElementById('side1-date').textContent = formatDate(side1.published_at || side1.added_at);
           document.getElementById('side1-link').href = side1.article_url || side1.link || '#';
-                  }
+          if (side1.category) document.getElementById('side1-tag').textContent = side1.category;
+          if (side1.image_url) document.getElementById('side1-img').style.backgroundImage = `url('${side1.image_url}')`;
+        }
 
         const side2 = news[2];
         if (side2) {
           document.getElementById('side2-title').textContent = side2.title;
-                    document.getElementById('side2-date').textContent = formatDate(side2.published_at || side2.added_at);
+          document.getElementById('side2-date').textContent = formatDate(side2.published_at || side2.added_at);
           document.getElementById('side2-link').href = side2.article_url || side2.link || '#';
-                  }
+          if (side2.category) document.getElementById('side2-tag').textContent = side2.category;
+          if (side2.image_url) document.getElementById('side2-img').style.backgroundImage = `url('${side2.image_url}')`;
+        }
 
         // Populate Analytics Grid (Index 3, 4, 5)
         const an1 = news[3];
         if (an1) {
           document.getElementById('an1-title').textContent = an1.title;
-                    document.getElementById('an1-link').href = an1.article_url || an1.link || '#';
-                  }
+          document.getElementById('an1-link').href = an1.article_url || an1.link || '#';
+        }
 
         const an2 = news[4];
         if (an2) {
           document.getElementById('an2-title').textContent = an2.title;
-                    document.getElementById('an2-link').href = an2.article_url || an2.link || '#';
-                  }
+          document.getElementById('an2-link').href = an2.article_url || an2.link || '#';
+        }
 
         const an3 = news[5];
         if (an3) {
           document.getElementById('an3-title').textContent = an3.title;
-                    document.getElementById('an3-link').href = an3.article_url || an3.link || '#';
-                  }
+          document.getElementById('an3-link').href = an3.article_url || an3.link || '#';
+        }
+
+        // Populate Live Intelligence Feed Grid
+        const gridContainer = document.getElementById('live-feed-grid');
+        gridContainer.innerHTML = '';
+        
+        // Render all articles from index 6 onwards (or all if you prefer, let's do all from 6 onwards)
+        const feedItems = news.slice(6);
+        if (feedItems.length === 0) {
+           gridContainer.innerHTML = '<p style="color: var(--text-muted); grid-column: 1 / -1;">More intelligence coming soon...</p>';
+        } else {
+           feedItems.forEach(item => {
+             const card = document.createElement('article');
+             card.className = 'glass-card';
+             card.style.display = 'flex';
+             card.style.flexDirection = 'column';
+             card.style.overflow = 'hidden';
+             
+             let bgImg = item.image_url ? `url('${item.image_url}')` : 'none';
+             let fallbackBg = 'var(--gradient-primary)';
+             
+             card.innerHTML = `
+               <div style="width: 100%; height: 180px; background: ${bgImg} center/cover no-repeat ${fallbackBg}; border-bottom: 1px solid var(--glass-border);"></div>
+               <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+                 <span class="tag tag-outline" style="align-self: flex-start;">${item.category || 'Intelligence'}</span>
+                 <h3 style="font-size: 1.25rem; line-height: 1.3; margin: 0.5rem 0 1rem;">${item.title}</h3>
+                 <div class="meta" style="margin-top: auto;">
+                   <span style="color: var(--text-light); font-size: 0.85rem;">${formatDate(item.published_at || item.added_at)}</span>
+                   <a href="${item.article_url || item.link || '#'}" style="margin-left: auto; color: var(--accent-blue); text-decoration: none; font-size: 0.85rem; font-weight: 600;">Read Report &rarr;</a>
+                 </div>
+               </div>
+             `;
+             gridContainer.appendChild(card);
+           });
+        }
 
       } catch (err) {
         console.error("Error loading news data:", err);
       }
     }
 
+    // Modal System Setup
+    function setupModals() {
+      // Create global modal container
+      const modal = document.createElement('dialog');
+      modal.className = 'glass-modal';
+      modal.innerHTML = `
+        <div class="modal-content">
+          <button class="modal-close" onclick="this.closest('dialog').close()">&times;</button>
+          <div class="modal-body" style="text-align: center; padding: 4rem 2rem;">
+            <div class="brand-icon" style="margin: 0 auto 1.5rem; width: 48px; height: 48px; font-size: 1.5rem;">N</div>
+            <h2 id="modal-msg-title" style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--text-main);">Notice</h2>
+            <p id="modal-msg-text" style="color: var(--text-muted); font-size: 1.1rem; max-width: 400px; margin: 0 auto;"></p>
+          </div>
+        </div>
+      `;
+      document.body.appendChild(modal);
+
+      // Attach to dead links
+      const deadLinks = document.querySelectorAll('a[href="#"]');
+      deadLinks.forEach(link => {
+        if (link.id !== 'featured-link' && link.id !== 'side1-link' && link.id !== 'side2-link' && !link.id.startsWith('an')) {
+          link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const text = link.textContent.trim();
+            const modalTitle = document.getElementById('modal-msg-title');
+            const modalText = document.getElementById('modal-msg-text');
+            
+            if (text.includes('Careers')) {
+              modalTitle.textContent = 'No Vacancies';
+              modalText.textContent = 'We are currently not hiring at the moment. Please check back later for career opportunities at Neodymium.';
+            } else if (text.includes('Subscribe')) {
+              modalTitle.textContent = 'Terminal Access Closed';
+              modalText.textContent = 'Terminal subscription enrollments are currently paused while we upgrade our server infrastructure.';
+            } else {
+              modalTitle.textContent = 'Coming Soon';
+              modalText.textContent = \`The "\${text}" feature is currently under active development. Stay tuned for our next platform update.\`;
+            }
+            modal.showModal();
+          });
+        }
+      });
+      
+      // Close on backdrop click
+      modal.addEventListener('click', (e) => {
+        const dialogDimensions = modal.getBoundingClientRect()
+        if (
+          e.clientX < dialogDimensions.left ||
+          e.clientX > dialogDimensions.right ||
+          e.clientY < dialogDimensions.top ||
+          e.clientY > dialogDimensions.bottom
+        ) {
+          modal.close()
+        }
+      });
+    }
+
     // Initialize
-    document.addEventListener('DOMContentLoaded', loadNewsData);
+    document.addEventListener('DOMContentLoaded', () => {
+      loadNewsData();
+      setupModals();
+    });
 
   </script>
 </body>
