@@ -3,7 +3,6 @@ backend:
   repo: amarjeetsinghyd/neodymium-world
   branch: main
   use_pkce: true
-  app_id: "Ov23lioRpLZH76ByGLrw"
 
 media_folder: "assets/images"
 public_folder: "/assets/images"
