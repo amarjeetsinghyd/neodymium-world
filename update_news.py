@@ -5,6 +5,7 @@ import re
 import requests
 import time
 import trafilatura
+import markdown
 from datetime import datetime
 from urllib.parse import urlparse
 from jinja2 import Environment, FileSystemLoader
@@ -15,7 +16,11 @@ if not API_KEY:
     raise ValueError("GEMINI_API_KEY environment variable not set.")
 
 # Feed configuration
-RSS_FEED_URL = "https://breakingdefense.com/feed/"
+RSS_FEEDS = [
+    "https://breakingdefense.com/feed/",
+    "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "https://www.wired.com/feed/category/tech/latest/rss"
+]
 DATA_FILE = "news_data.json"
 
 def get_image_url(entry):
@@ -114,9 +119,6 @@ Respond strictly in the following JSON format without any markdown blocks or ext
         }
 
 def main():
-    print(f"Fetching RSS feed from {RSS_FEED_URL}...")
-    feed = feedparser.parse(RSS_FEED_URL)
-    
     # Setup Jinja2 Environment
     env = Environment(loader=FileSystemLoader('.'))
     try:
@@ -141,12 +143,26 @@ def main():
     existing_links = {item.get('original_link', item.get('link')) for item in existing_news}
     new_items = []
 
-    # Process top 5 entries
-    for entry in feed.entries[:5]:
-        link = entry.link
-        if link in existing_links:
-            continue
+    entries_to_process = []
+    for feed_url in RSS_FEEDS:
+        print(f"Fetching RSS feed from {feed_url}...")
+        feed = feedparser.parse(feed_url)
+        count = 0
+        for entry in feed.entries:
+            if entry.link in existing_links:
+                continue
+            entries_to_process.append(entry)
+            count += 1
+            if count >= 2:
+                break
+        if len(entries_to_process) >= 5:
+            break
             
+    entries_to_process = entries_to_process[:5]
+
+    # Process up to 5 entries
+    for entry in entries_to_process:
+        link = entry.link
         title = entry.title
         # Clean HTML from description
         raw_description = re.sub(r'<[^>]+>', '', entry.get('summary', ''))
@@ -171,6 +187,11 @@ def main():
                     pass
         
         full_report = rewrite_content(title, article_text)
+        
+        # Convert markdown fields to HTML
+        for key in full_report:
+            if isinstance(full_report[key], str):
+                full_report[key] = markdown.markdown(full_report[key])
         
         # Free Tier Rate Limit Handling: 5 Requests Per Minute = 12.5 seconds per request.
         time.sleep(12.5)
