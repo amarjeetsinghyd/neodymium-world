@@ -143,7 +143,8 @@ def main():
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, 'r', encoding='utf-8') as f:
             try:
-                existing_news = json.load(f)
+                data = json.load(f)
+                existing_news = data.get("articles", []) if isinstance(data, dict) else data
             except json.JSONDecodeError:
                 existing_news = []
     else:
@@ -233,7 +234,6 @@ def main():
             "article_url": article_url
         }
         new_items.append(news_item)
-        
         # Render and save static HTML
         html_content = template.render(
             title=title,
@@ -248,6 +248,35 @@ def main():
             f.write(html_content)
         print(f"Generated static page: {article_url}")
 
+    # Build missing HTML files (for CMS manual entries)
+    for item in existing_news:
+        if "article_url" in item and not os.path.exists(item["article_url"]):
+            print(f"Rebuilding missing HTML for: {item.get('title')}")
+            # Format markdown if necessary
+            report = item.get("full_report", {})
+            for key in report:
+                if isinstance(report[key], str) and not report[key].strip().startswith("<"):
+                    report[key] = markdown.markdown(report[key])
+            
+            pub_name = "Neodymium Intel"
+            try:
+                if item.get("original_link") and "http" in item["original_link"]:
+                    pub_name = urlparse(item["original_link"]).netloc.replace('www.', '')
+            except:
+                pass
+                
+            html_content = template.render(
+                title=item.get("title", ""),
+                category=item.get("category", "Intelligence"),
+                full_report=report,
+                image_url=item.get("image_url", ""),
+                published_at=item.get("published_at", ""),
+                original_link=item.get("original_link", "#"),
+                publisher_name=pub_name
+            )
+            with open(item["article_url"], 'w', encoding='utf-8') as f:
+                f.write(html_content)
+
     if new_items:
         print(f"Adding {len(new_items)} new articles.")
         # Prepend new items
@@ -256,7 +285,7 @@ def main():
         updated_news = updated_news[:1000]
         
         with open(DATA_FILE, 'w', encoding='utf-8') as f:
-            json.dump(updated_news, f, indent=4, ensure_ascii=False)
+            json.dump({"articles": updated_news}, f, indent=4, ensure_ascii=False)
         print("Updated news_data.json successfully.")
     else:
         print("No new articles found.")

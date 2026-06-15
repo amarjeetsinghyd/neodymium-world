@@ -1019,8 +1019,7 @@
           return;
         }
         
-        const data = await response.json();
-        const news = data.articles || data; // Fallback for backwards compatibility
+        const news = await response.json();
         if (!news || news.length === 0) return;
         globalNewsData = news;
 
