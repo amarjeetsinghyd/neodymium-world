@@ -21,7 +21,8 @@ RSS_FEEDS = [
     "https://techcrunch.com/category/artificial-intelligence/feed/",
     "https://www.wired.com/feed/category/tech/latest/rss",
     "https://idrw.org/feed/",
-    "https://www.thehindu.com/sci-tech/technology/feeder/default.rss"
+    "https://www.thehindu.com/sci-tech/technology/feeder/default.rss",
+    "https://analyticsindiamag.com/feed/"
 ]
 DATA_FILE = "news_data.json"
 
