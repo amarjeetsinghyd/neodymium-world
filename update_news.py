@@ -19,7 +19,9 @@ if not API_KEY:
 RSS_FEEDS = [
     "https://breakingdefense.com/feed/",
     "https://techcrunch.com/category/artificial-intelligence/feed/",
-    "https://www.wired.com/feed/category/tech/latest/rss"
+    "https://www.wired.com/feed/category/tech/latest/rss",
+    "https://idrw.org/feed/",
+    "https://www.thehindu.com/sci-tech/technology/feeder/default.rss"
 ]
 DATA_FILE = "news_data.json"
 
