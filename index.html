@@ -1096,11 +1096,10 @@
              card.style.flexDirection = 'column';
              card.style.overflow = 'hidden';
              
-             let bgImg = item.image_url ? `url('${item.image_url}')` : 'none';
-             let fallbackBg = 'var(--gradient-primary)';
+             let bgImg = item.image_url ? `url('${item.image_url}')` : 'var(--gradient-primary)';
              
              card.innerHTML = `
-               <div style="width: 100%; height: 180px; background: ${bgImg} center/cover no-repeat ${fallbackBg}; border-bottom: 1px solid var(--glass-border);"></div>
+               <div style="width: 100%; height: 180px; background: ${bgImg}; background-size: cover; background-position: center; border-bottom: 1px solid var(--glass-border);"></div>
                <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
                  <span class="tag tag-outline" style="align-self: flex-start;">${item.category || 'Intelligence'}</span>
                  <h3 style="font-size: 1.25rem; line-height: 1.3; margin: 0.5rem 0 1rem;">${item.title}</h3>
