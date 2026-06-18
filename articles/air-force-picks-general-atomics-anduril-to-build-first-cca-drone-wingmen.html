@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Air Force picks General Atomics, Anduril to build first CCA drone wingmen | Neodymium</title>
+  <meta name="description" content="<p>This intelligence report details the United States Air Force's pivotal selection of General Atomics and Anduril as the primary hardware manufacturers for the inaugural increment of the Collaborative Combat Aircraft (CCA) program. Concurrently, a separate, highly competitive process is underway to determine the provider of advanced autonomy software, with Anduril, Shield AI, and RTX subsidiary Collins Aerospace advancing to the next phase. This announcement represents a significant inflection point in the development of future airpower capabilities, aiming to deliver a transformative human-machine teaming paradigm for air superiority. The program emphasizes rapid prototyping, agile acquisition, and cost-effectiveness, with a unit cost target substantially below that of fifth-generation manned aircraft. Initial funding requests for Fiscal Year 2027 underscore the strategic imperative to accelerate development and procurement, signaling an aggressive timeline for operational deployment of these loyal wingman drones.</p>">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #f3f5f9;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --text-light: #94a3b8;
+      
+      --accent-blue: #2563eb;
+      --accent-violet: #7c3aed;
+      --accent-cyan: #06b6d4;
+      
+      --gradient-primary: linear-gradient(135deg, #2563eb, #7c3aed);
+      --gradient-hover: linear-gradient(135deg, #3b82f6, #8b5cf6);
+      
+      --glass-bg: rgba(255, 255, 255, 0.65);
+      --glass-border: rgba(255, 255, 255, 0.4);
+      --glass-shadow: 0 8px 32px rgba(31, 38, 135, 0.07);
+      
+      --font-heading: 'Outfit', sans-serif;
+      --font-body: 'Inter', sans-serif;
+      
+      --radius-sm: 8px;
+      --radius-md: 16px;
+      --radius-lg: 24px;
+      --radius-xl: 32px;
+      
+      --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--text-main);
+      background-color: var(--bg-color);
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+
+    /* Article Rich Text Formatting */
+    article p {
+      margin-bottom: 1.25rem;
+    }
+    article ul, article ol {
+      margin-bottom: 1.25rem;
+      margin-left: 2rem;
+    }
+    article li {
+      margin-bottom: 0.5rem;
+    }
+    article h3, article h4 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Vibrant Background Gradients */
+    body::before, body::after {
+      content: '';
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(100px);
+      z-index: -1;
+      animation: float 20s infinite alternate ease-in-out;
+    }
+
+    body::before {
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(124, 58, 237, 0.15) 0%, transparent 70%);
+      top: -200px;
+      left: -100px;
+    }
+
+    body::after {
+      width: 700px;
+      height: 700px;
+      background: radial-gradient(circle, rgba(37, 99, 235, 0.15) 0%, transparent 70%);
+      bottom: -300px;
+      right: -100px;
+      animation-delay: -10s;
+    }
+
+    @keyframes float {
+      0% { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(50px, 50px) scale(1.1); }
+    }
+
+    /* Container */
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    /* Typography */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .text-gradient {
+      background: var(--gradient-primary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* Navbar */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      padding: 1.25rem 0;
+      transition: all var(--transition);
+    }
+
+    .navbar.scrolled {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      padding: 1rem 0;
+    }
+
+    .nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand {
+      font-family: var(--font-heading);
+      font-size: 1.75rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .brand-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: var(--radius-sm);
+      background: var(--gradient-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.25rem;
+      font-weight: 800;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2.5rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--text-muted);
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: color var(--transition);
+      position: relative;
+    }
+
+    .nav-links a:hover {
+      color: var(--accent-blue);
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--gradient-primary);
+      transition: width var(--transition);
+      border-radius: 2px;
+    }
+
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.75rem 1.5rem;
+      border-radius: 100px;
+      font-family: var(--font-body);
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-decoration: none;
+      transition: all var(--transition);
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-primary {
+      background: var(--gradient-primary);
+      color: white;
+      box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+    }
+
+    .btn-primary:hover {
+      background: var(--gradient-hover);
+      box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+      transform: translateY(-2px);
+    }
+
+    .btn-glass {
+      background: rgba(255, 255, 255, 0.5);
+      color: var(--text-main);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.8);
+    }
+
+    .btn-glass:hover {
+      background: rgba(255, 255, 255, 0.8);
+      transform: translateY(-2px);
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 10rem 0 5rem;
+    }
+
+    .section-header {
+      margin-bottom: 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      letter-spacing: -0.02em;
+    }
+
+    .section-subtitle {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+    }
+
+    /* Featured Briefs (Hero Layout) */
+    .featured-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 2rem;
+    }
+
+    .glass-card {
+      background: var(--glass-bg);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--glass-shadow);
+      overflow: hidden;
+      transition: transform var(--transition), box-shadow var(--transition);
+      position: relative;
+    }
+
+    .glass-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 40px rgba(31, 38, 135, 0.1);
+    }
+
+    .featured-main {
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 3rem;
+      position: relative;
+      color: white;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+
+    #featured-bg {
+      position: absolute;
+      inset: 0;
+      background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600"><defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="%232563eb"/><stop offset="100%" stop-color="%237c3aed"/></linearGradient></defs><rect width="100%" height="100%" fill="url(%23g)"/></svg>') center/cover;
+      z-index: -2;
+      transition: background-image 0.5s ease;
+    }
+
+    .featured-main::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.2) 60%, transparent 100%);
+      z-index: -1;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 0.35rem 1rem;
+      border-radius: 100px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 1rem;
+    }
+
+    .tag-primary {
+      background: var(--gradient-primary);
+      color: white;
+    }
+
+    .tag-light {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .featured-main h2 {
+      font-size: 2.75rem;
+      margin-bottom: 1rem;
+      line-height: 1.1;
+      text-wrap: balance;
+    }
+
+    .featured-main p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      max-width: 600px;
+      margin-bottom: 1.5rem;
+    }
+
+    .meta {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      font-size: 0.85rem;
+      opacity: 0.8;
+    }
+
+    .meta-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .meta-item svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    /* Side Briefs */
+    .briefs-sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .brief-card {
+      flex: 1;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .brief-card h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .brief-card p {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .tag-outline {
+      background: transparent;
+      color: var(--accent-blue);
+      border: 1px solid rgba(37, 99, 235, 0.3);
+    }
+
+    .tag-outline-violet {
+      background: transparent;
+      color: var(--accent-violet);
+      border: 1px solid rgba(124, 58, 237, 0.3);
+    }
+
+    /* Analytics Grid Section */
+    .analytics-section {
+      padding: 5rem 0 8rem;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+
+    .analytics-card {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .card-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: var(--radius-md);
+      background: rgba(255, 255, 255, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      color: var(--accent-blue);
+    }
+
+    .analytics-card h3 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .analytics-card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+      flex-grow: 1;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(0,0,0,0.05);
+    }
+
+    .read-more {
+      font-weight: 600;
+      color: var(--accent-blue);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+      font-size: 0.9rem;
+      transition: gap var(--transition);
+    }
+
+    .read-more:hover {
+      gap: 0.5rem;
+    }
+
+    /* Data Visualization Placeholder */
+    .data-viz {
+      margin-top: 1.5rem;
+      height: 80px;
+      background: linear-gradient(180deg, transparent 50%, rgba(37, 99, 235, 0.05) 50%);
+      background-size: 100% 20px;
+      position: relative;
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      display: flex;
+      align-items: flex-end;
+      gap: 4px;
+      padding: 0 10px;
+    }
+
+    .bar {
+      flex: 1;
+      background: var(--gradient-primary);
+      border-radius: 4px 4px 0 0;
+      opacity: 0.7;
+      animation: growUp 1s ease-out forwards;
+      transform-origin: bottom;
+      transform: scaleY(0);
+    }
+
+    @keyframes growUp {
+      to { transform: scaleY(1); }
+    }
+
+    /* Footer */
+    footer {
+      background: white;
+      border-top: 1px solid rgba(0,0,0,0.05);
+      padding: 4rem 0 2rem;
+    }
+
+    .footer-content {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 3rem;
+      margin-bottom: 4rem;
+    }
+
+    .footer-col h4 {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color var(--transition);
+    }
+
+    .footer-links a:hover {
+      color: var(--accent-violet);
+    }
+
+    .newsletter-form {
+      display: flex;
+      margin-top: 1rem;
+    }
+
+    .newsletter-form input {
+      flex: 1;
+      padding: 0.75rem 1rem;
+      border: 1px solid rgba(0,0,0,0.1);
+      border-radius: var(--radius-sm) 0 0 var(--radius-sm);
+      font-family: var(--font-body);
+      outline: none;
+      transition: border-color var(--transition);
+    }
+
+    .newsletter-form input:focus {
+      border-color: var(--accent-blue);
+    }
+
+    .newsletter-form button {
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      padding: 0.75rem 1.5rem;
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(0,0,0,0.05);
+      color: var(--text-light);
+      font-size: 0.85rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .featured-grid {
+        grid-template-columns: 1fr;
+      }
+      .grid-3 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .footer-content {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+      }
+      .grid-3 {
+        grid-template-columns: 1fr;
+      }
+      .footer-content {
+        grid-template-columns: 1fr;
+      }
+      .featured-main h2 {
+        font-size: 2rem;
+      }
+    }
+
+    /* Modal System */
+    .glass-modal {
+      border: none;
+      background: transparent;
+      padding: 0;
+      margin: auto;
+      max-width: 800px;
+      width: 90%;
+      border-radius: var(--radius-xl);
+    }
+    
+    .glass-modal::backdrop {
+      background: rgba(15, 23, 42, 0.7);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+
+    .modal-content {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-xl);
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      max-height: 90vh;
+      animation: modalFadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    @keyframes modalFadeIn {
+      from { opacity: 0; transform: translateY(20px) scale(0.95); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      background: rgba(255, 255, 255, 0.5);
+      border: 1px solid rgba(0,0,0,0.1);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 10;
+      transition: all var(--transition);
+      color: var(--text-main);
+    }
+
+    .modal-close:hover {
+      background: white;
+      transform: scale(1.1);
+    }
+
+    .modal-header-img {
+      width: 100%;
+      height: 250px;
+      background-size: cover;
+      background-position: center;
+      background-color: var(--text-main); /* fallback */
+    }
+
+    .modal-body {
+      padding: 3rem;
+      overflow-y: auto;
+    }
+
+    .modal-title {
+      font-size: 2.25rem;
+      margin-bottom: 2rem;
+      color: var(--text-main);
+      line-height: 1.2;
+    }
+
+    .modal-section {
+      margin-bottom: 2rem;
+    }
+
+    .modal-section h2 {
+      font-size: 1.1rem;
+      color: var(--accent-violet);
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .modal-text {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin-bottom: 1rem;
+    }
+
+    .impact-section {
+      background: rgba(37, 99, 235, 0.05);
+      border-left: 4px solid var(--accent-blue);
+      padding: 1.5rem;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    }
+
+    .impact-section h2 {
+      color: var(--accent-blue);
+      margin-bottom: 0.5rem;
+    }
+
+    .impact-section p {
+      font-size: 1.05rem;
+      font-weight: 500;
+      color: var(--text-main);
+    }
+
+    .modal-footer {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(0,0,0,0.05);
+      display: flex;
+      justify-content: flex-end;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand">
+        <div class="brand-icon">N</div>
+        Neodymium
+      </a>
+      <ul class="nav-links">
+        <li><a href="#briefs">Intelligence Briefs</a></li>
+        <li><a href="#analytics">Data & Analytics</a></li>
+        <li><a href="#">Policy Watch</a></li>
+        <li><a href="#">Global Index</a></li>
+      </ul>
+      <a href="#" class="btn btn-primary">Subscribe to Terminal</a>
+    </div>
+  </nav>
+
+  <!-- Hero / Featured Briefs -->
+
+  <article class="container" style="padding-top: 10rem; padding-bottom: 5rem; max-width: 900px;">
+    
+    <div style="width: 100%; height: 400px; background-image: url('https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/cca-together-e1781731143274.jpg'); background-size: cover; background-position: center; border-radius: var(--radius-lg); margin-bottom: 3rem; box-shadow: var(--glass-shadow);"></div>
+    
+    
+    <h1 style="font-size: 3rem; margin-bottom: 1rem; line-height: 1.1;">Air Force picks General Atomics, Anduril to build first CCA drone wingmen</h1>
+    
+    <div style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 3rem; display: flex; gap: 2rem; align-items: center;">
+      <span><strong>Published:</strong> Wed, 17 Jun 2026 21:05:21 +0000</span>
+    </div>
+
+    <section style="margin-bottom: 3rem;">
+      <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Executive Summary</h2>
+      <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);"><p>This intelligence report details the United States Air Force's pivotal selection of General Atomics and Anduril as the primary hardware manufacturers for the inaugural increment of the Collaborative Combat Aircraft (CCA) program. Concurrently, a separate, highly competitive process is underway to determine the provider of advanced autonomy software, with Anduril, Shield AI, and RTX subsidiary Collins Aerospace advancing to the next phase. This announcement represents a significant inflection point in the development of future airpower capabilities, aiming to deliver a transformative human-machine teaming paradigm for air superiority. The program emphasizes rapid prototyping, agile acquisition, and cost-effectiveness, with a unit cost target substantially below that of fifth-generation manned aircraft. Initial funding requests for Fiscal Year 2027 underscore the strategic imperative to accelerate development and procurement, signaling an aggressive timeline for operational deployment of these loyal wingman drones.</p></div>
+    </section>
+
+    <section style="margin-bottom: 3rem;">
+      <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Technical Deep-Dive</h2>
+      <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);"><p>The Collaborative Combat Aircraft (CCA) program, a cornerstone of the U.S. Air Force's future airpower strategy, has reached a critical juncture with the selection of General Atomics and Anduril for hardware production. This decision follows an exhaustive and competitive source selection process, which initially involved five leading aerospace firms: General Atomics, Anduril, Boeing, Lockheed Martin, and Northrop Grumman. While General Atomics and Anduril had previously secured prototyping contracts in 2024, the Air Force clarified that the final selection was the result of a 'completely new source selection' evaluation, ensuring a fair assessment of all contenders based on stringent criteria including schedule adherence, demanding cost targets, and the performance necessary to field over 150 operational aircraft by the end of the decade. This aggressive timeline underscores the strategic urgency driving the CCA initiative.</p>
+<p><strong>Hardware Specifications and Production Strategy:</strong></p>
+<p>General Atomics' selected design, initially designated YFQ-42A, and Anduril's YFQ-44A, are foundational to the Increment 1 effort. Both designs, while rooted in their 2024 prototype iterations, have undergone iterative refinement based on developmental lessons learned, indicating a dynamic design-development cycle. Upon transition to production, these designations will drop the 'Y' prefix, becoming FQ-42A and FQ-44A, respectively. Notably, the propulsion systems for these unmanned platforms will be contractor-provided, allowing for potential innovation and flexibility in engine integration. The Air Force's decision explicitly stated that a prior incident involving the YFQ-42A prototype crash earlier in the year, which led to a month-long grounding, had no bearing on the source selection outcome, highlighting a commitment to performance and programmatic resilience over isolated events.</p>
+<p>Production will be structured into multiple 'lots,' with an initial three tranches planned. The Air Force intends to maintain flexibility in allocating orders between General Atomics and Anduril, driven by factors ensuring speed and scale of capability delivery. For Increment 1, the Air Force does not anticipate re-opening competition to the initial three unsuccessful bidders, focusing instead on optimizing production from the two selected vendors. The overarching mission for this initial increment is confirmed as air superiority, implying stringent requirements for speed, maneuverability, sensor integration, and payload capacity, even as specific operational capabilities remain largely undisclosed beyond a target combat radius of 700 nautical miles.</p>
+<p><strong>Cost and Funding Mandates:</strong></p>
+<p>A critical element of the CCA program is its emphasis on affordability and attritability. The Air Force has set a long-standing target for CCA unit costs to be approximately one-third that of an F-35A. Given the Lot 17 F-35A unit cost of approximately $82.5 million, this places the target cost per CCA unit at under $30 million. This cost imperative is central to enabling the mass production and potential attritable nature of these platforms. Financially, the Air Force's Fiscal Year 2027 budget request includes approximately $1.4 billion for CCA development and nearly $1 billion for procurement. This substantial investment signifies the program's high priority and the Air Force's intent to commence execution of the first production lot as soon as funding is appropriated, reinforcing the aggressive fielding timeline.</p>
+<p><strong>Autonomy Software Deep-Dive – The 'Brain' of the System:</strong></p>
+<p>Parallel to the hardware development, the Air Force has deliberately pursued a separate, equally rigorous competition for the CCA's autonomy software, recognizing that advanced artificial intelligence and machine learning are the core enablers of human-machine teaming. Initially, RTX (through Collins Aerospace) was aligned to provide autonomy for General Atomics' drone, and Shield AI for Anduril's. The current phase of this autonomy competition has narrowed the field to Anduril (leveraging its own internal capabilities), Shield AI (with its 'Hivemind' system), and RTX subsidiary Collins Aerospace. These three entities have now entered a six-month performance period.</p>
+<p>Following this initial phase, a downselect will occur, advancing 'one or two' contractors to a subsequent six-month performance test. The ultimate goal is a final downselect to a single autonomy software vendor in Summer 2027. Crucially, the Air Force intends to maintain a pool of all six original software vendors as a strategic backup. This 'vendor pool' concept provides significant programmatic flexibility, allowing the service to potentially procure additional licenses, introduce alternative autonomy solutions, or pivot to different vendors if unforeseen challenges arise or if future increments demand diverse capabilities. This strategy mitigates single-point-of-failure risks and encourages continuous innovation across the broader industrial base.</p>
+<p>The complexity of the autonomy software is immense. It must facilitate 'collaborative combat autonomy behaviors,' enabling multiple unmanned aircraft to operate cohesively under human supervision. Key objectives include significantly reducing operator workload through intelligent automation, orchestrating synchronized actions across a swarm or formation, and enabling 'coordinated operations at scale' – a fundamental shift from traditional single-platform control. Industry feedback, particularly from Anduril, highlighted the challenging and often 'not linear' journey of autonomy development, including instances of 'complete rebuilds,' underscoring the cutting-edge nature of this technological endeavor. Shield AI's Hivemind system, for example, is specifically designed to manage complex, multi-agent cooperative tasks, embodying the vision for advanced, adaptive, and scalable autonomous combat operations. The Air Force's approach to this critical software component reflects an agile, iterative development philosophy designed to rapidly field capabilities and maintain a decisive technological edge.</p></div>
+    </section>
+
+    <section style="background: rgba(37, 99, 235, 0.05); border-left: 4px solid var(--accent-blue); padding: 2rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-bottom: 3rem;">
+      <h2 style="color: var(--accent-blue); margin-bottom: 1rem; font-size: 1.2rem;">Strategic Impact</h2>
+      <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main); font-weight: 500;"><p>The Collaborative Combat Aircraft (CCA) program marks a profound paradigm shift in United States Air Force doctrine and strategy, portending significant implications across several domains. The integration of semi-autonomous fighter aircraft, operating as loyal wingmen alongside manned platforms, fundamentally redefines the concept of air superiority and future aerial combat. This initiative is not merely an augmentation of existing capabilities but a deliberate step towards a more distributed, resilient, and adaptable force structure.</p>
+<p><strong>Doctrinal Evolution and Operational Advantages:</strong></p>
+<p>The CCA will enable a human-machine teaming construct, enhancing the lethality, survivability, and persistence of manned aircraft. These drones can serve multiple roles: extending the sensor reach of manned fighters, acting as forward scouts or decoys to draw enemy fire, carrying additional ordnance (functioning as 'missile trucks'), providing electronic warfare support, or conducting reconnaissance in high-threat environments. This disaggregation of risk means that expensive, manned platforms can operate from safer distances, while the attritable, lower-cost CCAs absorb risks in contested airspace. The target combat radius of 700 nautical miles, coupled with the air superiority mission, suggests a critical role in penetrating contested airspace and enabling operations against sophisticated peer adversaries. The ability to deploy CCAs in large numbers, facilitated by their sub-$30 million unit cost, alters the economic calculus of attrition warfare, making it far more costly for an adversary to engage in prolonged air-to-air engagements.</p>
+<p><strong>Industrial Base Transformation and Innovation:</strong></p>
+<p>The selection of General Atomics, a stalwart in the unmanned systems domain, alongside Anduril, a 'non-traditional' defense prime known for its rapid development cycles and software-centric approach, signals a deliberate strategy to diversify the defense industrial base. This move injects fresh competition and agile methodologies into a sector traditionally dominated by legacy primes. The parallel and highly competitive autonomy software development path further underscores this commitment to fostering innovation, leveraging diverse talent, and accelerating the fielding of advanced capabilities. While legacy primes like Boeing, Lockheed Martin, and Northrop Grumman were not selected for Increment 1 hardware, the Air Force's multi-increment strategy suggests future opportunities and maintains pressure on all industry players to innovate and adapt.</p>
+<p><strong>Global Power Projection and Deterrence:</strong></p>
+<p>The successful deployment of a large fleet of CCAs will significantly enhance the U.S. Air Force's global power projection capabilities. It complicates adversary targeting decisions, multiplies the number of potential targets, and enables more complex and coordinated attack profiles. This technological leap reinforces strategic deterrence by presenting a more formidable and adaptable aerial combat force. For allies and partners, the program could offer future opportunities for interoperability, technology transfer, or even procurement, further strengthening coalition airpower capabilities and fostering a common operational picture.</p>
+<p><strong>Technological Leadership and Future Warfighting:</strong></p>
+<p>By pioneering large-scale, attritable, collaborative unmanned systems, the U.S. reaffirms its leadership in AI, autonomy, and advanced aerospace engineering. The program's success will serve as a model for future defense acquisitions, demonstrating the viability of rapid prototyping, iterative development, and separate, specialized competitions for critical hardware and software components. The emphasis on 'collaborative combat autonomy behaviors' represents a critical step towards truly intelligent warfighting systems that can adapt and operate in highly dynamic and unpredictable environments, laying the groundwork for the next generation of airpower and beyond. The CCA program is thus a pivotal investment in maintaining a decisive military advantage in an increasingly complex geopolitical landscape.</p></div>
+    </section>
+
+    <section style="margin-bottom: 4rem;">
+      <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Conclusion</h2>
+      <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);"><p>The selection of General Atomics and Anduril for the Collaborative Combat Aircraft (CCA) hardware, coupled with the ongoing, rigorous competition for advanced autonomy software involving Anduril, Shield AI, and RTX Collins Aerospace, represents a truly transformative moment for the United States Air Force. This initiative is far more than a procurement program; it is a fundamental re-imagining of air combat, designed to usher in a new era of human-machine teaming, distributed lethality, and cost-effective force projection. The Air Force's methodical yet agile approach, characterized by parallel development tracks, demanding cost targets, and an aggressive fielding timeline, underscores the strategic imperative to rapidly integrate cutting-edge autonomous capabilities.</p>
+<p>As the CCA program transitions from prototyping to initial production, its success will profoundly impact Air Force doctrine, enhance global power projection, and stimulate innovation across the defense industrial base. The exceptionally detailed and deliberately structured autonomy competition is particularly critical, as the 'brains' of these systems will ultimately dictate their operational effectiveness and adaptability in future conflicts. The commitment to maintaining a robust vendor pool for software further reflects a pragmatic approach to ensuring long-term flexibility and resilience.</p>
+<p>Ultimately, the Collaborative Combat Aircraft stands as a testament to the Air Force's vision for future airpower, poised to deliver a significant operational advantage by redefining the economics and tactics of aerial warfare in the 21st century. The successful execution of this program will solidify the U.S.'s technological leadership and ensure its continued ability to maintain air superiority against any adversary.</p></div>
+    </section>
+    
+    <div style="border-top: 1px solid rgba(0,0,0,0.1); padding-top: 2rem; display: flex; justify-content: space-between; align-items: center;">
+      <a href="../index.html" class="btn btn-primary">&larr; Back to Dashboard</a>
+      <span style="color: var(--text-muted); font-weight: 500;">Source: breakingdefense.com</span>
+    </div>
+  </article>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <a href="#" class="brand" style="margin-bottom: 1.5rem;">
+            <div class="brand-icon" style="width: 28px; height: 28px; font-size: 1rem;">N</div>
+            Neodymium
+          </a>
+          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.7;">
+            The premier institutional dashboard for actionable intelligence, predictive data, and strategic analysis in future tech and defense.
+          </p>
+          <div class="newsletter" style="margin-top: 1.5rem;">
+            <h4 style="margin-bottom: 0.5rem; font-size: 0.95rem;">Executive Briefing Newsletter</h4>
+            <form class="newsletter-form">
+              <input type="email" placeholder="work@organization.com" required>
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Intelligence</h4>
+          <ul class="footer-links">
+            <li><a href="#">Geopolitics</a></li>
+            <li><a href="#">Defense Technology</a></li>
+            <li><a href="#">Cyber Security</a></li>
+            <li><a href="#">Space Economy</a></li>
+            <li><a href="#">AI & Autonomy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Data Products</h4>
+          <ul class="footer-links">
+            <li><a href="#">Terminal Access</a></li>
+            <li><a href="#">API Documentation</a></li>
+            <li><a href="#">Market Indices</a></li>
+            <li><a href="#">Custom Reporting</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Organization</h4>
+          <ul class="footer-links">
+            <li><a href="#">About Neodymium</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press Room</a></li>
+            <li><a href="#">Contact Support</a></li>
+            <li><a href="#">Security Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Neodymium Data Services. All rights reserved.</p>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#" style="color: var(--text-light); text-decoration: none;">Terms of Service</a>
+          <a href="#" style="color: var(--text-light); text-decoration: none;">Privacy Policy</a>
+          <a href="#" style="color: var(--text-light); text-decoration: none;">Cookie Settings</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
