@@ -15,6 +15,10 @@
       {% for tag in item.seo_tags %}
       <category>{{ tag | replace('#', '') }}</category>
       {% endfor %}
+      {% if item.image_url %}
+      <enclosure url="{{ item.image_url }}" length="0" type="image/jpeg" />
+      {% endif %}
+      <source url="{{ item.original_link }}">{{ item.publisher_name | default('Original Source') }}</source>
       <pubDate>{{ item.published_at }}</pubDate>
       <guid>https://amarjeetsinghyd.github.io/neodymium-world/{{ item.article_url }}</guid>
     </item>
