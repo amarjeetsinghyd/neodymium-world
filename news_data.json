@@ -1,6 +1,70 @@
 {
     "articles": [
         {
+            "title": "After unveiling ridiculously expensive AR glasses, Snap’s stock takes a dive",
+            "category": "Error",
+            "full_report": {
+                "executive_summary": "<p>Snap’s long-awaited AR glasses, Specs, didn’t have the best debut.\nThe company’s stock hasn’t been on the healthiest trajectory lately. It’s dropped 30% over the past year. Following Specs’ launch, it...</p>",
+                "technical_deep_dive": "<p>Exception occurred during generation: API Error 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.</p>\n<p>DEBUG INFO:\nAvailable models on this API key: models/gemini-2.5-flash, models/gemini-2.5-pro, models/gemini-2.0-flash, models/gemini-2.0-flash-001, models/gemini-2.0-flash-lite-001, models/gemini-2.0-flash-lite, models/gemini-2.5-flash-preview-tts, models/gemini-2.5-pro-preview-tts, models/gemma-4-26b-a4b-it, models/gemma-4-31b-it, models/gemini-flash-latest, models/gemini-flash-lite-latest, models/gemini-pro-latest, models/gemini-2.5-flash-lite, models/gemini-2.5-flash-image, models/gemini-3-pro-preview, models/gemini-3-flash-preview, models/gemini-3.1-pro-preview, models/gemini-3.1-pro-preview-customtools, models/gemini-3.1-flash-lite-preview, models/gemini-3.1-flash-lite, models/gemini-3-pro-image-preview, models/gemini-3-pro-image, models/nano-banana-pro-preview, models/gemini-3.1-flash-image-preview, models/gemini-3.1-flash-image, models/gemini-3.5-flash, models/lyria-3-clip-preview, models/lyria-3-pro-preview, models/gemini-3.1-flash-tts-preview, models/gemini-robotics-er-1.5-preview, models/gemini-robotics-er-1.6-preview, models/gemini-2.5-computer-use-preview-10-2025, models/antigravity-preview-05-2026, models/deep-research-max-preview-04-2026, models/deep-research-preview-04-2026, models/deep-research-pro-preview-12-2025, models/gemini-embedding-001, models/gemini-embedding-2-preview, models/gemini-embedding-2, models/aqa, models/imagen-4.0-generate-001, models/imagen-4.0-ultra-generate-001, models/imagen-4.0-fast-generate-001, models/veo-2.0-generate-001, models/veo-3.0-generate-001, models/veo-3.0-fast-generate-001, models/veo-3.1-generate-preview, models/veo-3.1-fast-generate-preview, models/veo-3.1-lite-generate-preview</p>",
+                "strategic_impact": "<p>Analysis pending.</p>",
+                "conclusion": "<p>Pending conclusion.</p>"
+            },
+            "original_link": "https://techcrunch.com/2026/06/17/after-unveiling-ridiculously-expensive-ar-glasses-snaps-stock-takes-a-dive/",
+            "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2281915461.jpg?resize=1200,800",
+            "published_at": "Wed, 17 Jun 2026 20:24:28 +0000",
+            "added_at": "2026-06-18T10:00:25.828482",
+            "slug": "after-unveiling-ridiculously-expensive-ar-glasses-snap-s-stock-takes-a-dive",
+            "article_url": "articles/after-unveiling-ridiculously-expensive-ar-glasses-snap-s-stock-takes-a-dive.html"
+        },
+        {
+            "title": "NEA’s Tiffany Luck says enterprises are still figuring out their AI ROI",
+            "category": "Error",
+            "full_report": {
+                "executive_summary": "<p>Tokenmaxxing was the hottest trend in Silicon Valley earlier this year, with CEOs encouraging employees to push AI usage as far as it would go. Then the bill came due. Uber reportedly blew through its...</p>",
+                "technical_deep_dive": "<p>Exception occurred during generation: API Error 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.</p>\n<p>DEBUG INFO:\nAvailable models on this API key: models/gemini-2.5-flash, models/gemini-2.5-pro, models/gemini-2.0-flash, models/gemini-2.0-flash-001, models/gemini-2.0-flash-lite-001, models/gemini-2.0-flash-lite, models/gemini-2.5-flash-preview-tts, models/gemini-2.5-pro-preview-tts, models/gemma-4-26b-a4b-it, models/gemma-4-31b-it, models/gemini-flash-latest, models/gemini-flash-lite-latest, models/gemini-pro-latest, models/gemini-2.5-flash-lite, models/gemini-2.5-flash-image, models/gemini-3-pro-preview, models/gemini-3-flash-preview, models/gemini-3.1-pro-preview, models/gemini-3.1-pro-preview-customtools, models/gemini-3.1-flash-lite-preview, models/gemini-3.1-flash-lite, models/gemini-3-pro-image-preview, models/gemini-3-pro-image, models/nano-banana-pro-preview, models/gemini-3.1-flash-image-preview, models/gemini-3.1-flash-image, models/gemini-3.5-flash, models/lyria-3-clip-preview, models/lyria-3-pro-preview, models/gemini-3.1-flash-tts-preview, models/gemini-robotics-er-1.5-preview, models/gemini-robotics-er-1.6-preview, models/gemini-2.5-computer-use-preview-10-2025, models/antigravity-preview-05-2026, models/deep-research-max-preview-04-2026, models/deep-research-preview-04-2026, models/deep-research-pro-preview-12-2025, models/gemini-embedding-001, models/gemini-embedding-2-preview, models/gemini-embedding-2, models/aqa, models/imagen-4.0-generate-001, models/imagen-4.0-ultra-generate-001, models/imagen-4.0-fast-generate-001, models/veo-2.0-generate-001, models/veo-3.0-generate-001, models/veo-3.0-fast-generate-001, models/veo-3.1-generate-preview, models/veo-3.1-fast-generate-preview, models/veo-3.1-lite-generate-preview</p>",
+                "strategic_impact": "<p>Analysis pending.</p>",
+                "conclusion": "<p>Pending conclusion.</p>"
+            },
+            "original_link": "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
+            "image_url": "https://techcrunch.com/wp-content/uploads/2025/03/Tiffany-Luck_headshot.jpg?resize=1200,800",
+            "published_at": "Wed, 17 Jun 2026 20:17:38 +0000",
+            "added_at": "2026-06-18T10:00:39.577979",
+            "slug": "nea-s-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi",
+            "article_url": "articles/nea-s-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi.html"
+        },
+        {
+            "title": "What is Google’s Project Nimbus, and why are students protesting against it?",
+            "category": "Error",
+            "full_report": {
+                "executive_summary": "<p>The story so far: On June 14, Google CEO Sundar Pichai’s speech at Stanford was disrupted as over 100 students walked out in protest. Some carried Palestinian flags, others draped black-and-white patt...</p>",
+                "technical_deep_dive": "<p>Exception occurred during generation: API Error 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.</p>\n<p>DEBUG INFO:\nAvailable models on this API key: models/gemini-2.5-flash, models/gemini-2.5-pro, models/gemini-2.0-flash, models/gemini-2.0-flash-001, models/gemini-2.0-flash-lite-001, models/gemini-2.0-flash-lite, models/gemini-2.5-flash-preview-tts, models/gemini-2.5-pro-preview-tts, models/gemma-4-26b-a4b-it, models/gemma-4-31b-it, models/gemini-flash-latest, models/gemini-flash-lite-latest, models/gemini-pro-latest, models/gemini-2.5-flash-lite, models/gemini-2.5-flash-image, models/gemini-3-pro-preview, models/gemini-3-flash-preview, models/gemini-3.1-pro-preview, models/gemini-3.1-pro-preview-customtools, models/gemini-3.1-flash-lite-preview, models/gemini-3.1-flash-lite, models/gemini-3-pro-image-preview, models/gemini-3-pro-image, models/nano-banana-pro-preview, models/gemini-3.1-flash-image-preview, models/gemini-3.1-flash-image, models/gemini-3.5-flash, models/lyria-3-clip-preview, models/lyria-3-pro-preview, models/gemini-3.1-flash-tts-preview, models/gemini-robotics-er-1.5-preview, models/gemini-robotics-er-1.6-preview, models/gemini-2.5-computer-use-preview-10-2025, models/antigravity-preview-05-2026, models/deep-research-max-preview-04-2026, models/deep-research-preview-04-2026, models/deep-research-pro-preview-12-2025, models/gemini-embedding-001, models/gemini-embedding-2-preview, models/gemini-embedding-2, models/aqa, models/imagen-4.0-generate-001, models/imagen-4.0-ultra-generate-001, models/imagen-4.0-fast-generate-001, models/veo-2.0-generate-001, models/veo-3.0-generate-001, models/veo-3.0-fast-generate-001, models/veo-3.1-generate-preview, models/veo-3.1-fast-generate-preview, models/veo-3.1-lite-generate-preview</p>",
+                "strategic_impact": "<p>Analysis pending.</p>",
+                "conclusion": "<p>Pending conclusion.</p>"
+            },
+            "original_link": "https://www.thehindu.com/sci-tech/technology/what-is-googles-project-nimbus-and-why-are-students-protesting-against-it/article71116615.ece",
+            "image_url": "https://th-i.thgim.com/public/incoming/npq6kq/article71116597.ece/alternates/LANDSCAPE_1200/2024-04-16T223807Z_912529887_RC2U77A7NX0N_RTRMADP_3_ISRAEL-PALESTINIANS-USA-GOOGLE-PROTEST.JPG",
+            "published_at": "Thu, 18 Jun 2026 14:51:11 +0530",
+            "added_at": "2026-06-18T10:00:56.242155",
+            "slug": "what-is-google-s-project-nimbus-and-why-are-students-protesting-against-it",
+            "article_url": "articles/what-is-google-s-project-nimbus-and-why-are-students-protesting-against-it.html"
+        },
+        {
+            "title": "Trump says Apple to work with Intel to manufacture chips in U.S.",
+            "category": "Error",
+            "full_report": {
+                "executive_summary": "<p>U.S. President Donald Trump said in a Truth Social post on Thursday (June 18, 2026) that Apple had agreed to work with Intel to design and build its chips in the United States.\nIntel had reached a pre...</p>",
+                "technical_deep_dive": "<p>Exception occurred during generation: API Error 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.</p>\n<p>DEBUG INFO:\nAvailable models on this API key: models/gemini-2.5-flash, models/gemini-2.5-pro, models/gemini-2.0-flash, models/gemini-2.0-flash-001, models/gemini-2.0-flash-lite-001, models/gemini-2.0-flash-lite, models/gemini-2.5-flash-preview-tts, models/gemini-2.5-pro-preview-tts, models/gemma-4-26b-a4b-it, models/gemma-4-31b-it, models/gemini-flash-latest, models/gemini-flash-lite-latest, models/gemini-pro-latest, models/gemini-2.5-flash-lite, models/gemini-2.5-flash-image, models/gemini-3-pro-preview, models/gemini-3-flash-preview, models/gemini-3.1-pro-preview, models/gemini-3.1-pro-preview-customtools, models/gemini-3.1-flash-lite-preview, models/gemini-3.1-flash-lite, models/gemini-3-pro-image-preview, models/gemini-3-pro-image, models/nano-banana-pro-preview, models/gemini-3.1-flash-image-preview, models/gemini-3.1-flash-image, models/gemini-3.5-flash, models/lyria-3-clip-preview, models/lyria-3-pro-preview, models/gemini-3.1-flash-tts-preview, models/gemini-robotics-er-1.5-preview, models/gemini-robotics-er-1.6-preview, models/gemini-2.5-computer-use-preview-10-2025, models/antigravity-preview-05-2026, models/deep-research-max-preview-04-2026, models/deep-research-preview-04-2026, models/deep-research-pro-preview-12-2025, models/gemini-embedding-001, models/gemini-embedding-2-preview, models/gemini-embedding-2, models/aqa, models/imagen-4.0-generate-001, models/imagen-4.0-ultra-generate-001, models/imagen-4.0-fast-generate-001, models/veo-2.0-generate-001, models/veo-3.0-generate-001, models/veo-3.0-fast-generate-001, models/veo-3.1-generate-preview, models/veo-3.1-fast-generate-preview, models/veo-3.1-lite-generate-preview</p>",
+                "strategic_impact": "<p>Analysis pending.</p>",
+                "conclusion": "<p>Pending conclusion.</p>"
+            },
+            "original_link": "https://www.thehindu.com/sci-tech/technology/trump-says-apple-to-work-with-intel-to-manufacture-chips-in-us/article71116972.ece",
+            "image_url": "https://th-i.thgim.com/public/incoming/yqrehv/article71116974.ece/alternates/LANDSCAPE_1200/2026-06-18T045603Z_1389961187_RC2KYGASL34K_RTRMADP_3_USA-TRUMP-APPLE.JPG",
+            "published_at": "Thu, 18 Jun 2026 14:41:57 +0530",
+            "added_at": "2026-06-18T10:01:12.096964",
+            "slug": "trump-says-apple-to-work-with-intel-to-manufacture-chips-in-u-s",
+            "article_url": "articles/trump-says-apple-to-work-with-intel-to-manufacture-chips-in-u-s.html"
+        },
+        {
             "title": "Air Force picks General Atomics, Anduril to build first CCA drone wingmen",
             "category": "Defense Technology",
             "full_report": {
