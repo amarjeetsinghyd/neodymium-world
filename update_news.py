@@ -20,7 +20,7 @@ RSS_FEEDS = [
     "https://breakingdefense.com/feed/",
     "https://techcrunch.com/category/artificial-intelligence/feed/",
     "https://www.wired.com/feed/category/tech/latest/rss",
-    "https://idrw.org/feed/",
+    "http://www.indiandefensenews.in/feeds/posts/default?alt=rss",
     "https://www.thehindu.com/sci-tech/technology/feeder/default.rss",
     "https://analyticsindiamag.com/feed/"
 ]
@@ -47,11 +47,14 @@ You are a Chief Defense Analyst. Rewrite this article in its entirety. Do not su
 Include: Executive Summary, Technical Deep-Dive, Strategic Impact, and Conclusion. The Technical Deep-Dive should be exceptionally detailed.
 Use a formal, institutional tone.
 
+Crucially, generate a completely original, catchy, and highly professional headline for this report. Do not use the original title to avoid copyright issues.
+
 Original Title: {title}
 Original Content: {text}
 
 Respond strictly in the following JSON format without any markdown blocks or extra text:
 {{
+    "headline": "Your newly generated original headline...",
     "category": "One of: Geopolitics, Defense Technology, Cyber Security, Space Economy, AI & Autonomy, Global Tech",
     "full_report": {{
         "executive_summary": "Summary here...",
@@ -102,30 +105,9 @@ Respond strictly in the following JSON format without any markdown blocks or ext
             
     except Exception as e:
         print(f"Error during Gemini rewriting: {e}")
-        
-        # Debug: Fetch available models
-        available_models_text = "Could not fetch models list."
-        try:
-            models_url = f"https://generativelanguage.googleapis.com/v1beta/models?key={API_KEY}"
-            models_resp = requests.get(models_url)
-            models_data = models_resp.json()
-            if "models" in models_data:
-                model_names = [m.get("name") for m in models_data["models"]]
-                available_models_text = "Available models on this API key: " + ", ".join(model_names)
-            else:
-                available_models_text = f"Models fetch error: {models_data}"
-        except Exception as ex:
-            available_models_text = f"Failed to list models: {ex}"
-
-        return {
-            "category": "Error",
-            "full_report": {
-                "executive_summary": text[:200] + "...",
-                "technical_deep_dive": f"Exception occurred during generation: {str(e)}\n\nDEBUG INFO:\n{available_models_text}",
-                "strategic_impact": "Analysis pending.",
-                "conclusion": "Pending conclusion."
-            }
-        }
+        # If API fails (like 503 overload), we return None so the script skips this article
+        # rather than publishing an 'ERROR' tagged placeholder.
+        return None
 
 def main():
     # Setup Jinja2 Environment
@@ -196,9 +178,18 @@ def main():
                 except json.JSONDecodeError:
                     pass
         
-        rewrite_result = rewrite_content(title, article_text)
-        category = rewrite_result.get("category", "Global Tech")
-        full_report = rewrite_result.get("full_report", {})
+        print(f"\nProcessing: {original_title}")
+        
+        rewritten_content = rewrite_content(original_title, content_text)
+        if not rewritten_content:
+            print("Skipping article due to AI processing failure.")
+            continue
+            
+        full_report = rewritten_content.get("full_report", {})
+        category = rewritten_content.get("category", "Intelligence")
+        
+        # Override the original title with the AI-generated headline to prevent copyright match
+        title = rewritten_content.get("headline", original_title)
         
         # Convert markdown fields to HTML
         for key in full_report:
@@ -208,7 +199,7 @@ def main():
         # Free Tier Rate Limit Handling: 5 Requests Per Minute = 12.5 seconds per request.
         time.sleep(12.5)
         
-        # Generate Slug
+        # Generate slug from the NEW title
         slug = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')
         if not slug:
             slug = f"article-{int(datetime.utcnow().timestamp())}"
