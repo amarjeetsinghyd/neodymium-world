@@ -115,8 +115,9 @@ def main():
     env = Environment(loader=FileSystemLoader('.'))
     try:
         template = env.get_template('article_template.html')
+        rss_template = env.get_template('rss_template.xml')
     except Exception as e:
-        print(f"Could not load article_template.html: {e}")
+        print(f"Could not load templates: {e}")
         return
 
     # Ensure articles directory exists
@@ -287,6 +288,16 @@ def main():
         print("Updated news_data.json successfully.")
     else:
         print("No new articles found.")
+        updated_news = existing_news
+        
+    # Generate RSS Feed
+    try:
+        rss_content = rss_template.render(articles=updated_news)
+        with open('rss.xml', 'w', encoding='utf-8') as f:
+            f.write(rss_content)
+        print("Successfully generated rss.xml")
+    except Exception as e:
+        print(f"Failed to generate RSS feed: {e}")
 
 if __name__ == "__main__":
     main()
