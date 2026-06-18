@@ -56,6 +56,7 @@ Respond strictly in the following JSON format without any markdown blocks or ext
 {{
     "headline": "Your newly generated original headline...",
     "category": "One of: Geopolitics, Defense Technology, Cyber Security, Space Economy, AI & Autonomy, Global Tech",
+    "seo_tags": ["#Tag1", "#Tag2", "#Tag3"],
     "full_report": {{
         "executive_summary": "Summary here...",
         "technical_deep_dive": "Deep dive here...",
@@ -187,6 +188,7 @@ def main():
             
         full_report = rewritten_content.get("full_report", {})
         category = rewritten_content.get("category", "Intelligence")
+        seo_tags = rewritten_content.get("seo_tags", [])
         
         # Override the original title with the AI-generated headline to prevent copyright match
         title = rewritten_content.get("headline", original_title)
@@ -216,6 +218,7 @@ def main():
         news_item = {
             "title": title,
             "category": category,
+            "seo_tags": seo_tags,
             "full_report": full_report,
             "original_link": link,
             "image_url": image_url,
@@ -229,11 +232,13 @@ def main():
         html_content = template.render(
             title=title,
             category=category,
+            seo_tags=seo_tags,
             full_report=full_report,
             image_url=image_url,
             published_at=published_date,
             original_link=link,
-            publisher_name=publisher_name
+            publisher_name=publisher_name,
+            slug=slug
         )
         with open(article_url, 'w', encoding='utf-8') as f:
             f.write(html_content)
@@ -259,11 +264,13 @@ def main():
             html_content = template.render(
                 title=item.get("title", ""),
                 category=item.get("category", "Intelligence"),
+                seo_tags=item.get("seo_tags", []),
                 full_report=report,
                 image_url=item.get("image_url", ""),
                 published_at=item.get("published_at", ""),
                 original_link=item.get("original_link", "#"),
-                publisher_name=pub_name
+                publisher_name=pub_name,
+                slug=item.get("slug", "")
             )
             with open(item["article_url"], 'w', encoding='utf-8') as f:
                 f.write(html_content)
