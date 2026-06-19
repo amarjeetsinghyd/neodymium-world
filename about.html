@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Neodymium Intelligence | Premier Future Tech & Defense Portal</title>
+  <meta name="description" content="About Neodymium Intelligence. Learn about our mission, predictive models, and editorial standards in geopolitics and defense.">
+  <link rel="canonical" href="https://neodymium.world/about.html" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-color: #f3f5f9;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --text-light: #94a3b8;
+      
+      --accent-blue: #2563eb;
+      --accent-violet: #7c3aed;
+      --accent-cyan: #06b6d4;
+      
+      --gradient-primary: linear-gradient(135deg, #2563eb, #7c3aed);
+      --gradient-hover: linear-gradient(135deg, #3b82f6, #8b5cf6);
+      
+      --glass-bg: rgba(255, 255, 255, 0.7);
+      --glass-border: rgba(255, 255, 255, 0.5);
+      --glass-shadow: 0 8px 32px rgba(31, 38, 135, 0.05);
+      
+      --font-heading: 'Outfit', sans-serif;
+      --font-body: 'Inter', sans-serif;
+      
+      --radius-sm: 8px;
+      --radius-md: 16px;
+      --radius-lg: 24px;
+      --radius-xl: 32px;
+      
+      --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--text-main);
+      background-color: var(--bg-color);
+      overflow-x: hidden;
+      line-height: 1.7;
+    }
+
+    /* Background Gradients */
+    body::before, body::after {
+      content: '';
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(120px);
+      z-index: -1;
+      animation: float 20s infinite alternate ease-in-out;
+    }
+
+    body::before {
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(124, 58, 237, 0.12) 0%, transparent 70%);
+      top: -200px;
+      left: -100px;
+    }
+
+    body::after {
+      width: 700px;
+      height: 700px;
+      background: radial-gradient(circle, rgba(37, 99, 235, 0.12) 0%, transparent 70%);
+      bottom: -300px;
+      right: -100px;
+      animation-delay: -10s;
+    }
+
+    @keyframes float {
+      0% { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(40px, 40px) scale(1.08); }
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    /* Navbar */
+    .navbar {
+      position: sticky;
+      top: 0;
+      background: rgba(243, 245, 249, 0.8);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      z-index: 1000;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      padding: 1.25rem 0;
+      transition: all var(--transition);
+    }
+
+    .nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand {
+      font-family: var(--font-heading);
+      font-size: 1.75rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-main);
+    }
+
+    .brand-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: var(--radius-sm);
+      background: var(--gradient-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.25rem;
+      font-weight: 800;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2.5rem;
+      list-style: none;
+      align-items: center;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--text-muted);
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: color var(--transition);
+    }
+
+    .nav-links a:hover {
+      color: var(--accent-blue);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.75rem 1.5rem;
+      border-radius: 100px;
+      font-family: var(--font-body);
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-decoration: none;
+      transition: all var(--transition);
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background: var(--gradient-primary);
+      color: white;
+      box-shadow: 0 4px 15px rgba(37, 99, 235, 0.25);
+    }
+
+    .btn-primary:hover {
+      background: var(--gradient-hover);
+      transform: translateY(-2px);
+    }
+
+    /* Page Content */
+    .page-header {
+      padding: 5rem 0 3rem;
+      text-align: center;
+    }
+
+    .page-title {
+      font-size: 3rem;
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      margin-bottom: 1rem;
+      background: var(--gradient-primary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .page-subtitle {
+      font-size: 1.2rem;
+      color: var(--text-muted);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .glass-card {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--glass-shadow);
+      padding: 3.5rem;
+      margin-bottom: 5rem;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+
+    .content h2 {
+      font-size: 1.8rem;
+      margin: 2.5rem 0 1rem;
+      color: var(--text-main);
+    }
+
+    .content h2:first-of-type {
+      margin-top: 0;
+    }
+
+    .content p {
+      margin-bottom: 1.5rem;
+      color: var(--text-muted);
+    }
+
+    .content ul, .content ol {
+      margin-bottom: 1.5rem;
+      padding-left: 2rem;
+      color: var(--text-muted);
+    }
+
+    .content li {
+      margin-bottom: 0.5rem;
+    }
+
+    /* Grid for About Pillars */
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      margin: 3rem 0;
+    }
+
+    .pillar-card {
+      background: rgba(255, 255, 255, 0.45);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-md);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .pillar-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: var(--radius-sm);
+      background: var(--gradient-primary);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1.5rem;
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    .pillar-title {
+      font-family: var(--font-heading);
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      color: var(--text-main);
+    }
+
+    .pillar-text {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    /* Footer */
+    footer {
+      background: #0f172a;
+      color: white;
+      padding: 5rem 0 3rem;
+      border-top: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .footer-content {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 4rem;
+      margin-bottom: 4rem;
+    }
+
+    .footer-col h4 {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.4);
+    }
+
+    .footer-links {
+      list-style: none;
+    }
+
+    .footer-links li {
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-links a {
+      color: rgba(255,255,255,0.7);
+      text-decoration: none;
+      transition: color var(--transition);
+      font-size: 0.95rem;
+    }
+
+    .footer-links a:hover {
+      color: var(--accent-blue);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.05);
+      padding-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.4);
+    }
+
+    .newsletter-form {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .newsletter-form input {
+      flex-grow: 1;
+      padding: 0.75rem 1rem;
+      border-radius: 100px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      background: rgba(255, 255, 255, 0.05);
+      color: white;
+      outline: none;
+    }
+
+    .newsletter-form input::placeholder {
+      color: rgba(255,255,255,0.3);
+    }
+
+    @media (max-width: 768px) {
+      .footer-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+      .pillars-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+      .nav-links {
+        display: none;
+      }
+      .glass-card {
+        padding: 2rem;
+      }
+      .page-title {
+        font-size: 2.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="brand">
+        <div class="brand-icon">N</div>
+        Neodymium
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#briefs">Intelligence Briefs</a></li>
+        <li><a href="index.html#analytics">Data & Analytics</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="btn btn-primary">Subscribe</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <h1 class="page-title">About Neodymium</h1>
+      <p class="page-subtitle">The institutional portal for predictive analysis, advanced defense tech, and strategic forecasting.</p>
+    </div>
+  </header>
+
+  <!-- Content Section -->
+  <main class="container">
+    <div class="glass-card content">
+      <h2>Our Mission</h2>
+      <p>Neodymium Intelligence is a premier open-source intelligence (OSINT) and research portal designed for policymakers, defense experts, and global technology executives. Our core objective is to deliver rigorous, unbiased, and technically deep intelligence reports that bridge the gap between rapid technological breakthroughs and shifting geopolitical landscapes.</p>
+      <p>In an era dominated by cognitive overload, fragmented reporting, and superficial updates, Neodymium focuses strictly on the strategic nexus: where defense policy, artificial autonomy, and statecraft meet.</p>
+
+      <div class="pillars-grid">
+        <div class="pillar-card">
+          <div class="pillar-icon">D</div>
+          <div class="pillar-title">Deep Technical Audits</div>
+          <div class="pillar-text">We do not just report the headlines. Our analysts break down weapon payloads, silicon architectures, and neural net designs.</div>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon">G</div>
+          <div class="pillar-title">Geopolitical Context</div>
+          <div class="pillar-text">Every technological shift is mapped directly to bilateral alliances, rare-earth supply lines, and trade frameworks.</div>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon">A</div>
+          <div class="pillar-title">Actionable Forecasts</div>
+          <div class="pillar-text">Our reports conclude with impact assessments, outlining exactly what a development means for industry stakeholders.</div>
+        </div>
+      </div>
+
+      <h2>Editorial Standards</h2>
+      <p>Accuracy, source integrity, and objectivity are the foundations of Neodymium. All intelligence briefs undergo a rigorous review process before publication:</p>
+      <ul>
+        <li><strong>Open-Source Validation:</strong> We verify all telemetry and strategic updates against public records, verified satellite footage, contract awards, and official statements.</li>
+        <li><strong>Intellectual Independence:</strong> Neodymium operates free of state-sponsored editorial control or institutional bias. Our reports aim to analyze events objectively.</li>
+        <li><strong>No Clickbait:</strong> Our headlines are informative and professional, focusing on summarizing findings rather than driving sensationalist engagement.</li>
+      </ul>
+
+      <h2>Analytics & Telemetry</h2>
+      <p>Through our proprietary analytics widgets (accessible via our homepage dashboard), we synthesize global datasets, covering strategic defense indices, sovereign tech reserves, and AI compute capacity allocations. This data provides readers with immediate quantitative context to back up our analytical text reports.</p>
+
+      <h2>Core Leadership & Support</h2>
+      <p>Neodymium Intelligence is operated by a distributed team of defense analysts, geopolitical risk consultants, and software engineers. We are headquartered globally and publish briefs around the clock.</p>
+      <p>For research collaborations, media requests, or administrative inquiries, please refer to our <a href="contact.html">Contact Page</a> or email us at <a href="mailto:neodymium.world@gmail.com">neodymium.world@gmail.com</a>.</p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <a href="index.html" class="brand" style="margin-bottom: 1.5rem; color: white;">
+            <div class="brand-icon" style="width: 28px; height: 28px; font-size: 1rem;">N</div>
+            Neodymium
+          </a>
+          <p style="color: rgba(255,255,255,0.5); font-size: 0.95rem; line-height: 1.7;">
+            The premier institutional dashboard for actionable intelligence, predictive data, and strategic analysis in future tech and defense.
+          </p>
+          <div class="newsletter" style="margin-top: 1.5rem;">
+            <h4 style="margin-bottom: 0.5rem; font-size: 0.95rem; color: rgba(255,255,255,0.4);">Executive Briefing Newsletter</h4>
+            <form class="newsletter-form">
+              <input type="email" placeholder="work@organization.com" required>
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Intelligence</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#briefs">Geopolitics</a></li>
+            <li><a href="index.html#briefs">Defense Technology</a></li>
+            <li><a href="index.html#briefs">Cyber Security</a></li>
+            <li><a href="index.html#briefs">Space Economy</a></li>
+            <li><a href="index.html#briefs">AI & Autonomy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Organization</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Neodymium</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="press.html">Press Room</a></li>
+            <li><a href="contact.html">Contact Support</a></li>
+            <li><a href="security.html">Security Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Neodymium Data Services. All rights reserved.</p>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="terms.html" style="color: rgba(255,255,255,0.4); text-decoration: none;">Terms of Service</a>
+          <a href="privacy.html" style="color: rgba(255,255,255,0.4); text-decoration: none;">Privacy Policy</a>
+          <a href="cookies.html" style="color: rgba(255,255,255,0.4); text-decoration: none;">Cookie Settings</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
