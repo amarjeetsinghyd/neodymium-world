@@ -783,10 +783,10 @@
         Neodymium
       </a>
       <ul class="nav-links">
-        <li><a href="#briefs">Intelligence Briefs</a></li>
+        <li><a href="#briefs" onclick="filterArticlesByCategory('all')">Intelligence Briefs</a></li>
         <li><a href="#analytics">Data & Analytics</a></li>
-        <li><a href="#">Policy Watch</a></li>
-        <li><a href="#">Global Index</a></li>
+        <li><a href="javascript:void(0)" onclick="filterArticlesByCategory('Policy Watch')">Policy Watch</a></li>
+        <li><a href="javascript:void(0)" onclick="filterArticlesByCategory('Global Index')">Global Index</a></li>
       </ul>
     </div>
   </nav>
@@ -859,8 +859,9 @@
   <!-- Live Intelligence Feed Section -->
   <section class="feed-section" id="live-feed" style="padding: 2rem 0 5rem;">
     <div class="container">
-      <div class="section-header" style="margin-bottom: 2rem; border-bottom: 2px solid rgba(0,0,0,0.05); padding-bottom: 1rem;">
-        <h2 style="font-size: 2rem; color: var(--text-main);">Live Intelligence Feed</h2>
+      <div class="section-header" style="margin-bottom: 2rem; border-bottom: 2px solid rgba(0,0,0,0.05); padding-bottom: 1rem; display: flex; flex-direction: column;">
+        <h2 id="feed-header-title" style="font-size: 2rem; color: var(--text-main);">Live Intelligence Feed</h2>
+        <p id="feed-header-subtitle" style="color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem;">Real-time updates and breaking briefs from global correspondents.</p>
       </div>
       
       <div id="live-feed-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2rem;">
@@ -950,11 +951,11 @@
         <div class="footer-col">
           <h4>Intelligence</h4>
           <ul class="footer-links">
-            <li><a href="#">Geopolitics</a></li>
-            <li><a href="#">Defense Technology</a></li>
-            <li><a href="#">Cyber Security</a></li>
-            <li><a href="#">Space Economy</a></li>
-            <li><a href="#">AI & Autonomy</a></li>
+            <li><a href="javascript:void(0)" onclick="filterArticlesByCategory('Geopolitics')">Geopolitics</a></li>
+            <li><a href="javascript:void(0)" onclick="filterArticlesByCategory('Defense Technology')">Defense Technology</a></li>
+            <li><a href="javascript:void(0)" onclick="filterArticlesByCategory('Cyber Security')">Cyber Security</a></li>
+            <li><a href="javascript:void(0)" onclick="filterArticlesByCategory('Space Economy')">Space Economy</a></li>
+            <li><a href="javascript:void(0)" onclick="filterArticlesByCategory('AI & Autonomy')">AI & Autonomy</a></li>
           </ul>
         </div>
 
@@ -1026,6 +1027,95 @@
       observer.observe(card);
     });
 
+    let currentFilter = 'all';
+
+    // Render Live Intelligence Feed
+    function renderFeedGrid() {
+      const gridContainer = document.getElementById('live-feed-grid');
+      if (!gridContainer) return;
+      
+      gridContainer.innerHTML = '';
+      
+      // Slice from index 6 onwards
+      let feedItems = globalNewsData.slice(6);
+      
+      // Filter if needed
+      if (currentFilter !== 'all') {
+        const target = currentFilter.toLowerCase().trim();
+        feedItems = globalNewsData.filter(item => {
+          const cat = (item.category || '').toLowerCase().trim();
+          
+          // Custom loose matching rules
+          if (target === 'cyber security' || target === 'cybersecurity') {
+            return cat.includes('cyber');
+          }
+          if (target === 'defense technology' || target === 'defense') {
+            return cat.includes('defen');
+          }
+          return cat === target || cat.includes(target) || target.includes(cat);
+        });
+      }
+      
+      // Formatter for dates
+      const formatDate = (isoString) => {
+        if (!isoString) return 'Recent';
+        const date = new Date(isoString);
+        return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+      };
+
+      if (feedItems.length === 0) {
+        gridContainer.innerHTML = `<p style="color: var(--text-muted); grid-column: 1 / -1; text-align: center; padding: 4rem 2rem;">No active reports under "${currentFilter}" are currently published. Check back soon for updates.</p>`;
+      } else {
+        feedItems.forEach(item => {
+          const card = document.createElement('article');
+          card.className = 'glass-card';
+          card.style.display = 'flex';
+          card.style.flexDirection = 'column';
+          card.style.overflow = 'hidden';
+          
+          let bgImg = item.image_url ? `url('${item.image_url}')` : 'var(--gradient-primary)';
+          
+          card.innerHTML = `
+            <div style="width: 100%; height: 180px; background: ${bgImg}; background-size: cover; background-position: center; border-bottom: 1px solid var(--glass-border);"></div>
+            <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+              <span class="tag tag-outline" onclick="filterArticlesByCategory('${item.category || 'Intelligence'}')" style="align-self: flex-start; cursor: pointer;">${item.category || 'Intelligence'}</span>
+              <h3 style="font-size: 1.25rem; line-height: 1.3; margin: 0.5rem 0 1rem;">${item.title}</h3>
+              <div class="meta" style="margin-top: auto;">
+                <span style="color: var(--text-light); font-size: 0.85rem;">${formatDate(item.published_at || item.added_at)}</span>
+                <a href="${item.article_url || item.link || '#'}" style="margin-left: auto; color: var(--accent-blue); text-decoration: none; font-size: 0.85rem; font-weight: 600;">Read Report &rarr;</a>
+              </div>
+            </div>
+          `;
+          gridContainer.appendChild(card);
+        });
+      }
+    }
+
+    // Filter categories function
+    window.filterArticlesByCategory = function(categoryName) {
+      currentFilter = categoryName;
+      
+      // Scroll to feed
+      const feedSec = document.getElementById('live-feed');
+      if (feedSec) {
+        feedSec.scrollIntoView({ behavior: 'smooth' });
+      }
+      
+      // Update titles
+      const titleEl = document.getElementById('feed-header-title');
+      const subtitleEl = document.getElementById('feed-header-subtitle');
+      
+      if (categoryName === 'all') {
+        titleEl.innerHTML = 'Live <span class="text-gradient">Intelligence Feed</span>';
+        subtitleEl.textContent = 'Real-time updates and breaking briefs from global correspondents.';
+      } else {
+        titleEl.innerHTML = `Category: <span class="text-gradient">${categoryName}</span>`;
+        subtitleEl.innerHTML = `Showing articles under "${categoryName}". <a href="javascript:void(0)" onclick="filterArticlesByCategory('all')" style="color: var(--accent-blue); margin-left: 0.5rem; text-decoration: underline;">Clear filter</a>`;
+      }
+      
+      renderFeedGrid();
+    }
+
     // Fetch and populate news data
     async function loadNewsData() {
       try {
@@ -1051,9 +1141,9 @@
         const featured = news[0];
         if (featured) {
           document.getElementById('featured-title').textContent = featured.title;
-                    document.getElementById('featured-date').textContent = formatDate(featured.published_at || featured.added_at);
+          document.getElementById('featured-date').textContent = formatDate(featured.published_at || featured.added_at);
           document.getElementById('featured-link').href = featured.article_url || featured.link || '#';
-                    
+          
           if (featured.image_url) {
             document.getElementById('featured-bg').style.backgroundImage = `url('${featured.image_url}')`;
           }
@@ -1100,38 +1190,8 @@
           if (an3.image_url) document.getElementById('an3-img').style.backgroundImage = `url('${an3.image_url}')`;
         }
 
-        // Populate Live Intelligence Feed Grid
-        const gridContainer = document.getElementById('live-feed-grid');
-        gridContainer.innerHTML = '';
-        
-        // Render all articles from index 6 onwards (or all if you prefer, let's do all from 6 onwards)
-        const feedItems = news.slice(6);
-        if (feedItems.length === 0) {
-           gridContainer.innerHTML = '<p style="color: var(--text-muted); grid-column: 1 / -1;">More intelligence coming soon...</p>';
-        } else {
-           feedItems.forEach(item => {
-             const card = document.createElement('article');
-             card.className = 'glass-card';
-             card.style.display = 'flex';
-             card.style.flexDirection = 'column';
-             card.style.overflow = 'hidden';
-             
-             let bgImg = item.image_url ? `url('${item.image_url}')` : 'var(--gradient-primary)';
-             
-             card.innerHTML = `
-               <div style="width: 100%; height: 180px; background: ${bgImg}; background-size: cover; background-position: center; border-bottom: 1px solid var(--glass-border);"></div>
-               <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
-                 <span class="tag tag-outline" style="align-self: flex-start;">${item.category || 'Intelligence'}</span>
-                 <h3 style="font-size: 1.25rem; line-height: 1.3; margin: 0.5rem 0 1rem;">${item.title}</h3>
-                 <div class="meta" style="margin-top: auto;">
-                   <span style="color: var(--text-light); font-size: 0.85rem;">${formatDate(item.published_at || item.added_at)}</span>
-                   <a href="${item.article_url || item.link || '#'}" style="margin-left: auto; color: var(--accent-blue); text-decoration: none; font-size: 0.85rem; font-weight: 600;">Read Report &rarr;</a>
-                 </div>
-               </div>
-             `;
-             gridContainer.appendChild(card);
-           });
-        }
+        // Render feed grid
+        renderFeedGrid();
 
       } catch (err) {
         console.error("Error loading news data:", err);
