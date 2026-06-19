@@ -40,6 +40,10 @@ def get_image_url(entry):
             return match.group(1)
     return None
 
+class CriticalAPIError(Exception):
+    """Custom exception for critical Gemini API errors like quota limits."""
+    pass
+
 def rewrite_content(title, text):
     """Uses Gemini to rewrite article into an Intelligence Report."""
     prompt = f"""
@@ -84,10 +88,18 @@ Respond strictly in the following JSON format without any markdown blocks or ext
         }
         
         resp = requests.post(url, json=payload)
+        if resp.status_code == 429:
+            raise CriticalAPIError(f"API Quota/Rate Limit Exceeded (HTTP 429): {resp.text}")
+            
+        resp.raise_for_status()
         data = resp.json()
         
         if "error" in data:
-            raise Exception(f"API Error {data['error'].get('code')}: {data['error'].get('message')}")
+            err_code = data['error'].get('code')
+            err_msg = data['error'].get('message', '')
+            if err_code == 429 or any(x in err_msg.lower() for x in ["quota", "exhausted", "limit", "rate"]):
+                raise CriticalAPIError(f"API Quota/Rate Limit Exceeded: {err_msg}")
+            raise Exception(f"API Error {err_code}: {err_msg}")
             
         result_text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
         
@@ -107,6 +119,8 @@ Respond strictly in the following JSON format without any markdown blocks or ext
         else:
             return {"category": "Global Tech", "full_report": rewritten_data.get("full_report", {})}
             
+    except CriticalAPIError as e:
+        raise e
     except Exception as e:
         print(f"Error during Gemini rewriting: {e}")
         # If API fails (like 503 overload), we return None so the script skips this article
@@ -184,7 +198,12 @@ def main():
         
         print(f"\nProcessing: {title}")
         
-        rewritten_content = rewrite_content(title, article_text)
+        try:
+            rewritten_content = rewrite_content(title, article_text)
+        except CriticalAPIError as ce:
+            print(f"Critical API Error: {ce}. Halting article generation for this instance. Remaining pipeline tasks will continue.")
+            break
+            
         if not rewritten_content:
             print("Skipping article due to AI processing failure.")
             continue
