@@ -30,12 +30,12 @@ jobs:
       - name: Run news pipeline
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python update_news.py
+        run: python update_news.py > run_log.txt 2>&1 || true
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add news_data.json articles/
+          git add news_data.json articles/ run_log.txt
           git commit -m "chore: auto-update news_data.json and SSG articles" || exit 0
           git push
