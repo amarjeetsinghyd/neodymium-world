@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }} | Neodymium</title>
   <meta name="description" content="{{ full_report.executive_summary | striptags | escape }}">
+  <link rel="canonical" href="https://neodymium.world/articles/{{ slug }}.html" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
@@ -19,6 +20,24 @@
   <meta name="twitter:title" content="{{ title }}">
   <meta name="twitter:description" content="{{ full_report.executive_summary | striptags | escape }}">
   <meta name="twitter:image" content="{{ image_url }}">
+
+  <!-- Article Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "{{ title }}",
+    "image": [
+      "{{ image_url }}"
+     ],
+    "datePublished": "{{ published_at }}",
+    "author": [{
+        "@type": "Organization",
+        "name": "Neodymium Intelligence",
+        "url": "https://neodymium.world/"
+      }]
+  }
+  </script>
 
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
