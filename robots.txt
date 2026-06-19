@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://amarjeetsinghyd.github.io/neodymium-world/sitemap.xml
+Sitemap: https://neodymium.world/sitemap.xml
