@@ -1,6 +1,6 @@
-# Neodymium Intelligence
+# Neodymium
 
-Neodymium Intelligence is a premier institutional data and news dashboard focused on Future Tech and Defense. We provide predictive analysis, strategic intelligence reports, and real-time synthesis of geopolitical shifts, defense tech, and institutional strategy.
+Neodymium is a premier institutional data and news dashboard focused on Future Tech and Defense. We provide predictive analysis, strategic intelligence reports, and real-time synthesis of geopolitical shifts, defense tech, and institutional strategy.
 
 ## Key Focus Areas
 - Defense Technology & Industrial Base
