@@ -752,6 +752,37 @@
       display: flex;
       justify-content: flex-end;
     }
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+      }
+      .footer-content {
+        grid-template-columns: 1fr;
+      }
+      .article-container {
+        padding-top: 7rem !important;
+        padding-bottom: 3rem !important;
+      }
+      .article-title {
+        font-size: 2rem !important;
+      }
+      .article-hero-image {
+        height: 250px !important;
+        margin-bottom: 2rem !important;
+      }
+      .article-meta {
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 0.5rem !important;
+        margin-bottom: 2rem !important;
+      }
+      .article-section h2 {
+        font-size: 1.1rem !important;
+      }
+      .article-section div {
+        font-size: 1rem !important;
+      }
+    }
   </style>
 </head>
 <body>
@@ -775,23 +806,23 @@
 
   <!-- Hero / Featured Briefs -->
 
-  <article class="container" style="padding-top: 10rem; padding-bottom: 5rem; max-width: 900px;">
+  <article class="container article-container" style="padding-top: 10rem; padding-bottom: 5rem; max-width: 900px;">
     
-    <div style="width: 100%; height: 400px; background-image: url('https://breakingdefense.com/wp-content/uploads/sites/13/2025/09/embraer-kc390-flags-scaled-e1758296166298-1024x577.jpg'); background-size: cover; background-position: center; border-radius: var(--radius-lg); margin-bottom: 3rem; box-shadow: var(--glass-shadow);"></div>
+    <div class="article-hero-image" style="width: 100%; height: 400px; background-image: url('https://breakingdefense.com/wp-content/uploads/sites/13/2025/09/embraer-kc390-flags-scaled-e1758296166298-1024x577.jpg'); background-size: cover; background-position: center; border-radius: var(--radius-lg); margin-bottom: 3rem; box-shadow: var(--glass-shadow);"></div>
     
     
-    <h1 style="font-size: 3rem; margin-bottom: 1rem; line-height: 1.1;">Embraer's Dual-Track Defense Imperative: C-390 Millennium Global Expansion and A-29 Super Tucano Strategic Realignment</h1>
+    <h1 class="article-title" style="font-size: 3rem; margin-bottom: 1rem; line-height: 1.1;">Embraer's Dual-Track Defense Imperative: C-390 Millennium Global Expansion and A-29 Super Tucano Strategic Realignment</h1>
     
-    <div style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 3rem; display: flex; gap: 2rem; align-items: center;">
+    <div class="article-meta" style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 3rem; display: flex; gap: 2rem; align-items: center;">
       <span><strong>Published:</strong> Thu, 18 Jun 2026 16:25:49 +0000</span>
     </div>
 
-    <section style="margin-bottom: 3rem;">
+    <section class="article-section" style="margin-bottom: 3rem;">
       <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Executive Summary</h2>
       <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);"><p>This intelligence report provides an in-depth analysis of Embraer Defense &amp; Security's current strategic maneuvers, focusing on two pivotal programs: the accelerating production and international expansion of the C-390 Millennium multi-mission aircraft and the ongoing strategic evaluation of the A-29 Super Tucano's dedicated U.S. production line. The C-390 Millennium is poised for significant global market penetration, evidenced by planned deliveries to the Czech Republic, Uzbekistan, and South Korea within the current fiscal year, solidifying its position as a formidable competitor in the tactical airlift and aerial refueling segment. Simultaneously, Embraer is contemplating the future operational status of the A-29 Super Tucano's manufacturing facility in Jacksonville, Florida, a decision that will profoundly impact its light attack aircraft portfolio and U.S. defense industrial base partnerships. This report details the technical capabilities, strategic implications, and market dynamics shaping Embraer's trajectory in the global defense sector.</p></div>
     </section>
 
-    <section style="margin-bottom: 3rem;">
+    <section class="article-section" style="margin-bottom: 3rem;">
       <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Technical Deep-Dive</h2>
       <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);"><h3>C-390 Millennium (KC-390) Platform Analysis and Production Expansion</h3>
 
@@ -855,7 +886,7 @@
 <p>Any decision regarding the Jacksonville facility will have implications for the U.S. defense industrial base, potential job losses, and the future mechanisms for delivering the A-29 to U.S.-backed allies. This signals Embraer's agile approach to managing its global defense portfolio in response to shifting geopolitical and market demands.</p></div>
     </section>
 
-    <section style="background: rgba(37, 99, 235, 0.05); border-left: 4px solid var(--accent-blue); padding: 2rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-bottom: 3rem;">
+    <section class="article-section" style="background: rgba(37, 99, 235, 0.05); border-left: 4px solid var(--accent-blue); padding: 2rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-bottom: 3rem;">
       <h2 style="color: var(--accent-blue); margin-bottom: 1rem; font-size: 1.2rem;">Strategic Impact</h2>
       <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main); font-weight: 500;"><p>Embraer's current strategic maneuvers with the C-390 Millennium and the A-29 Super Tucano have profound implications for its global market positioning, international defense partnerships, and competitive landscape. These actions underscore Embraer's ambition to solidify its role as a key player in the specialized segments of military aviation.</p>
 <h4>Strengthening Global Positioning and Market Diversification</h4>
@@ -879,7 +910,7 @@
 </ul></div>
     </section>
 
-    <section style="margin-bottom: 4rem;">
+    <section class="article-section" style="margin-bottom: 4rem;">
       <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Conclusion</h2>
       <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);"><p>Embraer's defense sector is at a pivotal juncture, demonstrating robust strategic planning and an adaptive response to dynamic global defense requirements. The concerted effort to ramp up C-390 Millennium production and secure key international deliveries to the Czech Republic, Uzbekistan, and South Korea underscores Embraer's ambition to become a dominant force in the medium-lift tactical transport and aerial refueling market. This multi-mission platform is rapidly solidifying its position as a preferred choice for nations seeking modern, versatile, and cost-effective air mobility solutions, directly challenging established competitors and fostering new geopolitical alliances.</p>
 <p>Concurrently, the critical assessment of the A-29 Super Tucano production line in Jacksonville, Florida, highlights Embraer's pragmatic approach to portfolio management. This deliberation reflects an understanding of shifting global defense spending priorities, particularly in the light attack and counter-insurgency domains, and the need to optimize industrial footprints. While the A-29 remains a highly successful and proven platform, a potential realignment of its U.S. manufacturing base would allow Embraer to reallocate resources and focus on areas of higher strategic growth and profitability, ensuring the long-term sustainability and competitiveness of its defense division.</p>
@@ -930,7 +961,7 @@
     
     <div style="border-top: 1px solid rgba(0,0,0,0.1); padding-top: 2rem; display: flex; justify-content: space-between; align-items: center;">
       <a href="../index.html" class="btn btn-primary">&larr; Back to Dashboard</a>
-      <span style="color: var(--text-muted); font-weight: 500;">Source: breakingdefense.com</span>
+      <span style="color: var(--text-muted); font-weight: 500;">Source: Neodymium Intel</span>
     </div>
   </article>
   <!-- Footer -->

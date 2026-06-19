@@ -752,6 +752,37 @@
       display: flex;
       justify-content: flex-end;
     }
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+      }
+      .footer-content {
+        grid-template-columns: 1fr;
+      }
+      .article-container {
+        padding-top: 7rem !important;
+        padding-bottom: 3rem !important;
+      }
+      .article-title {
+        font-size: 2rem !important;
+      }
+      .article-hero-image {
+        height: 250px !important;
+        margin-bottom: 2rem !important;
+      }
+      .article-meta {
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 0.5rem !important;
+        margin-bottom: 2rem !important;
+      }
+      .article-section h2 {
+        font-size: 1.1rem !important;
+      }
+      .article-section div {
+        font-size: 1rem !important;
+      }
+    }
   </style>
 </head>
 <body>
@@ -775,23 +806,23 @@
 
   <!-- Hero / Featured Briefs -->
 
-  <article class="container" style="padding-top: 10rem; padding-bottom: 5rem; max-width: 900px;">
+  <article class="container article-container" style="padding-top: 10rem; padding-bottom: 5rem; max-width: 900px;">
     
-    <div style="width: 100%; height: 400px; background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixVMIc5A2HZUwAU1_6x0qoIr009p1eSHD8a4IF8A-oGWljy_DZp8IiBz_oR9PWierX6WfLhGOzecThKsW-5VTj0LJshUKPntiIMgn46SUdofvkdQjmzUpLqdqLsZFWS-RKqaei9zbnUebtREnAOS6g9vvYOwPKaZwOb7WWHqMfQKe7_60z3ocIityn754/w1200-h630-p-k-no-nu/BrahMos_Supersonic_Cruise_Missile.jpg'); background-size: cover; background-position: center; border-radius: var(--radius-lg); margin-bottom: 3rem; box-shadow: var(--glass-shadow);"></div>
+    <div class="article-hero-image" style="width: 100%; height: 400px; background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixVMIc5A2HZUwAU1_6x0qoIr009p1eSHD8a4IF8A-oGWljy_DZp8IiBz_oR9PWierX6WfLhGOzecThKsW-5VTj0LJshUKPntiIMgn46SUdofvkdQjmzUpLqdqLsZFWS-RKqaei9zbnUebtREnAOS6g9vvYOwPKaZwOb7WWHqMfQKe7_60z3ocIityn754/w1200-h630-p-k-no-nu/BrahMos_Supersonic_Cruise_Missile.jpg'); background-size: cover; background-position: center; border-radius: var(--radius-lg); margin-bottom: 3rem; box-shadow: var(--glass-shadow);"></div>
     
     
-    <h1 style="font-size: 3rem; margin-bottom: 1rem; line-height: 1.1;">BrahMos Ascendancy: Moscow's Acquisition Intent and New Delhi's Strategic Supply Pivot</h1>
+    <h1 class="article-title" style="font-size: 3rem; margin-bottom: 1rem; line-height: 1.1;">BrahMos Ascendancy: Moscow's Acquisition Intent and New Delhi's Strategic Supply Pivot</h1>
     
-    <div style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 3rem; display: flex; gap: 2rem; align-items: center;">
+    <div class="article-meta" style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 3rem; display: flex; gap: 2rem; align-items: center;">
       <span><strong>Published:</strong> Thu, 18 Jun 2026 16:34:00 +0000</span>
     </div>
 
-    <section style="margin-bottom: 3rem;">
+    <section class="article-section" style="margin-bottom: 3rem;">
       <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Executive Summary</h2>
       <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);"><p>This intelligence report details the recent and significant development wherein the Russian Federation has formally expressed a keen interest in the induction of the BrahMos supersonic cruise missile into its own armed forces. This intent, articulated by BrahMos Aerospace Chief Jaiteerth Joshi, signals a profound reorientation in traditional Indo-Russian defense supply dynamics, positioning India as a prospective supplier of advanced weapon systems to its long-standing strategic partner. The decision by Moscow is underpinned by an evolving global security landscape and a strategic imperative to reinforce its arsenal with proven, high-performance systems. Discussions are actively underway to substantially augment production capacities within India to meet anticipated Russian demand, potentially involving direct system supplies from Indian industrial partners. This initiative not only solidifies the BrahMos missile's global standing, following its extensive development and combat validation, but also significantly elevates India's role as a credible and advanced defense manufacturing and exporting nation, aligning with its 'Atmanirbhar Bharat' defense indigenization strategy. The development portends a new era of deeper technological collaboration, potentially extending to next-generation hypersonic variants and other cutting-edge platforms.</p></div>
     </section>
 
-    <section style="margin-bottom: 3rem;">
+    <section class="article-section" style="margin-bottom: 3rem;">
       <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Technical Deep-Dive</h2>
       <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);"><p>The BrahMos missile system, a collaborative endeavor between India's Defence Research and Development Organisation (DRDO) and Russia's NPO Mashinostroyenia (NPOM) through the BrahMos Aerospace Private Limited joint venture, represents a pinnacle of supersonic cruise missile technology. Its nomenclature is a portmanteau derived from the Brahmaputra River of India and the Moskva River of Russia, symbolizing the enduring partnership. The system's operational efficacy is predicated on several advanced design and engineering principles.</p>
 <p><strong>Propulsion System:</strong> The BrahMos employs a two-stage propulsion system. The initial stage utilizes a solid-propellant rocket booster, which provides the necessary thrust for rapid acceleration and launch, pushing the missile to supersonic speeds shortly after ignition. Once the missile attains a predetermined velocity and altitude, the booster separates, and the second stage, a liquid-fueled ramjet engine, takes over. The ramjet engine is an air-breathing jet engine that operates most efficiently at supersonic speeds. It compresses incoming air through its forward motion rather than relying on a complex turbomachinery, making it lighter and more efficient for sustained high-speed flight compared to turbojets or turbofans. This enables the BrahMos to maintain its blistering Mach 2.8 to Mach 3.0 (approximately 3,400 to 3,700 km/h or 2.8 to 3.0 times the speed of sound) cruising speed throughout a significant portion of its flight trajectory. The kinetic energy imparted by such extreme velocities, even with a conventional warhead, is devastating, greatly enhancing its destructive power against hardened targets or large naval vessels.</p>
@@ -806,7 +837,7 @@
 <p><strong>Operational Provenance:</strong> The BrahMos has undergone rigorous development, testing, and operational deployment over 25 years. Its combat validation during 'Operation Sindoor,' involving a successful live operational scenario strike against an adversary, underscored its reliability, precision, and lethality under real-world conditions. This proven track record significantly contributes to its reputation and attractiveness to potential buyers, including Russia. Indian industries, such as Solar Industries India Ltd, play a crucial role in the supply chain, particularly in manufacturing critical components like indigenous boosters, demonstrating India's growing self-reliance and potential to scale production for international demands.</p></div>
     </section>
 
-    <section style="background: rgba(37, 99, 235, 0.05); border-left: 4px solid var(--accent-blue); padding: 2rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-bottom: 3rem;">
+    <section class="article-section" style="background: rgba(37, 99, 235, 0.05); border-left: 4px solid var(--accent-blue); padding: 2rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-bottom: 3rem;">
       <h2 style="color: var(--accent-blue); margin-bottom: 1rem; font-size: 1.2rem;">Strategic Impact</h2>
       <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main); font-weight: 500;"><p>The expressed Russian intent to induct the BrahMos supersonic cruise missile carries profound strategic implications for both the Russian Federation and the Republic of India, as well as for the broader geopolitical landscape.</p>
 <p><strong>For the Russian Federation:</strong>
@@ -826,7 +857,7 @@
 *   <strong>Future Collaboration Pathways:</strong> This transaction is not merely a commercial exchange but a precursor for deeper, more ambitious collaborations. The BrahMos Aerospace Chief's reference to future projects, including hypersonic missile variants and other high-technology platforms, indicates a trajectory towards joint development of next-generation defense capabilities, further solidifying the Indo-Russian strategic technology alliance.</p></div>
     </section>
 
-    <section style="margin-bottom: 4rem;">
+    <section class="article-section" style="margin-bottom: 4rem;">
       <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Conclusion</h2>
       <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);"><p>The overt expression of interest by the Russian Federation in inducting the BrahMos supersonic cruise missile represents a pivotal moment in contemporary defense geopolitics and the evolution of the Indo-Russian strategic partnership. This initiative transcends a mere procurement decision; it signifies a fundamental shift in the traditional dynamics of defense supply, with India emerging as a sophisticated provider of advanced military hardware to a global military power. This development provides robust validation for India's decades-long investment in indigenous defense research and manufacturing under the 'Atmanirbhar Bharat' vision, elevating its stature as a key player in the global arms market.</p>
 <p>For Russia, the BrahMos offers an immediate and impactful enhancement to its arsenal, leveraging a combat-proven system to address evolving security requirements and bolster its strategic deterrence capabilities. For India, it catalyzes economic growth in its defense sector, reinforces strategic autonomy, and strengthens its diplomatic leverage on the international stage. Beyond the immediate transaction, this deepening collaboration lays a crucial foundation for future joint endeavors in cutting-edge defense technologies, notably in the realm of hypersonic systems, thereby ensuring the sustained relevance and innovation of the Indo-Russian defense nexus.</p>
@@ -869,7 +900,7 @@
     
     <div style="border-top: 1px solid rgba(0,0,0,0.1); padding-top: 2rem; display: flex; justify-content: space-between; align-items: center;">
       <a href="../index.html" class="btn btn-primary">&larr; Back to Dashboard</a>
-      <span style="color: var(--text-muted); font-weight: 500;">Source: indiandefensenews.in</span>
+      <span style="color: var(--text-muted); font-weight: 500;">Source: Neodymium Intel</span>
     </div>
   </article>
   <!-- Footer -->

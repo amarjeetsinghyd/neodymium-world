@@ -752,6 +752,37 @@
       display: flex;
       justify-content: flex-end;
     }
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+      }
+      .footer-content {
+        grid-template-columns: 1fr;
+      }
+      .article-container {
+        padding-top: 7rem !important;
+        padding-bottom: 3rem !important;
+      }
+      .article-title {
+        font-size: 2rem !important;
+      }
+      .article-hero-image {
+        height: 250px !important;
+        margin-bottom: 2rem !important;
+      }
+      .article-meta {
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 0.5rem !important;
+        margin-bottom: 2rem !important;
+      }
+      .article-section h2 {
+        font-size: 1.1rem !important;
+      }
+      .article-section div {
+        font-size: 1rem !important;
+      }
+    }
   </style>
 </head>
 <body>
@@ -775,23 +806,23 @@
 
   <!-- Hero / Featured Briefs -->
 
-  <article class="container" style="padding-top: 10rem; padding-bottom: 5rem; max-width: 900px;">
+  <article class="container article-container" style="padding-top: 10rem; padding-bottom: 5rem; max-width: 900px;">
     
-    <div style="width: 100%; height: 400px; background-image: url('https://breakingdefense.com/wp-content/uploads/sites/13/2025/07/SecDef-Hegseth-Emil-Michael-RE-with-Kratos-XQ-58-at-Pentagon-Drone-Day-250716-D-PM193-1138K-scaled-e1752860021751.jpeg'); background-size: cover; background-position: center; border-radius: var(--radius-lg); margin-bottom: 3rem; box-shadow: var(--glass-shadow);"></div>
+    <div class="article-hero-image" style="width: 100%; height: 400px; background-image: url('https://breakingdefense.com/wp-content/uploads/sites/13/2025/07/SecDef-Hegseth-Emil-Michael-RE-with-Kratos-XQ-58-at-Pentagon-Drone-Day-250716-D-PM193-1138K-scaled-e1752860021751.jpeg'); background-size: cover; background-position: center; border-radius: var(--radius-lg); margin-bottom: 3rem; box-shadow: var(--glass-shadow);"></div>
     
     
-    <h1 style="font-size: 3rem; margin-bottom: 1rem; line-height: 1.1;">Pentagon may ‘sacrifice’ traditional weapons to buy more drones if reconciliation fails: CTO</h1>
+    <h1 class="article-title" style="font-size: 3rem; margin-bottom: 1rem; line-height: 1.1;">Pentagon may ‘sacrifice’ traditional weapons to buy more drones if reconciliation fails: CTO</h1>
     
-    <div style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 3rem; display: flex; gap: 2rem; align-items: center;">
+    <div class="article-meta" style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 3rem; display: flex; gap: 2rem; align-items: center;">
       <span><strong>Published:</strong> Fri, 12 Jun 2026 19:28:59 +0000</span>
     </div>
 
-    <section style="margin-bottom: 3rem;">
+    <section class="article-section" style="margin-bottom: 3rem;">
       <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Executive Summary</h2>
       <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);"><p>This intelligence report details a critical financial and strategic dilemma confronting the United States Department of Defense (DoD). Absent the successful appropriation of a supplementary $350 billion in funding via the congressional reconciliation process, the Pentagon's leadership, specifically Undersecretary of Defense for Research and Engineering and Chief Technology Officer (CTO) Emil Michael, has indicated a willingness to reallocate substantial resources away from established, high-cost traditional weapon systems. This strategic pivot aims to safeguard and accelerate investment in a burgeoning 'AI arsenal' comprising low-cost, high-tech autonomous systems, including unmanned aerial systems (UAS), unmanned maritime systems (UMS) such as Saronic-like platforms, and advanced mine-detection technologies. This potential reorientation underscores a profound shift in defense modernization priorities, driven by the perceived imperative of technological superiority and cost-effectiveness in future conflicts. The situation is further complicated by significant political friction within Congress and presidential intervention, highlighting the intense pressure and strategic implications associated with this funding impasse.</p></div>
     </section>
 
-    <section style="margin-bottom: 3rem;">
+    <section class="article-section" style="margin-bottom: 3rem;">
       <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Technical Deep-Dive</h2>
       <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);"><p>The potential reorientation of defense procurement priorities towards an 'AI arsenal' signifies a fundamental shift in the conceptualization of modern warfare, moving from platforms of exquisite capability to systems of distributed, autonomous, and attritable mass. This section elaborates on the technical underpinnings and operational implications of this strategic pivot.</p>
 <p><strong>The 'AI Arsenal': Core Components and Capabilities</strong></p>
@@ -852,7 +883,7 @@
 <p>From a technical perspective, the proposed trade-off highlights a divergence in military philosophy: rather than relying on a small number of extremely capable, multi-faceted platforms designed to survive any threat, the 'AI arsenal' embraces a strategy of distributed lethality and resilience through numerical superiority. The technical risk associated with such a shift lies in ensuring the robustness, security, and ethical control of autonomous systems, as well as developing effective command and control frameworks for managing hundreds or thousands of independent units in complex, dynamic combat environments.</p></div>
     </section>
 
-    <section style="background: rgba(37, 99, 235, 0.05); border-left: 4px solid var(--accent-blue); padding: 2rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-bottom: 3rem;">
+    <section class="article-section" style="background: rgba(37, 99, 235, 0.05); border-left: 4px solid var(--accent-blue); padding: 2rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-bottom: 3rem;">
       <h2 style="color: var(--accent-blue); margin-bottom: 1rem; font-size: 1.2rem;">Strategic Impact</h2>
       <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main); font-weight: 500;"><p>The potential reordering of Department of Defense (DoD) procurement priorities, driven by the outcome of the $350 billion reconciliation funding, carries profound strategic implications across multiple domains:</p>
 <ol>
@@ -891,7 +922,7 @@
 <p>In essence, the funding decision is not merely a budgetary matter but a strategic inflection point that could redefine U.S. military capabilities, global influence, and the very nature of future warfare. The stakes involve maintaining technological superiority, adapting to emerging threats, and navigating complex political dynamics to secure the necessary resources for national security.</p></div>
     </section>
 
-    <section style="margin-bottom: 4rem;">
+    <section class="article-section" style="margin-bottom: 4rem;">
       <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Conclusion</h2>
       <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);"><p>The deliberation surrounding the $350 billion reconciliation package represents a pivotal juncture for United States defense policy and technological modernization. The clear directive from the Pentagon's leadership, as articulated by Emil Michael, underscores an unwavering commitment to prioritizing advanced autonomous systems—the 'AI arsenal'—even if it necessitates a significant divestment from traditional, 'exquisite' weapon platforms. This strategic imperative is driven by a compelling logic: to ensure future warfighting advantage through numerical superiority, cost-effectiveness, reduced risk to human personnel, and a more distributed, resilient force structure capable of operating across contested domains.</p>
 <p>However, the execution of this strategic pivot is critically contingent upon congressional appropriation. The political complexities, particularly in an election year, and the divergence of views within the legislative branch, pose a formidable challenge to securing the requisite funding. A failure to pass the reconciliation bill would force the Department of Defense into difficult programmatic trade-offs, potentially accelerating a transformation that, while strategically sound in principle, might entail significant short-term risks and long-term adjustments for the defense industrial base, allied nations, and the U.S. force structure.</p>
@@ -920,7 +951,7 @@
     
     <div style="border-top: 1px solid rgba(0,0,0,0.1); padding-top: 2rem; display: flex; justify-content: space-between; align-items: center;">
       <a href="../index.html" class="btn btn-primary">&larr; Back to Dashboard</a>
-      <span style="color: var(--text-muted); font-weight: 500;">Source: None</span>
+      <span style="color: var(--text-muted); font-weight: 500;">Source: Neodymium Intel</span>
     </div>
   </article>
   <!-- Footer -->

@@ -752,6 +752,37 @@
       display: flex;
       justify-content: flex-end;
     }
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+      }
+      .footer-content {
+        grid-template-columns: 1fr;
+      }
+      .article-container {
+        padding-top: 7rem !important;
+        padding-bottom: 3rem !important;
+      }
+      .article-title {
+        font-size: 2rem !important;
+      }
+      .article-hero-image {
+        height: 250px !important;
+        margin-bottom: 2rem !important;
+      }
+      .article-meta {
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 0.5rem !important;
+        margin-bottom: 2rem !important;
+      }
+      .article-section h2 {
+        font-size: 1.1rem !important;
+      }
+      .article-section div {
+        font-size: 1rem !important;
+      }
+    }
   </style>
 </head>
 <body>
@@ -775,23 +806,23 @@
 
   <!-- Hero / Featured Briefs -->
 
-  <article class="container" style="padding-top: 10rem; padding-bottom: 5rem; max-width: 900px;">
+  <article class="container article-container" style="padding-top: 10rem; padding-bottom: 5rem; max-width: 900px;">
     
-    <div style="width: 100%; height: 400px; background-image: url('https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/260618_energy_fuels_white_mesa_GettyImages-2203457850-e1781799565692.jpg'); background-size: cover; background-position: center; border-radius: var(--radius-lg); margin-bottom: 3rem; box-shadow: var(--glass-shadow);"></div>
+    <div class="article-hero-image" style="width: 100%; height: 400px; background-image: url('https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/260618_energy_fuels_white_mesa_GettyImages-2203457850-e1781799565692.jpg'); background-size: cover; background-position: center; border-radius: var(--radius-lg); margin-bottom: 3rem; box-shadow: var(--glass-shadow);"></div>
     
     
-    <h1 style="font-size: 3rem; margin-bottom: 1rem; line-height: 1.1;">Securing the Strategic Nexus: Pentagon's Critical Mineral Investments to Fortify the Defense Industrial Base</h1>
+    <h1 class="article-title" style="font-size: 3rem; margin-bottom: 1rem; line-height: 1.1;">Securing the Strategic Nexus: Pentagon's Critical Mineral Investments to Fortify the Defense Industrial Base</h1>
     
-    <div style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 3rem; display: flex; gap: 2rem; align-items: center;">
+    <div class="article-meta" style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 3rem; display: flex; gap: 2rem; align-items: center;">
       <span><strong>Published:</strong> Thu, 18 Jun 2026 17:24:00 +0000</span>
     </div>
 
-    <section style="margin-bottom: 3rem;">
+    <section class="article-section" style="margin-bottom: 3rem;">
       <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Executive Summary</h2>
       <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);"><p>The Department of Defense (DoD) has initiated significant financial commitments, reportedly totaling $1.2 billion, through strategic loans aimed at bolstering the domestic supply chain for critical rare earth minerals and strategic metals. These investments, executed under authorities such as the Defense Production Act (DPA) Title III, are a direct response to acute vulnerabilities identified within the national defense industrial base. The imperative to secure reliable access to materials such as germanium, gallium, and various rare earth elements (REEs) is paramount, as these are indispensable components in advanced defense systems, ranging from precision-guided munitions and sophisticated sensor technologies to hypersonic weapons and electronic warfare capabilities. Without a resilient, domestically controlled supply chain for these materials, the ambitious goals for scaling weapons production and maintaining technological superiority risk becoming unachievable, posing a direct threat to national security and global strategic stability. This report provides a comprehensive analysis of these critical material dependencies, the technical applications, the strategic implications of these investments, and the broader geopolitical context of resource competition.</p></div>
     </section>
 
-    <section style="margin-bottom: 3rem;">
+    <section class="article-section" style="margin-bottom: 3rem;">
       <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Technical Deep-Dive</h2>
       <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);"><p>The modern defense apparatus is intricately reliant on a spectrum of advanced materials possessing unique physical and chemical properties. Among these, rare earth elements (REEs) and specific strategic metals like germanium and gallium are irreplaceable due to their performance characteristics in high-tech applications. The Assistant Secretary of Defense for Industrial Base Policy, Michael Cadenazzi, accurately articulated the criticality of these inputs, stating, 'You can dream all day long about scaling [weapons production but] if you don’t have germanium, gallium, and rare earths, it is a pipe dream.' This section elaborates on these materials and their defense applications.</p>
 <p><strong>1. Germanium (Ge):</strong>
@@ -830,7 +861,7 @@
     *   Beyond extraction, the most significant bottleneck lies in the processing and refining of these materials. REEs, in particular, occur together in ore bodies and require complex, multi-stage chemical separation processes to isolate individual elements to high purity levels. This is energy-intensive, generates significant waste products (some hazardous), and demands specialized expertise and infrastructure. The capital expenditure and operational costs for such facilities are substantial, historically deterring Western investment in favor of lower-cost, less regulated foreign options. The DoD's intervention directly addresses this market failure.</p></div>
     </section>
 
-    <section style="background: rgba(37, 99, 235, 0.05); border-left: 4px solid var(--accent-blue); padding: 2rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-bottom: 3rem;">
+    <section class="article-section" style="background: rgba(37, 99, 235, 0.05); border-left: 4px solid var(--accent-blue); padding: 2rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-bottom: 3rem;">
       <h2 style="color: var(--accent-blue); margin-bottom: 1rem; font-size: 1.2rem;">Strategic Impact</h2>
       <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main); font-weight: 500;"><p>The Pentagon's proactive investment in critical mineral supply chains carries profound strategic implications across national security, economic resilience, and geopolitical positioning.</p>
 <p><strong>1. Enhanced National Security and Deterrence:</strong>
@@ -849,7 +880,7 @@
     *   While not explicitly stated, domestic production under stringent U.S. environmental and labor regulations offers a pathway to more ethical and sustainable sourcing compared to regions with lax oversight. This can enhance the 'social license to operate' for the defense industry and address growing concerns among stakeholders regarding responsible sourcing.</p></div>
     </section>
 
-    <section style="margin-bottom: 4rem;">
+    <section class="article-section" style="margin-bottom: 4rem;">
       <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Conclusion</h2>
       <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);"><p>The Pentagon's substantial investment in securing critical mineral supply chains represents a pivotal strategic imperative. The explicit recognition that advanced defense production capability is inextricably linked to the reliable availability of materials such as germanium, gallium, and rare earth elements underscores a crucial reorientation of national security policy. These investments, channeled through mechanisms like the Defense Production Act, are not merely financial transactions; they are a fundamental commitment to rebuild and fortify a defense industrial base that has, for too long, been exposed to significant geopolitical and economic vulnerabilities.</p>
 <p>Without these critical materials, the ambitions for scaling advanced weapons systems and maintaining a technological advantage over peer competitors will remain, as articulated, 'a pipe dream.' The technical deep dive reveals the pervasive integration of these materials across the entire spectrum of modern defense technology, from the most precise guidance systems to the most powerful sensor arrays and next-generation propulsion. The strategic implications are equally profound, directly impacting national security, the ability to project power, and the capacity to deter aggression effectively.</p>
@@ -890,7 +921,7 @@
     
     <div style="border-top: 1px solid rgba(0,0,0,0.1); padding-top: 2rem; display: flex; justify-content: space-between; align-items: center;">
       <a href="../index.html" class="btn btn-primary">&larr; Back to Dashboard</a>
-      <span style="color: var(--text-muted); font-weight: 500;">Source: breakingdefense.com</span>
+      <span style="color: var(--text-muted); font-weight: 500;">Source: Neodymium Intel</span>
     </div>
   </article>
   <!-- Footer -->
