@@ -855,15 +855,7 @@
           </div>
           <h3 id="an1-title">Global Defense Spending Index</h3>
           
-          <div class="data-viz">
-            <div class="bar" style="height: 40%; animation-delay: 0.1s;"></div>
-            <div class="bar" style="height: 55%; animation-delay: 0.2s;"></div>
-            <div class="bar" style="height: 45%; animation-delay: 0.3s;"></div>
-            <div class="bar" style="height: 70%; animation-delay: 0.4s;"></div>
-            <div class="bar" style="height: 60%; animation-delay: 0.5s;"></div>
-            <div class="bar" style="height: 85%; animation-delay: 0.6s;"></div>
-            <div class="bar" style="height: 95%; animation-delay: 0.7s;"></div>
-          </div>
+          <div id="an1-img" style="width: 100%; height: 160px; border-radius: var(--radius-sm); margin-top: 1rem; background-size: cover; background-position: center; background-color: rgba(37, 99, 235, 0.05);"></div>
           <div class="card-footer" style="margin-top: 1.5rem;">
             <a href="#" id="an1-link" class="read-more">Access Data <span>&rarr;</span></a>
             <span style="font-size: 0.85rem; color: var(--text-light);">Analysis Report</span>
@@ -877,10 +869,7 @@
           </div>
           <h3 id="an2-title">Material Sciences Innovation</h3>
           
-          <div class="data-viz" style="align-items: center; justify-content: space-around; background: none;">
-            <div style="width: 60px; height: 60px; border-radius: 50%; border: 6px solid var(--accent-cyan); border-right-color: transparent; transform: rotate(45deg);"></div>
-            <div style="width: 40px; height: 40px; border-radius: 50%; border: 4px solid var(--accent-violet); border-bottom-color: transparent; transform: rotate(-20deg);"></div>
-          </div>
+          <div id="an2-img" style="width: 100%; height: 160px; border-radius: var(--radius-sm); margin-top: 1rem; background-size: cover; background-position: center; background-color: rgba(37, 99, 235, 0.05);"></div>
           <div class="card-footer" style="margin-top: 1.5rem;">
             <a href="#" id="an2-link" class="read-more">Read Analysis <span>&rarr;</span></a>
             <span style="font-size: 0.85rem; color: var(--text-light);">Analysis Report</span>
@@ -894,17 +883,7 @@
           </div>
           <h3 id="an3-title">Cyber Infrastructure Resilience</h3>
           
-          <div class="data-viz" style="background: none; display: flex; flex-direction: column; justify-content: center; gap: 8px;">
-            <div style="width: 100%; height: 8px; background: rgba(0,0,0,0.05); border-radius: 4px; overflow: hidden;">
-              <div style="width: 85%; height: 100%; background: var(--gradient-primary);"></div>
-            </div>
-            <div style="width: 100%; height: 8px; background: rgba(0,0,0,0.05); border-radius: 4px; overflow: hidden;">
-              <div style="width: 62%; height: 100%; background: var(--accent-cyan);"></div>
-            </div>
-            <div style="width: 100%; height: 8px; background: rgba(0,0,0,0.05); border-radius: 4px; overflow: hidden;">
-              <div style="width: 93%; height: 100%; background: var(--accent-violet);"></div>
-            </div>
-          </div>
+          <div id="an3-img" style="width: 100%; height: 160px; border-radius: var(--radius-sm); margin-top: 1rem; background-size: cover; background-position: center; background-color: rgba(37, 99, 235, 0.05);"></div>
           <div class="card-footer" style="margin-top: 1.5rem;">
             <a href="#" id="an3-link" class="read-more">View Dashboard <span>&rarr;</span></a>
             <span style="font-size: 0.85rem; color: var(--text-light);">Analysis Report</span>
@@ -1079,18 +1058,21 @@
         if (an1) {
           document.getElementById('an1-title').textContent = an1.title;
           document.getElementById('an1-link').href = an1.article_url || an1.link || '#';
+          if (an1.image_url) document.getElementById('an1-img').style.backgroundImage = `url('${an1.image_url}')`;
         }
 
         const an2 = news[4];
         if (an2) {
           document.getElementById('an2-title').textContent = an2.title;
           document.getElementById('an2-link').href = an2.article_url || an2.link || '#';
+          if (an2.image_url) document.getElementById('an2-img').style.backgroundImage = `url('${an2.image_url}')`;
         }
 
         const an3 = news[5];
         if (an3) {
           document.getElementById('an3-title').textContent = an3.title;
           document.getElementById('an3-link').href = an3.article_url || an3.link || '#';
+          if (an3.image_url) document.getElementById('an3-img').style.backgroundImage = `url('${an3.image_url}')`;
         }
 
         // Populate Live Intelligence Feed Grid
