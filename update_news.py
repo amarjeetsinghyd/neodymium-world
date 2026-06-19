@@ -230,20 +230,23 @@ def main():
         }
         new_items.append(news_item)
         # Render and save static HTML
-        html_content = template.render(
-            title=title,
-            category=category,
-            seo_tags=seo_tags,
-            full_report=full_report,
-            image_url=image_url,
-            published_at=published_date,
-            original_link=link,
-            publisher_name=publisher_name,
-            slug=slug
-        )
-        with open(article_url, 'w', encoding='utf-8') as f:
-            f.write(html_content)
-        print(f"Generated static page: {article_url}")
+        try:
+            html_content = template.render(
+                title=title,
+                category=category,
+                seo_tags=seo_tags,
+                full_report=full_report,
+                image_url=image_url,
+                published_at=published_date,
+                original_link=link,
+                publisher_name=publisher_name,
+                slug=slug
+            )
+            with open(article_url, 'w', encoding='utf-8') as f:
+                f.write(html_content)
+            print(f"Generated static page: {article_url}")
+        except Exception as e:
+            print(f"Failed to render HTML for new article '{title}': {e}")
 
     # Build missing HTML files (for CMS manual entries)
     for item in existing_news:
@@ -262,19 +265,22 @@ def main():
             except:
                 pass
                 
-            html_content = template.render(
-                title=item.get("title", ""),
-                category=item.get("category", "Intelligence"),
-                seo_tags=item.get("seo_tags", []),
-                full_report=report,
-                image_url=item.get("image_url", ""),
-                published_at=item.get("published_at", ""),
-                original_link=item.get("original_link", "#"),
-                publisher_name=pub_name,
-                slug=item.get("slug", "")
-            )
-            with open(item["article_url"], 'w', encoding='utf-8') as f:
-                f.write(html_content)
+            try:
+                html_content = template.render(
+                    title=item.get("title", ""),
+                    category=item.get("category", "Intelligence"),
+                    seo_tags=item.get("seo_tags", []),
+                    full_report=report,
+                    image_url=item.get("image_url", ""),
+                    published_at=item.get("published_at", ""),
+                    original_link=item.get("original_link", "#"),
+                    publisher_name=pub_name,
+                    slug=item.get("slug", "")
+                )
+                with open(item["article_url"], 'w', encoding='utf-8') as f:
+                    f.write(html_content)
+            except Exception as e:
+                print(f"Failed to rebuild HTML for '{item.get('title')}': {e}")
 
     if new_items:
         print(f"Adding {len(new_items)} new articles.")
