@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://amarjeetsinghyd.github.io/neodymium-world/</loc>
+        <lastmod>{{ current_date }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    {% for item in articles %}
+    <url>
+        <loc>https://amarjeetsinghyd.github.io/neodymium-world/{{ item.article_url }}</loc>
+        <lastmod>{{ item.added_at[:10] }}</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+    </url>
+    {% endfor %}
+</urlset>

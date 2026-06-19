@@ -115,7 +115,6 @@ def main():
     env = Environment(loader=FileSystemLoader('.'))
     try:
         template = env.get_template('article_template.html')
-        rss_template = env.get_template('rss_template.xml')
     except Exception as e:
         print(f"Could not load templates: {e}")
         return
@@ -301,12 +300,23 @@ def main():
         
     # Generate RSS Feed
     try:
+        rss_template = env.get_template('rss_template.xml')
         rss_content = rss_template.render(articles=updated_news)
         with open('rss.xml', 'w', encoding='utf-8') as f:
             f.write(rss_content)
         print("Successfully generated rss.xml")
     except Exception as e:
         print(f"Failed to generate RSS feed: {e}")
+
+    # Generate Sitemap
+    try:
+        sitemap_template = env.get_template('sitemap_template.xml')
+        sitemap_content = sitemap_template.render(articles=updated_news, current_date=datetime.utcnow().strftime('%Y-%m-%d'))
+        with open('sitemap.xml', 'w', encoding='utf-8') as f:
+            f.write(sitemap_content)
+        print("Successfully generated sitemap.xml")
+    except Exception as e:
+        print(f"Failed to generate Sitemap: {e}")
 
 if __name__ == "__main__":
     main()
