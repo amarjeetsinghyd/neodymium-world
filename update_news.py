@@ -47,7 +47,7 @@ You are a Chief Defense Analyst. Rewrite this article in its entirety. Do not su
 Include: Executive Summary, Technical Deep-Dive, Strategic Impact, and Conclusion. The Technical Deep-Dive should be exceptionally detailed.
 Use a formal, institutional tone.
 
-Crucially, generate a completely original, catchy, and highly professional headline for this report. Do not use the original title to avoid copyright issues.
+Crucially, ensure you use proper Markdown formatting. ALWAYS place a blank line before starting any bulleted or numbered list. Generate a completely original, catchy, and highly professional headline for this report. Do not use the original title to avoid copyright issues.
 
 Original Title: {title}
 Original Content: {text}
@@ -197,7 +197,10 @@ def main():
         # Convert markdown fields to HTML
         for key in full_report:
             if isinstance(full_report[key], str):
-                full_report[key] = markdown.markdown(full_report[key])
+                text = full_report[key]
+                # Ensure blank lines before lists so python-markdown parses them correctly
+                text = re.sub(r'([^\n])\n(\s*[\*\-])\s', r'\1\n\n\2 ', text)
+                full_report[key] = markdown.markdown(text)
         
         # Free Tier Rate Limit Handling: 5 Requests Per Minute = 12.5 seconds per request.
         time.sleep(12.5)
