@@ -180,9 +180,9 @@ def main():
                 except json.JSONDecodeError:
                     pass
         
-        print(f"\nProcessing: {original_title}")
+        print(f"\nProcessing: {title}")
         
-        rewritten_content = rewrite_content(original_title, content_text)
+        rewritten_content = rewrite_content(title, article_text)
         if not rewritten_content:
             print("Skipping article due to AI processing failure.")
             continue
@@ -192,7 +192,7 @@ def main():
         seo_tags = rewritten_content.get("seo_tags", [])
         
         # Override the original title with the AI-generated headline to prevent copyright match
-        title = rewritten_content.get("headline", original_title)
+        title = rewritten_content.get("headline", title)
         
         # Convert markdown fields to HTML
         for key in full_report:
