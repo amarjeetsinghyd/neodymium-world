@@ -44,10 +44,13 @@ def rewrite_content(title, text):
     """Uses Gemini to rewrite article into an Intelligence Report."""
     prompt = f"""
 You are a Chief Defense Analyst. Rewrite this article in its entirety. Do not summarize or shorten it. Produce a comprehensive, highly elaborative Intelligence Report that matches or exceeds the length and depth of the original article.
-Include: Executive Summary, Technical Deep-Dive, Strategic Impact, and Conclusion. The Technical Deep-Dive should be exceptionally detailed.
-Use a formal, institutional tone.
 
-Crucially, ensure you use proper Markdown formatting. ALWAYS place a blank line before starting any bulleted or numbered list. Generate a completely original, catchy, and highly professional headline for this report. Do not use the original title to avoid copyright issues.
+Core Guidelines:
+1. Unique, Analytical Headlines: Generate a completely original, highly analytical, and intelligence-oriented headline for this report. The headline MUST be distinct and different from the original title, framing the issue from a strategic intelligence, market-disruption, or geopolitical perspective rather than a standard news report.
+2. Premium Value-Add (Strategic Forecasts): In the 'strategic_impact' section, generate highly unique, proprietary, and forward-looking strategic forecasts, scenario analyses, or predictive risk assessments. Avoid generic industry platitudes. Focus on providing original, deep-value forecasting data and insights that cannot be found elsewhere on the internet.
+3. Detail: The Technical Deep-Dive should be exceptionally detailed and analytical.
+4. Tone: Use a formal, institutional tone.
+5. Formatting: Ensure you use proper Markdown formatting. ALWAYS place a blank line before starting any bulleted or numbered list.
 
 Original Title: {title}
 Original Content: {text}

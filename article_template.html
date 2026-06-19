@@ -850,9 +850,9 @@
       <span><strong>Published:</strong> {{ published_at }}</span>
     </div>
 
-    <section class="article-section" style="margin-bottom: 3rem;">
-      <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Executive Summary</h2>
-      <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);">{{ full_report.executive_summary | safe }}</div>
+    <section class="article-section" style="background: rgba(37, 99, 235, 0.05); border-left: 4px solid var(--accent-blue); padding: 2rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-bottom: 3rem;">
+      <h2 style="color: var(--accent-blue); margin-bottom: 1rem; font-size: 1.2rem;">Strategic Impact & Analysis</h2>
+      <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main); font-weight: 500;">{{ full_report.strategic_impact | safe }}</div>
     </section>
 
     <section class="article-section" style="margin-bottom: 3rem;">
@@ -860,9 +860,9 @@
       <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);">{{ full_report.technical_deep_dive | safe }}</div>
     </section>
 
-    <section class="article-section" style="background: rgba(37, 99, 235, 0.05); border-left: 4px solid var(--accent-blue); padding: 2rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-bottom: 3rem;">
-      <h2 style="color: var(--accent-blue); margin-bottom: 1rem; font-size: 1.2rem;">Strategic Impact</h2>
-      <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main); font-weight: 500;">{{ full_report.strategic_impact | safe }}</div>
+    <section class="article-section" style="margin-bottom: 3rem;">
+      <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Executive Summary (Context)</h2>
+      <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);">{{ full_report.executive_summary | safe }}</div>
     </section>
 
     <section class="article-section" style="margin-bottom: 4rem;">
