@@ -6,6 +6,89 @@
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
+    <url>
+        <loc>https://neodymium.world/about.html</loc>
+        <lastmod>2026-06-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://neodymium.world/careers.html</loc>
+        <lastmod>2026-06-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://neodymium.world/press.html</loc>
+        <lastmod>2026-06-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://neodymium.world/contact.html</loc>
+        <lastmod>2026-06-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://neodymium.world/security.html</loc>
+        <lastmod>2026-06-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://neodymium.world/terms.html</loc>
+        <lastmod>2026-06-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://neodymium.world/privacy.html</loc>
+        <lastmod>2026-06-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://neodymium.world/cookies.html</loc>
+        <lastmod>2026-06-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/industrial-vulnerabilities-and-strategic-imperatives-fortifying-u-s-air-and-missile-defense-capabilities-in-an-evolving-threat-landscape.html</loc>
+        <lastmod>2026-06-19</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/rheinmetall-s-strategic-ascent-forging-sovereign-space-based-isr-capabilities-for-the-bundeswehr.html</loc>
+        <lastmod>2026-06-19</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/strategic-recalibration-smartbird-s-ambitious-foray-into-data-sovereign-ai-infrastructure-provisioning.html</loc>
+        <lastmod>2026-06-19</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/the-geopolitical-chokepoint-advanced-lithography-export-control-integrity-and-sino-american-tech-hegemony.html</loc>
+        <lastmod>2026-06-19</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-dual-domain-ascendancy-a-strategic-intelligence-report-on-space-and-energy-initiatives.html</loc>
+        <lastmod>2026-06-19</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/securing-the-strategic-nexus-pentagon-s-critical-mineral-investments-to-fortify-the-defense-industrial-base.html</loc>

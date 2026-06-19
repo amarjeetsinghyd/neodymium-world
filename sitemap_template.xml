@@ -6,6 +6,54 @@
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
+    <url>
+        <loc>https://neodymium.world/about.html</loc>
+        <lastmod>{{ current_date }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://neodymium.world/careers.html</loc>
+        <lastmod>{{ current_date }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://neodymium.world/press.html</loc>
+        <lastmod>{{ current_date }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://neodymium.world/contact.html</loc>
+        <lastmod>{{ current_date }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://neodymium.world/security.html</loc>
+        <lastmod>{{ current_date }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://neodymium.world/terms.html</loc>
+        <lastmod>{{ current_date }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://neodymium.world/privacy.html</loc>
+        <lastmod>{{ current_date }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://neodymium.world/cookies.html</loc>
+        <lastmod>{{ current_date }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
     {% for item in articles %}
     <url>
         <loc>https://neodymium.world/{{ item.article_url }}</loc>
