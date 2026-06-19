@@ -1241,6 +1241,27 @@
     document.addEventListener('DOMContentLoaded', () => {
       loadNewsData();
       setupModals();
+      
+      // Newsletter Form Listener
+      const newsletterForm = document.querySelector('.newsletter-form');
+      if (newsletterForm) {
+        newsletterForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const emailInput = newsletterForm.querySelector('input[type="email"]');
+          const email = emailInput.value.trim();
+          
+          emailInput.value = '';
+          
+          const modal = document.querySelector('.glass-modal');
+          const modalTitle = document.getElementById('modal-msg-title');
+          const modalText = document.getElementById('modal-msg-text');
+          
+          modalTitle.textContent = 'Subscription Successful!';
+          modalText.textContent = `Thank you for subscribing to Neodymium. Your email (${email}) has been successfully added to our Executive Briefing distribution list. You will begin receiving our weekly intelligence summaries starting next Monday.`;
+          
+          modal.showModal();
+        });
+      }
     });
 
   </script>
