@@ -1088,20 +1088,32 @@
   </footer>
 
   <!-- Floating TTS Player -->
-  <div id="tts-player" style="position: fixed; bottom: -100px; left: 50%; transform: translateX(-50%); width: 90%; max-width: 400px; background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); padding: 1rem 1.5rem; border-radius: 100px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); display: flex; align-items: center; justify-content: space-between; gap: 1rem; transition: bottom 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); z-index: 1000; color: white;">
-    <div style="display: flex; align-items: center; gap: 1rem;">
-      <button onclick="pauseResumeTTS()" style="background: var(--accent-blue); border: none; width: 40px; height: 40px; border-radius: 50%; color: white; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(37,99,235,0.3);">
-         <svg id="tts-play-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-         <svg id="tts-pause-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg>
-      </button>
-      <div style="display: flex; flex-direction: column;">
-        <span style="font-weight: 600; font-size: 0.9rem;">Intelligence Report</span>
-        <span id="tts-status" style="font-size: 0.8rem; color: rgba(255,255,255,0.6);">Playing audio...</span>
+  <div id="tts-player" style="position: fixed; bottom: -100px; left: 50%; transform: translateX(-50%); width: 90%; max-width: 500px; background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); padding: 1.25rem 1.5rem; border-radius: 24px; box-shadow: 0 10px 40px rgba(0,0,0,0.4); display: flex; flex-direction: column; gap: 1rem; transition: bottom 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); z-index: 1000; color: white;">
+    <div style="display: flex; align-items: center; justify-content: space-between; gap: 1rem;">
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <button onclick="pauseResumeTTS()" style="background: var(--accent-blue); border: none; width: 44px; height: 44px; border-radius: 50%; color: white; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(37,99,235,0.4); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+           <svg id="tts-play-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none; margin-left: 3px;"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+           <svg id="tts-pause-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg>
+        </button>
+        <div style="display: flex; flex-direction: column;">
+          <span style="font-weight: 600; font-size: 0.95rem; letter-spacing: 0.02em;">Intelligence Report</span>
+          <span id="tts-status" style="font-size: 0.8rem; color: rgba(255,255,255,0.6);">Playing audio...</span>
+        </div>
       </div>
+      <button onclick="stopTTS()" style="background: rgba(255,255,255,0.1); border: none; width: 32px; height: 32px; border-radius: 50%; color: white; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
     </div>
-    <button onclick="stopTTS()" style="background: rgba(255,255,255,0.1); border: none; width: 32px; height: 32px; border-radius: 50%; color: white; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-    </button>
+    
+    <!-- Progress Bar UI -->
+    <div style="display: flex; align-items: center; gap: 0.75rem; width: 100%;">
+      <span id="tts-current-time" style="font-size: 0.75rem; color: rgba(255,255,255,0.5); font-variant-numeric: tabular-nums;">0:00</span>
+      <div id="tts-progress-container" onclick="seekTTS(event)" style="flex: 1; height: 4px; background: rgba(255,255,255,0.15); border-radius: 2px; position: relative; cursor: pointer; display: flex; align-items: center;">
+        <div id="tts-progress-bar" style="height: 100%; width: 0%; background: var(--accent-blue); border-radius: 2px; transition: width 0.1s linear;"></div>
+        <div id="tts-progress-dot" style="width: 12px; height: 12px; background: white; border-radius: 50%; position: absolute; left: 0%; transform: translateX(-50%); box-shadow: 0 0 5px rgba(0,0,0,0.3); transition: left 0.1s linear; pointer-events: none;"></div>
+      </div>
+      <span id="tts-total-time" style="font-size: 0.75rem; color: rgba(255,255,255,0.5); font-variant-numeric: tabular-nums;">0:00</span>
+    </div>
   </div>
 
   <!-- TTS Script -->
@@ -1110,6 +1122,14 @@
     let currentChunkIndex = 0;
     let currentUtterance = null;
     let isPausedByUser = false;
+    let isStopped = true;
+    
+    // Progress calculation
+    let totalChars = 0;
+    let charsReadBeforeCurrent = 0;
+    let estimatedTotalSeconds = 0;
+    let progressInterval = null;
+    let secondsElapsed = 0;
 
     // Splits text by punctuation to prevent silent-failure bugs on long strings in Windows/Chrome
     function chunkText(text) {
@@ -1117,9 +1137,33 @@
       return sanitized.split("|").filter(chunk => chunk.trim().length > 0);
     }
 
+    function formatTime(seconds) {
+      const m = Math.floor(seconds / 60);
+      const s = Math.floor(seconds % 60);
+      return `${m}:${s < 10 ? '0' : ''}${s}`;
+    }
+
+    function updateProgressUI() {
+      if (isStopped || isPausedByUser) return;
+      secondsElapsed += 0.1;
+      
+      let progress = 0;
+      if (estimatedTotalSeconds > 0) {
+         progress = (secondsElapsed / estimatedTotalSeconds) * 100;
+         if (progress > 100) progress = 100;
+      }
+      
+      document.getElementById('tts-progress-bar').style.width = `${progress}%`;
+      document.getElementById('tts-progress-dot').style.left = `${progress}%`;
+      document.getElementById('tts-current-time').textContent = formatTime(secondsElapsed);
+    }
+
     function startTTS() {
       window.speechSynthesis.cancel();
       isPausedByUser = false;
+      isStopped = false;
+      if (progressInterval) clearInterval(progressInterval);
+      secondsElapsed = 0;
 
       const textNodes = document.querySelectorAll('.article-section');
       let articleText = '';
@@ -1129,18 +1173,29 @@
 
       ttsChunks = chunkText(articleText);
       currentChunkIndex = 0;
+      charsReadBeforeCurrent = 0;
+      
+      // Calculate estimated time (avg speaking rate is ~15 chars per second)
+      totalChars = ttsChunks.join("").length;
+      estimatedTotalSeconds = totalChars / 15; 
+      
+      document.getElementById('tts-total-time').textContent = formatTime(estimatedTotalSeconds);
+      document.getElementById('tts-current-time').textContent = "0:00";
+      document.getElementById('tts-progress-bar').style.width = "0%";
+      document.getElementById('tts-progress-dot').style.left = "0%";
 
       document.getElementById('tts-player').style.bottom = '2rem';
       document.getElementById('tts-pause-icon').style.display = 'block';
       document.getElementById('tts-play-icon').style.display = 'none';
       document.getElementById('tts-status').textContent = 'Playing audio...';
 
+      progressInterval = setInterval(updateProgressUI, 100);
       playNextChunk();
     }
 
     function playNextChunk() {
-      if (currentChunkIndex >= ttsChunks.length) {
-        stopTTS();
+      if (currentChunkIndex >= ttsChunks.length || isStopped) {
+        if (!isStopped) stopTTS();
         return;
       }
       
@@ -1154,7 +1209,11 @@
       currentUtterance.lang = lang;
 
       currentUtterance.onend = () => {
-        if (!isPausedByUser) {
+        if (!isPausedByUser && !isStopped) {
+          charsReadBeforeCurrent += chunk.length;
+          // Sync elapsed time based on char progress at boundary
+          secondsElapsed = (charsReadBeforeCurrent / totalChars) * estimatedTotalSeconds;
+          
           currentChunkIndex++;
           playNextChunk();
         }
@@ -1162,7 +1221,8 @@
 
       currentUtterance.onerror = (e) => {
         console.warn("TTS chunk error, skipping...", e);
-        if (!isPausedByUser) {
+        if (!isPausedByUser && !isStopped) {
+          charsReadBeforeCurrent += chunk.length;
           currentChunkIndex++;
           playNextChunk();
         }
@@ -1170,14 +1230,42 @@
 
       window.speechSynthesis.speak(currentUtterance);
     }
+    
+    function seekTTS(event) {
+      if (isStopped || !totalChars) return;
+      const container = document.getElementById('tts-progress-container');
+      const rect = container.getBoundingClientRect();
+      const clickX = event.clientX - rect.left;
+      const percentage = Math.max(0, Math.min(1, clickX / rect.width));
+      
+      const targetChar = percentage * totalChars;
+      let accum = 0;
+      let targetIndex = 0;
+      for (let i = 0; i < ttsChunks.length; i++) {
+         if (accum + ttsChunks[i].length >= targetChar) {
+             targetIndex = i;
+             break;
+         }
+         accum += ttsChunks[i].length;
+      }
+      
+      window.speechSynthesis.cancel();
+      currentChunkIndex = targetIndex;
+      charsReadBeforeCurrent = accum;
+      secondsElapsed = percentage * estimatedTotalSeconds;
+      
+      if (!isPausedByUser) {
+         playNextChunk();
+      }
+    }
 
     function pauseResumeTTS() {
+      if (isStopped) return;
       if (window.speechSynthesis.paused || isPausedByUser) {
         // Resume
         isPausedByUser = false;
         window.speechSynthesis.resume();
-        // If it stopped entirely (bug), replay current chunk
-        if (!window.speechSynthesis.speaking) {
+        if (!window.speechSynthesis.speaking && currentChunkIndex < ttsChunks.length) {
            playNextChunk();
         }
         document.getElementById('tts-pause-icon').style.display = 'block';
@@ -1194,12 +1282,17 @@
     }
 
     function stopTTS() {
+      isStopped = true;
       isPausedByUser = false;
+      if (progressInterval) clearInterval(progressInterval);
       window.speechSynthesis.cancel();
-      document.getElementById('tts-player').style.bottom = '-100px';
+      document.getElementById('tts-player').style.bottom = '-150px';
     }
 
-    window.addEventListener('beforeunload', () => window.speechSynthesis.cancel());
+    window.addEventListener('beforeunload', () => {
+      isStopped = true;
+      window.speechSynthesis.cancel();
+    });
   </script>
 </body>
 </html>
