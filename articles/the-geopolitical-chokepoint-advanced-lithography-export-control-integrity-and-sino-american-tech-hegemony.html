@@ -1253,11 +1253,32 @@
       const chunk = ttsChunks[currentChunkIndex];
       currentUtterance = new SpeechSynthesisUtterance(chunk);
       currentUtterance.volume = 1;
-      currentUtterance.rate = 1;
-      currentUtterance.pitch = 1;
+      currentUtterance.rate = 0.95; // Slightly slower
+      currentUtterance.pitch = 0.8; // Lower pitch for heavier sound
       
-      const lang = navigator.language || navigator.userLanguage;
-      currentUtterance.lang = lang;
+      // Load voices if not already loaded
+      let voices = window.speechSynthesis.getVoices();
+      
+      // Try to find a high-quality male voice
+      let selectedVoice = null;
+      const preferredMaleVoices = ['Google UK English Male', 'Microsoft David', 'Microsoft Mark', 'Alex', 'Daniel', 'Arthur', 'Oliver', 'Male'];
+      
+      for (const name of preferredMaleVoices) {
+        selectedVoice = voices.find(v => v.name.includes(name));
+        if (selectedVoice) break;
+      }
+      
+      // Fallback
+      if (!selectedVoice) {
+         selectedVoice = voices.find(v => v.name.toLowerCase().includes('male'));
+      }
+      
+      if (selectedVoice) {
+        currentUtterance.voice = selectedVoice;
+      } else {
+        const lang = navigator.language || navigator.userLanguage;
+        currentUtterance.lang = lang;
+      }
 
       currentUtterance.onend = () => {
         if (!isPausedByUser && !isStopped) {
