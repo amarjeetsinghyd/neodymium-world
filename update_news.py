@@ -9,6 +9,7 @@ import markdown
 from datetime import datetime
 from urllib.parse import urlparse
 from jinja2 import Environment, FileSystemLoader
+import database
 
 # Configure Gemini API
 API_KEY = os.environ.get("GEMINI_API_KEY")
@@ -139,18 +140,9 @@ def main():
     # Ensure articles directory exists
     os.makedirs('articles', exist_ok=True)
     
-    # Load existing data
-    if os.path.exists(DATA_FILE):
-        with open(DATA_FILE, 'r', encoding='utf-8') as f:
-            try:
-                data = json.load(f)
-                existing_news = data.get("articles", []) if isinstance(data, dict) else data
-            except json.JSONDecodeError:
-                existing_news = []
-    else:
-        existing_news = []
+    # Initialize SQLite database
+    database.init_db()
 
-    existing_links = {item.get('original_link', item.get('link')) for item in existing_news}
     new_items = []
 
     entries_to_process = []
@@ -159,7 +151,7 @@ def main():
         feed = feedparser.parse(feed_url)
         count = 0
         for entry in feed.entries:
-            if entry.link in existing_links:
+            if database.is_duplicate(entry.link):
                 continue
             entries_to_process.append(entry)
             count += 1
@@ -278,9 +270,19 @@ def main():
             print(f"Generated static page: {article_url}")
         except Exception as e:
             print(f"Failed to render HTML for new article '{title}': {e}")
+            
+        # Insert into database
+        if database.insert_article(news_item):
+            print(f"Successfully inserted into database: {title}")
+
+    # Export feed for frontend
+    database.export_frontend_feed()
+    
+    # Get all articles for RSS, Sitemap, and Missing HTML rebuilding
+    updated_news = database.get_all_articles(limit=1000)
 
     # Build missing HTML files (for CMS manual entries)
-    for item in existing_news:
+    for item in updated_news:
         if "article_url" in item and not os.path.exists(item["article_url"]):
             print(f"Rebuilding missing HTML for: {item.get('title')}")
             # Format markdown if necessary
@@ -314,24 +316,10 @@ def main():
             except Exception as e:
                 print(f"Failed to rebuild HTML for '{item.get('title')}': {e}")
 
-    if new_items:
-        print(f"Adding {len(new_items)} new articles.")
-        # Prepend new items
-        updated_news = new_items + existing_news
-        # Keep up to 1000 articles to build a deep historical database
-        updated_news = updated_news[:1000]
-        
-        with open(DATA_FILE, 'w', encoding='utf-8') as f:
-            json.dump({"articles": updated_news}, f, indent=4, ensure_ascii=False)
-        print("Updated news_data.json successfully.")
-    else:
-        print("No new articles found.")
-        updated_news = existing_news
-        
     # Generate RSS Feed
     try:
         rss_template = env.get_template('rss_template.xml')
-        rss_content = rss_template.render(articles=updated_news)
+        rss_content = rss_template.render(articles=updated_news[:50])
         with open('rss.xml', 'w', encoding='utf-8') as f:
             f.write(rss_content)
         print("Successfully generated rss.xml")

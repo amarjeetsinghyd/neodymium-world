@@ -27,16 +27,34 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Neodymium",
-    "url": "https://neodymium.world/",
-    "logo": "https://neodymium.world/logo_x.png",
-    "description": "Institutional dashboard for actionable intelligence and strategic analysis in future tech, AI, and defense.",
-    "sameAs": [
-      "https://neodymium.world"
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://neodymium.world/#organization",
+        "name": "Neodymium",
+        "url": "https://neodymium.world/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://neodymium.world/favicon.svg"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://neodymium.world/#author",
+        "name": "Amarjeet Singh",
+        "jobTitle": "Senior Defense Analyst",
+        "url": "https://neodymium.world/about.html",
+        "sameAs": [
+          "https://linkedin.com/in/amarjeetsinghyd",
+          "https://twitter.com/amarjeetsinghyd"
+        ]
+      }
     ]
   }
   </script>
+
+  <!-- Chart.js for Analytics -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -877,50 +895,41 @@
       <div class="section-header">
         <div>
           <h2 class="section-title">Tech & Defense <span class="text-gradient">Analytics</span></h2>
-          <p class="section-subtitle">Data-driven insights and market intelligence for the aerospace and defense sectors.</p>
+          <p class="section-subtitle">Real-time data-driven insights aggregated from the intelligence feed.</p>
         </div>
       </div>
 
       <div class="grid-3">
         <!-- Card 1 -->
         <div class="analytics-card glass-card">
-          <div class="card-icon">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+          <div class="card-icon" style="margin-bottom: 0.5rem; height: 36px; width: 36px;">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg>
           </div>
-          <h3 id="an1-title">Global Defense Spending Index</h3>
-          
-          <div id="an1-img" style="width: 100%; height: 160px; border-radius: var(--radius-sm); margin-top: 1rem; background-size: cover; background-position: center; background-color: rgba(37, 99, 235, 0.05);"></div>
-          <div class="card-footer" style="margin-top: 1.5rem;">
-            <a href="#" id="an1-link" class="read-more">Read Report <span>&rarr;</span></a>
-            <span style="font-size: 0.85rem; color: var(--text-light);">Analysis Report</span>
+          <h3 style="font-size: 1.1rem; margin-bottom: 1rem;">Intelligence Categorization</h3>
+          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; position: relative; height: 220px; width: 100%;">
+            <canvas id="chart-category"></canvas>
           </div>
         </div>
 
         <!-- Card 2 -->
         <div class="analytics-card glass-card">
-          <div class="card-icon">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+          <div class="card-icon" style="margin-bottom: 0.5rem; height: 36px; width: 36px;">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"></path></svg>
           </div>
-          <h3 id="an2-title">Material Sciences Innovation</h3>
-          
-          <div id="an2-img" style="width: 100%; height: 160px; border-radius: var(--radius-sm); margin-top: 1rem; background-size: cover; background-position: center; background-color: rgba(37, 99, 235, 0.05);"></div>
-          <div class="card-footer" style="margin-top: 1.5rem;">
-            <a href="#" id="an2-link" class="read-more">Read Report <span>&rarr;</span></a>
-            <span style="font-size: 0.85rem; color: var(--text-light);">Analysis Report</span>
+          <h3 style="font-size: 1.1rem; margin-bottom: 1rem;">Signals Volume Over Time</h3>
+          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; position: relative; height: 220px; width: 100%;">
+            <canvas id="chart-timeline"></canvas>
           </div>
         </div>
 
         <!-- Card 3 -->
         <div class="analytics-card glass-card">
-          <div class="card-icon">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+          <div class="card-icon" style="margin-bottom: 0.5rem; height: 36px; width: 36px;">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
           </div>
-          <h3 id="an3-title">Cyber Infrastructure Resilience</h3>
-          
-          <div id="an3-img" style="width: 100%; height: 160px; border-radius: var(--radius-sm); margin-top: 1rem; background-size: cover; background-position: center; background-color: rgba(37, 99, 235, 0.05);"></div>
-          <div class="card-footer" style="margin-top: 1.5rem;">
-            <a href="#" id="an3-link" class="read-more">Read Report <span>&rarr;</span></a>
-            <span style="font-size: 0.85rem; color: var(--text-light);">Analysis Report</span>
+          <h3 style="font-size: 1.1rem; margin-bottom: 1rem;">Primary Topic Vectors</h3>
+          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; position: relative; height: 220px; width: 100%;">
+            <canvas id="chart-topics"></canvas>
           </div>
         </div>
       </div>
@@ -1131,6 +1140,134 @@
       renderFeedGrid();
     }
 
+    // Chart instances
+    let charts = {};
+
+    function initCharts(data) {
+      if (!data || data.length === 0) return;
+      
+      Chart.defaults.color = '#94a3b8';
+      Chart.defaults.font.family = "'Inter', sans-serif";
+
+      // 1. Categorization (Doughnut)
+      const categories = {};
+      data.forEach(item => {
+        const cat = item.category || 'Other';
+        categories[cat] = (categories[cat] || 0) + 1;
+      });
+      
+      const ctxCat = document.getElementById('chart-category');
+      if (ctxCat) {
+        if (charts.category) charts.category.destroy();
+        charts.category = new Chart(ctxCat, {
+          type: 'doughnut',
+          data: {
+            labels: Object.keys(categories),
+            datasets: [{
+              data: Object.values(categories),
+              backgroundColor: ['#2563eb', '#7c3aed', '#06b6d4', '#f59e0b', '#10b981'],
+              borderWidth: 0,
+              hoverOffset: 4
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { position: 'right', labels: { boxWidth: 12 } }
+            },
+            cutout: '70%'
+          }
+        });
+      }
+
+      // 2. Timeline (Line/Bar)
+      const dates = {};
+      data.forEach(item => {
+        const dateStr = item.published_at || item.added_at;
+        if (dateStr) {
+          const dateObj = new Date(dateStr);
+          const d = dateObj.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+          dates[d] = (dates[d] || 0) + 1;
+        }
+      });
+      
+      // Sort dates
+      const sortedDates = Object.keys(dates).sort((a,b) => new Date(a) - new Date(b)).slice(-7);
+      const dateCounts = sortedDates.map(d => dates[d]);
+
+      const ctxTime = document.getElementById('chart-timeline');
+      if (ctxTime) {
+        if (charts.timeline) charts.timeline.destroy();
+        charts.timeline = new Chart(ctxTime, {
+          type: 'bar',
+          data: {
+            labels: sortedDates,
+            datasets: [{
+              label: 'Signals',
+              data: dateCounts,
+              backgroundColor: 'rgba(37, 99, 235, 0.7)',
+              borderRadius: 4
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: {
+              y: { beginAtZero: true, grid: { color: 'rgba(0,0,0,0.05)' }, ticks: { stepSize: 1 } },
+              x: { grid: { display: false } }
+            }
+          }
+        });
+      }
+
+      // 3. Topics (Radar)
+      const topics = {};
+      data.forEach(item => {
+        if (item.seo_tags) {
+          item.seo_tags.forEach(t => {
+            const tag = t.replace('#', '');
+            topics[tag] = (topics[tag] || 0) + 1;
+          });
+        }
+      });
+      
+      const topTopics = Object.entries(topics).sort((a,b) => b[1] - a[1]).slice(0, 5);
+      
+      const ctxTopics = document.getElementById('chart-topics');
+      if (ctxTopics) {
+        if (charts.topics) charts.topics.destroy();
+        charts.topics = new Chart(ctxTopics, {
+          type: 'radar',
+          data: {
+            labels: topTopics.map(t => t[0]),
+            datasets: [{
+              label: 'Mentions',
+              data: topTopics.map(t => t[1]),
+              backgroundColor: 'rgba(124, 58, 237, 0.2)',
+              borderColor: '#7c3aed',
+              pointBackgroundColor: '#7c3aed',
+              borderWidth: 2
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: {
+              r: {
+                ticks: { display: false, stepSize: 1 },
+                grid: { color: 'rgba(0,0,0,0.05)' },
+                angleLines: { color: 'rgba(0,0,0,0.05)' },
+                pointLabels: { font: { size: 10 } }
+              }
+            }
+          }
+        });
+      }
+    }
+
     // Fetch and populate news data
     async function loadNewsData() {
       try {
@@ -1183,27 +1320,8 @@
           if (side2.image_url) document.getElementById('side2-img').style.backgroundImage = `url('${side2.image_url}')`;
         }
 
-        // Populate Analytics Grid (Index 3, 4, 5)
-        const an1 = news[3];
-        if (an1) {
-          document.getElementById('an1-title').textContent = an1.title;
-          document.getElementById('an1-link').href = an1.article_url || an1.link || '#';
-          if (an1.image_url) document.getElementById('an1-img').style.backgroundImage = `url('${an1.image_url}')`;
-        }
-
-        const an2 = news[4];
-        if (an2) {
-          document.getElementById('an2-title').textContent = an2.title;
-          document.getElementById('an2-link').href = an2.article_url || an2.link || '#';
-          if (an2.image_url) document.getElementById('an2-img').style.backgroundImage = `url('${an2.image_url}')`;
-        }
-
-        const an3 = news[5];
-        if (an3) {
-          document.getElementById('an3-title').textContent = an3.title;
-          document.getElementById('an3-link').href = an3.article_url || an3.link || '#';
-          if (an3.image_url) document.getElementById('an3-img').style.backgroundImage = `url('${an3.image_url}')`;
-        }
+        // Initialize Dynamic Analytics Charts
+        initCharts(globalNewsData);
 
         // Check URL for topic filter
         const urlParams = new URLSearchParams(window.location.search);
