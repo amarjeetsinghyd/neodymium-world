@@ -1102,7 +1102,10 @@
         return;
       }
       
-      const articleText = document.querySelector('.article-body').innerText;
+      const textNodes = document.querySelectorAll('.article-section');
+      let articleText = '';
+      textNodes.forEach(node => articleText += node.innerText + ' . ');
+      
       const utterance = new SpeechSynthesisUtterance(articleText);
       
       // Attempt to auto-detect and use local language voice if available
