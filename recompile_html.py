@@ -1,6 +1,6 @@
-import json
 import os
 import markdown
+import database
 from jinja2 import Environment, FileSystemLoader
 from urllib.parse import urlparse
 
@@ -12,14 +12,8 @@ def main():
         print(f"Could not load templates: {e}")
         return
 
-    data_file = "news_data.json"
-    if not os.path.exists(data_file):
-        print("news_data.json not found.")
-        return
-
-    with open(data_file, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-        articles = data.get("articles", []) if isinstance(data, dict) else data
+    database.init_db()
+    articles = database.get_all_articles(limit=1000)
 
     for item in articles:
         if "article_url" in item:
