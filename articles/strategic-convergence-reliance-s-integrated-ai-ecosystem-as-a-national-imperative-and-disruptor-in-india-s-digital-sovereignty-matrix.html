@@ -1385,12 +1385,21 @@
       isStopped = true;
       isPausedByUser = false;
       if (progressInterval) clearInterval(progressInterval);
+      
+      // Clear the chunk array so it absolutely cannot play anything else
+      ttsChunks = [];
+      
+      // Workaround for Chrome bug: cancel() fails if the engine is paused or hung
+      window.speechSynthesis.resume();
       window.speechSynthesis.cancel();
+      setTimeout(() => { window.speechSynthesis.cancel(); }, 50);
+      
       document.getElementById('tts-player').style.bottom = '-150px';
     }
 
     window.addEventListener('beforeunload', () => {
       isStopped = true;
+      window.speechSynthesis.resume();
       window.speechSynthesis.cancel();
     });
   </script>
