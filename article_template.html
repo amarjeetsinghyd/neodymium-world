@@ -942,11 +942,14 @@
 
     <!-- Tags and Social Share -->
     <div style="border-top: 1px solid rgba(0,0,0,0.1); padding-top: 2rem; margin-bottom: 2rem;">
-      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
+      <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-bottom: 1.5rem;">
         {% if seo_tags %}
-          {% for tag in seo_tags %}
-            <span class="tag" style="background: rgba(37, 99, 235, 0.1); color: var(--accent-blue); padding: 0.4rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">{{ tag }}</span>
-          {% endfor %}
+          <span style="font-weight: 600; color: var(--text-main); font-size: 0.95rem;">Topics:</span>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
+            {% for tag in seo_tags %}
+              <a href="../index.html" style="color: var(--accent-blue); font-size: 0.95rem; font-weight: 500; text-decoration: none; border-bottom: 1px solid var(--accent-blue); transition: opacity 0.2s;" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'">{{ tag | replace('#', '') }}</a>
+            {% endfor %}
+          </div>
         {% endif %}
       </div>
       
@@ -967,9 +970,11 @@
       </div>
     </div>
     
-    <div style="border-top: 1px solid rgba(0,0,0,0.1); padding-top: 2rem; display: flex; justify-content: space-between; align-items: center;">
+    <div style="border-top: 1px solid rgba(0,0,0,0.1); padding-top: 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
       <a href="../index.html" class="btn btn-primary">&larr; Back to Dashboard</a>
-      <span style="color: var(--text-muted); font-weight: 500;">Source: {{ publisher_name }}</span>
+      <span style="color: var(--text-muted); font-weight: 500; font-size: 0.85rem; letter-spacing: 0.02em;">
+        Primary Signal Input: <a href="{{ original_link }}" target="_blank" style="color: var(--text-muted); text-decoration: underline; text-decoration-color: rgba(71, 85, 105, 0.4); text-underline-offset: 2px; transition: all 0.2s;" onmouseover="this.style.color='var(--text-main)'; this.style.textDecorationColor='var(--text-main)';" onmouseout="this.style.color='var(--text-muted)'; this.style.textDecorationColor='rgba(71, 85, 105, 0.4)';">{{ publisher_name }}</a>
+      </span>
     </div>
   </article>
   <!-- Footer -->
