@@ -1028,6 +1028,7 @@
     });
 
     let currentFilter = 'all';
+    let currentFilterType = 'category';
 
     // Render Live Intelligence Feed
     function renderFeedGrid() {
@@ -1042,18 +1043,26 @@
       // Filter if needed
       if (currentFilter !== 'all') {
         const target = currentFilter.toLowerCase().trim();
-        feedItems = globalNewsData.filter(item => {
-          const cat = (item.category || '').toLowerCase().trim();
-          
-          // Custom loose matching rules
-          if (target === 'cyber security' || target === 'cybersecurity') {
-            return cat.includes('cyber');
-          }
-          if (target === 'defense technology' || target === 'defense') {
-            return cat.includes('defen');
-          }
-          return cat === target || cat.includes(target) || target.includes(cat);
-        });
+        
+        if (currentFilterType === 'category') {
+          feedItems = globalNewsData.filter(item => {
+            const cat = (item.category || '').toLowerCase().trim();
+            
+            // Custom loose matching rules
+            if (target === 'cyber security' || target === 'cybersecurity') {
+              return cat.includes('cyber');
+            }
+            if (target === 'defense technology' || target === 'defense') {
+              return cat.includes('defen');
+            }
+            return cat === target || cat.includes(target) || target.includes(cat);
+          });
+        } else if (currentFilterType === 'topic') {
+          feedItems = globalNewsData.filter(item => {
+            if (!item.seo_tags || !Array.isArray(item.seo_tags)) return false;
+            return item.seo_tags.some(tag => tag.replace('#', '').toLowerCase().trim() === target);
+          });
+        }
       }
       
       // Formatter for dates
@@ -1094,6 +1103,7 @@
     // Filter categories function
     window.filterArticlesByCategory = function(categoryName) {
       currentFilter = categoryName;
+      currentFilterType = 'category';
       
       // Scroll to feed
       const feedSec = document.getElementById('live-feed');
@@ -1112,6 +1122,11 @@
         titleEl.innerHTML = `Category: <span class="text-gradient">${categoryName}</span>`;
         subtitleEl.innerHTML = `Showing articles under "${categoryName}". <a href="javascript:void(0)" onclick="filterArticlesByCategory('all')" style="color: var(--accent-blue); margin-left: 0.5rem; text-decoration: underline;">Clear filter</a>`;
       }
+      
+      // Update URL without reloading
+      const url = new URL(window.location);
+      url.searchParams.delete('topic');
+      window.history.pushState({}, '', url);
       
       renderFeedGrid();
     }
@@ -1188,6 +1203,27 @@
           document.getElementById('an3-title').textContent = an3.title;
           document.getElementById('an3-link').href = an3.article_url || an3.link || '#';
           if (an3.image_url) document.getElementById('an3-img').style.backgroundImage = `url('${an3.image_url}')`;
+        }
+
+        // Check URL for topic filter
+        const urlParams = new URLSearchParams(window.location.search);
+        const topicParam = urlParams.get('topic');
+        
+        if (topicParam) {
+           currentFilter = topicParam;
+           currentFilterType = 'topic';
+           
+           // Update titles
+           const titleEl = document.getElementById('feed-header-title');
+           const subtitleEl = document.getElementById('feed-header-subtitle');
+           if (titleEl && subtitleEl) {
+             titleEl.innerHTML = `Topic: <span class="text-gradient">${topicParam}</span>`;
+             subtitleEl.innerHTML = `Showing articles tagged with "${topicParam}". <a href="index.html" style="color: var(--accent-blue); margin-left: 0.5rem; text-decoration: underline;">Clear filter</a>`;
+           }
+           
+           // Scroll to feed after short delay
+           const feedSec = document.getElementById('live-feed');
+           if (feedSec) setTimeout(() => feedSec.scrollIntoView({ behavior: 'smooth' }), 300);
         }
 
         // Render feed grid

@@ -947,7 +947,7 @@
           <span style="font-weight: 600; color: var(--text-main); font-size: 0.95rem;">Topics:</span>
           <div style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
             {% for tag in seo_tags %}
-              <a href="../index.html" style="color: var(--accent-blue); font-size: 0.95rem; font-weight: 500; text-decoration: none; border-bottom: 1px solid var(--accent-blue); transition: opacity 0.2s;" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'">{{ tag | replace('#', '') }}</a>
+              <a href="../index.html?topic={{ tag | replace('#', '') | urlencode }}" style="color: var(--accent-blue); font-size: 0.95rem; font-weight: 500; text-decoration: none; border-bottom: 1px solid var(--accent-blue); transition: opacity 0.2s;" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'">{{ tag | replace('#', '') }}</a>
             {% endfor %}
           </div>
         {% endif %}
