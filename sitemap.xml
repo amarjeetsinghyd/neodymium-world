@@ -2,57 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>2026-06-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://neodymium.world/about.html</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>2026-06-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://neodymium.world/careers.html</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>2026-06-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://neodymium.world/press.html</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>2026-06-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://neodymium.world/contact.html</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>2026-06-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://neodymium.world/security.html</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>2026-06-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://neodymium.world/terms.html</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>2026-06-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://neodymium.world/privacy.html</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>2026-06-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://neodymium.world/cookies.html</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>2026-06-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/strategic-communication-failure-the-geopolitical-ramifications-of-an-unarticulated-u-s-maritime-doctrine-amidst-great-power-competition.html</loc>
+        <lastmod>2026-06-20</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/interrogating-alliance-resilience-the-geopolitical-ramifications-of-calls-for-us-european-force-posture-review-and-critiques-of-nato-s-iran-stance.html</loc>
+        <lastmod>2026-06-20</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/strategic-red-flag-the-anthropic-incident-ai-nationalism-and-the-inevitable-rise-of-parallel-digital-ecosystems.html</loc>
+        <lastmod>2026-06-20</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/strategic-convergence-reliance-s-integrated-ai-ecosystem-as-a-national-imperative-and-disruptor-in-india-s-digital-sovereignty-matrix.html</loc>
+        <lastmod>2026-06-20</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/strategic-autonomy-in-the-skies-india-s-vinpropel-forges-indigenous-electric-propulsion-reshaping-global-aerospace-supply-chains-and-defense-posture.html</loc>
+        <lastmod>2026-06-20</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
     </url>
     
     <url>
