@@ -219,6 +219,8 @@ def main():
         for key in full_report:
             if isinstance(full_report[key], str):
                 text = full_report[key]
+                # Remove leading spaces before bullet points to prevent <pre><code> blocks
+                text = re.sub(r'^[ \t]+([\*\-]) ', r'\1 ', text, flags=re.MULTILINE)
                 # Ensure blank lines before lists so python-markdown parses them correctly
                 text = re.sub(r'([^\n])\n(\s*[\*\-])\s', r'\1\n\n\2 ', text)
                 full_report[key] = markdown.markdown(text)
@@ -240,6 +242,9 @@ def main():
         except:
             publisher_name = link
             
+        word_count = sum(len(str(v).split()) for v in full_report.values())
+        reading_time = max(1, round(word_count / 200))
+            
         news_item = {
             "title": title,
             "category": category,
@@ -250,7 +255,8 @@ def main():
             "published_at": published_date,
             "added_at": datetime.utcnow().isoformat(),
             "slug": slug,
-            "article_url": article_url
+            "article_url": article_url,
+            "reading_time": reading_time
         }
         new_items.append(news_item)
         # Render and save static HTML
@@ -264,7 +270,8 @@ def main():
                 published_at=published_date,
                 original_link=link,
                 publisher_name=publisher_name,
-                slug=slug
+                slug=slug,
+                reading_time=reading_time
             )
             with open(article_url, 'w', encoding='utf-8') as f:
                 f.write(html_content)
@@ -299,7 +306,8 @@ def main():
                     published_at=item.get("published_at", ""),
                     original_link=item.get("original_link", "#"),
                     publisher_name=pub_name,
-                    slug=item.get("slug", "")
+                    slug=item.get("slug", ""),
+                    reading_time=item.get("reading_time", max(1, round(sum(len(str(v).split()) for v in report.values()) / 200)))
                 )
                 with open(item["article_url"], 'w', encoding='utf-8') as f:
                     f.write(html_content)
