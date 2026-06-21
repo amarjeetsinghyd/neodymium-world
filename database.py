@@ -21,7 +21,8 @@ def init_db():
             reading_time INTEGER,
             category TEXT,
             seo_tags TEXT,
-            full_report TEXT
+            full_report TEXT,
+            posted_to_reddit BOOLEAN DEFAULT 0
         )
     ''')
     conn.commit()
