@@ -22,7 +22,7 @@ def init_db():
             category TEXT,
             seo_tags TEXT,
             full_report TEXT,
-            posted_to_reddit BOOLEAN DEFAULT 0
+            posted_to_discord BOOLEAN DEFAULT 0
         )
     ''')
     conn.commit()
