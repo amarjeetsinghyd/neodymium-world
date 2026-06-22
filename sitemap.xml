@@ -2,90 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-06-21</lastmod>
+        <lastmod>2026-06-22</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://neodymium.world/about.html</loc>
-        <lastmod>2026-06-21</lastmod>
+        <lastmod>2026-06-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://neodymium.world/careers.html</loc>
-        <lastmod>2026-06-21</lastmod>
+        <lastmod>2026-06-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://neodymium.world/press.html</loc>
-        <lastmod>2026-06-21</lastmod>
+        <lastmod>2026-06-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://neodymium.world/contact.html</loc>
-        <lastmod>2026-06-21</lastmod>
+        <lastmod>2026-06-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://neodymium.world/security.html</loc>
-        <lastmod>2026-06-21</lastmod>
+        <lastmod>2026-06-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://neodymium.world/terms.html</loc>
-        <lastmod>2026-06-21</lastmod>
+        <lastmod>2026-06-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://neodymium.world/privacy.html</loc>
-        <lastmod>2026-06-21</lastmod>
+        <lastmod>2026-06-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://neodymium.world/cookies.html</loc>
-        <lastmod>2026-06-21</lastmod>
+        <lastmod>2026-06-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://neodymium.world/articles/india-s-indigenous-active-protection-system-a-strategic-vector-for-armored-superiority-and-geopolitical-rebalancing-in-south-asia.html</loc>
-        <lastmod>2026-06-21</lastmod>
+        <loc>https://neodymium.world/articles/geospatial-intelligence-exposes-india-s-amca-stealth-maturation-strategic-implications-for-indo-pacific-air-dominance-and-global-osint-dynamics.html</loc>
+        <lastmod>2026-06-22</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://neodymium.world/articles/the-algorithmic-ascendancy-repositioning-digital-notoriety-and-influence-within-autonomous-ai-knowledge-architectures.html</loc>
-        <lastmod>2026-06-21</lastmod>
+        <loc>https://neodymium.world/articles/weaponization-of-regulatory-instruments-geopolitical-calculus-behind-the-anthropic-ai-export-control-edict-and-its-strategic-ripple-effects.html</loc>
+        <lastmod>2026-06-22</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://neodymium.world/articles/cognitive-sovereignty-and-data-exfiltration-signal-s-strategic-delineation-of-ai-interlocutor-risk.html</loc>
-        <lastmod>2026-06-21</lastmod>
-        <changefreq>never</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://neodymium.world/articles/strategic-inflection-point-the-usaf-s-cca-program-and-the-reconfiguration-of-global-airpower-autonomy-architectures.html</loc>
-        <lastmod>2026-06-21</lastmod>
-        <changefreq>never</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://neodymium.world/articles/civil-military-industrial-convergence-renault-thales-4troop-initiative-signals-strategic-reorientation-of-french-ground-mobility-capabilities-amidst-evolving-european-security-landscape.html</loc>
-        <lastmod>2026-06-21</lastmod>
+        <loc>https://neodymium.world/articles/convergence-of-civilian-automotive-and-defense-industrial-bases-renault-thales-4troop-initiative-signifies-european-strategic-adaptation-to-high-intensity-peer-combat-scenarios.html</loc>
+        <lastmod>2026-06-22</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
     </url>
