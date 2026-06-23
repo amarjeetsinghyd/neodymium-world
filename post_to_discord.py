@@ -18,7 +18,7 @@ def post_to_discord():
     
     # Get articles not yet posted to Discord
     cursor.execute('''
-        SELECT id, title, article_url, image_url, full_report
+        SELECT id, title, article_url, image_url, full_report, discord_post
         FROM articles 
         WHERE posted_to_discord = 0 OR posted_to_discord IS NULL
         ORDER BY published_at ASC
@@ -31,15 +31,17 @@ def post_to_discord():
         return
         
     for article in unposted_articles:
-        art_id, title, article_url, image_url, full_report_json = article
+        art_id, title, article_url, image_url, full_report_json, discord_post = article
         
         try:
-            report_data = json.loads(full_report_json) if full_report_json else {}
-            summary = report_data.get('executive_summary', 'A new intelligence report has been published.')
-            
-            # Clean up the summary (remove HTML tags if any)
-            from bs4 import BeautifulSoup
-            summary_text = BeautifulSoup(summary, "html.parser").get_text()
+            if discord_post and discord_post.strip():
+                summary_text = discord_post
+            else:
+                report_data = json.loads(full_report_json) if full_report_json else {}
+                # Fallback to the first available section
+                first_section = list(report_data.values())[0] if report_data else 'A new intelligence report has been published.'
+                from bs4 import BeautifulSoup
+                summary_text = BeautifulSoup(first_section, "html.parser").get_text()
             
             # Limit summary to 300 chars for the embed
             if len(summary_text) > 300:
