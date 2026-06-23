@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intelligence Archive | Neodymium</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #f3f5f9;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --text-light: #94a3b8;
+      --accent-blue: #2563eb;
+      --accent-violet: #7c3aed;
+      --gradient-primary: linear-gradient(135deg, #2563eb, #7c3aed);
+      --glass-bg: rgba(255, 255, 255, 0.65);
+      --glass-border: rgba(255, 255, 255, 0.4);
+      --font-heading: 'Outfit', sans-serif;
+      --font-body: 'Inter', sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: var(--font-body); color: var(--text-main); background-color: var(--bg-color); line-height: 1.6; }
+    .container { max-width: 1400px; margin: 0 auto; padding: 0 2rem; }
+    .navbar { padding: 1rem 0; background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(0,0,0,0.05); }
+    .brand { font-family: var(--font-heading); font-size: 1.75rem; font-weight: 800; text-decoration: none; color: var(--text-main); display: flex; align-items: center; gap: 0.5rem; }
+    .brand-icon { width: 32px; height: 32px; background: var(--gradient-primary); color: white; display: flex; align-items: center; justify-content: center; border-radius: 8px; font-weight: bold; }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--text-muted); font-weight: 500; }
+    .header { padding: 8rem 0 4rem; text-align: center; }
+    .header h1 { font-family: var(--font-heading); font-size: 3rem; margin-bottom: 1rem; }
+    .text-gradient { background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    
+    .archive-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 4rem; }
+    .glass-card { background: var(--glass-bg); backdrop-filter: blur(20px); border: 1px solid var(--glass-border); border-radius: 16px; padding: 1.5rem; display: flex; flex-direction: column; transition: transform 0.3s; text-decoration: none; color: inherit; }
+    .glass-card:hover { transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+    .card-img { width: 100%; height: 180px; background-size: cover; background-position: center; border-radius: 8px; margin-bottom: 1rem; background-color: var(--gradient-primary); }
+    .tag { display: inline-block; padding: 0.25rem 0.75rem; border-radius: 100px; font-size: 0.8rem; font-weight: 600; background: rgba(37,99,235,0.1); color: var(--accent-blue); margin-bottom: 1rem; }
+    .card-title { font-family: var(--font-heading); font-size: 1.25rem; margin-bottom: 1rem; line-height: 1.3; }
+    .card-meta { margin-top: auto; display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--text-light); }
+    
+    /* Simple client side filtering */
+    .filter-bar { display: flex; justify-content: center; gap: 1rem; margin-bottom: 3rem; flex-wrap: wrap; }
+    .filter-btn { padding: 0.5rem 1.5rem; border-radius: 100px; border: 1px solid var(--accent-blue); background: transparent; color: var(--accent-blue); cursor: pointer; font-family: var(--font-body); font-weight: 600; transition: all 0.2s; }
+    .filter-btn.active, .filter-btn:hover { background: var(--accent-blue); color: white; }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+      <a href="index.html" class="brand">
+        <div class="brand-icon">N</div>
+        Neodymium
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Dashboard</a></li>
+        <li><a href="#">Policy Watch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="header">
+      <h1>Intelligence <span class="text-gradient">Archive</span></h1>
+      <p style="color: var(--text-muted); font-size: 1.2rem;">Complete historical database of all strategic intelligence reports.</p>
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" onclick="filterArchive('All')">All</button>
+      <button class="filter-btn" onclick="filterArchive('Tech Startups')">Tech Startups</button>
+      <button class="filter-btn" onclick="filterArchive('Global Tech')">Global Tech</button>
+      <button class="filter-btn" onclick="filterArchive('Artificial Intelligence')">Artificial Intelligence</button>
+      <button class="filter-btn" onclick="filterArchive('Defense Technology')">Defense</button>
+    </div>
+
+    <div class="archive-grid" id="archive-grid">
+      
+      <a href="articles/strategic-autonomy-in-the-skies-india-s-vinpropel-forges-indigenous-electric-propulsion-reshaping-global-aerospace-supply-chains-and-defense-posture.html" class="glass-card" data-category="Defense Technology">
+        <div class="card-img" style="background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggdCjlP05EIkf2WFh5YSaVAix0jTuEA2N76hKtjhpNu1EM-NB-YSfVHabPmUUSxpAdoVSiEsPf8fbJvyAKxpWxQJBHlb3ffk4QaeMZOgAwrHHZr-Gs5UBYQeCBAnLpHMZotSUJjmBUKtFTodQP48pgw9j02XPKHCO26eKUYJL-kYBoraZSuPzyYSN-VSo/w1200-h630-p-k-no-nu/Vinpropel_Propulsion_Systems.jpg');"></div>
+        <span class="tag">Defense Technology</span>
+        <h3 class="card-title">Strategic Autonomy in the Skies: India&#39;s Vinpropel Forges Indigenous Electric Propulsion, Reshaping Global Aerospace Supply Chains and Defense Posture</h3>
+        <div class="card-meta">
+          <span>Fri, 19 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/strategic-convergence-reliance-s-integrated-ai-ecosystem-as-a-national-imperative-and-disruptor-in-india-s-digital-sovereignty-matrix.html" class="glass-card" data-category="AI &amp; Autonomy">
+        <div class="card-img" style="background-image: url('https://techcrunch.com/wp-content/uploads/2026/02/reliance-mukesh-ambani.jpg?resize=1200,800');"></div>
+        <span class="tag">AI &amp; Autonomy</span>
+        <h3 class="card-title">Strategic Convergence: Reliance&#39;s Integrated AI Ecosystem as a National Imperative and Disruptor in India&#39;s Digital Sovereignty Matrix</h3>
+        <div class="card-meta">
+          <span>Fri, 19 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/strategic-red-flag-the-anthropic-incident-ai-nationalism-and-the-inevitable-rise-of-parallel-digital-ecosystems.html" class="glass-card" data-category="AI &amp; Autonomy">
+        <div class="card-img" style="background-image: url('https://techcrunch.com/wp-content/uploads/2026/06/donald-trump-open-mouth.jpg?resize=1200,800');"></div>
+        <span class="tag">AI &amp; Autonomy</span>
+        <h3 class="card-title">Strategic Red Flag: The Anthropic Incident, AI Nationalism, and the Inevitable Rise of Parallel Digital Ecosystems</h3>
+        <div class="card-meta">
+          <span>Fri, 19 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/interrogating-alliance-resilience-the-geopolitical-ramifications-of-calls-for-us-european-force-posture-review-and-critiques-of-nato-s-iran-stance.html" class="glass-card" data-category="Geopolitics">
+        <div class="card-img" style="background-image: url('https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/hegseth-nato-june-2026-scaled-e1781789066158-1024x576.jpg');"></div>
+        <span class="tag">Geopolitics</span>
+        <h3 class="card-title">Interrogating Alliance Resilience: The Geopolitical Ramifications of Calls for US European Force Posture Review and Critiques of NATO&#39;s Iran Stance</h3>
+        <div class="card-meta">
+          <span>Thu, 18 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/strategic-communication-failure-the-geopolitical-ramifications-of-an-unarticulated-u-s-maritime-doctrine-amidst-great-power-competition.html" class="glass-card" data-category="Geopolitics">
+        <div class="card-img" style="background-image: url('https://breakingdefense.com/wp-content/uploads/sites/13/2025/11/ford-southcom-scaled-e1763675777135-1024x577.jpg');"></div>
+        <span class="tag">Geopolitics</span>
+        <h3 class="card-title">Strategic Communication Failure: The Geopolitical Ramifications of an Unarticulated U.S. Maritime Doctrine Amidst Great Power Competition</h3>
+        <div class="card-meta">
+          <span>Thu, 18 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/strategic-vector-shift-india-s-brahmos-modernization-program-and-its-cascading-effects-on-regional-deterrence-and-arms-export-dynamics.html" class="glass-card" data-category="Defense Technology">
+        <div class="card-img" style="background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxuqcQ6LGYO8LJ_LRg7BAmGzqxYJEHYUUl2-ipfZRzU0h9njwYsKpD9gUmL-3wJa0m6rKlkHQ4G0aDVGs1qPuVhcKopb4NLqBFN6L3KylFmDLTmnIK1NFS9_Sbek4IyU6M5GPf31G0bQTZbNyqDFW2e4YxjVjj-20iBykSZmErieAbFOkgIAJkUxD3_V4/w1200-h630-p-k-no-nu/BrahMos_Smaller_Cruise_Missile_IDN.jpg');"></div>
+        <span class="tag">Defense Technology</span>
+        <h3 class="card-title">Strategic Vector Shift: India&#39;s BrahMos Modernization Program and its Cascading Effects on Regional Deterrence and Arms Export Dynamics</h3>
+        <div class="card-meta">
+          <span>Fri, 19 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/critical-juncture-unpacking-the-geopolitical-and-market-ramifications-of-unilateral-state-intervention-in-frontier-ai-deployment-the-anthropic-fable-5-case-study.html" class="glass-card" data-category="AI &amp; Autonomy">
+        <div class="card-img" style="background-image: url('https://techcrunch.com/wp-content/uploads/2026/06/Dario-2280291125.jpg?w=1024');"></div>
+        <span class="tag">AI &amp; Autonomy</span>
+        <h3 class="card-title">CRITICAL JUNCTURE: UNPACKING THE GEOPOLITICAL AND MARKET RAMIFICATIONS OF UNILATERAL STATE INTERVENTION IN FRONTIER AI DEPLOYMENT – THE ANTHROPIC FABLE 5 CASE STUDY</h3>
+        <div class="card-meta">
+          <span>Fri, 19 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/strategic-disruption-in-ai-governance-examining-the-geopolitical-ramifications-and-market-reconfiguration-post-anthropic-model-recall.html" class="glass-card" data-category="AI &amp; Autonomy">
+        <div class="card-img" style="background-image: url('https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2269811684.jpg?w=1024');"></div>
+        <span class="tag">AI &amp; Autonomy</span>
+        <h3 class="card-title">Strategic Disruption in AI Governance: Examining the Geopolitical Ramifications and Market Reconfiguration Post-Anthropic Model Recall</h3>
+        <div class="card-meta">
+          <span>Fri, 19 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/eurosatory-2026-strategic-convergence-of-geopolitical-imperatives-and-next-gen-defense-industrial-realignment.html" class="glass-card" data-category="Defense Technology">
+        <div class="card-img" style="background-image: url('https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/260616_eurosatory_robotdog_BD-scaled-e1781788626608-1024x548.jpg');"></div>
+        <span class="tag">Defense Technology</span>
+        <h3 class="card-title">Eurosatory 2026: Strategic Convergence of Geopolitical Imperatives and Next-Gen Defense Industrial Realignment</h3>
+        <div class="card-meta">
+          <span>Thu, 18 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/india-s-dual-domain-ascendancy-a-strategic-intelligence-report-on-space-and-energy-initiatives.html" class="glass-card" data-category="Geopolitics">
+        <div class="card-img" style="background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBROUKUkJOHe5ulo7MYFcZ-9MUffno8rpqkcH-w0t7wC92smOgpEMpCrVS8FIPDdvFAE7EdiC1QHDcK74JFr718r5XZmv_by4stmH6Uae7fLxiWeO23X-ufTne5CrvmNuGEYoL0HAS_7k0-4qiB8vPQ_VAGCzTUJ_SxSOqEtjNfH9FpO-Kw-vWB0Yi9Zc/w1200-h630-p-k-no-nu/Modi_Human_Space_Flight_Crew_Module_Bharatiya_Antariksh_Station_BAS.jpg');"></div>
+        <span class="tag">Geopolitics</span>
+        <h3 class="card-title">India&#39;s Dual-Domain Ascendancy: A Strategic Intelligence Report on Space and Energy Initiatives</h3>
+        <div class="card-meta">
+          <span>Fri, 19 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/the-geopolitical-chokepoint-advanced-lithography-export-control-integrity-and-sino-american-tech-hegemony.html" class="glass-card" data-category="Global Tech">
+        <div class="card-img" style="background-image: url('https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2250757778.jpg?resize=1200,800');"></div>
+        <span class="tag">Global Tech</span>
+        <h3 class="card-title">The Geopolitical Chokepoint: Advanced Lithography, Export Control Integrity, and Sino-American Tech Hegemony</h3>
+        <div class="card-meta">
+          <span>Fri, 19 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/strategic-recalibration-smartbird-s-ambitious-foray-into-data-sovereign-ai-infrastructure-provisioning.html" class="glass-card" data-category="AI &amp; Autonomy">
+        <div class="card-img" style="background-image: url('https://techcrunch.com/wp-content/uploads/2026/06/Nadia-Carlsten-HS.png?w=1024');"></div>
+        <span class="tag">AI &amp; Autonomy</span>
+        <h3 class="card-title">Strategic Recalibration: Smartbird&#39;s Ambitious Foray into Data-Sovereign AI Infrastructure Provisioning</h3>
+        <div class="card-meta">
+          <span>Fri, 19 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/rheinmetall-s-strategic-ascent-forging-sovereign-space-based-isr-capabilities-for-the-bundeswehr.html" class="glass-card" data-category="Defense Technology">
+        <div class="card-img" style="background-image: url('https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/GettyImages-2280571928-scaled-e1781796678646-1024x577.jpg');"></div>
+        <span class="tag">Defense Technology</span>
+        <h3 class="card-title">Rheinmetall&#39;s Strategic Ascent: Forging Sovereign Space-Based ISR Capabilities for the Bundeswehr</h3>
+        <div class="card-meta">
+          <span>Thu, 18 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/industrial-vulnerabilities-and-strategic-imperatives-fortifying-u-s-air-and-missile-defense-capabilities-in-an-evolving-threat-landscape.html" class="glass-card" data-category="Defense Technology">
+        <div class="card-img" style="background-image: url('https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/THAAD-e1781799435485.jpg');"></div>
+        <span class="tag">Defense Technology</span>
+        <h3 class="card-title">Industrial Vulnerabilities and Strategic Imperatives: Fortifying U.S. Air and Missile Defense Capabilities in an Evolving Threat Landscape</h3>
+        <div class="card-meta">
+          <span>Thu, 18 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/brahmos-ascendancy-moscow-s-acquisition-intent-and-new-delhi-s-strategic-supply-pivot.html" class="glass-card" data-category="Defense Technology">
+        <div class="card-img" style="background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixVMIc5A2HZUwAU1_6x0qoIr009p1eSHD8a4IF8A-oGWljy_DZp8IiBz_oR9PWierX6WfLhGOzecThKsW-5VTj0LJshUKPntiIMgn46SUdofvkdQjmzUpLqdqLsZFWS-RKqaei9zbnUebtREnAOS6g9vvYOwPKaZwOb7WWHqMfQKe7_60z3ocIityn754/w1200-h630-p-k-no-nu/BrahMos_Supersonic_Cruise_Missile.jpg');"></div>
+        <span class="tag">Defense Technology</span>
+        <h3 class="card-title">BrahMos Ascendancy: Moscow&#39;s Acquisition Intent and New Delhi&#39;s Strategic Supply Pivot</h3>
+        <div class="card-meta">
+          <span>Thu, 18 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/hyper-valuation-dynamics-in-ai-inference-an-in-depth-examination-of-baseten-s-accelerated-capital-infusion-and-strategic-market-positioning.html" class="glass-card" data-category="AI &amp; Autonomy">
+        <div class="card-img" style="background-image: url('https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1502217391.jpg?resize=1200,800');"></div>
+        <span class="tag">AI &amp; Autonomy</span>
+        <h3 class="card-title">Hyper-Valuation Dynamics in AI Inference: An In-Depth Examination of Baseten&#39;s Accelerated Capital Infusion and Strategic Market Positioning</h3>
+        <div class="card-meta">
+          <span>Thu, 18 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/project-nightingale-elastic-fortifies-observability-frontier-with-strategic-ai-native-acquisition.html" class="glass-card" data-category="AI &amp; Autonomy">
+        <div class="card-img" style="background-image: url('https://techcrunch.com/wp-content/uploads/2018/03/gettyimages-824355868.jpg?resize=1200,760');"></div>
+        <span class="tag">AI &amp; Autonomy</span>
+        <h3 class="card-title">Project Nightingale: Elastic Fortifies Observability Frontier with Strategic AI-Native Acquisition</h3>
+        <div class="card-meta">
+          <span>Fri, 19 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/embraer-s-dual-track-defense-imperative-c-390-millennium-global-expansion-and-a-29-super-tucano-strategic-realignment.html" class="glass-card" data-category="Defense Technology">
+        <div class="card-img" style="background-image: url('https://breakingdefense.com/wp-content/uploads/sites/13/2025/09/embraer-kc390-flags-scaled-e1758296166298-1024x577.jpg');"></div>
+        <span class="tag">Defense Technology</span>
+        <h3 class="card-title">Embraer&#39;s Dual-Track Defense Imperative: C-390 Millennium Global Expansion and A-29 Super Tucano Strategic Realignment</h3>
+        <div class="card-meta">
+          <span>Thu, 18 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/securing-the-strategic-nexus-pentagon-s-critical-mineral-investments-to-fortify-the-defense-industrial-base.html" class="glass-card" data-category="Defense Technology">
+        <div class="card-img" style="background-image: url('https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/260618_energy_fuels_white_mesa_GettyImages-2203457850-e1781799565692.jpg');"></div>
+        <span class="tag">Defense Technology</span>
+        <h3 class="card-title">Securing the Strategic Nexus: Pentagon&#39;s Critical Mineral Investments to Fortify the Defense Industrial Base</h3>
+        <div class="card-meta">
+          <span>Thu, 18 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+      <a href="articles/pentagon-may-sacrifice-traditional-weapons-to-buy-more-drones-if-reconciliation-fails-cto.html" class="glass-card" data-category="Defense Technology">
+        <div class="card-img" style="background-image: url('https://breakingdefense.com/wp-content/uploads/sites/13/2025/07/SecDef-Hegseth-Emil-Michael-RE-with-Kratos-XQ-58-at-Pentagon-Drone-Day-250716-D-PM193-1138K-scaled-e1752860021751.jpeg');"></div>
+        <span class="tag">Defense Technology</span>
+        <h3 class="card-title">Pentagon may ‘sacrifice’ traditional weapons to buy more drones if reconciliation fails: CTO</h3>
+        <div class="card-meta">
+          <span>Fri, 12 Ju</span>
+          <span style="color: var(--accent-blue); font-weight: 600;">Read &rarr;</span>
+        </div>
+      </a>
+      
+    </div>
+  </div>
+
+  <script>
+    function filterArchive(category) {
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.innerText === category || (category === 'All' && btn.innerText === 'All')) {
+          btn.classList.add('active');
+        }
+      });
+      
+      const cards = document.querySelectorAll('.glass-card');
+      cards.forEach(card => {
+        if (category === 'All') {
+          card.style.display = 'flex';
+        } else {
+          // Loose matching
+          const cardCat = card.getAttribute('data-category').toLowerCase();
+          const target = category.toLowerCase();
+          
+          if (cardCat.includes(target) || (target === 'defense' && cardCat.includes('defen')) || (target === 'artificial intelligence' && cardCat.includes('ai'))) {
+             card.style.display = 'flex';
+          } else {
+             card.style.display = 'none';
+          }
+        }
+      });
+    }
+
+    // Auto-filter based on URL query param (e.g., ?topic=AI)
+    window.onload = () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const topic = urlParams.get('topic');
+      if (topic) {
+        filterArchive(topic);
+      }
+    };
+  </script>
+</body>
+</html>

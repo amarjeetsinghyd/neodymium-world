@@ -892,8 +892,11 @@
       </div>
       
       <div id="live-feed-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2rem;">
-        <!-- Articles will be injected here via JavaScript -->
-        <p style="color: var(--text-muted);">Loading intelligence feed...</p>
+        <!-- Filled by JS -->
+      </div>
+
+      <div style="text-align: center; margin-top: 4rem;">
+        <a href="archive.html" class="btn btn-primary" style="padding: 1rem 2.5rem; font-size: 1.1rem;">View All Articles &rarr;</a>
       </div>
     </div>
   </section>
@@ -1055,8 +1058,8 @@
       
       gridContainer.innerHTML = '';
       
-      // Slice from index 6 onwards
-      let feedItems = globalNewsData.slice(6);
+      // Slice from index 6 onwards and limit to 12 items
+      let feedItems = globalNewsData.slice(6).slice(0, 12);
       
       // Filter if needed
       if (currentFilter !== 'all') {

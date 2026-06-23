@@ -54,6 +54,15 @@ def main():
             except Exception as e:
                 print(f"Failed to rebuild HTML for '{item.get('title')}': {e}")
                 
+    try:
+        archive_template = env.get_template('archive_template.html')
+        archive_content = archive_template.render(articles=articles)
+        with open('archive.html', 'w', encoding='utf-8') as f:
+            f.write(archive_content)
+        print("Generated archive.html")
+    except Exception as e:
+        print(f"Failed to generate archive.html: {e}")
+                
     print("Recompilation complete.")
 
 if __name__ == "__main__":

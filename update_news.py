@@ -60,7 +60,7 @@ You are a Chief Defense Analyst. Rewrite this article in its entirety. Do not su
 
 Core Guidelines:
 1. Unique, Analytical Headlines: Generate a completely original, highly analytical, and intelligence-oriented headline for this report. The headline MUST be distinct and different from the original title, framing the issue from a strategic intelligence, market-disruption, or geopolitical perspective rather than a standard news report.
-2. Premium Value-Add (Strategic Forecasts): In the 'strategic_impact' section, generate highly unique, proprietary, and forward-looking strategic forecasts, scenario analyses, or predictive risk assessments. Avoid generic industry platitudes. Focus on providing original, deep-value forecasting data and insights that cannot be found elsewhere on the internet.
+2. Premium Value-Add: If the article contains strategic, geopolitical, or highly technical elements, create a section for it. But if it is a simple startup funding round or product launch, adjust your headings to be "Market Analysis", "Funding Details", etc. Be completely flexible with your section headings.
 3. Detail: The Technical Deep-Dive should be exceptionally detailed and analytical.
 4. Tone: Use a formal, institutional tone.
 5. Formatting: Ensure you use proper Markdown formatting. ALWAYS place a blank line before starting any bulleted or numbered list.
@@ -75,10 +75,10 @@ Respond strictly in the following JSON format without any markdown blocks or ext
     "category": "One of: Tech Startups, Global Tech, AI & Autonomy, Defense Technology",
     "seo_tags": ["#Tag1", "#Tag2", "#Tag3"],
     "full_report": {{
-        "executive_summary": "Summary here...",
-        "technical_deep_dive": "Deep dive here...",
-        "strategic_impact": "Impact assessment here...",
-        "conclusion": "Conclusion here..."
+        "Overview": "Summary here...",
+        "Dynamic Heading 1": "Dynamic content here based on the story...",
+        "Dynamic Heading 2": "Dynamic content here based on the story...",
+        "Dynamic Heading N": "More sections as needed..."
     }}
 }}
 (Or return {"error": "IRRELEVANT_TOPIC"} if it violates rule 6)

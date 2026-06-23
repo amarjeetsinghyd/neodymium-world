@@ -921,25 +921,12 @@
       </p>
     </div>
 
-    <section class="article-section" style="background: rgba(37, 99, 235, 0.05); border-left: 4px solid var(--accent-blue); padding: 2rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-bottom: 3rem;">
-      <h2 style="color: var(--accent-blue); margin-bottom: 1rem; font-size: 1.2rem;">Strategic Impact & Analysis</h2>
-      <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main); font-weight: 500;">{{ full_report.strategic_impact | safe }}</div>
+    {% for section_name, section_content in full_report.items() %}
+    <section class="article-section" style="{% if loop.index == 2 %}background: rgba(37, 99, 235, 0.05); border-left: 4px solid var(--accent-blue); padding: 2rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0;{% endif %} margin-bottom: 3rem;">
+      <h2 style="color: {% if loop.index == 2 %}var(--accent-blue){% else %}var(--accent-violet){% endif %}; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">{{ section_name | replace('_', ' ') | title }}</h2>
+      <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main); {% if loop.index == 2 %}font-weight: 500;{% endif %}">{{ section_content | safe }}</div>
     </section>
-
-    <section class="article-section" style="margin-bottom: 3rem;">
-      <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Technical Deep-Dive</h2>
-      <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);">{{ full_report.technical_deep_dive | safe }}</div>
-    </section>
-
-    <section class="article-section" style="margin-bottom: 3rem;">
-      <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Executive Summary (Context)</h2>
-      <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);">{{ full_report.executive_summary | safe }}</div>
-    </section>
-
-    <section class="article-section" style="margin-bottom: 4rem;">
-      <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">Conclusion</h2>
-      <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main);">{{ full_report.conclusion | safe }}</div>
-    </section>
+    {% endfor %}
 
     <!-- Author Bio Box -->
     <div style="background: white; border: 1px solid rgba(0,0,0,0.05); border-radius: var(--radius-lg); padding: 2.5rem; margin-bottom: 3rem; box-shadow: 0 4px 20px rgba(0,0,0,0.02); display: flex; gap: 2rem; align-items: center; flex-wrap: wrap;">

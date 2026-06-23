@@ -22,7 +22,7 @@
       {% endif %}
       <source url="{{ item.original_link }}">{{ item.publisher_name | default('Original Source') }}</source>
       <pubDate>{{ item.published_at }}</pubDate>
-      <guid>https://neodymium.world/{{ item.article_url }}</guid>
+      <guid isPermaLink="true">https://neodymium.world/{{ item.article_url }}</guid>
     </item>
     {% endfor %}
   </channel>
