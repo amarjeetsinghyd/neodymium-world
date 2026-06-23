@@ -8,7 +8,8 @@ import trafilatura
 import markdown
 from datetime import datetime
 from urllib.parse import urlparse
-from jinja2 import Environment, FileSystemLoader
+from jinja2 import Environment, FileSystemLoader, select_autoescape
+from bs4 import BeautifulSoup
 import database
 
 # Configure Gemini API
@@ -36,9 +37,10 @@ def get_image_url(entry):
             if 'image' in enc.get('type', ''):
                 return enc.get('href')
     if 'summary' in entry:
-        match = re.search(r'<img[^>]+src="([^">]+)"', entry.summary)
-        if match:
-            return match.group(1)
+        soup = BeautifulSoup(entry.summary, 'html.parser')
+        img_tag = soup.find('img')
+        if img_tag and img_tag.get('src'):
+            return img_tag['src']
     return None
 
 class CriticalAPIError(Exception):
@@ -128,9 +130,23 @@ Respond strictly in the following JSON format without any markdown blocks or ext
         # rather than publishing an 'ERROR' tagged placeholder.
         return None
 
+def build_index_html():
+    """Generates the static index.html and rss.xml from templates."""
+    try:
+        env = Environment(
+            loader=FileSystemLoader('.'),
+            autoescape=select_autoescape(['html', 'xml'])
+        )
+    except Exception as e:
+        print(f"Could not load templates: {e}")
+        return
+
 def main():
     # Setup Jinja2 Environment
-    env = Environment(loader=FileSystemLoader('.'))
+    env = Environment(
+        loader=FileSystemLoader('.'),
+        autoescape=select_autoescape(['html', 'xml'])
+    )
     try:
         template = env.get_template('article_template.html')
     except Exception as e:

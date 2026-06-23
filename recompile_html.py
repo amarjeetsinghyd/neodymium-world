@@ -1,11 +1,14 @@
 import os
 import markdown
 import database
-from jinja2 import Environment, FileSystemLoader
+from jinja2 import Environment, FileSystemLoader, select_autoescape
 from urllib.parse import urlparse
 
 def main():
-    env = Environment(loader=FileSystemLoader('.'))
+    env = Environment(
+        loader=FileSystemLoader('.'),
+        autoescape=select_autoescape(['html', 'xml'])
+    )
     try:
         template = env.get_template('article_template.html')
     except Exception as e:
