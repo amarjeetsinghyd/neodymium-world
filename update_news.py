@@ -64,6 +64,7 @@ Core Guidelines:
 3. Detail: The Technical Deep-Dive should be exceptionally detailed and analytical.
 4. Tone: Use a formal, institutional tone.
 5. Formatting: Ensure you use proper Markdown formatting. ALWAYS place a blank line before starting any bulleted or numbered list.
+6. AI Gatekeeper (Strict Filtering): Carefully analyze the core subject of the Original Content. If the article is NOT fundamentally about one of the following four topics: "Tech Startups", "Global Tech Innovations", "Artificial Intelligence", or "Defense Technology", you MUST reject it. To reject an article, return exactly this JSON and nothing else: {"error": "IRRELEVANT_TOPIC"}
 
 Original Title: {title}
 Original Content: {text}
@@ -71,7 +72,7 @@ Original Content: {text}
 Respond strictly in the following JSON format without any markdown blocks or extra text:
 {{
     "headline": "Your newly generated original headline...",
-    "category": "One of: Geopolitics, Defense Technology, Cyber Security, Space Economy, AI & Autonomy, Global Tech",
+    "category": "One of: Tech Startups, Global Tech, AI & Autonomy, Defense Technology",
     "seo_tags": ["#Tag1", "#Tag2", "#Tag3"],
     "full_report": {{
         "executive_summary": "Summary here...",
@@ -80,6 +81,7 @@ Respond strictly in the following JSON format without any markdown blocks or ext
         "conclusion": "Conclusion here..."
     }}
 }}
+(Or return {"error": "IRRELEVANT_TOPIC"} if it violates rule 6)
 """
     try:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={API_KEY}"
@@ -118,6 +120,10 @@ Respond strictly in the following JSON format without any markdown blocks or ext
             result_text = result_text[3:-3].strip()
             
         rewritten_data = json.loads(result_text)
+        
+        if "error" in rewritten_data and rewritten_data["error"] == "IRRELEVANT_TOPIC":
+            print(f"  -> AI Gatekeeper rejected article: Not about Tech/AI/Defense.")
+            return None
         
         if "full_report" in rewritten_data and "category" in rewritten_data:
             return rewritten_data
