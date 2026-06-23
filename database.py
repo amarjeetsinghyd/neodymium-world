@@ -29,6 +29,14 @@ def init_db():
         cursor.execute("ALTER TABLE articles ADD COLUMN twitter_thread TEXT")
     except sqlite3.OperationalError:
         pass
+    try:
+        cursor.execute("ALTER TABLE articles ADD COLUMN linkedin_post TEXT")
+    except sqlite3.OperationalError:
+        pass
+    try:
+        cursor.execute("ALTER TABLE articles ADD COLUMN discord_post TEXT")
+    except sqlite3.OperationalError:
+        pass
     conn.commit()
     conn.close()
 
@@ -48,9 +56,9 @@ def insert_article(article_data):
             INSERT INTO articles (
                 title, slug, article_url, original_link, image_url, 
                 published_at, added_at, reading_time, category, 
-                seo_tags, full_report, twitter_thread
+                seo_tags, full_report, twitter_thread, linkedin_post, discord_post
 
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ''', (
             article_data.get('title'),
             article_data.get('slug'),
@@ -63,7 +71,9 @@ def insert_article(article_data):
             article_data.get('category', 'Intelligence'),
             seo_tags_json,
             full_report_json,
-            json.dumps(article_data.get('twitter_thread', []))
+            json.dumps(article_data.get('twitter_thread', [])),
+            article_data.get('linkedin_post', ''),
+            article_data.get('discord_post', '')
         ))
         conn.commit()
         return True
@@ -143,6 +153,8 @@ def export_automation_feed():
             "title": a.get("title"),
             "url": f"https://neodymium.world/{a.get('article_url')}",
             "twitter_thread": a.get("twitter_thread", []),
+            "linkedin_post": a.get("linkedin_post", ""),
+            "discord_post": a.get("discord_post", ""),
             "published_at": a.get("published_at")
         })
     with open("automation_feed.json", 'w', encoding='utf-8') as f:
