@@ -25,6 +25,10 @@ def init_db():
             posted_to_discord BOOLEAN DEFAULT 0
         )
     ''')
+    try:
+        cursor.execute("ALTER TABLE articles ADD COLUMN twitter_thread TEXT")
+    except sqlite3.OperationalError:
+        pass
     conn.commit()
     conn.close()
 
@@ -44,8 +48,9 @@ def insert_article(article_data):
             INSERT INTO articles (
                 title, slug, article_url, original_link, image_url, 
                 published_at, added_at, reading_time, category, 
-                seo_tags, full_report
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                seo_tags, full_report, twitter_thread
+
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ''', (
             article_data.get('title'),
             article_data.get('slug'),
@@ -57,7 +62,8 @@ def insert_article(article_data):
             article_data.get('reading_time', 5),
             article_data.get('category', 'Intelligence'),
             seo_tags_json,
-            full_report_json
+            full_report_json,
+            json.dumps(article_data.get('twitter_thread', []))
         ))
         conn.commit()
         return True
@@ -97,6 +103,11 @@ def get_all_articles(limit=50):
         except:
             article['full_report'] = {}
             
+        try:
+            article['twitter_thread'] = json.loads(article['twitter_thread']) if article.get('twitter_thread') else []
+        except:
+            article['twitter_thread'] = []
+            
         articles.append(article)
         
     conn.close()
@@ -119,6 +130,23 @@ def export_frontend_feed():
     articles = get_all_articles(limit=50)
     with open(FEED_FILE, 'w', encoding='utf-8') as f:
         json.dump(articles, f, indent=4)
+
+def export_automation_feed():
+    """
+    Exports the latest 10 articles with their Twitter threads for Make.com automation.
+    Formats the payload nicely for easy parsing.
+    """
+    articles = get_all_articles(limit=10)
+    automation_data = []
+    for a in articles:
+        automation_data.append({
+            "title": a.get("title"),
+            "url": f"https://neodymium.world/{a.get('article_url')}",
+            "twitter_thread": a.get("twitter_thread", []),
+            "published_at": a.get("published_at")
+        })
+    with open("automation_feed.json", 'w', encoding='utf-8') as f:
+        json.dump(automation_data, f, indent=4)
     print(f"Exported {len(articles)} articles to {FEED_FILE} for the frontend.")
 
 if __name__ == '__main__':
