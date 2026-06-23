@@ -24,7 +24,13 @@ RSS_FEEDS = [
     "https://www.wired.com/feed/category/tech/latest/rss",
     "http://www.indiandefensenews.in/feeds/posts/default?alt=rss",
     "https://www.thehindu.com/sci-tech/technology/feeder/default.rss",
-    "https://analyticsindiamag.com/feed/"
+    "https://yourstory.com/feed",
+    "https://inc42.com/feed/",
+    "https://feeds.feedburner.com/ndtv-gadgets-360",
+    "https://www.firstpost.com/feed/rss/tech",
+    "https://indianexpress.com/section/india/feed/",
+    "https://venturebeat.com/category/ai/feed/",
+    "https://www.technologyreview.com/feed/"
 ]
 DATA_FILE = "news_data.json"
 
