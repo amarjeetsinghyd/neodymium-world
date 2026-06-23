@@ -74,6 +74,11 @@ Respond strictly in the following JSON format without any markdown blocks or ext
     "headline": "Your newly generated original headline...",
     "category": "One of: Tech Startups, Global Tech, AI & Autonomy, Defense Technology",
     "seo_tags": ["#Tag1", "#Tag2", "#Tag3"],
+    "twitter_thread": [
+        "Tweet 1: The Hook (A bold, insightful statement summarizing the geopolitical or market impact. NO LINKS in this tweet).",
+        "Tweet 2: The Details (A brief bulleted list or 2-3 sentences explaining the key takeaways).",
+        "Tweet 3: The CTA (A call to action exactly matching: 'Read the full intelligence report here: [LINK]')."
+    ],
     "full_report": {{
         "Overview": "Summary here...",
         "Dynamic Heading 1": "Dynamic content here based on the story...",
@@ -231,6 +236,7 @@ def main():
         full_report = rewritten_content.get("full_report", {})
         category = rewritten_content.get("category", "Intelligence")
         seo_tags = rewritten_content.get("seo_tags", [])
+        twitter_thread = rewritten_content.get("twitter_thread", [])
         
         # Override the original title with the AI-generated headline to prevent copyright match
         title = rewritten_content.get("headline", title)
@@ -276,7 +282,8 @@ def main():
             "added_at": datetime.utcnow().isoformat(),
             "slug": slug,
             "article_url": article_url,
-            "reading_time": reading_time
+            "reading_time": reading_time,
+            "twitter_thread": twitter_thread
         }
         new_items.append(news_item)
         # Render and save static HTML

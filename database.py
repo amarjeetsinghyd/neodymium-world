@@ -37,6 +37,10 @@ def init_db():
         cursor.execute("ALTER TABLE articles ADD COLUMN discord_post TEXT")
     except sqlite3.OperationalError:
         pass
+    try:
+        cursor.execute("ALTER TABLE articles ADD COLUMN posted_to_twitter BOOLEAN DEFAULT 0")
+    except sqlite3.OperationalError:
+        pass
     conn.commit()
     conn.close()
 
