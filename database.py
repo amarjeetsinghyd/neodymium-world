@@ -152,9 +152,7 @@ def export_automation_feed():
         automation_data.append({
             "title": a.get("title"),
             "url": f"https://neodymium.world/{a.get('article_url')}",
-            "twitter_thread": a.get("twitter_thread", []),
-            "linkedin_post": a.get("linkedin_post", ""),
-            "discord_post": a.get("discord_post", ""),
+            "report_content": a.get("full_report", {}),
             "published_at": a.get("published_at")
         })
     with open("automation_feed.json", 'w', encoding='utf-8') as f:
