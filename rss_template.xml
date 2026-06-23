@@ -11,7 +11,7 @@
 {% for tag in item.seo_tags %}{{ tag }} {% endfor %}</title>
       <link>https://neodymium.world/{{ item.article_url }}</link>
       <description>
-        {{ item.full_report.executive_summary | striptags | escape }}
+        {% for key, val in item.full_report.items() %}{{ val | striptags | escape }} {% endfor %}
       </description>
       {% for tag in item.seo_tags %}
       <category>{{ tag | replace('#', '') }}</category>

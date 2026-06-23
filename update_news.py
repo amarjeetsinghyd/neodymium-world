@@ -306,9 +306,6 @@ def main():
     # Export feed for frontend
     database.export_frontend_feed()
     
-    # Export feed for Make.com automation
-    database.export_automation_feed()
-    
     # Get all articles for RSS, Sitemap, and Missing HTML rebuilding
     updated_news = database.get_all_articles(limit=1000)
 

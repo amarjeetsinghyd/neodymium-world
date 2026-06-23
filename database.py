@@ -140,23 +140,6 @@ def export_frontend_feed():
     articles = get_all_articles(limit=50)
     with open(FEED_FILE, 'w', encoding='utf-8') as f:
         json.dump(articles, f, indent=4)
-
-def export_automation_feed():
-    """
-    Exports the latest 10 articles with their Twitter threads for Make.com automation.
-    Formats the payload nicely for easy parsing.
-    """
-    articles = get_all_articles(limit=10)
-    automation_data = []
-    for a in articles:
-        automation_data.append({
-            "title": a.get("title"),
-            "url": f"https://neodymium.world/{a.get('article_url')}",
-            "report_content": a.get("full_report", {}),
-            "published_at": a.get("published_at")
-        })
-    with open("automation_feed.json", 'w', encoding='utf-8') as f:
-        json.dump(automation_data, f, indent=4)
     print(f"Exported {len(articles)} articles to {FEED_FILE} for the frontend.")
 
 if __name__ == '__main__':
