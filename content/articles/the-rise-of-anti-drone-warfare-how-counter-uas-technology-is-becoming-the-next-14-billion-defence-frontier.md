@@ -2,7 +2,7 @@
 title: 'The Rise of Anti-Drone Warfare: How Counter-UAS Technology Is Becoming the Next $14 Billion Defence Frontier'
 category: Policy Watch
 published_at: 2026-06-24T16:36
-draft: true
+draft: false
 image_url: /assets/images/ChatGPT Image Jun 24, 2026, 04_34_25 PM.png
 original_link: ''
 reading_time: 4
