@@ -56,22 +56,32 @@ def main():
             
             articles.append(item)
     
-    def parse_date(date_str):
-        if not date_str:
-            from datetime import timezone
-            return datetime.min.replace(tzinfo=timezone.utc)
+    def parse_date(date_val):
+        import datetime as dt
+        from email.utils import parsedate_to_datetime
+        if not date_val:
+            return dt.datetime.min.replace(tzinfo=dt.timezone.utc)
+        if isinstance(date_val, dt.datetime):
+            return date_val if date_val.tzinfo else date_val.replace(tzinfo=dt.timezone.utc)
+        if isinstance(date_val, dt.date):
+            return dt.datetime.combine(date_val, dt.datetime.min.time()).replace(tzinfo=dt.timezone.utc)
+        date_str = str(date_val)
         try:
-            if 'T' in date_str and date_str.endswith('Z'):
-                return datetime.fromisoformat(date_str.replace('Z', '+00:00'))
-            else:
-                from email.utils import parsedate_to_datetime
-                return parsedate_to_datetime(date_str)
+            return parsedate_to_datetime(date_str)
         except Exception:
-            from datetime import timezone
-            return datetime.min.replace(tzinfo=timezone.utc)
+            pass
+        try:
+            return dt.datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+        except Exception:
+            return dt.datetime.min.replace(tzinfo=dt.timezone.utc)
+
+    # Normalize dates to ISO format strings
+    for item in articles:
+        dt_obj = parse_date(item.get('published_at'))
+        item['published_at'] = dt_obj.isoformat()
 
     # Sort articles by published date descending
-    articles.sort(key=lambda x: parse_date(str(x.get('published_at', ''))), reverse=True)
+    articles.sort(key=lambda x: x.get('published_at', ''), reverse=True)
 
     # Build individual article HTMLs
     for item in articles:
