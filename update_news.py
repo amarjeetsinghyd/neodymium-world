@@ -66,7 +66,7 @@ Original Content: {text}
 Respond strictly in the following JSON format without any markdown blocks or extra text:
 {{
     "headline": "Your newly generated original headline...",
-    "category": "One of: Tech Startups, Global Tech, AI & Autonomy, Defense Technology",
+    "category": "One of: Policy Watch, Global Index, Data Analytics, Intelligence Brief, Tech Startups, Global Tech, AI & Autonomy, Defense Technology",
     "seo_tags": ["#Tag1", "#Tag2", "#Tag3"],
     "full_report": {{
         "Key Takeaways": ["Bullet 1", "Bullet 2", "Bullet 3"],

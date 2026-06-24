@@ -15,7 +15,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Category", name: "category", widget: "select", options: ["Tech Startups", "Global Tech", "AI & Autonomy", "Defense Technology", "Intelligence"] }
+      - { label: "Category", name: "category", widget: "select", options: ["Policy Watch", "Global Index", "Data Analytics", "Intelligence Brief", "Tech Startups", "Global Tech", "AI & Autonomy", "Defense Technology"] }
       - { label: "Publish Date", name: "published_at", widget: "datetime" }
       - { label: "Image URL", name: "image_url", widget: "string", required: false }
       - { label: "Original Link", name: "original_link", widget: "string", required: false }
