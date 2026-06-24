@@ -55,6 +55,10 @@ def main():
                 item["slug"] = os.path.splitext(filename)[0]
             if "article_url" not in item:
                 item["article_url"] = f"articles/{item['slug']}.html"
+            # Skip draft articles
+            if item.get('draft') is True or str(item.get('draft', '')).lower() == 'true':
+                continue
+            
             if "published_at" not in item:
                 item["published_at"] = datetime.utcnow().isoformat()
             

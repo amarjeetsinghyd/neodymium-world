@@ -253,6 +253,7 @@ def main():
             "published_at": published_date,
             "added_at": datetime.utcnow().isoformat(),
             "reading_time": reading_time,
+            "draft": True,
         }
         
         if key_takeaways:
