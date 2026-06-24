@@ -1,30 +1,30 @@
 ---
-title: "India’s Rare Earth Revolution: How New Delhi Is Breaking China’s Critical Mineral Monopoly"
-slug: "indias-rare-earth-revolution"
-category: "Policy Watch"
-seo_tags:
-  - "#RareEarthMinerals"
-  - "#CriticalMinerals"
-  - "#IndiaChina"
-  - "#Neodymium"
-  - "#RareEarthMagnets"
-  - "#MakeInIndia"
-  - "#Geopolitics"
-image_url: ""
-original_link: ""
-published_at: "2026-06-24T16:01:00.000Z"
+title: 'India’s Rare Earth Revolution: How New Delhi Is Breaking China’s Critical Mineral Monopoly'
+category: Policy Watch
+published_at: 2026-06-24T16:01:00.000Z
+image_url: /assets/images/ChatGPT Image Jun 24, 2026, 04_01_13 PM.png
+original_link: ''
 reading_time: 4
+seo_tags:
+  - '#RareEarthMinerals'
+  - '#CriticalMinerals'
+  - '#IndiaChina'
+  - '#Neodymium'
+  - '#RareEarthMagnets'
+  - '#MakeInIndia'
+  - '#Geopolitics'
 key_takeaways:
-  - "India has launched a ₹7,280 crore push to develop a domestic Rare Earth Permanent Magnet (REPM) ecosystem to reduce reliance on China."
-  - "New critical mineral corridors are emerging in Andhra Pradesh and Odisha, bolstered by partnerships with Japanese firms like Proterial."
-  - "Securing the rare earth supply chain is now a geopolitical imperative, crucial for India's electric vehicles, renewable energy, and defense modernization."
+  - India has launched a ₹7,280 crore push to develop a domestic Rare Earth Permanent Magnet (REPM) ecosystem to reduce reliance on China.
+  - New critical mineral corridors are emerging in Andhra Pradesh and Odisha, bolstered by partnerships with Japanese firms like Proterial.
+  - Securing the rare earth supply chain is now a geopolitical imperative, crucial for India's electric vehicles, renewable energy, and defense modernization.
 faq:
-  - question: "Why are rare earth magnets so important?"
-    answer: "Neodymium (NdFeB) magnets are the strongest commercially available permanent magnets. They are essential for advanced technologies including electric vehicles, wind turbines, defense systems, and robotics."
-  - question: "How is India countering China's monopoly in rare earths?"
-    answer: "India is shifting from import dependence to regional manufacturing. A ₹7,280 crore government scheme aims to create a complete domestic ecosystem, from rare earth oxides to integrated magnet manufacturing, with a target capacity of 6,000 MTPA."
-  - question: "What role is Japan playing in India's rare earth strategy?"
-    answer: "Japanese advanced materials company Proterial is planning a ₹2,250 crore manufacturing facility in Andhra Pradesh, providing India with critical technological expertise and reducing the manufacturing gap with China."
+  - question: Why are rare earth magnets so important?
+    answer: Neodymium (NdFeB) magnets are the strongest commercially available permanent magnets. They are essential for advanced technologies including electric vehicles, wind turbines, defense systems, and robotics.
+  - question: How is India countering China's monopoly in rare earths?
+    answer: India is shifting from import dependence to regional manufacturing. A ₹7,280 crore government scheme aims to create a complete domestic ecosystem, from rare earth oxides to integrated magnet manufacturing, with a target capacity of 6,000 MTPA.
+  - question: What role is Japan playing in India's rare earth strategy?
+    answer: Japanese advanced materials company Proterial is planning a ₹2,250 crore manufacturing facility in Andhra Pradesh, providing India with critical technological expertise and reducing the manufacturing gap with China.
+slug: indias-rare-earth-revolution
 ---
 
 ## The Silent Battle to Break China’s Critical Mineral Monopoly
