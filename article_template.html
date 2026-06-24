@@ -74,6 +74,27 @@
   }
   </script>
 
+  {% if full_report["FAQ"] %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {% for faq in full_report["FAQ"] %}
+      {
+        "@type": "Question",
+        "name": "{{ faq.question | escape }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ faq.answer | escape }}"
+        }
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+  </script>
+  {% endif %}
+
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -921,12 +942,45 @@
       </p>
     </div>
 
+    {% if full_report["Key Takeaways"] %}
+    <div style="background: white; border: 1px solid rgba(0,0,0,0.05); border-radius: var(--radius-md); padding: 2rem; margin-bottom: 3rem; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+      <h2 style="color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem; display: flex; align-items: center; gap: 0.5rem;">
+        <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+        Key Takeaways
+      </h2>
+      <ul style="list-style-type: none; padding-left: 0; margin: 0;">
+        {% for takeaway in full_report["Key Takeaways"] %}
+        <li style="margin-bottom: 0.75rem; padding-left: 1.5rem; position: relative; font-size: 1.1rem; color: var(--text-main); line-height: 1.6;">
+          <span style="position: absolute; left: 0; top: 0.4rem; color: var(--accent-blue);">•</span>
+          {{ takeaway }}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
     {% for section_name, section_content in full_report.items() %}
+    {% if section_name not in ["Key Takeaways", "FAQ"] %}
     <section class="article-section" style="{% if loop.index == 2 %}background: rgba(37, 99, 235, 0.05); border-left: 4px solid var(--accent-blue); padding: 2rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0;{% endif %} margin-bottom: 3rem;">
       <h2 style="color: {% if loop.index == 2 %}var(--accent-blue){% else %}var(--accent-violet){% endif %}; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-size: 1.2rem;">{{ section_name | replace('_', ' ') | title }}</h2>
       <div style="font-size: 1.15rem; line-height: 1.8; color: var(--text-main); {% if loop.index == 2 %}font-weight: 500;{% endif %}">{{ section_content | safe }}</div>
     </section>
+    {% endif %}
     {% endfor %}
+
+    {% if full_report["FAQ"] %}
+    <div style="background: rgba(37, 99, 235, 0.02); border: 1px solid rgba(37, 99, 235, 0.1); border-radius: var(--radius-md); padding: 2.5rem; margin-bottom: 3rem;">
+      <h2 style="color: var(--accent-blue); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 2rem; font-size: 1.3rem; text-align: center;">Frequently Asked Questions</h2>
+      <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+        {% for faq in full_report["FAQ"] %}
+        <div style="background: white; padding: 1.5rem; border-radius: var(--radius-sm); box-shadow: 0 2px 10px rgba(0,0,0,0.02);">
+          <h3 style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 0.75rem; font-family: var(--font-heading);">{{ faq.question }}</h3>
+          <p style="font-size: 1.05rem; color: var(--text-muted); line-height: 1.6; margin: 0;">{{ faq.answer }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
 
     <!-- Author Bio Box -->
     <div style="background: white; border: 1px solid rgba(0,0,0,0.05); border-radius: var(--radius-lg); padding: 2.5rem; margin-bottom: 3rem; box-shadow: 0 4px 20px rgba(0,0,0,0.02); display: flex; gap: 2rem; align-items: center; flex-wrap: wrap;">
