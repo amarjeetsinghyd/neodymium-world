@@ -6,8 +6,17 @@ import requests
 import time
 import trafilatura
 import yaml
+import traceback
+import logging
 from datetime import datetime
 from urllib.parse import urlparse
+
+# Configure logging
+logging.basicConfig(
+    filename='error.log',
+    level=logging.ERROR,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
 
 # Configure Gemini API
 API_KEY = os.environ.get("GEMINI_API_KEY")
@@ -145,7 +154,9 @@ def main():
             feed = feedparser.parse(feed_url)
             all_entries.extend(feed.entries)
         except Exception as e:
-            print(f"Failed to fetch {feed_url}: {e}")
+            error_msg = f"Failed to fetch {feed_url}: {e}"
+            print(error_msg)
+            logging.error(error_msg + "\n" + traceback.format_exc())
 
     # Sort entries by published date (newest first) if available
     def get_published(entry):

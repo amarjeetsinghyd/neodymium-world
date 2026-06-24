@@ -2,9 +2,18 @@ import os
 import json
 import markdown
 import frontmatter
+import logging
+import traceback
 from datetime import datetime
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from urllib.parse import urlparse
+
+# Configure logging
+logging.basicConfig(
+    filename='error.log',
+    level=logging.ERROR,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
 
 def main():
     env = Environment(
@@ -156,4 +165,10 @@ def main():
     print("Recompilation complete.")
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        error_msg = f"Fatal error in recompile_html.py: {e}"
+        print(error_msg)
+        logging.error(error_msg + "\n" + traceback.format_exc())
+        raise
