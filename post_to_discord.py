@@ -1,7 +1,6 @@
 import os
 import requests
-import json
-import database
+import frontmatter
 
 def post_to_discord():
     print("Starting Discord Automation...")
@@ -12,59 +11,49 @@ def post_to_discord():
         print("Missing DISCORD_WEBHOOK_URL. Skipping Discord posting.")
         return
 
-    database.init_db()
-    conn = database.sqlite3.connect(database.DB_FILE)
-    cursor = conn.cursor()
-    
-    # Get articles not yet posted to Discord
-    cursor.execute('''
-        SELECT id, title, article_url, image_url, full_report, discord_post
-        FROM articles 
-        WHERE posted_to_discord = 0 OR posted_to_discord IS NULL
-        ORDER BY published_at ASC
-    ''')
-    
-    unposted_articles = cursor.fetchall()
-    
-    if not unposted_articles:
-        print("No new articles to post to Discord.")
+    articles_dir = 'content/articles'
+    if not os.path.exists(articles_dir):
+        print("No articles directory found.")
         return
-        
-    for article in unposted_articles:
-        art_id, title, article_url, image_url, full_report_json, discord_post = article
-        
-        try:
-            if discord_post and discord_post.strip():
-                summary_text = discord_post
-            else:
-                report_data = json.loads(full_report_json) if full_report_json else {}
-                # Fallback to the first available section
-                first_section = list(report_data.values())[0] if report_data else 'A new intelligence report has been published.'
-                from bs4 import BeautifulSoup
-                summary_text = BeautifulSoup(first_section, "html.parser").get_text()
+
+    for filename in os.listdir(articles_dir):
+        if not filename.endswith('.md'):
+            continue
             
-            # Limit summary to 300 chars for the embed
-            if len(summary_text) > 300:
-                summary_text = summary_text[:297] + "..."
-                
-        except Exception:
-            summary_text = "A new intelligence report has been published."
+        filepath = os.path.join(articles_dir, filename)
+        with open(filepath, 'r', encoding='utf-8') as f:
+            post = frontmatter.load(f)
+
+        if post.metadata.get('posted_to_discord') == True:
+            continue
             
-        # Build the Neodymium link
+        title = post.metadata.get('title', 'Unknown Title')
+        slug = post.metadata.get('slug', os.path.splitext(filename)[0])
+        article_url = f"articles/{slug}.html"
+        image_url = post.metadata.get('image_url', '')
+        
+        # Build summary
+        summary_text = "A new intelligence report has been published."
+        if post.metadata.get("executive_summary"):
+            summary_text = post.metadata["executive_summary"]
+        elif post.content:
+            from bs4 import BeautifulSoup
+            import markdown
+            html_content = markdown.markdown(post.content)
+            text = BeautifulSoup(html_content, "html.parser").get_text()
+            summary_text = text[:297] + "..." if len(text) > 300 else text
+            
         neo_link = f"https://neodymium.world/{article_url}"
-        
         print(f"Posting to Discord: {title}")
         
-        # Build the Discord Rich Embed
         embed = {
             "title": title,
             "description": summary_text,
             "url": neo_link,
-            "color": 16738304, # Neodymium Orange/Amber color code
+            "color": 16738304,
             "author": {
                 "name": "Neodymium Intelligence",
-                "url": "https://neodymium.world",
-                "icon_url": "https://neodymium.world/assets/logo.png" # Assuming a logo exists, otherwise Discord defaults gracefully
+                "url": "https://neodymium.world"
             },
             "image": {
                 "url": image_url if image_url else ""
@@ -81,19 +70,16 @@ def post_to_discord():
         
         try:
             response = requests.post(webhook_url, json=payload)
-            response.raise_for_status() # Raise exception for bad status codes
+            response.raise_for_status()
             
-            # Mark as posted in DB
-            cursor.execute('UPDATE articles SET posted_to_discord = 1 WHERE id = ?', (art_id,))
-            conn.commit()
-            print(f"Successfully posted and marked article ID {art_id} as posted.")
+            # Mark as posted
+            post.metadata['posted_to_discord'] = True
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write(frontmatter.dumps(post))
+            print(f"Successfully posted and marked {filename} as posted.")
             
         except Exception as e:
-            print(f"Failed to post article ID {art_id} to Discord: {e}")
-            # Do not mark as posted if it failed
-
-    conn.close()
-    print("Discord Automation Complete.")
+            print(f"Failed to post {filename} to Discord: {e}")
 
 if __name__ == "__main__":
     post_to_discord()

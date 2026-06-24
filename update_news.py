@@ -5,12 +5,9 @@ import re
 import requests
 import time
 import trafilatura
-import markdown
+import yaml
 from datetime import datetime
 from urllib.parse import urlparse
-from jinja2 import Environment, FileSystemLoader, select_autoescape
-from bs4 import BeautifulSoup
-import database
 
 # Configure Gemini API
 API_KEY = os.environ.get("GEMINI_API_KEY")
@@ -32,10 +29,8 @@ RSS_FEEDS = [
     "https://venturebeat.com/category/ai/feed/",
     "https://www.technologyreview.com/feed/"
 ]
-DATA_FILE = "news_data.json"
 
 def get_image_url(entry):
-    """Extracts image URL from an RSS entry if available."""
     if 'media_content' in entry and len(entry.media_content) > 0:
         return entry.media_content[0].get('url')
     if 'enclosures' in entry and len(entry.enclosures) > 0:
@@ -43,6 +38,7 @@ def get_image_url(entry):
             if 'image' in enc.get('type', ''):
                 return enc.get('href')
     if 'summary' in entry:
+        from bs4 import BeautifulSoup
         soup = BeautifulSoup(entry.summary, 'html.parser')
         img_tag = soup.find('img')
         if img_tag and img_tag.get('src'):
@@ -50,11 +46,9 @@ def get_image_url(entry):
     return None
 
 class CriticalAPIError(Exception):
-    """Custom exception for critical Gemini API errors like quota limits."""
     pass
 
 def rewrite_content(title, text):
-    """Uses Gemini to rewrite article into an Intelligence Report."""
     prompt = f"""
 You are a Chief Defense Analyst. Rewrite this article in its entirety. Do not summarize or shorten it. Produce a comprehensive, highly elaborative Intelligence Report that matches or exceeds the length and depth of the original article.
 
@@ -64,7 +58,7 @@ Core Guidelines:
 3. Detail: The Technical Deep-Dive should be exceptionally detailed and analytical.
 4. Tone: Use a formal, institutional tone.
 5. Formatting: Ensure you use proper Markdown formatting. ALWAYS place a blank line before starting any bulleted or numbered list.
-6. AI Gatekeeper (Strict Filtering): Carefully analyze the core subject of the Original Content. If the article is NOT fundamentally about one of the following four topics: "Tech Startups", "Global Tech Innovations", "Artificial Intelligence", or "Defense Technology", you MUST reject it. To reject an article, return exactly this JSON and nothing else: {"error": "IRRELEVANT_TOPIC"}
+6. AI Gatekeeper (Strict Filtering): Carefully analyze the core subject of the Original Content. If the article is NOT fundamentally about one of the following four topics: "Tech Startups", "Global Tech Innovations", "Artificial Intelligence", or "Defense Technology", you MUST reject it. To reject an article, return exactly this JSON and nothing else: {{"error": "IRRELEVANT_TOPIC"}}
 
 Original Title: {title}
 Original Content: {text}
@@ -85,7 +79,7 @@ Respond strictly in the following JSON format without any markdown blocks or ext
         ]
     }}
 }}
-(Or return {"error": "IRRELEVANT_TOPIC"} if it violates rule 6)
+(Or return {{"error": "IRRELEVANT_TOPIC"}} if it violates rule 6)
 """
     try:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={API_KEY}"
@@ -102,108 +96,88 @@ Respond strictly in the following JSON format without any markdown blocks or ext
             ]
         }
         
-        resp = requests.post(url, json=payload)
-        if resp.status_code == 429:
-            raise CriticalAPIError(f"API Quota/Rate Limit Exceeded (HTTP 429): {resp.text}")
-            
-        resp.raise_for_status()
-        data = resp.json()
+        response = requests.post(url, json=payload)
+        response.raise_for_status()
+        data = response.json()
         
-        if "error" in data:
-            err_code = data['error'].get('code')
-            err_msg = data['error'].get('message', '')
-            if err_code == 429 or any(x in err_msg.lower() for x in ["quota", "exhausted", "limit", "rate"]):
-                raise CriticalAPIError(f"API Quota/Rate Limit Exceeded: {err_msg}")
-            raise Exception(f"API Error {err_code}: {err_msg}")
+        content = data['candidates'][0]['content']['parts'][0]['text']
+        content = content.strip()
+        if content.startswith("```json"):
+            content = content[7:-3]
             
-        result_text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+        parsed_json = json.loads(content)
         
-        if result_text.startswith("```json"):
-            result_text = result_text[7:-3].strip()
-        elif result_text.startswith("```"):
-            result_text = result_text[3:-3].strip()
-            
-        rewritten_data = json.loads(result_text)
-        
-        if "error" in rewritten_data and rewritten_data["error"] == "IRRELEVANT_TOPIC":
-            print(f"  -> AI Gatekeeper rejected article: Not about Tech/AI/Defense.")
+        if "error" in parsed_json and parsed_json["error"] == "IRRELEVANT_TOPIC":
+            print(f"Skipped: Irrelevant Topic -> {title}")
             return None
-        
-        if "full_report" in rewritten_data and "category" in rewritten_data:
-            return rewritten_data
-        elif "full_report" in rewritten_data:
-            return {"category": "Global Tech", "full_report": rewritten_data["full_report"]}
-        elif "executive_summary" in rewritten_data:
-            return {"category": "Global Tech", "full_report": rewritten_data}
-        else:
-            return {"category": "Global Tech", "full_report": rewritten_data.get("full_report", {})}
             
-    except CriticalAPIError as e:
-        raise e
+        return parsed_json
+        
+    except requests.exceptions.HTTPError as e:
+        if response.status_code == 429:
+            raise CriticalAPIError("Gemini API Quota Exceeded (429)")
+        print(f"API HTTP Error: {e} - Response: {response.text}")
+        return None
     except Exception as e:
-        print(f"Error during Gemini rewriting: {e}")
-        # If API fails (like 503 overload), we return None so the script skips this article
-        # rather than publishing an 'ERROR' tagged placeholder.
+        print(f"Error calling Gemini API: {e}")
         return None
 
-def build_index_html():
-    """Generates the static index.html and rss.xml from templates."""
-    try:
-        env = Environment(
-            loader=FileSystemLoader('.'),
-            autoescape=select_autoescape(['html', 'xml'])
-        )
-    except Exception as e:
-        print(f"Could not load templates: {e}")
-        return
+def is_already_processed(link):
+    # Check if a markdown file contains this original link
+    articles_dir = 'content/articles'
+    if not os.path.exists(articles_dir):
+        return False
+    for filename in os.listdir(articles_dir):
+        if filename.endswith('.md'):
+            with open(os.path.join(articles_dir, filename), 'r', encoding='utf-8') as f:
+                content = f.read()
+                if link in content:
+                    return True
+    return False
 
 def main():
-    # Setup Jinja2 Environment
-    env = Environment(
-        loader=FileSystemLoader('.'),
-        autoescape=select_autoescape(['html', 'xml'])
-    )
-    try:
-        template = env.get_template('article_template.html')
-    except Exception as e:
-        print(f"Could not load templates: {e}")
-        return
+    print("Starting news gathering process...")
+    all_entries = []
 
-    # Ensure articles directory exists
-    os.makedirs('articles', exist_ok=True)
-    
-    # Initialize SQLite database
-    database.init_db()
-
-    new_items = []
-
-    entries_to_process = []
     for feed_url in RSS_FEEDS:
-        print(f"Fetching RSS feed from {feed_url}...")
-        feed = feedparser.parse(feed_url)
-        count = 0
-        for entry in feed.entries:
-            if database.is_duplicate(entry.link):
-                continue
-            entries_to_process.append(entry)
-            count += 1
-            if count >= 2:
-                break
-        if len(entries_to_process) >= 5:
+        print(f"Fetching {feed_url}...")
+        try:
+            feed = feedparser.parse(feed_url)
+            all_entries.extend(feed.entries)
+        except Exception as e:
+            print(f"Failed to fetch {feed_url}: {e}")
+
+    # Sort entries by published date (newest first) if available
+    def get_published(entry):
+        try:
+            from email.utils import parsedate_to_datetime
+            return parsedate_to_datetime(entry.published).timestamp()
+        except:
+            return 0
+            
+    all_entries.sort(key=get_published, reverse=True)
+
+    print(f"Found {len(all_entries)} total entries across all feeds.")
+
+    processed_count = 0
+    os.makedirs('content/articles', exist_ok=True)
+
+    for entry in all_entries:
+        if processed_count >= 10:
+            print("Reached maximum limit of 10 articles per run. Stopping.")
             break
             
-    entries_to_process = entries_to_process[:5]
-
-    # Process up to 5 entries
-    for entry in entries_to_process:
         link = entry.link
+        
+        if is_already_processed(link):
+            continue
+            
         title = entry.title
-        # Clean HTML from description
         raw_description = re.sub(r'<[^>]+>', '', entry.get('summary', ''))
         image_url = get_image_url(entry)
         published_date = entry.get('published', datetime.utcnow().isoformat())
         
-        print(f"Processing new article: {title}")
+        print(f"\nProcessing: {title}")
         
         # Scrape full text with Trafilatura
         article_text = raw_description
@@ -220,16 +194,13 @@ def main():
                 except json.JSONDecodeError:
                     pass
         
-        print(f"\nProcessing: {title}")
-        
         try:
             rewritten_content = rewrite_content(title, article_text)
         except CriticalAPIError as ce:
-            print(f"Critical API Error: {ce}. Halting article generation for this instance. Remaining pipeline tasks will continue.")
+            print(f"Critical API Error: {ce}. Halting article generation for this instance.")
             break
             
         if not rewritten_content:
-            print("Skipping article due to AI processing failure.")
             continue
             
         full_report = rewritten_content.get("full_report", {})
@@ -239,134 +210,56 @@ def main():
         # Override the original title with the AI-generated headline to prevent copyright match
         title = rewritten_content.get("headline", title)
         
-        # Convert markdown fields to HTML
-        for key in full_report:
-            if isinstance(full_report[key], str):
-                text = full_report[key]
-                # Remove leading spaces before bullet points to prevent <pre><code> blocks
-                text = re.sub(r'^[ \t]+([\*\-]) ', r'\1 ', text, flags=re.MULTILINE)
-                # Ensure blank lines before lists so python-markdown parses them correctly
-                text = re.sub(r'([^\n])\n(\s*[\*\-])\s', r'\1\n\n\2 ', text)
-                full_report[key] = markdown.markdown(text)
+        key_takeaways = full_report.pop("Key Takeaways", [])
+        faq = full_report.pop("FAQ", [])
+
+        # Build the body markdown
+        body_md = ""
+        for section_name, section_content in full_report.items():
+            if section_name in ["Key Takeaways", "FAQ", "executive_summary"]:
+                continue
+            formatted_name = section_name.replace('_', ' ').title()
+            body_md += f"## {formatted_name}\n\n{section_content}\n\n"
         
         # Free Tier Rate Limit Handling: 5 Requests Per Minute = 12.5 seconds per request.
         time.sleep(12.5)
         
-        # Generate slug from the NEW title
+        # Generate slug
         slug = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')
         if not slug:
             slug = f"article-{int(datetime.utcnow().timestamp())}"
         
-        article_url = f"articles/{slug}.html"
-        
-        # Parse publisher name
-        publisher_name = "Unknown Source"
-        try:
-            publisher_name = urlparse(link).netloc.replace('www.', '')
-        except:
-            publisher_name = link
-            
-        word_count = sum(len(str(v).split()) for v in full_report.values())
+        word_count = len(body_md.split())
         reading_time = max(1, round(word_count / 200))
             
-        news_item = {
+        frontmatter = {
             "title": title,
+            "slug": slug,
             "category": category,
             "seo_tags": seo_tags,
-            "full_report": full_report,
-            "original_link": link,
             "image_url": image_url,
+            "original_link": link,
             "published_at": published_date,
             "added_at": datetime.utcnow().isoformat(),
-            "slug": slug,
-            "article_url": article_url,
-            "reading_time": reading_time
+            "reading_time": reading_time,
         }
-        new_items.append(news_item)
-        # Render and save static HTML
-        try:
-            html_content = template.render(
-                title=title,
-                category=category,
-                seo_tags=seo_tags,
-                full_report=full_report,
-                image_url=image_url,
-                published_at=published_date,
-                original_link=link,
-                publisher_name=publisher_name,
-                slug=slug,
-                reading_time=reading_time
-            )
-            with open(article_url, 'w', encoding='utf-8') as f:
-                f.write(html_content)
-            print(f"Generated static page: {article_url}")
-        except Exception as e:
-            print(f"Failed to render HTML for new article '{title}': {e}")
+        
+        if key_takeaways:
+            frontmatter["key_takeaways"] = key_takeaways
+        if faq:
+            frontmatter["faq"] = faq
+
+        md_content = f"---\n{yaml.dump(frontmatter, sort_keys=False, allow_unicode=True)}---\n\n{body_md}"
+        
+        filepath = f"content/articles/{slug}.md"
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(md_content)
             
-        # Insert into database
-        if database.insert_article(news_item):
-            print(f"Successfully inserted into database: {title}")
+        print(f"Successfully created: {filepath}")
+        processed_count += 1
 
-    # Export feed for frontend
-    database.export_frontend_feed()
-    
-    # Get all articles for RSS, Sitemap, and Missing HTML rebuilding
-    updated_news = database.get_all_articles(limit=1000)
-
-    # Build missing HTML files (for CMS manual entries)
-    for item in updated_news:
-        if "article_url" in item and not os.path.exists(item["article_url"]):
-            print(f"Rebuilding missing HTML for: {item.get('title')}")
-            # Format markdown if necessary
-            report = item.get("full_report", {})
-            for key in report:
-                if isinstance(report[key], str) and not report[key].strip().startswith("<"):
-                    report[key] = markdown.markdown(report[key])
-            
-            pub_name = "Neodymium Intel"
-            try:
-                if item.get("original_link") and "http" in item["original_link"]:
-                    pub_name = urlparse(item["original_link"]).netloc.replace('www.', '')
-            except:
-                pass
-                
-            try:
-                html_content = template.render(
-                    title=item.get("title", ""),
-                    category=item.get("category", "Intelligence"),
-                    seo_tags=item.get("seo_tags", []),
-                    full_report=report,
-                    image_url=item.get("image_url", ""),
-                    published_at=item.get("published_at", ""),
-                    original_link=item.get("original_link", "#"),
-                    publisher_name=pub_name,
-                    slug=item.get("slug", ""),
-                    reading_time=item.get("reading_time", max(1, round(sum(len(str(v).split()) for v in report.values()) / 200)))
-                )
-                with open(item["article_url"], 'w', encoding='utf-8') as f:
-                    f.write(html_content)
-            except Exception as e:
-                print(f"Failed to rebuild HTML for '{item.get('title')}': {e}")
-
-    # Generate RSS Feed
-    try:
-        rss_template = env.get_template('rss_template.xml')
-        rss_content = rss_template.render(articles=updated_news[:50])
-        with open('rss.xml', 'w', encoding='utf-8') as f:
-            f.write(rss_content)
-        print("Successfully generated rss.xml")
-    except Exception as e:
-        print(f"Failed to generate RSS feed: {e}")
-
-    # Generate Sitemap
-    try:
-        sitemap_template = env.get_template('sitemap_template.xml')
-        sitemap_content = sitemap_template.render(articles=updated_news, current_date=datetime.utcnow().strftime('%Y-%m-%d'))
-        with open('sitemap.xml', 'w', encoding='utf-8') as f:
-            f.write(sitemap_content)
-        print("Successfully generated sitemap.xml")
-    except Exception as e:
-        print(f"Failed to generate Sitemap: {e}")
+    print("Generation complete! Recompiling HTML...")
+    os.system("python recompile_html.py")
 
 if __name__ == "__main__":
     main()

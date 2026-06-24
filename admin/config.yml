@@ -8,30 +8,25 @@ media_folder: "assets/images"
 public_folder: "/assets/images"
 
 collections:
-  - name: "database"
-    label: "Intelligence Database"
-    files:
-      - file: "news_data.json"
-        name: "news"
-        label: "Live News Feed"
+  - name: "articles"
+    label: "Articles"
+    folder: "content/articles"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Category", name: "category", widget: "select", options: ["Tech Startups", "Global Tech", "AI & Autonomy", "Defense Technology", "Intelligence"] }
+      - { label: "Publish Date", name: "published_at", widget: "datetime" }
+      - { label: "Image URL", name: "image_url", widget: "string", required: false }
+      - { label: "Original Link", name: "original_link", widget: "string", required: false }
+      - { label: "Reading Time (mins)", name: "reading_time", widget: "number", required: false, value_type: "int" }
+      - { label: "SEO Tags", name: "seo_tags", widget: "list", required: false }
+      - { label: "Key Takeaways", name: "key_takeaways", widget: "list", required: false }
+      - label: "FAQ"
+        name: "faq"
+        widget: "list"
+        required: false
         fields:
-          - name: "articles"
-            label: "Articles"
-            widget: "list"
-            fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Category", name: "category", widget: "select", options: ["Geopolitics", "Defense Technology", "Cyber Security", "Space Economy", "AI & Autonomy", "Global Tech"] }
-              - { label: "Publish Date", name: "published_at", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss.SSSZ" }
-              - { label: "Date Added", name: "added_at", widget: "datetime", required: false, format: "YYYY-MM-DDTHH:mm:ss.SSSZ" }
-              - { label: "Image URL", name: "image_url", widget: "string", required: false }
-              - { label: "Original Link", name: "original_link", widget: "string", required: false }
-              - { label: "Article URL (Slug path)", name: "article_url", widget: "string", hint: "e.g., articles/my-article-title.html" }
-              - { label: "Slug", name: "slug", widget: "string" }
-              - name: "full_report"
-                label: "Full Report (HTML Content)"
-                widget: "object"
-                fields:
-                  - { label: "Executive Summary", name: "executive_summary", widget: "markdown", required: false }
-                  - { label: "Key Developments", name: "key_developments", widget: "markdown", required: false }
-                  - { label: "Strategic Impact", name: "strategic_impact", widget: "markdown", required: false }
-                  - { label: "Conclusion", name: "conclusion", widget: "markdown", required: false }
+          - { label: "Question", name: "question", widget: "string" }
+          - { label: "Answer", name: "answer", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
