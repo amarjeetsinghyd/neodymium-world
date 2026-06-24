@@ -54,11 +54,11 @@
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
-    {% for item in articles %}
+    {% for article in articles %}
     <url>
-        <loc>https://neodymium.world/{{ item.article_url }}</loc>
-        <lastmod>{{ item.added_at[:10] }}</lastmod>
-        <changefreq>never</changefreq>
+        <loc>https://neodymium.world/{{ article.article_url }}</loc>
+        <lastmod>{{ article.published_at.split('T')[0] if article.published_at else current_date }}</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     {% endfor %}

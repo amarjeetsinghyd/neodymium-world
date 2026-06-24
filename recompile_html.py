@@ -1,4 +1,5 @@
 import os
+import json
 import markdown
 import frontmatter
 from datetime import datetime
@@ -107,12 +108,21 @@ def main():
     # Generate Sitemap
     try:
         sitemap_template = env.get_template('sitemap_template.xml')
-        sitemap_content = sitemap_template.render(articles=articles, current_date=datetime.utcnow().strftime('%Y-%m-%d'))
+        from datetime import datetime, timezone
+        sitemap_content = sitemap_template.render(articles=articles, current_date=datetime.now(timezone.utc).strftime('%Y-%m-%d'))
         with open('sitemap.xml', 'w', encoding='utf-8') as f:
             f.write(sitemap_content)
         print("Successfully generated sitemap.xml")
     except Exception as e:
         print(f"Failed to generate Sitemap: {e}")
+
+    # Generate news_data.json for frontend
+    try:
+        with open('news_data.json', 'w', encoding='utf-8') as f:
+            json.dump(articles, f, indent=4)
+        print("Successfully generated news_data.json")
+    except Exception as e:
+        print(f"Failed to generate news_data.json: {e}")
                 
     print("Recompilation complete.")
 
