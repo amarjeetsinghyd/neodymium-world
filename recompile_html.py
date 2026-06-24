@@ -49,10 +49,29 @@ def main():
             if "published_at" not in item:
                 item["published_at"] = datetime.utcnow().isoformat()
             
+            # Normalize image_url for relative paths
+            if 'image_url' in item and item['image_url']:
+                if item['image_url'].startswith('/'):
+                    item['image_url'] = '..' + item['image_url']
+            
             articles.append(item)
+    
+    def parse_date(date_str):
+        if not date_str:
+            from datetime import timezone
+            return datetime.min.replace(tzinfo=timezone.utc)
+        try:
+            if 'T' in date_str and date_str.endswith('Z'):
+                return datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+            else:
+                from email.utils import parsedate_to_datetime
+                return parsedate_to_datetime(date_str)
+        except Exception:
+            from datetime import timezone
+            return datetime.min.replace(tzinfo=timezone.utc)
 
-    # Sort articles by published_at descending
-    articles.sort(key=lambda x: x.get('published_at', ''), reverse=True)
+    # Sort articles by published date descending
+    articles.sort(key=lambda x: parse_date(str(x.get('published_at', ''))), reverse=True)
 
     # Build individual article HTMLs
     for item in articles:
