@@ -270,8 +270,7 @@ def main():
         print(f"Successfully created: {filepath}")
         processed_count += 1
 
-    print("Generation complete! Recompiling HTML...")
-    os.system("python recompile_html.py")
+    print("Generation complete! Handing over to static compilation...")
 
 if __name__ == "__main__":
     main()
