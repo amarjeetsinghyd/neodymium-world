@@ -23,60 +23,10 @@
     <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>The Rise of Anti-Drone Warfare: How Counter-UAS Technology Is Becoming the Next $14 Billion Defence Frontier</title>
-      <link>https://neodymium.world/articles/the-rise-of-anti-drone-warfare-how-counter-uas-technology-is-becoming-the-next-14-billion-defence-frontier.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/the-rise-of-anti-drone-warfare-how-counter-uas-technology-is-becoming-the-next-14-billion-defence-frontier.html</guid>
-      <pubDate>2026-06-24T16:36:00</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Read the full intelligence briefing on Neodymium World.
-        [SPLIT]
-        
-        
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/the-rise-of-anti-drone-warfare-how-counter-uas-technology-is-becoming-the-next-14-billion-defence-frontier.html
-      ]]></description>
-      
-      <category>AntiDrone</category>
-      
-      <category>CounterUAS</category>
-      
-      <category>DroneTechnology</category>
-      
-      <category>FutureWarfare</category>
-      
-      <category>DefenceTech</category>
-      
-      <category>ArtificialIntelligence</category>
-      
-      <category>ElectronicWarfare</category>
-      
-      <category>Aerospace</category>
-      
-      <category>MilitaryTechnology</category>
-      
-      <category>NationalSecurity</category>
-      
-      <category>MakeInIndia</category>
-      
-      <category>DefenceIndustry</category>
-      
-      <category>AutonomousSystems</category>
-      
-      
-      <enclosure url="https://neodymium.world/assets/images/ChatGPT Image Jun 24, 2026, 04_34_25 PM.png" length="0" type="image/jpeg" />
-      <media:content url="https://neodymium.world/assets/images/ChatGPT Image Jun 24, 2026, 04_34_25 PM.png" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://neodymium.world/assets/images/ChatGPT Image Jun 24, 2026, 04_34_25 PM.png" />
-      
-    </item>
-    
-    <item>
       <title>India’s Rare Earth Revolution: How New Delhi Is Breaking China’s Critical Mineral Monopoly</title>
       <link>https://neodymium.world/articles/indias-rare-earth-revolution.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/indias-rare-earth-revolution.html</guid>
-      <pubDate>2026-06-24T16:01:00+00:00</pubDate>
+      <pubDate>2026-06-24 16:01:00+00:00</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -116,7 +66,7 @@
       <title>Strategic Red Flag: The Anthropic Incident, AI Nationalism, and the Inevitable Rise of Parallel Digital Ecosystems</title>
       <link>https://neodymium.world/articles/strategic-red-flag-the-anthropic-incident-ai-nationalism-and-the-inevitable-rise-of-parallel-digital-ecosystems.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/strategic-red-flag-the-anthropic-incident-ai-nationalism-and-the-inevitable-rise-of-parallel-digital-ecosystems.html</guid>
-      <pubDate>2026-06-19T22:40:14+00:00</pubDate>
+      <pubDate>Fri, 19 Jun 2026 22:40:14 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -160,7 +110,7 @@
       <title>Strategic Vector Shift: India&#39;s BrahMos Modernization Program and its Cascading Effects on Regional Deterrence and Arms Export Dynamics</title>
       <link>https://neodymium.world/articles/strategic-vector-shift-india-s-brahmos-modernization-program-and-its-cascading-effects-on-regional-deterrence-and-arms-export-dynamics.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/strategic-vector-shift-india-s-brahmos-modernization-program-and-its-cascading-effects-on-regional-deterrence-and-arms-export-dynamics.html</guid>
-      <pubDate>2026-06-19T16:32:00+00:00</pubDate>
+      <pubDate>Fri, 19 Jun 2026 16:32:00 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -204,7 +154,7 @@
       <title>Strategic Autonomy in the Skies: India&#39;s Vinpropel Forges Indigenous Electric Propulsion, Reshaping Global Aerospace Supply Chains and Defense Posture</title>
       <link>https://neodymium.world/articles/strategic-autonomy-in-the-skies-india-s-vinpropel-forges-indigenous-electric-propulsion-reshaping-global-aerospace-supply-chains-and-defense-posture.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/strategic-autonomy-in-the-skies-india-s-vinpropel-forges-indigenous-electric-propulsion-reshaping-global-aerospace-supply-chains-and-defense-posture.html</guid>
-      <pubDate>2026-06-19T16:31:00+00:00</pubDate>
+      <pubDate>Fri, 19 Jun 2026 16:31:00 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -252,7 +202,7 @@
       <title>Strategic Disruption in AI Governance: Examining the Geopolitical Ramifications and Market Reconfiguration Post-Anthropic Model Recall</title>
       <link>https://neodymium.world/articles/strategic-disruption-in-ai-governance-examining-the-geopolitical-ramifications-and-market-reconfiguration-post-anthropic-model-recall.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/strategic-disruption-in-ai-governance-examining-the-geopolitical-ramifications-and-market-reconfiguration-post-anthropic-model-recall.html</guid>
-      <pubDate>2026-06-19T16:08:17+00:00</pubDate>
+      <pubDate>Fri, 19 Jun 2026 16:08:17 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -294,7 +244,7 @@
       <title>CRITICAL JUNCTURE: UNPACKING THE GEOPOLITICAL AND MARKET RAMIFICATIONS OF UNILATERAL STATE INTERVENTION IN FRONTIER AI DEPLOYMENT – THE ANTHROPIC FABLE 5 CASE STUDY</title>
       <link>https://neodymium.world/articles/critical-juncture-unpacking-the-geopolitical-and-market-ramifications-of-unilateral-state-intervention-in-frontier-ai-deployment-the-anthropic-fable-5-case-study.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/critical-juncture-unpacking-the-geopolitical-and-market-ramifications-of-unilateral-state-intervention-in-frontier-ai-deployment-the-anthropic-fable-5-case-study.html</guid>
-      <pubDate>2026-06-19T16:01:03+00:00</pubDate>
+      <pubDate>Fri, 19 Jun 2026 16:01:03 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -338,7 +288,7 @@
       <title>Strategic Convergence: Reliance&#39;s Integrated AI Ecosystem as a National Imperative and Disruptor in India&#39;s Digital Sovereignty Matrix</title>
       <link>https://neodymium.world/articles/strategic-convergence-reliance-s-integrated-ai-ecosystem-as-a-national-imperative-and-disruptor-in-india-s-digital-sovereignty-matrix.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/strategic-convergence-reliance-s-integrated-ai-ecosystem-as-a-national-imperative-and-disruptor-in-india-s-digital-sovereignty-matrix.html</guid>
-      <pubDate>2026-06-19T15:23:28+00:00</pubDate>
+      <pubDate>Fri, 19 Jun 2026 15:23:28 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -380,7 +330,7 @@
       <title>Strategic Recalibration: Smartbird&#39;s Ambitious Foray into Data-Sovereign AI Infrastructure Provisioning</title>
       <link>https://neodymium.world/articles/strategic-recalibration-smartbird-s-ambitious-foray-into-data-sovereign-ai-infrastructure-provisioning.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/strategic-recalibration-smartbird-s-ambitious-foray-into-data-sovereign-ai-infrastructure-provisioning.html</guid>
-      <pubDate>2026-06-19T13:00:00+00:00</pubDate>
+      <pubDate>Fri, 19 Jun 2026 13:00:00 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -414,7 +364,7 @@
       <title>The Geopolitical Chokepoint: Advanced Lithography, Export Control Integrity, and Sino-American Tech Hegemony</title>
       <link>https://neodymium.world/articles/the-geopolitical-chokepoint-advanced-lithography-export-control-integrity-and-sino-american-tech-hegemony.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/the-geopolitical-chokepoint-advanced-lithography-export-control-integrity-and-sino-american-tech-hegemony.html</guid>
-      <pubDate>2026-06-19T07:59:12+00:00</pubDate>
+      <pubDate>Fri, 19 Jun 2026 07:59:12 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -454,7 +404,7 @@
       <title>India&#39;s Dual-Domain Ascendancy: A Strategic Intelligence Report on Space and Energy Initiatives</title>
       <link>https://neodymium.world/articles/india-s-dual-domain-ascendancy-a-strategic-intelligence-report-on-space-and-energy-initiatives.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/india-s-dual-domain-ascendancy-a-strategic-intelligence-report-on-space-and-energy-initiatives.html</guid>
-      <pubDate>2026-06-19T06:02:00+00:00</pubDate>
+      <pubDate>Fri, 19 Jun 2026 06:02:00 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -502,7 +452,7 @@
       <title>Project Nightingale: Elastic Fortifies Observability Frontier with Strategic AI-Native Acquisition</title>
       <link>https://neodymium.world/articles/project-nightingale-elastic-fortifies-observability-frontier-with-strategic-ai-native-acquisition.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/project-nightingale-elastic-fortifies-observability-frontier-with-strategic-ai-native-acquisition.html</guid>
-      <pubDate>2026-06-19T00:51:11+00:00</pubDate>
+      <pubDate>Fri, 19 Jun 2026 00:51:11 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -544,7 +494,7 @@
       <title>Hyper-Valuation Dynamics in AI Inference: An In-Depth Examination of Baseten&#39;s Accelerated Capital Infusion and Strategic Market Positioning</title>
       <link>https://neodymium.world/articles/hyper-valuation-dynamics-in-ai-inference-an-in-depth-examination-of-baseten-s-accelerated-capital-infusion-and-strategic-market-positioning.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/hyper-valuation-dynamics-in-ai-inference-an-in-depth-examination-of-baseten-s-accelerated-capital-infusion-and-strategic-market-positioning.html</guid>
-      <pubDate>2026-06-18T21:20:13+00:00</pubDate>
+      <pubDate>Thu, 18 Jun 2026 21:20:13 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -574,7 +524,7 @@
       <title>Securing the Strategic Nexus: Pentagon&#39;s Critical Mineral Investments to Fortify the Defense Industrial Base</title>
       <link>https://neodymium.world/articles/securing-the-strategic-nexus-pentagon-s-critical-mineral-investments-to-fortify-the-defense-industrial-base.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/securing-the-strategic-nexus-pentagon-s-critical-mineral-investments-to-fortify-the-defense-industrial-base.html</guid>
-      <pubDate>2026-06-18T17:24:00+00:00</pubDate>
+      <pubDate>Thu, 18 Jun 2026 17:24:00 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -608,7 +558,7 @@
       <title>BrahMos Ascendancy: Moscow&#39;s Acquisition Intent and New Delhi&#39;s Strategic Supply Pivot</title>
       <link>https://neodymium.world/articles/brahmos-ascendancy-moscow-s-acquisition-intent-and-new-delhi-s-strategic-supply-pivot.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/brahmos-ascendancy-moscow-s-acquisition-intent-and-new-delhi-s-strategic-supply-pivot.html</guid>
-      <pubDate>2026-06-18T16:34:00+00:00</pubDate>
+      <pubDate>Thu, 18 Jun 2026 16:34:00 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -644,7 +594,7 @@
       <title>Embraer&#39;s Dual-Track Defense Imperative: C-390 Millennium Global Expansion and A-29 Super Tucano Strategic Realignment</title>
       <link>https://neodymium.world/articles/embraer-s-dual-track-defense-imperative-c-390-millennium-global-expansion-and-a-29-super-tucano-strategic-realignment.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/embraer-s-dual-track-defense-imperative-c-390-millennium-global-expansion-and-a-29-super-tucano-strategic-realignment.html</guid>
-      <pubDate>2026-06-18T16:25:49+00:00</pubDate>
+      <pubDate>Thu, 18 Jun 2026 16:25:49 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -688,7 +638,7 @@
       <title>Industrial Vulnerabilities and Strategic Imperatives: Fortifying U.S. Air and Missile Defense Capabilities in an Evolving Threat Landscape</title>
       <link>https://neodymium.world/articles/industrial-vulnerabilities-and-strategic-imperatives-fortifying-u-s-air-and-missile-defense-capabilities-in-an-evolving-threat-landscape.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/industrial-vulnerabilities-and-strategic-imperatives-fortifying-u-s-air-and-missile-defense-capabilities-in-an-evolving-threat-landscape.html</guid>
-      <pubDate>2026-06-18T16:18:13+00:00</pubDate>
+      <pubDate>Thu, 18 Jun 2026 16:18:13 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -724,7 +674,7 @@
       <title>Rheinmetall&#39;s Strategic Ascent: Forging Sovereign Space-Based ISR Capabilities for the Bundeswehr</title>
       <link>https://neodymium.world/articles/rheinmetall-s-strategic-ascent-forging-sovereign-space-based-isr-capabilities-for-the-bundeswehr.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/rheinmetall-s-strategic-ascent-forging-sovereign-space-based-isr-capabilities-for-the-bundeswehr.html</guid>
-      <pubDate>2026-06-18T15:38:55+00:00</pubDate>
+      <pubDate>Thu, 18 Jun 2026 15:38:55 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -772,7 +722,7 @@
       <title>Strategic Communication Failure: The Geopolitical Ramifications of an Unarticulated U.S. Maritime Doctrine Amidst Great Power Competition</title>
       <link>https://neodymium.world/articles/strategic-communication-failure-the-geopolitical-ramifications-of-an-unarticulated-u-s-maritime-doctrine-amidst-great-power-competition.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/strategic-communication-failure-the-geopolitical-ramifications-of-an-unarticulated-u-s-maritime-doctrine-amidst-great-power-competition.html</guid>
-      <pubDate>2026-06-18T15:15:00+00:00</pubDate>
+      <pubDate>Thu, 18 Jun 2026 15:15:00 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -812,7 +762,7 @@
       <title>Eurosatory 2026: Strategic Convergence of Geopolitical Imperatives and Next-Gen Defense Industrial Realignment</title>
       <link>https://neodymium.world/articles/eurosatory-2026-strategic-convergence-of-geopolitical-imperatives-and-next-gen-defense-industrial-realignment.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/eurosatory-2026-strategic-convergence-of-geopolitical-imperatives-and-next-gen-defense-industrial-realignment.html</guid>
-      <pubDate>2026-06-18T14:44:46+00:00</pubDate>
+      <pubDate>Thu, 18 Jun 2026 14:44:46 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -856,7 +806,7 @@
       <title>Interrogating Alliance Resilience: The Geopolitical Ramifications of Calls for US European Force Posture Review and Critiques of NATO&#39;s Iran Stance</title>
       <link>https://neodymium.world/articles/interrogating-alliance-resilience-the-geopolitical-ramifications-of-calls-for-us-european-force-posture-review-and-critiques-of-nato-s-iran-stance.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/interrogating-alliance-resilience-the-geopolitical-ramifications-of-calls-for-us-european-force-posture-review-and-critiques-of-nato-s-iran-stance.html</guid>
-      <pubDate>2026-06-18T13:45:00+00:00</pubDate>
+      <pubDate>Thu, 18 Jun 2026 13:45:00 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
@@ -893,30 +843,6 @@
       <enclosure url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/hegseth-nato-june-2026-scaled-e1781789066158-1024x576.jpg" length="0" type="image/jpeg" />
       <media:content url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/hegseth-nato-june-2026-scaled-e1781789066158-1024x576.jpg" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/hegseth-nato-june-2026-scaled-e1781789066158-1024x576.jpg" />
-      
-    </item>
-    
-    <item>
-      <title>Pentagon may ‘sacrifice’ traditional weapons to buy more drones if reconciliation fails: CTO</title>
-      <link>https://neodymium.world/articles/pentagon-may-sacrifice-traditional-weapons-to-buy-more-drones-if-reconciliation-fails-cto.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/pentagon-may-sacrifice-traditional-weapons-to-buy-more-drones-if-reconciliation-fails-cto.html</guid>
-      <pubDate>2026-06-12T19:28:59+00:00</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Read the full intelligence briefing on Neodymium World.
-        [SPLIT]
-        
-        
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/pentagon-may-sacrifice-traditional-weapons-to-buy-more-drones-if-reconciliation-fails-cto.html
-      ]]></description>
-      
-      
-      <enclosure url="https://breakingdefense.com/wp-content/uploads/sites/13/2025/07/SecDef-Hegseth-Emil-Michael-RE-with-Kratos-XQ-58-at-Pentagon-Drone-Day-250716-D-PM193-1138K-scaled-e1752860021751.jpeg" length="0" type="image/jpeg" />
-      <media:content url="https://breakingdefense.com/wp-content/uploads/sites/13/2025/07/SecDef-Hegseth-Emil-Michael-RE-with-Kratos-XQ-58-at-Pentagon-Drone-Day-250716-D-PM193-1138K-scaled-e1752860021751.jpeg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://breakingdefense.com/wp-content/uploads/sites/13/2025/07/SecDef-Hegseth-Emil-Michael-RE-with-Kratos-XQ-58-at-Pentagon-Drone-Day-250716-D-PM193-1138K-scaled-e1752860021751.jpeg" />
       
     </item>
     

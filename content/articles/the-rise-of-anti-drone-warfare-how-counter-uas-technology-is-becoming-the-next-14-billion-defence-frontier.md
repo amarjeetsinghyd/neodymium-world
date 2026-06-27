@@ -1,5 +1,6 @@
 ---
-title: 'The Rise of Anti-Drone Warfare: How Counter-UAS Technology Is Becoming the Next $14 Billion Defence Frontier'
+title: 'The Rise of Anti-Drone Warfare: How Counter-UAS Technology Is Becoming the
+  Next $14 Billion Defence Frontier'
 category: Policy Watch
 published_at: 2026-06-24T16:36
 draft: false
@@ -7,20 +8,21 @@ image_url: /assets/images/ChatGPT Image Jun 24, 2026, 04_34_25 PM.png
 original_link: ''
 reading_time: 4
 seo_tags:
-  - '#AntiDrone'
-  - '#CounterUAS'
-  - '#DroneTechnology'
-  - '#FutureWarfare'
-  - '#DefenceTech'
-  - '#ArtificialIntelligence'
-  - '#ElectronicWarfare'
-  - '#Aerospace'
-  - '#MilitaryTechnology'
-  - '#NationalSecurity'
-  - '#MakeInIndia'
-  - '#DefenceIndustry'
-  - '#AutonomousSystems'
+- '#AntiDrone'
+- '#CounterUAS'
+- '#DroneTechnology'
+- '#FutureWarfare'
+- '#DefenceTech'
+- '#ArtificialIntelligence'
+- '#ElectronicWarfare'
+- '#Aerospace'
+- '#MilitaryTechnology'
+- '#NationalSecurity'
+- '#MakeInIndia'
+- '#DefenceIndustry'
+- '#AutonomousSystems'
 slug: the-rise-of-anti-drone-warfare-how-counter-uas-technology-is-becoming-the-next-14-billion-defence-frontier
+posted_to_discord: true
 ---
 
 # The Rise of Anti-Drone Warfare: The New Battlefield Above Our Heads
