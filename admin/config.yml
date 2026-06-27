@@ -21,6 +21,25 @@ collections:
       - { label: "Cover Image", name: "image_url", widget: "image", required: false }
       - { label: "Original Link", name: "original_link", widget: "string", required: false }
       - { label: "Reading Time (mins)", name: "reading_time", widget: "number", required: false, value_type: "int" }
+
+      # ── SEO / GEO / AEO fields (Week 1 pass) ────────────────────────────────
+      - label: "SEO Title"
+        name: "seo_title"
+        widget: "string"
+        required: false
+        hint: "Short punchy title for Google (≤60 chars). Leave blank to auto-truncate the main title."
+      - label: "Meta Description"
+        name: "meta_description"
+        widget: "text"
+        required: false
+        hint: "155-char summary shown in search results and AI citation snippets. Leave blank to use the executive summary."
+      - label: "Social Hook"
+        name: "social_hook"
+        widget: "string"
+        required: false
+        hint: "One punchy sentence for Twitter/Discord auto-post (≤280 chars)."
+      # ────────────────────────────────────────────────────────────────────────
+
       - { label: "SEO Tags", name: "seo_tags", widget: "list", required: false }
       - { label: "Key Takeaways", name: "key_takeaways", widget: "list", required: false }
       - label: "FAQ"
