@@ -7,7 +7,7 @@ on:
   workflow_dispatch: # Allow manual trigger
   push:
     branches:
-      - main          # Only fire on pushes to main — never on feature branches
+      - main          # Only fire on pushes to main - never on feature branches
     paths:
       - 'content/articles/**'
 
@@ -39,28 +39,37 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Run automated AI generation
+      - name: Run news update pipeline
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python update_news.py
 
-      - name: Recompile HTML and JSON
+      - name: Recompile HTML + generate news_data.json
         run: python recompile_html.py
 
       - name: Post to Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python scripts/post_to_discord.py
+        continue-on-error: true
 
       - name: Commit and push changes
         run: |
-          # Explicitly untrack any gitignored files that may have been
-          # created during the run (news_data.json, *.log, __pycache__/, etc.)
-          # before staging. This prevents them ever appearing in a commit.
-          git rm --cached news_data.json error.log run_log.txt 2>/dev/null || true
-          git rm --cached -r __pycache__ 2>/dev/null || true
+          # Untrack files that should stay gitignored
+          git rm --cached error.log 2>/dev/null || true
+          git rm --cached run_log.txt 2>/dev/null || true
+          git rm -r --cached __pycache__/ 2>/dev/null || true
+
+          # NOTE: news_data.json is intentionally tracked and committed.
+          # It must be deployed to GitHub Pages so the homepage JS fetch()
+          # can load the live feed, thumbnails, and featured brief.
+          # DO NOT add git rm --cached news_data.json here.
+
           git add .
-          if ! git diff-index --quiet HEAD; then
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
             git commit -m "chore: auto-update data feeds and SSG articles"
             git pull --rebase origin main
             git push origin HEAD:main
