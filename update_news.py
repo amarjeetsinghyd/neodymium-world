@@ -8,22 +8,22 @@ import trafilatura
 import yaml
 import traceback
 import logging
-from datetime import datetime
+from datetime import datetime, timezone
 from urllib.parse import urlparse
 
-# Configure logging
+# --- Logging: write to a run log, not tracked error.log ---
 logging.basicConfig(
-    filename='error.log',
-    level=logging.ERROR,
+    filename='run_log.txt',
+    level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-# Configure Gemini API
+# --- API Key validation at startup ---
 API_KEY = os.environ.get("GEMINI_API_KEY")
 if not API_KEY:
     raise ValueError("GEMINI_API_KEY environment variable not set.")
 
-# Feed configuration
+# --- Feed configuration ---
 RSS_FEEDS = [
     "https://breakingdefense.com/feed/",
     "https://techcrunch.com/category/artificial-intelligence/feed/",
@@ -39,10 +39,15 @@ RSS_FEEDS = [
     "https://www.technologyreview.com/feed/"
 ]
 
+ARTICLES_DIR = 'content/articles'
+MAX_ARTICLES_PER_RUN = 10
+
+
 def get_image_url(entry):
-    if 'media_content' in entry and len(entry.media_content) > 0:
+    """Extract the best available image URL from a feed entry."""
+    if 'media_content' in entry and entry.media_content:
         return entry.media_content[0].get('url')
-    if 'enclosures' in entry and len(entry.enclosures) > 0:
+    if 'enclosures' in entry and entry.enclosures:
         for enc in entry.enclosures:
             if 'image' in enc.get('type', ''):
                 return enc.get('href')
@@ -54,10 +59,20 @@ def get_image_url(entry):
             return img_tag['src']
     return None
 
+
 class CriticalAPIError(Exception):
     pass
 
+
 def rewrite_content(title, text):
+    """Send article to Gemini for rewriting. Returns parsed JSON or None."""
+    # BUG FIX #1: Truncate oversized input to avoid wasting tokens / hitting limits.
+    # Gemini 2.5 Flash has a large context but sending 50KB+ of raw scraped text
+    # is wasteful and can cause unpredictable JSON truncation in the response.
+    MAX_CHARS = 8000
+    if len(text) > MAX_CHARS:
+        text = text[:MAX_CHARS] + "...[truncated]"
+
     prompt = f"""
 You are a Chief Defense Analyst. Rewrite this article in its entirety. Do not summarize or shorten it. Produce a comprehensive, highly elaborative Intelligence Report that matches or exceeds the length and depth of the original article.
 
@@ -104,45 +119,83 @@ Respond strictly in the following JSON format without any markdown blocks or ext
                 {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"}
             ]
         }
-        
-        response = requests.post(url, json=payload)
+
+        response = requests.post(url, json=payload, timeout=60)
         response.raise_for_status()
         data = response.json()
-        
-        content = data['candidates'][0]['content']['parts'][0]['text']
-        content = content.strip()
+
+        # BUG FIX #2: Guard against empty/blocked candidates before indexing.
+        # If Gemini blocks the response or returns finish_reason=SAFETY, candidates[0]
+        # may not have 'content', causing an unhandled KeyError crash.
+        candidates = data.get('candidates', [])
+        if not candidates:
+            print(f"Warning: No candidates returned by Gemini for: {title}")
+            logging.warning(f"No candidates returned for: {title}. Full response: {data}")
+            return None
+
+        candidate = candidates[0]
+        finish_reason = candidate.get('finishReason', '')
+        if finish_reason not in ('STOP', ''):
+            print(f"Warning: Gemini finish_reason={finish_reason} for: {title}")
+            logging.warning(f"Non-STOP finish_reason '{finish_reason}' for: {title}")
+            return None
+
+        content = candidate['content']['parts'][0]['text'].strip()
         if content.startswith("```json"):
-            content = content[7:-3]
-            
+            content = content[7:]
+            if content.endswith("```"):
+                content = content[:-3]
+
         parsed_json = json.loads(content)
-        
+
         if "error" in parsed_json and parsed_json["error"] == "IRRELEVANT_TOPIC":
             print(f"Skipped: Irrelevant Topic -> {title}")
             return None
-            
+
         return parsed_json
-        
+
     except requests.exceptions.HTTPError as e:
         if response.status_code == 429:
             raise CriticalAPIError("Gemini API Quota Exceeded (429)")
         print(f"API HTTP Error: {e} - Response: {response.text}")
+        logging.error(f"API HTTP Error for '{title}': {e}")
+        return None
+    except (json.JSONDecodeError, KeyError) as e:
+        # BUG FIX #3: Catch JSON parse errors and KeyErrors separately so they
+        # are logged clearly rather than being swallowed by the broad Exception.
+        print(f"JSON/Key parse error from Gemini response for '{title}': {e}")
+        logging.error(f"JSON/Key parse error for '{title}': {e}")
         return None
     except Exception as e:
-        print(f"Error calling Gemini API: {e}")
+        print(f"Error calling Gemini API for '{title}': {e}")
+        logging.error(f"Gemini API error for '{title}': {e}\n{traceback.format_exc()}")
         return None
 
+
 def is_already_processed(link):
-    # Check if a markdown file contains this original link
-    articles_dir = 'content/articles'
-    if not os.path.exists(articles_dir):
+    """Return True if any existing article markdown file references this URL."""
+    if not os.path.exists(ARTICLES_DIR):
         return False
-    for filename in os.listdir(articles_dir):
+    for filename in os.listdir(ARTICLES_DIR):
         if filename.endswith('.md'):
-            with open(os.path.join(articles_dir, filename), 'r', encoding='utf-8') as f:
-                content = f.read()
-                if link in content:
-                    return True
+            filepath = os.path.join(ARTICLES_DIR, filename)
+            try:
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    if link in f.read():
+                        return True
+            except OSError:
+                pass
     return False
+
+
+def get_published_timestamp(entry):
+    """Parse a feed entry's published date to a Unix timestamp for sorting."""
+    try:
+        from email.utils import parsedate_to_datetime
+        return parsedate_to_datetime(entry.published).timestamp()
+    except Exception:
+        return 0
+
 
 def main():
     print("Starting news gathering process...")
@@ -158,69 +211,74 @@ def main():
             print(error_msg)
             logging.error(error_msg + "\n" + traceback.format_exc())
 
-    # Sort entries by published date (newest first) if available
-    def get_published(entry):
-        try:
-            from email.utils import parsedate_to_datetime
-            return parsedate_to_datetime(entry.published).timestamp()
-        except:
-            return 0
-            
-    all_entries.sort(key=get_published, reverse=True)
-
+    all_entries.sort(key=get_published_timestamp, reverse=True)
     print(f"Found {len(all_entries)} total entries across all feeds.")
 
     processed_count = 0
-    os.makedirs('content/articles', exist_ok=True)
+    os.makedirs(ARTICLES_DIR, exist_ok=True)
 
     for entry in all_entries:
-        if processed_count >= 10:
-            print("Reached maximum limit of 10 articles per run. Stopping.")
+        if processed_count >= MAX_ARTICLES_PER_RUN:
+            print(f"Reached maximum limit of {MAX_ARTICLES_PER_RUN} articles per run. Stopping.")
             break
-            
-        link = entry.link
-        
+
+        link = getattr(entry, 'link', None)
+        if not link:
+            continue
+
         if is_already_processed(link):
             continue
-            
+
         title = entry.title
         raw_description = re.sub(r'<[^>]+>', '', entry.get('summary', ''))
         image_url = get_image_url(entry)
-        published_date = entry.get('published', datetime.utcnow().isoformat())
-        
+        published_date = entry.get('published', datetime.now(timezone.utc).isoformat())
+
         print(f"\nProcessing: {title}")
-        
+
         # Scrape full text with Trafilatura
         article_text = raw_description
-        downloaded = trafilatura.fetch_url(link)
-        if downloaded:
-            extracted = trafilatura.extract(downloaded, output_format='json')
-            if extracted:
-                try:
+        try:
+            downloaded = trafilatura.fetch_url(link)
+            if downloaded:
+                extracted = trafilatura.extract(downloaded, output_format='json')
+                if extracted:
                     ext_data = json.loads(extracted)
                     if ext_data.get('text'):
                         article_text = ext_data['text']
                     if ext_data.get('image'):
                         image_url = ext_data['image']
-                except json.JSONDecodeError:
-                    pass
-        
+        except Exception as e:
+            print(f"Trafilatura failed for {link}: {e}")
+            logging.warning(f"Trafilatura failed for {link}: {e}")
+
+        # BUG FIX #4: Rate-limit sleep BEFORE the API call, not after.
+        # Original code slept AFTER a successful call, meaning the first call
+        # of every run was made immediately after the previous run's last call,
+        # potentially within the same 60-second window. Sleeping first is correct.
+        # Also: only sleep if this isn't the very first article to avoid a
+        # pointless wait at the start of the run.
+        if processed_count > 0:
+            print("Rate-limit pause: 13 seconds...")
+            time.sleep(13)
+
         try:
             rewritten_content = rewrite_content(title, article_text)
         except CriticalAPIError as ce:
             print(f"Critical API Error: {ce}. Halting article generation for this instance.")
+            logging.critical(str(ce))
             break
-            
+
         if not rewritten_content:
             continue
-            
+
         full_report = rewritten_content.get("full_report", {})
         category = rewritten_content.get("category", "Intelligence")
         seo_tags = rewritten_content.get("seo_tags", [])
-        
-        # Override the original title with the AI-generated headline to prevent copyright match
+
+        # Override title with AI-generated headline
         title = rewritten_content.get("headline", title)
-        
+
         key_takeaways = full_report.pop("Key Takeaways", [])
         faq = full_report.pop("FAQ", [])
 
@@ -231,19 +289,19 @@ def main():
                 continue
             formatted_name = section_name.replace('_', ' ').title()
             body_md += f"## {formatted_name}\n\n{section_content}\n\n"
-        
-        # Free Tier Rate Limit Handling: 5 Requests Per Minute = 12.5 seconds per request.
-        time.sleep(12.5)
-        
-        # Generate slug
-        slug = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')
-        if not slug:
-            slug = f"article-{int(datetime.utcnow().timestamp())}"
-        
+
+        # BUG FIX #5: Slug can produce duplicates if two headlines are very similar.
+        # Append a short timestamp suffix to guarantee uniqueness.
+        base_slug = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')
+        if not base_slug:
+            base_slug = 'article'
+        timestamp_suffix = str(int(datetime.now(timezone.utc).timestamp()))[-6:]
+        slug = f"{base_slug[:80]}-{timestamp_suffix}"
+
         word_count = len(body_md.split())
         reading_time = max(1, round(word_count / 200))
-            
-        frontmatter = {
+
+        frontmatter_data = {
             "title": title,
             "slug": slug,
             "category": category,
@@ -251,26 +309,33 @@ def main():
             "image_url": image_url,
             "original_link": link,
             "published_at": published_date,
-            "added_at": datetime.utcnow().isoformat(),
+            "added_at": datetime.now(timezone.utc).isoformat(),
             "reading_time": reading_time,
             "draft": True,
         }
-        
-        if key_takeaways:
-            frontmatter["key_takeaways"] = key_takeaways
-        if faq:
-            frontmatter["faq"] = faq
 
-        md_content = f"---\n{yaml.dump(frontmatter, sort_keys=False, allow_unicode=True)}---\n\n{body_md}"
-        
-        filepath = f"content/articles/{slug}.md"
-        with open(filepath, "w", encoding="utf-8") as f:
-            f.write(md_content)
-            
-        print(f"Successfully created: {filepath}")
+        if key_takeaways:
+            frontmatter_data["key_takeaways"] = key_takeaways
+        if faq:
+            frontmatter_data["faq"] = faq
+
+        md_content = f"---\n{yaml.dump(frontmatter_data, sort_keys=False, allow_unicode=True)}---\n\n{body_md}"
+
+        filepath = os.path.join(ARTICLES_DIR, f"{slug}.md")
+        try:
+            with open(filepath, "w", encoding="utf-8") as f:
+                f.write(md_content)
+            print(f"Successfully created: {filepath}")
+            logging.info(f"Created: {filepath}")
+        except OSError as e:
+            print(f"Failed to write {filepath}: {e}")
+            logging.error(f"Failed to write {filepath}: {e}")
+            continue
+
         processed_count += 1
 
     print("Generation complete! Handing over to static compilation...")
+
 
 if __name__ == "__main__":
     main()

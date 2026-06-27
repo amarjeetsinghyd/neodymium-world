@@ -18,6 +18,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # BUG FIX (Workflow): fetch-depth: 0 ensures git pull --rebase has
+          # full history. With the default shallow clone (depth 1), rebasing
+          # can fail with "fatal: --rebase does not work with shallow clones".
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -30,16 +35,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Configure git identity
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Run automated AI generation
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python update_news.py
-
-      - name: Sync latest changes from CMS
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main || true
 
       - name: Recompile HTML and JSON
         run: python recompile_html.py
@@ -47,7 +51,7 @@ jobs:
       - name: Post to Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python post_to_discord.py
+        run: python scripts/post_to_discord.py
 
       - name: Commit and push changes
         run: |
