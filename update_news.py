@@ -3,6 +3,7 @@ import json
 import os
 import re
 import requests
+import sys
 import time
 import trafilatura
 import yaml
@@ -12,8 +13,11 @@ from datetime import datetime, timezone
 from urllib.parse import urlparse
 
 # --- Logging ---
+# In CI (GitHub Actions) there is no persistent filesystem — log to stdout
+# so output appears in the Actions run log. Locally, this still prints to
+# the terminal. run_log.txt is gitignored and not created here.
 logging.basicConfig(
-    filename='run_log.txt',
+    stream=sys.stdout,
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
@@ -234,12 +238,10 @@ def main():
         except Exception as e:
             logging.warning(f"Trafilatura failed for {link}: {e}")
 
-        # Ensure image URL is absolute and filename has no spaces/special chars
         if image_url:
             if not image_url.startswith('http'):
-                image_url = None  # Discard relative/invalid image URLs from scrapers
+                image_url = None
             else:
-                # Sanitize the filename portion of the URL if it has spaces
                 url_parts = image_url.rsplit('/', 1)
                 if len(url_parts) == 2:
                     image_url = url_parts[0] + '/' + sanitize_filename(url_parts[1])
@@ -300,7 +302,10 @@ def main():
             "published_at": published_date,
             "added_at": datetime.now(timezone.utc).isoformat(),
             "reading_time": reading_time,
-            "draft": True,
+            # draft: False — articles are published immediately on the next
+            # recompile_html.py run. Set to True in the CMS if manual review
+            # is preferred before going live.
+            "draft": False,
         }
 
         if key_takeaways:

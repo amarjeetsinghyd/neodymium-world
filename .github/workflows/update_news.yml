@@ -6,6 +6,8 @@ on:
     - cron: '0 */3 * * *'
   workflow_dispatch: # Allow manual trigger
   push:
+    branches:
+      - main          # Only fire on pushes to main — never on feature branches
     paths:
       - 'content/articles/**'
 
@@ -19,9 +21,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # BUG FIX (Workflow): fetch-depth: 0 ensures git pull --rebase has
-          # full history. With the default shallow clone (depth 1), rebasing
-          # can fail with "fatal: --rebase does not work with shallow clones".
           fetch-depth: 0
 
       - name: Set up Python
@@ -55,6 +54,11 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          # Explicitly untrack any gitignored files that may have been
+          # created during the run (news_data.json, *.log, __pycache__/, etc.)
+          # before staging. This prevents them ever appearing in a commit.
+          git rm --cached news_data.json error.log run_log.txt 2>/dev/null || true
+          git rm --cached -r __pycache__ 2>/dev/null || true
           git add .
           if ! git diff-index --quiet HEAD; then
             git commit -m "chore: auto-update data feeds and SSG articles"
