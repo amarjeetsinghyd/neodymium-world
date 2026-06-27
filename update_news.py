@@ -1,3 +1,7 @@
+# update_news.py — Lightweight News Pipeline
+# Overhaul: dropped trafilatura, O(1) deduplication via seen_urls.json,
+# reduced sleep, BeautifulSoup used only for RSS summary fallback.
+
 import feedparser
 import json
 import os
@@ -5,27 +9,38 @@ import re
 import requests
 import sys
 import time
-import trafilatura
 import yaml
-import traceback
 import logging
 from datetime import datetime, timezone
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 
-# --- Logging ---
-# In CI (GitHub Actions) there is no persistent filesystem — log to stdout
-# so output appears in the Actions run log. Locally, this still prints to
-# the terminal. run_log.txt is gitignored and not created here.
+# ---------------------------------------------------------------------------
+# Logging — stdout so GitHub Actions captures it; no file written
+# ---------------------------------------------------------------------------
 logging.basicConfig(
     stream=sys.stdout,
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
+# ---------------------------------------------------------------------------
+# Config
+# ---------------------------------------------------------------------------
 API_KEY = os.environ.get("GEMINI_API_KEY")
 if not API_KEY:
     raise ValueError("GEMINI_API_KEY environment variable not set.")
+
+ARTICLES_DIR = 'content/articles'
+SEEN_URLS_FILE = 'content/seen_urls.json'  # O(1) dedup — replaces full file scan
+MAX_ARTICLES_PER_RUN = 5   # was 10 — halved to cut runtime & API cost
+MAX_CHARS = 6000            # was 8000 — tighter prompt = faster Gemini response
+RATE_LIMIT_SLEEP = 8        # was 13s — safe for Gemini free tier (15 RPM)
+
+GEMINI_URL = (
+    f"https://generativelanguage.googleapis.com/v1beta/models/"
+    f"gemini-2.0-flash:generateContent?key={API_KEY}"
+)
 
 RSS_FEEDS = [
     "https://breakingdefense.com/feed/",
@@ -33,303 +48,245 @@ RSS_FEEDS = [
     "https://www.wired.com/feed/category/tech/latest/rss",
     "http://www.indiandefensenews.in/feeds/posts/default?alt=rss",
     "https://www.thehindu.com/sci-tech/technology/feeder/default.rss",
-    "https://yourstory.com/feed",
+    "https://yourstory.com/feed/",
     "https://inc42.com/feed/",
     "https://feeds.feedburner.com/ndtv-gadgets-360",
     "https://www.firstpost.com/feed/rss/tech",
     "https://indianexpress.com/section/india/feed/",
     "https://venturebeat.com/category/ai/feed/",
-    "https://www.technologyreview.com/feed/"
+    "https://www.technologyreview.com/feed/",
 ]
 
-ARTICLES_DIR = 'content/articles'
-MAX_ARTICLES_PER_RUN = 10
+# ---------------------------------------------------------------------------
+# Seen-URL deduplication — loaded once at startup, O(1) lookup
+# ---------------------------------------------------------------------------
+def load_seen_urls() -> set:
+    if os.path.exists(SEEN_URLS_FILE):
+        try:
+            with open(SEEN_URLS_FILE, 'r') as f:
+                return set(json.load(f))
+        except Exception:
+            pass
+    return set()
 
+def save_seen_urls(seen: set):
+    os.makedirs(os.path.dirname(SEEN_URLS_FILE), exist_ok=True)
+    with open(SEEN_URLS_FILE, 'w') as f:
+        json.dump(list(seen), f)
 
-def sanitize_filename(name):
-    """Remove spaces, colons, and special chars from image filenames."""
+# ---------------------------------------------------------------------------
+# Lightweight article text extraction — no trafilatura
+# Uses requests + BeautifulSoup paragraph extraction only
+# ---------------------------------------------------------------------------
+REQUEST_HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (compatible; Neodymium/1.0; +https://neodymium.world)'
+}
+
+def fetch_article_text(url: str, summary: str = '') -> str:
+    """Fetch article text with a lightweight BS4 paragraph scrape.
+    Falls back to RSS summary if the page fetch fails.
+    Strictly time-boxed: 6s timeout, no retry."""
+    try:
+        resp = requests.get(url, headers=REQUEST_HEADERS, timeout=6)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, 'html.parser')
+        # Remove nav, footer, scripts, ads
+        for tag in soup(['script', 'style', 'nav', 'footer', 'aside', 'form']):
+            tag.decompose()
+        # Extract <article> or <main> content first, fall back to all <p>
+        container = soup.find('article') or soup.find('main') or soup
+        paragraphs = container.find_all('p')
+        text = ' '.join(p.get_text(' ', strip=True) for p in paragraphs)
+        if len(text.strip()) > 200:
+            return text[:MAX_CHARS]
+    except Exception as e:
+        logging.warning(f"fetch_article_text failed for {url}: {e}")
+    # Fallback: strip HTML from RSS summary
+    if summary:
+        clean = BeautifulSoup(summary, 'html.parser').get_text(' ', strip=True)
+        return clean[:MAX_CHARS]
+    return ''
+
+# ---------------------------------------------------------------------------
+# Image URL extraction — from RSS entry only, no full page scrape
+# ---------------------------------------------------------------------------
+def get_image_url(entry) -> str:
+    # media:content
+    for m in getattr(entry, 'media_content', []):
+        u = m.get('url', '')
+        if u.startswith('http') and any(u.lower().endswith(x) for x in ('.jpg','.jpeg','.png','.webp')):
+            return u
+    # enclosures
+    for enc in getattr(entry, 'enclosures', []):
+        u = enc.get('href', '') or enc.get('url', '')
+        if u.startswith('http') and 'image' in enc.get('type', 'image'):
+            return u
+    # first <img> in summary
+    summary_html = getattr(entry, 'summary', '')
+    if summary_html:
+        soup = BeautifulSoup(summary_html, 'html.parser')
+        img = soup.find('img')
+        if img and img.get('src', '').startswith('http'):
+            return img['src']
+    return ''
+
+# ---------------------------------------------------------------------------
+# Slug generation
+# ---------------------------------------------------------------------------
+def make_slug(title: str) -> str:
+    base = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')[:80]
+    suffix = str(int(datetime.now(timezone.utc).timestamp()))[-6:]
+    return f"{base}-{suffix}"
+
+# ---------------------------------------------------------------------------
+# Sanitize filename
+# ---------------------------------------------------------------------------
+def sanitize_filename(name: str) -> str:
     return re.sub(r'[^a-z0-9._-]', '-', name.lower()).strip('-')
 
+# ---------------------------------------------------------------------------
+# Gemini rewrite
+# ---------------------------------------------------------------------------
+def rewrite_content(title: str, text: str) -> dict | None:
+    prompt = f"""You are an intelligence analyst for Neodymium, a premier defense and tech portal.
+Rewrite the following article as an institutional intelligence brief in JSON.
+IMPORTANT: Return ONLY valid JSON, no markdown fences.
 
-def get_image_url(entry):
-    if 'media_content' in entry and entry.media_content:
-        return entry.media_content[0].get('url')
-    if 'enclosures' in entry and entry.enclosures:
-        for enc in entry.enclosures:
-            if 'image' in enc.get('type', ''):
-                return enc.get('href')
-    if 'summary' in entry:
-        # bs4 imported at top of file
-        soup = BeautifulSoup(entry.summary, 'html.parser')
-        img_tag = soup.find('img')
-        if img_tag and img_tag.get('src'):
-            return img_tag['src']
-    return None
+Required JSON fields:
+- "Title": punchy headline under 80 chars
+- "seo_title": under 60 chars, keyword-front-loaded
+- "meta_description": under 155 chars, for search snippets
+- "social_hook": under 280 chars, strong hook for Discord/Twitter
+- "Category": one of [Intelligence, AI & Autonomy, Policy Watch, Space & Satellites, Cyber & EW, Defense Tech]
+- "SEO Tags": comma-separated keywords string
+- "Executive Summary": 3-sentence brief, institutional tone
+- "Key Takeaways": list of exactly 4 strings
+- "Article Body": full HTML body using <h2><p><ul><strong> tags
+- "FAQ": list of 3 objects each with "question" and "answer" strings
+- "Reading Time": integer minutes
 
+ARTICLE TITLE: {title}
+ARTICLE TEXT: {text[:MAX_CHARS]}"""
 
-class CriticalAPIError(Exception):
-    pass
-
-
-def rewrite_content(title, text):
-    """Send article to Gemini for rewriting. Returns parsed JSON or None."""
-    MAX_CHARS = 8000
-    if len(text) > MAX_CHARS:
-        text = text[:MAX_CHARS] + "...[truncated]"
-
-    prompt = f"""
-You are a Chief Defense and Technology Analyst. Rewrite this article as a comprehensive, institutional intelligence report.
-
-Core Guidelines:
-1. Generate a completely original, analytical, intelligence-oriented HEADLINE (max 110 characters).
-2. Generate a SHORT SEO TITLE (max 55 characters) for the HTML <title> tag — punchy, keyword-rich.
-3. Generate a META DESCRIPTION (max 155 characters) — summarises the report's key finding for search engine snippets.
-4. Generate a SOCIAL HOOK (max 280 characters) — an engaging opening statement for Twitter/LinkedIn. Use no hashtags. Start with a provocative fact or number.
-5. Generate THREAD TWEETS — an array of 2 additional tweet strings (each max 270 chars) that continue the social hook as a thread. Include key data points.
-6. Produce a full intelligence report body in Markdown.
-7. If the article is NOT about Tech Startups, Global Tech, AI, or Defense Technology, return exactly: {{"error": "IRRELEVANT_TOPIC"}}
-
-Original Title: {title}
-Original Content: {text}
-
-Respond strictly in this JSON format (no markdown blocks, no extra text):
-{{
-    "headline": "Original analytical headline (max 110 chars)",
-    "seo_title": "Short punchy SEO title (max 55 chars)",
-    "meta_description": "Search snippet description (max 155 chars)",
-    "social_hook": "Opening tweet/LinkedIn post (max 280 chars, no hashtags)",
-    "thread_tweets": ["Tweet 2 continuation (max 270 chars)", "Tweet 3 continuation (max 270 chars)"],
-    "category": "One of: Policy Watch, Global Index, Data Analytics, Intelligence Brief, Tech Startups, Global Tech, AI & Autonomy, Defense Technology",
-    "seo_tags": ["#Tag1", "#Tag2", "#Tag3"],
-    "full_report": {{
-        "Key Takeaways": ["Bullet 1", "Bullet 2", "Bullet 3"],
-        "Overview": "Summary here...",
-        "Dynamic Heading 1": "Dynamic content...",
-        "Dynamic Heading 2": "Dynamic content...",
-        "FAQ": [
-            {{"question": "What is the main impact?", "answer": "..."}},
-            {{"question": "Who is affected?", "answer": "..."}}
-        ]
-    }}
-}}
-"""
-    try:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={API_KEY}"
-        payload = {
-            "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"responseMimeType": "application/json"},
-            "safetySettings": [
-                {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
-                {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
-                {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
-                {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"}
-            ]
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {
+            "temperature": 0.4,
+            "maxOutputTokens": 2048,
+            "responseMimeType": "application/json"
         }
-
-        response = requests.post(url, json=payload, timeout=60)
-        response.raise_for_status()
-        data = response.json()
-
+    }
+    try:
+        resp = requests.post(GEMINI_URL, json=payload, timeout=30)
+        resp.raise_for_status()
+        data = resp.json()
         candidates = data.get('candidates', [])
-        if not candidates:
-            logging.warning(f"No candidates returned for: {title}. Response: {data}")
+        if not candidates or candidates[0].get('finishReason') not in ('STOP', None, ''):
+            logging.warning(f"Gemini blocked or empty for: {title}")
             return None
-
-        candidate = candidates[0]
-        finish_reason = candidate.get('finishReason', '')
-        if finish_reason not in ('STOP', ''):
-            logging.warning(f"Non-STOP finish_reason '{finish_reason}' for: {title}")
-            return None
-
-        content = candidate['content']['parts'][0]['text'].strip()
-        if content.startswith("```json"):
-            content = content[7:]
-        if content.endswith("```"):
-            content = content[:-3]
-
-        parsed_json = json.loads(content)
-
-        if parsed_json.get("error") == "IRRELEVANT_TOPIC":
-            print(f"Skipped (irrelevant): {title}")
-            return None
-
-        return parsed_json
-
-    except requests.exceptions.HTTPError as e:
-        if response.status_code == 429:
-            raise CriticalAPIError("Gemini API Quota Exceeded (429)")
-        logging.error(f"API HTTP Error for '{title}': {e}")
-        return None
-    except (json.JSONDecodeError, KeyError) as e:
-        logging.error(f"JSON/Key parse error for '{title}': {e}")
+        raw = candidates[0]['content']['parts'][0]['text']
+        # Strip accidental markdown fences
+        raw = re.sub(r'^```json\s*|^```\s*|```$', '', raw.strip(), flags=re.MULTILINE)
+        return json.loads(raw)
+    except json.JSONDecodeError as e:
+        logging.error(f"Gemini JSON parse error for '{title}': {e}")
         return None
     except Exception as e:
-        logging.error(f"Gemini API error for '{title}': {e}\n{traceback.format_exc()}")
+        logging.error(f"Gemini API error for '{title}': {e}")
         return None
 
+# ---------------------------------------------------------------------------
+# Write article markdown
+# ---------------------------------------------------------------------------
+def write_article(slug: str, link: str, image_url: str,
+                  published: str, full_report: dict):
+    os.makedirs(ARTICLES_DIR, exist_ok=True)
+    filepath = os.path.join(ARTICLES_DIR, f"{slug}.md")
+    frontmatter = {
+        'title':            full_report.get('Title', ''),
+        'seo_title':        full_report.get('seo_title', '')[:60],
+        'meta_description': full_report.get('meta_description', '')[:155],
+        'social_hook':      full_report.get('social_hook', '')[:280],
+        'slug':             slug,
+        'category':         full_report.get('Category', 'Intelligence'),
+        'seo_tags':         full_report.get('SEO Tags', ''),
+        'image_url':        image_url,
+        'source_url':       link,
+        'published_at':     published,
+        'reading_time':     full_report.get('Reading Time', 3),
+        'executive_summary': full_report.get('Executive Summary', ''),
+        'key_takeaways':    full_report.get('Key Takeaways', []),
+        'faq':              full_report.get('FAQ', []),
+        'article_url':      f'articles/{slug}.html',
+        'draft':            False,
+        'posted_to_discord': False,
+    }
+    body = full_report.get('Article Body', '')
+    content = f"---\n{yaml.dump(frontmatter, sort_keys=False, allow_unicode=True)}---\n\n{body}\n"
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write(content)
+    logging.info(f"Written: {filepath}")
 
-def is_already_processed(link):
-    if not os.path.exists(ARTICLES_DIR):
-        return False
-    for filename in os.listdir(ARTICLES_DIR):
-        if filename.endswith('.md'):
-            filepath = os.path.join(ARTICLES_DIR, filename)
-            try:
-                with open(filepath, 'r', encoding='utf-8') as f:
-                    if link in f.read():
-                        return True
-            except OSError:
-                pass
-    return False
-
-
-def get_published_timestamp(entry):
-    try:
-        from email.utils import parsedate_to_datetime
-        return parsedate_to_datetime(entry.published).timestamp()
-    except Exception:
-        return 0
-
-
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
 def main():
-    print("Starting news gathering process...")
-    all_entries = []
+    seen_urls = load_seen_urls()  # O(1) set lookup — replaces per-file scan
+    processed = 0
+    new_slugs = []
 
     for feed_url in RSS_FEEDS:
-        print(f"Fetching {feed_url}...")
+        if processed >= MAX_ARTICLES_PER_RUN:
+            break
         try:
             feed = feedparser.parse(feed_url)
-            all_entries.extend(feed.entries)
         except Exception as e:
-            logging.error(f"Failed to fetch {feed_url}: {e}\n{traceback.format_exc()}")
-
-    all_entries.sort(key=get_published_timestamp, reverse=True)
-    print(f"Found {len(all_entries)} total entries across all feeds.")
-
-    processed_count = 0
-    os.makedirs(ARTICLES_DIR, exist_ok=True)
-
-    for entry in all_entries:
-        if processed_count >= MAX_ARTICLES_PER_RUN:
-            print(f"Reached maximum of {MAX_ARTICLES_PER_RUN} articles. Stopping.")
-            break
-
-        link = getattr(entry, 'link', None)
-        if not link or is_already_processed(link):
+            logging.warning(f"Feed parse error {feed_url}: {e}")
             continue
 
-        title = entry.title
-        raw_description = re.sub(r'<[^>]+>', '', entry.get('summary', ''))
-        image_url = get_image_url(entry)
-        published_date = entry.get('published', datetime.now(timezone.utc).isoformat())
+        for entry in feed.entries:
+            if processed >= MAX_ARTICLES_PER_RUN:
+                break
 
-        print(f"\nProcessing: {title}")
-
-        article_text = raw_description
-        try:
-            downloaded = trafilatura.fetch_url(link)
-            if downloaded:
-                extracted = trafilatura.extract(downloaded, output_format='json')
-                if extracted:
-                    ext_data = json.loads(extracted)
-                    if ext_data.get('text'):
-                        article_text = ext_data['text']
-                    if ext_data.get('image'):
-                        image_url = ext_data['image']
-        except Exception as e:
-            logging.warning(f"Trafilatura failed for {link}: {e}")
-
-        if image_url:
-            if not image_url.startswith('http'):
-                image_url = None
-            else:
-                url_parts = image_url.rsplit('/', 1)
-                if len(url_parts) == 2:
-                    image_url = url_parts[0] + '/' + sanitize_filename(url_parts[1])
-
-        if processed_count > 0:
-            print("Rate-limit pause: 13 seconds...")
-            time.sleep(13)
-
-        try:
-            rewritten_content = rewrite_content(title, article_text)
-        except CriticalAPIError as ce:
-            print(f"Critical API Error: {ce}. Halting.")
-            logging.critical(str(ce))
-            break
-
-        if not rewritten_content:
-            continue
-
-        full_report = rewritten_content.get("full_report", {})
-        category = rewritten_content.get("category", "Intelligence")
-        seo_tags = rewritten_content.get("seo_tags", [])
-        title = rewritten_content.get("headline", title)
-        seo_title = rewritten_content.get("seo_title", "")
-        meta_description = rewritten_content.get("meta_description", "")
-        social_hook = rewritten_content.get("social_hook", "")
-        thread_tweets = rewritten_content.get("thread_tweets", [])
-
-        key_takeaways = full_report.pop("Key Takeaways", [])
-        faq = full_report.pop("FAQ", [])
-
-        body_md = ""
-        for section_name, section_content in full_report.items():
-            if section_name in ["Key Takeaways", "FAQ", "executive_summary"]:
+            link = getattr(entry, 'link', '')
+            if not link or link in seen_urls:
                 continue
-            formatted_name = section_name.replace('_', ' ').title()
-            body_md += f"## {formatted_name}\n\n{section_content}\n\n"
 
-        base_slug = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')
-        if not base_slug:
-            base_slug = 'article'
-        timestamp_suffix = str(int(datetime.now(timezone.utc).timestamp()))[-6:]
-        slug = f"{base_slug[:80]}-{timestamp_suffix}"
+            title = getattr(entry, 'title', '').strip()
+            if not title:
+                continue
 
-        word_count = len(body_md.split())
-        reading_time = max(1, round(word_count / 200))
+            summary = getattr(entry, 'summary', '')
+            published = getattr(entry, 'published', datetime.now(timezone.utc).isoformat())
+            image_url = get_image_url(entry)
 
-        frontmatter_data = {
-            "title": title,
-            "seo_title": seo_title,
-            "meta_description": meta_description,
-            "social_hook": social_hook,
-            "thread_tweets": thread_tweets,
-            "slug": slug,
-            "category": category,
-            "seo_tags": seo_tags,
-            "image_url": image_url,
-            "original_link": link,
-            "published_at": published_date,
-            "added_at": datetime.now(timezone.utc).isoformat(),
-            "reading_time": reading_time,
-            # draft: False — articles are published immediately on the next
-            # recompile_html.py run. Set to True in the CMS if manual review
-            # is preferred before going live.
-            "draft": False,
-        }
+            # Rate-limit pause before Gemini call (skip on first article)
+            if processed > 0:
+                time.sleep(RATE_LIMIT_SLEEP)
 
-        if key_takeaways:
-            frontmatter_data["key_takeaways"] = key_takeaways
-        if faq:
-            frontmatter_data["faq"] = faq
+            # Fetch article text — lightweight, no trafilatura
+            text = fetch_article_text(link, summary)
+            if not text:
+                logging.warning(f"No text extracted, skipping: {link}")
+                seen_urls.add(link)  # Mark as seen so we don't retry
+                continue
 
-        md_content = f"---\n{yaml.dump(frontmatter_data, sort_keys=False, allow_unicode=True)}---\n\n{body_md}"
+            full_report = rewrite_content(title, text)
+            if not full_report:
+                seen_urls.add(link)
+                continue
 
-        filepath = os.path.join(ARTICLES_DIR, f"{slug}.md")
-        try:
-            with open(filepath, "w", encoding='utf-8') as f:
-                f.write(md_content)
-            print(f"Successfully created: {filepath}")
-            logging.info(f"Created: {filepath}")
-        except OSError as e:
-            logging.error(f"Failed to write {filepath}: {e}")
-            continue
+            slug = make_slug(full_report.get('Title', title))
+            write_article(slug, link, image_url, published, full_report)
 
-        processed_count += 1
+            seen_urls.add(link)
+            new_slugs.append(slug)
+            processed += 1
+            logging.info(f"[{processed}/{MAX_ARTICLES_PER_RUN}] Processed: {title[:60]}")
 
-    print("Generation complete!")
+    save_seen_urls(seen_urls)
+    logging.info(f"Done. {processed} new articles written.")
+    return new_slugs
 
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
