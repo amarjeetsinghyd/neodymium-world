@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Export Neodymium Logo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@800&display=swap" rel="stylesheet">
+</head>
+<body style="background:#1e293b; color:white; font-family:sans-serif; text-align:center; padding:50px;">
+  <h2>Your logo is generating...</h2>
+  <canvas id="canvas" width="1024" height="1024" style="display:none;"></canvas>
+  <script>
+    document.fonts.ready.then(function() {
+      const canvas = document.getElementById('canvas');
+      const ctx = canvas.getContext('2d');
+      
+      const gradient = ctx.createLinearGradient(0, 0, 1024, 1024);
+      gradient.addColorStop(0, '#2563eb');
+      gradient.addColorStop(1, '#7c3aed');
+      
+      const x = 0, y = 0, width = 1024, height = 1024, radius = 128;
+      ctx.beginPath();
+      ctx.moveTo(x + radius, y);
+      ctx.lineTo(x + width - radius, y);
+      ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+      ctx.lineTo(x + width, y + height - radius);
+      ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+      ctx.lineTo(x + radius, y + height);
+      ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+      ctx.lineTo(x, y + radius);
+      ctx.quadraticCurveTo(x, y, x + radius, y);
+      ctx.closePath();
+      
+      ctx.fillStyle = gradient;
+      ctx.fill();
+      
+      ctx.fillStyle = 'white';
+      ctx.font = '800 600px "Outfit", sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('N', 512, 540);
+      
+      const a = document.createElement('a');
+      a.download = 'neodymium_x_logo.png';
+      a.href = canvas.toDataURL('image/png');
+      a.click();
+      
+      document.body.innerHTML = "<h2>&#x2705; Success!</h2><p>The perfect high-resolution PNG logo has been generated and downloaded to your Downloads folder.</p><p>You can upload 'neodymium_x_logo.png' directly to your X profile!</p>";
+    });
+  </script>
+</body>
+</html>

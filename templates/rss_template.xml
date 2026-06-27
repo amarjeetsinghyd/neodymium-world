@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Neodymium</title>
+    <link>https://neodymium.world/</link>
+    <description>The premier institutional dashboard for actionable intelligence, predictive data, and strategic analysis in future tech and defense.</description>
+    <language>en-us</language>
+    {% for item in articles %}
+    <item>
+      <title>{{ item.title }}
+{% for tag in item.seo_tags %}{{ tag }} {% endfor %}</title>
+      <link>https://neodymium.world/{{ item.article_url }}</link>
+      <description>
+        {% for key, val in item.full_report.items() %}{{ val | striptags | escape }} {% endfor %}
+      </description>
+      {% for tag in item.seo_tags %}
+      <category>{{ tag | replace('#', '') }}</category>
+      {% endfor %}
+      {% if item.image_url %}
+      <enclosure url="{{ item.image_url }}" length="0" type="image/jpeg" />
+      <media:content url="{{ item.image_url }}" medium="image" />
+      {% endif %}
+      <source url="{{ item.original_link }}">{{ item.publisher_name | default('Original Source') }}</source>
+      <pubDate>{{ item.published_at }}</pubDate>
+      <guid isPermaLink="true">https://neodymium.world/{{ item.article_url }}</guid>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

@@ -16,8 +16,9 @@ logging.basicConfig(
 )
 
 def main():
+    # Templates are now stored in the templates/ directory
     env = Environment(
-        loader=FileSystemLoader('.'),
+        loader=FileSystemLoader('templates'),
         autoescape=select_autoescape(['html', 'xml'])
     )
     try:
