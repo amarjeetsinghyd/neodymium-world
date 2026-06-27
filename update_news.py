@@ -11,6 +11,7 @@ import traceback
 import logging
 from datetime import datetime, timezone
 from urllib.parse import urlparse
+from bs4 import BeautifulSoup
 
 # --- Logging ---
 # In CI (GitHub Actions) there is no persistent filesystem — log to stdout
@@ -58,7 +59,7 @@ def get_image_url(entry):
             if 'image' in enc.get('type', ''):
                 return enc.get('href')
     if 'summary' in entry:
-        from bs4 import BeautifulSoup
+        # bs4 imported at top of file
         soup = BeautifulSoup(entry.summary, 'html.parser')
         img_tag = soup.find('img')
         if img_tag and img_tag.get('src'):
