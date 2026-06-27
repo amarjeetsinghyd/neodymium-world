@@ -1,4 +1,22 @@
 User-agent: *
 Allow: /
+Disallow: /admin/
 
+# Sitemap declaration (required for Google Search Console indexing)
 Sitemap: https://neodymium.world/sitemap.xml
+
+# AI crawler permissions (GEO — allow citation by AI engines)
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /

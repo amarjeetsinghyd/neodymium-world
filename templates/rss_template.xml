@@ -1,28 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>Neodymium</title>
+    <title>Neodymium Intelligence Feed</title>
     <link>https://neodymium.world/</link>
-    <description>The premier institutional dashboard for actionable intelligence, predictive data, and strategic analysis in future tech and defense.</description>
+    <description>Premier institutional intelligence briefings on AI, defense technology, and global tech innovation from Neodymium World.</description>
     <language>en-us</language>
+    <copyright>© 2026 Neodymium World. All rights reserved.</copyright>
+    <managingEditor>user@neodymium.world (Amarjeet Singh)</managingEditor>
+    <webMaster>user@neodymium.world (Amarjeet Singh)</webMaster>
+    <image>
+      <url>https://neodymium.world/logo_x.png</url>
+      <title>Neodymium Intelligence Feed</title>
+      <link>https://neodymium.world/</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <!-- Self-referencing atom:link is required by RSS validators -->
+    <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
     {% for item in articles %}
     <item>
-      <title>{{ item.title }}
-{% for tag in item.seo_tags %}{{ tag }} {% endfor %}</title>
+      <title>{{ item.title | escape }}</title>
       <link>https://neodymium.world/{{ item.article_url }}</link>
-      <description>
-        {% for key, val in item.full_report.items() %}{{ val | striptags | escape }} {% endfor %}
-      </description>
+      <guid isPermaLink="true">https://neodymium.world/{{ item.article_url }}</guid>
+      <pubDate>{{ item.published_at }}</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        {% if item.social_hook %}{{ item.social_hook }}
+        {% elif item.key_takeaways %}{{ item.key_takeaways[0] }}
+        {% else %}Read the full intelligence briefing on Neodymium World.{% endif %}
+        [SPLIT]
+        {% if item.key_takeaways and item.key_takeaways|length > 1 %}⚡ {{ item.key_takeaways[1] }}{% endif %}
+        {% if item.key_takeaways and item.key_takeaways|length > 2 %}[SPLIT]
+        ⚡ {{ item.key_takeaways[2] }}{% endif %}
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/{{ item.article_url }}
+      ]]></description>
       {% for tag in item.seo_tags %}
       <category>{{ tag | replace('#', '') }}</category>
       {% endfor %}
-      {% if item.image_url %}
+      {% if item.image_url and item.image_url.startswith('http') %}
       <enclosure url="{{ item.image_url }}" length="0" type="image/jpeg" />
-      <media:content url="{{ item.image_url }}" medium="image" />
+      <media:content url="{{ item.image_url }}" medium="image" width="1200" height="630" />
+      <media:thumbnail url="{{ item.image_url }}" />
       {% endif %}
-      <source url="{{ item.original_link }}">{{ item.publisher_name | default('Original Source') }}</source>
-      <pubDate>{{ item.published_at }}</pubDate>
-      <guid isPermaLink="true">https://neodymium.world/{{ item.article_url }}</guid>
     </item>
     {% endfor %}
   </channel>

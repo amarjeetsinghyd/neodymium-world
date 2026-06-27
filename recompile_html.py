@@ -19,8 +19,7 @@ ARTICLES_DIR = 'content/articles'
 
 
 def parse_date(date_val):
-    """Robustly parse any date value (datetime, date, RFC 2822 string, ISO string)
-    into a timezone-aware datetime object."""
+    """Robustly parse any date value into a timezone-aware datetime object."""
     import datetime as dt
     from email.utils import parsedate_to_datetime
     if not date_val:
@@ -53,8 +52,6 @@ def load_articles():
             continue
         filepath = os.path.join(ARTICLES_DIR, filename)
 
-        # BUG FIX #6: Wrap each file read in its own try/except so a single
-        # malformed markdown file cannot crash the entire compilation run.
         try:
             with open(filepath, 'r', encoding='utf-8') as f:
                 post = frontmatter.load(f)
@@ -63,7 +60,6 @@ def load_articles():
             logging.warning(f"Skipping {filename}: {e}")
             continue
 
-        # Skip draft articles
         if post.metadata.get('draft') is True or str(post.metadata.get('draft', '')).lower() == 'true':
             continue
 
@@ -85,11 +81,13 @@ def load_articles():
         if "published_at" not in item:
             item["published_at"] = datetime.now(timezone.utc).isoformat()
 
-        # Normalize relative image paths
-        if item.get('image_url') and item['image_url'].startswith('/'):
-            item['image_url'] = '..' + item['image_url']
+        # Normalize relative image paths to absolute URLs
+        raw_img = item.get('image_url', '')
+        if raw_img and not raw_img.startswith('http'):
+            # Strip leading ../ or / and build absolute URL
+            clean = raw_img.lstrip('./').lstrip('/')
+            item['image_url'] = f"https://neodymium.world/{clean}"
 
-        # Normalize published_at to ISO string
         dt_obj = parse_date(item.get('published_at'))
         item['published_at'] = dt_obj.isoformat()
 
@@ -108,9 +106,6 @@ def build_articles(env, articles):
         logging.error(f"Could not load article_template.html: {e}")
         return
 
-    # BUG FIX #7: Ensure the articles/ output directory always exists before
-    # trying to write HTML files into it. Without this, the open() call below
-    # throws FileNotFoundError if the directory was never created (e.g. fresh clone).
     os.makedirs('articles', exist_ok=True)
 
     for item in articles:
@@ -128,6 +123,9 @@ def build_articles(env, articles):
         try:
             html_content = template.render(
                 title=item.get("title", ""),
+                seo_title=item.get("seo_title", ""),
+                meta_description=item.get("meta_description", ""),
+                social_hook=item.get("social_hook", ""),
                 category=item.get("category", "Intelligence"),
                 seo_tags=item.get("seo_tags", []),
                 full_report=item["full_report"],
@@ -179,7 +177,7 @@ def main():
         print(f"Failed to generate RSS feed: {e}")
         logging.error(f"Failed to generate rss.xml: {e}")
 
-    # Generate Sitemap
+    # Generate Sitemap with Google News extension
     try:
         sitemap_template = env.get_template('sitemap_template.xml')
         sitemap_content = sitemap_template.render(
@@ -193,17 +191,12 @@ def main():
         print(f"Failed to generate Sitemap: {e}")
         logging.error(f"Failed to generate sitemap.xml: {e}")
 
-    # Generate news_data.json for frontend
-    # BUG FIX #8: Strip the full_report (HTML body) from the JSON payload.
-    # The original code serialised the entire full_report dict — including the
-    # rendered HTML 'Article Body' string — into news_data.json. This caused
-    # the file to balloon to 300 KB+, bloating every page load that reads it.
-    # The frontend only needs the card-level metadata, not the full HTML body.
+    # Generate news_data.json — slim card metadata only (no HTML body)
     try:
         FRONTEND_FIELDS = [
             'title', 'slug', 'category', 'seo_tags', 'image_url',
             'published_at', 'reading_time', 'article_url',
-            'key_takeaways'
+            'key_takeaways', 'seo_title', 'meta_description', 'social_hook'
         ]
         slim_articles = [
             {k: v for k, v in a.items() if k in FRONTEND_FIELDS}
