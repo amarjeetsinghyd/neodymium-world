@@ -1,5 +1,6 @@
 import os
 import json
+import sys
 import markdown
 import frontmatter
 import logging
@@ -9,8 +10,10 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from urllib.parse import urlparse
 
 # --- Logging ---
+# Route to stdout so output appears in GitHub Actions run logs.
+# run_log.txt is gitignored and not created here.
 logging.basicConfig(
-    filename='run_log.txt',
+    stream=sys.stdout,
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
@@ -84,7 +87,6 @@ def load_articles():
         # Normalize relative image paths to absolute URLs
         raw_img = item.get('image_url', '')
         if raw_img and not raw_img.startswith('http'):
-            # Strip leading ../ or / and build absolute URL
             clean = raw_img.lstrip('./').lstrip('/')
             item['image_url'] = f"https://neodymium.world/{clean}"
 

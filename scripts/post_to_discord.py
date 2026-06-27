@@ -1,11 +1,15 @@
 import os
+import sys
 import requests
 import frontmatter
 import logging
 import traceback
 
+# --- Logging ---
+# Route to stdout so output appears in GitHub Actions run logs.
+# run_log.txt is gitignored and not created here.
 logging.basicConfig(
-    filename='run_log.txt',
+    stream=sys.stdout,
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
@@ -49,14 +53,22 @@ def post_to_discord():
         article_url = f"articles/{slug}.html"
         image_url = post.metadata.get('image_url', '')
 
-        # Build summary
-        summary_text = "A new intelligence report has been published."
-        if post.metadata.get("executive_summary"):
-            summary_text = post.metadata["executive_summary"]
-        elif post.content:
+        # Build embed description — priority order:
+        # 1. social_hook: Gemini-written 280-char teaser, always present on new articles
+        # 2. executive_summary: legacy field from older article schema
+        # 3. First 300 chars of article body as a plain-text fallback
+        social_hook = post.metadata.get('social_hook', '').strip()
+        executive_summary = post.metadata.get('executive_summary', '').strip()
+
+        if social_hook:
+            summary_text = social_hook
+        elif executive_summary:
+            summary_text = executive_summary
+        else:
+            # Plain-text fallback from article body
             from bs4 import BeautifulSoup
-            import markdown
-            html_content = markdown.markdown(post.content)
+            import markdown as md_lib
+            html_content = md_lib.markdown(post.content)
             text = BeautifulSoup(html_content, "html.parser").get_text()
             summary_text = (text[:297] + "...") if len(text) > 300 else text
 
@@ -82,7 +94,7 @@ def post_to_discord():
             embed["image"] = {"url": image_url}
 
         payload = {
-            "content": "🚨 **New Intelligence Report**",
+            "content": "\U0001f6a8 **New Intelligence Report**",
             "embeds": [embed]
         }
 
