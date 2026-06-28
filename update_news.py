@@ -37,7 +37,7 @@ MAX_CHARS = 6000
 RATE_LIMIT_SLEEP = 8
 
 if GEMINI_API_KEY:
-    GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+    GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
 else:
     GEMINI_URL = None
 
@@ -181,7 +181,7 @@ ARTICLE TEXT: {text[:MAX_CHARS]}"""
         if region == "Indian" and SARVAM_API_KEY:
             headers = {"Content-Type": "application/json", "api-subscription-key": SARVAM_API_KEY}
             payload = {
-                "model": "sarvam-m", # Using a safe model string for Sarvam
+                "model": "sarvam-105b", # Using a safe model string for Sarvam
                 "messages": [
                     {"role": "system", "content": "You are a JSON-generating expert analyst. ONLY output valid JSON. No markdown formatting."},
                     {"role": "user", "content": prompt}
