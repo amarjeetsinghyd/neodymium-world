@@ -15,10 +15,10 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout (shallow — only latest commit needed)
+      - name: Checkout (full history required for rebase)
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1   # was 0 (full history) — shallow saves ~10s checkout time
+          fetch-depth: 0   # must be 0 for git pull --rebase to work
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5

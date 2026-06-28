@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <!-- Google AdSense -->
@@ -12,8 +12,8 @@
   <!-- SEO: Use generated meta_description if available -->
   {% if meta_description %}
   <meta name="description" content="{{ meta_description | striptags | escape }}">
-  {% elif full_report.executive_summary %}
-  <meta name="description" content="{{ full_report.executive_summary | striptags | truncate(155, True, '...') | escape }}">
+  {% elif executive_summary %}
+  <meta name="description" content="{{ executive_summary | striptags | truncate(155, True, '...') | escape }}">
   {% endif %}
 
   <meta name="news_keywords" content="{% for tag in seo_tags %}{{ tag | replace('#', '') }}{% if not loop.last %}, {% endif %}{% endfor %}">
@@ -29,7 +29,7 @@
   <meta property="og:site_name" content="Neodymium">
   <meta property="og:url" content="https://neodymium.world/articles/{{ slug }}.html">
   <meta property="og:title" content="{% if seo_title %}{{ seo_title }}{% else %}{{ title[:60] }}{% endif %}">
-  <meta property="og:description" content="{% if meta_description %}{{ meta_description | striptags | escape }}{% elif full_report.executive_summary %}{{ full_report.executive_summary | striptags | truncate(155, True, '...') | escape }}{% endif %}">
+  <meta property="og:description" content="{% if meta_description %}{{ meta_description | striptags | escape }}{% elif executive_summary %}{{ executive_summary | striptags | truncate(155, True, '...') | escape }}{% endif %}">
   {% if image_url and image_url.startswith('http') %}
   <meta property="og:image" content="{{ image_url }}">
   <meta property="og:image:width" content="1200">
@@ -48,12 +48,12 @@
   <meta name="twitter:creator" content="@amarjeetsinghyd">
   <meta property="twitter:url" content="https://neodymium.world/articles/{{ slug }}.html">
   <meta name="twitter:title" content="{% if seo_title %}{{ seo_title }}{% else %}{{ title[:60] }}{% endif %}">
-  <meta name="twitter:description" content="{% if meta_description %}{{ meta_description | striptags | escape }}{% elif full_report.executive_summary %}{{ full_report.executive_summary | striptags | truncate(155, True, '...') | escape }}{% endif %}">
+  <meta name="twitter:description" content="{% if meta_description %}{{ meta_description | striptags | escape }}{% elif executive_summary %}{{ executive_summary | striptags | truncate(155, True, '...') | escape }}{% endif %}">
   {% if image_url and image_url.startswith('http') %}
   <meta name="twitter:image" content="{{ image_url }}">
   {% endif %}
 
-  <!-- Structured Data: WebSite (GEO — helps AI engines cite the source) -->
+  <!-- Structured Data: WebSite (GEO â€” helps AI engines cite the source) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -70,7 +70,7 @@
   }
   </script>
 
-  <!-- Structured Data: BreadcrumbList (AEO — Featured Snippets breadcrumb) -->
+  <!-- Structured Data: BreadcrumbList (AEO â€” Featured Snippets breadcrumb) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -146,14 +146,14 @@
   }
   </script>
 
-  {% if full_report["FAQ"] %}
-  <!-- Structured Data: FAQPage (AEO — People Also Ask boxes) -->
+  {% if faq %}
+  <!-- Structured Data: FAQPage (AEO â€” People Also Ask boxes) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      {% for faq in full_report["FAQ"] %}
+      {% for faq in faq %}
       {
         "@type": "Question",
         "name": "{{ faq.question | escape }}",
@@ -300,16 +300,16 @@
       </p>
     </div>
 
-    {% if full_report["Key Takeaways"] %}
+    {% if key_takeaways %}
     <div style="background:white; border:1px solid rgba(0,0,0,0.05); border-radius:var(--radius-md); padding:2rem; margin-bottom:3rem; box-shadow:0 4px 15px rgba(0,0,0,0.02);">
       <h2 style="color:var(--accent-violet); text-transform:uppercase; letter-spacing:0.05em; margin-bottom:1rem; font-size:1.2rem; display:flex; align-items:center; gap:0.5rem;">
         <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
         Key Takeaways
       </h2>
       <ul style="list-style-type:none; padding-left:0; margin:0;">
-        {% for takeaway in full_report["Key Takeaways"] %}
+        {% for takeaway in key_takeaways %}
         <li style="margin-bottom:0.75rem; padding-left:1.5rem; position:relative; font-size:1.1rem; color:var(--text-main); line-height:1.6;">
-          <span style="position:absolute; left:0; top:0.4rem; color:var(--accent-blue);" aria-hidden="true">•</span>
+          <span style="position:absolute; left:0; top:0.4rem; color:var(--accent-blue);" aria-hidden="true">â€¢</span>
           {{ takeaway }}
         </li>
         {% endfor %}
@@ -317,26 +317,19 @@
     </div>
     {% endif %}
 
-    {% for section_name, section_content in full_report.items() %}
-    {% if section_name not in ["Key Takeaways", "FAQ", "Article Body"] %}
-    <section class="article-section" style="{% if loop.index == 2 %}background:rgba(37,99,235,0.05); border-left:4px solid var(--accent-blue); padding:2rem; border-radius:0 var(--radius-sm) var(--radius-sm) 0;{% endif %} margin-bottom:3rem;">
-      <h2 style="color:{% if loop.index == 2 %}var(--accent-blue){% else %}var(--accent-violet){% endif %}; text-transform:uppercase; letter-spacing:0.05em; margin-bottom:1rem; font-size:1.2rem;">{{ section_name | replace('_', ' ') | title }}</h2>
-      <div style="font-size:1.15rem; line-height:1.8; color:var(--text-main); {% if loop.index == 2 %}font-weight:500;{% endif %}">{{ section_content | safe }}</div>
-    </section>
-    {% endif %}
-    {% endfor %}
 
-    {% if full_report["Article Body"] %}
+
+    {% if body_html %}
     <section class="article-section" style="margin-bottom:3rem;">
-      <div style="font-size:1.15rem; line-height:1.8; color:var(--text-main);">{{ full_report["Article Body"] | safe }}</div>
+      <div style="font-size:1.15rem; line-height:1.8; color:var(--text-main);">{{ body_html | safe }}</div>
     </section>
     {% endif %}
 
-    {% if full_report["FAQ"] %}
+    {% if faq %}
     <div style="background:rgba(37,99,235,0.02); border:1px solid rgba(37,99,235,0.1); border-radius:var(--radius-md); padding:2.5rem; margin-bottom:3rem;">
       <h2 style="color:var(--accent-blue); text-transform:uppercase; letter-spacing:0.05em; margin-bottom:2rem; font-size:1.3rem; text-align:center;">Frequently Asked Questions</h2>
       <div style="display:flex; flex-direction:column; gap:1.5rem;">
-        {% for faq in full_report["FAQ"] %}
+        {% for faq in faq %}
         <div style="background:white; padding:1.5rem; border-radius:var(--radius-sm); box-shadow:0 2px 10px rgba(0,0,0,0.02);">
           <h3 style="font-size:1.15rem; color:var(--text-main); margin-bottom:0.75rem;">{{ faq.question }}</h3>
           <p style="font-size:1.05rem; color:var(--text-muted); line-height:1.6; margin:0;">{{ faq.answer }}</p>
@@ -376,7 +369,7 @@
       <!-- Social share buttons -->
       <div style="display:flex; flex-wrap:wrap; gap:0.75rem; align-items:center;">
         <span style="font-weight:600; color:var(--text-main); font-size:0.95rem;">Share:</span>
-        <a href="https://twitter.com/intent/tweet?url=https://neodymium.world/articles/{{ slug }}.html&text={{ (seo_title if seo_title else title) | urlencode }}&via=amarjeetsinghyd" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.4rem; padding:0.4rem 1rem; border-radius:20px; background:#000; color:#fff; font-size:0.85rem; font-weight:600; text-decoration:none;">𝕏 Share</a>
+        <a href="https://twitter.com/intent/tweet?url=https://neodymium.world/articles/{{ slug }}.html&text={{ (seo_title if seo_title else title) | urlencode }}&via=amarjeetsinghyd" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.4rem; padding:0.4rem 1rem; border-radius:20px; background:#000; color:#fff; font-size:0.85rem; font-weight:600; text-decoration:none;">ð• Share</a>
         <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://neodymium.world/articles/{{ slug }}.html" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.4rem; padding:0.4rem 1rem; border-radius:20px; background:#0077b5; color:#fff; font-size:0.85rem; font-weight:600; text-decoration:none;">LinkedIn</a>
         <button onclick="navigator.clipboard.writeText(window.location.href).then(()=>this.textContent='Copied!')" style="display:inline-flex; align-items:center; gap:0.4rem; padding:0.4rem 1rem; border-radius:20px; background:rgba(0,0,0,0.06); color:var(--text-main); font-size:0.85rem; font-weight:600; cursor:pointer; border:none;">Copy Link</button>
       </div>
@@ -391,7 +384,7 @@
         <div class="brand-icon">N</div>
         Neodymium
       </a>
-      <p style="color:var(--text-muted); font-size:0.85rem;">© 2026 Neodymium World. All rights reserved. Content for informational purposes only.</p>
+      <p style="color:var(--text-muted); font-size:0.85rem;">Â© 2026 Neodymium World. All rights reserved. Content for informational purposes only.</p>
       <nav aria-label="Footer navigation">
         <ul style="list-style:none; display:flex; gap:1.5rem;">
           <li><a href="../privacy.html" style="color:var(--text-muted); font-size:0.85rem; text-decoration:none;">Privacy</a></li>
@@ -432,3 +425,4 @@
 
 </body>
 </html>
+

@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-06-27</lastmod>
+        <lastmod>2026-06-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-06-27</lastmod>
+        <lastmod>2026-06-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -68,30 +68,6 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
-        <loc>https://neodymium.world/articles/the-rise-of-anti-drone-warfare-how-counter-uas-technology-is-becoming-the-next-14-billion-defence-frontier.html</loc>
-        <lastmod>2026-06-24</lastmod>
-        <changefreq>never</changefreq>
-        <priority>0.8</priority>
-        
-        <image:image>
-            <image:loc>https://neodymium.world/assets/images/ChatGPT Image Jun 24, 2026, 04_34_25 PM.png</image:loc>
-            <image:title>The Rise of Anti-Drone Warfare: How Counter-UAS Technology Is Becoming the Next $14 Billion Defence Frontier</image:title>
-        </image:image>
-        
-        <news:news>
-            <news:publication>
-                <news:name>Neodymium</news:name>
-                <news:language>en</news:language>
-            </news:publication>
-            <news:publication_date>2026-06-24T16:36:00</news:publication_date>
-            <news:title>The Rise of Anti-Drone Warfare: How Counter-UAS Technology Is Becoming the Next $14 Billion Defence Frontier</news:title>
-            
-            <news:keywords>AntiDrone, CounterUAS, DroneTechnology, FutureWarfare, DefenceTech, ArtificialIntelligence, ElectronicWarfare, Aerospace, MilitaryTechnology, NationalSecurity, MakeInIndia, DefenceIndustry, AutonomousSystems</news:keywords>
-            
-        </news:news>
-    </url>
-    
-    <url>
         <loc>https://neodymium.world/articles/indias-rare-earth-revolution.html</loc>
         <lastmod>2026-06-24</lastmod>
         <changefreq>never</changefreq>
@@ -117,7 +93,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/strategic-red-flag-the-anthropic-incident-ai-nationalism-and-the-inevitable-rise-of-parallel-digital-ecosystems.html</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>Fri, 19 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -131,7 +107,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-19T22:40:14+00:00</news:publication_date>
+            <news:publication_date>Fri, 19 Jun 2026 22:40:14 +0000</news:publication_date>
             <news:title>Strategic Red Flag: The Anthropic Incident, AI Nationalism, and the Inevitable Rise of Parallel Digital Ecosystems</news:title>
             
             <news:keywords>AIGovernance, ExportControls, FrontierAI, Geopolitics, CyberSecurity, DualUseTechnology, TechRegulation, AIStrategy, NationalSecurity, DigitalSovereignty</news:keywords>
@@ -141,7 +117,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/strategic-vector-shift-india-s-brahmos-modernization-program-and-its-cascading-effects-on-regional-deterrence-and-arms-export-dynamics.html</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>Fri, 19 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -155,7 +131,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-19T16:32:00+00:00</news:publication_date>
+            <news:publication_date>Fri, 19 Jun 2026 16:32:00 +0000</news:publication_date>
             <news:title>Strategic Vector Shift: India&#39;s BrahMos Modernization Program and its Cascading Effects on Regional Deterrence and Arms Export Dynamics</news:title>
             
             <news:keywords>IndiaDefense, BrahMos, MissileTechnology, HypersonicWeapons, StrategicDeterrence, Indigenization, MilitaryModernization, IndoPacificSecurity, DefenseAnalytics, FutureWarfare</news:keywords>
@@ -165,7 +141,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/strategic-autonomy-in-the-skies-india-s-vinpropel-forges-indigenous-electric-propulsion-reshaping-global-aerospace-supply-chains-and-defense-posture.html</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>Fri, 19 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -179,7 +155,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-19T16:31:00+00:00</news:publication_date>
+            <news:publication_date>Fri, 19 Jun 2026 16:31:00 +0000</news:publication_date>
             <news:title>Strategic Autonomy in the Skies: India&#39;s Vinpropel Forges Indigenous Electric Propulsion, Reshaping Global Aerospace Supply Chains and Defense Posture</news:title>
             
             <news:keywords>Vinpropel, IndiaAerospace, ElectricPropulsion, UAVTechnology, eVTOL, MakeInIndia, AtmanirbharBharat, AerospaceInnovation, DefenseTech, IndigenousManufacturing, SupplyChainResilience, StrategicAutonomy</news:keywords>
@@ -189,7 +165,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/strategic-disruption-in-ai-governance-examining-the-geopolitical-ramifications-and-market-reconfiguration-post-anthropic-model-recall.html</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>Fri, 19 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -203,7 +179,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-19T16:08:17+00:00</news:publication_date>
+            <news:publication_date>Fri, 19 Jun 2026 16:08:17 +0000</news:publication_date>
             <news:title>Strategic Disruption in AI Governance: Examining the Geopolitical Ramifications and Market Reconfiguration Post-Anthropic Model Recall</news:title>
             
             <news:keywords>Anthropic, AIGovernance, NationalSecurity, AIMarket, TechRegulation, GenerativeAI, Cybersecurity, USPolicy, LLMSafety</news:keywords>
@@ -213,7 +189,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/critical-juncture-unpacking-the-geopolitical-and-market-ramifications-of-unilateral-state-intervention-in-frontier-ai-deployment-the-anthropic-fable-5-case-study.html</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>Fri, 19 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -227,7 +203,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-19T16:01:03+00:00</news:publication_date>
+            <news:publication_date>Fri, 19 Jun 2026 16:01:03 +0000</news:publication_date>
             <news:title>CRITICAL JUNCTURE: UNPACKING THE GEOPOLITICAL AND MARKET RAMIFICATIONS OF UNILATERAL STATE INTERVENTION IN FRONTIER AI DEPLOYMENT – THE ANTHROPIC FABLE 5 CASE STUDY</news:title>
             
             <news:keywords>AIGovernance, NationalSecurity, AIDeployment, RegulatoryRisk, CyberSecurity, DualUseAI, FrontierAI, Anthropic, GeopoliticalTech, TechnologyRegulation</news:keywords>
@@ -237,7 +213,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/strategic-convergence-reliance-s-integrated-ai-ecosystem-as-a-national-imperative-and-disruptor-in-india-s-digital-sovereignty-matrix.html</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>Fri, 19 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -251,7 +227,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-19T15:23:28+00:00</news:publication_date>
+            <news:publication_date>Fri, 19 Jun 2026 15:23:28 +0000</news:publication_date>
             <news:title>Strategic Convergence: Reliance&#39;s Integrated AI Ecosystem as a National Imperative and Disruptor in India&#39;s Digital Sovereignty Matrix</news:title>
             
             <news:keywords>RelianceAI, JioPlatforms, IndianAI, DigitalSovereignty, AIStrategy, MarketDisruption, GeopoliticalTech, MukeshAmbani, IndiaTech</news:keywords>
@@ -261,7 +237,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/strategic-recalibration-smartbird-s-ambitious-foray-into-data-sovereign-ai-infrastructure-provisioning.html</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>Fri, 19 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -275,7 +251,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-19T13:00:00+00:00</news:publication_date>
+            <news:publication_date>Fri, 19 Jun 2026 13:00:00 +0000</news:publication_date>
             <news:title>Strategic Recalibration: Smartbird&#39;s Ambitious Foray into Data-Sovereign AI Infrastructure Provisioning</news:title>
             
             <news:keywords>AIInfrastructure, DataSovereignty, Smartbird, ManagedAICompute, NadiaCarlsten</news:keywords>
@@ -285,7 +261,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/the-geopolitical-chokepoint-advanced-lithography-export-control-integrity-and-sino-american-tech-hegemony.html</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>Fri, 19 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -299,7 +275,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-19T07:59:12+00:00</news:publication_date>
+            <news:publication_date>Fri, 19 Jun 2026 07:59:12 +0000</news:publication_date>
             <news:title>The Geopolitical Chokepoint: Advanced Lithography, Export Control Integrity, and Sino-American Tech Hegemony</news:title>
             
             <news:keywords>ASML, EUVLithography, ExportControls, SemiconductorWar, USChinaTech, AdvancedChips, Geopolitics, DeepTech</news:keywords>
@@ -309,7 +285,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/india-s-dual-domain-ascendancy-a-strategic-intelligence-report-on-space-and-energy-initiatives.html</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>Fri, 19 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -323,7 +299,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-19T06:02:00+00:00</news:publication_date>
+            <news:publication_date>Fri, 19 Jun 2026 06:02:00 +0000</news:publication_date>
             <news:title>India&#39;s Dual-Domain Ascendancy: A Strategic Intelligence Report on Space and Energy Initiatives</news:title>
             
             <news:keywords>IndiaSpaceProgram, GaganyaanMission, IndigenousSpaceStation, TRISHNA, GreenHydrogen, FastBreederReactor, IndoFrenchCooperation, TechnologicalSelfReliance, GlobalLeadership, SpaceExploration, EnergySecurity, GeopoliticalStrategy</news:keywords>
@@ -333,7 +309,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/project-nightingale-elastic-fortifies-observability-frontier-with-strategic-ai-native-acquisition.html</loc>
-        <lastmod>2026-06-19</lastmod>
+        <lastmod>Fri, 19 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -347,7 +323,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-19T00:51:11+00:00</news:publication_date>
+            <news:publication_date>Fri, 19 Jun 2026 00:51:11 +0000</news:publication_date>
             <news:title>Project Nightingale: Elastic Fortifies Observability Frontier with Strategic AI-Native Acquisition</news:title>
             
             <news:keywords>AISRE, Observability, EnterpriseAI, DevOps, MachineLearning, SoftwareReliability, TechAcquisition, Elasticsearch, DeductiveAI</news:keywords>
@@ -357,7 +333,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/hyper-valuation-dynamics-in-ai-inference-an-in-depth-examination-of-baseten-s-accelerated-capital-infusion-and-strategic-market-positioning.html</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>Thu, 18 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -371,7 +347,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-18T21:20:13+00:00</news:publication_date>
+            <news:publication_date>Thu, 18 Jun 2026 21:20:13 +0000</news:publication_date>
             <news:title>Hyper-Valuation Dynamics in AI Inference: An In-Depth Examination of Baseten&#39;s Accelerated Capital Infusion and Strategic Market Positioning</news:title>
             
             <news:keywords>AIIinference, VentureCapital, MLOpsDeployment</news:keywords>
@@ -381,7 +357,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/securing-the-strategic-nexus-pentagon-s-critical-mineral-investments-to-fortify-the-defense-industrial-base.html</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>Thu, 18 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -395,7 +371,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-18T17:24:00+00:00</news:publication_date>
+            <news:publication_date>Thu, 18 Jun 2026 17:24:00 +0000</news:publication_date>
             <news:title>Securing the Strategic Nexus: Pentagon&#39;s Critical Mineral Investments to Fortify the Defense Industrial Base</news:title>
             
             <news:keywords>RareEarthMinerals, DefenseIndustrialBase, SupplyChainSecurity, CriticalMinerals, DefenseProductionAct</news:keywords>
@@ -405,7 +381,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/brahmos-ascendancy-moscow-s-acquisition-intent-and-new-delhi-s-strategic-supply-pivot.html</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>Thu, 18 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -419,7 +395,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-18T16:34:00+00:00</news:publication_date>
+            <news:publication_date>Thu, 18 Jun 2026 16:34:00 +0000</news:publication_date>
             <news:title>BrahMos Ascendancy: Moscow&#39;s Acquisition Intent and New Delhi&#39;s Strategic Supply Pivot</news:title>
             
             <news:keywords>BrahMos, RussiaDefense, IndiaDefenseExports, SupersonicMissile, DefenseCooperation, MilitaryTechnology</news:keywords>
@@ -429,7 +405,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/embraer-s-dual-track-defense-imperative-c-390-millennium-global-expansion-and-a-29-super-tucano-strategic-realignment.html</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>Thu, 18 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -443,7 +419,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-18T16:25:49+00:00</news:publication_date>
+            <news:publication_date>Thu, 18 Jun 2026 16:25:49 +0000</news:publication_date>
             <news:title>Embraer&#39;s Dual-Track Defense Imperative: C-390 Millennium Global Expansion and A-29 Super Tucano Strategic Realignment</news:title>
             
             <news:keywords>Embraer, C390Millennium, KC390, A29SuperTucano, MilitaryAviation, DefenseLogistics, TacticalAirLift, LightAttackAircraft, DefenseIndustry, GlobalDefense</news:keywords>
@@ -453,7 +429,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/industrial-vulnerabilities-and-strategic-imperatives-fortifying-u-s-air-and-missile-defense-capabilities-in-an-evolving-threat-landscape.html</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>Thu, 18 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -467,7 +443,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-18T16:18:13+00:00</news:publication_date>
+            <news:publication_date>Thu, 18 Jun 2026 16:18:13 +0000</news:publication_date>
             <news:title>Industrial Vulnerabilities and Strategic Imperatives: Fortifying U.S. Air and Missile Defense Capabilities in an Evolving Threat Landscape</news:title>
             
             <news:keywords>AirDefense, MissileDefense, SolidRocketMotors, IndustrialBase, StrategicDeterrence, CounterUAS</news:keywords>
@@ -477,7 +453,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/rheinmetall-s-strategic-ascent-forging-sovereign-space-based-isr-capabilities-for-the-bundeswehr.html</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>Thu, 18 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -491,7 +467,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-18T15:38:55+00:00</news:publication_date>
+            <news:publication_date>Thu, 18 Jun 2026 15:38:55 +0000</news:publication_date>
             <news:title>Rheinmetall&#39;s Strategic Ascent: Forging Sovereign Space-Based ISR Capabilities for the Bundeswehr</news:title>
             
             <news:keywords>Rheinmetall, Vantor, ISR, Bundeswehr, MilitarySpace, DefenseIndustry, StrategicPartnerships, DefenseTechnology, GeopoliticalImplications, EuropeanDefense, SpaceISR, GermanyDefense</news:keywords>
@@ -501,7 +477,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/strategic-communication-failure-the-geopolitical-ramifications-of-an-unarticulated-u-s-maritime-doctrine-amidst-great-power-competition.html</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>Thu, 18 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -515,7 +491,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-18T15:15:00+00:00</news:publication_date>
+            <news:publication_date>Thu, 18 Jun 2026 15:15:00 +0000</news:publication_date>
             <news:title>Strategic Communication Failure: The Geopolitical Ramifications of an Unarticulated U.S. Maritime Doctrine Amidst Great Power Competition</news:title>
             
             <news:keywords>USNavyStrategy, MaritimePower, GeopoliticalCompetition, DefensePolicy, NationalSecurity, StrategicCommunication, NavalModernization, IndoPacificSecurity</news:keywords>
@@ -525,7 +501,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/eurosatory-2026-strategic-convergence-of-geopolitical-imperatives-and-next-gen-defense-industrial-realignment.html</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>Thu, 18 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -539,7 +515,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-18T14:44:46+00:00</news:publication_date>
+            <news:publication_date>Thu, 18 Jun 2026 14:44:46 +0000</news:publication_date>
             <news:title>Eurosatory 2026: Strategic Convergence of Geopolitical Imperatives and Next-Gen Defense Industrial Realignment</news:title>
             
             <news:keywords>Eurosatory2026, DefenseIndustry, EuropeanSecurity, MilitaryTech, GeopoliticalShift, FutureWarfare, NATO, DefenseInnovation, AIinDefense, AutonomousSystems</news:keywords>
@@ -549,7 +525,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/interrogating-alliance-resilience-the-geopolitical-ramifications-of-calls-for-us-european-force-posture-review-and-critiques-of-nato-s-iran-stance.html</loc>
-        <lastmod>2026-06-18</lastmod>
+        <lastmod>Thu, 18 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -563,7 +539,7 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-18T13:45:00+00:00</news:publication_date>
+            <news:publication_date>Thu, 18 Jun 2026 13:45:00 +0000</news:publication_date>
             <news:title>Interrogating Alliance Resilience: The Geopolitical Ramifications of Calls for US European Force Posture Review and Critiques of NATO&#39;s Iran Stance</news:title>
             
             <news:keywords>NATOFuture, TransatlanticSecurity, USForcePosture, EuropeanDefense, IranPolicy, GeopoliticalShift, AllianceCohesion, StrategicReview, HegsethAnalysis, DefensePolicy</news:keywords>
@@ -573,7 +549,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/pentagon-may-sacrifice-traditional-weapons-to-buy-more-drones-if-reconciliation-fails-cto.html</loc>
-        <lastmod>2026-06-12</lastmod>
+        <lastmod>Fri, 12 Ju</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
@@ -587,8 +563,32 @@
                 <news:name>Neodymium</news:name>
                 <news:language>en</news:language>
             </news:publication>
-            <news:publication_date>2026-06-12T19:28:59+00:00</news:publication_date>
+            <news:publication_date>Fri, 12 Jun 2026 19:28:59 +0000</news:publication_date>
             <news:title>Pentagon may ‘sacrifice’ traditional weapons to buy more drones if reconciliation fails: CTO</news:title>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/the-rise-of-anti-drone-warfare-how-counter-uas-technology-is-becoming-the-next-14-billion-defence-frontier.html</loc>
+        <lastmod>2026-06-24</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://neodymium.world/assets/images/ChatGPT Image Jun 24, 2026, 04_34_25 PM.png</image:loc>
+            <image:title>The Rise of Anti-Drone Warfare: How Counter-UAS Technology Is Becoming the Next $14 Billion Defence Frontier</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2026-06-24T16:36</news:publication_date>
+            <news:title>The Rise of Anti-Drone Warfare: How Counter-UAS Technology Is Becoming the Next $14 Billion Defence Frontier</news:title>
+            
+            <news:keywords>AntiDrone, CounterUAS, DroneTechnology, FutureWarfare, DefenceTech, ArtificialIntelligence, ElectronicWarfare, Aerospace, MilitaryTechnology, NationalSecurity, MakeInIndia, DefenceIndustry, AutonomousSystems</news:keywords>
             
         </news:news>
     </url>

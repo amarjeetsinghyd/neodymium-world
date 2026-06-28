@@ -98,6 +98,10 @@ def load_articles() -> list[dict]:
             meta['article_url'] = f'articles/{slug}.html'
         meta['_md_path'] = filepath
         meta['published_dt'] = parse_date(meta.get('published_at'))
+        if type(meta.get('published_at')).__name__ == 'datetime':
+            meta['published_at'] = meta['published_at'].isoformat()
+        else:
+            meta['published_at'] = str(meta.get('published_at', ''))
         articles.append(meta)
     articles.sort(key=lambda a: a['published_dt'], reverse=True)
     return articles
@@ -133,10 +137,10 @@ def build_articles(articles: list[dict]) -> int:
 
         try:
             rendered = template.render(
-                article=item,
                 body_html=body_html,
                 current_date=current_date,
-                site_url=SITE_URL
+                site_url=SITE_URL,
+                **item
             )
             with open(out_path, 'w', encoding='utf-8') as f:
                 f.write(rendered)
