@@ -181,7 +181,7 @@ ARTICLE TEXT: {text[:MAX_CHARS]}"""
         if region == "Indian" and SARVAM_API_KEY:
             headers = {"Content-Type": "application/json", "api-subscription-key": SARVAM_API_KEY}
             payload = {
-                "model": "sarvam-105b", # Using a safe model string for Sarvam
+                "model": "sarvam-m", # Using a safe model string for Sarvam
                 "messages": [
                     {"role": "system", "content": "You are a JSON-generating expert analyst. ONLY output valid JSON. No markdown formatting."},
                     {"role": "user", "content": prompt}
