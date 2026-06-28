@@ -39,6 +39,7 @@ jobs:
       - name: Fetch new articles (update_news.py)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SARVAM_API_KEY: ${{ secrets.SARVAM_API_KEY }}
         run: python update_news.py
 
       - name: Compile HTML + generate news_data.json (recompile_html.py)

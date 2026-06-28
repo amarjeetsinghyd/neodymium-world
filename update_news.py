@@ -27,34 +27,35 @@ logging.basicConfig(
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
-API_KEY = os.environ.get("GEMINI_API_KEY")
-if not API_KEY:
-    raise ValueError("GEMINI_API_KEY environment variable not set.")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+SARVAM_API_KEY = os.environ.get("SARVAM_API_KEY")
 
 ARTICLES_DIR = 'content/articles'
-SEEN_URLS_FILE = 'content/seen_urls.json'  # O(1) dedup — replaces full file scan
-MAX_ARTICLES_PER_RUN = 5   # was 10 — halved to cut runtime & API cost
-MAX_CHARS = 6000            # was 8000 — tighter prompt = faster Gemini response
-RATE_LIMIT_SLEEP = 8        # was 13s — safe for Gemini free tier (15 RPM)
+SEEN_URLS_FILE = 'content/seen_urls.json'
+MAX_ARTICLES_PER_RUN = 5
+MAX_CHARS = 6000
+RATE_LIMIT_SLEEP = 8
 
-GEMINI_URL = (
-    f"https://generativelanguage.googleapis.com/v1beta/models/"
-    f"gemini-2.0-flash:generateContent?key={API_KEY}"
-)
+if GEMINI_API_KEY:
+    GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+else:
+    GEMINI_URL = None
+
+SARVAM_URL = "https://api.sarvam.ai/v1/chat/completions"
 
 RSS_FEEDS = [
-    "https://breakingdefense.com/feed/",
-    "https://techcrunch.com/category/artificial-intelligence/feed/",
-    "https://www.wired.com/feed/category/tech/latest/rss",
-    "http://www.indiandefensenews.in/feeds/posts/default?alt=rss",
-    "https://www.thehindu.com/sci-tech/technology/feeder/default.rss",
-    "https://yourstory.com/feed/",
-    "https://inc42.com/feed/",
-    "https://feeds.feedburner.com/ndtv-gadgets-360",
-    "https://www.firstpost.com/feed/rss/tech",
-    "https://indianexpress.com/section/india/feed/",
-    "https://venturebeat.com/category/ai/feed/",
-    "https://www.technologyreview.com/feed/",
+    {"region": "Western", "url": "https://breakingdefense.com/feed/"},
+    {"region": "Western", "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
+    {"region": "Western", "url": "https://www.wired.com/feed/category/tech/latest/rss"},
+    {"region": "Western", "url": "https://venturebeat.com/category/ai/feed/"},
+    {"region": "Western", "url": "https://www.technologyreview.com/feed/"},
+    {"region": "Indian", "url": "http://www.indiandefensenews.in/feeds/posts/default?alt=rss"},
+    {"region": "Indian", "url": "https://www.thehindu.com/sci-tech/technology/feeder/default.rss"},
+    {"region": "Indian", "url": "https://yourstory.com/feed/"},
+    {"region": "Indian", "url": "https://inc42.com/feed/"},
+    {"region": "Indian", "url": "https://feeds.feedburner.com/ndtv-gadgets-360"},
+    {"region": "Indian", "url": "https://www.firstpost.com/feed/rss/tech"},
+    {"region": "Indian", "url": "https://indianexpress.com/section/india/feed/"},
 ]
 
 # ---------------------------------------------------------------------------
@@ -147,10 +148,16 @@ def sanitize_filename(name: str) -> str:
 # ---------------------------------------------------------------------------
 # Gemini rewrite
 # ---------------------------------------------------------------------------
-def rewrite_content(title: str, text: str) -> dict | None:
-    prompt = f"""You are Amarjeet Singh, Senior Analyst & Publisher at Neodymium World. You are writing an original, highly opinionated, and deeply analytical intelligence briefing based on the provided source material. 
+def rewrite_content(title: str, text: str, region: str) -> dict | None:
+    if region == "Indian":
+        identity = "Amarjeet Singh, Senior Analyst & Publisher at Neodymium World, specializing in Indian defense posture, Atmanirbhar Bharat, and South Asian geopolitics"
+    else:
+        identity = "Alexander Sterling, Global Defense & Tech Strategist, specializing in Western defense, NATO, and Silicon Valley tech shifts"
 
-CRITICAL INSTRUCTION: Do NOT just rewrite or summarize the article. Google AdSense rejects simple rewrites as "Low value content." Instead, use the article only as a baseline to provide strategic forecasting, geopolitical implications, and market analysis. Introduce original thoughts, predictive outcomes, and critical commentary. The final output must read like a premium, exclusive intelligence report from an industry expert, not a news recap.
+    prompt = f"""You are {identity}. You are writing an original, highly opinionated, and deeply analytical intelligence briefing based on the provided source material.
+
+CRITICAL INSTRUCTION: Do NOT just rewrite or summarize the article. Google AdSense rejects simple rewrites as "Low value content." Instead, use the article only as a baseline to provide strategic forecasting, geopolitical implications, and market analysis.
+ZERO-FILLER RULE: Eliminate all fluff, filler words (e.g., "In today's fast-paced world", "It is important to note"), and repetition. Every single sentence must introduce new analytical value. Use active voice and short paragraphs (max 3 sentences).
 
 IMPORTANT: Return ONLY valid JSON, no markdown fences.
 
@@ -161,31 +168,54 @@ Required JSON fields:
 - "social_hook": under 280 chars, strong hook for Discord/Twitter
 - "Category": one of [Intelligence, AI & Autonomy, Policy Watch, Space & Satellites, Cyber & EW, Defense Tech]
 - "SEO Tags": comma-separated keywords string
-- "Executive Summary": 3-sentence brief, authoritative tone
-- "Key Takeaways": list of exactly 4 strings
-- "Article Body": full HTML body using <h2><p><ul><strong> tags. MUST INCLUDE specific <h2> sections titled "Expert Commentary" and "Strategic Forecasting". Write confidently from the first-person or institutional perspective ("I project...", "My analysis indicates...").
+- "Executive Summary": 3-sentence brief, authoritative tone, zero filler
+- "Key Takeaways": list of exactly 4 concise strings
+- "Article Body": full HTML body using <h2><p><ul><strong> tags. MUST INCLUDE specific <h2> sections titled "Expert Commentary" and "Strategic Forecasting". Write confidently from the first-person ("I project..."). Max 3 sentences per paragraph.
 - "FAQ": list of 3 objects each with "question" and "answer" strings focusing on strategic significance
 - "Reading Time": integer minutes
 
 ARTICLE TITLE: {title}
 ARTICLE TEXT: {text[:MAX_CHARS]}"""
 
-    payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {
-            "temperature": 0.4,
-            "maxOutputTokens": 2048,
-            "responseMimeType": "application/json"
-        }
-    }
     try:
-        resp = requests.post(GEMINI_URL, json=payload, timeout=30)
-        resp.raise_for_status()
-        data = resp.json()
-        candidates = data.get('candidates', [])
-        if not candidates or candidates[0].get('finishReason') not in ('STOP', None, ''):
-            logging.warning(f"Gemini blocked or empty for: {title}")
-            return None
+        if region == "Indian" and SARVAM_API_KEY:
+            headers = {"Content-Type": "application/json", "api-subscription-key": SARVAM_API_KEY}
+            payload = {
+                "model": "sarvam-105b", # Using a safe model string for Sarvam
+                "messages": [
+                    {"role": "system", "content": "You are a JSON-generating expert analyst. ONLY output valid JSON. No markdown formatting."},
+                    {"role": "user", "content": prompt}
+                ]
+            }
+            resp = requests.post(SARVAM_URL, json=payload, headers=headers, timeout=30)
+            resp.raise_for_status()
+            raw = resp.json()['choices'][0]['message']['content']
+        else:
+            if not GEMINI_URL:
+                logging.error("GEMINI_URL is not set.")
+                return None
+            payload = {
+                "contents": [{"parts": [{"text": prompt}]}],
+                "generationConfig": {"temperature": 0.4, "maxOutputTokens": 2048, "responseMimeType": "application/json"}
+            }
+            resp = requests.post(GEMINI_URL, json=payload, timeout=30)
+            resp.raise_for_status()
+            data = resp.json()
+            candidates = data.get('candidates', [])
+            if not candidates or candidates[0].get('finishReason') not in ('STOP', None, ''):
+                logging.warning(f"Gemini blocked or empty for: {title}")
+                return None
+            raw = candidates[0]['content']['parts'][0]['text']
+
+        # Strip accidental markdown fences
+        raw = re.sub(r'^```json\s*|^```\s*|```$', '', raw.strip(), flags=re.MULTILINE)
+        return json.loads(raw)
+    except json.JSONDecodeError as e:
+        logging.error(f"JSON parse error for '{title}': {e}")
+        return None
+    except Exception as e:
+        logging.error(f"API error for '{title}': {e}")
+        return None
         raw = candidates[0]['content']['parts'][0]['text']
         # Strip accidental markdown fences
         raw = re.sub(r'^```json\s*|^```\s*|```$', '', raw.strip(), flags=re.MULTILINE)
@@ -237,7 +267,9 @@ def main():
     processed = 0
     new_slugs = []
 
-    for feed_url in RSS_FEEDS:
+    for feed_info in RSS_FEEDS:
+        feed_url = feed_info["url"]
+        region = feed_info["region"]
         if processed >= MAX_ARTICLES_PER_RUN:
             break
         try:
@@ -273,7 +305,7 @@ def main():
                 seen_urls.add(link)  # Mark as seen so we don't retry
                 continue
 
-            full_report = rewrite_content(title, text)
+            full_report = rewrite_content(title, text, region)
             if not full_report:
                 seen_urls.add(link)
                 continue
