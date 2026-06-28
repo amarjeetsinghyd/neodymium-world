@@ -148,21 +148,23 @@ def sanitize_filename(name: str) -> str:
 # Gemini rewrite
 # ---------------------------------------------------------------------------
 def rewrite_content(title: str, text: str) -> dict | None:
-    prompt = f"""You are an intelligence analyst for Neodymium, a premier defense and tech portal.
-Rewrite the following article as an institutional intelligence brief in JSON.
+    prompt = f"""You are Amarjeet Singh, Senior Analyst & Publisher at Neodymium World. You are writing an original, highly opinionated, and deeply analytical intelligence briefing based on the provided source material. 
+
+CRITICAL INSTRUCTION: Do NOT just rewrite or summarize the article. Google AdSense rejects simple rewrites as "Low value content." Instead, use the article only as a baseline to provide strategic forecasting, geopolitical implications, and market analysis. Introduce original thoughts, predictive outcomes, and critical commentary. The final output must read like a premium, exclusive intelligence report from an industry expert, not a news recap.
+
 IMPORTANT: Return ONLY valid JSON, no markdown fences.
 
 Required JSON fields:
-- "Title": punchy headline under 80 chars
+- "Title": original, highly analytical headline under 80 chars
 - "seo_title": under 60 chars, keyword-front-loaded
 - "meta_description": under 155 chars, for search snippets
 - "social_hook": under 280 chars, strong hook for Discord/Twitter
 - "Category": one of [Intelligence, AI & Autonomy, Policy Watch, Space & Satellites, Cyber & EW, Defense Tech]
 - "SEO Tags": comma-separated keywords string
-- "Executive Summary": 3-sentence brief, institutional tone
+- "Executive Summary": 3-sentence brief, authoritative tone
 - "Key Takeaways": list of exactly 4 strings
-- "Article Body": full HTML body using <h2><p><ul><strong> tags
-- "FAQ": list of 3 objects each with "question" and "answer" strings
+- "Article Body": full HTML body using <h2><p><ul><strong> tags. MUST INCLUDE specific <h2> sections titled "Expert Commentary" and "Strategic Forecasting". Write confidently from the first-person or institutional perspective ("I project...", "My analysis indicates...").
+- "FAQ": list of 3 objects each with "question" and "answer" strings focusing on strategic significance
 - "Reading Time": integer minutes
 
 ARTICLE TITLE: {title}
