@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-06-28</lastmod>
+        <lastmod>2026-06-29</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-06-28</lastmod>
+        <lastmod>2026-06-29</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -747,6 +747,126 @@
             <news:title>Amazon Prime Day&#39;s Defense Procurement Implications: India&#39;s Strategic Technology Acquisition</news:title>
             
             <news:keywords>A, m, a, z, o, n,  , P, r, i, m, e,  , D, a, y, ,,  , d, e, f, e, n, s, e,  , p, r, o, c, u, r, e, m, e, n, t, ,,  , I, n, d, i, a, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , t, e, c, h, n, o, l, o, g, y,  , a, c, q, u, i, s, i, t, i, o, n, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/u-s-ai-export-controls-threaten-global-tech-sovereignty-701545.html</loc>
+        <lastmod>Wed, 24 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/ts7l1n/article71140328.ece/alternates/LANDSCAPE_1200/2026-06-23T182307Z_2146561339_RC2UNLAWRGUG_RTRMADP_3_ANTHROPIC-SALESFORCE.JPG</image:loc>
+            <image:title>U.S. AI Export Controls Threaten Global Tech Sovereignty</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 24 Jun 2026 11:24:51 +0530</news:publication_date>
+            <news:title>U.S. AI Export Controls Threaten Global Tech Sovereignty</news:title>
+            
+            <news:keywords>A, n, t, h, r, o, p, i, c,  , A, I, ,,  , U, ., S, .,  , e, x, p, o, r, t,  , c, o, n, t, r, o, l, s, ,,  , l, e, g, a, l,  , t, e, c, h, ,,  , A, I,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , t, e, c, h,  , n, a, t, i, o, n, a, l, i, s, m, ,,  , L, e, g, i, o, n,  , L, e, g, a, l, T, e, c, h</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/meta-s-prediction-markets-geopolitical-intelligence-disruption-701560.html</loc>
+        <lastmod>Wed, 24 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/yprrt9/article71140347.ece/alternates/LANDSCAPE_1200/UFC_Freedom_25__Trump_72_69.jpg</image:loc>
+            <image:title>Meta&#39;s Prediction Markets: Geopolitical Intelligence Disruption</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 24 Jun 2026 11:14:20 +0530</news:publication_date>
+            <news:title>Meta&#39;s Prediction Markets: Geopolitical Intelligence Disruption</news:title>
+            
+            <news:keywords>M, e, t, a, ,,  , p, r, e, d, i, c, t, i, o, n,  , m, a, r, k, e, t, s, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , f, o, r, e, c, a, s, t, i, n, g, ,,  , i, n, t, e, l, l, i, g, e, n, c, e,  , d, i, s, r, u, p, t, i, o, n, ,,  , s, t, r, a, t, e, g, i, c,  , a, n, a, l, y, s, i, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-telegram-ban-expands-information-definition-setting-dangerous-precedent-701688.html</loc>
+        <lastmod>Wed, 24 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/hzk9x0/article71138771.ece/alternates/LANDSCAPE_1200/2026-06-19T062232Z_1285545727_RC2UWLA7HBEL_RTRMADP_3_INDIA-TELEGRAM.JPG</image:loc>
+            <image:title>India&#39;s Telegram Ban Expands &#39;Information&#39; Definition, Setting Dangerous Precedent</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 24 Jun 2026 01:37:42 +0530</news:publication_date>
+            <news:title>India&#39;s Telegram Ban Expands &#39;Information&#39; Definition, Setting Dangerous Precedent</news:title>
+            
+            <news:keywords>T, e, l, e, g, r, a, m,  , b, a, n, ,,  , I, T,  , A, c, t,  , 2, 0, 0, 0, ,,  , d, i, g, i, t, a, l,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , r, e, g, u, l, a, t, o, r, y,  , o, v, e, r, r, e, a, c, h, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , i, n, t, e, r, n, e, t,  , f, r, e, e, d, o, m</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-digital-sovereignty-telegram-blocking-reveals-state-s-information-contro-701707.html</loc>
+        <lastmod>Tue, 23 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/tw8fni/article71136248.ece/alternates/LANDSCAPE_1200/2026-06-19T062232Z_1285545727_RC2UWLA7HBEL_RTRMADP_3_INDIA-TELEGRAM.JPG</image:loc>
+            <image:title>India&#39;s Digital Sovereignty: Telegram Blocking Reveals State&#39;s Information Control Capabilities</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 23 Jun 2026 18:04:59 +0530</news:publication_date>
+            <news:title>India&#39;s Digital Sovereignty: Telegram Blocking Reveals State&#39;s Information Control Capabilities</news:title>
+            
+            <news:keywords>I, n, d, i, a, ,,  , d, i, g, i, t, a, l,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , c, y, b, e, r,  , c, a, p, a, b, i, l, i, t, i, e, s, ,,  , i, n, f, o, r, m, a, t, i, o, n,  , c, o, n, t, r, o, l, ,,  , s, t, a, t, e,  , p, o, w, e, r, ,,  , n, a, t, i, o, n, a, l,  , s, e, c, u, r, i, t, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, o, u, t, h,  , A, s, i, a, ,,  , t, e, l, e, c, o, m,  , r, e, g, u, l, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/whatsapp-leadership-shift-signals-meta-s-india-strategy-realignment-701728.html</loc>
+        <lastmod>Tue, 23 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/news/national/sc6n4h/article71136749.ece/alternates/LANDSCAPE_1200/Will%20Cathcart.jpg</image:loc>
+            <image:title>WhatsApp Leadership Shift Signals Meta&#39;s India Strategy Realignment</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 23 Jun 2026 16:50:57 +0530</news:publication_date>
+            <news:title>WhatsApp Leadership Shift Signals Meta&#39;s India Strategy Realignment</news:title>
+            
+            <news:keywords>M, e, t, a, ,,  , W, h, a, t, s, A, p, p, ,,  , I, n, d, i, a, ,,  , D, i, g, i, t, a, l,  , S, t, r, a, t, e, g, y, ,,  , F, i, n, t, e, c, h, ,,  , P, r, i, v, a, c, y, ,,  , G, e, o, p, o, l, i, t, i, c, s</news:keywords>
             
         </news:news>
     </url>
