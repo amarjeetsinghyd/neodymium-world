@@ -68,6 +68,101 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/iisc-smart-materials-breakthrough-revolutionizes-india-s-quantum-defense-capabil-802388.html</loc>
+        <lastmod>Tue, 30 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 30 Jun 2026 05:59:00 +0000</news:publication_date>
+            <news:title>IISc Smart Materials Breakthrough Revolutionizes India&#39;s Quantum Defense Capabilities</news:title>
+            
+            <news:keywords>I, I, S, c,  , b, r, e, a, k, t, h, r, o, u, g, h, ,,  , q, u, a, n, t, u, m,  , m, a, t, e, r, i, a, l, s, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , C, h, i, n, a,  , t, e, c, h,  , r, a, c, e, ,,  , m, i, l, i, t, a, r, y,  , i, n, n, o, v, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-condemns-pakistan-s-afghan-strikes-regional-destabilization-strategy-802449.html</loc>
+        <lastmod>Tue, 30 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 30 Jun 2026 05:58:00 +0000</news:publication_date>
+            <news:title>India Condemns Pakistan&#39;s Afghan Strikes: Regional Destabilization Strategy</news:title>
+            
+            <news:keywords>I, n, d, i, a, ,,  , P, a, k, i, s, t, a, n, ,,  , A, f, g, h, a, n, i, s, t, a, n, ,,  , S, o, u, t, h,  , A, s, i, a, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , D, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , R, e, g, i, o, n, a, l,  , S, e, c, u, r, i, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/us-india-relations-at-critical-juncture-khanna-s-warning-signals-deepening-strat-802475.html</loc>
+        <lastmod>Tue, 30 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 30 Jun 2026 05:58:00 +0000</news:publication_date>
+            <news:title>US-India Relations at Critical Juncture: Khanna&#39;s Warning Signals Deepening Strategic Rifts</news:title>
+            
+            <news:keywords>U, S, -, I, n, d, i, a,  , r, e, l, a, t, i, o, n, s, ,,  , I, n, d, o, -, U, S,  , p, a, r, t, n, e, r, s, h, i, p, ,,  , T, r, u, m, p,  , f, o, r, e, i, g, n,  , p, o, l, i, c, y, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , d, e, f, e, n, s, e,  , c, o, o, p, e, r, a, t, i, o, n, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , U, S,  , c, o, n, g, r, e, s, s, i, o, n, a, l,  , s, t, a, n, c, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-engineering-might-challenges-china-reshapes-global-tech-balance-802533.html</loc>
+        <lastmod>Tue, 30 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 30 Jun 2026 05:57:00 +0000</news:publication_date>
+            <news:title>India&#39;s Engineering Might Challenges China, Reshapes Global Tech Balance</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , C, h, i, n, a,  , e, n, g, i, n, e, e, r, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , I, n, d, o, -, P, a, c, i, f, i, c,  , t, e, c, h,  , r, a, c, e, ,,  , U, S,  , I, n, d, i, a,  , d, e, f, e, n, s, e,  , p, a, r, t, n, e, r, s, h, i, p, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/us-india-defense-partnership-deepens-as-trust-replaces-skepticism-802559.html</loc>
+        <lastmod>Tue, 30 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 30 Jun 2026 05:57:00 +0000</news:publication_date>
+            <news:title>US-India Defense Partnership Deepens as Trust Replaces Skepticism</news:title>
+            
+            <news:keywords>U, S,  , I, n, d, i, a,  , d, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , M, a, r, c, o,  , R, u, b, i, o, ,,  , I, n, d, o, -, P, a, c, i, f, i, c, ,,  , s, t, r, a, t, e, g, i, c,  , p, a, r, t, n, e, r, s, h, i, p</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/ai-s-artificial-wisdom-threatens-india-s-strategic-autonomy-762694.html</loc>
         <lastmod>Tue, 30 Ju</lastmod>
         <changefreq>never</changefreq>
