@@ -112,23 +112,37 @@ def fetch_article_text(url: str, summary: str = '') -> str:
 # Image URL extraction — from RSS entry only, no full page scrape
 # ---------------------------------------------------------------------------
 def get_image_url(entry) -> str:
-    # media:content
+    # 1. media:thumbnail
+    for m in getattr(entry, 'media_thumbnail', []):
+        u = m.get('url', '')
+        if u.startswith('http'):
+            return u
+    # 2. media:content
     for m in getattr(entry, 'media_content', []):
         u = m.get('url', '')
         if u.startswith('http') and any(u.lower().endswith(x) for x in ('.jpg','.jpeg','.png','.webp')):
             return u
-    # enclosures
+    # 3. enclosures
     for enc in getattr(entry, 'enclosures', []):
         u = enc.get('href', '') or enc.get('url', '')
         if u.startswith('http') and 'image' in enc.get('type', 'image'):
             return u
-    # first <img> in summary
+    # 4. first <img> in summary
     summary_html = getattr(entry, 'summary', '')
     if summary_html:
         soup = BeautifulSoup(summary_html, 'html.parser')
         img = soup.find('img')
         if img and img.get('src', '').startswith('http'):
             return img['src']
+    # 5. first <img> in content (content:encoded)
+    content_list = getattr(entry, 'content', [])
+    for content_item in content_list:
+        content_html = content_item.get('value', '')
+        if content_html:
+            soup = BeautifulSoup(content_html, 'html.parser')
+            img = soup.find('img')
+            if img and img.get('src', '').startswith('http'):
+                return img['src']
     return ''
 
 # ---------------------------------------------------------------------------
