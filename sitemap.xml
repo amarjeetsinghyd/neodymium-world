@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-06-29</lastmod>
+        <lastmod>2026-06-30</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-06-29</lastmod>
+        <lastmod>2026-06-30</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -1817,6 +1817,63 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/ai-export-controls-reshape-global-tech-landscape-787899.html</loc>
+        <lastmod>Sun, 28 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 28 Jun 2026 02:00:00 GMT</news:publication_date>
+            <news:title>AI Export Controls Reshape Global Tech Landscape</news:title>
+            
+            <news:keywords>A, I,  , e, x, p, o, r, t,  , c, o, n, t, r, o, l, s, ,,  , l, u, x, u, r, y,  , m, a, r, k, e, t, ,,  , t, e, c, h,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , I, n, d, i, a,  , A, I,  , l, e, a, d, e, r, s, h, i, p, ,,  , g, l, o, b, a, l,  , t, e, c, h, n, o, l, o, g, y,  , l, a, n, d, s, c, a, p, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/ancient-art-as-strategic-foresight-roman-sculpture-s-lessons-for-modern-power-787559.html</loc>
+        <lastmod>Sat, 27 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 27 Jun 2026 02:35:00 GMT</news:publication_date>
+            <news:title>Ancient Art as Strategic Foresight: Roman Sculpture&#39;s Lessons for Modern Power</news:title>
+            
+            <news:keywords>R, o, m, a, n,  , s, c, u, l, p, t, u, r, e, ,,  , s, t, r, a, t, e, g, i, c,  , i, n, f, l, u, e, n, c, e, ,,  , c, u, l, t, u, r, a, l,  , p, o, w, e, r, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , a, n, a, l, y, s, i, s, ,,  , s, o, f, t,  , p, o, w, e, r, ,,  , h, i, s, t, o, r, i, c, a, l,  , p, r, e, c, e, d, e, n, t, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-fintech-arms-race-zerodha-s-merchant-banking-ambition-787871.html</loc>
+        <lastmod>Tue, 30 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 30 Jun 2026 02:00:00 GMT</news:publication_date>
+            <news:title>India&#39;s Fintech Arms Race: Zerodha&#39;s Merchant Banking Ambition</news:title>
+            
+            <news:keywords>Z, e, r, o, d, h, a, ,,  , M, e, r, c, h, a, n, t,  , B, a, n, k, i, n, g, ,,  , S, e, b, i, ,,  , F, i, n, t, e, c, h, ,,  , I, P, O, ,,  , I, n, d, i, a, ,,  , F, i, n, a, n, c, i, a, l,  , S, e, r, v, i, c, e, s, ,,  , M, a, r, k, e, t,  , D, i, s, r, u, p, t, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , I, n, v, e, s, t, m, e, n, t,  , B, a, n, k, i, n, g</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-value-fashion-revolution-strategic-implications-for-atmanirbhar-bharat-771010.html</loc>
         <lastmod>Sat, 27 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -1831,6 +1888,44 @@
             <news:title>India&#39;s Value Fashion Revolution: Strategic Implications for Atmanirbhar Bharat</news:title>
             
             <news:keywords>I, n, d, i, a,  , f, a, s, h, i, o, n,  , r, e, t, a, i, l, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, o, m, e, s, t, i, c,  , m, a, n, u, f, a, c, t, u, r, i, n, g, ,,  , c, o, n, s, u, m, e, r,  , b, e, h, a, v, i, o, r, ,,  , e, c, o, n, o, m, i, c,  , s, t, r, a, t, e, g, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/indian-defense-tech-and-startup-ecosystem-strategic-analysis-787686.html</loc>
+        <lastmod>Mon, 29 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 29 Jun 2026 09:13:21 GMT</news:publication_date>
+            <news:title>Indian Defense Tech and Startup Ecosystem: Strategic Analysis</news:title>
+            
+            <news:keywords>D, e, f, e, n, s, e,  , T, e, c, h, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, e, m, i, c, o, n, d, u, c, t, o, r, ,,  , S, u, r, v, e, i, l, l, a, n, c, e, ,,  , S, t, r, a, t, e, g, i, c,  , A, u, t, o, n, o, m, y, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , M, a, r, k, e, t,  , A, n, a, l, y, s, i, s, ,,  , I, n, d, i, g, e, n, o, u, s,  , T, e, c, h</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/kapture-cx-s-10m-funding-signals-ai-enterprise-market-consolidation-787854.html</loc>
+        <lastmod>Tue, 30 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 30 Jun 2026 01:00:00 GMT</news:publication_date>
+            <news:title>Kapture CX&#39;s $10M Funding Signals AI Enterprise Market Consolidation</news:title>
+            
+            <news:keywords>K, a, p, t, u, r, e,  , C, X, ,,  , A, I,  , f, u, n, d, i, n, g, ,,  , B, a, j, a, j,  , F, i, n, s, e, r, v, ,,  , e, n, t, e, r, p, r, i, s, e,  , A, I, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , I, n, d, i, a, n,  , t, e, c, h, ,,  , A, I,  , m, a, r, k, e, t,  , c, o, n, s, o, l, i, d, a, t, i, o, n</news:keywords>
             
         </news:news>
     </url>
