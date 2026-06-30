@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/ai-cost-revolution-reshapes-global-tech-hegemony-implications-for-india-s-strate-820083.html</loc>
+        <lastmod>Tue, 30 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/i8ddjk/article71164267.ece/alternates/LANDSCAPE_1200/2026-06-29T090720Z_345714636_RC2FWLABYP83_RTRMADP_3_USA-DEBT-AI.JPG</image:loc>
+            <image:title>AI Cost Revolution Reshapes Global Tech Hegemony: Implications for India&#39;s Strategic Autonomy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 30 Jun 2026 11:02:45 +0530</news:publication_date>
+            <news:title>AI Cost Revolution Reshapes Global Tech Hegemony: Implications for India&#39;s Strategic Autonomy</news:title>
+            
+            <news:keywords>A, I,  , c, o, s, t, s, ,,  , C, h, i, n, e, s, e,  , A, I,  , m, o, d, e, l, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , m, a, r, k, e, t,  , d, i, s, r, u, p, t, i, o, n, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , i, m, p, l, i, c, a, t, i, o, n, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/alphabet-s-dow-entry-signals-tech-s-unstoppable-market-dominance-820104.html</loc>
+        <lastmod>Tue, 30 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/u1igjz/article71164266.ece/alternates/LANDSCAPE_1200/2026-05-25T193356Z_1064132031_RC2IGLAQWMZD_RTRMADP_3_EU-ALPHABET-ANTITRUST.JPG</image:loc>
+            <image:title>Alphabet&#39;s Dow Entry Signals Tech&#39;s Unstoppable Market Dominance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 30 Jun 2026 10:57:41 +0530</news:publication_date>
+            <news:title>Alphabet&#39;s Dow Entry Signals Tech&#39;s Unstoppable Market Dominance</news:title>
+            
+            <news:keywords>A, l, p, h, a, b, e, t, ,,  , D, o, w,  , J, o, n, e, s, ,,  , T, e, c, h,  , S, t, o, c, k, s, ,,  , M, a, r, k, e, t,  , A, n, a, l, y, s, i, s, ,,  , A, I, ,,  , D, i, g, i, t, a, l,  , A, d, v, e, r, t, i, s, i, n, g, ,,  , I, n, d, e, x,  , F, u, n, d, s, ,,  , G, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/iisc-smart-materials-breakthrough-revolutionizes-india-s-quantum-defense-capabil-802388.html</loc>
         <lastmod>Tue, 30 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -144,6 +192,25 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/modi-s-g20-attendance-signals-us-india-strategic-deepening-819690.html</loc>
+        <lastmod>Tue, 30 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 30 Jun 2026 05:57:00 +0000</news:publication_date>
+            <news:title>Modi&#39;s G20 Attendance Signals US-India Strategic Deepening</news:title>
+            
+            <news:keywords>M, o, d, i,  , G, 2, 0, ,,  , U, S,  , I, n, d, i, a,  , r, e, l, a, t, i, o, n, s, ,,  , I, n, d, o, -, P, a, c, i, f, i, c,  , s, t, r, a, t, e, g, y, ,,  , t, r, a, d, e,  , n, e, g, o, t, i, a, t, i, o, n, s, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/us-india-defense-partnership-deepens-as-trust-replaces-skepticism-802559.html</loc>
         <lastmod>Tue, 30 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -158,6 +225,44 @@
             <news:title>US-India Defense Partnership Deepens as Trust Replaces Skepticism</news:title>
             
             <news:keywords>U, S,  , I, n, d, i, a,  , d, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , M, a, r, c, o,  , R, u, b, i, o, ,,  , I, n, d, o, -, P, a, c, i, f, i, c, ,,  , s, t, r, a, t, e, g, i, c,  , p, a, r, t, n, e, r, s, h, i, p</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/quad-diplomacy-strategic-maneuvering-in-indo-pacific-power-play-819828.html</loc>
+        <lastmod>Tue, 30 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 30 Jun 2026 05:56:00 +0000</news:publication_date>
+            <news:title>Quad Diplomacy: Strategic Maneuvering in Indo-Pacific Power Play</news:title>
+            
+            <news:keywords>Q, u, a, d, ,,  , I, n, d, o, -, P, a, c, i, f, i, c, ,,  , A, S, E, A, N, ,,  , D, i, p, l, o, m, a, t, i, c,  , S, t, r, a, t, e, g, y, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , P, h, i, l, i, p, p, i, n, e, s, ,,  , C, h, i, n, a, ,,  , S, e, c, u, r, i, t, y,  , A, r, c, h, i, t, e, c, t, u, r, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/us-india-strategic-convergence-modi-visit-signals-deepening-defense-partnership-819862.html</loc>
+        <lastmod>Tue, 30 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 30 Jun 2026 05:56:00 +0000</news:publication_date>
+            <news:title>US-India Strategic Convergence: Modi Visit Signals Deepening Defense Partnership</news:title>
+            
+            <news:keywords>U, S, -, I, n, d, i, a,  , r, e, l, a, t, i, o, n, s, ,,  , M, o, d, i,  , v, i, s, i, t, ,,  , d, e, f, e, n, s, e,  , c, o, o, p, e, r, a, t, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , Q, u, a, d, ,,  , I, n, d, o, -, P, a, c, i, f, i, c,  , s, t, r, a, t, e, g, y, ,,  , t, r, a, d, e,  , a, g, r, e, e, m, e, n, t, ,,  , s, t, r, a, t, e, g, i, c,  , p, a, r, t, n, e, r, s, h, i, p</news:keywords>
             
         </news:news>
     </url>
