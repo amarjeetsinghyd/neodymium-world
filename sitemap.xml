@@ -68,6 +68,78 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/social-media-bans-for-minors-strategic-governance-challenges-in-digital-age-935118.html</loc>
+        <lastmod>Thu, 02 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/latest-news/4qgl2e/article71171711.ece/alternates/LANDSCAPE_1200/YASocMed.jpg</image:loc>
+            <image:title>Social Media Bans for Minors: Strategic Governance Challenges in Digital Age</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 02 Jul 2026 01:06:49 +0530</news:publication_date>
+            <news:title>Social Media Bans for Minors: Strategic Governance Challenges in Digital Age</news:title>
+            
+            <news:keywords>s, o, c, i, a, l,  , m, e, d, i, a,  , r, e, g, u, l, a, t, i, o, n, ,,  , m, i, n, o, r, s,  , o, n, l, i, n, e,  , s, a, f, e, t, y, ,,  , d, i, g, i, t, a, l,  , g, o, v, e, r, n, a, n, c, e, ,,  , a, g, e,  , v, e, r, i, f, i, c, a, t, i, o, n, ,,  , c, o, n, t, e, n, t,  , m, o, d, e, r, a, t, i, o, n, ,,  , p, l, a, t, f, o, r, m,  , a, c, c, o, u, n, t, a, b, i, l, i, t, y, ,,  , d, i, g, i, t, a, l,  , r, i, g, h, t, s, ,,  , i, n, t, e, r, n, e, t,  , p, o, l, i, c, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/un-ai-warning-strategic-implications-for-india-s-defense-autonomy-935137.html</loc>
+        <lastmod>Wed, 01 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/lhv3xi/article71171585.ece/alternates/LANDSCAPE_1200/Computing_Award_Winners_Artificial_Intelligence_70456.jpg-0e8b6.jpg</image:loc>
+            <image:title>UN AI Warning: Strategic Implications for India&#39;s Defense Autonomy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 01 Jul 2026 23:34:19 +0530</news:publication_date>
+            <news:title>UN AI Warning: Strategic Implications for India&#39;s Defense Autonomy</news:title>
+            
+            <news:keywords>A, I,  , r, i, s, k, s, ,,  , d, e, f, e, n, s, e,  , a, u, t, o, n, o, m, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , s, e, c, u, r, i, t, y, ,,  , s, t, r, a, t, e, g, i, c,  , f, o, r, e, c, a, s, t, i, n, g</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/ai-sovereignty-battle-anthropic-s-india-reentry-signals-new-tech-cold-war-935165.html</loc>
+        <lastmod>Wed, 01 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/5u42nd/article71171533.ece/alternates/LANDSCAPE_1200/2026-06-30T235818Z_1842503695_RC2UNLA3OSW3_RTRMADP_3_USA-ANTHROPIC-FABLE.JPG</image:loc>
+            <image:title>AI Sovereignty Battle: Anthropic&#39;s India Reentry Signals New Tech Cold War</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 01 Jul 2026 23:08:12 +0530</news:publication_date>
+            <news:title>AI Sovereignty Battle: Anthropic&#39;s India Reentry Signals New Tech Cold War</news:title>
+            
+            <news:keywords>A, I,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , U, S, -, C, h, i, n, a,  , t, e, c, h,  , w, a, r, ,,  , I, n, d, i, a, n,  , d, e, f, e, n, s, e,  , A, I, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/tejas-mk-1a-s-twin-asraam-trials-signal-india-s-close-combat-evolution-925783.html</loc>
         <lastmod>Wed, 01 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -159,6 +231,30 @@
             <news:title>Army Leadership Shift: Strategic Implications of Lt. Gen. Jain&#39;s Vice-Chief Appointment</news:title>
             
             <news:keywords>I, n, d, i, a, n,  , A, r, m, y, ,,  , D, e, f, e, n, s, e,  , L, e, a, d, e, r, s, h, i, p, ,,  , M, i, l, i, t, a, r, y,  , S, t, r, a, t, e, g, y, ,,  , N, a, t, i, o, n, a, l,  , S, e, c, u, r, i, t, y, ,,  , D, e, f, e, n, s, e,  , M, o, d, e, r, n, i, z, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/indus-waters-treaty-collapse-pakistan-s-global-threat-analysis-935093.html</loc>
+        <lastmod>Wed, 01 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJGdoVkqbJX8zcCzrXheYRJ90XEdhqkv2XtdcQgtqT0wVbcGMCkLFeH2oHsdiF10Qj_yBwdHQtsF4BglhEge6DV0mQqL43mKSg73PlbwIiXrxUuZA-TVZgyEqxIg9ETbcgfEGOfabMKqXcdoqStFheeV-7N8bx4Uv3WMKT5gn3m3ShbKo3Hak15m5p294/s72-c/Bilawal_Bhutto_Ishaq_Dar.jpg</image:loc>
+            <image:title>Indus Waters Treaty Collapse: Pakistan&#39;s Global Threat Analysis</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 01 Jul 2026 16:26:00 +0000</news:publication_date>
+            <news:title>Indus Waters Treaty Collapse: Pakistan&#39;s Global Threat Analysis</news:title>
+            
+            <news:keywords>I, n, d, u, s,  , W, a, t, e, r, s,  , T, r, e, a, t, y, ,,  , P, a, k, i, s, t, a, n,  , I, n, d, i, a,  , r, e, l, a, t, i, o, n, s, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , w, a, t, e, r,  , s, e, c, u, r, i, t, y, ,,  , i, n, t, e, r, n, a, t, i, o, n, a, l,  , a, g, r, e, e, m, e, n, t, s, ,,  , P, a, h, a, l, g, a, m,  , t, e, r, r, o, r,  , a, t, t, a, c, k</news:keywords>
             
         </news:news>
     </url>
@@ -2962,6 +3058,30 @@
             <news:title>Cultural Preservation as Strategic Defense: India&#39;s Classical Arts Diplomacy</news:title>
             
             <news:keywords>c, u, l, t, u, r, a, l,  , d, i, p, l, o, m, a, c, y, ,,  , d, e, f, e, n, s, e,  , s, t, r, a, t, e, g, y, ,,  , s, o, f, t,  , p, o, w, e, r, ,,  , h, e, r, i, t, a, g, e,  , p, r, e, s, e, r, v, a, t, i, o, n, ,,  , s, t, r, a, t, e, g, i, c,  , a, s, s, e, t, s, ,,  , n, a, t, i, o, n, a, l,  , s, e, c, u, r, i, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/defense-tech-startups-reshaping-india-s-strategic-autonomy-935216.html</loc>
+        <lastmod>Wed, 01 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/DailyRoundupImages1600x900-1774005165949.jpg</image:loc>
+            <image:title>Defense Tech Startups Reshaping India&#39;s Strategic Autonomy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 01 Jul 2026 09:14:43 GMT</news:publication_date>
+            <news:title>Defense Tech Startups Reshaping India&#39;s Strategic Autonomy</news:title>
+            
+            <news:keywords>d, e, f, e, n, s, e,  , s, t, a, r, t, u, p, s, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , r, o, b, o, t, i, c, s, ,,  , s, p, e, c, i, a, l, t, y,  , c, h, e, m, i, c, a, l, s, ,,  , f, i, n, a, n, c, i, a, l,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t</news:keywords>
             
         </news:news>
     </url>
