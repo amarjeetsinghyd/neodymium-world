@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/meta-s-legal-woes-signal-new-era-for-digital-sovereignty-907182.html</loc>
+        <lastmod>Wed, 01 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/9j3qou/article71168554.ece/alternates/LANDSCAPE_1200/2026-06-23T225714Z_646775645_RC2D0FAQPWCO_RTRMADP_3_USA-META-PLATFORMS-AI.JPG</image:loc>
+            <image:title>Meta&#39;s Legal Woes Signal New Era for Digital Sovereignty</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 01 Jul 2026 13:23:53 +0530</news:publication_date>
+            <news:title>Meta&#39;s Legal Woes Signal New Era for Digital Sovereignty</news:title>
+            
+            <news:keywords>M, e, t, a,  , l, a, w, s, u, i, t, ,,  , d, i, g, i, t, a, l,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , I, n, d, i, a,  , t, e, c, h,  , p, o, l, i, c, y, ,,  , s, o, c, i, a, l,  , m, e, d, i, a,  , r, e, g, u, l, a, t, i, o, n, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , S, o, u, t, h,  , A, s, i, a,  , g, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/us-ai-model-restrictions-lifted-strategic-implications-for-global-tech-dominance-874284.html</loc>
         <lastmod>Wed, 01 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -207,6 +231,102 @@
             <news:title>UPI&#39;s Greek Entry: Strategic Digital Diplomacy in Mediterranean</news:title>
             
             <news:keywords>U, P, I, ,,  , G, r, e, e, c, e, ,,  , D, i, g, i, t, a, l,  , P, a, y, m, e, n, t, s, ,,  , I, n, d, i, a, ,,  , M, e, d, i, t, e, r, r, a, n, e, a, n, ,,  , E, c, o, n, o, m, i, c,  , D, i, p, l, o, m, a, c, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-strategic-calculus-hormuz-diplomacy-and-brics-realignment-907029.html</loc>
+        <lastmod>Wed, 01 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsUMQi8lDFTe2Cx_0o76obk2xqn6Q7gUhQoC4a-t8Edu2tWfVA_SvQPO-3q_c4nwPNMLic4FjXIRUOPffNd9oMTvpYT5OO7b__pnQm1BiLW0YTzsV5YxO5Zf2A4J4xQuY56xZIF4UtBQBoyTTT70WItROD0eY3blSl9hTcfufOFNICvofQ1K9gxm4HDFE/s72-c/Modi_Pezeshkian_Iran_President.jpg</image:loc>
+            <image:title>India&#39;s Strategic Calculus: Hormuz Diplomacy and BRICS Realignment</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 01 Jul 2026 05:56:00 +0000</news:publication_date>
+            <news:title>India&#39;s Strategic Calculus: Hormuz Diplomacy and BRICS Realignment</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , I, r, a, n,  , M, o, d, i,  , H, o, r, m, u, z,  , B, R, I, C, S,  , W, e, s, t,  , A, s, i, a,  , d, e, f, e, n, s, e,  , s, t, r, a, t, e, g, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/iran-israel-tensions-threaten-south-asian-stability-amid-us-iran-truce-907095.html</loc>
+        <lastmod>Wed, 01 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglC692jyWIDGf3tXOmiARHn3Wen7ZEvInewUX8juVdgHMKrWzEdYQOoUmOp2zSsJOrF3zarGPuhXMMEUOe02Edx8pzNbDQs094FsGijnuY5MfUbrQmnMcIDCYHwN3jftqtrDMc4neCu9WqZkBgWXhPSDPxW95iI81yr6RFSJaL3ZRswkdA84dK4mPcuyw/s72-c/Trump_Netanyahu_Mojtaba_Khamenei.jpg</image:loc>
+            <image:title>Iran-Israel Tensions Threaten South Asian Stability Amid US-Iran Truce</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 01 Jul 2026 05:56:00 +0000</news:publication_date>
+            <news:title>Iran-Israel Tensions Threaten South Asian Stability Amid US-Iran Truce</news:title>
+            
+            <news:keywords>I, r, a, n,  , I, s, r, a, e, l,  , c, e, a, s, e, f, i, r, e, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , U, S, -, I, r, a, n,  , r, e, l, a, t, i, o, n, s, ,,  , I, n, d, i, a,  , d, e, f, e, n, s, e,  , p, o, s, t, u, r, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , r, e, g, i, o, n, a, l,  , s, t, a, b, i, l, i, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/iran-s-nuclear-stance-escalates-ghalibaf-sets-non-negotiable-red-lines-907080.html</loc>
+        <lastmod>Wed, 01 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirJA7hQS0ygKNrcpHUVNwFad7xLr0Qrtynyx0lhKlCpDhkMXpcy9o8eirYyoAvO6BCKlDiTDnjJ46zaIqsL41WCT4g5m8ywpH2Ea0TTIH93ZhOSZWoIekrUyfEumqca0MyWK-lVNNjm0b4MJprJCNQdIWQwiMjuCjFSsStc1TZxrmqzC1kqJopg0CWvW0/s72-c/Iran_Speaker_Mohammad_Bagher%20Ghalibaf.jpg</image:loc>
+            <image:title>Iran&#39;s Nuclear Stance Escalates: Ghalibaf Sets Non-Negotiable Red Lines</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 01 Jul 2026 05:56:00 +0000</news:publication_date>
+            <news:title>Iran&#39;s Nuclear Stance Escalates: Ghalibaf Sets Non-Negotiable Red Lines</news:title>
+            
+            <news:keywords>I, r, a, n,  , n, u, c, l, e, a, r, ,,  , U, S,  , M, i, d, d, l, e,  , E, a, s, t,  , p, o, l, i, c, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t,  , d, e, f, e, n, s, e, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , n, u, c, l, e, a, r,  , n, e, g, o, t, i, a, t, i, o, n, s, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , a, n, a, l, y, s, i, s, ,,  , d, e, f, e, n, s, e,  , m, a, r, k, e, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/operation-amistad-india-s-strategic-soft-power-play-in-venezuela-s-geopolitical--907053.html</loc>
+        <lastmod>Wed, 01 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiE8vKzCjgkHfbAFWenfdudRgqUeuRz_iWYO5T3C4VRNjNH6Wb_s7vHbNVhELG3Y1UHen3k6Bf5hKyMZtvgufA4GKOMGQsVGgJFaGou_ZsdFONCDkeMsXceUvC1W11gAMMkdZfLxo6pisDmki8XEwCnMHytlqtXTN3ONK4vad9n9B_mofzG3oukXSkj0JI/s72-c/Myanmar_Earthquake_2.jpg</image:loc>
+            <image:title>Operation Amistad: India&#39;s Strategic Soft Power Play in Venezuela&#39;s Geopolitical Chessboard</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 01 Jul 2026 05:56:00 +0000</news:publication_date>
+            <news:title>Operation Amistad: India&#39;s Strategic Soft Power Play in Venezuela&#39;s Geopolitical Chessboard</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , V, e, n, e, z, u, e, l, a,  , r, e, l, a, t, i, o, n, s, ,,  , O, p, e, r, a, t, i, o, n,  , A, m, i, s, t, a, d, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, o, f, t,  , p, o, w, e, r,  , s, t, r, a, t, e, g, y, ,,  , d, e, f, e, n, s, e,  , d, i, p, l, o, m, a, c, y, ,,  , s, t, r, a, t, e, g, i, c,  , o, u, t, r, e, a, c, h, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , i, m, p, l, i, c, a, t, i, o, n, s</news:keywords>
             
         </news:news>
     </url>
