@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-01</lastmod>
+        <lastmod>2026-07-02</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-01</lastmod>
+        <lastmod>2026-07-02</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-fintech-crunch-bike-bazaar-s-credit-crisis-exposes-systemic-risk-960244.html</loc>
+        <lastmod>Thu, 02 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/FTR-Daily-Brief-2026-07-01T235439.806.png</image:loc>
+            <image:title>India&#39;s Fintech Crunch: Bike Bazaar&#39;s Credit Crisis Exposes Systemic Risk</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 02 Jul 2026 02:30:05 +0000</news:publication_date>
+            <news:title>India&#39;s Fintech Crunch: Bike Bazaar&#39;s Credit Crisis Exposes Systemic Risk</news:title>
+            
+            <news:keywords>F, i, n, t, e, c, h, ,,  , C, r, e, d, i, t,  , C, r, i, s, i, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, y, s, t, e, m, i, c,  , R, i, s, k, ,,  , I, n, d, i, a,  , F, u, n, d, i, n, g, ,,  , B, i, k, e,  , B, a, z, a, a, r, ,,  , N, e, o, d, y, m, i, u, m,  , W, o, r, l, d</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/social-media-bans-for-minors-strategic-governance-challenges-in-digital-age-935118.html</loc>
@@ -3226,6 +3250,54 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-strategic-materials-race-ev-policy-meets-specialty-chemicals-960181.html</loc>
+        <lastmod>Thu, 02 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/2026-CopyofNewPPTTemplates3-1782916220846.png</image:loc>
+            <image:title>India&#39;s Strategic Materials Race: EV Policy Meets Specialty Chemicals</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 02 Jul 2026 02:00:00 GMT</news:publication_date>
+            <news:title>India&#39;s Strategic Materials Race: EV Policy Meets Specialty Chemicals</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , d, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, p, e, c, i, a, l, t, y,  , c, h, e, m, i, c, a, l, s, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , E, V,  , p, o, l, i, c, y, ,,  , C, h, i, n, a, +, 1, ,,  , d, e, f, e, n, s, e,  , m, a, n, u, f, a, c, t, u, r, i, n, g</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-u30-founders-prioritize-product-development-over-fundraising-960094.html</loc>
+        <lastmod>Wed, 01 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/8e7cc4102d6c11e9aa979329348d4c3e/Imageegfk-1782910992791.jpg</image:loc>
+            <image:title>India&#39;s U30 Founders Prioritize Product Development Over Fundraising</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 01 Jul 2026 13:29:05 GMT</news:publication_date>
+            <news:title>India&#39;s U30 Founders Prioritize Product Development Over Fundraising</news:title>
+            
+            <news:keywords>U, 3, 0,  , s, t, a, r, t, u, p, s, ,,  , p, r, o, d, u, c, t,  , d, e, v, e, l, o, p, m, e, n, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , I, n, d, i, a, n,  , s, t, a, r, t, u, p,  , e, c, o, s, y, s, t, e, m, ,,  , s, t, r, a, t, e, g, i, c,  , f, u, n, d, i, n, g,  , a, l, l, o, c, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-value-fashion-revolution-strategic-implications-for-atmanirbhar-bharat-771010.html</loc>
         <lastmod>Sat, 27 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -3259,6 +3331,30 @@
             <news:title>Indian Defense Tech and Startup Ecosystem: Strategic Analysis</news:title>
             
             <news:keywords>D, e, f, e, n, s, e,  , T, e, c, h, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, e, m, i, c, o, n, d, u, c, t, o, r, ,,  , S, u, r, v, e, i, l, l, a, n, c, e, ,,  , S, t, r, a, t, e, g, i, c,  , A, u, t, o, n, o, m, y, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , M, a, r, k, e, t,  , A, n, a, l, y, s, i, s, ,,  , I, n, d, i, g, e, n, o, u, s,  , T, e, c, h</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/intuition-fest-india-s-strategic-investment-in-human-capital-960166.html</loc>
+        <lastmod>Wed, 01 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/1a70b4f0170611edbdd8b5d28d859895/Untitleddesign52-1782820394816.jpg</image:loc>
+            <image:title>Intuition Fest: India&#39;s Strategic Investment in Human Capital</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 01 Jul 2026 06:16:04 GMT</news:publication_date>
+            <news:title>Intuition Fest: India&#39;s Strategic Investment in Human Capital</news:title>
+            
+            <news:keywords>A, r, t,  , o, f,  , L, i, v, i, n, g, ,,  , I, n, t, u, i, t, i, o, n,  , F, e, s, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , H, u, m, a, n,  , C, a, p, i, t, a, l, ,,  , C, o, g, n, i, t, i, v, e,  , R, e, s, i, l, i, e, n, c, e, ,,  , I, n, d, i, a, n,  , E, d, u, c, a, t, i, o, n, ,,  , S, t, r, a, t, e, g, i, c,  , F, o, r, e, c, a, s, t, i, n, g, ,,  , G, e, o, p, o, l, i, t, i, c, a, l,  , I, m, p, l, i, c, a, t, i, o, n, s</news:keywords>
             
         </news:news>
     </url>
@@ -3489,6 +3585,30 @@
             <news:title>UPI&#39;s Global Expansion: India&#39;s Digital Payments as Strategic Leverage in South Asia</news:title>
             
             <news:keywords>U, P, I,  , e, x, p, a, n, s, i, o, n, ,,  , d, i, g, i, t, a, l,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , I, n, d, i, a,  , t, e, c, h, n, o, l, o, g, y,  , s, t, r, a, t, e, g, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/whatsapp-username-feature-digital-identity-threat-amplification-960071.html</loc>
+        <lastmod>Wed, 01 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/e641e900925711e9926177f451727da9/shutterstock646918009-1599295951234.png</image:loc>
+            <image:title>WhatsApp Username Feature: Digital Identity Threat Amplification</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 01 Jul 2026 11:34:00 GMT</news:publication_date>
+            <news:title>WhatsApp Username Feature: Digital Identity Threat Amplification</news:title>
+            
+            <news:keywords>d, i, g, i, t, a, l,  , s, e, c, u, r, i, t, y, ,,  , i, d, e, n, t, i, t, y,  , f, r, a, u, d, ,,  , c, y, b, e, r,  , t, h, r, e, a, t, s, ,,  , n, a, t, i, o, n, a, l,  , s, e, c, u, r, i, t, y, ,,  , s, o, c, i, a, l,  , m, e, d, i, a,  , v, u, l, n, e, r, a, b, i, l, i, t, i, e, s</news:keywords>
             
         </news:news>
     </url>
