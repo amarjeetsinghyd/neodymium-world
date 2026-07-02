@@ -68,6 +68,102 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/consumer-tech-arms-race-india-s-smartphone-dilemma-and-defense-implications-991866.html</loc>
+        <lastmod>Thu, 02 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/sci-tech/technology/gadgets/w3g43l/article71173446.ece/alternates/LANDSCAPE_1200/JahanviXReno16_KV_RGB%201.jpg</image:loc>
+            <image:title>Consumer Tech Arms Race: India&#39;s Smartphone Dilemma and Defense Implications</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 02 Jul 2026 12:56:24 +0530</news:publication_date>
+            <news:title>Consumer Tech Arms Race: India&#39;s Smartphone Dilemma and Defense Implications</news:title>
+            
+            <news:keywords>A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , C, h, i, n, a,  , I, n, d, i, a,  , t, e, c, h,  , r, i, v, a, l, r, y, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , s, e, m, i, c, o, n, d, u, c, t, o, r,  , s, o, v, e, r, e, i, g, n, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/google-antitrust-ruling-signals-global-tech-regulation-shift-991886.html</loc>
+        <lastmod>Thu, 02 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/j17m79/article71172885.ece/alternates/LANDSCAPE_1200/2026-07-01T125823Z_2131797091_RC26FS9CH9NA_RTRMADP_3_ALPHABET-LAWSUIT-KLARNA.JPG</image:loc>
+            <image:title>Google Antitrust Ruling Signals Global Tech Regulation Shift</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 02 Jul 2026 11:31:58 +0530</news:publication_date>
+            <news:title>Google Antitrust Ruling Signals Global Tech Regulation Shift</news:title>
+            
+            <news:keywords>G, o, o, g, l, e,  , a, n, t, i, t, r, u, s, t, ,,  , B, i, g,  , T, e, c, h,  , r, e, g, u, l, a, t, i, o, n, ,,  , d, i, g, i, t, a, l,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , E, u, r, o, p, e, a, n,  , t, e, c, h,  , p, o, l, i, c, y, ,,  , U, S, -, E, U,  , t, e, c, h,  , t, e, n, s, i, o, n, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/meta-s-data-chief-play-ai-infrastructure-monetization-strategy-991962.html</loc>
+        <lastmod>Thu, 02 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/kdgokw/article71172887.ece/alternates/LANDSCAPE_1200/Social_Media_Kids_Ohio_99491.jpg</image:loc>
+            <image:title>Meta&#39;s Data Chief Play: AI Infrastructure Monetization Strategy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 02 Jul 2026 09:41:45 +0530</news:publication_date>
+            <news:title>Meta&#39;s Data Chief Play: AI Infrastructure Monetization Strategy</news:title>
+            
+            <news:keywords>M, e, t, a, ,,  , A, I,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , d, a, t, a,  , s, t, r, a, t, e, g, y, ,,  , c, l, o, u, d,  , c, o, m, p, u, t, i, n, g, ,,  , A, l, e, x,  , S, c, h, u, l, t, z, ,,  , A, I,  , s, p, e, n, d, i, n, g, ,,  , B, i, g,  , T, e, c, h</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/eu-apple-ai-clash-signals-global-tech-regulatory-shift-991979.html</loc>
+        <lastmod>Thu, 02 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/b29lcx/article71172884.ece/alternates/LANDSCAPE_1200/2026-07-01T104350Z_1240780640_RC2TPLA9E73N_RTRMADP_3_EU-APPLE.JPG</image:loc>
+            <image:title>EU-Apple AI Clash Signals Global Tech Regulatory Shift</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 02 Jul 2026 09:33:28 +0530</news:publication_date>
+            <news:title>EU-Apple AI Clash Signals Global Tech Regulatory Shift</news:title>
+            
+            <news:keywords>E, U,  , r, e, g, u, l, a, t, i, o, n, ,,  , A, p, p, l, e,  , A, I, ,,  , D, i, g, i, t, a, l,  , M, a, r, k, e, t, s,  , A, c, t, ,,  , t, e, c, h, n, o, l, o, g, y,  , p, o, l, i, c, y, ,,  , g, l, o, b, a, l,  , t, e, c, h,  , g, o, v, e, r, n, a, n, c, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-nuclear-accelerator-advances-strategic-implications-of-linac-5-commissio-974174.html</loc>
         <lastmod>Thu, 02 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -135,6 +231,30 @@
             <news:title>Gurdwara Demolition: India-Pakistan Religious Tensions Escalate</news:title>
             
             <news:keywords>I, n, d, i, a,  , P, a, k, i, s, t, a, n,  , r, e, l, a, t, i, o, n, s, ,,  , S, i, k, h,  , s, h, r, i, n, e,  , d, e, m, o, l, i, t, i, o, n, ,,  , r, e, l, i, g, i, o, u, s,  , t, e, n, s, i, o, n, s, ,,  , d, i, p, l, o, m, a, t, i, c,  , c, r, i, s, i, s, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/iran-asset-unfreeze-geopolitical-calculus-in-south-asia-991754.html</loc>
+        <lastmod>Thu, 02 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUSzxeYM2K4TiHPXo_qunZxcn5GOEX2uLQ6I41y7zvn2DuSCqj1ygrJqpP94NdK9g4IK0-mT3taw0gcEn4V9a93jYYyOX2FJ6W3Q3sEzfBy3b5JamQ3dycytbLsO9xA-V97Am5PbHu5w279dsMIvyUPRx21O_woyGNiEnCopykGKVaSXJYWhRJvA257eI/s72-c/JD_Vance_6.jpg</image:loc>
+            <image:title>Iran Asset Unfreeze: Geopolitical Calculus in South Asia</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 02 Jul 2026 05:56:00 +0000</news:publication_date>
+            <news:title>Iran Asset Unfreeze: Geopolitical Calculus in South Asia</news:title>
+            
+            <news:keywords>I, r, a, n, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , S, o, u, t, h,  , A, s, i, a, ,,  , D, e, f, e, n, s, e,  , M, a, r, k, e, t, s, ,,  , S, t, r, a, t, e, g, i, c,  , A, n, a, l, y, s, i, s</news:keywords>
             
         </news:news>
     </url>
