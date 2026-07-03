@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-02</lastmod>
+        <lastmod>2026-07-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-02</lastmod>
+        <lastmod>2026-07-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/hasdeo-mining-india-s-energy-security-vs-environmental-crisis-045591.html</loc>
+        <lastmod>Fri, 03 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/coal-mine.jpg</image:loc>
+            <image:title>Hasdeo Mining: India&#39;s Energy Security vs Environmental Crisis</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 03 Jul 2026 01:35:24 +0000</news:publication_date>
+            <news:title>Hasdeo Mining: India&#39;s Energy Security vs Environmental Crisis</news:title>
+            
+            <news:keywords>H, a, s, d, e, o,  , m, i, n, i, n, g, ,,  , e, n, e, r, g, y,  , s, e, c, u, r, i, t, y, ,,  , e, n, v, i, r, o, n, m, e, n, t, a, l,  , c, l, e, a, r, a, n, c, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , c, o, a, l,  , p, r, o, d, u, c, t, i, o, n, ,,  , b, i, o, d, i, v, e, r, s, i, t, y,  , i, m, p, a, c, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-tightens-messaging-app-regulations-amid-privacy-concerns-019737.html</loc>
         <lastmod>Fri, 03 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -111,6 +135,54 @@
             <news:title>India&#39;s Regulatory Crackdown on Messaging App Username Features</news:title>
             
             <news:keywords>I, n, d, i, a, ,,  , m, e, s, s, a, g, i, n, g,  , a, p, p, s, ,,  , r, e, g, u, l, a, t, o, r, y,  , c, r, a, c, k, d, o, w, n, ,,  , T, e, l, e, g, r, a, m, ,,  , S, i, g, n, a, l, ,,  , W, h, a, t, s, A, p, p, ,,  , u, s, e, r, n, a, m, e,  , f, e, a, t, u, r, e, s, ,,  , f, r, a, u, d,  , p, r, e, v, e, n, t, i, o, n, ,,  , M, e, i, t, Y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/modi-takaichi-summit-quad-reinforcement-amid-china-containment-strategy-045718.html</loc>
+        <lastmod>Thu, 02 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/india-japan_20260702183600.jpg</image:loc>
+            <image:title>Modi-Takaichi Summit: Quad Reinforcement Amid China Containment Strategy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 02 Jul 2026 18:38:28 +0000</news:publication_date>
+            <news:title>Modi-Takaichi Summit: Quad Reinforcement Amid China Containment Strategy</news:title>
+            
+            <news:keywords>Q, u, a, d, ,,  , I, n, d, o, -, P, a, c, i, f, i, c, ,,  , C, h, i, n, a,  , c, o, n, t, a, i, n, m, e, n, t, ,,  , P, a, k, i, s, t, a, n,  , t, e, r, r, o, r, ,,  , U, N, S, C,  , r, e, f, o, r, m, ,,  , J, a, p, a, n, -, I, n, d, i, a,  , d, e, f, e, n, s, e,  , c, o, o, p, e, r, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/delhi-s-tehran-blockade-a-calculated-move-on-kashmir-s-geopolitical-chessboard-045738.html</loc>
+        <lastmod>Thu, 02 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/A-Shia-Muslim-man-kisses-the-portrait-of-Irans-late-Supreme-Leader-Ayatollah-Ali-Khamenei.jpg</image:loc>
+            <image:title>Delhi&#39;s Tehran Blockade: A Calculated Move on Kashmir&#39;s Geopolitical Chessboard</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 02 Jul 2026 18:24:37 +0000</news:publication_date>
+            <news:title>Delhi&#39;s Tehran Blockade: A Calculated Move on Kashmir&#39;s Geopolitical Chessboard</news:title>
+            
+            <news:keywords>K, a, s, h, m, i, r, ,,  , I, r, a, n, ,,  , D, e, l, h, i, ,,  , T, e, h, r, a, n, ,,  , S, h, i, a,  , l, e, a, d, e, r, ,,  , H, u, r, r, i, y, a, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , S, o, u, t, h,  , A, s, i, a</news:keywords>
             
         </news:news>
     </url>
@@ -855,6 +927,30 @@
             <news:title>PRISM IPO: Strategic Analysis of Shareholding and Market Positioning</news:title>
             
             <news:keywords>O, Y, O, ,,  , P, R, I, S, M, ,,  , I, P, O, ,,  , D, R, H, P, ,,  , S, h, a, r, e, h, o, l, d, i, n, g, ,,  , R, i, t, e, s, h,  , A, g, a, r, w, a, l, ,,  , S, o, f, t, B, a, n, k, ,,  , S, E, B, I, ,,  , H, o, s, p, i, t, a, l, i, t, y, ,,  , I, n, d, i, a,  , M, a, r, k, e, t, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/fibe-ipo-india-s-fintech-push-for-financial-sovereignty-045462.html</loc>
+        <lastmod>Wed, 01 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/ftr-24.jpg</image:loc>
+            <image:title>Fibe IPO: India&#39;s Fintech Push for Financial Sovereignty</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 01 Jul 2026 14:40:16 +0000</news:publication_date>
+            <news:title>Fibe IPO: India&#39;s Fintech Push for Financial Sovereignty</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , f, i, n, t, e, c, h, ,,  , f, i, n, a, n, c, i, a, l,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , d, i, g, i, t, a, l,  , l, e, n, d, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , I, P, O,  , a, n, a, l, y, s, i, s</news:keywords>
             
         </news:news>
     </url>
@@ -3476,6 +3572,30 @@
             </news:publication>
             <news:publication_date>Fri, 12 Jun 2026 19:28:59 +0000</news:publication_date>
             <news:title>Pentagon may ‘sacrifice’ traditional weapons to buy more drones if reconciliation fails: CTO</news:title>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/addverb-s-intralogistics-dominance-amid-vc-rebound-045438.html</loc>
+        <lastmod>Fri, 03 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/c5c652a0fb5a11eca125d7821ea2fbc4/LatestPPTTemplates12-1783003237688.jpg</image:loc>
+            <image:title>Addverb&#39;s Intralogistics Dominance Amid VC Rebound</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 03 Jul 2026 02:00:00 GMT</news:publication_date>
+            <news:title>Addverb&#39;s Intralogistics Dominance Amid VC Rebound</news:title>
+            
+            <news:keywords>A, d, d, v, e, r, b, ,,  , i, n, t, r, a, l, o, g, i, s, t, i, c, s, ,,  , w, a, r, e, h, o, u, s, e,  , a, u, t, o, m, a, t, i, o, n, ,,  , v, e, n, t, u, r, e,  , c, a, p, i, t, a, l, ,,  , I, n, d, i, a,  , s, t, a, r, t, u, p, s, ,,  , V, C,  , f, u, n, d, i, n, g, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y</news:keywords>
             
         </news:news>
     </url>
