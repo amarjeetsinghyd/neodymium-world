@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/manipur-violence-cm-s-regret-exposes-fragile-ethnic-balance-180775.html</loc>
+        <lastmod>Sat, 04 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/04/IE-Image-57.jpg</image:loc>
+            <image:title>Manipur Violence: CM&#39;s Regret Exposes Fragile Ethnic Balance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 04 Jul 2026 15:14:13 +0000</news:publication_date>
+            <news:title>Manipur Violence: CM&#39;s Regret Exposes Fragile Ethnic Balance</news:title>
+            
+            <news:keywords>M, a, n, i, p, u, r, ,,  , e, t, h, n, i, c,  , v, i, o, l, e, n, c, e, ,,  , K, u, k, i, -, Z, o, ,,  , N, o, r, t, h, e, a, s, t,  , I, n, d, i, a, ,,  , p, o, l, i, t, i, c, a, l,  , s, t, a, b, i, l, i, t, y, ,,  , s, e, c, u, r, i, t, y,  , i, m, p, l, i, c, a, t, i, o, n, s, ,,  , s, e, p, a, r, a, t, i, s, t,  , m, o, v, e, m, e, n, t, s, ,,  , s, t, r, a, t, e, g, i, c,  , a, n, a, l, y, s, i, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-digital-sovereignty-push-telegram-as-battleground-for-content-control-162413.html</loc>
         <lastmod>Sat, 04 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -87,6 +111,30 @@
             <news:title>India&#39;s Digital Sovereignty Push: Telegram as Battleground for Content Control</news:title>
             
             <news:keywords>T, e, l, e, g, r, a, m, ,,  , I, n, d, i, a, ,,  , P, i, r, a, c, y, ,,  , D, i, g, i, t, a, l,  , S, o, v, e, r, e, i, g, n, t, y, ,,  , I, T,  , A, c, t, ,,  , P, l, a, t, f, o, r, m,  , A, c, c, o, u, n, t, a, b, i, l, i, t, y, ,,  , C, o, n, t, e, n, t,  , R, e, g, u, l, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/northeast-rail-modernization-boosts-strategic-connectivity-180827.html</loc>
+        <lastmod>Sat, 04 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/memu-train-tripura-1.jpg</image:loc>
+            <image:title>Northeast Rail Modernization Boosts Strategic Connectivity</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 04 Jul 2026 14:50:09 +0000</news:publication_date>
+            <news:title>Northeast Rail Modernization Boosts Strategic Connectivity</news:title>
+            
+            <news:keywords>N, o, r, t, h, e, a, s, t,  , I, n, d, i, a, ,,  , M, E, M, U,  , t, r, a, i, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , c, o, n, n, e, c, t, i, v, i, t, y, ,,  , I, n, d, i, a, n,  , R, a, i, l, w, a, y, s,  , m, o, d, e, r, n, i, z, a, t, i, o, n, ,,  , r, e, g, i, o, n, a, l,  , d, e, f, e, n, s, e,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e</news:keywords>
             
         </news:news>
     </url>
@@ -116,6 +164,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-tech-rally-signals-strategic-shift-in-economic-sovereignty-180635.html</loc>
+        <lastmod>Sat, 04 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/06/Feature-100-24.jpg</image:loc>
+            <image:title>India&#39;s Tech Rally Signals Strategic Shift in Economic Sovereignty</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 04 Jul 2026 13:58:02 +0000</news:publication_date>
+            <news:title>India&#39;s Tech Rally Signals Strategic Shift in Economic Sovereignty</news:title>
+            
+            <news:keywords>I, n, d, i, a, n,  , t, e, c, h,  , s, t, o, c, k, s, ,,  , I, P, O,  , m, o, m, e, n, t, u, m, ,,  , m, a, r, k, e, t,  , s, e, n, t, i, m, e, n, t, ,,  , d, i, g, i, t, a, l,  , e, c, o, n, o, m, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , f, i, n, t, e, c, h, ,,  , s, t, a, r, t, u, p,  , e, c, o, s, y, s, t, e, m</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/eu-s-google-fine-signals-new-tech-sovereignty-battle-for-india-170606.html</loc>
         <lastmod>Sat, 04 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -140,6 +212,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-startup-funding-pivot-debt-dominance-and-ai-surge-redefine-investment-la-180680.html</loc>
+        <lastmod>Sat, 04 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/ftr-30.jpg</image:loc>
+            <image:title>India&#39;s Startup Funding Pivot: Debt Dominance and AI Surge Redefine Investment Landscape</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 04 Jul 2026 12:42:46 +0000</news:publication_date>
+            <news:title>India&#39;s Startup Funding Pivot: Debt Dominance and AI Surge Redefine Investment Landscape</news:title>
+            
+            <news:keywords>I, n, d, i, a, n,  , s, t, a, r, t, u, p, s, ,,  , v, e, n, t, u, r, e,  , d, e, b, t, ,,  , A, I,  , f, u, n, d, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , t, e, c, h,  , i, n, v, e, s, t, m, e, n, t, ,,  , S, o, u, t, h,  , A, s, i, a, ,,  , s, t, a, r, t, u, p,  , e, c, o, s, y, s, t, e, m, ,,  , f, u, n, d, i, n, g,  , t, r, e, n, d, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/ev-security-flaws-reveal-india-s-tech-dependency-crisis-170756.html</loc>
         <lastmod>Sat, 04 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -159,6 +255,30 @@
             <news:title>EV Security Flaws Reveal India&#39;s Tech Dependency Crisis</news:title>
             
             <news:keywords>E, V,  , s, e, c, u, r, i, t, y, ,,  , I, n, d, i, a,  , c, y, b, e, r, s, e, c, u, r, i, t, y, ,,  , C, h, i, n, e, s, e,  , a, p, p, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , I, o, T,  , v, u, l, n, e, r, a, b, i, l, i, t, i, e, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-terrorist-designations-strategic-countermeasure-against-cross-border-ter-180921.html</loc>
+        <lastmod>Sat, 04 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/04NagrotaAttack.jpg</image:loc>
+            <image:title>India&#39;s Terrorist Designations: Strategic Countermeasure Against Cross-Border Terrorism</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 04 Jul 2026 10:40:10 +0000</news:publication_date>
+            <news:title>India&#39;s Terrorist Designations: Strategic Countermeasure Against Cross-Border Terrorism</news:title>
+            
+            <news:keywords>t, e, r, r, o, r, i, s, m, ,,  , c, o, u, n, t, e, r, t, e, r, r, o, r, i, s, m, ,,  , P, a, k, i, s, t, a, n, ,,  , L, e, T, ,,  , J, e, M, ,,  , n, a, t, i, o, n, a, l,  , s, e, c, u, r, i, t, y, ,,  , s, t, r, a, t, e, g, i, c,  , a, n, a, l, y, s, i, s, ,,  , d, e, f, e, n, s, e,  , p, o, l, i, c, y</news:keywords>
             
         </news:news>
     </url>
