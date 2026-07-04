@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-03</lastmod>
+        <lastmod>2026-07-04</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-03</lastmod>
+        <lastmod>2026-07-04</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/manipur-mla-s-delayed-burial-exposes-state-s-ethnic-governance-failure-131357.html</loc>
+        <lastmod>Sat, 04 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/Vungzagin-Valte_20260703192056.jpeg</image:loc>
+            <image:title>Manipur MLA&#39;s Delayed Burial Exposes State&#39;s Ethnic Governance Failure</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 04 Jul 2026 01:40:30 +0000</news:publication_date>
+            <news:title>Manipur MLA&#39;s Delayed Burial Exposes State&#39;s Ethnic Governance Failure</news:title>
+            
+            <news:keywords>M, a, n, i, p, u, r, ,,  , e, t, h, n, i, c,  , c, o, n, f, l, i, c, t, ,,  , K, u, k, i, -, Z, o, m, i, ,,  , g, o, v, e, r, n, a, n, c, e,  , f, a, i, l, u, r, e, ,,  , N, o, r, t, h, e, a, s, t,  , I, n, d, i, a, ,,  , p, o, l, i, t, i, c, a, l,  , v, i, o, l, e, n, c, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, e, c, u, r, i, t, y,  , i, m, p, l, i, c, a, t, i, o, n, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/china-s-power-play-strategic-implications-of-indian-procurement-policy-shift-131411.html</loc>
+        <lastmod>Fri, 03 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/power-lines-file-photo.jpg</image:loc>
+            <image:title>China&#39;s Power Play: Strategic Implications of Indian Procurement Policy Shift</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 03 Jul 2026 16:39:56 +0000</news:publication_date>
+            <news:title>China&#39;s Power Play: Strategic Implications of Indian Procurement Policy Shift</news:title>
+            
+            <news:keywords>C, h, i, n, a,  , I, n, d, i, a,  , p, o, w, e, r,  , s, e, c, t, o, r, ,,  , p, r, o, c, u, r, e, m, e, n, t,  , e, x, e, m, p, t, i, o, n, s, ,,  , s, t, r, a, t, e, g, i, c,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , F, D, I,  , p, o, l, i, c, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , i, m, p, l, i, c, a, t, i, o, n, s</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/drdo-s-tara-strategic-analysis-of-india-s-affordable-precision-strike-capability-105786.html</loc>
@@ -255,6 +303,78 @@
             <news:title>Karnataka Gig Workers Act: State-Federal Regulatory Clash Threatens Platform Economy</news:title>
             
             <news:keywords>g, i, g,  , e, c, o, n, o, m, y,  , r, e, g, u, l, a, t, i, o, n, ,,  , K, a, r, n, a, t, a, k, a,  , l, a, w, ,,  , f, e, d, e, r, a, l, i, s, m, ,,  , p, l, a, t, f, o, r, m,  , c, o, m, p, l, i, a, n, c, e, ,,  , s, o, c, i, a, l,  , s, e, c, u, r, i, t, y, ,,  , g, i, g,  , w, o, r, k, e, r, s,  , r, i, g, h, t, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/political-harassment-in-hospitals-a-threat-to-india-s-healthcare-security-131424.html</loc>
+        <lastmod>Fri, 03 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/docs.jpg</image:loc>
+            <image:title>Political Harassment in Hospitals: A Threat to India&#39;s Healthcare Security</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 03 Jul 2026 16:24:58 +0000</news:publication_date>
+            <news:title>Political Harassment in Hospitals: A Threat to India&#39;s Healthcare Security</news:title>
+            
+            <news:keywords>h, e, a, l, t, h, c, a, r, e,  , s, e, c, u, r, i, t, y, ,,  , p, o, l, i, t, i, c, a, l,  , h, a, r, a, s, s, m, e, n, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , m, e, d, i, c, a, l,  , s, a, f, e, t, y, ,,  , p, u, b, l, i, c,  , s, e, r, v, i, c, e,  , i, n, t, e, g, r, i, t, y, ,,  , I, n, d, i, a,  , d, e, f, e, n, s, e,  , p, o, s, t, u, r, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/modi-s-indo-pacific-tour-strategic-realignment-and-defense-partnerships-131473.html</loc>
+        <lastmod>Fri, 03 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/06/Prime-Minister-Narendra-Modi_20260609202857_20260620151341_20260625235004.jpg</image:loc>
+            <image:title>Modi&#39;s Indo-Pacific Tour: Strategic Realignment and Defense Partnerships</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 03 Jul 2026 15:06:25 +0000</news:publication_date>
+            <news:title>Modi&#39;s Indo-Pacific Tour: Strategic Realignment and Defense Partnerships</news:title>
+            
+            <news:keywords>M, o, d, i, ,,  , I, n, d, o, -, P, a, c, i, f, i, c, ,,  , D, e, f, e, n, s, e,  , C, o, o, p, e, r, a, t, i, o, n, ,,  , S, t, r, a, t, e, g, i, c,  , P, a, r, t, n, e, r, s, h, i, p, s, ,,  , A, c, t,  , E, a, s, t,  , P, o, l, i, c, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/amrit-bharat-scheme-strategic-infrastructure-modernization-and-defense-implicati-131494.html</loc>
+        <lastmod>Fri, 03 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/gandhinagar-jaipur.jpg</image:loc>
+            <image:title>Amrit Bharat Scheme: Strategic Infrastructure Modernization and Defense Implications</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 03 Jul 2026 14:48:39 +0000</news:publication_date>
+            <news:title>Amrit Bharat Scheme: Strategic Infrastructure Modernization and Defense Implications</news:title>
+            
+            <news:keywords>A, m, r, i, t,  , B, h, a, r, a, t,  , S, t, a, t, i, o, n,  , S, c, h, e, m, e, ,,  , I, n, d, i, a, n,  , R, a, i, l, w, a, y, s, ,,  , D, e, f, e, n, s, e,  , I, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, t, r, a, t, e, g, i, c,  , M, o, d, e, r, n, i, z, a, t, i, o, n, ,,  , D, u, a, l, -, U, s, e,  , T, e, c, h, n, o, l, o, g, y</news:keywords>
             
         </news:news>
     </url>
