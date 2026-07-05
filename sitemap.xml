@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-04</lastmod>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-04</lastmod>
+        <lastmod>2026-07-05</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,78 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/whatsapp-username-ban-india-s-digital-sovereignty-play-218651.html</loc>
+        <lastmod>Sun, 05 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/k1lrh1/article71185016.ece/alternates/LANDSCAPE_1200/WhatsApp_Usernames_26287.jpg</image:loc>
+            <image:title>WhatsApp Username Ban: India&#39;s Digital Sovereignty Play</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 05 Jul 2026 06:56:38 +0530</news:publication_date>
+            <news:title>WhatsApp Username Ban: India&#39;s Digital Sovereignty Play</news:title>
+            
+            <news:keywords>W, h, a, t, s, A, p, p, ,,  , D, i, g, i, t, a, l,  , S, o, v, e, r, e, i, g, n, t, y, ,,  , C, y, b, e, r, s, e, c, u, r, i, t, y, ,,  , I, n, d, i, a,  , R, e, g, u, l, a, t, i, o, n, ,,  , M, e, t, a, ,,  , C, y, b, e, r,  , T, h, r, e, a, t, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/indian-seafarers-strategic-vulnerability-in-persian-gulf-conflicts-218791.html</loc>
+        <lastmod>Sat, 04 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/P1-Pune-sailor-2col.jpg</image:loc>
+            <image:title>Indian Seafarers: Strategic Vulnerability in Persian Gulf Conflicts</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 04 Jul 2026 22:57:16 +0000</news:publication_date>
+            <news:title>Indian Seafarers: Strategic Vulnerability in Persian Gulf Conflicts</news:title>
+            
+            <news:keywords>I, n, d, i, a, n,  , s, e, a, f, a, r, e, r, s, ,,  , P, e, r, s, i, a, n,  , G, u, l, f,  , c, o, n, f, l, i, c, t, ,,  , m, a, r, i, t, i, m, e,  , s, e, c, u, r, i, t, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , v, u, l, n, e, r, a, b, i, l, i, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/gender-disparity-in-urban-india-economic-implications-for-defense-workforce-218812.html</loc>
+        <lastmod>Sat, 04 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/women-jobs-1_20260704222018.jpg</image:loc>
+            <image:title>Gender Disparity in Urban India: Economic Implications for Defense Workforce</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 04 Jul 2026 22:51:14 +0000</news:publication_date>
+            <news:title>Gender Disparity in Urban India: Economic Implications for Defense Workforce</news:title>
+            
+            <news:keywords>g, e, n, d, e, r,  , p, a, y,  , g, a, p, ,,  , u, r, b, a, n,  , I, n, d, i, a, ,,  , d, e, f, e, n, s, e,  , w, o, r, k, f, o, r, c, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , e, c, o, n, o, m, i, c,  , s, e, c, u, r, i, t, y, ,,  , l, a, b, o, r,  , m, a, r, k, e, t,  , d, y, n, a, m, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/j-k-book-ban-strategic-implications-for-india-s-narrative-control-191978.html</loc>
@@ -1172,6 +1244,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-rs-52-000-crore-defense-procurement-strategic-implications-for-regional--218834.html</loc>
+        <lastmod>Fri, 03 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/Indian-Army-drone-file-photo.jpg</image:loc>
+            <image:title>India&#39;s Rs 52,000 Crore Defense Procurement: Strategic Implications for Regional Power Balance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 03 Jul 2026 12:40:18 +0000</news:publication_date>
+            <news:title>India&#39;s Rs 52,000 Crore Defense Procurement: Strategic Implications for Regional Power Balance</news:title>
+            
+            <news:keywords>d, e, f, e, n, s, e,  , p, r, o, c, u, r, e, m, e, n, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , m, o, d, e, r, n, i, z, a, t, i, o, n, ,,  , r, e, g, i, o, n, a, l,  , s, e, c, u, r, i, t, y, ,,  , m, i, l, i, t, a, r, y,  , c, a, p, a, b, i, l, i, t, y, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/microsoft-s-2-5b-ai-pivot-a-strategic-threat-to-openai-s-enterprise-dominance-086669.html</loc>
         <lastmod>Fri, 03 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -1191,6 +1287,30 @@
             <news:title>Microsoft&#39;s $2.5B AI Pivot: A Strategic Threat to OpenAI&#39;s Enterprise Dominance</news:title>
             
             <news:keywords>M, i, c, r, o, s, o, f, t, ,,  , O, p, e, n, A, I, ,,  , A, n, t, h, r, o, p, i, c, ,,  , A, I,  , i, n, t, e, g, r, a, t, i, o, n, ,,  , e, n, t, e, r, p, r, i, s, e,  , A, I, ,,  , $, 2, ., 5,  , b, i, l, l, i, o, n, ,,  , P, a, l, a, n, t, i, r, ,,  , A, W, S, ,,  , s, t, r, a, t, e, g, i, c,  , f, o, r, e, c, a, s, t, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/assam-violence-exposes-fault-lines-in-india-s-northeast-social-fabric-218850.html</loc>
+        <lastmod>Fri, 03 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/ICU.jpg</image:loc>
+            <image:title>Assam Violence Exposes Fault Lines in India&#39;s Northeast Social Fabric</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 03 Jul 2026 11:32:04 +0000</news:publication_date>
+            <news:title>Assam Violence Exposes Fault Lines in India&#39;s Northeast Social Fabric</news:title>
+            
+            <news:keywords>A, s, s, a, m,  , v, i, o, l, e, n, c, e, ,,  , N, o, r, t, h, e, a, s, t,  , I, n, d, i, a, ,,  , s, o, c, i, a, l,  , t, e, n, s, i, o, n, s, ,,  , p, o, l, i, t, i, c, a, l,  , e, x, p, l, o, i, t, a, t, i, o, n, ,,  , s, e, c, u, r, i, t, y,  , i, m, p, l, i, c, a, t, i, o, n, s</news:keywords>
             
         </news:news>
     </url>
