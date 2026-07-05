@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/federalism-clash-karnataka-s-gig-law-threatens-national-platform-regulation-257572.html</loc>
+        <lastmod>Sun, 05 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/ftr-41.jpg</image:loc>
+            <image:title>Federalism Clash: Karnataka&#39;s Gig Law Threatens National Platform Regulation</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 05 Jul 2026 11:17:51 +0000</news:publication_date>
+            <news:title>Federalism Clash: Karnataka&#39;s Gig Law Threatens National Platform Regulation</news:title>
+            
+            <news:keywords>g, i, g,  , e, c, o, n, o, m, y, ,,  , K, a, r, n, a, t, a, k, a,  , l, a, w, ,,  , s, o, c, i, a, l,  , s, e, c, u, r, i, t, y, ,,  , p, l, a, t, f, o, r, m,  , r, e, g, u, l, a, t, i, o, n, ,,  , f, e, d, e, r, a, l, i, s, m, ,,  , g, i, g,  , w, o, r, k, e, r,  , w, e, l, f, a, r, e, ,,  , c, o, n, s, t, i, t, u, t, i, o, n, a, l,  , l, a, w, ,,  , I, n, d, i, a,  , r, e, g, u, l, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-52-000-crore-defense-push-strategic-implications-for-regional-power-bala-249360.html</loc>
         <lastmod>Sun, 05 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -183,6 +207,78 @@
             <news:title>Iran&#39;s Diplomatic Renaissance: Khamenei Funeral Reveals Expanding Global Influence</news:title>
             
             <news:keywords>I, r, a, n,  , d, i, p, l, o, m, a, c, y, ,,  , K, h, a, m, e, n, e, i,  , f, u, n, e, r, a, l, ,,  , r, e, g, i, o, n, a, l,  , i, n, f, l, u, e, n, c, e, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , a, n, a, l, y, s, i, s, ,,  , S, o, u, t, h,  , A, s, i, a</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/iran-israel-escalation-threatens-regional-stability-tests-india-s-strategic-auto-257504.html</loc>
+        <lastmod>Sun, 05 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8nShZfgnNhMjn5b-XqM2YAPNqScxnzM3N3npMbteQYLyRo2elukG7ngkSV9LYNbQP4d4NH82-Si4UuI1pmjGe5kdx57R1rJC6cqa3TOwDIsOx9oX8vziUDTGLmhVGL6I9jc_nrxMom6lzR_k1ch3UbxbT4NfBeTAhbPVfJRu4gJcE6HjlSI_e56Szyy4/s72-c/Masoud_Pezeshkian.jpg</image:loc>
+            <image:title>Iran-Israel Escalation Threatens Regional Stability, Tests India&#39;s Strategic Autonomy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 05 Jul 2026 10:25:00 +0000</news:publication_date>
+            <news:title>Iran-Israel Escalation Threatens Regional Stability, Tests India&#39;s Strategic Autonomy</news:title>
+            
+            <news:keywords>I, r, a, n,  , I, s, r, a, e, l,  , c, o, n, f, l, i, c, t, ,,  , I, n, d, i, a, n,  , d, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , r, e, g, i, o, n, a, l,  , s, t, a, b, i, l, i, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/odisha-voter-purge-strategic-implications-for-india-s-electoral-stability-257649.html</loc>
+        <lastmod>Sun, 05 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/bengal-sir.jpg</image:loc>
+            <image:title>Odisha Voter Purge: Strategic Implications for India&#39;s Electoral Stability</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 05 Jul 2026 08:58:48 +0000</news:publication_date>
+            <news:title>Odisha Voter Purge: Strategic Implications for India&#39;s Electoral Stability</news:title>
+            
+            <news:keywords>O, d, i, s, h, a,  , e, l, e, c, t, i, o, n, s, ,,  , v, o, t, e, r,  , l, i, s, t,  , r, e, v, i, s, i, o, n, ,,  , I, n, d, i, a, n,  , e, l, e, c, t, o, r, a, l,  , p, o, l, i, t, i, c, s, ,,  , B, J, D,  , o, p, p, o, s, i, t, i, o, n, ,,  , e, l, e, c, t, o, r, a, l,  , s, t, a, b, i, l, i, t, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t,  , g, o, v, e, r, n, a, n, c, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/kashmir-militant-resurgence-threatens-regional-stability-257698.html</loc>
+        <lastmod>Sun, 05 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/shopian-1.jpg</image:loc>
+            <image:title>Kashmir Militant Resurgence Threatens Regional Stability</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 05 Jul 2026 07:17:10 +0000</news:publication_date>
+            <news:title>Kashmir Militant Resurgence Threatens Regional Stability</news:title>
+            
+            <news:keywords>K, a, s, h, m, i, r, ,,  , m, i, l, i, t, a, n, c, y, ,,  , s, e, c, u, r, i, t, y,  , o, p, e, r, a, t, i, o, n, s, ,,  , c, o, u, n, t, e, r, -, i, n, s, u, r, g, e, n, c, y, ,,  , r, e, g, i, o, n, a, l,  , s, t, a, b, i, l, i, t, y, ,,  , d, e, f, e, n, s, e</news:keywords>
             
         </news:news>
     </url>
@@ -5909,6 +6005,30 @@
             <news:title>India&#39;s IPO Frenzy &amp; EV Infrastructure Gap: A Strategic Analysis</news:title>
             
             <news:keywords>I, n, d, i, a,  , I, P, O, ,,  , E, V,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , d, e, f, e, n, s, e,  , p, o, s, t, u, r, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , f, o, r, e, c, a, s, t, i, n, g, ,,  , m, a, r, k, e, t,  , a, n, a, l, y, s, i, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-regulatory-crackdown-on-meta-exposes-digital-sovereignty-battle-257553.html</loc>
+        <lastmod>Sun, 05 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/8e7cc4102d6c11e9aa979329348d4c3e/Screenshot2026-04-10at5-1775820802777.png</image:loc>
+            <image:title>India&#39;s Regulatory Crackdown on Meta Exposes Digital Sovereignty Battle</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 05 Jul 2026 11:49:35 GMT</news:publication_date>
+            <news:title>India&#39;s Regulatory Crackdown on Meta Exposes Digital Sovereignty Battle</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , M, e, t, a,  , r, e, g, u, l, a, t, i, o, n, ,,  , d, i, g, i, t, a, l,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , C, S, E, A, M, ,,  , p, l, a, t, f, o, r, m,  , a, c, c, o, u, n, t, a, b, i, l, i, t, y, ,,  , I, T,  , A, c, t</news:keywords>
             
         </news:news>
     </url>
