@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-ai-pivot-from-global-south-solidarity-to-us-alignment-375791.html</loc>
+        <lastmod>Tue, 07 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/fgfgvl/article71190477.ece/alternates/LANDSCAPE_1200/AFP_B9D699E.jpg</image:loc>
+            <image:title>India&#39;s AI Pivot: From Global South Solidarity to US Alignment</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 07 Jul 2026 01:33:49 +0530</news:publication_date>
+            <news:title>India&#39;s AI Pivot: From Global South Solidarity to US Alignment</news:title>
+            
+            <news:keywords>I, n, d, i, a, ,,  , A, I,  , g, o, v, e, r, n, a, n, c, e, ,,  , G, l, o, b, a, l,  , S, o, u, t, h, ,,  , t, e, c, h, n, o, l, o, g, y,  , p, o, l, i, c, y, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , U, S, -, I, n, d, i, a,  , r, e, l, a, t, i, o, n, s, ,,  , d, i, g, i, t, a, l,  , s, o, v, e, r, e, i, g, n, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/drdo-s-aesa-radar-breakthrough-signals-india-s-defense-self-reliance-359486.html</loc>
         <lastmod>Mon, 06 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -6970,6 +6994,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-strategic-tech-revolution-defense-implications-of-startup-innovation-375809.html</loc>
+        <lastmod>Mon, 06 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/DailyRoundupImages1600x900-1774005165949.jpg</image:loc>
+            <image:title>India&#39;s Strategic Tech Revolution: Defense Implications of Startup Innovation</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 06 Jul 2026 10:27:38 GMT</news:publication_date>
+            <news:title>India&#39;s Strategic Tech Revolution: Defense Implications of Startup Innovation</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , d, e, f, e, n, s, e,  , s, t, a, r, t, u, p, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , t, e, c, h,  , i, n, n, o, v, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-u30-founders-prioritize-product-development-over-fundraising-960094.html</loc>
         <lastmod>Wed, 01 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -7056,6 +7104,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/japan-s-deepening-economic-penetration-of-rural-india-through-suzuki-s-2-4b-impa-375886.html</loc>
+        <lastmod>Mon, 06 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/a09f22505c6411ea9c48a10bad99c62f/Imagespzl-1680421400903.jpg</image:loc>
+            <image:title>Japan&#39;s Deepening Economic Penetration of Rural India Through Suzuki&#39;s $2.4B Impact Fund</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 06 Jul 2026 08:14:49 GMT</news:publication_date>
+            <news:title>Japan&#39;s Deepening Economic Penetration of Rural India Through Suzuki&#39;s $2.4B Impact Fund</news:title>
+            
+            <news:keywords>S, u, z, u, k, i, ,,  , I, m, p, a, c, t,  , I, n, v, e, s, t, i, n, g, ,,  , R, u, r, a, l,  , I, n, d, i, a, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , J, a, p, a, n, -, I, n, d, i, a,  , R, e, l, a, t, i, o, n, s, ,,  , S, o, c, i, a, l,  , E, n, t, e, r, p, r, i, s, e, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/kapture-cx-s-10m-funding-signals-ai-enterprise-market-consolidation-787854.html</loc>
         <lastmod>Tue, 30 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -7094,6 +7166,30 @@
             <news:title>Leadership Resilience: How Early Adversity Shapes Strategic Decision-Making</news:title>
             
             <news:keywords>l, e, a, d, e, r, s, h, i, p,  , r, e, s, i, l, i, e, n, c, e, ,,  , s, t, r, a, t, e, g, i, c,  , d, e, c, i, s, i, o, n, -, m, a, k, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , l, e, a, d, e, r, s, h, i, p, ,,  , c, r, i, s, i, s,  , m, a, n, a, g, e, m, e, n, t, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , a, n, a, l, y, s, i, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/metago-s-strategic-implications-for-india-s-healthcare-self-reliance-375827.html</loc>
+        <lastmod>Mon, 06 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/d99b1110116911ed9e63f54395117598/KunalKapoor-1783330054336.png</image:loc>
+            <image:title>MetaGO&#39;s Strategic Implications for India&#39;s Healthcare Self-Reliance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 06 Jul 2026 09:50:50 GMT</news:publication_date>
+            <news:title>MetaGO&#39;s Strategic Implications for India&#39;s Healthcare Self-Reliance</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , h, e, a, l, t, h, c, a, r, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , m, e, t, a, b, o, l, i, c,  , h, e, a, l, t, h, ,,  , m, e, d, i, c, a, l,  , s, e, l, f, -, r, e, l, i, a, n, c, e, ,,  , d, i, g, i, t, a, l,  , h, e, a, l, t, h, ,,  , s, t, r, a, t, e, g, i, c,  , h, e, a, l, t, h, c, a, r, e</news:keywords>
             
         </news:news>
     </url>
@@ -7142,6 +7238,30 @@
             <news:title>Myntra&#39;s Ecosystem: A Blueprint for D2C Brand Scalability</news:title>
             
             <news:keywords>M, y, n, t, r, a, ,,  , D, 2, C, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , F, a, s, h, i, o, n,  , T, e, c, h, ,,  , R, e, t, a, i, l,  , S, t, r, a, t, e, g, y, ,,  , B, r, a, n, d,  , S, c, a, l, i, n, g, ,,  , E, O, R, S, ,,  , C, o, n, s, u, m, e, r,  , I, n, s, i, g, h, t, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/nykaa-s-fashion-surge-signals-india-s-digital-economic-resilience-375902.html</loc>
+        <lastmod>Mon, 06 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/f3638ff0dcc111ec93bca187955479ef/Resize-01-1691749538534.png</image:loc>
+            <image:title>Nykaa&#39;s Fashion Surge Signals India&#39;s Digital Economic Resilience</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 06 Jul 2026 07:06:39 GMT</news:publication_date>
+            <news:title>Nykaa&#39;s Fashion Surge Signals India&#39;s Digital Economic Resilience</news:title>
+            
+            <news:keywords>N, y, k, a, a, ,,  , F, a, s, h, i, o, n, ,,  , D, i, g, i, t, a, l,  , E, c, o, n, o, m, y, ,,  , I, n, d, i, a, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , E, -, c, o, m, m, e, r, c, e</news:keywords>
             
         </news:news>
     </url>
