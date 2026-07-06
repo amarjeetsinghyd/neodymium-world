@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-05</lastmod>
+        <lastmod>2026-07-06</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-05</lastmod>
+        <lastmod>2026-07-06</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,102 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/gpu-scarcity-threatens-india-s-ai-strategic-autonomy-305392.html</loc>
+        <lastmod>Mon, 06 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/GPU-Supply-ftr.jpg</image:loc>
+            <image:title>GPU Scarcity Threatens India&#39;s AI Strategic Autonomy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 06 Jul 2026 01:30:44 +0000</news:publication_date>
+            <news:title>GPU Scarcity Threatens India&#39;s AI Strategic Autonomy</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , A, I, ,,  , G, P, U,  , s, h, o, r, t, a, g, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , s, e, m, i, c, o, n, d, u, c, t, o, r,  , g, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/oyo-s-ipo-debt-repayment-vs-profitability-trade-off-in-global-expansion-305412.html</loc>
+        <lastmod>Mon, 06 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/IPRISM-PYOmage-1.jpg</image:loc>
+            <image:title>OYO&#39;s IPO: Debt Repayment vs Profitability Trade-off in Global Expansion</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 06 Jul 2026 00:30:12 +0000</news:publication_date>
+            <news:title>OYO&#39;s IPO: Debt Repayment vs Profitability Trade-off in Global Expansion</news:title>
+            
+            <news:keywords>O, Y, O,  , I, P, O, ,,  , P, R, I, S, M, ,,  , d, e, b, t,  , r, e, p, a, y, m, e, n, t, ,,  , p, r, o, f, i, t, a, b, i, l, i, t, y, ,,  , g, l, o, b, a, l,  , h, o, s, p, i, t, a, l, i, t, y, ,,  , I, n, d, i, a, n,  , s, t, a, r, t, u, p, s, ,,  , I, P, O,  , a, n, a, l, y, s, i, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/pandavani-s-legacy-cultural-resilience-in-india-s-security-apparatus-305447.html</loc>
+        <lastmod>Mon, 06 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/Teejan-Bai-2.jpg</image:loc>
+            <image:title>Pandavani&#39;s Legacy: Cultural Resilience in India&#39;s Security Apparatus</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 06 Jul 2026 00:25:04 +0000</news:publication_date>
+            <news:title>Pandavani&#39;s Legacy: Cultural Resilience in India&#39;s Security Apparatus</news:title>
+            
+            <news:keywords>P, a, n, d, a, v, a, n, i, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , C, u, l, t, u, r, a, l,  , D, e, f, e, n, s, e, ,,  , I, n, d, i, a, n,  , S, e, c, u, r, i, t, y, ,,  , T, r, i, b, a, l,  , A, r, t, ,,  , G, e, o, p, o, l, i, t, i, c, a, l,  , R, e, s, i, l, i, e, n, c, e, ,,  , I, n, t, e, r, n, a, l,  , S, e, c, u, r, i, t, y, ,,  , S, o, f, t,  , P, o, w, e, r</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/agnipath-retention-push-military-demands-higher-agniveer-conversion-rates-305487.html</loc>
+        <lastmod>Mon, 06 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/The-initial-batches-of-Agniveers-recruited-under-the-Agnipath-scheme-will-complete-their-4-year-tenure-with-the-services-later-this-year.-PTI-file.jpg</image:loc>
+            <image:title>Agnipath Retention Push: Military Demands Higher Agniveer Conversion Rates</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 06 Jul 2026 00:10:52 +0000</news:publication_date>
+            <news:title>Agnipath Retention Push: Military Demands Higher Agniveer Conversion Rates</news:title>
+            
+            <news:keywords>A, g, n, i, p, a, t, h, ,,  , A, g, n, i, v, e, e, r, ,,  , I, n, d, i, a, n,  , A, r, m, e, d,  , F, o, r, c, e, s, ,,  , M, i, l, i, t, a, r, y,  , R, e, t, e, n, t, i, o, n, ,,  , D, e, f, e, n, s, e,  , R, e, c, r, u, i, t, m, e, n, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, e, f, e, n, s, e,  , M, o, d, e, r, n, i, z, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/j-k-book-ban-signals-content-control-strategy-in-sensitive-region-267346.html</loc>
@@ -5962,6 +6058,30 @@
             <news:title>Bengaluru&#39;s Startup Surge Fuels India&#39;s Defense Tech Revolution</news:title>
             
             <news:keywords>B, e, n, g, a, l, u, r, u, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, ,,  , D, e, e, p, T, e, c, h, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, t, r, a, t, e, g, i, c,  , A, u, t, o, n, o, m, y, ,,  , I, n, n, o, v, a, t, i, o, n,  , E, c, o, s, y, s, t, e, m</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/clean-food-revolution-how-bengaluru-s-elvn-elvn-redefines-india-s-strategic-self-305363.html</loc>
+        <lastmod>Mon, 06 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/727115006d2011f09259ebc21ca89457/ELVNELVN1600x900-1783160225404.jpg</image:loc>
+            <image:title>Clean Food Revolution: How Bengaluru&#39;s ELVN-ELVN Redefines India&#39;s Strategic Self-Reliance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 06 Jul 2026 01:15:00 GMT</news:publication_date>
+            <news:title>Clean Food Revolution: How Bengaluru&#39;s ELVN-ELVN Redefines India&#39;s Strategic Self-Reliance</news:title>
+            
+            <news:keywords>A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , F, o, o, d,  , S, e, c, u, r, i, t, y, ,,  , C, l, e, a, n,  , L, a, b, e, l, ,,  , S, u, p, p, l, y,  , C, h, a, i, n, ,,  , S, t, r, a, t, e, g, i, c,  , S, e, l, f, -, R, e, l, i, a, n, c, e, ,,  , F, o, o, d,  , P, o, l, i, c, y, ,,  , A, g, r, i, c, u, l, t, u, r, a, l,  , I, n, n, o, v, a, t, i, o, n</news:keywords>
             
         </news:news>
     </url>
