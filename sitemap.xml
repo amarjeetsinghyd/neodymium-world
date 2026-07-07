@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-06</lastmod>
+        <lastmod>2026-07-07</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-06</lastmod>
+        <lastmod>2026-07-07</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -260,6 +260,54 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/nobroker-s-vertical-integration-strategy-from-property-listings-to-financial-ser-391502.html</loc>
+        <lastmod>Mon, 06 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/NoBroker-ftr.jpg</image:loc>
+            <image:title>NoBroker&#39;s Vertical Integration Strategy: From Property Listings to Financial Services Empire</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 06 Jul 2026 15:46:04 +0000</news:publication_date>
+            <news:title>NoBroker&#39;s Vertical Integration Strategy: From Property Listings to Financial Services Empire</news:title>
+            
+            <news:keywords>N, o, B, r, o, k, e, r, ,,  , P, r, o, p, t, e, c, h, ,,  , F, i, n, a, n, c, i, a, l,  , S, e, r, v, i, c, e, s, ,,  , V, e, r, t, i, c, a, l,  , I, n, t, e, g, r, a, t, i, o, n, ,,  , R, e, a, l,  , E, s, t, a, t, e, ,,  , P, r, o, f, i, t, a, b, i, l, i, t, y, ,,  , H, o, m, e,  , S, e, r, v, i, c, e, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/flipkart-s-esop-liquidity-signals-india-s-tech-self-reliance-push-391541.html</loc>
+        <lastmod>Mon, 06 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/02/alcatel-flipkart-featured.png</image:loc>
+            <image:title>Flipkart&#39;s ESOP Liquidity Signals India&#39;s Tech Self-Reliance Push</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 06 Jul 2026 14:20:15 +0000</news:publication_date>
+            <news:title>Flipkart&#39;s ESOP Liquidity Signals India&#39;s Tech Self-Reliance Push</news:title>
+            
+            <news:keywords>F, l, i, p, k, a, r, t, ,,  , E, S, O, P,  , l, i, q, u, i, d, i, t, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , I, n, d, i, a, n,  , t, e, c, h,  , e, c, o, s, y, s, t, e, m, ,,  , s, t, r, a, t, e, g, i, c,  , i, n, d, e, p, e, n, d, e, n, c, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/ai-surveillance-tech-india-s-strategic-advantage-in-missing-persons-investigatio-341815.html</loc>
         <lastmod>Mon, 06 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -284,6 +332,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/ai-powered-pharma-revolution-india-s-strategic-autonomy-in-drug-discovery-under--391606.html</loc>
+        <lastmod>Mon, 06 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/ftr-25.jpg</image:loc>
+            <image:title>AI-Powered Pharma Revolution: India&#39;s Strategic Autonomy in Drug Discovery Under Threat</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 06 Jul 2026 11:34:06 +0000</news:publication_date>
+            <news:title>AI-Powered Pharma Revolution: India&#39;s Strategic Autonomy in Drug Discovery Under Threat</news:title>
+            
+            <news:keywords>A, I, ,,  , P, h, a, r, m, a, c, e, u, t, i, c, a, l, s, ,,  , D, e, f, e, n, s, e, ,,  , S, t, r, a, t, e, g, i, c,  , A, u, t, o, n, o, m, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, r, u, g,  , D, i, s, c, o, v, e, r, y, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , I, n, d, i, a, ,,  , T, e, c, h, n, o, l, o, g, y,  , S, o, v, e, r, e, i, g, n, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/samsung-s-ai-memory-boom-strategic-implications-for-india-s-semiconductor-ambiti-367350.html</loc>
         <lastmod>Mon, 06 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -303,6 +375,54 @@
             <news:title>Samsung&#39;s AI Memory Boom: Strategic Implications for India&#39;s Semiconductor Ambitions</news:title>
             
             <news:keywords>S, a, m, s, u, n, g, ,,  , A, I,  , m, e, m, o, r, y, ,,  , s, e, m, i, c, o, n, d, u, c, t, o, r, ,,  , I, n, d, i, a, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, o, u, t, h,  , K, o, r, e, a, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/phonepe-leadership-exodus-signals-fintech-ipo-crisis-391623.html</loc>
+        <lastmod>Mon, 06 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Untitled-design-2026-07-06T150859.167.png</image:loc>
+            <image:title>PhonePe Leadership Exodus Signals Fintech IPO Crisis</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 06 Jul 2026 09:49:08 +0000</news:publication_date>
+            <news:title>PhonePe Leadership Exodus Signals Fintech IPO Crisis</news:title>
+            
+            <news:keywords>P, h, o, n, e, P, e,  , I, P, O, ,,  , F, i, n, t, e, c, h,  , l, e, a, d, e, r, s, h, i, p, ,,  , I, n, d, i, a, n,  , f, i, n, t, e, c, h, ,,  , M, a, r, k, e, t,  , i, n, s, t, a, b, i, l, i, t, y, ,,  , I, P, O,  , d, e, f, e, r, r, a, l, ,,  , F, i, n, t, e, c, h,  , c, r, i, s, i, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/apple-s-india-card-payment-return-signals-regulatory-victory-and-market-re-entry-391640.html</loc>
+        <lastmod>Mon, 06 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/01/Apple-CCI-featured.jpg</image:loc>
+            <image:title>Apple&#39;s India Card Payment Return Signals Regulatory Victory and Market Re-entry</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 06 Jul 2026 09:41:14 +0000</news:publication_date>
+            <news:title>Apple&#39;s India Card Payment Return Signals Regulatory Victory and Market Re-entry</news:title>
+            
+            <news:keywords>A, p, p, l, e, ,,  , I, n, d, i, a, ,,  , R, B, I, ,,  , P, a, y, m, e, n, t, s, ,,  , T, o, k, e, n, i, s, a, t, i, o, n, ,,  , A, p, p, l, e,  , P, a, y, ,,  , U, P, I, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , M, a, r, k, e, t,  , E, n, t, r, y</news:keywords>
             
         </news:news>
     </url>
