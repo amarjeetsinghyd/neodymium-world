@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-07</lastmod>
+        <lastmod>2026-07-08</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-07</lastmod>
+        <lastmod>2026-07-08</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-gulf-diplomacy-strategic-implications-for-defense-self-reliance-476468.html</loc>
+        <lastmod>Wed, 08 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/jaishankar-asean_20260413204303_20260707192726.jpg</image:loc>
+            <image:title>India&#39;s Gulf Diplomacy: Strategic Implications for Defense Self-Reliance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 08 Jul 2026 01:00:37 +0000</news:publication_date>
+            <news:title>India&#39;s Gulf Diplomacy: Strategic Implications for Defense Self-Reliance</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , d, e, f, e, n, s, e, ,,  , G, u, l, f,  , d, i, p, l, o, m, a, c, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , p, a, r, t, n, e, r, s, h, i, p, s, ,,  , r, e, g, i, o, n, a, l,  , s, e, c, u, r, i, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/bihar-s-toll-policy-political-maneuvering-or-fiscal-strategy-476531.html</loc>
+        <lastmod>Wed, 08 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/toll-booths-highway-1600_20260707205338.jpg</image:loc>
+            <image:title>Bihar&#39;s Toll Policy: Political Maneuvering or Fiscal Strategy?</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 08 Jul 2026 00:10:58 +0000</news:publication_date>
+            <news:title>Bihar&#39;s Toll Policy: Political Maneuvering or Fiscal Strategy?</news:title>
+            
+            <news:keywords>B, i, h, a, r,  , t, o, l, l,  , t, a, x, ,,  , r, o, a, d,  , u, s, e, r,  , f, e, e, ,,  , s, t, a, t, e,  , p, o, l, i, c, y, ,,  , p, o, l, i, t, i, c, a, l,  , s, t, r, a, t, e, g, y, ,,  , c, o, m, m, e, r, c, i, a, l,  , v, e, h, i, c, l, e, s</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/brahmos-astra-deal-redefines-indo-pacific-defense-architecture-444132.html</loc>
@@ -476,6 +524,54 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/picsee-s-collapse-exposes-cracks-in-india-s-startup-ecosystem-476372.html</loc>
+        <lastmod>Tue, 07 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Mayank-Bidawatka.png</image:loc>
+            <image:title>PicSee&#39;s Collapse Exposes Cracks in India&#39;s Startup Ecosystem</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 07 Jul 2026 06:48:00 +0000</news:publication_date>
+            <news:title>PicSee&#39;s Collapse Exposes Cracks in India&#39;s Startup Ecosystem</news:title>
+            
+            <news:keywords>I, n, d, i, a, n,  , s, t, a, r, t, u, p, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , t, e, c, h,  , e, c, o, s, y, s, t, e, m, ,,  , v, e, n, t, u, r, e,  , c, a, p, i, t, a, l, ,,  , m, a, r, k, e, t,  , a, n, a, l, y, s, i, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/punjab-militancy-film-takedown-signals-new-content-control-era-476390.html</loc>
+        <lastmod>Tue, 07 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/FTR-43.jpg</image:loc>
+            <image:title>Punjab Militancy Film Takedown Signals New Content Control Era</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 07 Jul 2026 06:43:24 +0000</news:publication_date>
+            <news:title>Punjab Militancy Film Takedown Signals New Content Control Era</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , c, o, n, t, e, n, t,  , r, e, g, u, l, a, t, i, o, n, ,,  , P, u, n, j, a, b,  , m, i, l, i, t, a, n, c, y, ,,  , I, T,  , R, u, l, e, s,  , 2, 0, 2, 1, ,,  , d, i, g, i, t, a, l,  , m, e, d, i, a,  , c, o, n, t, r, o, l, ,,  , n, a, t, i, o, n, a, l,  , s, e, c, u, r, i, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-75-000-crore-tank-modernization-strategic-shift-in-defense-procurement-406410.html</loc>
         <lastmod>Tue, 07 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -687,6 +783,30 @@
             <news:title>Trump&#39;s Iran Ultimatum: Deal or Decimation</news:title>
             
             <news:keywords>T, r, u, m, p, ,,  , I, r, a, n, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , M, i, l, i, t, a, r, y,  , A, c, t, i, o, n, ,,  , S, t, r, a, t, e, g, i, c,  , A, n, a, l, y, s, i, s, ,,  , R, e, g, i, o, n, a, l,  , S, t, a, b, i, l, i, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-drone-defense-independence-iindepro-s-motor-revolution-476453.html</loc>
+        <lastmod>Tue, 07 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/FTR-Daily-Brief-2026-07-06T234551.675.png</image:loc>
+            <image:title>India&#39;s Drone Defense Independence: IINDEPRO&#39;s Motor Revolution</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 07 Jul 2026 02:30:14 +0000</news:publication_date>
+            <news:title>India&#39;s Drone Defense Independence: IINDEPRO&#39;s Motor Revolution</news:title>
+            
+            <news:keywords>d, r, o, n, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , d, e, f, e, n, s, e,  , a, u, t, o, n, o, m, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , i, n, d, i, g, e, n, o, u, s,  , m, a, n, u, f, a, c, t, u, r, i, n, g, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , s, e, c, u, r, i, t, y</news:keywords>
             
         </news:news>
     </url>
