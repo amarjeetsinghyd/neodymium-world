@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/apple-s-eu-gatekeeper-ruling-strategic-implications-for-global-tech-competition-598087.html</loc>
+        <lastmod>Thu, 09 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/p9mski/article71200806.ece/alternates/LANDSCAPE_1200/2026-06-29T094641Z_287934665_RC2J3MAGJIW5_RTRMADP_3_APPLE-INDIA-ANTITRUST.JPG</image:loc>
+            <image:title>Apple&#39;s EU Gatekeeper Ruling: Strategic Implications for Global Tech Competition</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 09 Jul 2026 11:46:45 +0530</news:publication_date>
+            <news:title>Apple&#39;s EU Gatekeeper Ruling: Strategic Implications for Global Tech Competition</news:title>
+            
+            <news:keywords>E, U,  , D, i, g, i, t, a, l,  , M, a, r, k, e, t, s,  , A, c, t, ,,  , A, p, p, l, e, ,,  , B, i, g,  , T, e, c, h,  , r, e, g, u, l, a, t, i, o, n, ,,  , a, n, t, i, t, r, u, s, t, ,,  , m, a, r, k, e, t,  , a, c, c, e, s, s, ,,  , t, e, c, h,  , s, o, v, e, r, e, i, g, n, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-gaganyaan-parachute-test-signals-strategic-space-autonomy-579083.html</loc>
         <lastmod>Thu, 09 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -183,6 +207,102 @@
             <news:title>Pisarv&#39;s Indigenous Drones Bolster India&#39;s Defense Self-Reliance</news:title>
             
             <news:keywords>P, i, s, a, r, v, ,,  , I, n, d, i, a, n,  , A, r, m, y, ,,  , N, a, b, h,  , R, a, k, s, h, a, k, ,,  , D, e, f, e, n, s, e,  , S, e, l, f, -, R, e, l, i, a, n, c, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , E, l, e, c, t, r, o, n, i, c,  , W, a, r, f, a, r, e, ,,  , D, r, o, n, e,  , T, e, c, h, n, o, l, o, g, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/taliban-india-agricultural-diplomacy-challenges-pakistan-s-regional-hegemony-597935.html</loc>
+        <lastmod>Thu, 09 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnhRqTgPgH_mEyYR_K7cMnbTfU1kzx-e_ELz0-DazAofPCCd9KGlKtBXsAcHejJhwPWcORXB3PuBLx1mdcV2TMEK9bjtqSGaeKWzSKuNMnFwis0A0jLzzgA62SL-94PeYBMB18i0ZpVZQOuVWuZxXFpRPRL-aGe49aFiOPz0qLqnTd1rqeEkPuzKHCZZE/s72-c/Vikram_Misri_Taliban_Leader_2.jpg</image:loc>
+            <image:title>Taliban-India Agricultural Diplomacy Challenges Pakistan&#39;s Regional Hegemony</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 09 Jul 2026 05:57:00 +0000</news:publication_date>
+            <news:title>Taliban-India Agricultural Diplomacy Challenges Pakistan&#39;s Regional Hegemony</news:title>
+            
+            <news:keywords>T, a, l, i, b, a, n, ,,  , I, n, d, i, a, ,,  , P, a, k, i, s, t, a, n, ,,  , S, o, u, t, h,  , A, s, i, a, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/trump-s-nuclear-claims-expose-india-s-strategic-independence-597892.html</loc>
+        <lastmod>Thu, 09 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDrYYiwAvbfTXJYH-3yDTPyjGdRgzF8_cVbykek9TEzX5UJ6cMtUa1KnZgG0_3Bb3rDVyC6jjNkTBFXWZZN00oH_5MKlbs8e9xNnU4O_-9jj3IYNN8o_aiPzupqeTnX7qN84BnLRrD8v0mK9vl81M9icLEF8npbxUPYx-ZdktUMpn_D2KwaeqhCu6QzLc/s72-c/Modi_Trump.jpg</image:loc>
+            <image:title>Trump&#39;s Nuclear Claims Expose India&#39;s Strategic Independence</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 09 Jul 2026 05:57:00 +0000</news:publication_date>
+            <news:title>Trump&#39;s Nuclear Claims Expose India&#39;s Strategic Independence</news:title>
+            
+            <news:keywords>I, n, d, i, a, -, P, a, k, i, s, t, a, n,  , c, o, n, f, l, i, c, t, ,,  , T, r, u, m, p,  , m, e, d, i, a, t, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , n, u, c, l, e, a, r,  , d, e, t, e, r, r, e, n, c, e, ,,  , b, i, l, a, t, e, r, a, l,  , a, g, r, e, e, m, e, n, t, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/modi-australia-uranium-deal-reshapes-indo-pacific-strategic-calculus-597999.html</loc>
+        <lastmod>Thu, 09 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijA9yTG-YXnPFtm_kNFtOTMLxHjRoJ0wTSMle0HTNhDO0S_lR4Sv6hrE0MczMCO-yEFDn8nMee-dPdjSHOkGGGvgNqHa_qouKkzpbKmbwwy5sw_Hv6HBAv5fMcJ9jCX0VfO0U9jPzbK30rWW1zjvzlLdHwSWwnB2_ggTWL-Nqh53J6nkq-F2tLwprQTsY/s72-c/Modi_Albanese_4.jpg</image:loc>
+            <image:title>Modi-Australia Uranium Deal Reshapes Indo-Pacific Strategic Calculus</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 09 Jul 2026 05:56:00 +0000</news:publication_date>
+            <news:title>Modi-Australia Uranium Deal Reshapes Indo-Pacific Strategic Calculus</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , A, u, s, t, r, a, l, i, a,  , u, r, a, n, i, u, m, ,,  , I, n, d, o, -, P, a, c, i, f, i, c,  , s, t, r, a, t, e, g, y, ,,  , d, e, f, e, n, s, e,  , c, o, o, p, e, r, a, t, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , n, u, c, l, e, a, r,  , e, n, e, r, g, y, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/upi-qris-integration-india-s-financial-power-play-in-southeast-asia-598016.html</loc>
+        <lastmod>Thu, 09 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLX5pd4fKC0n-9qRvNEXyOwJRXr9kURW4ucnYD26t28xYA2JKQfuXCC47gtAhgqt11r_0xmJ5dU_oEP105jsA2skyr0AkYJbBLIcZb0gTFov-6gdpPDZk0Rm3CeP9ki5foqzL0UMrCEawDr5tgoGw_10bafPfcj3hq5m7_REmW_DP0Gc4l0hQq7LPL-k8/s72-c/UPI.jpg</image:loc>
+            <image:title>UPI-QRIS Integration: India&#39;s Financial Power Play in Southeast Asia</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 09 Jul 2026 05:56:00 +0000</news:publication_date>
+            <news:title>UPI-QRIS Integration: India&#39;s Financial Power Play in Southeast Asia</news:title>
+            
+            <news:keywords>U, P, I, ,,  , Q, R, I, S, ,,  , I, n, d, i, a,  , I, n, d, o, n, e, s, i, a, ,,  , D, i, g, i, t, a, l,  , P, a, y, m, e, n, t, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , F, i, n, a, n, c, i, a, l,  , T, e, c, h, n, o, l, o, g, y, ,,  , R, e, g, i, o, n, a, l,  , I, n, t, e, g, r, a, t, i, o, n, ,,  , G, e, o, p, o, l, i, t, i, c, s</news:keywords>
             
         </news:news>
     </url>
