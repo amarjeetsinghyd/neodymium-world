@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-09</lastmod>
+        <lastmod>2026-07-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-09</lastmod>
+        <lastmod>2026-07-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/ai-cyber-threats-redefine-india-s-financial-defense-architecture-650274.html</loc>
+        <lastmod>Thu, 09 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/s0i6t7/article71202033.ece/alternates/LANDSCAPE_1200/2026-06-22T230438Z_870792194_RC2BZLAF1AF3_RTRMADP_3_USA-CYBERSECURITY-AI.JPG</image:loc>
+            <image:title>AI Cyber Threats Redefine India&#39;s Financial Defense Architecture</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 09 Jul 2026 16:54:39 +0530</news:publication_date>
+            <news:title>AI Cyber Threats Redefine India&#39;s Financial Defense Architecture</news:title>
+            
+            <news:keywords>A, I,  , c, y, b, e, r, s, e, c, u, r, i, t, y, ,,  , I, n, d, i, a,  , b, a, n, k, i, n, g, ,,  , n, a, t, i, o, n, a, l,  , s, e, c, u, r, i, t, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , f, i, n, a, n, c, i, a, l,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , c, y, b, e, r,  , w, a, r, f, a, r, e</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/india-s-space-station-ambition-signals-strategic-shift-beyond-moon-617387.html</loc>
@@ -284,6 +308,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/cumin-co-case-study-domestic-manufacturing-wins-market-through-health-driven-inn-650352.html</loc>
+        <lastmod>Thu, 09 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Cumin-Co-ftr.jpg</image:loc>
+            <image:title>Cumin Co. Case Study: Domestic Manufacturing Wins Market Through Health-Driven Innovation</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 09 Jul 2026 11:30:48 +0000</news:publication_date>
+            <news:title>Cumin Co. Case Study: Domestic Manufacturing Wins Market Through Health-Driven Innovation</news:title>
+            
+            <news:keywords>A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, o, m, e, s, t, i, c,  , m, a, n, u, f, a, c, t, u, r, i, n, g, ,,  , I, n, d, i, a, n,  , s, t, a, r, t, u, p, s, ,,  , c, o, n, s, u, m, e, r,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , h, e, a, l, t, h,  , i, n, n, o, v, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/apple-s-30b-broadcom-bet-a-strategic-shift-in-us-tech-sovereignty-608188.html</loc>
         <lastmod>Thu, 09 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -303,6 +351,30 @@
             <news:title>Apple&#39;s $30B Broadcom Bet: A Strategic Shift in US Tech Sovereignty</news:title>
             
             <news:keywords>A, p, p, l, e, ,,  , B, r, o, a, d, c, o, m, ,,  , U, S,  , C, h, i, p, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, u, p, p, l, y,  , C, h, a, i, n, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, n, o, l, o, g, y, ,,  , T, r, u, m, p,  , A, d, m, i, n, i, s, t, r, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/strategic-loss-akhilesh-agarwal-s-death-impacts-india-s-defense-tech-ecosystem-650373.html</loc>
+        <lastmod>Thu, 09 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Untitled-design-2026-07-09T161319.763.png</image:loc>
+            <image:title>Strategic Loss: Akhilesh Agarwal&#39;s Death Impacts India&#39;s Defense Tech Ecosystem</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 09 Jul 2026 10:52:14 +0000</news:publication_date>
+            <news:title>Strategic Loss: Akhilesh Agarwal&#39;s Death Impacts India&#39;s Defense Tech Ecosystem</news:title>
+            
+            <news:keywords>d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, a, r, t, u, p,  , e, c, o, s, y, s, t, e, m, ,,  , s, t, r, a, t, e, g, i, c,  , i, n, n, o, v, a, t, i, o, n, ,,  , s, p, a, c, e, t, e, c, h, ,,  , r, o, b, o, t, i, c, s, ,,  , d, e, e, p, t, e, c, h</news:keywords>
             
         </news:news>
     </url>
@@ -9207,6 +9279,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/elasticrun-s-logistics-revolution-india-s-last-mile-dominance-strategy-650294.html</loc>
+        <lastmod>Fri, 10 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/220356402d6d11e9aa979329348d4c3e/ElasticRun1600x900-1783601887051.jpg</image:loc>
+            <image:title>ElasticRun&#39;s Logistics Revolution: India&#39;s Last-Mile Dominance Strategy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 10 Jul 2026 01:45:00 GMT</news:publication_date>
+            <news:title>ElasticRun&#39;s Logistics Revolution: India&#39;s Last-Mile Dominance Strategy</news:title>
+            
+            <news:keywords>E, l, a, s, t, i, c, R, u, n, ,,  , l, o, g, i, s, t, i, c, s, ,,  , q, u, i, c, k,  , c, o, m, m, e, r, c, e, ,,  , I, n, d, i, a, ,,  , l, a, s, t, -, m, i, l, e,  , d, e, l, i, v, e, r, y, ,,  , S, a, a, S,  , l, o, g, i, s, t, i, c, s, ,,  , r, u, r, a, l,  , e, x, p, a, n, s, i, o, n, ,,  , m, a, r, k, e, t,  , d, o, m, i, n, a, n, c, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/garuda-micron-alliance-signals-major-leap-in-india-s-indigenous-loitering-muniti-086779.html</loc>
         <lastmod>Fri, 03 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -9581,6 +9677,30 @@
             <news:title>India&#39;s Strategic Tech Revolution: Defense Implications of Startup Innovation</news:title>
             
             <news:keywords>I, n, d, i, a,  , d, e, f, e, n, s, e,  , s, t, a, r, t, u, p, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , t, e, c, h,  , i, n, n, o, v, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-tech-sovereignty-push-regulatory-pressure-fuels-indigenous-innovation-650313.html</loc>
+        <lastmod>Fri, 10 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/2026-CopyofNewPPTTemplates10-1783607700322.png</image:loc>
+            <image:title>India&#39;s Tech Sovereignty Push: Regulatory Pressure Fuels Indigenous Innovation</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 10 Jul 2026 02:00:00 GMT</news:publication_date>
+            <news:title>India&#39;s Tech Sovereignty Push: Regulatory Pressure Fuels Indigenous Innovation</news:title>
+            
+            <news:keywords>I, n, d, i, a, ,,  , T, e, c, h,  , R, e, g, u, l, a, t, i, o, n, ,,  , A, I,  , S, o, v, e, r, e, i, g, n, t, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, i, g, i, t, a, l,  , I, n, d, e, p, e, n, d, e, n, c, e, ,,  , M, e, t, a, ,,  , T, C, S, ,,  , G, o, o, g, l, e</news:keywords>
             
         </news:news>
     </url>
