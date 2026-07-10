@@ -68,6 +68,102 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/ai-supremacy-race-strategic-implications-for-india-s-defense-posture-683991.html</loc>
+        <lastmod>Fri, 10 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/sci-tech/technology/rhdbxd/article71206182.ece/alternates/LANDSCAPE_1200/GPT-5.6%20vs%20Fable%20Class%20Showdown.jpg</image:loc>
+            <image:title>AI Supremacy Race: Strategic Implications for India&#39;s Defense Posture</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 10 Jul 2026 16:13:04 +0530</news:publication_date>
+            <news:title>AI Supremacy Race: Strategic Implications for India&#39;s Defense Posture</news:title>
+            
+            <news:keywords>A, I,  , d, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , S, o, u, t, h,  , A, s, i, a, ,,  , t, e, c, h, n, o, l, o, g, y,  , r, a, c, e, ,,  , n, a, t, i, o, n, a, l,  , s, e, c, u, r, i, t, y, ,,  , i, n, d, i, g, e, n, o, u, s,  , d, e, v, e, l, o, p, m, e, n, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/gpt-5-6-s-geopolitical-impact-on-india-s-ai-sovereignty-684339.html</loc>
+        <lastmod>Fri, 10 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2025/08/chatgpt-hindi-featured-.png</image:loc>
+            <image:title>GPT-5.6&#39;s Geopolitical Impact on India&#39;s AI Sovereignty</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 10 Jul 2026 11:42:33 +0000</news:publication_date>
+            <news:title>GPT-5.6&#39;s Geopolitical Impact on India&#39;s AI Sovereignty</news:title>
+            
+            <news:keywords>G, P, T, -, 5, ., 6, ,,  , I, n, d, i, a,  , A, I,  , m, a, r, k, e, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , A, I,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/openai-leadership-vacuum-exposes-ai-race-vulnerabilities-684092.html</loc>
+        <lastmod>Fri, 10 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/3k4ehj/article71205139.ece/alternates/LANDSCAPE_1200/2026-06-25T211434Z_1801004754_RC2URLAX8T4E_RTRMADP_3_USA-OPENAI.JPG</image:loc>
+            <image:title>OpenAI Leadership Vacuum Exposes AI Race Vulnerabilities</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 10 Jul 2026 11:10:02 +0530</news:publication_date>
+            <news:title>OpenAI Leadership Vacuum Exposes AI Race Vulnerabilities</news:title>
+            
+            <news:keywords>O, p, e, n, A, I, ,,  , A, I,  , l, e, a, d, e, r, s, h, i, p, ,,  , U, S, -, C, h, i, n, a,  , t, e, c, h,  , r, a, c, e, ,,  , d, e, f, e, n, s, e,  , a, p, p, l, i, c, a, t, i, o, n, s, ,,  , s, t, r, a, t, e, g, i, c,  , v, u, l, n, e, r, a, b, i, l, i, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/meta-s-muse-spark-1-1-strategic-implications-for-india-s-ai-sovereignty-684167.html</loc>
+        <lastmod>Fri, 10 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/dqj4co/article71205144.ece/alternates/LANDSCAPE_1200/2026-07-09T140212Z_675657321_RC28DLALPRDQ_RTRMADP_3_META-PLATFORMS-AI-MODEL.JPG</image:loc>
+            <image:title>Meta&#39;s Muse Spark 1.1: Strategic Implications for India&#39;s AI Sovereignty</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 10 Jul 2026 09:32:31 +0530</news:publication_date>
+            <news:title>Meta&#39;s Muse Spark 1.1: Strategic Implications for India&#39;s AI Sovereignty</news:title>
+            
+            <news:keywords>M, e, t, a,  , A, I, ,,  , M, u, s, e,  , S, p, a, r, k, ,,  , I, n, d, i, a, n,  , d, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , A, I,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-indigenous-rocket-launcher-push-signals-strategic-defense-autonomy-665521.html</loc>
         <lastmod>Fri, 10 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -10281,6 +10377,30 @@
             <news:title>Strategic Mindset Shifts: Defense Leadership Lessons from Corporate Wisdom</news:title>
             
             <news:keywords>d, e, f, e, n, s, e,  , s, t, r, a, t, e, g, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , m, i, l, i, t, a, r, y,  , l, e, a, d, e, r, s, h, i, p, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , a, n, a, l, y, s, i, s, ,,  , d, e, f, e, n, s, e,  , p, r, o, c, u, r, e, m, e, n, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/textile-waste-india-s-unclaimed-strategic-resource-684202.html</loc>
+        <lastmod>Fri, 10 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/727115006d2011f09259ebc21ca89457/MSMEvirtualsession-DevanshPeshin-1783593436399.jpg</image:loc>
+            <image:title>Textile Waste: India&#39;s Unclaimed Strategic Resource</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 10 Jul 2026 02:30:00 GMT</news:publication_date>
+            <news:title>Textile Waste: India&#39;s Unclaimed Strategic Resource</news:title>
+            
+            <news:keywords>t, e, x, t, i, l, e,  , w, a, s, t, e, ,,  , c, i, r, c, u, l, a, r,  , e, c, o, n, o, m, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , M, S, M, E, ,,  , g, r, e, e, n,  , j, o, b, s, ,,  , r, e, s, o, u, r, c, e,  , s, e, c, u, r, i, t, y</news:keywords>
             
         </news:news>
     </url>
