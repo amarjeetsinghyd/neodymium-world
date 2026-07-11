@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-10</lastmod>
+        <lastmod>2026-07-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-10</lastmod>
+        <lastmod>2026-07-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/apple-vs-openai-trade-secret-war-threatens-ai-hardware-market-stability-735367.html</loc>
+        <lastmod>Sat, 11 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/ryyyma/article71208365.ece/alternates/LANDSCAPE_1200/2025-05-02T185601Z_1219494412_RC2N3EAP37SJ_RTRMADP_3_APPLE-ANTHROPIC-AI.JPG</image:loc>
+            <image:title>Apple vs OpenAI: Trade Secret War Threatens AI Hardware Market Stability</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 11 Jul 2026 04:32:09 +0530</news:publication_date>
+            <news:title>Apple vs OpenAI: Trade Secret War Threatens AI Hardware Market Stability</news:title>
+            
+            <news:keywords>A, p, p, l, e, ,,  , O, p, e, n, A, I, ,,  , A, I,  , h, a, r, d, w, a, r, e, ,,  , t, r, a, d, e,  , s, e, c, r, e, t, s, ,,  , m, a, r, k, e, t,  , c, o, m, p, e, t, i, t, i, o, n, ,,  , i, n, t, e, l, l, e, c, t, u, a, l,  , p, r, o, p, e, r, t, y, ,,  , t, e, c, h,  , i, n, d, u, s, t, r, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/tiger-poaching-crisis-exposes-security-gaps-in-central-india-s-wildlife-corridor-735603.html</loc>
+        <lastmod>Sat, 11 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/WhatsApp-Image-2026-07-01-at-1.28.20-PM-1.jpeg</image:loc>
+            <image:title>Tiger Poaching Crisis Exposes Security Gaps in Central India&#39;s Wildlife Corridor</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 11 Jul 2026 01:25:22 +0000</news:publication_date>
+            <news:title>Tiger Poaching Crisis Exposes Security Gaps in Central India&#39;s Wildlife Corridor</news:title>
+            
+            <news:keywords>t, i, g, e, r,  , p, o, a, c, h, i, n, g, ,,  , w, i, l, d, l, i, f, e,  , s, e, c, u, r, i, t, y, ,,  , c, e, n, t, r, a, l,  , I, n, d, i, a, ,,  , I, n, d, r, a, v, a, t, i,  , R, e, s, e, r, v, e, ,,  , o, r, g, a, n, i, z, e, d,  , w, i, l, d, l, i, f, e,  , t, r, a, f, f, i, c, k, i, n, g, ,,  , s, e, c, u, r, i, t, y,  , g, a, p, s, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , i, m, p, l, i, c, a, t, i, o, n, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-digital-sovereignty-social-media-regulation-as-strategic-imperative-720553.html</loc>
         <lastmod>Sat, 11 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -82,6 +130,30 @@
             <news:title>India&#39;s Digital Sovereignty: Social Media Regulation as Strategic Imperative</news:title>
             
             <news:keywords>I, n, d, i, a, ,,  , d, i, g, i, t, a, l,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , s, o, c, i, a, l,  , m, e, d, i, a,  , r, e, g, u, l, a, t, i, o, n, ,,  , t, e, c, h,  , p, o, l, i, c, y, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/andhra-s-strategic-leverage-in-nda-defense-implications-of-regional-power-play-735622.html</loc>
+        <lastmod>Sat, 11 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/TT220626ADDA_NaraLokesh01-LEAD.jpg</image:loc>
+            <image:title>Andhra&#39;s Strategic Leverage in NDA: Defense Implications of Regional Power Play</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 11 Jul 2026 00:48:54 +0000</news:publication_date>
+            <news:title>Andhra&#39;s Strategic Leverage in NDA: Defense Implications of Regional Power Play</news:title>
+            
+            <news:keywords>A, n, d, h, r, a,  , P, r, a, d, e, s, h, ,,  , N, D, A,  , c, o, a, l, i, t, i, o, n, ,,  , d, e, f, e, n, s, e,  , p, o, l, i, c, y, ,,  , r, e, g, i, o, n, a, l,  , p, o, l, i, t, i, c, s, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , s, t, r, a, t, e, g, y, ,,  , S, o, u, t, h,  , A, s, i, a, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t</news:keywords>
             
         </news:news>
     </url>
@@ -471,6 +543,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-consumer-tech-ecosystem-signals-strategic-economic-diversification-735410.html</loc>
+        <lastmod>Fri, 10 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/ftr-27.jpg</image:loc>
+            <image:title>India&#39;s Consumer Tech Ecosystem Signals Strategic Economic Diversification</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 10 Jul 2026 10:13:07 +0000</news:publication_date>
+            <news:title>India&#39;s Consumer Tech Ecosystem Signals Strategic Economic Diversification</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , s, t, a, r, t, u, p, s, ,,  , e, c, o, n, o, m, i, c,  , d, i, v, e, r, s, i, f, i, c, a, t, i, o, n, ,,  , c, o, n, s, u, m, e, r,  , m, a, r, k, e, t, s, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , e, n, t, r, e, p, r, e, n, e, u, r, i, a, l,  , e, c, o, s, y, s, t, e, m</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/meta-s-muse-spark-1-1-strategic-implications-for-india-s-ai-sovereignty-684167.html</loc>
         <lastmod>Fri, 10 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -514,6 +610,30 @@
             <news:title>India&#39;s Indigenous Rocket Launcher Push Signals Strategic Defense Autonomy</news:title>
             
             <news:keywords>I, n, d, i, a, n,  , A, r, m, y, ,,  , C, a, r, l,  , G, u, s, t, a, f, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , p, r, o, c, u, r, e, m, e, n, t, ,,  , i, n, d, i, g, e, n, o, u, s,  , m, a, n, u, f, a, c, t, u, r, i, n, g, ,,  , i, n, f, a, n, t, r, y,  , m, o, d, e, r, n, i, z, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/maharashtra-s-bike-taxi-pivot-regulatory-strategy-for-urban-mobility-735500.html</loc>
+        <lastmod>Fri, 10 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2025/08/bike-taxi-ban-featured.jpg</image:loc>
+            <image:title>Maharashtra&#39;s Bike Taxi Pivot: Regulatory Strategy for Urban Mobility</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 10 Jul 2026 06:08:55 +0000</news:publication_date>
+            <news:title>Maharashtra&#39;s Bike Taxi Pivot: Regulatory Strategy for Urban Mobility</news:title>
+            
+            <news:keywords>M, a, h, a, r, a, s, h, t, r, a, ,,  , b, i, k, e,  , t, a, x, i,  , r, e, g, u, l, a, t, i, o, n, ,,  , u, r, b, a, n,  , m, o, b, i, l, i, t, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , t, r, a, n, s, p, o, r, t,  , p, o, l, i, c, y, ,,  , e, l, e, c, t, r, i, c,  , v, e, h, i, c, l, e, s</news:keywords>
             
         </news:news>
     </url>
