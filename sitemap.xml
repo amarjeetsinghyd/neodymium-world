@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-digital-sovereignty-push-whatsapp-username-battle-806218.html</loc>
+        <lastmod>Sat, 11 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/whatsapp-vs-Centre-featured.png</image:loc>
+            <image:title>India&#39;s Digital Sovereignty Push: WhatsApp Username Battle</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 11 Jul 2026 17:37:55 +0000</news:publication_date>
+            <news:title>India&#39;s Digital Sovereignty Push: WhatsApp Username Battle</news:title>
+            
+            <news:keywords>W, h, a, t, s, A, p, p, ,,  , I, n, d, i, a,  , r, e, g, u, l, a, t, i, o, n, ,,  , d, i, g, i, t, a, l,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , m, e, s, s, a, g, i, n, g,  , p, l, a, t, f, o, r, m, s, ,,  , c, y, b, e, r, s, e, c, u, r, i, t, y, ,,  , I, T,  , r, u, l, e, s, ,,  , M, e, t, a, ,,  , f, r, a, u, d,  , p, r, e, v, e, n, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/bangladesh-shifts-mongla-port-to-china-eroding-india-s-strategic-edge-795943.html</loc>
         <lastmod>Sat, 11 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -188,6 +212,54 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/air-india-s-punctuality-surge-signals-strategic-aviation-dominance-806200.html</loc>
+        <lastmod>Sat, 11 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL9vj5uUvu34tUPKv6N18J7xTNx-T1R0sJwSFdOqDGkokfYlWYR9Lt0JVi-uv_X5ZlKFT6hD3V-1bfY9rrszgC7EwEETfAp-pQAw9aSqC47rsNJ36TzoVg7E0Bzo3Li4YXB9MLs0yCFl-5K8tn3O-9C8yYRVG4-17tCOFJxwfpmgUoSk-GPwheYmOmH9g/s72-c/Air_India.jpg</image:loc>
+            <image:title>Air India&#39;s Punctuality Surge Signals Strategic Aviation Dominance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 11 Jul 2026 16:25:00 +0000</news:publication_date>
+            <news:title>Air India&#39;s Punctuality Surge Signals Strategic Aviation Dominance</news:title>
+            
+            <news:keywords>A, i, r,  , I, n, d, i, a, ,,  , a, v, i, a, t, i, o, n,  , p, u, n, c, t, u, a, l, i, t, y, ,,  , s, t, r, a, t, e, g, i, c,  , a, v, i, a, t, i, o, n, ,,  , I, n, d, i, a, n,  , d, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/j-k-political-crisis-bjp-s-alleged-bribery-plot-exposes-deepening-federal-tensio-806257.html</loc>
+        <lastmod>Sat, 11 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/Omar-Abdullah-express-file-photo.jpg</image:loc>
+            <image:title>J&amp;K Political Crisis: BJP&#39;s Alleged Bribery Plot Exposes Deepening Federal Tensions</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 11 Jul 2026 15:54:01 +0000</news:publication_date>
+            <news:title>J&amp;K Political Crisis: BJP&#39;s Alleged Bribery Plot Exposes Deepening Federal Tensions</news:title>
+            
+            <news:keywords>J, &amp;, K, ,,  , B, J, P, ,,  , O, m, a, r,  , A, b, d, u, l, l, a, h, ,,  , S, t, a, t, e, h, o, o, d,  , C, r, i, s, i, s, ,,  , F, e, d, e, r, a, l,  , T, e, n, s, i, o, n, s, ,,  , P, o, l, i, t, i, c, a, l,  , C, o, r, r, u, p, t, i, o, n, ,,  , I, n, d, i, a, n,  , P, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/vietnam-boat-tragedy-exposes-gaps-in-indo-vietnam-tourism-security-784972.html</loc>
         <lastmod>Sat, 11 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -231,6 +303,30 @@
             <news:title>UN Flags Electoral Discrimination in India&#39;s SIR Exercise</news:title>
             
             <news:keywords>U, N,  , S, p, e, c, i, a, l,  , R, a, p, p, o, r, t, e, u, r, s, ,,  , S, I, R,  , e, x, e, r, c, i, s, e, ,,  , e, l, e, c, t, o, r, a, l,  , d, i, s, c, r, i, m, i, n, a, t, i, o, n, ,,  , W, e, s, t,  , B, e, n, g, a, l, ,,  , B, i, h, a, r, ,,  , m, i, n, o, r, i, t, y,  , r, i, g, h, t, s, ,,  , h, u, m, a, n,  , r, i, g, h, t, s, ,,  , e, l, e, c, t, o, r, a, l,  , r, o, l, l,  , r, e, v, i, s, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/indian-tech-sector-volatility-winners-and-losers-in-new-age-stocks-806239.html</loc>
+        <lastmod>Sat, 11 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Feature-100-25.jpg</image:loc>
+            <image:title>Indian Tech Sector Volatility: Winners and Losers in New-Age Stocks</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 11 Jul 2026 14:54:31 +0000</news:publication_date>
+            <news:title>Indian Tech Sector Volatility: Winners and Losers in New-Age Stocks</news:title>
+            
+            <news:keywords>I, n, d, i, a, n,  , t, e, c, h,  , s, t, o, c, k, s, ,,  , M, a, p, m, y, I, n, d, i, a, ,,  , P, h, y, s, i, c, s, W, a, l, l, a, h, ,,  , O, l, a,  , E, l, e, c, t, r, i, c, ,,  , i, n, s, o, l, v, e, n, c, y,  , p, e, t, i, t, i, o, n, s, ,,  , F, P, I,  , i, n, f, l, o, w, s, ,,  , m, a, r, k, e, t,  , v, o, l, a, t, i, l, i, t, y</news:keywords>
             
         </news:news>
     </url>
@@ -778,6 +874,30 @@
             <news:title>Punjab Film Ban Signals New Censorship Front in India</news:title>
             
             <news:keywords>P, u, n, j, a, b,  , p, o, l, i, t, i, c, s, ,,  , c, e, n, s, o, r, s, h, i, p,  , r, u, l, e, s, ,,  , I, T,  , A, c, t,  , a, m, e, n, d, m, e, n, t, ,,  , O, T, T,  , r, e, g, u, l, a, t, i, o, n, ,,  , K, h, a, l, i, s, t, a, n,  , p, r, o, p, a, g, a, n, d, a, ,,  , A, A, P,  , B, J, P,  , S, A, D</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/modi-s-nz-visit-strategic-pivot-in-indo-pacific-balance-806293.html</loc>
+        <lastmod>Fri, 10 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/P1-Modi-NZ-4col.jpg</image:loc>
+            <image:title>Modi&#39;s NZ Visit: Strategic Pivot in Indo-Pacific Balance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 10 Jul 2026 22:46:05 +0000</news:publication_date>
+            <news:title>Modi&#39;s NZ Visit: Strategic Pivot in Indo-Pacific Balance</news:title>
+            
+            <news:keywords>I, n, d, o, -, P, a, c, i, f, i, c, ,,  , F, T, A, ,,  , C, h, i, n, a, ,,  , S, t, r, a, t, e, g, i, c,  , P, a, r, t, n, e, r, s, h, i, p, ,,  , D, e, f, e, n, s, e</news:keywords>
             
         </news:news>
     </url>
