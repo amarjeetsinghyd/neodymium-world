@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-space-diplomacy-menon-s-iss-mission-signals-growing-strategic-influence-835634.html</loc>
+        <lastmod>Sun, 12 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/Anil-Menon.jpg</image:loc>
+            <image:title>India&#39;s Space Diplomacy: Menon&#39;s ISS Mission Signals Growing Strategic Influence</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 12 Jul 2026 05:32:52 +0000</news:publication_date>
+            <news:title>India&#39;s Space Diplomacy: Menon&#39;s ISS Mission Signals Growing Strategic Influence</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , s, p, a, c, e,  , d, i, p, l, o, m, a, c, y, ,,  , I, S, S,  , m, i, s, s, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, p, a, c, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , s, t, r, a, t, e, g, i, c,  , p, a, r, t, n, e, r, s, h, i, p, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/criminal-networks-exploit-legal-system-jaipur-murder-case-reveals-organized-crim-835690.html</loc>
+        <lastmod>Sun, 12 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/rajasthan-police_20260711230425.jpg</image:loc>
+            <image:title>Criminal Networks Exploit Legal System: Jaipur Murder Case Reveals Organized Crime Evolution</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 12 Jul 2026 01:51:05 +0000</news:publication_date>
+            <news:title>Criminal Networks Exploit Legal System: Jaipur Murder Case Reveals Organized Crime Evolution</news:title>
+            
+            <news:keywords>o, r, g, a, n, i, z, e, d,  , c, r, i, m, e, ,,  , I, n, d, i, a,  , s, e, c, u, r, i, t, y, ,,  , l, e, g, a, l,  , s, y, s, t, e, m,  , e, x, p, l, o, i, t, a, t, i, o, n, ,,  , c, r, i, m, i, n, a, l,  , n, e, t, w, o, r, k, s, ,,  , p, r, o, p, e, r, t, y,  , d, i, s, p, u, t, e, s, ,,  , s, o, c, i, a, l,  , t, e, n, s, i, o, n, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-canada-cepa-signals-geopolitical-realignment-amid-global-trade-fragmentati-822008.html</loc>
         <lastmod>Sun, 12 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -1258,6 +1306,30 @@
             <news:title>AI Supremacy Race: Strategic Implications for India&#39;s Defense Posture</news:title>
             
             <news:keywords>A, I,  , d, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , S, o, u, t, h,  , A, s, i, a, ,,  , t, e, c, h, n, o, l, o, g, y,  , r, a, c, e, ,,  , n, a, t, i, o, n, a, l,  , s, e, c, u, r, i, t, y, ,,  , i, n, d, i, g, e, n, o, u, s,  , d, e, v, e, l, o, p, m, e, n, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/bjp-s-bankipur-candidate-withdrawal-exposes-caste-calculus-and-anti-incumbency-835791.html</loc>
+        <lastmod>Fri, 10 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/bjp-3.jpg</image:loc>
+            <image:title>BJP&#39;s Bankipur Candidate Withdrawal Exposes Caste Calculus and Anti-Incumbency</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 10 Jul 2026 15:43:13 +0000</news:publication_date>
+            <news:title>BJP&#39;s Bankipur Candidate Withdrawal Exposes Caste Calculus and Anti-Incumbency</news:title>
+            
+            <news:keywords>B, J, P, ,,  , B, a, n, k, i, p, u, r,  , b, y, p, o, l, l, ,,  , P, r, a, s, h, a, n, t,  , K, i, s, h, o, r, ,,  , J, a, n,  , S, u, r, a, a, j,  , P, a, r, t, y, ,,  , B, i, h, a, r,  , p, o, l, i, t, i, c, s, ,,  , c, a, s, t, e,  , c, a, l, c, u, l, u, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t</news:keywords>
             
         </news:news>
     </url>
@@ -10196,6 +10268,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/ai-adoption-gap-threatens-india-s-msme-economic-engine-835493.html</loc>
+        <lastmod>Sun, 12 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/727115006d2011f09259ebc21ca89457/MSMERagini-1783680005564.png</image:loc>
+            <image:title>AI Adoption Gap Threatens India&#39;s MSME Economic Engine</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 12 Jul 2026 05:30:46 GMT</news:publication_date>
+            <news:title>AI Adoption Gap Threatens India&#39;s MSME Economic Engine</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , M, S, M, E,  , A, I,  , a, d, o, p, t, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t,  , m, a, n, u, f, a, c, t, u, r, i, n, g, ,,  , d, e, f, e, n, s, e,  , p, r, o, d, u, c, t, i, o, n,  , c, a, p, a, b, i, l, i, t, y, ,,  , e, c, o, n, o, m, i, c,  , s, e, c, u, r, i, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/ai-agents-the-new-battlefield-in-south-asian-defense-625448.html</loc>
         <lastmod>Thu, 09 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -11328,6 +11424,30 @@
             <news:title>India&#39;s Strategic Materials Race: EV Policy Meets Specialty Chemicals</news:title>
             
             <news:keywords>I, n, d, i, a,  , d, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, p, e, c, i, a, l, t, y,  , c, h, e, m, i, c, a, l, s, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , E, V,  , p, o, l, i, c, y, ,,  , C, h, i, n, a, +, 1, ,,  , d, e, f, e, n, s, e,  , m, a, n, u, f, a, c, t, u, r, i, n, g</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-strategic-tech-ecosystem-defense-implications-of-ai-critical-minerals-an-835556.html</loc>
+        <lastmod>Sun, 12 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/28b451402d6a11e9aa979329348d4c3e/Lateralsparks6-1783745992045.jpg</image:loc>
+            <image:title>India&#39;s Strategic Tech Ecosystem: Defense Implications of AI, Critical Minerals, and Energy Security</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 12 Jul 2026 02:20:00 GMT</news:publication_date>
+            <news:title>India&#39;s Strategic Tech Ecosystem: Defense Implications of AI, Critical Minerals, and Energy Security</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , d, e, f, e, n, s, e,  , s, t, r, a, t, e, g, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , c, r, i, t, i, c, a, l,  , m, i, n, e, r, a, l, s, ,,  , A, I,  , d, e, f, e, n, s, e,  , a, p, p, l, i, c, a, t, i, o, n, s, ,,  , e, n, e, r, g, y,  , s, e, c, u, r, i, t, y</news:keywords>
             
         </news:news>
     </url>
