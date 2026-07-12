@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/assam-activist-detention-reveals-environmental-policy-tensions-882625.html</loc>
+        <lastmod>Sun, 12 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/assam-activist.jpg</image:loc>
+            <image:title>Assam Activist Detention Reveals Environmental Policy Tensions</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 12 Jul 2026 17:12:13 +0000</news:publication_date>
+            <news:title>Assam Activist Detention Reveals Environmental Policy Tensions</news:title>
+            
+            <news:keywords>A, s, s, a, m, ,,  , K, a, z, i, r, a, n, g, a, ,,  , E, n, v, i, r, o, n, m, e, n, t, a, l,  , P, o, l, i, c, y, ,,  , I, n, d, i, g, e, n, o, u, s,  , R, i, g, h, t, s, ,,  , B, J, P, ,,  , A, c, t, i, v, i, s, m, ,,  , N, o, r, t, h, e, a, s, t,  , I, n, d, i, a</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/assam-s-anti-drug-drive-exposes-myanmar-trafficking-corridor-871713.html</loc>
         <lastmod>Sun, 12 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -2319,6 +2343,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/uzbekistan-killing-exposes-kerala-s-communal-fault-lines-882687.html</loc>
+        <lastmod>Thu, 09 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/police_d22edc.jpg</image:loc>
+            <image:title>Uzbekistan Killing Exposes Kerala&#39;s Communal Fault Lines</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 09 Jul 2026 15:38:00 +0000</news:publication_date>
+            <news:title>Uzbekistan Killing Exposes Kerala&#39;s Communal Fault Lines</news:title>
+            
+            <news:keywords>K, e, r, a, l, a, ,,  , U, z, b, e, k, i, s, t, a, n, ,,  , c, o, m, m, u, n, a, l,  , t, e, n, s, i, o, n, s, ,,  , r, e, l, i, g, i, o, u, s,  , c, o, n, v, e, r, s, i, o, n, ,,  , i, n, t, e, r, n, a, t, i, o, n, a, l,  , c, r, i, m, e, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/cardekho-s-3-500-cr-ipo-signals-indian-auto-tech-consolidation-635713.html</loc>
         <lastmod>Thu, 09 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -2338,6 +2386,54 @@
             <news:title>CarDekho&#39;s ₹3,500 Cr IPO Signals Indian Auto-Tech Consolidation</news:title>
             
             <news:keywords>C, a, r, D, e, k, h, o,  , I, P, O, ,,  , I, n, d, i, a, n,  , a, u, t, o, -, t, e, c, h, ,,  , m, a, r, k, e, t,  , c, o, n, s, o, l, i, d, a, t, i, o, n, ,,  , I, P, O,  , a, n, a, l, y, s, i, s, ,,  , d, i, g, i, t, a, l,  , m, o, b, i, l, i, t, y, ,,  , s, t, r, a, t, e, g, i, c,  , f, o, r, e, c, a, s, t, i, n, g</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/strategic-intelligence-us-india-cooperation-and-defense-autonomy-882704.html</loc>
+        <lastmod>Thu, 09 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/Saif-Ali-Khan.jpg</image:loc>
+            <image:title>Strategic Intelligence: US-India Cooperation and Defense Autonomy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 09 Jul 2026 13:47:42 +0000</news:publication_date>
+            <news:title>Strategic Intelligence: US-India Cooperation and Defense Autonomy</news:title>
+            
+            <news:keywords>U, S, -, I, n, d, i, a,  , d, e, f, e, n, s, e,  , c, o, o, p, e, r, a, t, i, o, n, ,,  , s, t, r, a, t, e, g, i, c,  , i, n, t, e, l, l, i, g, e, n, c, e, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , d, e, f, e, n, s, e,  , a, u, t, o, n, o, m, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/mahadev-app-fugitive-geopolitical-implications-of-india-s-extradition-pursuit-882743.html</loc>
+        <lastmod>Thu, 09 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2024/10/loksabha-2024-10-11T131830.152.jpg</image:loc>
+            <image:title>Mahadev App Fugitive: Geopolitical Implications of India&#39;s Extradition Pursuit</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 09 Jul 2026 12:25:43 +0000</news:publication_date>
+            <news:title>Mahadev App Fugitive: Geopolitical Implications of India&#39;s Extradition Pursuit</news:title>
+            
+            <news:keywords>M, a, h, a, d, e, v,  , B, e, t, t, i, n, g,  , A, p, p, ,,  , F, u, g, i, t, i, v, e,  , E, c, o, n, o, m, i, c,  , O, f, f, e, n, d, e, r, s,  , A, c, t, ,,  , M, o, n, e, y,  , L, a, u, n, d, e, r, i, n, g, ,,  , E, x, t, r, a, d, i, t, i, o, n, ,,  , I, n, d, i, a,  , E, n, f, o, r, c, e, m, e, n, t,  , D, i, r, e, c, t, o, r, a, t, e, ,,  , O, D, A, ,,  , V, a, n, u, a, t, u,  , P, a, s, s, p, o, r, t, ,,  , D, u, b, a, i,  , A, s, s, e, t, s, ,,  , S, a, u, r, a, b, h,  , C, h, a, n, d, r, a, k, a, r, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , D, e, f, e, n, s, e,  , T, e, c, h</news:keywords>
             
         </news:news>
     </url>
@@ -2506,6 +2602,30 @@
             <news:title>U.S. AI Restrictions Accelerate Open-Source Revolution, China Gains Strategic Advantage</news:title>
             
             <news:keywords>A, I, ,,  , o, p, e, n, -, s, o, u, r, c, e, ,,  , C, h, i, n, a, ,,  , U, ., S, .,  , r, e, s, t, r, i, c, t, i, o, n, s, ,,  , s, t, r, a, t, e, g, i, c,  , a, d, v, a, n, t, a, g, e, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , i, m, p, l, i, c, a, t, i, o, n, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/infrastructure-decay-exposes-strategic-vulnerabilities-in-indian-railways-882781.html</loc>
+        <lastmod>Thu, 09 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/kozhikode-railway-station.jpg</image:loc>
+            <image:title>Infrastructure Decay Exposes Strategic Vulnerabilities in Indian Railways</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 09 Jul 2026 09:05:45 +0000</news:publication_date>
+            <news:title>Infrastructure Decay Exposes Strategic Vulnerabilities in Indian Railways</news:title>
+            
+            <news:keywords>I, n, d, i, a, n,  , R, a, i, l, w, a, y, s, ,,  , I, n, f, r, a, s, t, r, u, c, t, u, r, e,  , V, u, l, n, e, r, a, b, i, l, i, t, i, e, s, ,,  , S, t, r, a, t, e, g, i, c,  , A, s, s, e, t, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, e, f, e, n, s, e,  , L, o, g, i, s, t, i, c, s</news:keywords>
             
         </news:news>
     </url>
