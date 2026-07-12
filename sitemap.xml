@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/assam-s-anti-drug-drive-exposes-myanmar-trafficking-corridor-871713.html</loc>
+        <lastmod>Sun, 12 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/himanta.jpg</image:loc>
+            <image:title>Assam&#39;s Anti-Drug Drive Exposes Myanmar Trafficking Corridor</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 12 Jul 2026 15:12:29 +0000</news:publication_date>
+            <news:title>Assam&#39;s Anti-Drug Drive Exposes Myanmar Trafficking Corridor</news:title>
+            
+            <news:keywords>d, r, u, g,  , t, r, a, f, f, i, c, k, i, n, g, ,,  , N, o, r, t, h, e, a, s, t,  , I, n, d, i, a, ,,  , M, y, a, n, m, a, r,  , c, o, r, r, i, d, o, r, ,,  , A, s, s, a, m,  , s, e, c, u, r, i, t, y, ,,  , s, t, r, a, t, e, g, i, c,  , v, u, l, n, e, r, a, b, i, l, i, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/j-k-book-crackdown-signals-escalating-information-warfare-871803.html</loc>
+        <lastmod>Sun, 12 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/school-library.jpg</image:loc>
+            <image:title>J&amp;K Book Crackdown Signals Escalating Information Warfare</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 12 Jul 2026 11:38:52 +0000</news:publication_date>
+            <news:title>J&amp;K Book Crackdown Signals Escalating Information Warfare</news:title>
+            
+            <news:keywords>J, &amp;, K, ,,  , i, n, f, o, r, m, a, t, i, o, n,  , w, a, r, f, a, r, e, ,,  , c, o, u, n, t, e, r, -, i, n, s, u, r, g, e, n, c, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , p, o, s, t, u, r, e, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/tejas-mk-1a-infrared-upgrades-critical-for-indian-ocean-dominance-861510.html</loc>
         <lastmod>Sun, 12 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -159,6 +207,30 @@
             <news:title>Iran-US Escalation Threatens Global Shipping</news:title>
             
             <news:keywords>I, r, a, n, ,,  , U, S,  , s, t, r, i, k, e, s, ,,  , H, o, r, m, u, z, ,,  , s, h, i, p, p, i, n, g, ,,  , c, o, n, t, a, i, n, e, r,  , s, h, i, p, ,,  , O, m, a, n, ,,  , g, l, o, b, a, l,  , t, r, a, d, e, ,,  , d, e, f, e, n, s, e, ,,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , s, e, c, u, r, i, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/toronto-festival-shooting-exposes-global-security-vulnerabilities-871642.html</loc>
+        <lastmod>Sun, 12 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiptkiwkQirfGPfL-QNufoKfo3Nt1vGG8MVTmTgqET1y4p7hsnXtLstkczavQL5apah8oztQ3OtDsL3Mvc5x8NMIs6-n08wyjPlCSU5tC_lbMsQ66KMCW7BFPcaTtwNb9S4OaYKX0FXi07nPatf6ODObZDMdzKmeeYkIOqYeU4Ze-NQOZRJNWi6uiZLgYA/s72-c/Canada_Shooting.jpg</image:loc>
+            <image:title>Toronto Festival Shooting Exposes Global Security Vulnerabilities</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 12 Jul 2026 10:26:00 +0000</news:publication_date>
+            <news:title>Toronto Festival Shooting Exposes Global Security Vulnerabilities</news:title>
+            
+            <news:keywords>T, o, r, o, n, t, o,  , s, h, o, o, t, i, n, g, ,,  , s, e, c, u, r, i, t, y,  , v, u, l, n, e, r, a, b, i, l, i, t, i, e, s, ,,  , d, e, f, e, n, s, e,  , m, a, r, k, e, t, s, ,,  , g, l, o, b, a, l,  , s, e, c, u, r, i, t, y, ,,  , p, u, b, l, i, c,  , s, a, f, e, t, y</news:keywords>
             
         </news:news>
     </url>
@@ -2002,6 +2074,54 @@
             <news:title>Rath Yatra Dispute: Cultural Diplomacy vs Traditional Authority</news:title>
             
             <news:keywords>I, n, d, i, a,  , c, u, l, t, u, r, a, l,  , d, i, p, l, o, m, a, c, y, ,,  , H, i, n, d, u,  , s, o, f, t,  , p, o, w, e, r, ,,  , r, e, l, i, g, i, o, u, s,  , a, u, t, h, o, r, i, t, y, ,,  , g, l, o, b, a, l,  , H, i, n, d, u, i, s, m, ,,  , t, r, a, d, i, t, i, o, n,  , v, s,  , m, o, d, e, r, n, i, z, a, t, i, o, n, ,,  , s, t, r, a, t, e, g, i, c,  , c, u, l, t, u, r, a, l,  , o, u, t, r, e, a, c, h</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/csds-funding-crisis-signals-government-crackdown-on-critical-think-tanks-871852.html</loc>
+        <lastmod>Thu, 09 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/CSDS-offive-new-delhi.jpg</image:loc>
+            <image:title>CSDS Funding Crisis Signals Government Crackdown on Critical Think Tanks</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 09 Jul 2026 23:40:50 +0000</news:publication_date>
+            <news:title>CSDS Funding Crisis Signals Government Crackdown on Critical Think Tanks</news:title>
+            
+            <news:keywords>C, S, D, S, ,,  , f, u, n, d, i, n, g,  , c, u, t, s, ,,  , t, h, i, n, k,  , t, a, n, k, ,,  , g, o, v, e, r, n, m, e, n, t,  , s, c, r, u, t, i, n, y, ,,  , r, e, s, e, a, r, c, h,  , i, n, s, t, i, t, u, t, i, o, n, s, ,,  , I, n, d, i, a, ,,  , p, o, l, i, c, y, ,,  , I, C, S, S, R</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/bishnoi-gang-s-transnational-criminal-network-us-indictment-reveals-strategic-th-871945.html</loc>
+        <lastmod>Thu, 09 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/Bishnoi_20260707200746_20260709184322.jpg</image:loc>
+            <image:title>Bishnoi Gang&#39;s Transnational Criminal Network: US Indictment Reveals Strategic Threat to Indian Cultural Icons</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 09 Jul 2026 18:47:56 +0000</news:publication_date>
+            <news:title>Bishnoi Gang&#39;s Transnational Criminal Network: US Indictment Reveals Strategic Threat to Indian Cultural Icons</news:title>
+            
+            <news:keywords>L, a, w, r, e, n, c, e,  , B, i, s, h, n, o, i, ,,  , U, S,  , D, O, J, ,,  , B, o, l, l, y, w, o, o, d,  , t, h, r, e, a, t, s, ,,  , O, r, g, a, n, i, z, e, d,  , C, r, i, m, e, ,,  , K, h, a, l, i, s, t, a, n, i,  , s, e, p, a, r, a, t, i, s, m, ,,  , T, r, a, n, s, n, a, t, i, o, n, a, l,  , c, r, i, m, e, ,,  , I, n, d, i, a, n,  , c, u, l, t, u, r, a, l,  , i, c, o, n, s, ,,  , S, e, c, u, r, i, t, y,  , t, h, r, e, a, t, s</news:keywords>
             
         </news:news>
     </url>
