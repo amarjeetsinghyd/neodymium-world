@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-11</lastmod>
+        <lastmod>2026-07-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-11</lastmod>
+        <lastmod>2026-07-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,102 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-canada-cepa-signals-geopolitical-realignment-amid-global-trade-fragmentati-822008.html</loc>
+        <lastmod>Sun, 12 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/nodal-canadatrade-2cols.jpeg</image:loc>
+            <image:title>India-Canada CEPA Signals Geopolitical Realignment Amid Global Trade Fragmentation</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 12 Jul 2026 00:13:25 +0000</news:publication_date>
+            <news:title>India-Canada CEPA Signals Geopolitical Realignment Amid Global Trade Fragmentation</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , C, a, n, a, d, a,  , C, E, P, A, ,,  , I, n, d, i, a,  , C, a, n, a, d, a,  , t, r, a, d, e,  , r, e, l, a, t, i, o, n, s, ,,  , G, e, o, p, o, l, i, t, i, c, a, l,  , r, e, a, l, i, g, n, m, e, n, t, ,,  , S, u, p, p, l, y,  , c, h, a, i, n,  , d, i, v, e, r, s, i, f, i, c, a, t, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , G, l, o, b, a, l,  , t, r, a, d, e,  , f, r, a, g, m, e, n, t, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/uk-gold-smuggling-case-exposes-fema-violations-in-indian-export-network-822021.html</loc>
+        <lastmod>Sat, 11 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/enforcement-directorate.jpg_20260709040206_20260711233843.jpeg</image:loc>
+            <image:title>UK Gold Smuggling Case Exposes FEMA Violations in Indian Export Network</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 11 Jul 2026 23:39:26 +0000</news:publication_date>
+            <news:title>UK Gold Smuggling Case Exposes FEMA Violations in Indian Export Network</news:title>
+            
+            <news:keywords>E, n, f, o, r, c, e, m, e, n, t,  , D, i, r, e, c, t, o, r, a, t, e, ,,  , F, E, M, A,  , v, i, o, l, a, t, i, o, n, s, ,,  , g, o, l, d,  , s, m, u, g, g, l, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , f, o, r, e, i, g, n,  , e, x, c, h, a, n, g, e, ,,  , e, x, p, o, r, t,  , f, r, a, u, d, ,,  , U, K,  , H, e, a, t, h, r, o, w, ,,  , D, h, a, r, m, e, s, h,  , S, a, n, g, a, n, i, ,,  , K, a, l, a, n, e, e,  , I, m, p, e, x</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/ec-s-unconstitutional-form-6-changes-threaten-voter-registration-822059.html</loc>
+        <lastmod>Sat, 11 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/bengal-sir_20260711222801.jpg</image:loc>
+            <image:title>EC&#39;s Unconstitutional Form 6 Changes Threaten Voter Registration</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 11 Jul 2026 23:00:29 +0000</news:publication_date>
+            <news:title>EC&#39;s Unconstitutional Form 6 Changes Threaten Voter Registration</news:title>
+            
+            <news:keywords>E, l, e, c, t, i, o, n,  , C, o, m, m, i, s, s, i, o, n, ,,  , F, o, r, m,  , 6, ,,  , S, I, R, ,,  , V, o, t, e, r,  , R, i, g, h, t, s, ,,  , C, o, n, s, t, i, t, u, t, i, o, n, a, l,  , C, r, i, s, i, s, ,,  , E, l, e, c, t, o, r, a, l,  , R, o, l, l, s, ,,  , R, e, p, r, e, s, e, n, t, a, t, i, o, n,  , o, f,  , P, e, o, p, l, e,  , A, c, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/us-extradition-bid-exposes-india-s-strategic-legal-balancing-act-822076.html</loc>
+        <lastmod>Sat, 11 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/IE-Image-2026-05-16T205313.963_20260711223051.jpg</image:loc>
+            <image:title>US Extradition Bid Exposes India&#39;s Strategic Legal Balancing Act</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 11 Jul 2026 23:00:00 +0000</news:publication_date>
+            <news:title>US Extradition Bid Exposes India&#39;s Strategic Legal Balancing Act</news:title>
+            
+            <news:keywords>L, a, w, r, e, n, c, e,  , B, i, s, h, n, o, i, ,,  , U, S,  , e, x, t, r, a, d, i, t, i, o, n, ,,  , I, n, d, i, a, -, U, S,  , r, e, l, a, t, i, o, n, s, ,,  , K, h, a, l, i, s, t, a, n,  , t, e, r, r, o, r, i, s, m, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , l, e, g, a, l,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/india-s-digital-sovereignty-push-whatsapp-username-battle-806218.html</loc>
@@ -10258,6 +10354,30 @@
             <news:title>AI Implementation Challenges: Context Over Capability in Defense Systems</news:title>
             
             <news:keywords>A, I,  , d, e, f, e, n, s, e,  , s, y, s, t, e, m, s, ,,  , A, t, l, a, s, s, i, a, n,  , U, n, l, e, a, s, h, ,,  , c, o, n, t, e, x, t, -, a, w, a, r, e,  , A, I, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y,  , I, n, d, i, a, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t,  , d, e, f, e, n, s, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/ai-s-strategic-shift-impacts-india-s-defense-self-reliance-821989.html</loc>
+        <lastmod>Sun, 12 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/c5c652a0fb5a11eca125d7821ea2fbc4/LatestPPTTemplates15-1783776392005.jpg</image:loc>
+            <image:title>AI&#39;s Strategic Shift Impacts India&#39;s Defense Self-Reliance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 12 Jul 2026 02:00:00 GMT</news:publication_date>
+            <news:title>AI&#39;s Strategic Shift Impacts India&#39;s Defense Self-Reliance</news:title>
+            
+            <news:keywords>A, I,  , d, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y</news:keywords>
             
         </news:news>
     </url>
