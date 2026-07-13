@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-12</lastmod>
+        <lastmod>2026-07-13</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-12</lastmod>
+        <lastmod>2026-07-13</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/cult-fit-ipo-signals-strategic-shift-in-india-s-consumer-market-908519.html</loc>
+        <lastmod>Mon, 13 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Cultfit-Image-1.jpg</image:loc>
+            <image:title>Cult.fit IPO Signals Strategic Shift in India&#39;s Consumer Market</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 13 Jul 2026 01:30:04 +0000</news:publication_date>
+            <news:title>Cult.fit IPO Signals Strategic Shift in India&#39;s Consumer Market</news:title>
+            
+            <news:keywords>C, u, l, t, ., f, i, t,  , I, P, O, ,,  , I, n, d, i, a,  , f, i, t, n, e, s, s,  , m, a, r, k, e, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , c, o, n, s, u, m, e, r,  , s, e, c, t, o, r,  , g, r, o, w, t, h, ,,  , I, P, O,  , a, n, a, l, y, s, i, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/kartavya-bhawan-symbolic-assertion-of-post-colonial-sovereignty-908619.html</loc>
+        <lastmod>Sun, 12 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/manohar-lal.jpg</image:loc>
+            <image:title>Kartavya Bhawan: Symbolic Assertion of Post-Colonial Sovereignty</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 12 Jul 2026 23:20:33 +0000</news:publication_date>
+            <news:title>Kartavya Bhawan: Symbolic Assertion of Post-Colonial Sovereignty</news:title>
+            
+            <news:keywords>K, a, r, t, a, v, y, a,  , B, h, a, w, a, n, ,,  , C, e, n, t, r, a, l,  , V, i, s, t, a, ,,  , I, n, d, i, a,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , p, o, s, t, -, c, o, l, o, n, i, a, l,  , i, d, e, n, t, i, t, y</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/assam-activist-detention-reveals-environmental-policy-tensions-882625.html</loc>
@@ -2967,6 +3015,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/india-nz-alliance-challenges-power-based-global-order-908661.html</loc>
+        <lastmod>Wed, 08 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/p1-luxon-2cols.jpg</image:loc>
+            <image:title>India-NZ Alliance Challenges Power-Based Global Order</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 08 Jul 2026 22:55:03 +0000</news:publication_date>
+            <news:title>India-NZ Alliance Challenges Power-Based Global Order</news:title>
+            
+            <news:keywords>I, n, d, i, a, ,,  , N, e, w,  , Z, e, a, l, a, n, d, ,,  , R, u, l, e, s, -, B, a, s, e, d,  , S, y, s, t, e, m, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , I, n, d, o, -, P, a, c, i, f, i, c, ,,  , M, o, d, i, ,,  , L, u, x, o, n, ,,  , G, l, o, b, a, l,  , O, r, d, e, r, ,,  , S, t, r, a, t, e, g, i, c,  , A, l, l, i, a, n, c, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/assassin-s-creed-black-flag-resynced-redefines-naval-warfare-528105.html</loc>
         <lastmod>Wed, 08 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -3274,6 +3346,30 @@
             <news:title>Diablo IV&#39;s Strategic Market Impact on Defense Gaming Sector</news:title>
             
             <news:keywords>g, a, m, i, n, g,  , m, a, r, k, e, t,  , a, n, a, l, y, s, i, s, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , s, t, r, a, t, e, g, i, c,  , f, o, r, e, c, a, s, t, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/tmc-fund-misappropriation-exposes-defense-procurement-vulnerabilities-908708.html</loc>
+        <lastmod>Wed, 08 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/TMC.jpg</image:loc>
+            <image:title>TMC Fund Misappropriation Exposes Defense Procurement Vulnerabilities</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 08 Jul 2026 16:29:51 +0000</news:publication_date>
+            <news:title>TMC Fund Misappropriation Exposes Defense Procurement Vulnerabilities</news:title>
+            
+            <news:keywords>d, e, f, e, n, s, e,  , p, r, o, c, u, r, e, m, e, n, t, ,,  , T, M, C,  , c, o, r, r, u, p, t, i, o, n, ,,  , d, e, f, e, n, s, e,  , s, p, e, n, d, i, n, g, ,,  , m, i, l, i, t, a, r, y,  , a, s, s, e, t, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , p, r, o, c, u, r, e, m, e, n, t,  , i, r, r, e, g, u, l, a, r, i, t, i, e, s</news:keywords>
             
         </news:news>
     </url>
@@ -12369,6 +12465,30 @@
             <news:title>Leadership Resilience: How Early Adversity Shapes Strategic Decision-Making</news:title>
             
             <news:keywords>l, e, a, d, e, r, s, h, i, p,  , r, e, s, i, l, i, e, n, c, e, ,,  , s, t, r, a, t, e, g, i, c,  , d, e, c, i, s, i, o, n, -, m, a, k, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , l, e, a, d, e, r, s, h, i, p, ,,  , c, r, i, s, i, s,  , m, a, n, a, g, e, m, e, n, t, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , a, n, a, l, y, s, i, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/logistics-tech-s-strategic-implications-for-india-s-defense-infrastructure-908496.html</loc>
+        <lastmod>Mon, 13 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/c5c652a0fb5a11eca125d7821ea2fbc4/LatestPPTTemplates16-1783851631942.jpg</image:loc>
+            <image:title>Logistics Tech&#39;s Strategic Implications for India&#39;s Defense Infrastructure</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 13 Jul 2026 02:00:00 GMT</news:publication_date>
+            <news:title>Logistics Tech&#39;s Strategic Implications for India&#39;s Defense Infrastructure</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , d, e, f, e, n, s, e,  , l, o, g, i, s, t, i, c, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , m, i, l, i, t, a, r, y,  , s, u, p, p, l, y,  , c, h, a, i, n, ,,  , E, l, a, s, t, i, c, R, u, n, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y</news:keywords>
             
         </news:news>
     </url>
