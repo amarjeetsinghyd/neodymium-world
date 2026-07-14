@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-13</lastmod>
+        <lastmod>2026-07-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-13</lastmod>
+        <lastmod>2026-07-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,78 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/yotta-s-ai-infrastructure-play-strategic-implications-for-india-s-defense-autono-994028.html</loc>
+        <lastmod>Tue, 14 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/ftr-20-2.jpg</image:loc>
+            <image:title>Yotta&#39;s AI Infrastructure Play: Strategic Implications for India&#39;s Defense Autonomy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 14 Jul 2026 01:30:10 +0000</news:publication_date>
+            <news:title>Yotta&#39;s AI Infrastructure Play: Strategic Implications for India&#39;s Defense Autonomy</news:title>
+            
+            <news:keywords>Y, o, t, t, a, ,,  , A, I,  , I, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, n, o, l, o, g, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , G, P, U,  , C, o, m, p, u, t, i, n, g, ,,  , S, t, r, a, t, e, g, i, c,  , A, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/assam-s-1950-act-revival-strategic-implications-of-border-expulsions-994164.html</loc>
+        <lastmod>Tue, 14 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/A-Foreigners-Tribunal-in-Assam.-File-photo.jpg</image:loc>
+            <image:title>Assam&#39;s 1950 Act Revival: Strategic Implications of Border Expulsions</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 14 Jul 2026 00:10:37 +0000</news:publication_date>
+            <news:title>Assam&#39;s 1950 Act Revival: Strategic Implications of Border Expulsions</news:title>
+            
+            <news:keywords>A, s, s, a, m, ,,  , B, a, n, g, l, a, d, e, s, h, ,,  , 1, 9, 5, 0,  , A, c, t, ,,  , b, o, r, d, e, r,  , p, o, l, i, c, y, ,,  , i, m, m, i, g, r, a, t, i, o, n, ,,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , N, o, r, t, h, e, a, s, t,  , I, n, d, i, a</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/bihar-s-heli-tourism-initiative-strategic-infrastructure-analysis-994181.html</loc>
+        <lastmod>Tue, 14 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/Samrat-Choudhary_20260417235523_20260422204412_20260713230450.jpg</image:loc>
+            <image:title>Bihar&#39;s Heli-Tourism Initiative: Strategic Infrastructure Analysis</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 14 Jul 2026 00:10:36 +0000</news:publication_date>
+            <news:title>Bihar&#39;s Heli-Tourism Initiative: Strategic Infrastructure Analysis</news:title>
+            
+            <news:keywords>B, i, h, a, r,  , t, o, u, r, i, s, m, ,,  , d, e, f, e, n, s, e,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , d, e, v, e, l, o, p, m, e, n, t, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/umang-portal-exposes-india-s-digital-governance-vulnerabilities-952724.html</loc>
@@ -524,6 +596,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/wangchuk-s-hunger-strike-exposes-india-s-education-system-rot-994223.html</loc>
+        <lastmod>Mon, 13 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/103_db4d1c.jpg</image:loc>
+            <image:title>Wangchuk&#39;s Hunger Strike Exposes India&#39;s Education System Rot</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 13 Jul 2026 06:43:12 +0000</news:publication_date>
+            <news:title>Wangchuk&#39;s Hunger Strike Exposes India&#39;s Education System Rot</news:title>
+            
+            <news:keywords>S, o, n, a, m,  , W, a, n, g, c, h, u, k, ,,  , N, E, E, T,  , p, a, p, e, r,  , l, e, a, k, ,,  , E, d, u, c, a, t, i, o, n,  , M, i, n, i, s, t, e, r,  , r, e, s, i, g, n, a, t, i, o, n, ,,  , I, n, d, i, a, n,  , e, d, u, c, a, t, i, o, n,  , s, y, s, t, e, m, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , g, o, v, e, r, n, a, n, c, e,  , c, r, i, s, i, s, ,,  , c, i, v, i, l,  , s, o, c, i, e, t, y,  , p, r, o, t, e, s, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-blocks-foreign-ai-models-for-cybersecurity-over-sovereignty-risks-952894.html</loc>
         <lastmod>Mon, 13 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -543,6 +639,30 @@
             <news:title>India Blocks Foreign AI Models for Cybersecurity Over Sovereignty Risks</news:title>
             
             <news:keywords>I, n, d, i, a,  , A, I,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , M, e, i, t, Y,  , c, y, b, e, r, s, e, c, u, r, i, t, y,  , b, a, n, ,,  , O, p, e, n, A, I,  , A, n, t, h, r, o, p, i, c,  , r, e, s, t, r, i, c, t, i, o, n, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t,  , A, I, ,,  , U, S,  , e, x, p, o, r, t,  , c, o, n, t, r, o, l, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/khan-sir-bail-signals-coaching-wars-escalation-994244.html</loc>
+        <lastmod>Mon, 13 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/khan-sir.jpg</image:loc>
+            <image:title>Khan Sir Bail Signals Coaching Wars Escalation</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 13 Jul 2026 06:36:30 +0000</news:publication_date>
+            <news:title>Khan Sir Bail Signals Coaching Wars Escalation</news:title>
+            
+            <news:keywords>K, h, a, n,  , S, i, r, ,,  , P, a, t, n, a,  , v, i, o, l, e, n, c, e, ,,  , c, o, a, c, h, i, n, g,  , w, a, r, s, ,,  , e, d, u, c, a, t, i, o, n, a, l,  , c, o, n, f, l, i, c, t, s, ,,  , b, a, i, l, ,,  , s, e, c, u, r, i, t, y,  , i, n, c, i, d, e, n, t, s</news:keywords>
             
         </news:news>
     </url>
