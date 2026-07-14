@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/cyber-fraud-s-financial-toll-a-state-by-state-security-analysis-006793.html</loc>
+        <lastmod>Tue, 14 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/06/Cybercrime-crackdown.jpeg</image:loc>
+            <image:title>Cyber Fraud&#39;s Financial Toll: A State-by-State Security Analysis</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 14 Jul 2026 05:13:28 +0000</news:publication_date>
+            <news:title>Cyber Fraud&#39;s Financial Toll: A State-by-State Security Analysis</news:title>
+            
+            <news:keywords>c, y, b, e, r,  , f, r, a, u, d, ,,  , f, i, n, a, n, c, i, a, l,  , s, e, c, u, r, i, t, y, ,,  , I, n, d, i, a, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, i, g, i, t, a, l,  , c, r, i, m, e, ,,  , s, t, a, t, e, -, w, i, s, e,  , d, a, t, a, ,,  , c, y, b, e, r, c, r, i, m, e,  , r, e, p, o, r, t, i, n, g, ,,  , f, i, n, a, n, c, i, a, l,  , l, o, s, s, e, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/yotta-s-ai-infrastructure-india-s-strategic-compute-reserve-for-defense-autonomy-006773.html</loc>
+        <lastmod>Tue, 14 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/FTR-Daily-Brief-2026-07-13T224157.499.png</image:loc>
+            <image:title>Yotta&#39;s AI Infrastructure: India&#39;s Strategic Compute Reserve for Defense Autonomy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 14 Jul 2026 02:30:30 +0000</news:publication_date>
+            <news:title>Yotta&#39;s AI Infrastructure: India&#39;s Strategic Compute Reserve for Defense Autonomy</news:title>
+            
+            <news:keywords>Y, o, t, t, a, ,,  , A, I,  , I, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, n, o, l, o, g, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, t, r, a, t, e, g, i, c,  , C, o, m, p, u, t, i, n, g, ,,  , G, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/yotta-s-ai-infrastructure-play-strategic-implications-for-india-s-defense-autono-994028.html</loc>
         <lastmod>Tue, 14 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -13037,6 +13085,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-strategic-ai-push-cybersecurity-imperatives-and-digital-sovereignty-006742.html</loc>
+        <lastmod>Tue, 14 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/2026-CopyofNewPPTTemplates13-1783955819747.png</image:loc>
+            <image:title>India&#39;s Strategic AI Push: Cybersecurity Imperatives and Digital Sovereignty</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 14 Jul 2026 02:00:00 GMT</news:publication_date>
+            <news:title>India&#39;s Strategic AI Push: Cybersecurity Imperatives and Digital Sovereignty</news:title>
+            
+            <news:keywords>I, n, d, i, a, ,,  , A, I,  , s, t, r, a, t, e, g, y, ,,  , c, y, b, e, r, s, e, c, u, r, i, t, y, ,,  , d, i, g, i, t, a, l,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-strategic-materials-race-ev-policy-meets-specialty-chemicals-960181.html</loc>
         <lastmod>Thu, 02 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -13214,6 +13286,30 @@
             <news:title>Intuition Fest: India&#39;s Strategic Investment in Human Capital</news:title>
             
             <news:keywords>A, r, t,  , o, f,  , L, i, v, i, n, g, ,,  , I, n, t, u, i, t, i, o, n,  , F, e, s, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , H, u, m, a, n,  , C, a, p, i, t, a, l, ,,  , C, o, g, n, i, t, i, v, e,  , R, e, s, i, l, i, e, n, c, e, ,,  , I, n, d, i, a, n,  , E, d, u, c, a, t, i, o, n, ,,  , S, t, r, a, t, e, g, i, c,  , F, o, r, e, c, a, s, t, i, n, g, ,,  , G, e, o, p, o, l, i, t, i, c, a, l,  , I, m, p, l, i, c, a, t, i, o, n, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/ipo-readiness-a-strategic-imperative-not-a-financial-hail-mary-006655.html</loc>
+        <lastmod>Tue, 14 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/94a03c40169611f0b4b0c5b62b4900c2/MSMEvirtualsession-TarunSingh-1783518879172.jpg</image:loc>
+            <image:title>IPO Readiness: A Strategic Imperative, Not a Financial Hail Mary</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 14 Jul 2026 02:30:00 GMT</news:publication_date>
+            <news:title>IPO Readiness: A Strategic Imperative, Not a Financial Hail Mary</news:title>
+            
+            <news:keywords>I, P, O,  , r, e, a, d, i, n, e, s, s, ,,  , M, S, M, E, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , I, n, d, i, a, n,  , c, a, p, i, t, a, l,  , m, a, r, k, e, t, s, ,,  , c, o, r, p, o, r, a, t, e,  , g, o, v, e, r, n, a, n, c, e, ,,  , c, o, r, p, o, r, a, t, e,  , s, t, r, a, t, e, g, y</news:keywords>
             
         </news:news>
     </url>
@@ -13425,6 +13521,30 @@
             <news:title>Myntra&#39;s Ecosystem: A Blueprint for D2C Brand Scalability</news:title>
             
             <news:keywords>M, y, n, t, r, a, ,,  , D, 2, C, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , F, a, s, h, i, o, n,  , T, e, c, h, ,,  , R, e, t, a, i, l,  , S, t, r, a, t, e, g, y, ,,  , B, r, a, n, d,  , S, c, a, l, i, n, g, ,,  , E, O, R, S, ,,  , C, o, n, s, u, m, e, r,  , I, n, s, i, g, h, t, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/nalli-s-digital-renaissance-blueprint-for-indian-cultural-sovereignty-006636.html</loc>
+        <lastmod>Tue, 14 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/727115006d2011f09259ebc21ca89457/MSMEvirtualsession-LavanyaNalli1-1783592793917.jpg</image:loc>
+            <image:title>Nalli&#39;s Digital Renaissance: Blueprint for Indian Cultural Sovereignty</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 14 Jul 2026 02:30:00 GMT</news:publication_date>
+            <news:title>Nalli&#39;s Digital Renaissance: Blueprint for Indian Cultural Sovereignty</news:title>
+            
+            <news:keywords>N, a, l, l, i,  , S, a, r, e, e, ,,  , I, n, d, i, a, n,  , T, r, a, d, i, t, i, o, n, a, l,  , B, u, s, i, n, e, s, s, ,,  , D, i, g, i, t, a, l,  , M, o, d, e, r, n, i, z, a, t, i, o, n, ,,  , C, u, l, t, u, r, a, l,  , S, o, v, e, r, e, i, g, n, t, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, t, r, a, t, e, g, i, c,  , I, n, d, e, p, e, n, d, e, n, c, e, ,,  , R, e, t, a, i, l,  , I, n, n, o, v, a, t, i, o, n, ,,  , H, e, r, i, t, a, g, e,  , I, n, d, u, s, t, r, i, e, s</news:keywords>
             
         </news:news>
     </url>
