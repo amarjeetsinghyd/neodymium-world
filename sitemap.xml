@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-deep-tech-revolution-strategic-implications-for-defense-and-geopolitics-035146.html</loc>
+        <lastmod>Tue, 14 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/business/ome53p/article71221180.ece/alternates/LANDSCAPE_1200/77149242-1b0e-4ca1-a4e5-25ac3eafa6d4.jpg</image:loc>
+            <image:title>India&#39;s Deep-Tech Revolution: Strategic Implications for Defense and Geopolitics</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 14 Jul 2026 18:37:51 +0530</news:publication_date>
+            <news:title>India&#39;s Deep-Tech Revolution: Strategic Implications for Defense and Geopolitics</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , d, e, f, e, n, s, e,  , i, n, n, o, v, a, t, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , A, I,  , s, t, r, a, t, e, g, y, ,,  , d, e, e, p, -, t, e, c, h, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-ai-paradox-productivity-gains-threaten-deep-engineering-expertise-035201.html</loc>
+        <lastmod>Tue, 14 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/2et8jc/article71209641.ece/alternates/LANDSCAPE_1200/2024-06-28T105937Z_417568713_RC2Q56A2T7RS_RTRMADP_3_INVESTING-AI.JPG</image:loc>
+            <image:title>India&#39;s AI Paradox: Productivity Gains Threaten Deep Engineering Expertise</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 14 Jul 2026 16:31:08 +0530</news:publication_date>
+            <news:title>India&#39;s AI Paradox: Productivity Gains Threaten Deep Engineering Expertise</news:title>
+            
+            <news:keywords>N, a, s, s, c, o, m, ,,  , A, I,  , s, k, i, l, l, s, ,,  , e, n, g, i, n, e, e, r, i, n, g,  , e, x, p, e, r, t, i, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , t, e, c, h, n, o, l, o, g, y,  , w, o, r, k, f, o, r, c, e, ,,  , A, I,  , a, d, o, p, t, i, o, n, ,,  , d, e, e, p,  , l, e, a, r, n, i, n, g, ,,  , t, e, c, h, n, i, c, a, l,  , s, k, i, l, l, s, ,,  , I, n, d, i, a,  , t, e, c, h</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/kaveri-2-0-revival-india-s-strategic-defense-autonomy-play-015550.html</loc>
         <lastmod>Tue, 14 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -12466,6 +12514,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/bengaluru-s-strategic-infrastructure-implications-for-india-s-defense-autonomy-035375.html</loc>
+        <lastmod>Tue, 14 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/220356402d6d11e9aa979329348d4c3e/THMBL02-1784027094435.jpg</image:loc>
+            <image:title>Bengaluru&#39;s Strategic Infrastructure: Implications for India&#39;s Defense Autonomy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 14 Jul 2026 12:07:53 GMT</news:publication_date>
+            <news:title>Bengaluru&#39;s Strategic Infrastructure: Implications for India&#39;s Defense Autonomy</news:title>
+            
+            <news:keywords>B, e, n, g, a, l, u, r, u, ,,  , d, e, f, e, n, s, e,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , u, r, b, a, n,  , p, l, a, n, n, i, n, g, ,,  , m, i, l, i, t, a, r, y,  , t, e, c, h, n, o, l, o, g, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/blockchain-s-strategic-role-in-india-s-financial-infrastructure-635428.html</loc>
         <lastmod>Thu, 09 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -12677,6 +12749,30 @@
             <news:title>Decoding Human Behavior: A Strategic Analysis of Attachment Theory</news:title>
             
             <news:keywords>a, t, t, a, c, h, m, e, n, t,  , t, h, e, o, r, y, ,,  , h, u, m, a, n,  , b, e, h, a, v, i, o, r,  , a, n, a, l, y, s, i, s, ,,  , e, m, o, t, i, o, n, a, l,  , i, n, t, e, l, l, i, g, e, n, c, e, ,,  , s, t, r, a, t, e, g, i, c,  , f, o, r, e, c, a, s, t, i, n, g, ,,  , i, n, t, e, r, p, e, r, s, o, n, a, l,  , d, y, n, a, m, i, c, s, ,,  , b, e, h, a, v, i, o, r, a, l,  , p, a, t, t, e, r, n, s, ,,  , l, e, a, d, e, r, s, h, i, p,  , p, s, y, c, h, o, l, o, g, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/decoding-india-s-defense-posture-atmanirbhar-bharat-s-strategic-impact-035262.html</loc>
+        <lastmod>Tue, 14 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/ba6b0930e8cd11edbf1c2f9de7fdeb77/SHERLOCKHOLMES-2026-05-27T005746-1779823684789.png</image:loc>
+            <image:title>Decoding India&#39;s Defense Posture: Atmanirbhar Bharat&#39;s Strategic Impact</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 14 Jul 2026 12:50:00 GMT</news:publication_date>
+            <news:title>Decoding India&#39;s Defense Posture: Atmanirbhar Bharat&#39;s Strategic Impact</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , D, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , S, o, u, t, h,  , A, s, i, a, ,,  , S, t, r, a, t, e, g, i, c,  , F, o, r, e, c, a, s, t, i, n, g</news:keywords>
             
         </news:news>
     </url>
@@ -13061,6 +13157,30 @@
             <news:title>India&#39;s AI Infrastructure Expansion Fuels Defense Self-Reliance</news:title>
             
             <news:keywords>A, I, ,,  , D, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, t, r, a, t, e, g, i, c,  , T, e, c, h, n, o, l, o, g, y, ,,  , M, a, n, u, f, a, c, t, u, r, i, n, g, ,,  , N, a, t, i, o, n, a, l,  , S, e, c, u, r, i, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-ai-university-strategic-implications-for-defense-and-geopolitical-positi-035317.html</loc>
+        <lastmod>Tue, 14 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/Imagessav-1784031459330.jpg</image:loc>
+            <image:title>India&#39;s AI University: Strategic Implications for Defense and Geopolitical Positioning</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 14 Jul 2026 12:18:14 GMT</news:publication_date>
+            <news:title>India&#39;s AI University: Strategic Implications for Defense and Geopolitical Positioning</news:title>
+            
+            <news:keywords>A, I,  , U, n, i, v, e, r, s, i, t, y, ,,  , I, n, d, i, a,  , d, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , t, e, c, h, n, o, l, o, g, i, c, a, l,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , S, o, u, t, h,  , A, s, i, a,  , g, e, o, p, o, l, i, t, i, c, s</news:keywords>
             
         </news:news>
     </url>
