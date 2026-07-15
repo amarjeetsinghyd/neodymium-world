@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/ather-energy-s-strategic-capital-raise-signals-ev-market-consolidation-152503.html</loc>
+        <lastmod>Wed, 15 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/06/Ather-ftr.jpg</image:loc>
+            <image:title>Ather Energy&#39;s Strategic Capital Raise Signals EV Market Consolidation</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 15 Jul 2026 16:31:08 +0000</news:publication_date>
+            <news:title>Ather Energy&#39;s Strategic Capital Raise Signals EV Market Consolidation</news:title>
+            
+            <news:keywords>E, V,  , m, a, r, k, e, t, ,,  , A, t, h, e, r,  , E, n, e, r, g, y, ,,  , Q, I, P, ,,  , e, l, e, c, t, r, i, c,  , v, e, h, i, c, l, e, s, ,,  , H, e, r, o,  , M, o, t, o, C, o, r, p, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , a, u, t, o, m, o, t, i, v, e,  , t, e, c, h, n, o, l, o, g, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-maritime-self-reliance-mjp-waterjet-breakthrough-reshapes-naval-power-pr-142127.html</loc>
         <lastmod>Wed, 15 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -164,6 +188,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/india-eu-defense-partnership-accelerates-strategic-implications-for-indo-pacific-152379.html</loc>
+        <lastmod>Wed, 15 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOrRb43UuCehcGF112rnGyRccKAC2BDA0NqcsKCSBSt-sTjekpLaKwv9puBHjWp40KpNAHzsylCNB8OEyeNS6aA9u-1BjNDHdzPzDeEq47cz5TJtX7pMu8folZytfAdfE9TWcZDs5o8JNkDkR9GwseYFz7n2-RfXFbX2hPIqdGrE12_T_mH0s3_wjsoLc/s72-c/Jaishankar.jpg</image:loc>
+            <image:title>India-EU Defense Partnership Accelerates: Strategic Implications for Indo-Pacific</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 15 Jul 2026 16:27:00 +0000</news:publication_date>
+            <news:title>India-EU Defense Partnership Accelerates: Strategic Implications for Indo-Pacific</news:title>
+            
+            <news:keywords>I, n, d, i, a, -, E, U,  , d, e, f, e, n, s, e,  , c, o, o, p, e, r, a, t, i, o, n, ,,  , I, n, d, o, -, P, a, c, i, f, i, c,  , s, e, c, u, r, i, t, y, ,,  , s, t, r, a, t, e, g, i, c,  , p, a, r, t, n, e, r, s, h, i, p, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , a, l, i, g, n, m, e, n, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-uk-fta-strategic-gateway-for-indo-pacific-defense-integration-142181.html</loc>
         <lastmod>Wed, 15 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -183,6 +231,78 @@
             <news:title>India-UK FTA: Strategic Gateway for Indo-Pacific Defense Integration</news:title>
             
             <news:keywords>I, n, d, i, a,  , U, K,  , F, T, A, ,,  , I, n, d, o, -, P, a, c, i, f, i, c,  , S, t, r, a, t, e, g, y, ,,  , D, e, f, e, n, s, e,  , I, n, t, e, g, r, a, t, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , G, e, o, p, o, l, i, t, i, c, a, l,  , A, n, a, l, y, s, i, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-palestine-stance-strategic-geopolitical-calculus-152415.html</loc>
+        <lastmod>Wed, 15 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYOLHAyLfy_cvgLhmAC3shITuV5G_4iiLStMTPHD4TxiPM_UWI8DiUkqH4N8jjuYs9_AAvQJ76tHHKh1WbBdaeppq_eYDb_Yigv6Ff3fIJTe1PF80tUOQs1NEENmq2ytok14Vst9mdIl1dMEBbIRsfUiGiilHgm1B3rJCwxlaMrtEUyODPxSbx7g6LzvQ/s72-c/Palestine_Ambassador_To_India_1.jpg</image:loc>
+            <image:title>India&#39;s Palestine Stance: Strategic Geopolitical Calculus</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 15 Jul 2026 16:26:00 +0000</news:publication_date>
+            <news:title>India&#39;s Palestine Stance: Strategic Geopolitical Calculus</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , P, a, l, e, s, t, i, n, e, ,,  , T, w, o, -, S, t, a, t, e,  , S, o, l, u, t, i, o, n, ,,  , G, e, o, p, o, l, i, t, i, c, a, l,  , S, t, r, a, t, e, g, y, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , P, o, l, i, t, i, c, s, ,,  , I, n, t, e, r, n, a, t, i, o, n, a, l,  , R, e, l, a, t, i, o, n, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-uk-trade-pact-reshapes-defense-procurement-landscape-152469.html</loc>
+        <lastmod>Wed, 15 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR7Id_N2dTuZHiMOsJwzjyXsuPA8nAVlNc9AxmV0FIXegR3b8d1fkWHi4vXCWx8XE3JAUsCzlhaPWn3jL2TZutnZVIFscuryEga3OQ4-cRTGWnjf7KzDtJaHoGj-MNcUpWb9Y7dQ-47ofe-sHqsfeXrGp_Ch93QLhjDdtohA0YfiwJKpycK2G2LLXdiOg/s72-c/Deputy_High_Commissioner_UK_Sutapa_Choudhury.jpg</image:loc>
+            <image:title>India-UK Trade Pact Reshapes Defense Procurement Landscape</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 15 Jul 2026 16:26:00 +0000</news:publication_date>
+            <news:title>India-UK Trade Pact Reshapes Defense Procurement Landscape</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , U, K,  , t, r, a, d, e,  , p, a, c, t, ,,  , d, e, f, e, n, s, e,  , p, r, o, c, u, r, e, m, e, n, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , s, t, r, a, t, e, g, i, c,  , p, a, r, t, n, e, r, s, h, i, p</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/us-pressure-forces-israeli-strategic-reassessment-in-syria-lebanon-152485.html</loc>
+        <lastmod>Wed, 15 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijYdvUdcw3dtWwEiSq5NTueOkou8cQHBa_MLQ-9mWF_RyiLgcUAg9sP9Rh-WKwlzbZRSY2UtiMuwQhFsQtpgODvuS87JLuErCWH-PSo6TKj-BXINC_ut6DP5PvhYgtCS4VDkfZtWHGuiI4GMA6KTtjPmGEwJkY_u7LuLsWRp2buLwuDukyveprEHAaxyM/s72-c/Trump_Netanyahu.jpg</image:loc>
+            <image:title>US Pressure Forces Israeli Strategic Reassessment in Syria-Lebanon</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 15 Jul 2026 16:25:00 +0000</news:publication_date>
+            <news:title>US Pressure Forces Israeli Strategic Reassessment in Syria-Lebanon</news:title>
+            
+            <news:keywords>I, s, r, a, e, l,  , S, y, r, i, a,  , L, e, b, a, n, o, n,  , U, S,  , d, e, f, e, n, s, e,  , p, o, l, i, c, y,  , T, r, u, m, p,  , N, e, t, a, n, y, a, h, u,  , r, e, g, i, o, n, a, l,  , s, e, c, u, r, i, t, y</news:keywords>
             
         </news:news>
     </url>
