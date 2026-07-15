@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/ai-deepfakes-fuel-child-abuse-xai-stability-ai-sued-112283.html</loc>
+        <lastmod>Wed, 15 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/ys9puw/article71224759.ece/alternates/LANDSCAPE_1200/2026-06-11T172003Z_1937269126_RC2RRLA0LAD9_RTRMADP_3_SPACEX-IPO-NEW-YORK.JPG</image:loc>
+            <image:title>AI Deepfakes Fuel Child Abuse: xAI, Stability AI Sued</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 15 Jul 2026 15:03:28 +0530</news:publication_date>
+            <news:title>AI Deepfakes Fuel Child Abuse: xAI, Stability AI Sued</news:title>
+            
+            <news:keywords>x, A, I, ,,  , S, t, a, b, i, l, i, t, y,  , A, I, ,,  , A, I,  , d, e, e, p, f, a, k, e, s, ,,  , c, h, i, l, d,  , a, b, u, s, e, ,,  , l, a, w, s, u, i, t, ,,  , E, l, o, n,  , M, u, s, k, ,,  , G, r, o, k, ,,  , A, I,  , s, a, f, e, t, y, ,,  , o, n, l, i, n, e,  , e, x, p, l, o, i, t, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/meta-ai-layoffs-expose-systemic-bias-in-global-tech-hiring-practices-112361.html</loc>
+        <lastmod>Wed, 15 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/z8n6ip/article71224282.ece/alternates/LANDSCAPE_1200/2026-06-10T034454Z_1125919259_RC2WH3AIJMD9_RTRMADP_3_META-RELIANCE-INDIA.JPG</image:loc>
+            <image:title>Meta AI Layoffs Expose Systemic Bias in Global Tech Hiring Practices</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 15 Jul 2026 11:51:27 +0530</news:publication_date>
+            <news:title>Meta AI Layoffs Expose Systemic Bias in Global Tech Hiring Practices</news:title>
+            
+            <news:keywords>A, I,  , b, i, a, s, ,,  , M, e, t, a,  , l, a, w, s, u, i, t, ,,  , t, e, c, h,  , e, m, p, l, o, y, m, e, n, t, ,,  , a, l, g, o, r, i, t, h, m, i, c,  , d, i, s, c, r, i, m, i, n, a, t, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , I, n, d, i, a, n,  , t, e, c, h,  , s, e, c, t, o, r, ,,  , w, o, r, k, f, o, r, c, e,  , a, u, t, o, m, a, t, i, o, n, ,,  , A, I,  , g, o, v, e, r, n, a, n, c, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/jaishankar-s-brussels-pivot-india-eu-defense-convergence-accelerates-102365.html</loc>
         <lastmod>Wed, 15 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -13808,6 +13856,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-defense-self-reliance-a-strategic-imperative-112402.html</loc>
+        <lastmod>Tue, 14 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/ba6b0930e8cd11edbf1c2f9de7fdeb77/SHERLOCKHOLMES-2026-05-27T005746-1779823684789.png</image:loc>
+            <image:title>India&#39;s Defense Self-Reliance: A Strategic Imperative</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 14 Jul 2026 12:50:00 GMT</news:publication_date>
+            <news:title>India&#39;s Defense Self-Reliance: A Strategic Imperative</news:title>
+            
+            <news:keywords>I, n, d, i, a, ,,  , D, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, e, l, f, -, R, e, l, i, a, n, c, e, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , S, o, u, t, h,  , A, s, i, a, ,,  , M, i, l, i, t, a, r, y,  , M, o, d, e, r, n, i, z, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-defense-strategy-applying-carvaan-principles-to-atmanirbhar-bharat-764786.html</loc>
         <lastmod>Sat, 11 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -13966,6 +14038,30 @@
             <news:title>India&#39;s Fintech Arms Race: Zerodha&#39;s Merchant Banking Ambition</news:title>
             
             <news:keywords>Z, e, r, o, d, h, a, ,,  , M, e, r, c, h, a, n, t,  , B, a, n, k, i, n, g, ,,  , S, e, b, i, ,,  , F, i, n, t, e, c, h, ,,  , I, P, O, ,,  , I, n, d, i, a, ,,  , F, i, n, a, n, c, i, a, l,  , S, e, r, v, i, c, e, s, ,,  , M, a, r, k, e, t,  , D, i, s, r, u, p, t, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , I, n, v, e, s, t, m, e, n, t,  , B, a, n, k, i, n, g</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-fintech-dominance-groww-s-profit-surge-signals-strategic-digital-economy-112479.html</loc>
+        <lastmod>Wed, 15 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/220356402d6d11e9aa979329348d4c3e/Groww-Final-1784104951272.png</image:loc>
+            <image:title>India&#39;s Fintech Dominance: Groww&#39;s Profit Surge Signals Strategic Digital Economy Shift</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 15 Jul 2026 09:11:52 GMT</news:publication_date>
+            <news:title>India&#39;s Fintech Dominance: Groww&#39;s Profit Surge Signals Strategic Digital Economy Shift</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , f, i, n, t, e, c, h, ,,  , d, i, g, i, t, a, l,  , e, c, o, n, o, m, y, ,,  , G, r, o, w, w,  , p, r, o, f, i, t, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , f, i, n, a, n, c, i, a, l,  , t, e, c, h, n, o, l, o, g, y, ,,  , m, a, r, k, e, t,  , s, h, a, r, e, ,,  , u, s, e, r,  , a, c, q, u, i, s, i, t, i, o, n, ,,  , A, I,  , i, n, t, e, g, r, a, t, i, o, n</news:keywords>
             
         </news:news>
     </url>
@@ -14695,6 +14791,30 @@
             <news:title>Shakti Chip: India&#39;s Strategic Semiconductor Independence Game-Changer</news:title>
             
             <news:keywords>S, h, a, k, t, i,  , c, h, i, p, ,,  , s, e, m, i, c, o, n, d, u, c, t, o, r,  , i, n, d, e, p, e, n, d, e, n, c, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , I, n, d, i, a,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/shunya-labs-india-s-answer-to-western-voice-ai-dominance-112387.html</loc>
+        <lastmod>Wed, 15 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/727115006d2011f09259ebc21ca89457/ShunyaLabs1600x900-1784033893762.jpg</image:loc>
+            <image:title>Shunya Labs: India&#39;s Answer to Western Voice AI Dominance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 15 Jul 2026 06:27:42 GMT</news:publication_date>
+            <news:title>Shunya Labs: India&#39;s Answer to Western Voice AI Dominance</news:title>
+            
+            <news:keywords>v, o, i, c, e,  , A, I, ,,  , I, n, d, i, a, ,,  , m, u, l, t, i, l, i, n, g, u, a, l,  , m, o, d, e, l, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , C, P, U,  , A, I, ,,  , s, o, v, e, r, e, i, g, n,  , A, I</news:keywords>
             
         </news:news>
     </url>
