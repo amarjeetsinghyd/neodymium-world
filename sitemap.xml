@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/smartphone-industry-faces-structural-crisis-as-ai-demand-disrupts-global-supply--180027.html</loc>
+        <lastmod>Thu, 16 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/sci-tech/technology/khrpb8/article71224420.ece/alternates/LANDSCAPE_1200/PXL_20240104_074433487.jpg</image:loc>
+            <image:title>Smartphone Industry Faces Structural Crisis as AI Demand Disrupts Global Supply Chain</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 16 Jul 2026 09:37:16 +0530</news:publication_date>
+            <news:title>Smartphone Industry Faces Structural Crisis as AI Demand Disrupts Global Supply Chain</news:title>
+            
+            <news:keywords>s, m, a, r, t, p, h, o, n, e,  , i, n, d, u, s, t, r, y, ,,  , s, e, m, i, c, o, n, d, u, c, t, o, r,  , s, h, o, r, t, a, g, e, ,,  , A, I,  , d, e, m, a, n, d, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , I, n, d, i, a, n,  , m, a, r, k, e, t, ,,  , s, t, r, u, c, t, u, r, a, l,  , d, o, w, n, t, u, r, n, ,,  , s, u, p, p, l, y,  , c, h, a, i, n,  , c, r, i, s, i, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/hunger-strike-as-geopolitical-leverage-wangchuk-s-strategic-resistance-180209.html</loc>
+        <lastmod>Thu, 16 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/sonam-wangchuk-1.jpeg</image:loc>
+            <image:title>Hunger Strike as Geopolitical Leverage: Wangchuk&#39;s Strategic Resistance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 16 Jul 2026 05:06:26 +0000</news:publication_date>
+            <news:title>Hunger Strike as Geopolitical Leverage: Wangchuk&#39;s Strategic Resistance</news:title>
+            
+            <news:keywords>h, u, n, g, e, r,  , s, t, r, i, k, e, ,,  , c, i, v, i, l,  , r, e, s, i, s, t, a, n, c, e, ,,  , I, n, d, i, a, n,  , p, o, l, i, t, i, c, s, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , s, t, r, a, t, e, g, y, ,,  , d, e, m, o, c, r, a, t, i, c,  , p, r, o, t, e, s, t, ,,  , W, a, n, g, c, h, u, k</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/education-crisis-tharoor-s-plea-signals-deepening-governance-challenge-167429.html</loc>
         <lastmod>Wed, 15 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -135,6 +183,30 @@
             <news:title>India&#39;s Fertilizer Self-Reliance: Strategic Defense Implications</news:title>
             
             <news:keywords>I, n, d, i, a,  , d, e, f, e, n, s, e, ,,  , u, r, e, a,  , p, r, o, d, u, c, t, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , f, o, o, d,  , s, e, c, u, r, i, t, y, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/iit-bombay-s-synthetic-chemistry-breakthrough-strategic-implications-for-india-s-180240.html</loc>
+        <lastmod>Wed, 15 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/iit-bombay-placement-ai-generated_20260715214906.jpg</image:loc>
+            <image:title>IIT Bombay&#39;s Synthetic Chemistry Breakthrough: Strategic Implications for India&#39;s Pharmaceutical Dominance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 15 Jul 2026 21:49:45 +0000</news:publication_date>
+            <news:title>IIT Bombay&#39;s Synthetic Chemistry Breakthrough: Strategic Implications for India&#39;s Pharmaceutical Dominance</news:title>
+            
+            <news:keywords>I, I, T,  , B, o, m, b, a, y, ,,  , d, r, u, g,  , d, i, s, c, o, v, e, r, y, ,,  , s, y, n, t, h, e, t, i, c,  , c, h, e, m, i, s, t, r, y, ,,  , p, h, a, r, m, a, c, e, u, t, i, c, a, l,  , i, n, n, o, v, a, t, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , t, e, c, h, n, o, l, o, g, y, ,,  , m, e, d, i, c, i, n, a, l,  , c, h, e, m, i, s, t, r, y, ,,  , m, o, l, e, c, u, l, a, r,  , s, y, n, t, h, e, s, i, s</news:keywords>
             
         </news:news>
     </url>
@@ -14715,6 +14787,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-semiconductor-push-strategic-implications-for-defense-self-reliance-180113.html</loc>
+        <lastmod>Thu, 16 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/47afd43024ec11ec9ecb9b7afb0df1da/emergentfordc-1784129035896.jpg</image:loc>
+            <image:title>India&#39;s Semiconductor Push: Strategic Implications for Defense Self-Reliance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 16 Jul 2026 02:00:00 GMT</news:publication_date>
+            <news:title>India&#39;s Semiconductor Push: Strategic Implications for Defense Self-Reliance</news:title>
+            
+            <news:keywords>S, e, m, i, c, o, n, d, u, c, t, o, r,  , M, i, s, s, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, n, o, l, o, g, y, ,,  , S, t, r, a, t, e, g, i, c,  , A, u, t, o, n, o, m, y, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , G, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-strategic-ai-push-cybersecurity-imperatives-and-digital-sovereignty-006742.html</loc>
         <lastmod>Tue, 14 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -15482,6 +15578,30 @@
             <news:title>Strategic Mindset Shifts: Defense Leadership Lessons from Corporate Wisdom</news:title>
             
             <news:keywords>d, e, f, e, n, s, e,  , s, t, r, a, t, e, g, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , m, i, l, i, t, a, r, y,  , l, e, a, d, e, r, s, h, i, p, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , a, n, a, l, y, s, i, s, ,,  , d, e, f, e, n, s, e,  , p, r, o, c, u, r, e, m, e, n, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/strategic-resilience-defense-posture-lessons-from-adversity-180085.html</loc>
+        <lastmod>Thu, 16 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/AttentionImpairment1600x900-1779340022551.jpeg</image:loc>
+            <image:title>Strategic Resilience: Defense Posture Lessons from Adversity</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 16 Jul 2026 04:40:00 GMT</news:publication_date>
+            <news:title>Strategic Resilience: Defense Posture Lessons from Adversity</news:title>
+            
+            <news:keywords>d, e, f, e, n, s, e,  , s, t, r, a, t, e, g, y, ,,  , r, e, s, i, l, i, e, n, c, e, ,,  , a, t, m, a, n, i, r, b, h, a, r,  , b, h, a, r, a, t, ,,  , m, i, l, i, t, a, r, y,  , p, r, e, p, a, r, e, d, n, e, s, s, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , a, n, a, l, y, s, i, s</news:keywords>
             
         </news:news>
     </url>
