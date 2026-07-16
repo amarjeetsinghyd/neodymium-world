@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/oneplus-exit-strategy-china-s-tech-giant-faces-indian-market-collapse-199323.html</loc>
+        <lastmod>Thu, 16 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/6iees0/article71229143.ece/alternates/LANDSCAPE_1200/2018-10-29T093024Z_2090981080_RC17F8B07B00_RTRMADP_3_ONEPLUS-STRATEGY.JPG</image:loc>
+            <image:title>OnePlus Exit Strategy: China&#39;s Tech Giant Faces Indian Market Collapse</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 16 Jul 2026 15:24:21 +0530</news:publication_date>
+            <news:title>OnePlus Exit Strategy: China&#39;s Tech Giant Faces Indian Market Collapse</news:title>
+            
+            <news:keywords>O, n, e, P, l, u, s, ,,  , C, h, i, n, a,  , T, e, c, h, ,,  , I, n, d, i, a,  , M, a, r, k, e, t, ,,  , O, p, p, o,  , M, e, r, g, e, r, ,,  , S, m, a, r, t, p, h, o, n, e,  , I, n, d, u, s, t, r, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, n, o, l, o, g, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/smartphone-industry-faces-structural-crisis-as-ai-demand-disrupts-global-supply--180027.html</loc>
         <lastmod>Thu, 16 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -207,6 +231,78 @@
             <news:title>India-EU FTA Signals Strategic Shift in Indo-European Defense Cooperation</news:title>
             
             <news:keywords>I, n, d, i, a,  , E, U,  , F, T, A, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , I, n, d, o, -, P, a, c, i, f, i, c, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/eu-india-tech-alliance-reshapes-south-asian-defense-dynamics-199142.html</loc>
+        <lastmod>Thu, 16 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYLFIhSkjnk-EbduWPTv7LhvQ6ISZ2aw9TRIIr5BX9_pr81KD8E16BH0YTNNnXreGSzdSWP1VX2sYFz21sCQQQLTZaQ_vjkhZoc-WCDzlYbqZl4pLFTmiUXQcG5yC3-X1YeSeO53bN7cznuupOWs76ME-D0zurm05KtxndrfvygAswh-r9eS8aBghJamA/s72-c/Jaishankar_Piyush_Goyal_EU_Delegates_1.jpg</image:loc>
+            <image:title>EU-India Tech Alliance Reshapes South Asian Defense Dynamics</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 16 Jul 2026 05:56:00 +0000</news:publication_date>
+            <news:title>EU-India Tech Alliance Reshapes South Asian Defense Dynamics</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , d, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , E, U, -, I, n, d, i, a,  , r, e, l, a, t, i, o, n, s, ,,  , s, t, r, a, t, e, g, i, c,  , t, e, c, h, n, o, l, o, g, y, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , d, e, f, e, n, s, e,  , a, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/iran-us-escalation-strategic-implications-of-ahvaz-hospital-strike-199224.html</loc>
+        <lastmod>Thu, 16 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcuUgu99ZYCxd-SYXob7mwdcewc7IllQMg31KmUiUKl5QDrLAka1JszEnYlK4d22gVkME9LB61RcDXiLUVMW2G-uL77RQWUoNpceLyAR6JfQzPJrmGcjUItz_Efa5qqXrbSpQv2AroPVfcLJ23-xN7WkrMDmvO4AR6z6Z7cMC9VF6WdGlMvq4fc6xlmlI/s72-c/Missile_3.jpg</image:loc>
+            <image:title>Iran-US Escalation: Strategic Implications of Ahvaz Hospital Strike</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 16 Jul 2026 05:55:00 +0000</news:publication_date>
+            <news:title>Iran-US Escalation: Strategic Implications of Ahvaz Hospital Strike</news:title>
+            
+            <news:keywords>I, r, a, n,  , U, S,  , m, i, s, s, i, l, e,  , s, t, r, i, k, e, ,,  , A, h, v, a, z,  , h, o, s, p, i, t, a, l,  , a, t, t, a, c, k, ,,  , S, t, r, a, i, t,  , o, f,  , H, o, r, m, u, z,  , s, e, c, u, r, i, t, y, ,,  , d, e, f, e, n, s, e,  , m, a, r, k, e, t,  , a, n, a, l, y, s, i, s, ,,  , r, e, g, i, o, n, a, l,  , e, s, c, a, l, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/us-escalates-gulf-operations-strategic-implications-for-south-asian-defense-mark-199277.html</loc>
+        <lastmod>Thu, 16 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxmb-V4JjqWz66C4j5xQF0QURG1Cccw3cMnc9StEZxMKQTG8PwFam5T6Ivn5LjjX9afyoqu0jrqsADRpDOteu3VFbi7OB5b_s-qC-CVIwUmFLKINr2nUPTT1qyaZNp2asB6i4cIi0oGNHP5FD-cdNFWNKIEzdxgxKYM5iXgW0fzFnACPcR6A_9FioXaTs/s72-c/US_Destroyer.jpg</image:loc>
+            <image:title>US Escalates Gulf Operations: Strategic Implications for South Asian Defense Markets</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 16 Jul 2026 05:55:00 +0000</news:publication_date>
+            <news:title>US Escalates Gulf Operations: Strategic Implications for South Asian Defense Markets</news:title>
+            
+            <news:keywords>U, S,  , m, i, l, i, t, a, r, y, ,,  , G, u, l, f,  , o, p, e, r, a, t, i, o, n, s, ,,  , I, r, a, n,  , s, t, r, i, k, e, s, ,,  , d, e, f, e, n, s, e,  , m, a, r, k, e, t, s, ,,  , S, o, u, t, h,  , A, s, i, a, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , p, r, o, c, u, r, e, m, e, n, t, ,,  , r, e, g, i, o, n, a, l,  , s, e, c, u, r, i, t, y</news:keywords>
             
         </news:news>
     </url>
@@ -15866,6 +15962,30 @@
             <news:title>VC Funding Dip Signals Market Maturation in India</news:title>
             
             <news:keywords>V, C,  , f, u, n, d, i, n, g, ,,  , I, n, d, i, a, n,  , s, t, a, r, t, u, p, s, ,,  , m, a, r, k, e, t,  , m, a, t, u, r, i, t, y, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/vertical-integration-as-strategic-infrastructure-doodhvale-s-blueprint-for-india-199379.html</loc>
+        <lastmod>Thu, 16 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/1a70b4f0170611edbdd8b5d28d859895/Untitleddesign69-1784189513781.jpg</image:loc>
+            <image:title>Vertical Integration as Strategic Infrastructure: Doodhvale&#39;s Blueprint for India&#39;s Food Security</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 16 Jul 2026 08:39:39 GMT</news:publication_date>
+            <news:title>Vertical Integration as Strategic Infrastructure: Doodhvale&#39;s Blueprint for India&#39;s Food Security</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , d, a, i, r, y, ,,  , v, e, r, t, i, c, a, l,  , i, n, t, e, g, r, a, t, i, o, n, ,,  , f, o, o, d,  , s, e, c, u, r, i, t, y, ,,  , s, u, p, p, l, y,  , c, h, a, i, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , D, 2, C,  , p, r, o, f, i, t, a, b, i, l, i, t, y, ,,  , i, n, s, t, i, t, u, t, i, o, n, a, l,  , i, n, v, e, s, t, m, e, n, t</news:keywords>
             
         </news:news>
     </url>
