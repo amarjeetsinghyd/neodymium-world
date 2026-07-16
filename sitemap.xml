@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-computing-wars-lessons-for-semiconductor-self-reliance-218386.html</loc>
+        <lastmod>Thu, 16 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/sci-tech/science/nnqjnd/article71230163.ece/alternates/LANDSCAPE_1200/1x9780691268217.jpeg</image:loc>
+            <image:title>India&#39;s Computing Wars: Lessons for Semiconductor Self-Reliance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 16 Jul 2026 18:58:33 +0530</news:publication_date>
+            <news:title>India&#39;s Computing Wars: Lessons for Semiconductor Self-Reliance</news:title>
+            
+            <news:keywords>s, e, m, i, c, o, n, d, u, c, t, o, r, ,,  , s, e, l, f, -, r, e, l, i, a, n, c, e, ,,  , I, n, d, i, a, ,,  , d, e, f, e, n, s, e, ,,  , c, o, m, p, u, t, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/wework-s-q1-loss-signals-foreign-business-sustainability-challenges-in-india-218550.html</loc>
+        <lastmod>Thu, 16 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2025/10/wework-India-featured.png</image:loc>
+            <image:title>WeWork&#39;s Q1 Loss Signals Foreign Business Sustainability Challenges in India</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 16 Jul 2026 15:42:20 +0000</news:publication_date>
+            <news:title>WeWork&#39;s Q1 Loss Signals Foreign Business Sustainability Challenges in India</news:title>
+            
+            <news:keywords>W, e, W, o, r, k, ,,  , I, n, d, i, a,  , m, a, r, k, e, t, ,,  , f, o, r, e, i, g, n,  , i, n, v, e, s, t, m, e, n, t, ,,  , b, u, s, i, n, e, s, s,  , s, u, s, t, a, i, n, a, b, i, l, i, t, y, ,,  , Q, 1,  , r, e, s, u, l, t, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/oneplus-exit-strategy-china-s-tech-giant-faces-indian-market-collapse-199323.html</loc>
         <lastmod>Thu, 16 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -87,6 +135,30 @@
             <news:title>OnePlus Exit Strategy: China&#39;s Tech Giant Faces Indian Market Collapse</news:title>
             
             <news:keywords>O, n, e, P, l, u, s, ,,  , C, h, i, n, a,  , T, e, c, h, ,,  , I, n, d, i, a,  , M, a, r, k, e, t, ,,  , O, p, p, o,  , M, e, r, g, e, r, ,,  , S, m, a, r, t, p, h, o, n, e,  , I, n, d, u, s, t, r, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, n, o, l, o, g, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/agnikul-s-somanath-move-signals-india-s-space-tech-maturation-218574.html</loc>
+        <lastmod>Thu, 16 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Agnikul-secures-26-ftr.png</image:loc>
+            <image:title>Agnikul&#39;s Somanath Move Signals India&#39;s Space Tech Maturation</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 16 Jul 2026 14:47:56 +0000</news:publication_date>
+            <news:title>Agnikul&#39;s Somanath Move Signals India&#39;s Space Tech Maturation</news:title>
+            
+            <news:keywords>A, g, n, i, k, u, l, ,,  , S, o, m, a, n, a, t, h, ,,  , I, S, R, O, ,,  , M, i, s, s, i, o, n,  , I, I, ,,  , S, p, a, c, e,  , T, e, c, h, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , O, r, b, i, t, a, l,  , R, e, c, o, v, e, r, y, ,,  , I, n, d, i, a, n,  , S, p, a, c, e,  , I, n, d, u, s, t, r, y</news:keywords>
             
         </news:news>
     </url>
@@ -14600,6 +14672,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-2-6t-bioeconomy-a-strategic-imperative-for-2047-dominance-218441.html</loc>
+        <lastmod>Thu, 16 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/220356402d6d11e9aa979329348d4c3e/Bio-economy-rectangle-1781275278442.jpg</image:loc>
+            <image:title>India&#39;s $2.6T BioEconomy: A Strategic Imperative for 2047 Dominance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 16 Jul 2026 13:51:41 GMT</news:publication_date>
+            <news:title>India&#39;s $2.6T BioEconomy: A Strategic Imperative for 2047 Dominance</news:title>
+            
+            <news:keywords>N, I, T, I,  , A, a, y, o, g, ,,  , B, i, o, E, c, o, n, o, m, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, t, r, a, t, e, g, i, c,  , F, o, r, e, c, a, s, t, i, n, g, ,,  , B, i, o, t, e, c, h, n, o, l, o, g, y, ,,  , A, I,  , i, n,  , B, i, o, t, e, c, h, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , D, e, f, e, n, s, e,  , M, a, n, u, f, a, c, t, u, r, i, n, g</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-ai-curriculum-push-strategic-defense-implications-635641.html</loc>
         <lastmod>Thu, 09 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -15799,6 +15895,30 @@
             <news:title>Reality as Weapon: Information Warfare in South Asian Geopolitics</news:title>
             
             <news:keywords>i, n, f, o, r, m, a, t, i, o, n,  , w, a, r, f, a, r, e, ,,  , s, t, r, a, t, e, g, i, c,  , p, e, r, c, e, p, t, i, o, n, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , d, e, f, e, n, s, e,  , s, t, r, a, t, e, g, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , p, s, y, c, h, o, l, o, g, i, c, a, l,  , o, p, e, r, a, t, i, o, n, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/reo-dev-s-ai-platform-strategic-implications-for-defense-tech-procurement-218499.html</loc>
+        <lastmod>Thu, 16 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/c2cedff02d6111ef9021856619e24ca1/IMG0470-1744635312325.jpeg</image:loc>
+            <image:title>Reo.Dev&#39;s AI Platform: Strategic Implications for Defense Tech Procurement</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 16 Jul 2026 15:04:51 GMT</news:publication_date>
+            <news:title>Reo.Dev&#39;s AI Platform: Strategic Implications for Defense Tech Procurement</news:title>
+            
+            <news:keywords>A, I,  , D, e, f, e, n, s, e,  , P, r, o, c, u, r, e, m, e, n, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, n, o, l, o, g, y, ,,  , S, o, f, t, w, a, r, e,  , A, c, q, u, i, s, i, t, i, o, n, ,,  , M, i, l, i, t, a, r, y,  , T, e, c, h</news:keywords>
             
         </news:news>
     </url>
