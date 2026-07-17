@@ -68,6 +68,102 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-smartphone-collapse-threatens-defense-tech-self-reliance-284975.html</loc>
+        <lastmod>Fri, 17 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/sci-tech/technology/l5kpg/article71233532.ece/alternates/LANDSCAPE_1200/PXL_20240104_074500256.jpg</image:loc>
+            <image:title>India&#39;s Smartphone Collapse Threatens Defense Tech Self-Reliance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 17 Jul 2026 15:34:58 +0530</news:publication_date>
+            <news:title>India&#39;s Smartphone Collapse Threatens Defense Tech Self-Reliance</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , s, m, a, r, t, p, h, o, n, e,  , m, a, r, k, e, t, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , m, e, m, o, r, y,  , p, r, i, c, e, s, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/u-s-visa-privacy-rules-geopolitical-implications-for-indo-american-relations-285042.html</loc>
+        <lastmod>Fri, 17 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/uftu99/article69743327.ece/alternates/LANDSCAPE_1200/2024-01-17T131539Z_128884214_RC29J5AKWFZM_RTRMADP_3_INDIA-ISRAEL-WORKERS.JPG</image:loc>
+            <image:title>U.S. Visa Privacy Rules: Geopolitical Implications for Indo-American Relations</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 17 Jul 2026 13:08:11 +0530</news:publication_date>
+            <news:title>U.S. Visa Privacy Rules: Geopolitical Implications for Indo-American Relations</news:title>
+            
+            <news:keywords>U, ., S, .,  , v, i, s, a, ,,  , p, r, i, v, a, c, y,  , r, u, l, e, s, ,,  , I, n, d, i, a, -, U, S,  , r, e, l, a, t, i, o, n, s, ,,  , s, t, u, d, e, n, t,  , m, o, b, i, l, i, t, y, ,,  , d, i, g, i, t, a, l,  , d, i, p, l, o, m, a, c, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/starship-failure-exposes-critical-vulnerabilities-in-us-space-dominance-285103.html</loc>
+        <lastmod>Fri, 17 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/r00f9i/article71232847.ece/alternates/LANDSCAPE_1200/SpaceX_Starship_Launch_86855.jpg</image:loc>
+            <image:title>Starship Failure Exposes Critical Vulnerabilities in US Space Dominance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 17 Jul 2026 11:28:29 +0530</news:publication_date>
+            <news:title>Starship Failure Exposes Critical Vulnerabilities in US Space Dominance</news:title>
+            
+            <news:keywords>S, p, a, c, e, X, ,,  , S, t, a, r, s, h, i, p, ,,  , I, n, d, i, a,  , d, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, p, a, c, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , s, t, r, a, t, e, g, i, c,  , i, m, p, l, i, c, a, t, i, o, n, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/dpdp-compliance-india-s-data-sovereignty-challenge-285169.html</loc>
+        <lastmod>Fri, 17 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/DPDP-deadline-ftr.jpg</image:loc>
+            <image:title>DPDP Compliance: India&#39;s Data Sovereignty Challenge</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 17 Jul 2026 07:34:27 +0000</news:publication_date>
+            <news:title>DPDP Compliance: India&#39;s Data Sovereignty Challenge</news:title>
+            
+            <news:keywords>D, P, D, P, ,,  , D, a, t, a,  , P, r, o, t, e, c, t, i, o, n, ,,  , I, n, d, i, a,  , C, o, m, p, l, i, a, n, c, e, ,,  , D, a, t, a,  , S, o, v, e, r, e, i, g, n, t, y, ,,  , R, e, g, u, l, a, t, o, r, y,  , I, m, p, a, c, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/pakistan-s-saeed-defense-signals-escalating-india-pakistan-tensions-275162.html</loc>
         <lastmod>Fri, 17 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -183,6 +279,30 @@
             <news:title>Rath Yatra Festival: South Asian Religious Dynamics and Security Implications</news:title>
             
             <news:keywords>S, o, u, t, h,  , A, s, i, a, ,,  , R, e, l, i, g, i, o, u, s,  , D, y, n, a, m, i, c, s, ,,  , S, e, c, u, r, i, t, y,  , A, n, a, l, y, s, i, s, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , I, S, K, C, O, N</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/us-naval-dominance-secures-hormuz-amid-iran-blockade-284950.html</loc>
+        <lastmod>Fri, 17 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil4vzA_Nisq4jXKYfKZvIB8NsOKk58hCYz6b8JnVBFVN1uytgOdSd1t3f8E-UbP-aMqfcidG6e_5m5iuh38uKTx7GS1L_arQG83opjyQqGcagthfatu3BIvtj9fCAclcy1S4p9_ztPWRo-t1h4MDf7w4ePper06APFeIOIq4qa-7ZtTEmg86dmOabjYHs/s72-c/Karoline_Leavitt.jpg</image:loc>
+            <image:title>US Naval Dominance Secures Hormuz Amid Iran Blockade</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 17 Jul 2026 05:56:00 +0000</news:publication_date>
+            <news:title>US Naval Dominance Secures Hormuz Amid Iran Blockade</news:title>
+            
+            <news:keywords>S, t, r, a, i, t,  , o, f,  , H, o, r, m, u, z, ,,  , U, S,  , N, a, v, y,  , b, l, o, c, k, a, d, e, ,,  , I, r, a, n,  , s, a, n, c, t, i, o, n, s, ,,  , m, a, r, i, t, i, m, e,  , s, e, c, u, r, i, t, y, ,,  , e, n, e, r, g, y,  , s, e, c, u, r, i, t, y</news:keywords>
             
         </news:news>
     </url>
