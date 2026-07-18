@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-17</lastmod>
+        <lastmod>2026-07-18</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-17</lastmod>
+        <lastmod>2026-07-18</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,102 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/grassroots-ai-innovation-tackles-human-elephant-conflict-in-jharkhand-339658.html</loc>
+        <lastmod>Sat, 18 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/Shubham-story1.jpeg</image:loc>
+            <image:title>Grassroots AI Innovation Tackles Human-Elephant Conflict in Jharkhand</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 18 Jul 2026 01:15:37 +0000</news:publication_date>
+            <news:title>Grassroots AI Innovation Tackles Human-Elephant Conflict in Jharkhand</news:title>
+            
+            <news:keywords>A, I,  , w, i, l, d, l, i, f, e,  , c, o, n, s, e, r, v, a, t, i, o, n, ,,  , h, u, m, a, n, -, e, l, e, p, h, a, n, t,  , c, o, n, f, l, i, c, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , g, r, a, s, s, r, o, o, t, s,  , i, n, n, o, v, a, t, i, o, n, ,,  , J, h, a, r, k, h, a, n, d, ,,  , s, o, l, a, r, -, p, o, w, e, r, e, d,  , t, e, c, h, n, o, l, o, g, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/electoral-legitimacy-as-strategic-asset-india-s-democratic-resilience-in-south-a-339701.html</loc>
+        <lastmod>Sat, 18 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/Gyanesh-Kumar-CEC_20260514090727_20260522043042_20260718002753.jpg</image:loc>
+            <image:title>Electoral Legitimacy as Strategic Asset: India&#39;s Democratic Resilience in South Asian Context</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 18 Jul 2026 00:28:17 +0000</news:publication_date>
+            <news:title>Electoral Legitimacy as Strategic Asset: India&#39;s Democratic Resilience in South Asian Context</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , e, l, e, c, t, i, o, n, s, ,,  , e, l, e, c, t, o, r, a, l,  , l, e, g, i, t, i, m, a, c, y, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , d, e, m, o, c, r, a, t, i, c,  , r, e, s, i, l, i, e, n, c, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t,  , d, e, f, e, n, s, e, ,,  , s, t, r, a, t, e, g, i, c,  , s, i, g, n, a, l, i, n, g</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/political-weaponization-of-urban-planning-azam-khan-s-university-case-339746.html</loc>
+        <lastmod>Sat, 18 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/Jauhar-University-3COL_20260718000018.jpg</image:loc>
+            <image:title>Political Weaponization of Urban Planning: Azam Khan&#39;s University Case</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 18 Jul 2026 00:01:49 +0000</news:publication_date>
+            <news:title>Political Weaponization of Urban Planning: Azam Khan&#39;s University Case</news:title>
+            
+            <news:keywords>A, z, a, m,  , K, h, a, n, ,,  , U, t, t, a, r,  , P, r, a, d, e, s, h, ,,  , u, r, b, a, n,  , p, l, a, n, n, i, n, g, ,,  , p, o, l, i, t, i, c, a, l,  , p, e, r, s, e, c, u, t, i, o, n, ,,  , A, I, M, P, L, B, ,,  , S, P,  , p, a, r, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/japan-india-bullet-train-dispute-reveals-strategic-autonomy-shift-339771.html</loc>
+        <lastmod>Fri, 17 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/P1-japan-minister-2col.jpg</image:loc>
+            <image:title>Japan-India Bullet Train Dispute Reveals Strategic Autonomy Shift</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 17 Jul 2026 22:50:51 +0000</news:publication_date>
+            <news:title>Japan-India Bullet Train Dispute Reveals Strategic Autonomy Shift</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , J, a, p, a, n,  , r, e, l, a, t, i, o, n, s, ,,  , b, u, l, l, e, t,  , t, r, a, i, n,  , p, r, o, j, e, c, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , g, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/hcltech-s-gift-city-hub-ai-powered-financial-services-expansion-304589.html</loc>
@@ -351,6 +447,30 @@
             <news:title>Jio&#39;s IPO Path Strengthens as Defense-Tech Integration Accelerates</news:title>
             
             <news:keywords>J, i, o,  , P, l, a, t, f, o, r, m, s, ,,  , I, P, O, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, n, o, l, o, g, y, ,,  , S, t, r, a, t, e, g, i, c,  , A, u, t, o, n, o, m, y, ,,  , D, i, g, i, t, a, l,  , S, o, v, e, r, e, i, g, n, t, y, ,,  , 5, G, ,,  , I, n, d, i, a, n,  , D, e, f, e, n, s, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/high-profile-legal-cases-undermining-india-s-global-credibility-339808.html</loc>
+        <lastmod>Fri, 17 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/06/Tarun-Tejpal-case_20260624131053.jpg</image:loc>
+            <image:title>High-Profile Legal Cases Undermining India&#39;s Global Credibility</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 17 Jul 2026 14:31:45 +0000</news:publication_date>
+            <news:title>High-Profile Legal Cases Undermining India&#39;s Global Credibility</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , r, e, p, u, t, a, t, i, o, n, ,,  , l, e, g, a, l,  , c, r, e, d, i, b, i, l, i, t, y, ,,  , i, n, t, e, r, n, a, t, i, o, n, a, l,  , b, u, s, i, n, e, s, s, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , r, i, s, k, ,,  , s, o, f, t,  , p, o, w, e, r</news:keywords>
             
         </news:news>
     </url>
