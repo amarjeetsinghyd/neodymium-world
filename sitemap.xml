@@ -68,6 +68,78 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/meta-ai-layoffs-global-tech-labor-crisis-looms-351954.html</loc>
+        <lastmod>Sat, 18 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/7zqx3i/article71237063.ece/alternates/LANDSCAPE_1200/2026-07-16T160934Z_2131585335_RC2LU7ANRW2K_RTRMADP_3_META-PLATFORMS-LAYOFFS.JPG</image:loc>
+            <image:title>Meta AI Layoffs: Global Tech Labor Crisis Looms</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 18 Jul 2026 10:21:14 +0530</news:publication_date>
+            <news:title>Meta AI Layoffs: Global Tech Labor Crisis Looms</news:title>
+            
+            <news:keywords>M, e, t, a, ,,  , A, I,  , l, a, y, o, f, f, s, ,,  , t, e, c, h,  , l, a, b, o, r, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , I, n, d, i, a, n,  , I, T, ,,  , a, u, t, o, m, a, t, i, o, n,  , e, t, h, i, c, s, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , t, e, c, h</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/operation-curtain-delhi-police-s-covert-removal-of-activist-wangchuk-352071.html</loc>
+        <lastmod>Sat, 18 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/18SonamWangchuk.jpg</image:loc>
+            <image:title>Operation Curtain: Delhi Police&#39;s Covert Removal of Activist Wangchuk</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 18 Jul 2026 04:15:15 +0000</news:publication_date>
+            <news:title>Operation Curtain: Delhi Police&#39;s Covert Removal of Activist Wangchuk</news:title>
+            
+            <news:keywords>D, e, l, h, i,  , P, o, l, i, c, e, ,,  , S, o, n, a, m,  , W, a, n, g, c, h, u, k, ,,  , p, r, o, t, e, s, t,  , m, a, n, a, g, e, m, e, n, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, i, s, s, e, n, t,  , s, u, p, p, r, e, s, s, i, o, n, ,,  , s, e, c, u, r, i, t, y,  , o, p, e, r, a, t, i, o, n, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/wangchuk-s-hospitalization-signals-state-s-escalating-intolerance-for-dissent-352093.html</loc>
+        <lastmod>Sat, 18 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/sonam-wangchuk-protest-1.jpg</image:loc>
+            <image:title>Wangchuk&#39;s Hospitalization Signals State&#39;s Escalating Intolerance for Dissent</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 18 Jul 2026 02:06:07 +0000</news:publication_date>
+            <news:title>Wangchuk&#39;s Hospitalization Signals State&#39;s Escalating Intolerance for Dissent</news:title>
+            
+            <news:keywords>S, o, n, a, m,  , W, a, n, g, c, h, u, k, ,,  , D, e, l, h, i,  , P, o, l, i, c, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , S, t, a, t, e,  , I, n, t, o, l, e, r, a, n, c, e, ,,  , I, n, d, i, a, n,  , D, e, f, e, n, s, e,  , P, o, s, t, u, r, e, ,,  , S, o, u, t, h,  , A, s, i, a, ,,  , C, i, v, i, l,  , S, o, c, i, e, t, y, ,,  , P, o, l, i, t, i, c, a, l,  , R, i, s, k</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/grassroots-ai-innovation-tackles-human-elephant-conflict-in-jharkhand-339658.html</loc>
         <lastmod>Sat, 18 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -471,6 +543,30 @@
             <news:title>High-Profile Legal Cases Undermining India&#39;s Global Credibility</news:title>
             
             <news:keywords>I, n, d, i, a,  , r, e, p, u, t, a, t, i, o, n, ,,  , l, e, g, a, l,  , c, r, e, d, i, b, i, l, i, t, y, ,,  , i, n, t, e, r, n, a, t, i, o, n, a, l,  , b, u, s, i, n, e, s, s, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , r, i, s, k, ,,  , s, o, f, t,  , p, o, w, e, r</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-bullet-train-paradox-indigenous-b28-vs-japanese-e10-strategic-implicatio-352121.html</loc>
+        <lastmod>Fri, 17 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/bullet-train.jpg</image:loc>
+            <image:title>India&#39;s Bullet Train Paradox: Indigenous B28 vs Japanese E10 Strategic Implications</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 17 Jul 2026 14:15:06 +0000</news:publication_date>
+            <news:title>India&#39;s Bullet Train Paradox: Indigenous B28 vs Japanese E10 Strategic Implications</news:title>
+            
+            <news:keywords>b, u, l, l, e, t,  , t, r, a, i, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , m, a, n, u, f, a, c, t, u, r, i, n, g, ,,  , J, a, p, a, n,  , I, n, d, i, a,  , r, e, l, a, t, i, o, n, s, ,,  , h, i, g, h, -, s, p, e, e, d,  , r, a, i, l, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , B, 2, 8,  , t, r, a, i, n, ,,  , E, 1, 0,  , s, e, r, i, e, s</news:keywords>
             
         </news:news>
     </url>
@@ -16035,6 +16131,30 @@
             <news:title>India&#39;s Battery Refinement Revolution: Strategic Metals Independence</news:title>
             
             <news:keywords>b, a, t, t, e, r, y,  , r, e, c, y, c, l, i, n, g, ,,  , c, r, i, t, i, c, a, l,  , m, e, t, a, l, s, ,,  , I, n, d, i, a,  , d, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , l, i, t, h, i, u, m,  , i, n, d, e, p, e, n, d, e, n, c, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-cultural-soft-power-bengaluru-s-art-infused-hospitality-strategy-352015.html</loc>
+        <lastmod>Sat, 18 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/28b451402d6a11e9aa979329348d4c3e/Feature-1784301877659.jpg</image:loc>
+            <image:title>India&#39;s Cultural Soft Power: Bengaluru&#39;s Art-Infused Hospitality Strategy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 18 Jul 2026 02:30:00 GMT</news:publication_date>
+            <news:title>India&#39;s Cultural Soft Power: Bengaluru&#39;s Art-Infused Hospitality Strategy</news:title>
+            
+            <news:keywords>c, u, l, t, u, r, a, l,  , s, o, f, t,  , p, o, w, e, r, ,,  , I, n, d, i, a,  , s, t, r, a, t, e, g, y, ,,  , B, e, n, g, a, l, u, r, u,  , a, r, t, ,,  , h, o, s, p, i, t, a, l, i, t, y,  , d, i, p, l, o, m, a, c, y, ,,  , c, u, l, t, u, r, a, l,  , i, n, f, l, u, e, n, c, e</news:keywords>
             
         </news:news>
     </url>
