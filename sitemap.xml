@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/parliament-security-protocol-traffic-restrictions-reveal-india-s-defense-posture-439911.html</loc>
+        <lastmod>Sun, 19 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/delhi-traffic-police_20260719050625.jpg</image:loc>
+            <image:title>Parliament Security Protocol: Traffic Restrictions Reveal India&#39;s Defense Posture</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 19 Jul 2026 05:41:58 +0000</news:publication_date>
+            <news:title>Parliament Security Protocol: Traffic Restrictions Reveal India&#39;s Defense Posture</news:title>
+            
+            <news:keywords>P, a, r, l, i, a, m, e, n, t,  , s, e, c, u, r, i, t, y, ,,  , D, e, l, h, i,  , t, r, a, f, f, i, c,  , r, e, s, t, r, i, c, t, i, o, n, s, ,,  , I, n, d, i, a,  , d, e, f, e, n, s, e,  , p, o, s, t, u, r, e, ,,  , u, r, b, a, n,  , s, e, c, u, r, i, t, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t,  , s, e, c, u, r, i, t, y, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/ken-betwa-protests-expose-critical-flaws-in-india-s-atmanirbhar-infrastructure-s-439935.html</loc>
+        <lastmod>Sun, 19 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/Ken-Betwa.jpg</image:loc>
+            <image:title>Ken-Betwa Protests Expose Critical Flaws in India&#39;s Atmanirbhar Infrastructure Strategy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 19 Jul 2026 05:10:13 +0000</news:publication_date>
+            <news:title>Ken-Betwa Protests Expose Critical Flaws in India&#39;s Atmanirbhar Infrastructure Strategy</news:title>
+            
+            <news:keywords>K, e, n, -, B, e, t, w, a, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e,  , p, r, o, t, e, s, t, s, ,,  , l, a, n, d,  , a, c, q, u, i, s, i, t, i, o, n, ,,  , d, i, s, p, l, a, c, e, m, e, n, t, ,,  , r, i, v, e, r,  , l, i, n, k, i, n, g, ,,  , M, a, d, h, y, a,  , P, r, a, d, e, s, h, ,,  , U, t, t, a, r,  , P, r, a, d, e, s, h</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/sir-phase-3-electoral-roll-purge-reveals-political-manipulation-tactics-426712.html</loc>
         <lastmod>Sun, 19 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -135,6 +183,30 @@
             <news:title>Domestic Violence Crisis Exposes Security Gaps in Central India</news:title>
             
             <news:keywords>d, o, m, e, s, t, i, c,  , v, i, o, l, e, n, c, e, ,,  , s, e, c, u, r, i, t, y,  , g, a, p, s, ,,  , C, h, h, a, t, t, i, s, g, a, r, h, ,,  , s, o, c, i, a, l,  , s, t, a, b, i, l, i, t, y, ,,  , l, a, w,  , e, n, f, o, r, c, e, m, e, n, t, ,,  , N, a, x, a, l, i, t, e,  , c, o, n, f, l, i, c, t,  , z, o, n, e, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/khurram-parvez-bail-india-s-uapa-strategy-under-scrutiny-440098.html</loc>
+        <lastmod>Sun, 19 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/Khurram-Parvez_20260719011250.jpg</image:loc>
+            <image:title>Khurram Parvez Bail: India&#39;s UAPA Strategy Under Scrutiny</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 19 Jul 2026 01:13:18 +0000</news:publication_date>
+            <news:title>Khurram Parvez Bail: India&#39;s UAPA Strategy Under Scrutiny</news:title>
+            
+            <news:keywords>U, A, P, A, ,,  , K, a, s, h, m, i, r, ,,  , H, u, m, a, n,  , R, i, g, h, t, s, ,,  , D, e, f, e, n, s, e,  , P, o, l, i, c, y, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , C, o, u, n, t, e, r, -, t, e, r, r, o, r, i, s, m</news:keywords>
             
         </news:news>
     </url>
