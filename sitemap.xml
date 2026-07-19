@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-18</lastmod>
+        <lastmod>2026-07-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-18</lastmod>
+        <lastmod>2026-07-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,78 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/sir-phase-3-electoral-roll-purge-reveals-political-manipulation-tactics-426712.html</loc>
+        <lastmod>Sun, 19 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/bengal-sir_20260711222801_20260715231630_20260719013227.jpg</image:loc>
+            <image:title>SIR Phase-3: Electoral Roll Purge Reveals Political Manipulation Tactics</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 19 Jul 2026 01:32:49 +0000</news:publication_date>
+            <news:title>SIR Phase-3: Electoral Roll Purge Reveals Political Manipulation Tactics</news:title>
+            
+            <news:keywords>S, I, R,  , P, h, a, s, e, -, 3, ,,  , e, l, e, c, t, o, r, a, l,  , r, o, l, l, s, ,,  , v, o, t, e, r,  , d, e, l, e, t, i, o, n, ,,  , E, l, e, c, t, i, o, n,  , C, o, m, m, i, s, s, i, o, n, ,,  , p, o, l, i, t, i, c, a, l,  , m, a, n, i, p, u, l, a, t, i, o, n, ,,  , e, l, e, c, t, o, r, a, l,  , i, n, t, e, g, r, i, t, y, ,,  , v, o, t, e, r,  , s, u, p, p, r, e, s, s, i, o, n, ,,  , I, n, d, i, a,  , e, l, e, c, t, i, o, n, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/chhattisgarh-s-river-revival-strategic-environmental-compliance-in-resource-rich-426730.html</loc>
+        <lastmod>Sun, 19 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/gangangtpollution.jpg</image:loc>
+            <image:title>Chhattisgarh&#39;s River Revival: Strategic Environmental Compliance in Resource-Rich Heartland</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 19 Jul 2026 01:20:18 +0000</news:publication_date>
+            <news:title>Chhattisgarh&#39;s River Revival: Strategic Environmental Compliance in Resource-Rich Heartland</news:title>
+            
+            <news:keywords>C, h, h, a, t, t, i, s, g, a, r, h, ,,  , r, i, v, e, r,  , p, o, l, l, u, t, i, o, n, ,,  , e, n, v, i, r, o, n, m, e, n, t, a, l,  , c, o, m, p, l, i, a, n, c, e, ,,  , i, n, d, u, s, t, r, i, a, l,  , r, e, g, u, l, a, t, i, o, n, ,,  , g, e, o, -, t, a, g, g, i, n, g, ,,  , w, a, t, e, r,  , m, a, n, a, g, e, m, e, n, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , r, e, s, o, u, r, c, e,  , g, o, v, e, r, n, a, n, c, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/domestic-violence-crisis-exposes-security-gaps-in-central-india-426748.html</loc>
+        <lastmod>Sun, 19 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/police-15_20260719011552.jpg</image:loc>
+            <image:title>Domestic Violence Crisis Exposes Security Gaps in Central India</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 19 Jul 2026 01:16:48 +0000</news:publication_date>
+            <news:title>Domestic Violence Crisis Exposes Security Gaps in Central India</news:title>
+            
+            <news:keywords>d, o, m, e, s, t, i, c,  , v, i, o, l, e, n, c, e, ,,  , s, e, c, u, r, i, t, y,  , g, a, p, s, ,,  , C, h, h, a, t, t, i, s, g, a, r, h, ,,  , s, o, c, i, a, l,  , s, t, a, b, i, l, i, t, y, ,,  , l, a, w,  , e, n, f, o, r, c, e, m, e, n, t, ,,  , N, a, x, a, l, i, t, e,  , c, o, n, f, l, i, c, t,  , z, o, n, e, s</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/bihar-education-reform-political-fracture-over-academic-autonomy-401188.html</loc>
@@ -18012,6 +18084,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/strategic-analysis-india-s-innovation-ecosystem-in-education-health-technology-426655.html</loc>
+        <lastmod>Sun, 19 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/28b451402d6a11e9aa979329348d4c3e/Lateralsparks3-1784356047415.jpg</image:loc>
+            <image:title>Strategic Analysis: India&#39;s Innovation Ecosystem in Education, Health &amp; Technology</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 19 Jul 2026 01:45:00 GMT</news:publication_date>
+            <news:title>Strategic Analysis: India&#39;s Innovation Ecosystem in Education, Health &amp; Technology</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , s, t, a, r, t, u, p, s, ,,  , e, d, u, c, a, t, i, o, n,  , t, e, c, h, n, o, l, o, g, y, ,,  , h, e, a, l, t, h,  , i, n, n, o, v, a, t, i, o, n, ,,  , A, I,  , a, p, p, l, i, c, a, t, i, o, n, s, ,,  , m, a, r, k, e, t,  , a, n, a, l, y, s, i, s, ,,  , s, t, r, a, t, e, g, i, c,  , f, o, r, e, c, a, s, t, i, n, g</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/strategic-forecasting-happiness-as-a-force-multiplier-in-defense-563861.html</loc>
         <lastmod>Wed, 08 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -18290,6 +18386,30 @@
             <news:title>Vertical Integration as Strategic Infrastructure: Doodhvale&#39;s Blueprint for India&#39;s Food Security</news:title>
             
             <news:keywords>I, n, d, i, a,  , d, a, i, r, y, ,,  , v, e, r, t, i, c, a, l,  , i, n, t, e, g, r, a, t, i, o, n, ,,  , f, o, o, d,  , s, e, c, u, r, i, t, y, ,,  , s, u, p, p, l, y,  , c, h, a, i, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , D, 2, C,  , p, r, o, f, i, t, a, b, i, l, i, t, y, ,,  , i, n, s, t, i, t, u, t, i, o, n, a, l,  , i, n, v, e, s, t, m, e, n, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/vikram-1-launch-signals-india-s-commercial-space-revolution-426694.html</loc>
+        <lastmod>Sun, 19 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/47afd43024ec11ec9ecb9b7afb0df1da/skyroot1-1784393063590.jpg</image:loc>
+            <image:title>Vikram-1 Launch Signals India&#39;s Commercial Space Revolution</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 19 Jul 2026 02:00:00 GMT</news:publication_date>
+            <news:title>Vikram-1 Launch Signals India&#39;s Commercial Space Revolution</news:title>
+            
+            <news:keywords>V, i, k, r, a, m, -, 1, ,,  , I, n, d, i, a,  , s, p, a, c, e, ,,  , p, r, i, v, a, t, e,  , r, o, c, k, e, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , c, o, m, m, e, r, c, i, a, l,  , s, p, a, c, e, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y</news:keywords>
             
         </news:news>
     </url>
