@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/uttarakhand-road-project-environmental-politics-threaten-strategic-infrastructur-448418.html</loc>
+        <lastmod>Sun, 19 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/pushkar-singh-dhami-1.jpg</image:loc>
+            <image:title>Uttarakhand Road Project: Environmental Politics Threaten Strategic Infrastructure</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 19 Jul 2026 06:50:32 +0000</news:publication_date>
+            <news:title>Uttarakhand Road Project: Environmental Politics Threaten Strategic Infrastructure</news:title>
+            
+            <news:keywords>U, t, t, a, r, a, k, h, a, n, d, ,,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e,  , d, e, v, e, l, o, p, m, e, n, t, ,,  , e, n, v, i, r, o, n, m, e, n, t, a, l,  , p, o, l, i, c, y, ,,  , w, i, l, d, l, i, f, e,  , c, o, n, s, e, r, v, a, t, i, o, n, ,,  , s, t, r, a, t, e, g, i, c,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , H, i, m, a, l, a, y, a, n,  , r, e, g, i, o, n, ,,  , d, e, v, e, l, o, p, m, e, n, t,  , v, s,  , c, o, n, s, e, r, v, a, t, i, o, n, ,,  , p, o, l, i, t, i, c, a, l,  , r, i, s, k</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/parliament-security-protocol-traffic-restrictions-reveal-india-s-defense-posture-439911.html</loc>
         <lastmod>Sun, 19 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -87,6 +111,30 @@
             <news:title>Parliament Security Protocol: Traffic Restrictions Reveal India&#39;s Defense Posture</news:title>
             
             <news:keywords>P, a, r, l, i, a, m, e, n, t,  , s, e, c, u, r, i, t, y, ,,  , D, e, l, h, i,  , t, r, a, f, f, i, c,  , r, e, s, t, r, i, c, t, i, o, n, s, ,,  , I, n, d, i, a,  , d, e, f, e, n, s, e,  , p, o, s, t, u, r, e, ,,  , u, r, b, a, n,  , s, e, c, u, r, i, t, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t,  , s, e, c, u, r, i, t, y, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/bigbasket-s-strategic-retreat-signals-india-s-e-commerce-maturation-448360.html</loc>
+        <lastmod>Sun, 19 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Outline-Design-ftr.jpg</image:loc>
+            <image:title>BigBasket&#39;s Strategic Retreat Signals India&#39;s E-commerce Maturation</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 19 Jul 2026 05:30:42 +0000</news:publication_date>
+            <news:title>BigBasket&#39;s Strategic Retreat Signals India&#39;s E-commerce Maturation</news:title>
+            
+            <news:keywords>B, i, g, B, a, s, k, e, t, ,,  , Q, u, i, c, k,  , C, o, m, m, e, r, c, e, ,,  , T, a, t, a,  , D, i, g, i, t, a, l, ,,  , E, -, c, o, m, m, e, r, c, e,  , S, t, r, a, t, e, g, y, ,,  , M, a, r, k, e, t,  , C, o, n, s, o, l, i, d, a, t, i, o, n, ,,  , I, n, d, i, a, n,  , R, e, t, a, i, l</news:keywords>
             
         </news:news>
     </url>
