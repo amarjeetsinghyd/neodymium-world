@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/samsung-s-u-s-hq-shift-exposes-india-s-tech-vulnerabilities-547706.html</loc>
+        <lastmod>Mon, 20 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/khiwa/article71243839.ece/alternates/LANDSCAPE_1200/2026-07-16T121016Z_1406791906_RC2LEGAVN8D7_RTRMADP_3_USA-TECH-MEMORY-PROBE.JPG</image:loc>
+            <image:title>Samsung&#39;s U.S. HQ Shift Exposes India&#39;s Tech Vulnerabilities</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 20 Jul 2026 10:23:56 +0530</news:publication_date>
+            <news:title>Samsung&#39;s U.S. HQ Shift Exposes India&#39;s Tech Vulnerabilities</news:title>
+            
+            <news:keywords>S, a, m, s, u, n, g, ,,  , I, n, d, i, a, ,,  , l, a, y, o, f, f, s, ,,  , t, e, c, h, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , m, o, b, i, l, e,  , m, a, r, k, e, t, ,,  , d, e, f, e, n, s, e, ,,  , g, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/russia-india-t-90ms-deal-signals-new-defense-paradigm-527948.html</loc>
         <lastmod>Mon, 20 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -183,6 +207,54 @@
             <news:title>Railway Renaming Signals Defense Industry&#39;s Growing Political Capital</news:title>
             
             <news:keywords>I, n, d, i, a, n,  , d, e, f, e, n, s, e, ,,  , m, i, l, i, t, a, r, y,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , d, e, f, e, n, s, e,  , p, o, l, i, c, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , p, r, o, c, u, r, e, m, e, n, t, ,,  , s, t, r, a, t, e, g, i, c,  , a, s, s, e, t, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/iran-leadership-crisis-khamenei-s-disappearance-analysis-547640.html</loc>
+        <lastmod>Mon, 20 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1Em2zi-Dlktoztt2DfkdQzddgwJLm2roumfQSBFf_idcGVlkuT4iEUDns74mTE9nhYkX-Hq541wtMhQ0xT7LYh5A8bH4cNSHLbYlJqRi3kPBH_57zcM4cyRvgutZ1WJ7LUnUEig3ZsiuCtjtlIHR8Ha8n7vYoO-SfuMeYUde7QXQzwliaqijXFl__l3U/s72-c/Ayatollah_Mojtaba_Khamenei_1.jpg</image:loc>
+            <image:title>Iran Leadership Crisis: Khamenei&#39;s Disappearance Analysis</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 20 Jul 2026 05:56:00 +0000</news:publication_date>
+            <news:title>Iran Leadership Crisis: Khamenei&#39;s Disappearance Analysis</news:title>
+            
+            <news:keywords>I, r, a, n, ,,  , K, h, a, m, e, n, e, i, ,,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , M, i, d, d, l, e,  , E, a, s, t, ,,  , i, n, t, e, l, l, i, g, e, n, c, e,  , a, n, a, l, y, s, i, s, ,,  , p, o, w, e, r,  , v, a, c, u, u, m, ,,  , r, e, g, i, o, n, a, l,  , s, t, a, b, i, l, i, t, y, ,,  , s, u, c, c, e, s, s, i, o, n,  , c, r, i, s, i, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/panama-india-defense-ties-signal-new-maritime-security-paradigm-547610.html</loc>
+        <lastmod>Mon, 20 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhv3OTIFhGxseXNw8LD8oJVmRNXVlIa8vfGM_6CTVxfNaREVpHxU7_xnMmaKFWSlqRfgAjwTECuiL1MyV3UdQbVEgclLfWhG8eFzxJCMuofO9lBbZN3s790ZlI9g5W4pKYKphWDjJILTwFz-G05jF_Xt-fRTc1OVEjJxOoO1WeBKC8tpdgZBN6PWSjqJ3o/s72-c/Panama_Foreign_Minister_1.jpg</image:loc>
+            <image:title>Panama-India Defense Ties Signal New Maritime Security Paradigm</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 20 Jul 2026 05:56:00 +0000</news:publication_date>
+            <news:title>Panama-India Defense Ties Signal New Maritime Security Paradigm</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , d, e, f, e, n, s, e, ,,  , P, a, n, a, m, a,  , p, a, r, t, n, e, r, s, h, i, p, ,,  , m, a, r, i, t, i, m, e,  , s, e, c, u, r, i, t, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, o, u, t, h,  , A, s, i, a,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , n, a, v, a, l,  , c, o, o, p, e, r, a, t, i, o, n</news:keywords>
             
         </news:news>
     </url>
@@ -711,6 +783,30 @@
             <news:title>AI Nudification Apps: A Geopolitical Threat to India&#39;s Digital Sovereignty</news:title>
             
             <news:keywords>A, I, ,,  , D, e, e, p, f, a, k, e, s, ,,  , N, u, d, i, f, i, c, a, t, i, o, n, ,,  , S, e, c, u, r, i, t, y, ,,  , I, n, d, i, a, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, i, g, i, t, a, l,  , S, o, v, e, r, e, i, g, n, t, y, ,,  , G, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/embodied-ai-revolution-defense-implications-for-india-s-atmanirbhar-bharat-547776.html</loc>
+        <lastmod>Sat, 18 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/sci-tech/technology/ev8ul6/article71233214.ece/alternates/LANDSCAPE_1200/download.png</image:loc>
+            <image:title>Embodied AI Revolution: Defense Implications for India&#39;s Atmanirbhar Bharat</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 18 Jul 2026 13:33:07 +0530</news:publication_date>
+            <news:title>Embodied AI Revolution: Defense Implications for India&#39;s Atmanirbhar Bharat</news:title>
+            
+            <news:keywords>e, m, b, o, d, i, e, d,  , A, I, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , I, n, d, i, a, n,  , d, e, f, e, n, s, e,  , p, o, s, t, u, r, e, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , r, o, b, o, t, i, c, s, ,,  , m, i, l, i, t, a, r, y,  , t, e, c, h, n, o, l, o, g, y</news:keywords>
             
         </news:news>
     </url>
@@ -17590,6 +17686,30 @@
             <news:title>India&#39;s Fintech Dominance: Groww&#39;s Profit Surge Signals Strategic Digital Economy Shift</news:title>
             
             <news:keywords>I, n, d, i, a,  , f, i, n, t, e, c, h, ,,  , d, i, g, i, t, a, l,  , e, c, o, n, o, m, y, ,,  , G, r, o, w, w,  , p, r, o, f, i, t, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , f, i, n, a, n, c, i, a, l,  , t, e, c, h, n, o, l, o, g, y, ,,  , m, a, r, k, e, t,  , s, h, a, r, e, ,,  , u, s, e, r,  , a, c, q, u, i, s, i, t, i, o, n, ,,  , A, I,  , i, n, t, e, g, r, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-innovation-ecosystem-strategic-defense-implications-of-private-sector-br-547945.html</loc>
+        <lastmod>Mon, 20 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/21ccd920843c11ec88170b5512a0f9d5/LIBanner1920x1080px-1784370369660.png</image:loc>
+            <image:title>India&#39;s Innovation Ecosystem: Strategic Defense Implications of Private Sector Breakthroughs</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 20 Jul 2026 07:46:54 GMT</news:publication_date>
+            <news:title>India&#39;s Innovation Ecosystem: Strategic Defense Implications of Private Sector Breakthroughs</news:title>
+            
+            <news:keywords>D, e, f, e, n, s, e,  , I, n, n, o, v, a, t, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, t, r, a, t, e, g, i, c,  , A, u, t, o, n, o, m, y, ,,  , P, r, i, v, a, t, e,  , S, e, c, t, o, r,  , D, e, f, e, n, s, e, ,,  , T, e, c, h, n, o, l, o, g, y,  , T, r, a, n, s, f, e, r, ,,  , I, n, n, o, v, a, t, i, o, n,  , E, c, o, s, y, s, t, e, m</news:keywords>
             
         </news:news>
     </url>
