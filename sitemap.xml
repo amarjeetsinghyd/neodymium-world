@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-19</lastmod>
+        <lastmod>2026-07-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-19</lastmod>
+        <lastmod>2026-07-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/fcra-delimitation-bills-threaten-india-s-democratic-fabric-514536.html</loc>
+        <lastmod>Sun, 19 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/TMC-leader-Derek-OBrien-in-Parliament_20260402185629_20260719232736.avif</image:loc>
+            <image:title>FCRA Delimitation Bills Threaten India&#39;s Democratic Fabric</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 19 Jul 2026 23:30:30 +0000</news:publication_date>
+            <news:title>FCRA Delimitation Bills Threaten India&#39;s Democratic Fabric</news:title>
+            
+            <news:keywords>F, C, R, A, ,,  , d, e, l, i, m, i, t, a, t, i, o, n, ,,  , M, o, d, i, ,,  , o, p, p, o, s, i, t, i, o, n, ,,  , I, n, d, i, a, n,  , p, o, l, i, t, i, c, s, ,,  , d, e, m, o, c, r, a, t, i, c,  , i, n, s, t, i, t, u, t, i, o, n, s, ,,  , m, i, n, o, r, i, t, y,  , r, i, g, h, t, s, ,,  , p, a, r, l, i, a, m, e, n, t, a, r, y,  , p, r, o, c, e, s, s</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/madhya-pradesh-ucc-live-in-registration-as-social-control-tool-487484.html</loc>
@@ -15901,6 +15925,30 @@
             <news:title>AI Democratization Threatens Digital Colonialism in Indian MSMEs</news:title>
             
             <news:keywords>A, I, ,,  , M, S, M, E, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, i, g, i, t, a, l,  , S, o, v, e, r, e, i, g, n, t, y, ,,  , I, n, d, i, a, n,  , E, c, o, n, o, m, y, ,,  , T, e, c, h, n, o, l, o, g, y,  , I, n, d, e, p, e, n, d, e, n, c, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/ai-driven-defense-innovation-india-s-strategic-tech-investment-surge-514295.html</loc>
+        <lastmod>Mon, 20 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/47afd43024ec11ec9ecb9b7afb0df1da/foodwizefordc1-1784476404792.jpg</image:loc>
+            <image:title>AI-Driven Defense Innovation: India&#39;s Strategic Tech Investment Surge</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 20 Jul 2026 02:00:00 GMT</news:publication_date>
+            <news:title>AI-Driven Defense Innovation: India&#39;s Strategic Tech Investment Surge</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , d, e, f, e, n, s, e, ,,  , A, I,  , i, n, v, e, s, t, m, e, n, t, ,,  , m, i, l, i, t, a, r, y,  , t, e, c, h, n, o, l, o, g, y, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , d, e, f, e, n, s, e,  , i, n, n, o, v, a, t, i, o, n</news:keywords>
             
         </news:news>
     </url>
