@@ -68,6 +68,78 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-lpg-crisis-strategic-vulnerabilities-in-energy-security-556096.html</loc>
+        <lastmod>Mon, 20 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/cylinder.jpg</image:loc>
+            <image:title>India&#39;s LPG Crisis: Strategic Vulnerabilities in Energy Security</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 20 Jul 2026 13:56:41 +0000</news:publication_date>
+            <news:title>India&#39;s LPG Crisis: Strategic Vulnerabilities in Energy Security</news:title>
+            
+            <news:keywords>L, P, G, ,,  , E, n, e, r, g, y,  , S, e, c, u, r, i, t, y, ,,  , I, m, p, o, r, t,  , D, e, p, e, n, d, e, n, c, y, ,,  , S, t, r, a, i, t,  , o, f,  , H, o, r, m, u, z, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , G, e, o, p, o, l, i, t, i, c, a, l,  , R, i, s, k</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/j-k-statehood-protest-failure-exposes-political-miscalculation-556121.html</loc>
+        <lastmod>Mon, 20 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/Omar-protest-1.jpg</image:loc>
+            <image:title>J-K Statehood Protest Failure Exposes Political Miscalculation</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 20 Jul 2026 12:28:16 +0000</news:publication_date>
+            <news:title>J-K Statehood Protest Failure Exposes Political Miscalculation</news:title>
+            
+            <news:keywords>J, a, m, m, u,  , K, a, s, h, m, i, r, ,,  , s, t, a, t, e, h, o, o, d, ,,  , p, o, l, i, t, i, c, a, l,  , p, r, o, t, e, s, t, ,,  , c, o, n, s, t, i, t, u, t, i, o, n, a, l,  , r, i, g, h, t, s, ,,  , I, n, d, i, a, n,  , p, o, l, i, t, i, c, s, ,,  , O, m, a, r,  , A, b, d, u, l, l, a, h, ,,  , N, a, t, i, o, n, a, l,  , C, o, n, f, e, r, e, n, c, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/redcliffe-s-megavision-deal-signals-diagnostic-consolidation-wave-555905.html</loc>
+        <lastmod>Mon, 20 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Untitled-design-2026-07-20T161444.308.png</image:loc>
+            <image:title>Redcliffe&#39;s Megavision Deal Signals Diagnostic Consolidation Wave</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 20 Jul 2026 10:47:14 +0000</news:publication_date>
+            <news:title>Redcliffe&#39;s Megavision Deal Signals Diagnostic Consolidation Wave</news:title>
+            
+            <news:keywords>d, i, a, g, n, o, s, t, i, c, s, ,,  , h, e, a, l, t, h, c, a, r, e,  , a, c, q, u, i, s, i, t, i, o, n, ,,  , r, a, d, i, o, l, o, g, y, ,,  , m, a, r, k, e, t,  , c, o, n, s, o, l, i, d, a, t, i, o, n, ,,  , h, e, a, l, t, h, t, e, c, h, ,,  , s, t, r, a, t, e, g, i, c,  , e, x, p, a, n, s, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/samsung-s-u-s-hq-shift-exposes-india-s-tech-vulnerabilities-547706.html</loc>
         <lastmod>Mon, 20 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -87,6 +159,30 @@
             <news:title>Samsung&#39;s U.S. HQ Shift Exposes India&#39;s Tech Vulnerabilities</news:title>
             
             <news:keywords>S, a, m, s, u, n, g, ,,  , I, n, d, i, a, ,,  , l, a, y, o, f, f, s, ,,  , t, e, c, h, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , m, o, b, i, l, e,  , m, a, r, k, e, t, ,,  , d, e, f, e, n, s, e, ,,  , g, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/nvidia-s-ai-infrastructure-play-strategic-implications-for-india-s-digital-sover-556033.html</loc>
+        <lastmod>Mon, 20 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/nvidia-gpu-ftr.jpg</image:loc>
+            <image:title>NVIDIA&#39;s AI Infrastructure Play: Strategic Implications for India&#39;s Digital Sovereignty</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 20 Jul 2026 07:29:21 +0000</news:publication_date>
+            <news:title>NVIDIA&#39;s AI Infrastructure Play: Strategic Implications for India&#39;s Digital Sovereignty</news:title>
+            
+            <news:keywords>N, V, I, D, I, A, ,,  , I, n, d, i, a,  , A, I, ,,  , G, P, U,  , f, i, n, a, n, c, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , A, I,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , t, e, c, h,  , d, e, p, e, n, d, e, n, c, y</news:keywords>
             
         </news:news>
     </url>
@@ -18583,6 +18679,30 @@
             <news:title>Reo.Dev&#39;s AI Platform: Strategic Implications for Defense Tech Procurement</news:title>
             
             <news:keywords>A, I,  , D, e, f, e, n, s, e,  , P, r, o, c, u, r, e, m, e, n, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, n, o, l, o, g, y, ,,  , S, o, f, t, w, a, r, e,  , A, c, q, u, i, s, i, t, i, o, n, ,,  , M, i, l, i, t, a, r, y,  , T, e, c, h</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/rippl-platform-trust-mechanisms-and-strategic-information-ecosystems-555643.html</loc>
+        <lastmod>Mon, 20 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/21ccd920843c11ec88170b5512a0f9d5/primary16x9-1784526161346.jpg</image:loc>
+            <image:title>Rippl Platform: Trust Mechanisms and Strategic Information Ecosystems</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 20 Jul 2026 09:54:08 GMT</news:publication_date>
+            <news:title>Rippl Platform: Trust Mechanisms and Strategic Information Ecosystems</news:title>
+            
+            <news:keywords>t, r, u, s, t,  , p, l, a, t, f, o, r, m, s, ,,  , d, i, g, i, t, a, l,  , e, c, o, s, y, s, t, e, m, s, ,,  , i, n, f, o, r, m, a, t, i, o, n,  , w, a, r, f, a, r, e, ,,  , r, e, c, o, m, m, e, n, d, a, t, i, o, n,  , a, l, g, o, r, i, t, h, m, s, ,,  , s, t, r, a, t, e, g, i, c,  , c, o, m, m, u, n, i, c, a, t, i, o, n, s</news:keywords>
             
         </news:news>
     </url>
