@@ -68,6 +68,78 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/hydrogen-train-sabotage-a-strategic-threat-to-india-s-atmanirbhar-defense-mobili-584732.html</loc>
+        <lastmod>Mon, 20 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/hydrogen-train-8.jpg</image:loc>
+            <image:title>Hydrogen Train Sabotage: A Strategic Threat to India&#39;s Atmanirbhar Defense Mobility</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 20 Jul 2026 19:23:14 +0000</news:publication_date>
+            <news:title>Hydrogen Train Sabotage: A Strategic Threat to India&#39;s Atmanirbhar Defense Mobility</news:title>
+            
+            <news:keywords>h, y, d, r, o, g, e, n,  , t, r, a, i, n, ,,  , I, n, d, i, a, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , s, a, b, o, t, a, g, e, ,,  , I, n, d, i, a, n,  , R, a, i, l, w, a, y, s, ,,  , s, t, r, a, t, e, g, i, c,  , m, o, b, i, l, i, t, y, ,,  , i, n, t, e, r, n, a, l,  , s, e, c, u, r, i, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/indian-seafarers-in-ukraine-conflict-geopolitical-risk-assessment-584769.html</loc>
+        <lastmod>Mon, 20 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/The-deceased-has-been-identified-as-Akhil-Joyan-from-Vellarikundu-village.jpeg</image:loc>
+            <image:title>Indian Seafarers in Ukraine Conflict: Geopolitical Risk Assessment</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 20 Jul 2026 17:08:56 +0000</news:publication_date>
+            <news:title>Indian Seafarers in Ukraine Conflict: Geopolitical Risk Assessment</news:title>
+            
+            <news:keywords>I, n, d, i, a, n,  , s, e, a, f, a, r, e, r, s, ,,  , U, k, r, a, i, n, e,  , c, o, n, f, l, i, c, t, ,,  , R, u, s, s, i, a, n,  , a, t, t, a, c, k, ,,  , m, a, r, i, t, i, m, e,  , s, e, c, u, r, i, t, y, ,,  , I, n, d, i, a,  , f, o, r, e, i, g, n,  , p, o, l, i, c, y, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , r, i, s, k, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , I, n, d, i, a, n,  , d, i, a, s, p, o, r, a</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/paytm-s-profitability-pivot-a-strategic-inflection-for-indian-fintech-584718.html</loc>
+        <lastmod>Mon, 20 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Paytm-WTF-01.png</image:loc>
+            <image:title>Paytm&#39;s Profitability Pivot: A Strategic Inflection for Indian Fintech</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 20 Jul 2026 17:02:03 +0000</news:publication_date>
+            <news:title>Paytm&#39;s Profitability Pivot: A Strategic Inflection for Indian Fintech</news:title>
+            
+            <news:keywords>P, a, y, t, m, ,,  , F, i, n, t, e, c, h, ,,  , P, r, o, f, i, t, a, b, i, l, i, t, y, ,,  , A, I,  , M, o, n, e, t, i, z, a, t, i, o, n, ,,  , U, P, I, ,,  , I, n, d, i, a, n,  , E, c, o, n, o, m, y, ,,  , D, i, g, i, t, a, l,  , P, a, y, m, e, n, t, s, ,,  , S, t, r, a, t, e, g, i, c,  , A, n, a, l, y, s, i, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/iaf-s-indigenous-loitering-munitions-rfi-signals-strategic-shift-576190.html</loc>
         <lastmod>Mon, 20 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -183,6 +255,54 @@
             <news:title>Vikram-1 Launch Signals India&#39;s Private Space Ascendancy</news:title>
             
             <news:keywords>V, i, k, r, a, m, -, 1, ,,  , S, k, y, r, o, o, t,  , A, e, r, o, s, p, a, c, e, ,,  , I, n, d, i, a,  , s, p, a, c, e, ,,  , p, r, i, v, a, t, e,  , s, p, a, c, e,  , s, e, c, t, o, r, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , a, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/air-india-fleet-expansion-signals-strategic-defense-aviation-shift-584681.html</loc>
+        <lastmod>Mon, 20 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk2V0paMIB3Y7uctHnbttppm_MFL9MYm6-M0vBGM0TukbdtoFNgtydwSqQGv53orT1w_5mQr3RUF9wIoghdEwC-nFQYImIO7EPOCBkI8Fj9EDgntPJ0LwkKLyaiUTxMi1iDbcnDwdV0Ml3L3XN_GE_RkdfP5VMbICkBkSBWsY-Ai9gUaiAQo8I4lUMqhE/s72-c/Air_India_3.jpg</image:loc>
+            <image:title>Air India Fleet Expansion Signals Strategic Defense Aviation Shift</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 20 Jul 2026 16:26:00 +0000</news:publication_date>
+            <news:title>Air India Fleet Expansion Signals Strategic Defense Aviation Shift</news:title>
+            
+            <news:keywords>A, i, r,  , I, n, d, i, a, ,,  , D, e, f, e, n, s, e,  , A, v, i, a, t, i, o, n, ,,  , S, t, r, a, t, e, g, i, c,  , E, x, p, a, n, s, i, o, n, ,,  , G, e, o, p, o, l, i, t, i, c, a, l,  , I, m, p, a, c, t, ,,  , M, i, l, i, t, a, r, y,  , L, o, g, i, s, t, i, c, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/pakistan-s-proxy-terror-gambit-strategic-calculus-in-crisis-584645.html</loc>
+        <lastmod>Mon, 20 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4FiyUfpvXqY8d77Xt1L1dDpJxKNpi-_CSuputjq7geGGhSGrm-V_QxEITRAT48afbQGB_CSFjvqOwoMoualJNgiPxvmWP4v2cKqjvvyo7WEJQ-mzgwWCLVZZ9mvcNAoVA8JRz9ay63AXRxGnGez5LpmeQL0eoSCSkuH4iW5dYvjz41j5AG_vB4wbPP_U/s72-c/Asim_Munir_1.jpg</image:loc>
+            <image:title>Pakistan&#39;s Proxy Terror Gambit: Strategic Calculus in Crisis</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 20 Jul 2026 16:26:00 +0000</news:publication_date>
+            <news:title>Pakistan&#39;s Proxy Terror Gambit: Strategic Calculus in Crisis</news:title>
+            
+            <news:keywords>P, a, k, i, s, t, a, n, ,,  , p, r, o, x, y,  , t, e, r, r, o, r, ,,  , d, e, f, e, n, s, e,  , s, t, r, a, t, e, g, y, ,,  , B, a, l, o, c, h, i, s, t, a, n,  , i, n, s, u, r, g, e, n, c, y, ,,  , T, a, l, i, b, a, n,  , a, t, t, a, c, k, s, ,,  , s, e, c, u, r, i, t, y,  , a, n, a, l, y, s, i, s</news:keywords>
             
         </news:news>
     </url>
