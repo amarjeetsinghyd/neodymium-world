@@ -68,6 +68,78 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/tamil-nadu-s-neet-protest-arivu-s-detention-signals-political-fault-lines-650780.html</loc>
+        <lastmod>Tue, 21 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/arivu.jpg</image:loc>
+            <image:title>Tamil Nadu&#39;s NEET Protest: Arivu&#39;s Detention Signals Political Fault Lines</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 21 Jul 2026 15:56:06 +0000</news:publication_date>
+            <news:title>Tamil Nadu&#39;s NEET Protest: Arivu&#39;s Detention Signals Political Fault Lines</news:title>
+            
+            <news:keywords>T, a, m, i, l,  , N, a, d, u, ,,  , N, E, E, T, ,,  , A, r, i, v, u, ,,  , V, i, j, a, y, ,,  , T, V, K, ,,  , D, a, l, i, t,  , P, o, l, i, t, i, c, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, e, f, e, n, s, e,  , P, o, s, t, u, r, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/jammu-kashmir-floods-expose-strategic-infrastructure-vulnerabilities-650804.html</loc>
+        <lastmod>Tue, 21 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/Jammu-kashmir-rain-PTI.jpg</image:loc>
+            <image:title>Jammu Kashmir Floods Expose Strategic Infrastructure Vulnerabilities</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 21 Jul 2026 15:53:44 +0000</news:publication_date>
+            <news:title>Jammu Kashmir Floods Expose Strategic Infrastructure Vulnerabilities</news:title>
+            
+            <news:keywords>J, a, m, m, u,  , K, a, s, h, m, i, r,  , f, l, o, o, d, s, ,,  , s, t, r, a, t, e, g, i, c,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , m, i, l, i, t, a, r, y,  , r, e, s, p, o, n, s, e, ,,  , b, o, r, d, e, r,  , s, e, c, u, r, i, t, y, ,,  , c, l, i, m, a, t, e,  , t, h, r, e, a, t, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/congress-s-strategic-protest-opposition-s-power-play-at-pm-s-residence-650856.html</loc>
+        <lastmod>Tue, 21 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/Congress.jpg</image:loc>
+            <image:title>Congress&#39;s Strategic Protest: Opposition&#39;s Power Play at PM&#39;s Residence</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 21 Jul 2026 13:34:23 +0000</news:publication_date>
+            <news:title>Congress&#39;s Strategic Protest: Opposition&#39;s Power Play at PM&#39;s Residence</news:title>
+            
+            <news:keywords>R, a, h, u, l,  , G, a, n, d, h, i, ,,  , C, o, n, g, r, e, s, s,  , p, r, o, t, e, s, t, ,,  , P, M,  , r, e, s, i, d, e, n, c, e, ,,  , N, E, E, T,  , c, o, n, t, r, o, v, e, r, s, y, ,,  , o, p, p, o, s, i, t, i, o, n,  , s, t, r, a, t, e, g, y, ,,  , I, n, d, i, a, n,  , p, o, l, i, t, i, c, s, ,,  , p, o, l, i, t, i, c, a, l,  , m, a, n, e, u, v, e, r, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , p, o, s, t, u, r, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/anthropic-settlement-signals-ai-copyright-battle-escalation-631832.html</loc>
         <lastmod>Tue, 21 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -87,6 +159,30 @@
             <news:title>Anthropic Settlement Signals AI Copyright Battle Escalation</news:title>
             
             <news:keywords>A, n, t, h, r, o, p, i, c, ,,  , c, o, p, y, r, i, g, h, t, ,,  , A, I,  , l, a, w, s, u, i, t, ,,  , i, n, t, e, l, l, e, c, t, u, a, l,  , p, r, o, p, e, r, t, y, ,,  , A, I,  , d, e, v, e, l, o, p, m, e, n, t, ,,  , l, e, g, a, l,  , s, e, t, t, l, e, m, e, n, t, ,,  , t, e, c, h,  , r, e, g, u, l, a, t, i, o, n, ,,  , c, o, p, y, r, i, g, h, t,  , l, a, w</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/adivasi-cinema-s-rise-cultural-defense-in-india-s-media-landscape-650937.html</loc>
+        <lastmod>Tue, 21 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/Ravi-Raj-Murmu-Express-photo.jpg</image:loc>
+            <image:title>Adivasi Cinema&#39;s Rise: Cultural Defense in India&#39;s Media Landscape</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 21 Jul 2026 10:07:19 +0000</news:publication_date>
+            <news:title>Adivasi Cinema&#39;s Rise: Cultural Defense in India&#39;s Media Landscape</news:title>
+            
+            <news:keywords>A, d, i, v, a, s, i,  , c, i, n, e, m, a, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , c, u, l, t, u, r, a, l,  , d, e, f, e, n, s, e, ,,  , r, e, g, i, o, n, a, l,  , f, i, l, m, m, a, k, i, n, g, ,,  , I, n, d, i, a,  , m, e, d, i, a,  , s, t, r, a, t, e, g, y</news:keywords>
             
         </news:news>
     </url>
@@ -375,6 +471,30 @@
             <news:title>India-Russia Maritime Tensions Expose Defense Vulnerabilities</news:title>
             
             <news:keywords>I, n, d, i, a,  , R, u, s, s, i, a,  , d, e, f, e, n, s, e, ,,  , m, a, r, i, t, i, m, e,  , s, e, c, u, r, i, t, y, ,,  , n, a, v, a, l,  , p, r, o, c, u, r, e, m, e, n, t, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , t, e, n, s, i, o, n, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/ather-s-capital-infusion-a-strategic-play-for-defense-tech-dominance-650733.html</loc>
+        <lastmod>Tue, 21 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Ather-Energy-on-the-ipo.jpg</image:loc>
+            <image:title>Ather&#39;s Capital Infusion: A Strategic Play for Defense Tech Dominance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 21 Jul 2026 04:49:48 +0000</news:publication_date>
+            <news:title>Ather&#39;s Capital Infusion: A Strategic Play for Defense Tech Dominance</news:title>
+            
+            <news:keywords>A, t, h, e, r,  , E, n, e, r, g, y, ,,  , Q, I, P, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , S, t, r, a, t, e, g, i, c,  , F, o, r, e, c, a, s, t, i, n, g, ,,  , S, o, u, t, h,  , A, s, i, a</news:keywords>
             
         </news:news>
     </url>
