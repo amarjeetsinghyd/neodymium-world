@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-20</lastmod>
+        <lastmod>2026-07-21</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-20</lastmod>
+        <lastmod>2026-07-21</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/transition-vc-s-1-500-cr-fund-signals-india-s-deeptech-investment-surge-599428.html</loc>
+        <lastmod>Tue, 21 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/TVC-fund-featured.png</image:loc>
+            <image:title>Transition VC&#39;s ₹1,500 Cr Fund Signals India&#39;s Deeptech Investment Surge</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 21 Jul 2026 00:30:18 +0000</news:publication_date>
+            <news:title>Transition VC&#39;s ₹1,500 Cr Fund Signals India&#39;s Deeptech Investment Surge</news:title>
+            
+            <news:keywords>T, r, a, n, s, i, t, i, o, n,  , V, C, ,,  , d, e, e, p, t, e, c, h, ,,  , e, n, e, r, g, y,  , t, r, a, n, s, i, t, i, o, n, ,,  , i, n, d, u, s, t, r, i, a, l,  , d, e, e, p, t, e, c, h, ,,  , I, n, d, i, a,  , s, t, a, r, t, u, p, s, ,,  , v, e, n, t, u, r, e,  , c, a, p, i, t, a, l, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , a, d, v, a, n, c, e, d,  , m, a, n, u, f, a, c, t, u, r, i, n, g</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/hydrogen-train-sabotage-a-strategic-threat-to-india-s-atmanirbhar-defense-mobili-584732.html</loc>
@@ -135,6 +159,30 @@
             <news:title>Paytm&#39;s Profitability Pivot: A Strategic Inflection for Indian Fintech</news:title>
             
             <news:keywords>P, a, y, t, m, ,,  , F, i, n, t, e, c, h, ,,  , P, r, o, f, i, t, a, b, i, l, i, t, y, ,,  , A, I,  , M, o, n, e, t, i, z, a, t, i, o, n, ,,  , U, P, I, ,,  , I, n, d, i, a, n,  , E, c, o, n, o, m, y, ,,  , D, i, g, i, t, a, l,  , P, a, y, m, e, n, t, s, ,,  , S, t, r, a, t, e, g, i, c,  , A, n, a, l, y, s, i, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/j-k-police-killing-strategic-implications-for-regional-stability-599608.html</loc>
+        <lastmod>Mon, 20 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/Jammu-firing.jpg</image:loc>
+            <image:title>J&amp;K Police Killing: Strategic Implications for Regional Stability</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 20 Jul 2026 16:56:23 +0000</news:publication_date>
+            <news:title>J&amp;K Police Killing: Strategic Implications for Regional Stability</news:title>
+            
+            <news:keywords>J, a, m, m, u,  , K, a, s, h, m, i, r, ,,  , S, e, c, u, r, i, t, y,  , O, p, e, r, a, t, i, o, n, s, ,,  , C, o, u, n, t, e, r, -, i, n, s, u, r, g, e, n, c, y, ,,  , R, e, g, i, o, n, a, l,  , S, t, a, b, i, l, i, t, y</news:keywords>
             
         </news:news>
     </url>
@@ -423,6 +471,54 @@
             <news:title>J-K Statehood Protest Failure Exposes Political Miscalculation</news:title>
             
             <news:keywords>J, a, m, m, u,  , K, a, s, h, m, i, r, ,,  , s, t, a, t, e, h, o, o, d, ,,  , p, o, l, i, t, i, c, a, l,  , p, r, o, t, e, s, t, ,,  , c, o, n, s, t, i, t, u, t, i, o, n, a, l,  , r, i, g, h, t, s, ,,  , I, n, d, i, a, n,  , p, o, l, i, t, i, c, s, ,,  , O, m, a, r,  , A, b, d, u, l, l, a, h, ,,  , N, a, t, i, o, n, a, l,  , C, o, n, f, e, r, e, n, c, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/bhogapuram-airport-strategic-asset-for-india-s-coastal-defense-infrastructure-599653.html</loc>
+        <lastmod>Mon, 20 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/bhogapuram.jpg</image:loc>
+            <image:title>Bhogapuram Airport: Strategic Asset for India&#39;s Coastal Defense Infrastructure</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 20 Jul 2026 12:24:52 +0000</news:publication_date>
+            <news:title>Bhogapuram Airport: Strategic Asset for India&#39;s Coastal Defense Infrastructure</news:title>
+            
+            <news:keywords>B, h, o, g, a, p, u, r, a, m,  , A, i, r, p, o, r, t, ,,  , D, e, f, e, n, s, e,  , I, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , C, o, a, s, t, a, l,  , S, e, c, u, r, i, t, y, ,,  , S, t, r, a, t, e, g, i, c,  , A, s, s, e, t, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-unclaimed-financial-assets-lic-vs-epfo-strategic-implications-599697.html</loc>
+        <lastmod>Mon, 20 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/lic-epfo.jpg</image:loc>
+            <image:title>India&#39;s Unclaimed Financial Assets: LIC vs EPFO Strategic Implications</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 20 Jul 2026 11:33:37 +0000</news:publication_date>
+            <news:title>India&#39;s Unclaimed Financial Assets: LIC vs EPFO Strategic Implications</news:title>
+            
+            <news:keywords>L, I, C, ,,  , E, P, F, O, ,,  , U, n, c, l, a, i, m, e, d,  , M, o, n, e, y, ,,  , I, n, d, i, a, n,  , F, i, n, a, n, c, e, ,,  , F, i, s, c, a, l,  , P, o, l, i, c, y, ,,  , S, o, c, i, a, l,  , W, e, l, f, a, r, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t</news:keywords>
             
         </news:news>
     </url>
@@ -19298,6 +19394,30 @@
             <news:title>The Rise of Anti-Drone Warfare: How Counter-UAS Technology Is Becoming the Next $14 Billion Defence Frontier</news:title>
             
             <news:keywords>AntiDrone, CounterUAS, DroneTechnology, FutureWarfare, DefenceTech, ArtificialIntelligence, ElectronicWarfare, Aerospace, MilitaryTechnology, NationalSecurity, MakeInIndia, DefenceIndustry, AutonomousSystems</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/traveltech-growth-signals-india-s-expanding-strategic-footprint-599406.html</loc>
+        <lastmod>Tue, 21 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/shutterstock2190465179-1784555582670.jpg</image:loc>
+            <image:title>Traveltech Growth Signals India&#39;s Expanding Strategic Footprint</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 21 Jul 2026 00:30:00 GMT</news:publication_date>
+            <news:title>Traveltech Growth Signals India&#39;s Expanding Strategic Footprint</news:title>
+            
+            <news:keywords>I, n, d, i, a, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , A, I, ,,  , S, t, r, a, t, e, g, i, c,  , E, x, p, a, n, s, i, o, n, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, n, o, l, o, g, y</news:keywords>
             
         </news:news>
     </url>
