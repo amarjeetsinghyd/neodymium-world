@@ -68,6 +68,78 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/bjp-congress-collusion-aap-exposes-political-duopoly-699256.html</loc>
+        <lastmod>Wed, 22 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/22AAPCongressRift.jpg</image:loc>
+            <image:title>BJP-Congress Collusion: AAP Exposes Political Duopoly</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 22 Jul 2026 05:01:37 +0000</news:publication_date>
+            <news:title>BJP-Congress Collusion: AAP Exposes Political Duopoly</news:title>
+            
+            <news:keywords>B, J, P, ,,  , C, o, n, g, r, e, s, s, ,,  , A, A, P, ,,  , o, p, p, o, s, i, t, i, o, n,  , u, n, i, t, y, ,,  , P, u, n, j, a, b,  , e, l, e, c, t, i, o, n, s, ,,  , y, o, u, t, h,  , p, r, o, t, e, s, t, ,,  , p, o, l, i, t, i, c, a, l,  , c, o, l, l, u, s, i, o, n, ,,  , I, n, d, i, a, n,  , p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/zerodha-s-strategic-pivot-from-trading-disruption-to-financial-empire-building-699107.html</loc>
+        <lastmod>Wed, 22 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Zerodha-Second-Act-ftr.jpg</image:loc>
+            <image:title>Zerodha&#39;s Strategic Pivot: From Trading Disruption to Financial Empire Building</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 22 Jul 2026 04:23:30 +0000</news:publication_date>
+            <news:title>Zerodha&#39;s Strategic Pivot: From Trading Disruption to Financial Empire Building</news:title>
+            
+            <news:keywords>Z, e, r, o, d, h, a, ,,  , S, E, B, I, ,,  , m, e, r, c, h, a, n, t,  , b, a, n, k, i, n, g, ,,  , f, i, n, t, e, c, h,  , d, i, v, e, r, s, i, f, i, c, a, t, i, o, n, ,,  , F, &amp;, O,  , r, e, g, u, l, a, t, i, o, n, s, ,,  , I, P, O,  , u, n, d, e, r, w, r, i, t, i, n, g, ,,  , I, n, d, i, a, n,  , f, i, n, a, n, c, i, a, l,  , s, e, r, v, i, c, e, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/zerodha-s-financial-empire-play-strategic-implications-for-india-s-economic-auto-699132.html</loc>
+        <lastmod>Wed, 22 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/FTR-Daily-Brief-2026-07-21T234222.011.png</image:loc>
+            <image:title>Zerodha&#39;s Financial Empire Play: Strategic Implications for India&#39;s Economic Autonomy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 22 Jul 2026 02:30:24 +0000</news:publication_date>
+            <news:title>Zerodha&#39;s Financial Empire Play: Strategic Implications for India&#39;s Economic Autonomy</news:title>
+            
+            <news:keywords>Z, e, r, o, d, h, a, ,,  , M, e, r, c, h, a, n, t,  , B, a, n, k, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , F, i, n, a, n, c, i, a, l,  , S, e, c, t, o, r, ,,  , I, n, d, i, a, n,  , M, a, r, k, e, t, s, ,,  , S, E, B, I, ,,  , I, P, O, ,,  , M, &amp;, A</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/quad-s-manila-push-signals-maritime-containment-strategy-685737.html</loc>
         <lastmod>Wed, 22 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -327,6 +399,30 @@
             <news:title>Congress&#39;s Strategic Protest: Opposition&#39;s Power Play at PM&#39;s Residence</news:title>
             
             <news:keywords>R, a, h, u, l,  , G, a, n, d, h, i, ,,  , C, o, n, g, r, e, s, s,  , p, r, o, t, e, s, t, ,,  , P, M,  , r, e, s, i, d, e, n, c, e, ,,  , N, E, E, T,  , c, o, n, t, r, o, v, e, r, s, y, ,,  , o, p, p, o, s, i, t, i, o, n,  , s, t, r, a, t, e, g, y, ,,  , I, n, d, i, a, n,  , p, o, l, i, t, i, c, s, ,,  , p, o, l, i, t, i, c, a, l,  , m, a, n, e, u, v, e, r, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , p, o, s, t, u, r, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/x-s-vote-for-me-scam-a-phishing-threat-to-india-s-digital-ecosystem-699013.html</loc>
+        <lastmod>Tue, 21 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/sci-tech/technology/226yb0/article71244446.ece/alternates/LANDSCAPE_1200/2025-02-19T055133Z_975201965_RC2TFCAGDXLY_RTRMADP_3_X-FUNDING.jpg</image:loc>
+            <image:title>X&#39;s &#39;Vote for Me&#39; Scam: A Phishing Threat to India&#39;s Digital Ecosystem</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 21 Jul 2026 13:22:08 +0530</news:publication_date>
+            <news:title>X&#39;s &#39;Vote for Me&#39; Scam: A Phishing Threat to India&#39;s Digital Ecosystem</news:title>
+            
+            <news:keywords>X, ,,  , p, h, i, s, h, i, n, g, ,,  , V, o, t, e,  , f, o, r,  , M, e,  , s, c, a, m, ,,  , c, y, b, e, r,  , s, e, c, u, r, i, t, y, ,,  , I, n, d, i, a, ,,  , d, i, g, i, t, a, l,  , t, h, r, e, a, t, s, ,,  , s, o, c, i, a, l,  , m, e, d, i, a,  , f, r, a, u, d, ,,  , c, r, e, d, e, n, t, i, a, l,  , h, a, r, v, e, s, t, i, n, g</news:keywords>
             
         </news:news>
     </url>
@@ -17504,6 +17600,30 @@
             <news:title>AI-First Pivot: Hostinger&#39;s Zakaitis to Redefine Digital Sovereignty</news:title>
             
             <news:keywords>A, I,  , t, r, a, n, s, f, o, r, m, a, t, i, o, n, ,,  , d, i, g, i, t, a, l,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , e, m, e, r, g, i, n, g,  , m, a, r, k, e, t, s, ,,  , t, e, c, h, n, o, l, o, g, y,  , d, e, m, o, c, r, a, t, i, z, a, t, i, o, n, ,,  , g, e, o, p, o, l, i, t, i, c, a, l,  , i, m, p, l, i, c, a, t, i, o, n, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/ai-governance-crisis-threatens-national-security-data-integrity-699041.html</loc>
+        <lastmod>Wed, 22 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/228ccd4026f511ee9f05370727bf0c4d/IMG2823-1693022158778.jpeg</image:loc>
+            <image:title>AI Governance Crisis Threatens National Security Data Integrity</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 22 Jul 2026 02:00:00 GMT</news:publication_date>
+            <news:title>AI Governance Crisis Threatens National Security Data Integrity</news:title>
+            
+            <news:keywords>A, I,  , g, o, v, e, r, n, a, n, c, e, ,,  , d, e, f, e, n, s, e,  , s, e, c, u, r, i, t, y, ,,  , d, a, t, a,  , i, n, t, e, g, r, i, t, y, ,,  , n, a, t, i, o, n, a, l,  , s, e, c, u, r, i, t, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y</news:keywords>
             
         </news:news>
     </url>
