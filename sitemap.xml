@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/anthropic-patent-lawsuit-threatens-india-s-ai-ambitions-718356.html</loc>
+        <lastmod>Wed, 22 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/kc1b8w/article71252680.ece/alternates/LANDSCAPE_1200/2026-07-21T220652Z_2070354501_RC2UNLAVPX3Z_RTRMADP_3_TENNESSEE-ANTHROPIC-PATENT-LAWSUIT.JPG</image:loc>
+            <image:title>Anthropic Patent Lawsuit Threatens India&#39;s AI Ambitions</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 22 Jul 2026 15:41:54 +0530</news:publication_date>
+            <news:title>Anthropic Patent Lawsuit Threatens India&#39;s AI Ambitions</news:title>
+            
+            <news:keywords>A, n, t, h, r, o, p, i, c, ,,  , p, a, t, e, n, t,  , l, a, w, s, u, i, t, ,,  , I, n, d, i, a,  , A, I, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , i, n, t, e, l, l, e, c, t, u, a, l,  , p, r, o, p, e, r, t, y, ,,  , s, t, r, a, t, e, g, i, c,  , f, o, r, e, c, a, s, t, i, n, g</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/drdo-s-silent-submarine-revolution-fuel-cell-technology-redefines-naval-warfare-708112.html</loc>
         <lastmod>Wed, 22 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -183,6 +207,78 @@
             <news:title>Thermodynamic Limits Threaten India&#39;s AMCA Ambitions</news:title>
             
             <news:keywords>A, M, C, A, ,,  , s, i, x, t, h, -, g, e, n,  , f, i, g, h, t, e, r, s, ,,  , t, h, e, r, m, o, d, y, n, a, m, i, c, s, ,,  , I, n, d, i, a,  , d, e, f, e, n, s, e, ,,  , s, t, e, a, l, t, h,  , t, e, c, h, n, o, l, o, g, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/iit-madras-army-partnership-strategic-catalyst-for-india-s-defense-self-reliance-718271.html</loc>
+        <lastmod>Wed, 22 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT3sTuUwgyTkWtiYePDLfzo1CES4W-OX9xKaxIoh01SIlaDm1MhXV8CpGPfCvgPm-vzH3mDIZQcIzoeYY08GH22-aoI4DOc8lXDTGX1tAYfcL8JcF8XAaAxuqmSIxUbgYWWBD_Q808jL9mbTJ7jp66zew5wJ4cwsF1jYjotzjeNtpJBagdHubyHiN6458/s72-c/IIT-Madras_Army_Partnership.jpg</image:loc>
+            <image:title>IIT-Madras Army Partnership: Strategic Catalyst for India&#39;s Defense Self-Reliance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 22 Jul 2026 05:56:00 +0000</news:publication_date>
+            <news:title>IIT-Madras Army Partnership: Strategic Catalyst for India&#39;s Defense Self-Reliance</news:title>
+            
+            <news:keywords>I, I, T, -, M, a, d, r, a, s, ,,  , I, n, d, i, a, n,  , A, r, m, y, ,,  , D, e, f, e, n, s, e,  , I, n, n, o, v, a, t, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , M, i, l, i, t, a, r, y,  , T, e, c, h, n, o, l, o, g, y, ,,  , D, e, f, e, n, s, e,  , R, e, s, e, a, r, c, h</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-stealth-naval-future-strategic-implications-for-south-asian-maritime-bal-718243.html</loc>
+        <lastmod>Wed, 22 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha1Qpmcmea45hyphenhyphensSiauTJrTp6NPKyn9k9Ulghg9KhHPcGvsUhtqoZ1T-wzuEGIu39z-wtgkWGNVSP4_izkSwTlmo4Cyo4t0icbvgXtI1xycwJ6gulwFH5SMES2Eik9tuBrnHwYpuchBmH3NYnRr4S3YiIPCGbfXq-6umveQLgPg37yzlSUeecGiAoeWPU/s72-c/Future_Stealth_Frigate_2.jpg</image:loc>
+            <image:title>India&#39;s Stealth Naval Future: Strategic Implications for South Asian Maritime Balance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 22 Jul 2026 05:56:00 +0000</news:publication_date>
+            <news:title>India&#39;s Stealth Naval Future: Strategic Implications for South Asian Maritime Balance</news:title>
+            
+            <news:keywords>n, a, v, a, l,  , s, t, e, a, l, t, h, ,,  , D, R, D, O, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , m, a, r, i, t, i, m, e,  , d, e, f, e, n, s, e, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/tirupati-fence-s-358-mesh-signals-india-s-perimeter-security-revolution-718323.html</loc>
+        <lastmod>Wed, 22 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgudJklFgf3zIOr_ViQ_Mrn1MCOmWtIKuzeeoB1woxKR68zzgULGw-hycXlYV5pceGM4ffI3tdk-CAQoJMkvd9QApcuPYyI7-9Cvpm1sax5EbnfUVJNRCBKVUPrZ9hqVYke6QyG862vZ8ZY9jienaQcCKyV_wKxkdoC_dHV3mfgyJEWDES6VC__v1kaFp0/s72-c/Tirupati_Fence.jpg</image:loc>
+            <image:title>Tirupati Fence&#39;s 358 Mesh Signals India&#39;s Perimeter Security Revolution</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 22 Jul 2026 05:56:00 +0000</news:publication_date>
+            <news:title>Tirupati Fence&#39;s 358 Mesh Signals India&#39;s Perimeter Security Revolution</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , d, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , p, e, r, i, m, e, t, e, r,  , s, e, c, u, r, i, t, y, ,,  , a, n, t, i, -, c, l, i, m, b,  , m, e, s, h, ,,  , d, e, f, e, n, s, e,  , m, a, n, u, f, a, c, t, u, r, i, n, g</news:keywords>
             
         </news:news>
     </url>
@@ -19764,6 +19860,30 @@
             <news:title>Japan&#39;s Deepening Economic Penetration of Rural India Through Suzuki&#39;s $2.4B Impact Fund</news:title>
             
             <news:keywords>S, u, z, u, k, i, ,,  , I, m, p, a, c, t,  , I, n, v, e, s, t, i, n, g, ,,  , R, u, r, a, l,  , I, n, d, i, a, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , J, a, p, a, n, -, I, n, d, i, a,  , R, e, l, a, t, i, o, n, s, ,,  , S, o, c, i, a, l,  , E, n, t, e, r, p, r, i, s, e, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/jhunjhunwala-s-20m-entrepreneur-blueprint-india-s-deep-tech-revolution-718491.html</loc>
+        <lastmod>Wed, 22 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/1a70b4f0170611edbdd8b5d28d859895/Untitleddesign93-1784705657029.jpg</image:loc>
+            <image:title>Jhunjhunwala&#39;s 20M Entrepreneur Blueprint: India&#39;s Deep Tech Revolution</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 22 Jul 2026 07:34:41 GMT</news:publication_date>
+            <news:title>Jhunjhunwala&#39;s 20M Entrepreneur Blueprint: India&#39;s Deep Tech Revolution</news:title>
+            
+            <news:keywords>I, n, d, i, a, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, e, e, p,  , T, e, c, h, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, n, o, l, o, g, y, ,,  , I, I, T,  , M, a, d, r, a, s, ,,  , E, n, t, r, e, p, r, e, n, e, u, r, s, h, i, p, ,,  , S, t, r, a, t, e, g, i, c,  , A, u, t, o, n, o, m, y</news:keywords>
             
         </news:news>
     </url>
