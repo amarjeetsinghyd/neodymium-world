@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-21</lastmod>
+        <lastmod>2026-07-22</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-21</lastmod>
+        <lastmod>2026-07-22</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/quad-s-manila-push-signals-maritime-containment-strategy-685737.html</loc>
+        <lastmod>Wed, 22 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/nodal-lavrov-3col.jpg</image:loc>
+            <image:title>Quad&#39;s Manila Push Signals Maritime Containment Strategy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 22 Jul 2026 00:23:35 +0000</news:publication_date>
+            <news:title>Quad&#39;s Manila Push Signals Maritime Containment Strategy</news:title>
+            
+            <news:keywords>Q, u, a, d, ,,  , I, n, d, o, -, P, a, c, i, f, i, c, ,,  , M, a, r, i, t, i, m, e,  , S, e, c, u, r, i, t, y, ,,  , A, S, E, A, N, ,,  , C, h, i, n, a,  , C, o, n, t, a, i, n, m, e, n, t, ,,  , S, u, p, p, l, y,  , C, h, a, i, n,  , S, e, c, u, r, i, t, y</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/brahmos-deal-signals-india-s-emergence-as-south-asia-s-premier-defense-supplier-661090.html</loc>
@@ -18699,6 +18723,30 @@
             <news:title>India&#39;s Cultural Soft Power: Bengaluru&#39;s Art-Infused Hospitality Strategy</news:title>
             
             <news:keywords>c, u, l, t, u, r, a, l,  , s, o, f, t,  , p, o, w, e, r, ,,  , I, n, d, i, a,  , s, t, r, a, t, e, g, y, ,,  , B, e, n, g, a, l, u, r, u,  , a, r, t, ,,  , h, o, s, p, i, t, a, l, i, t, y,  , d, i, p, l, o, m, a, c, y, ,,  , c, u, l, t, u, r, a, l,  , i, n, f, l, u, e, n, c, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-data-center-expansion-strategic-implications-for-defense-digital-soverei-685712.html</loc>
+        <lastmod>Wed, 22 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/47afd43024ec11ec9ecb9b7afb0df1da/imagefordc1-1784649025514.jpg</image:loc>
+            <image:title>India&#39;s Data Center Expansion: Strategic Implications for Defense Digital Sovereignty</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 22 Jul 2026 01:45:00 GMT</news:publication_date>
+            <news:title>India&#39;s Data Center Expansion: Strategic Implications for Defense Digital Sovereignty</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , d, e, f, e, n, s, e, ,,  , d, a, t, a,  , c, e, n, t, e, r, s, ,,  , d, i, g, i, t, a, l,  , s, o, v, e, r, e, i, g, n, t, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, o, u, t, h,  , A, s, i, a,  , g, e, o, p, o, l, i, t, i, c, s, ,,  , d, e, f, e, n, s, e,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e</news:keywords>
             
         </news:news>
     </url>
