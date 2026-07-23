@@ -14,6 +14,7 @@ import logging
 from datetime import datetime, timezone
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
+import random
 
 # ---------------------------------------------------------------------------
 # Logging — stdout so GitHub Actions captures it; no file written
@@ -32,7 +33,7 @@ SARVAM_API_KEY = os.environ.get("SARVAM_API_KEY")
 
 ARTICLES_DIR = 'content/articles'
 SEEN_URLS_FILE = 'content/seen_urls.json'
-MAX_ARTICLES_PER_RUN = 5
+MAX_ARTICLES_PER_RUN = 1
 MAX_CHARS = 6000
 RATE_LIMIT_SLEEP = 8
 
@@ -280,6 +281,10 @@ def main():
     seen_urls = load_seen_urls()  # O(1) set lookup — replaces per-file scan
     processed = 0
     new_slugs = []
+
+    # Shuffle feeds to ensure we get a random mix of Indian and Western news,
+    # since we are only pulling 1 article per run to save Zapier/dlvr.it quotas.
+    random.shuffle(RSS_FEEDS)
 
     for feed_info in RSS_FEEDS:
         feed_url = feed_info["url"]
