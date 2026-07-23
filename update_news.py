@@ -171,7 +171,8 @@ def rewrite_content(title: str, text: str, region: str) -> dict | None:
 
     prompt = f"""You are {identity}. You are writing an original, highly opinionated, and deeply analytical intelligence briefing based on the provided source material.
 
-CRITICAL INSTRUCTION: Do NOT just rewrite or summarize the article. Google AdSense rejects simple rewrites as "Low value content." Instead, use the article only as a baseline to provide strategic forecasting, geopolitical implications, and market analysis.
+CRITICAL INSTRUCTION 1: Do NOT just rewrite or summarize the article. Google AdSense rejects simple rewrites as "Low value content." Instead, use the article only as a baseline to provide strategic forecasting, geopolitical implications, and market analysis.
+CRITICAL INSTRUCTION 2: If the source material is NOT primarily about Defense Technology, Emerging Technologies, Artificial Intelligence, or Geopolitics impacting technology, you MUST return exactly the word 'IRRELEVANT' and nothing else.
 ZERO-FILLER RULE: Eliminate all fluff, filler words (e.g., "In today's fast-paced world", "It is important to note"), and repetition. Every single sentence must introduce new analytical value. Use active voice and short paragraphs (max 3 sentences).
 
 IMPORTANT: Return ONLY valid JSON, no markdown fences.
@@ -205,6 +206,9 @@ ARTICLE TEXT: {text[:MAX_CHARS]}"""
             resp = requests.post(SARVAM_URL, json=payload, headers=headers, timeout=30)
             resp.raise_for_status()
             raw = resp.json()['choices'][0]['message']['content']
+            if raw.strip().upper() == "IRRELEVANT":
+                logging.info(f"Skipped non-tech/defense article (Sarvam): {title}")
+                return None
         else:
             if not GEMINI_URL:
                 logging.error("GEMINI_URL is not set.")
@@ -221,6 +225,9 @@ ARTICLE TEXT: {text[:MAX_CHARS]}"""
                 logging.warning(f"Gemini blocked or empty for: {title}")
                 return None
             raw = candidates[0]['content']['parts'][0]['text']
+            if raw.strip().upper() == "IRRELEVANT":
+                logging.info(f"Skipped non-tech/defense article (Gemini): {title}")
+                return None
 
         # Strip accidental markdown fences
         raw = re.sub(r'^```json\s*|^```\s*|```$', '', raw.strip(), flags=re.MULTILINE)
