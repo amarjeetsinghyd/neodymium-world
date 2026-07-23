@@ -55,7 +55,7 @@ RSS_FEEDS = [
     {"region": "Indian", "url": "https://inc42.com/feed/"},
     {"region": "Indian", "url": "https://feeds.feedburner.com/ndtv-gadgets-360"},
     {"region": "Indian", "url": "https://www.firstpost.com/feed/rss/tech"},
-    {"region": "Indian", "url": "https://indianexpress.com/section/india/feed/"},
+    {"region": "Indian", "url": "https://indianexpress.com/section/technology/feed/"},
 ]
 
 # ---------------------------------------------------------------------------
