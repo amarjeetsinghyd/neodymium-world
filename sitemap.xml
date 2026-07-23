@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/google-s-ai-momentum-masks-gemini-3-5-pro-delay-threatening-market-share-814736.html</loc>
+        <lastmod>Thu, 23 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/n89789/article71256952.ece/alternates/LANDSCAPE_1200/2026-07-21T150013Z_1671648962_RC2ICLAM9PA7_RTRMADP_3_ALPHABET-AI.JPG</image:loc>
+            <image:title>Google&#39;s AI Momentum Masks Gemini 3.5 Pro Delay, Threatening Market Share</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 23 Jul 2026 14:58:48 +0530</news:publication_date>
+            <news:title>Google&#39;s AI Momentum Masks Gemini 3.5 Pro Delay, Threatening Market Share</news:title>
+            
+            <news:keywords>G, o, o, g, l, e,  , A, I, ,,  , G, e, m, i, n, i,  , 3, ., 5,  , P, r, o, ,,  , S, u, n, d, a, r,  , P, i, c, h, a, i, ,,  , A, I,  , r, a, c, e, ,,  , O, p, e, n, A, I, ,,  , A, n, t, h, r, o, p, i, c, ,,  , A, I,  , m, a, r, k, e, t,  , s, h, a, r, e, ,,  , A, I,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/businessnext-s-40m-ai-bet-banking-s-autonomous-future-797450.html</loc>
         <lastmod>Thu, 23 Ju</lastmod>
         <changefreq>never</changefreq>
