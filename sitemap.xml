@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-bitchat-ban-a-test-of-decentralized-tech-vs-state-control-900428.html</loc>
+        <lastmod>Fri, 24 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/g5wauo/article71262411.ece/alternates/LANDSCAPE_1200/Bitchat.png</image:loc>
+            <image:title>India&#39;s BitChat Ban: A Test of Decentralized Tech vs State Control</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 24 Jul 2026 18:56:02 +0530</news:publication_date>
+            <news:title>India&#39;s BitChat Ban: A Test of Decentralized Tech vs State Control</news:title>
+            
+            <news:keywords>B, i, t, C, h, a, t, ,,  , I, n, d, i, a, ,,  , D, e, c, e, n, t, r, a, l, i, z, e, d, ,,  , M, e, s, h,  , N, e, t, w, o, r, k, ,,  , C, y, b, e, r, s, e, c, u, r, i, t, y, ,,  , S, u, r, v, e, i, l, l, a, n, c, e, ,,  , I, T,  , A, c, t, ,,  , J, a, c, k,  , D, o, r, s, e, y, ,,  , C, e, n, s, o, r, s, h, i, p,  , R, e, s, i, s, t, a, n, c, e, ,,  , S, t, a, t, e,  , C, o, n, t, r, o, l</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/google-s-ai-momentum-masks-gemini-3-5-pro-delay-threatening-market-share-814736.html</loc>
         <lastmod>Thu, 23 Ju</lastmod>
         <changefreq>never</changefreq>
