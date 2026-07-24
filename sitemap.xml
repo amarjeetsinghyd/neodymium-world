@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-23</lastmod>
+        <lastmod>2026-07-24</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-23</lastmod>
+        <lastmod>2026-07-24</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -111,6 +111,30 @@
             <news:title>BUSINESSNEXT&#39;s $40M AI Bet: Banking&#39;s Autonomous Future</news:title>
             
             <news:keywords>S, a, a, S, ,,  , A, I, ,,  , B, a, n, k, i, n, g, ,,  , A, u, t, o, m, a, t, i, o, n, ,,  , S, e, r, i, e, s,  , C, ,,  , S, e, r, v, i, c, e, N, o, w, ,,  , A, g, e, n, t, i, c,  , A, I, ,,  , F, i, n, a, n, c, i, a, l,  , S, e, r, v, i, c, e, s, ,,  , I, n, d, i, a, ,,  , E, n, t, e, r, p, r, i, s, e,  , S, o, f, t, w, a, r, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/bharat-s-digital-frontier-villages-as-the-new-economic-engine-860130.html</loc>
+        <lastmod>Fri, 24 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/1/06ca6200-cb11-11e9-b910-23bd6773296f/business-improvements-1024x5761567160984140.jpg</image:loc>
+            <image:title>Bharat&#39;s Digital Frontier: Villages as the New Economic Engine</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 24 Jul 2026 01:35:00 GMT</news:publication_date>
+            <news:title>Bharat&#39;s Digital Frontier: Villages as the New Economic Engine</news:title>
+            
+            <news:keywords>B, h, a, r, a, t, ,,  , R, u, r, a, l,  , E, c, o, n, o, m, y, ,,  , D, i, g, i, t, a, l,  , I, n, d, i, a, ,,  , U, P, I, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , F, i, n, a, n, c, i, a, l,  , I, n, c, l, u, s, i, o, n, ,,  , V, i, l, l, a, g, e, s, ,,  , E, c, o, n, o, m, i, c,  , G, r, o, w, t, h</news:keywords>
             
         </news:news>
     </url>
