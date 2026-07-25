@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-crypto-policy-deadlock-a-strategic-shift-on-the-horizon-985626.html</loc>
+        <lastmod>Sat, 25 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/ftr-5.jpg</image:loc>
+            <image:title>India&#39;s Crypto Policy Deadlock: A Strategic Shift on the Horizon</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 25 Jul 2026 11:43:19 +0000</news:publication_date>
+            <news:title>India&#39;s Crypto Policy Deadlock: A Strategic Shift on the Horizon</news:title>
+            
+            <news:keywords>I, n, d, i, a, ,,  , c, r, y, p, t, o, ,,  , r, e, g, u, l, a, t, i, o, n, ,,  , p, o, l, i, c, y, ,,  , P, a, r, l, i, a, m, e, n, t, ,,  , S, R, O, ,,  , t, o, k, e, n, i, s, a, t, i, o, n, ,,  , V, D, A, ,,  , f, i, n, t, e, c, h</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-bitchat-ban-a-test-of-decentralized-tech-vs-state-control-900428.html</loc>
         <lastmod>Fri, 24 Ju</lastmod>
         <changefreq>never</changefreq>
