@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-25</lastmod>
+        <lastmod>2026-07-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-25</lastmod>
+        <lastmod>2026-07-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -87,6 +87,30 @@
             <news:title>India&#39;s Crypto Policy Deadlock: A Strategic Shift on the Horizon</news:title>
             
             <news:keywords>I, n, d, i, a, ,,  , c, r, y, p, t, o, ,,  , r, e, g, u, l, a, t, i, o, n, ,,  , p, o, l, i, c, y, ,,  , P, a, r, l, i, a, m, e, n, t, ,,  , S, R, O, ,,  , t, o, k, e, n, i, s, a, t, i, o, n, ,,  , V, D, A, ,,  , f, i, n, t, e, c, h</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/open-weight-ai-the-new-geopolitical-battleground-for-us-supremacy-033250.html</loc>
+        <lastmod>Sat, 25 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.indianexpress.com/2026/07/The-Case-for-open-weight-AI.jpg</image:loc>
+            <image:title>Open-Weight AI: The New Geopolitical Battleground for US Supremacy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 25 Jul 2026 11:38:06 +0000</news:publication_date>
+            <news:title>Open-Weight AI: The New Geopolitical Battleground for US Supremacy</news:title>
+            
+            <news:keywords>O, p, e, n, -, W, e, i, g, h, t,  , A, I, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , U, S,  , T, e, c, h,  , P, o, l, i, c, y, ,,  , C, h, i, n, a,  , A, I, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, n, o, l, o, g, y, ,,  , A, I,  , S, o, v, e, r, e, i, g, n, t, y</news:keywords>
             
         </news:news>
     </url>
