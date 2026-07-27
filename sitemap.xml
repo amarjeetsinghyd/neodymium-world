@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-26</lastmod>
+        <lastmod>2026-07-27</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-26</lastmod>
+        <lastmod>2026-07-27</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -111,6 +111,30 @@
             <news:title>Open-Weight AI: The New Geopolitical Battleground for US Supremacy</news:title>
             
             <news:keywords>O, p, e, n, -, W, e, i, g, h, t,  , A, I, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , U, S,  , T, e, c, h,  , P, o, l, i, c, y, ,,  , C, h, i, n, a,  , A, I, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, n, o, l, o, g, y, ,,  , A, I,  , S, o, v, e, r, e, i, g, n, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/starship-s-v3-test-a-geopolitical-tech-power-play-120127.html</loc>
+        <lastmod>Sat, 25 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/ugy09x/article71264881.ece/alternates/LANDSCAPE_1200/2026-07-24T232826Z_274198321_RC2NKMAPHGN7_RTRMADP_3_SPACE-SPACEX-STARSHIP.JPG</image:loc>
+            <image:title>Starship&#39;s V3 Test: A Geopolitical Tech Power Play</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 25 Jul 2026 06:53:16 +0530</news:publication_date>
+            <news:title>Starship&#39;s V3 Test: A Geopolitical Tech Power Play</news:title>
+            
+            <news:keywords>S, p, a, c, e, X, ,,  , S, t, a, r, s, h, i, p, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , S, p, a, c, e,  , R, a, c, e, ,,  , A, r, t, e, m, i, s, ,,  , R, e, u, s, a, b, l, e,  , R, o, c, k, e, t, s, ,,  , N, a, t, i, o, n, a, l,  , S, e, c, u, r, i, t, y</news:keywords>
             
         </news:news>
     </url>
