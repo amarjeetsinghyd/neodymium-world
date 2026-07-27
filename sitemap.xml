@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/legacy-tech-resilience-how-landlines-outlasted-power-grids-162509.html</loc>
+        <lastmod>Mon, 27 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/rtnisw/article71220502.ece/alternates/LANDSCAPE_1200/iStock-956721596.jpg.jpeg</image:loc>
+            <image:title>Legacy Tech Resilience: How Landlines Outlasted Power Grids</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 27 Jul 2026 14:42:18 +0530</news:publication_date>
+            <news:title>Legacy Tech Resilience: How Landlines Outlasted Power Grids</news:title>
+            
+            <news:keywords>l, a, n, d, l, i, n, e,  , p, o, w, e, r, ,,  , t, e, l, e, p, h, o, n, e,  , e, x, c, h, a, n, g, e, ,,  , r, e, s, i, l, i, e, n, t,  , i, n, f, r, a, s, t, r, u, c, t, u, r, e, ,,  , c, o, m, m, u, n, i, c, a, t, i, o, n,  , b, l, a, c, k, o, u, t, ,,  , e, m, e, r, g, e, n, c, y,  , c, o, m, m, u, n, i, c, a, t, i, o, n, s, ,,  , p, o, w, e, r,  , g, r, i, d,  , r, e, s, i, l, i, e, n, c, e, ,,  , l, e, g, a, c, y,  , t, e, c, h, n, o, l, o, g, y, ,,  , a, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-crypto-policy-deadlock-a-strategic-shift-on-the-horizon-985626.html</loc>
         <lastmod>Sat, 25 Ju</lastmod>
         <changefreq>never</changefreq>
