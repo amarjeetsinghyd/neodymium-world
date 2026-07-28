@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-27</lastmod>
+        <lastmod>2026-07-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-27</lastmod>
+        <lastmod>2026-07-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/tata-digital-s-cash-burn-exposes-strategic-flaws-in-india-s-big-tech-ambitions-205333.html</loc>
+        <lastmod>Mon, 27 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/07/Tata-digital_Feature.jpg</image:loc>
+            <image:title>Tata Digital&#39;s Cash Burn Exposes Strategic Flaws in India&#39;s Big Tech Ambitions</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 27 Jul 2026 22:04:44 +0000</news:publication_date>
+            <news:title>Tata Digital&#39;s Cash Burn Exposes Strategic Flaws in India&#39;s Big Tech Ambitions</news:title>
+            
+            <news:keywords>T, a, t, a,  , D, i, g, i, t, a, l, ,,  , B, i, g, B, a, s, k, e, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, u, p, e, r,  , A, p, p, ,,  , F, i, n, a, n, c, i, a, l,  , S, e, r, v, i, c, e, s, ,,  , C, a, s, h,  , B, u, r, n, ,,  , I, n, d, i, a,  , T, e, c, h, ,,  , G, e, o, p, o, l, i, t, i, c, a, l,  , S, t, r, a, t, e, g, y</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/legacy-tech-resilience-how-landlines-outlasted-power-grids-162509.html</loc>
