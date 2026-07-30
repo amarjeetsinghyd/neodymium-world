@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/eu-s-ai-gigafactory-gambit-a-direct-challenge-to-us-china-hegemony-419652.html</loc>
+        <lastmod>Thu, 30 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/vi83ls/article71285958.ece/alternates/LANDSCAPE_1200/AI-Gigafactories_2_163.jpg</image:loc>
+            <image:title>EU&#39;s AI Gigafactory Gambit: A Direct Challenge to US-China Hegemony</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 30 Jul 2026 17:50:19 +0530</news:publication_date>
+            <news:title>EU&#39;s AI Gigafactory Gambit: A Direct Challenge to US-China Hegemony</news:title>
+            
+            <news:keywords>A, I, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , E, U, ,,  , D, e, f, e, n, s, e, ,,  , T, e, c, h, n, o, l, o, g, y, ,,  , U, S,  , C, h, i, n, a, ,,  , S, t, r, a, t, e, g, i, c,  , A, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/kissht-s-profit-surge-masks-mounting-credit-risks-377338.html</loc>
         <lastmod>Wed, 29 Ju</lastmod>
         <changefreq>never</changefreq>
