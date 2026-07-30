@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-29</lastmod>
+        <lastmod>2026-07-30</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-29</lastmod>
+        <lastmod>2026-07-30</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/kissht-s-profit-surge-masks-mounting-credit-risks-377338.html</loc>
+        <lastmod>Wed, 29 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2025/07/kissht-FY22-ftr.png</image:loc>
+            <image:title>Kissht&#39;s Profit Surge Masks Mounting Credit Risks</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 29 Jul 2026 15:28:02 +0000</news:publication_date>
+            <news:title>Kissht&#39;s Profit Surge Masks Mounting Credit Risks</news:title>
+            
+            <news:keywords>N, B, F, C, ,,  , K, i, s, s, h, t, ,,  , Q, 1,  , R, e, s, u, l, t, s, ,,  , P, r, o, v, i, s, i, o, n,  , C, o, v, e, r, a, g, e,  , R, a, t, i, o, ,,  , C, r, e, d, i, t,  , R, i, s, k, ,,  , L, e, n, d, i, n, g,  , T, e, c, h, ,,  , I, P, O, ,,  , I, n, d, i, a, n,  , F, i, n, a, n, c, e, ,,  , N, P, A, ,,  , U, n, s, e, c, u, r, e, d,  , L, o, a, n, s</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/us-tech-giants-clash-with-anthropic-on-open-weight-ai-security-risks-247304.html</loc>
