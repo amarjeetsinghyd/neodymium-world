@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-30</lastmod>
+        <lastmod>2026-07-31</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-30</lastmod>
+        <lastmod>2026-07-31</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -87,6 +87,30 @@
             <news:title>EU&#39;s AI Gigafactory Gambit: A Direct Challenge to US-China Hegemony</news:title>
             
             <news:keywords>A, I, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , E, U, ,,  , D, e, f, e, n, s, e, ,,  , T, e, c, h, n, o, l, o, g, y, ,,  , U, S,  , C, h, i, n, a, ,,  , S, t, r, a, t, e, g, i, c,  , A, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/ge-s-f404-engine-production-bottlenecks-undermine-india-s-tejas-ambitions-465385.html</loc>
+        <lastmod>Thu, 30 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglllT9bbANPGJtl03SyPsWl-auwNs7CB87-eM-02O0N-TWfEqJ4GuAGhfDu6FA7_alMMKumGToT0uJeBqwkYAXioRebsdVHucV7iHlu1S-GAZhid31TiRWF7VAgeI8rMmB8H6b-Iew4PPUse6_2PTR9Fj9cyRLqX58OK0bVvg4wKXXXmvLsU9zn-x2a5s/s72-c/HAL_GE_F404_Aerospace_Turbofan_Engine.jpg</image:loc>
+            <image:title>GE&#39;s F404 Engine Production Bottlenecks Undermine India&#39;s Tejas Ambitions</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 30 Jul 2026 16:32:00 +0000</news:publication_date>
+            <news:title>GE&#39;s F404 Engine Production Bottlenecks Undermine India&#39;s Tejas Ambitions</news:title>
+            
+            <news:keywords>T, e, j, a, s, ,,  , G, E,  , F, 4, 0, 4, ,,  , I, n, d, i, a,  , d, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , f, i, g, h, t, e, r,  , j, e, t,  , e, n, g, i, n, e, s, ,,  , d, e, f, e, n, s, e,  , p, r, o, c, u, r, e, m, e, n, t</news:keywords>
             
         </news:news>
     </url>
