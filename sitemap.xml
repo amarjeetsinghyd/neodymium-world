@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-07-31</lastmod>
+        <lastmod>2026-08-01</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-07-31</lastmod>
+        <lastmod>2026-08-01</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-jam-proof-swarm-drones-a-paradigm-shift-in-unmanned-warfare-551682.html</loc>
+        <lastmod>Fri, 31 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjywv9BsY_nz5x29AII6VTUO1sDO6SxHdUY5ty1fDNN2RePsC_3DGi9sAyDwqVhrItTDjMYeRH4BOmGGBX3PeDUZISqgDM9myIz8xHoEQ6mg6KC4nzQQluTU6Vyp2bPwbxoIpvIzrk459I4Zf_pyrZtlAdkLW2GrTwaaTGgxX6gktNctJzqbpziYEfQPLw/s72-c/Sheshnag-150_Swarm_Drone.jpg</image:loc>
+            <image:title>India&#39;s Jam-Proof Swarm Drones: A Paradigm Shift in Unmanned Warfare</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 31 Jul 2026 16:30:00 +0000</news:publication_date>
+            <news:title>India&#39;s Jam-Proof Swarm Drones: A Paradigm Shift in Unmanned Warfare</news:title>
+            
+            <news:keywords>D, R, D, O, ,,  , s, w, a, r, m,  , d, r, o, n, e, s, ,,  , j, a, m, -, p, r, o, o, f,  , t, e, c, h, n, o, l, o, g, y, ,,  , u, n, m, a, n, n, e, d,  , w, a, r, f, a, r, e, ,,  , I, n, d, i, a, n,  , d, e, f, e, n, s, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , s, e, c, u, r, i, t, y, ,,  , m, i, l, i, t, a, r, y,  , t, e, c, h, n, o, l, o, g, y</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/eu-s-ai-gigafactory-gambit-a-direct-challenge-to-us-china-hegemony-419652.html</loc>
