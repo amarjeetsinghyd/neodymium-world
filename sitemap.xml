@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/google-earth-ai-feature-a-geopolitical-threat-vector-590091.html</loc>
+        <lastmod>Sat, 01 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/pdbtv3/article71293882.ece/alternates/LANDSCAPE_1200/2026-07-28T050029Z_550293861_RC28HEAR1QS6_RTRMADP_3_EU-ALPHABET-ANTITRUST-DAMAGES.JPG</image:loc>
+            <image:title>Google Earth AI Feature: A Geopolitical Threat Vector</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 01 Aug 2026 15:46:53 +0530</news:publication_date>
+            <news:title>Google Earth AI Feature: A Geopolitical Threat Vector</news:title>
+            
+            <news:keywords>A, I, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , D, i, s, i, n, f, o, r, m, a, t, i, o, n, ,,  , G, e, o, s, p, a, t, i, a, l,  , I, n, t, e, l, l, i, g, e, n, c, e, ,,  , I, n, f, o, r, m, a, t, i, o, n,  , W, a, r, f, a, r, e, ,,  , G, o, o, g, l, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, e, f, e, n, s, e,  , T, e, c, h</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-jam-proof-swarm-drones-a-paradigm-shift-in-unmanned-warfare-551682.html</loc>
         <lastmod>Fri, 31 Ju</lastmod>
         <changefreq>never</changefreq>
