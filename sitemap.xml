@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-08-01</lastmod>
+        <lastmod>2026-08-02</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-08-01</lastmod>
+        <lastmod>2026-08-02</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -87,6 +87,30 @@
             <news:title>Google Earth AI Feature: A Geopolitical Threat Vector</news:title>
             
             <news:keywords>A, I, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , D, i, s, i, n, f, o, r, m, a, t, i, o, n, ,,  , G, e, o, s, p, a, t, i, a, l,  , I, n, t, e, l, l, i, g, e, n, c, e, ,,  , I, n, f, o, r, m, a, t, i, o, n,  , W, a, r, f, a, r, e, ,,  , G, o, o, g, l, e, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, e, f, e, n, s, e,  , T, e, c, h</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/u-s-ai-industry-s-pacing-the-frontier-letter-signals-deep-governance-crisis-638030.html</loc>
+        <lastmod>Sat, 01 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/7nxtps/article71293527.ece/alternates/LANDSCAPE_1200/2026-07-21T170614Z_155316110_RC2UNLAOEYBN_RTRMADP_3_USA-MARKETS-TECH.JPG</image:loc>
+            <image:title>U.S. AI Industry&#39;s &#39;Pacing the Frontier&#39; Letter Signals Deep Governance Crisis</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 01 Aug 2026 12:25:48 +0530</news:publication_date>
+            <news:title>U.S. AI Industry&#39;s &#39;Pacing the Frontier&#39; Letter Signals Deep Governance Crisis</news:title>
+            
+            <news:keywords>A, I,  , G, o, v, e, r, n, a, n, c, e, ,,  , P, a, c, i, n, g,  , t, h, e,  , F, r, o, n, t, i, e, r, ,,  , O, p, e, n, A, I, ,,  , A, n, t, h, r, o, p, i, c, ,,  , C, y, b, e, r, s, e, c, u, r, i, t, y, ,,  , A, I,  , S, a, f, e, t, y, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , T, e, c, h,  , P, o, l, i, c, y</news:keywords>
             
         </news:news>
     </url>
