@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-08-02</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-08-02</lastmod>
+        <lastmod>2026-08-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/amca-tender-re-issue-signals-india-s-5th-gen-fighter-push-724557.html</loc>
+        <lastmod>Sun, 02 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS6zXyxD9EMtY2vXIiV_N__hN5PYJkvCUNSS7cvo0fD8w_T0sgLSBHafZQr-9swlW-CDRlGSzCHIOiVc6Iox4OzRKSxao9AX9AFCQ2LqkJpeLdJ0kf3ZYkY5oMM2yeZkG2cFf9W-UKXa6BRsiDjET6O-1wNGfPpF1jVUj54Y6-4BVBPDAtBgONDkUsta8/s72-c/AMCA_Stealth_Fighter.jpg</image:loc>
+            <image:title>AMCA Tender Re-Issue Signals India&#39;s 5th Gen Fighter Push</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 02 Aug 2026 10:30:00 +0000</news:publication_date>
+            <news:title>AMCA Tender Re-Issue Signals India&#39;s 5th Gen Fighter Push</news:title>
+            
+            <news:keywords>A, M, C, A, ,,  , 5, t, h,  , g, e, n, e, r, a, t, i, o, n,  , f, i, g, h, t, e, r, ,,  , I, n, d, i, a,  , d, e, f, e, n, s, e, ,,  , i, n, d, i, g, e, n, o, u, s,  , a, i, r, c, r, a, f, t, ,,  , a, e, r, o, s, p, a, c, e,  , p, r, o, c, u, r, e, m, e, n, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t,  , d, e, f, e, n, s, e</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/google-earth-ai-feature-a-geopolitical-threat-vector-590091.html</loc>
