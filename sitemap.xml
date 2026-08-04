@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/mapmyindia-s-geospatial-profitability-signals-defense-tech-commercialization-852335.html</loc>
+        <lastmod>Tue, 04 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/08/MapmyIndia-Q2-ftr-1.png</image:loc>
+            <image:title>MapmyIndia&#39;s Geospatial Profitability Signals Defense Tech Commercialization</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 04 Aug 2026 11:14:18 +0000</news:publication_date>
+            <news:title>MapmyIndia&#39;s Geospatial Profitability Signals Defense Tech Commercialization</news:title>
+            
+            <news:keywords>M, a, p, m, y, I, n, d, i, a, ,,  , G, e, o, s, p, a, t, i, a, l, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , I, n, d, i, a, n,  , D, e, f, e, n, s, e, ,,  , C, o, m, m, e, r, c, i, a, l, i, z, a, t, i, o, n, ,,  , Q, 1,  , R, e, s, u, l, t, s, ,,  , S, t, r, a, t, e, g, i, c,  , F, o, r, e, c, a, s, t, i, n, g</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/amca-tender-re-issue-signals-india-s-5th-gen-fighter-push-724557.html</loc>
         <lastmod>Sun, 02 Au</lastmod>
         <changefreq>never</changefreq>
