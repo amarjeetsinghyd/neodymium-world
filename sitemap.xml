@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-08-04</lastmod>
+        <lastmod>2026-08-05</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-08-04</lastmod>
+        <lastmod>2026-08-05</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/elevation-capital-s-paytm-exit-signals-fintech-maturation-896066.html</loc>
+        <lastmod>Tue, 04 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/08/Paytm-follow-up-ftr.jpg</image:loc>
+            <image:title>Elevation Capital&#39;s Paytm Exit Signals Fintech Maturation</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 04 Aug 2026 18:16:53 +0000</news:publication_date>
+            <news:title>Elevation Capital&#39;s Paytm Exit Signals Fintech Maturation</news:title>
+            
+            <news:keywords>P, a, y, t, m, ,,  , E, l, e, v, a, t, i, o, n,  , C, a, p, i, t, a, l, ,,  , F, i, n, t, e, c, h, ,,  , V, e, n, t, u, r, e,  , C, a, p, i, t, a, l, ,,  , S, t, o, c, k,  , S, a, l, e, ,,  , M, a, r, k, e, t,  , A, n, a, l, y, s, i, s</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/mapmyindia-s-geospatial-profitability-signals-defense-tech-commercialization-852335.html</loc>
