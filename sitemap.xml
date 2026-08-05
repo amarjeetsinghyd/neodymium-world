@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/india-summons-meta-global-team-over-pm-modi-post-restriction-csam-lapses-938763.html</loc>
+        <lastmod>Tue, 04 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/3u0iw2/article71305147.ece/alternates/LANDSCAPE_1200/2026-07-30T113737Z_535547214_RC29C3ALMDTG_RTRMADP_3_INDIA-POLITICS-META.JPG</image:loc>
+            <image:title>India Summons Meta Global Team Over PM Modi Post Restriction &amp; CSAM Lapses</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 04 Aug 2026 18:21:12 +0530</news:publication_date>
+            <news:title>India Summons Meta Global Team Over PM Modi Post Restriction &amp; CSAM Lapses</news:title>
+            
+            <news:keywords>M, e, t, a, ,,  , I, n, d, i, a, ,,  , I, T,  , M, i, n, i, s, t, r, y, ,,  , C, S, A, M, ,,  , P, M,  , M, o, d, i, ,,  , I, T,  , S, e, c, r, e, t, a, r, y, ,,  , A, l, g, o, r, i, t, h, m, i, c,  , B, i, a, s, ,,  , P, l, a, t, f, o, r, m,  , A, c, c, o, u, n, t, a, b, i, l, i, t, y, ,,  , D, i, g, i, t, a, l,  , S, o, v, e, r, e, i, g, n, t, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/elevation-capital-s-paytm-exit-signals-fintech-maturation-896066.html</loc>
         <lastmod>Tue, 04 Au</lastmod>
         <changefreq>never</changefreq>
