@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-08-05</lastmod>
+        <lastmod>2026-08-06</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-08-05</lastmod>
+        <lastmod>2026-08-06</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/hal-s-engine-test-bed-boosts-su-30mki-longevity-aatmanirbhar-bharat-defense-self-982973.html</loc>
+        <lastmod>Wed, 05 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfZ0g65lOGSYAX6CRlJxHnlu5V8F3kFHd2W7ZZ3dDxf9Y0rPbL0mT92c88ZxCGSFQi7vgAG32uZNHZTCrBhRtwCQPQT1PjiSsAwIqlvCoYmEvU9DCaB7f0bt366mcahrgNr2AQ18Vv_NnID01g4Qilhv816d1Uvg_c7gnTUZbrKHZJ1HXFsai5t1a7uWo/s72-c/SATURN_AL-31FP_Turbofan_Engine.jpg</image:loc>
+            <image:title>HAL&#39;s Engine Test Bed Boosts Su-30MKI Longevity, Aatmanirbhar Bharat Defense Self-Reliance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 05 Aug 2026 16:30:00 +0000</news:publication_date>
+            <news:title>HAL&#39;s Engine Test Bed Boosts Su-30MKI Longevity, Aatmanirbhar Bharat Defense Self-Reliance</news:title>
+            
+            <news:keywords>H, A, L, ,,  , S, u, -, 3, 0, M, K, I, ,,  , A, l, -, 3, 1, F, P,  , e, n, g, i, n, e, ,,  , A, a, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , s, e, l, f, -, r, e, l, i, a, n, c, e, ,,  , a, e, r, o, s, p, a, c, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , I, n, d, i, a, n,  , A, i, r,  , F, o, r, c, e, ,,  , d, e, f, e, n, s, e,  , m, a, n, u, f, a, c, t, u, r, i, n, g</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/india-summons-meta-global-team-over-pm-modi-post-restriction-csam-lapses-938763.html</loc>
