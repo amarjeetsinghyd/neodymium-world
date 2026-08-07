@@ -835,4 +835,28 @@
         </news:news>
     </url>
     
+    <url>
+        <loc>https://neodymium.world/articles/walkabout-s-strategic-pivot-india-s-silver-economy-as-the-next-tech-frontier-107471.html</loc>
+        <lastmod>Fri, 07 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/c5c652a0fb5a11eca125d7821ea2fbc4/CommunityLunchMeetUp-1786100137421.png</image:loc>
+            <image:title>WalkAbout&#39;s Strategic Pivot: India&#39;s Silver Economy as the Next Tech Frontier</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 07 Aug 2026 11:20:05 GMT</news:publication_date>
+            <news:title>WalkAbout&#39;s Strategic Pivot: India&#39;s Silver Economy as the Next Tech Frontier</news:title>
+            
+            <news:keywords>S, i, l, v, e, r,  , E, c, o, n, o, m, y, ,,  , A, c, t, i, v, e,  , A, g, i, n, g, ,,  , I, n, d, i, a,  , T, e, c, h, ,,  , S, e, n, i, o, r,  , L, i, v, i, n, g, ,,  , G, e, t, S, e, t, U, p, ,,  , W, a, l, k, A, b, o, u, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , L, o, n, g, e, v, i, t, y, ,,  , R, e, s, k, i, l, l, i, n, g</news:keywords>
+            
+        </news:news>
+    </url>
+    
 </urlset>
