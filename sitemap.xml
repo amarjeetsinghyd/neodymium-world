@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/sarvam-ai-s-epoch-a-strategic-play-for-india-s-ai-sovereignty-192955.html</loc>
+        <lastmod>Sat, 08 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/lz9sa/article71289833.ece/alternates/LANDSCAPE_1200/2026-07-29T111210Z_1987324491_RC21P1A7WP57_RTRMADP_3_MARVELL-TECH-INDIA-INVESTMENT.JPG</image:loc>
+            <image:title>Sarvam AI&#39;s Epoch: A Strategic Play for India&#39;s AI Sovereignty</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 08 Aug 2026 14:48:01 +0530</news:publication_date>
+            <news:title>Sarvam AI&#39;s Epoch: A Strategic Play for India&#39;s AI Sovereignty</news:title>
+            
+            <news:keywords>S, a, r, v, a, m,  , A, I, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , A, I,  , S, o, v, e, r, e, i, g, n, t, y, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, n, o, l, o, g, y, ,,  , I, n, d, i, a, n,  , L, L, M, s, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , S, t, r, a, t, e, g, i, c,  , F, o, r, e, c, a, s, t, i, n, g</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/hero-s-e-bike-entry-signals-intensifying-ev-competition-in-india-152121.html</loc>
         <lastmod>Fri, 07 Au</lastmod>
         <changefreq>never</changefreq>
