@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-08-07</lastmod>
+        <lastmod>2026-08-08</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-08-07</lastmod>
+        <lastmod>2026-08-08</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/hero-s-e-bike-entry-signals-intensifying-ev-competition-in-india-152121.html</loc>
+        <lastmod>Fri, 07 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/08/hero-ebike-featured.png</image:loc>
+            <image:title>Hero&#39;s E-Bike Entry Signals Intensifying EV Competition in India</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 07 Aug 2026 20:51:43 +0000</news:publication_date>
+            <news:title>Hero&#39;s E-Bike Entry Signals Intensifying EV Competition in India</news:title>
+            
+            <news:keywords>H, e, r, o,  , M, o, t, o, C, o, r, p, ,,  , E, l, e, c, t, r, i, c,  , B, i, k, e, ,,  , E, V,  , M, a, r, k, e, t,  , I, n, d, i, a, ,,  , E, -, B, i, k, e,  , C, o, m, p, e, t, i, t, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/x-s-product-chief-exits-musk-s-platform-faces-strategic-crossroads-025015.html</loc>
