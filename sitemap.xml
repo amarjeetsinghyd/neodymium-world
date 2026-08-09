@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/drdo-s-kpi-mandate-india-s-defence-r-d-revolution-underway-279450.html</loc>
+        <lastmod>Sun, 09 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvUuUwwemNgnuWkgbwiXpAaH-84NcAZeEbZmTPDxCJRNUl0H8Xks8JiR273z89F65mMOUmRVek0c86ja1A5uz8exgQKMRqVPhlkGJulvAEsGd7r_-TK5QH4OMe_-D_2MtDVFefEKYjfBIyICknIr8vc4HZAhPDQgeBHf7gORF0TYWq-_7fJdfFCP8os-4/s72-c/DRDO_Banner.jpg</image:loc>
+            <image:title>DRDO&#39;s KPI Mandate: India&#39;s Defence R&amp;D Revolution Underway</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 09 Aug 2026 10:29:00 +0000</news:publication_date>
+            <news:title>DRDO&#39;s KPI Mandate: India&#39;s Defence R&amp;D Revolution Underway</news:title>
+            
+            <news:keywords>D, R, D, O, ,,  , d, e, f, e, n, c, e,  , R, &amp;, D, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , p, a, r, l, i, a, m, e, n, t, a, r, y,  , o, v, e, r, s, i, g, h, t, ,,  , d, e, f, e, n, c, e,  , p, r, o, c, u, r, e, m, e, n, t, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/hal-bangalore-s-rnp-cat-h-procedure-a-strategic-leap-for-indian-aviation-238849.html</loc>
         <lastmod>Sat, 08 Au</lastmod>
         <changefreq>never</changefreq>
