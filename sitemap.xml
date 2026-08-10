@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-laser-defense-revolution-strategic-imperatives-for-atmanirbhar-bharat-366974.html</loc>
+        <lastmod>Mon, 10 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3TeHb_3HCr9okpG6fLAEVvXGfg3phvP3eWkuCwTZ20-t5UIabN_cL09ogqz46NMa6OVQVpMUEVkKHnMg591FJwgY9eJ3FU82QxEc4qQA8a_vbEDtTzL6BFmqA3qssBCpMVS6m4jZi71Yr7B0Uopd8QLRmb8jyvvUxUBSrmVxvF6aqJf0HuMol_Tm5NHk/s72-c/L&amp;T_TEJASTRA_Laser_Weapon.jpg</image:loc>
+            <image:title>India&#39;s Laser Defense Revolution: Strategic Imperatives for Atmanirbhar Bharat</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 10 Aug 2026 05:59:00 +0000</news:publication_date>
+            <news:title>India&#39;s Laser Defense Revolution: Strategic Imperatives for Atmanirbhar Bharat</news:title>
+            
+            <news:keywords>l, a, s, e, r,  , w, e, a, p, o, n, s, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , m, i, l, i, t, a, r, y,  , s, t, r, a, t, e, g, y, ,,  , d, i, r, e, c, t, e, d,  , e, n, e, r, g, y, ,,  , I, n, d, i, a,  , d, e, f, e, n, s, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/drdo-s-kpi-mandate-india-s-defence-r-d-revolution-underway-279450.html</loc>
         <lastmod>Sun, 09 Au</lastmod>
         <changefreq>never</changefreq>
