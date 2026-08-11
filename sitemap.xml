@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-08-10</lastmod>
+        <lastmod>2026-08-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-08-10</lastmod>
+        <lastmod>2026-08-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -855,6 +855,30 @@
             <news:title>B2B GTM: AI-Driven Noise Reduction is the Real Growth Hack</news:title>
             
             <news:keywords>B, 2, B,  , G, T, M, ,,  , A, I,  , i, n,  , M, a, r, k, e, t, i, n, g, ,,  , G, o, -, t, o, -, M, a, r, k, e, t,  , S, t, r, a, t, e, g, y, ,,  , S, a, a, S,  , G, r, o, w, t, h, ,,  , P, e, r, s, o, n, a, -, B, a, s, e, d,  , M, a, r, k, e, t, i, n, g, ,,  , N, o, i, s, e,  , R, e, d, u, c, t, i, o, n, ,,  , E, n, t, e, r, p, r, i, s, e,  , M, a, r, k, e, t, i, n, g, ,,  , A, I, -, P, o, w, e, r, e, d,  , C, R, M</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/battery-waste-india-s-path-to-strategic-mineral-independence-411616.html</loc>
+        <lastmod>Sun, 09 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/Battery-1786096127924.png</image:loc>
+            <image:title>Battery Waste: India&#39;s Path to Strategic Mineral Independence</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 09 Aug 2026 02:45:00 GMT</news:publication_date>
+            <news:title>Battery Waste: India&#39;s Path to Strategic Mineral Independence</news:title>
+            
+            <news:keywords>b, a, t, t, e, r, y,  , w, a, s, t, e, ,,  , s, t, r, a, t, e, g, i, c,  , m, i, n, e, r, a, l, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , l, i, t, h, i, u, m, ,,  , c, o, b, a, l, t, ,,  , n, i, c, k, e, l, ,,  , r, e, c, y, c, l, i, n, g, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , i, n, d, u, s, t, r, i, a, l,  , s, t, r, a, t, e, g, y</news:keywords>
             
         </news:news>
     </url>
