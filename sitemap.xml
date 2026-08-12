@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-infantry-modernization-strategic-implications-of-advanced-weapon-sights--539811.html</loc>
+        <lastmod>Wed, 12 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjf-v4-AUfbi_oh41o0fyYOD-X8cmd_TUEYXn2Yo_EEFlP10tnyGU9AwdwsS0Ka3aKKI-9qBlkvRX-LEAXJRRK5_n616BEiJTKg3NcMOJP5TaXYOyywZUoOpEuzDXtDfvk4PhCMEAUKLDihrg6egcGITWE1ByOIT-l3hVA5SOlWhoKibPWq6fpGlS-fn48/s72-c/Thermal_Imaging_Sights.jpg</image:loc>
+            <image:title>India&#39;s Infantry Modernization: Strategic Implications of Advanced Weapon Sights Procurement</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 12 Aug 2026 06:00:00 +0000</news:publication_date>
+            <news:title>India&#39;s Infantry Modernization: Strategic Implications of Advanced Weapon Sights Procurement</news:title>
+            
+            <news:keywords>I, n, d, i, a, n,  , A, r, m, y, ,,  , w, e, a, p, o, n,  , s, i, g, h, t, s, ,,  , n, i, g, h, t,  , v, i, s, i, o, n, ,,  , t, h, e, r, m, a, l,  , i, m, a, g, i, n, g, ,,  , S, I, G, -, 7, 1, 6, ,,  , N, e, g, e, v, ,,  , A, K, -, 2, 0, 3, ,,  , d, e, f, e, n, s, e,  , p, r, o, c, u, r, e, m, e, n, t, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , i, n, f, a, n, t, r, y,  , m, o, d, e, r, n, i, z, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-laser-defense-revolution-strategic-imperatives-for-atmanirbhar-bharat-366974.html</loc>
         <lastmod>Mon, 10 Au</lastmod>
         <changefreq>never</changefreq>
