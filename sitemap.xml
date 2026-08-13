@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-08-12</lastmod>
+        <lastmod>2026-08-13</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-08-12</lastmod>
+        <lastmod>2026-08-13</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/table-space-ipo-scale-without-profitability-is-the-real-risk-585602.html</loc>
+        <lastmod>Thu, 13 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/08/Table-Space-Follow-Up-ftr.jpg</image:loc>
+            <image:title>Table Space IPO: Scale Without Profitability Is the Real Risk</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 13 Aug 2026 01:30:03 +0000</news:publication_date>
+            <news:title>Table Space IPO: Scale Without Profitability Is the Real Risk</news:title>
+            
+            <news:keywords>T, a, b, l, e,  , S, p, a, c, e, ,,  , I, P, O, ,,  , m, a, n, a, g, e, d,  , w, o, r, k, s, p, a, c, e, ,,  , c, l, i, e, n, t,  , c, o, n, c, e, n, t, r, a, t, i, o, n, ,,  , p, r, o, f, i, t, a, b, i, l, i, t, y, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , m, a, r, k, e, t,  , a, n, a, l, y, s, i, s</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/india-s-infantry-modernization-strategic-implications-of-advanced-weapon-sights--539811.html</loc>
