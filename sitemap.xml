@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-strategic-pivot-to-france-s-6th-gen-fighter-geopolitical-calculus-712503.html</loc>
+        <lastmod>Fri, 14 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpY6yGj2rFK4wPCPm5yqdHIXr00Vubm0PdccqXurQTACyvLQwv-ZZQap9RVoFdFfQ8Ny58Gh8DFEkiDXc3c3G9hz4V96P1atHZUaG9jd-sj-_NQ5TR5XLLd288vDIT3c7BTeNqqtMx5igV0tw4vmDkkkqUGW8ohyphenhyphenXzyuQ6NG1J50MpF-9Gg8iU7phbBV4/s72-c/UK_France_Future_Combat_Air_System_FCAS.jpg</image:loc>
+            <image:title>India&#39;s Strategic Pivot to France&#39;s 6th Gen Fighter: Geopolitical Calculus</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 14 Aug 2026 05:59:00 +0000</news:publication_date>
+            <news:title>India&#39;s Strategic Pivot to France&#39;s 6th Gen Fighter: Geopolitical Calculus</news:title>
+            
+            <news:keywords>I, n, d, i, a, ,,  , F, r, a, n, c, e, ,,  , F, i, g, h, t, e, r,  , J, e, t, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, n, o, l, o, g, y, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , M, i, l, i, t, a, r, y,  , M, o, d, e, r, n, i, z, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/rapido-s-karnataka-licence-a-strategic-shift-from-disruption-to-integration-671878.html</loc>
         <lastmod>Thu, 13 Au</lastmod>
         <changefreq>never</changefreq>
