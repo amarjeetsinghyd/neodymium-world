@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/cred-s-newtap-finance-profit-surge-fuels-fintech-co-lending-market-expansion-797141.html</loc>
+        <lastmod>Sat, 15 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/08/AWS-FTR.jpg</image:loc>
+            <image:title>CRED&#39;s NewTap Finance Profit Surge Fuels Fintech Co-Lending Market Expansion</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 15 Aug 2026 09:22:24 +0000</news:publication_date>
+            <news:title>CRED&#39;s NewTap Finance Profit Surge Fuels Fintech Co-Lending Market Expansion</news:title>
+            
+            <news:keywords>C, R, E, D, ,,  , N, e, w, T, a, p,  , F, i, n, a, n, c, e, ,,  , f, i, n, t, e, c, h, ,,  , N, B, F, C, ,,  , c, o, -, l, e, n, d, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , f, i, n, a, n, c, i, a, l,  , t, e, c, h, n, o, l, o, g, y, ,,  , u, n, s, e, c, u, r, e, d,  , c, r, e, d, i, t, ,,  , I, n, d, i, a, n,  , e, c, o, n, o, m, y</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/microsoft-s-calculated-retreat-from-china-ai-s-strategic-lifeline-755967.html</loc>
         <lastmod>Fri, 14 Au</lastmod>
         <changefreq>never</changefreq>
