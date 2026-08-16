@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-08-15</lastmod>
+        <lastmod>2026-08-16</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-08-15</lastmod>
+        <lastmod>2026-08-16</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -1095,6 +1095,30 @@
             <news:title>Cyran AI&#39;s Neuromorphic Stack: A New Axis for India&#39;s Defense Sovereignty</news:title>
             
             <news:keywords>C, y, r, a, n,  , A, I, ,,  , n, e, u, r, o, m, o, r, p, h, i, c,  , c, o, m, p, u, t, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , I, I, T,  , D, e, l, h, i, ,,  , s, o, v, e, r, e, i, g, n,  , A, I, ,,  , i, D, E, X, ,,  , S, a, f, r, a, n, ,,  , d, e, f, e, n, s, e,  , s, t, a, r, t, u, p, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/indigotex-s-wool-indigo-fabric-defense-tech-disruption-or-fashion-gimmick-842528.html</loc>
+        <lastmod>Fri, 14 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/07f6d7f0ed8e11ed819979969b4b51e2/2-1786723869158.jpg</image:loc>
+            <image:title>Indigotex&#39;s Wool-Indigo Fabric: Defense Tech Disruption or Fashion Gimmick?</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 14 Aug 2026 16:31:12 GMT</news:publication_date>
+            <news:title>Indigotex&#39;s Wool-Indigo Fabric: Defense Tech Disruption or Fashion Gimmick?</news:title>
+            
+            <news:keywords>D, e, f, e, n, s, e,  , T, e, c, h, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , I, n, d, i, a, n,  , A, r, m, y, ,,  , W, o, o, l,  , D, e, n, i, m, ,,  , S, t, r, a, t, e, g, i, c,  , T, e, x, t, i, l, e, s, ,,  , I, I, T,  , D, e, l, h, i, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , M, i, l, i, t, a, r, y,  , I, n, n, o, v, a, t, i, o, n</news:keywords>
             
         </news:news>
     </url>
