@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-mum-t-revolution-autonomous-warfare-redefining-south-asian-balance-883666.html</loc>
+        <lastmod>Sun, 16 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilq647qf1OOuXbmiWlzf1QOXe2wOWLoHv2oXTsBqrRhkJXAgdzqlyWOhhl1Xh3lqjtZX6a_EB2fwC0SzqhrioO0b2Zx827SLCAkLsvb3aMEiN5Qi4umOcatOTwnocA8DcXqqRtTm9mgzB06ceqLlZe4Q-HPobRBzq3m9lFmdEZDosvHImE113DjlWEx_c/s72-c/Infantry_Combat_Vehicle.jpg</image:loc>
+            <image:title>India&#39;s MUM-T Revolution: Autonomous Warfare Redefining South Asian Balance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 16 Aug 2026 10:29:00 +0000</news:publication_date>
+            <news:title>India&#39;s MUM-T Revolution: Autonomous Warfare Redefining South Asian Balance</news:title>
+            
+            <news:keywords>M, U, M, -, T, ,,  , I, n, d, i, a, n,  , A, r, m, y, ,,  , A, u, t, o, n, o, m, o, u, s,  , W, a, r, f, a, r, e, ,,  , D, e, f, e, n, s, e,  , T, e, c, h, n, o, l, o, g, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , M, i, l, i, t, a, r, y,  , M, o, d, e, r, n, i, z, a, t, i, o, n</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/cred-s-newtap-finance-profit-surge-fuels-fintech-co-lending-market-expansion-797141.html</loc>
         <lastmod>Sat, 15 Au</lastmod>
         <changefreq>never</changefreq>
