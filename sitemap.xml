@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-5th-gen-fighter-amca-faces-critical-propulsion-hurdles-056809.html</loc>
+        <lastmod>Tue, 18 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvXSPfCHF6EI7tDrMq7K_VoH3Vbm8_Om78ZIHdn6asQEcaLdyY7njPP7KX8avDbCd-CaIiF9tTpyyp0zLH_my2_RV7_U9x7Zqy31ZyyAwm3ulqL7fjJhL-8aTQgsNFZ4VpuRSOykPHVPyM164Ahn6oBY8iewWwO_RnodZfwCp7pmNxLVkb5-UOigIExwY/s72-c/Turbofan_Engine_Testing.jpg</image:loc>
+            <image:title>India&#39;s 5th-Gen Fighter AMCA Faces Critical Propulsion Hurdles</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 18 Aug 2026 06:00:00 +0000</news:publication_date>
+            <news:title>India&#39;s 5th-Gen Fighter AMCA Faces Critical Propulsion Hurdles</news:title>
+            
+            <news:keywords>A, M, C, A, ,,  , f, i, f, t, h, -, g, e, n,  , f, i, g, h, t, e, r, ,,  , I, n, d, i, a,  , d, e, f, e, n, s, e, ,,  , p, r, o, p, u, l, s, i, o, n,  , s, y, s, t, e, m, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, e, a, l, t, h,  , a, i, r, c, r, a, f, t</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/qrsam-er-india-s-strategic-leap-in-tactical-air-defense-capabilities-970329.html</loc>
         <lastmod>Mon, 17 Au</lastmod>
         <changefreq>never</changefreq>
