@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-08-18</lastmod>
+        <lastmod>2026-08-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-08-18</lastmod>
+        <lastmod>2026-08-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -1167,6 +1167,30 @@
             <news:title>Cyran AI&#39;s Neuromorphic Stack: A New Axis for India&#39;s Defense Sovereignty</news:title>
             
             <news:keywords>C, y, r, a, n,  , A, I, ,,  , n, e, u, r, o, m, o, r, p, h, i, c,  , c, o, m, p, u, t, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , I, I, T,  , D, e, l, h, i, ,,  , s, o, v, e, r, e, i, g, n,  , A, I, ,,  , i, D, E, X, ,,  , S, a, f, r, a, n, ,,  , d, e, f, e, n, s, e,  , s, t, a, r, t, u, p, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-startup-ecosystem-fintech-healthtech-and-ai-dominate-august-2026-funding-101606.html</loc>
+        <lastmod>Tue, 18 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/e641e900925711e9926177f451727da9/RoundupIMG21600x900-1763028299752.jpg</image:loc>
+            <image:title>India&#39;s Startup Ecosystem: Fintech, Healthtech, and AI Dominate August 2026 Funding</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 18 Aug 2026 09:12:32 GMT</news:publication_date>
+            <news:title>India&#39;s Startup Ecosystem: Fintech, Healthtech, and AI Dominate August 2026 Funding</news:title>
+            
+            <news:keywords>I, n, d, i, a,  , s, t, a, r, t, u, p,  , f, u, n, d, i, n, g, ,,  , A, I,  , l, e, n, d, i, n, g, ,,  , w, o, m, e, n,  , e, n, t, r, e, p, r, e, n, e, u, r, s, ,,  , f, i, n, t, e, c, h, ,,  , S, e, r, i, e, s,  , A, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , f, i, n, a, n, c, i, a, l,  , i, n, c, l, u, s, i, o, n, ,,  , m, a, r, k, e, t,  , a, n, a, l, y, s, i, s</news:keywords>
             
         </news:news>
     </url>
