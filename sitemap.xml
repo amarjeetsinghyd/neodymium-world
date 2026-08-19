@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/kedia-s-stake-in-zaggle-a-calculated-bet-on-fintech-consolidation-143293.html</loc>
+        <lastmod>Wed, 19 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2024/12/zaggle-feature.jpg</image:loc>
+            <image:title>Kedia&#39;s Stake in Zaggle: A Calculated Bet on Fintech Consolidation</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 19 Aug 2026 11:39:05 +0000</news:publication_date>
+            <news:title>Kedia&#39;s Stake in Zaggle: A Calculated Bet on Fintech Consolidation</news:title>
+            
+            <news:keywords>Z, a, g, g, l, e, ,,  , V, i, j, a, y,  , K, e, d, i, a, ,,  , K, e, d, i, a,  , S, e, c, u, r, i, t, i, e, s, ,,  , F, i, n, t, e, c, h, ,,  , S, a, a, S, ,,  , I, n, v, e, s, t, m, e, n, t, ,,  , S, h, a, r, e,  , M, a, r, k, e, t, ,,  , Q, 1,  , R, e, s, u, l, t, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, e, f, e, n, s, e,  , T, e, c, h</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-5th-gen-fighter-amca-faces-critical-propulsion-hurdles-056809.html</loc>
         <lastmod>Tue, 18 Au</lastmod>
         <changefreq>never</changefreq>
