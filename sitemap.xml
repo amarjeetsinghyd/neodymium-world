@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-08-19</lastmod>
+        <lastmod>2026-08-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-08-19</lastmod>
+        <lastmod>2026-08-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -1191,6 +1191,30 @@
             <news:title>Cyran AI&#39;s Neuromorphic Stack: A New Axis for India&#39;s Defense Sovereignty</news:title>
             
             <news:keywords>C, y, r, a, n,  , A, I, ,,  , n, e, u, r, o, m, o, r, p, h, i, c,  , c, o, m, p, u, t, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , I, I, T,  , D, e, l, h, i, ,,  , s, o, v, e, r, e, i, g, n,  , A, I, ,,  , i, D, E, X, ,,  , S, a, f, r, a, n, ,,  , d, e, f, e, n, s, e,  , s, t, a, r, t, u, p, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/fast-approval-health-insurance-a-strategic-tool-for-india-s-medical-inflation-187888.html</loc>
+        <lastmod>Wed, 19 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.yourstory.com/cs/2/81f42290-b0f5-11ed-aa4d-75d0d1d6c429/1787121496820.jpeg</image:loc>
+            <image:title>Fast-Approval Health Insurance: A Strategic Tool for India&#39;s Medical Inflation</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 19 Aug 2026 09:16:19 GMT</news:publication_date>
+            <news:title>Fast-Approval Health Insurance: A Strategic Tool for India&#39;s Medical Inflation</news:title>
+            
+            <news:keywords>h, e, a, l, t, h,  , i, n, s, u, r, a, n, c, e, ,,  , m, e, d, i, c, a, l,  , i, n, f, l, a, t, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , f, i, n, a, n, c, i, a, l,  , p, l, a, n, n, i, n, g, ,,  , I, n, d, i, a,  , e, c, o, n, o, m, y</news:keywords>
             
         </news:news>
     </url>
