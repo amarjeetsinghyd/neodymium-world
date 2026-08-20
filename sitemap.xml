@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/ccpa-action-on-amazon-shows-marketplace-liability-in-india-s-digital-economy-229784.html</loc>
+        <lastmod>Thu, 20 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/01/amazon-exports-featured-1.png</image:loc>
+            <image:title>CCPA Action on Amazon Shows Marketplace Liability in India&#39;s Digital Economy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 20 Aug 2026 12:14:30 +0000</news:publication_date>
+            <news:title>CCPA Action on Amazon Shows Marketplace Liability in India&#39;s Digital Economy</news:title>
+            
+            <news:keywords>C, C, P, A, ,,  , A, m, a, z, o, n, ,,  , E, -, C, o, m, m, e, r, c, e,  , R, u, l, e, s, ,,  , M, a, r, k, e, t, p, l, a, c, e,  , L, i, a, b, i, l, i, t, y, ,,  , C, o, n, s, u, m, e, r,  , P, r, o, t, e, c, t, i, o, n, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , D, i, g, i, t, a, l,  , I, n, d, i, a</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/kedia-s-stake-in-zaggle-a-calculated-bet-on-fintech-consolidation-143293.html</loc>
         <lastmod>Wed, 19 Au</lastmod>
         <changefreq>never</changefreq>
