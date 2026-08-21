@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-08-20</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-08-20</lastmod>
+        <lastmod>2026-08-21</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/balu-forge-s-erfb-shells-signal-india-s-artillery-self-reliance-274522.html</loc>
+        <lastmod>Thu, 20 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEN3xWybtI-lCzyU9oJOuOCo8i1dZ_L2c84fKh4KrDzZzCyg68lRqFNHWL_dG5-OpsVugTl89x8Hd0c6XXLFWOGSl6VoEFn8KOx9P0aYH-JqVEh62NW3u33pTC2g1bLqmjY1Twd7SNO1pGbYQzH1BOQ_P2abuKwa2VDj7n19K7Hndrg57nhbTmdGw6AMo/s72-c/Balu_Force_155mm_Extended_Range_Full_Bore_ERFB.jpg</image:loc>
+            <image:title>Balu Forge&#39;s ERFB Shells Signal India&#39;s Artillery Self-Reliance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 20 Aug 2026 16:33:00 +0000</news:publication_date>
+            <news:title>Balu Forge&#39;s ERFB Shells Signal India&#39;s Artillery Self-Reliance</news:title>
+            
+            <news:keywords>B, a, l, u,  , F, o, r, g, e, ,,  , E, R, F, B,  , s, h, e, l, l, s, ,,  , a, r, t, i, l, l, e, r, y,  , s, e, l, f, -, r, e, l, i, a, n, c, e, ,,  , d, e, f, e, n, s, e,  , m, a, n, u, f, a, c, t, u, r, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , I, n, d, i, a, n,  , d, e, f, e, n, s, e, ,,  , 1, 5, 5, m, m,  , a, r, t, i, l, l, e, r, y</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/ccpa-action-on-amazon-shows-marketplace-liability-in-india-s-digital-economy-229784.html</loc>
