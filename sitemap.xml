@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/kalpana-mission-india-s-strategic-leap-in-reusable-space-technology-316158.html</loc>
+        <lastmod>Fri, 21 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLRsLJxl7eUx6sOD3TtX8e3-KqEnNCntjpdRBe9sYySXVTw5tb8k6dpjhvDI0ibZH0NYsnKbT-qyQmNQrwTzjo_6J6L3r2HT7Y79pDlR-vc-wGyjBbbdVu_BzfLuAlzQMLfL6WNPfWJC40CMElL3FIi6nbCc1YO1KNPznOlFFGldI6NCRnMc8FxD6d888/s72-c/TALISHA_Aerospace_Reusable_Rocket.jpg</image:loc>
+            <image:title>KALPANA Mission: India&#39;s Strategic Leap in Reusable Space Technology</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 21 Aug 2026 05:59:00 +0000</news:publication_date>
+            <news:title>KALPANA Mission: India&#39;s Strategic Leap in Reusable Space Technology</news:title>
+            
+            <news:keywords>K, A, L, P, A, N, A,  , m, i, s, s, i, o, n, ,,  , r, e, u, s, a, b, l, e,  , r, o, c, k, e, t, s, ,,  , h, y, b, r, i, d,  , p, r, o, p, u, l, s, i, o, n, ,,  , I, n, d, i, a,  , s, p, a, c, e,  , p, r, o, g, r, a, m, ,,  , d, e, f, e, n, s, e,  , t, e, c, h, n, o, l, o, g, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , s, t, r, a, t, e, g, i, c,  , a, u, t, o, n, o, m, y, ,,  , S, o, u, t, h,  , A, s, i, a, n,  , g, e, o, p, o, l, i, t, i, c, s</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/balu-forge-s-erfb-shells-signal-india-s-artillery-self-reliance-274522.html</loc>
         <lastmod>Thu, 20 Au</lastmod>
         <changefreq>never</changefreq>
