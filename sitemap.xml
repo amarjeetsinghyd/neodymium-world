@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/blusmart-s-collapse-a-blueprint-for-state-sponsored-tech-fraud-402027.html</loc>
+        <lastmod>Sat, 22 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2025/06/BluSmart-App-crash-ftr.jpg</image:loc>
+            <image:title>BluSmart&#39;s Collapse: A Blueprint for State-Sponsored Tech Fraud</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 22 Aug 2026 11:18:41 +0000</news:publication_date>
+            <news:title>BluSmart&#39;s Collapse: A Blueprint for State-Sponsored Tech Fraud</news:title>
+            
+            <news:keywords>B, l, u, S, m, a, r, t, ,,  , I, R, E, D, A, ,,  , C, B, I, ,,  , E, V,  , f, r, a, u, d, ,,  , l, o, a, n,  , d, i, v, e, r, s, i, o, n, ,,  , G, e, n, s, o, l,  , E, n, g, i, n, e, e, r, i, n, g, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , d, e, f, e, n, s, e,  , p, r, o, c, u, r, e, m, e, n, t, ,,  , s, t, r, a, t, e, g, i, c,  , r, i, s, k</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/brics-tech-alliance-india-s-geopolitical-play-for-tech-sovereignty-360673.html</loc>
         <lastmod>Fri, 21 Au</lastmod>
         <changefreq>never</changefreq>
