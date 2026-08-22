@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-08-21</lastmod>
+        <lastmod>2026-08-22</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-08-21</lastmod>
+        <lastmod>2026-08-22</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/brics-tech-alliance-india-s-geopolitical-play-for-tech-sovereignty-360673.html</loc>
+        <lastmod>Fri, 21 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/cyx097/article71375028.ece/alternates/LANDSCAPE_1200/_DSC1208.JPG</image:loc>
+            <image:title>BRICS Tech Alliance: India&#39;s Geopolitical Play for Tech Sovereignty</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 21 Aug 2026 22:06:29 +0530</news:publication_date>
+            <news:title>BRICS Tech Alliance: India&#39;s Geopolitical Play for Tech Sovereignty</news:title>
+            
+            <news:keywords>B, R, I, C, S, ,,  , I, n, d, i, a, ,,  , T, e, c, h,  , S, o, v, e, r, e, i, g, n, t, y, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , G, e, o, p, o, l, i, t, i, c, s, ,,  , E, m, e, r, g, i, n, g,  , T, e, c, h, n, o, l, o, g, i, e, s, ,,  , S, t, r, a, t, e, g, i, c,  , A, u, t, o, n, o, m, y, ,,  , G, l, o, b, a, l,  , S, o, u, t, h</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/kalpana-mission-india-s-strategic-leap-in-reusable-space-technology-316158.html</loc>
