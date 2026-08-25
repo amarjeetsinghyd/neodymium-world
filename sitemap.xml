@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/xiaomi-s-mijia-air-purifiers-a-strategic-penetration-of-india-s-health-tech-mark-661743.html</loc>
+        <lastmod>Tue, 25 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/sci-tech/technology/gadgets/acciqu/article71387864.ece/alternates/LANDSCAPE_1200/20260824_144543.jpg</image:loc>
+            <image:title>Xiaomi&#39;s Mijia Air Purifiers: A Strategic Penetration of India&#39;s Health-Tech Market</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 25 Aug 2026 13:21:08 +0530</news:publication_date>
+            <news:title>Xiaomi&#39;s Mijia Air Purifiers: A Strategic Penetration of India&#39;s Health-Tech Market</news:title>
+            
+            <news:keywords>X, i, a, o, m, i, ,,  , M, i, j, i, a, ,,  , I, n, d, i, a,  , m, a, r, k, e, t, ,,  , a, i, r,  , p, u, r, i, f, i, e, r, ,,  , c, o, n, s, u, m, e, r,  , e, l, e, c, t, r, o, n, i, c, s, ,,  , A, t, m, a, n, i, r, b, h, a, r,  , B, h, a, r, a, t, ,,  , C, h, i, n, e, s, e,  , t, e, c, h, ,,  , B, l, i, n, k, i, t, ,,  , I, o, T, ,,  , s, m, a, r, t,  , h, o, m, e</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/china-s-robot-supremacy-threatens-india-s-defense-autonomy-533661.html</loc>
         <lastmod>Sun, 23 Au</lastmod>
         <changefreq>never</changefreq>
