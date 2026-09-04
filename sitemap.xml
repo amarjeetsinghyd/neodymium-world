@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/pacific-watch-textron-drones-bolster-7th-fleet-s-isr-edge-against-beijing-542730.html</loc>
+        <lastmod>Fri, 04 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail</image:loc>
+            <image:title>Pacific Watch: Textron Drones Bolster 7th Fleet&#39;s ISR Edge Against Beijing</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 04 Sep 2026 15:57:25 +0000</news:publication_date>
+            <news:title>Pacific Watch: Textron Drones Bolster 7th Fleet&#39;s ISR Edge Against Beijing</news:title>
+            
+            <news:keywords>Indo-Pacific Strategy, Naval ISR, Drone Technology, COCO Model, 7th Fleet, China Deterrence</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/reaper-s-reckoning-air-force-pivots-to-massed-drone-warfare-after-iran-losses-542769.html</loc>
+        <lastmod>Fri, 04 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail</image:loc>
+            <image:title>Reaper&#39;s Reckoning: Air Force Pivots to Massed Drone Warfare After Iran Losses</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 04 Sep 2026 14:59:16 +0000</news:publication_date>
+            <news:title>Reaper&#39;s Reckoning: Air Force Pivots to Massed Drone Warfare After Iran Losses</news:title>
+            
+            <news:keywords>MQ-9 Reaper, Massed Modular Aircraft, US Air Force, Drone Warfare, Defense Modernization, Operation Epic Fury</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/the-unseen-battlefield-how-ai-weather-intelligence-reshapes-western-strategic-ad-526288.html</loc>
         <lastmod>Thu, 03 Se</lastmod>
         <changefreq>never</changefreq>
