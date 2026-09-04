@@ -2,7 +2,7 @@ name: Update News Pipeline
 
 on:
   schedule:
-    - cron: '0 */3 * * *'   # every 3 hours
+    - cron: '0 4,14 * * *'   # Twice daily: 04:00 and 14:00 UTC (Morning & Evening drops)
   workflow_dispatch:         # manual trigger
   push:
     branches: [main]

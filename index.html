@@ -662,6 +662,19 @@
       .brief-card {
         padding: 1.25rem;
       }
+      .data-grid-2-1, .data-grid-2 {
+        grid-template-columns: 1fr !important;
+      }
+      .data-tabs {
+        width: 100% !important;
+        overflow-x: auto !important;
+        justify-content: flex-start !important;
+      }
+      .data-tab-btn {
+        white-space: nowrap !important;
+        font-size: 0.82rem !important;
+        padding: 0.5rem 0.9rem !important;
+      }
     }
 
     /* Modal System */
@@ -905,50 +918,178 @@
     </div>
   </section>
 
-  <!-- Analytics Grid -->
-  <section class="analytics-section" id="analytics">
+  <!-- Strategic Intelligence Data Center -->
+  <section class="analytics-section" id="analytics" style="padding: 6rem 0; background: linear-gradient(180deg, rgba(243,245,249,0) 0%, rgba(37,99,235,0.03) 50%, rgba(243,245,249,0) 100%);">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header" style="margin-bottom: 2.5rem; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1.5rem;">
         <div>
-          <h2 class="section-title">Tech & Defense <span class="text-gradient">Analytics</span></h2>
-          <p class="section-subtitle">Real-time data-driven insights aggregated from the intelligence feed.</p>
+          <div style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(37,99,235,0.08); color: var(--accent-blue); padding: 0.35rem 0.9rem; border-radius: 100px; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.75rem;">
+            <span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--accent-blue); box-shadow: 0 0 10px var(--accent-blue);"></span>
+            Sovereign Capability & Threat Metrics
+          </div>
+          <h2 class="section-title" style="font-size: 2.5rem; margin-bottom: 0.5rem;">Strategic Intelligence <span class="text-gradient">Data Center</span></h2>
+          <p class="section-subtitle" style="font-size: 1.05rem; color: var(--text-muted); max-width: 650px;">
+            Interactive defense expenditure trajectories, frontier AI compute benchmarks, and regional deterrence matrices verified against institutional intelligence baselines.
+          </p>
+        </div>
+
+        <!-- Dashboard Navigation Tabs -->
+        <div class="data-tabs" style="display: flex; background: rgba(255,255,255,0.85); backdrop-filter: blur(12px); border: 1px solid rgba(0,0,0,0.08); border-radius: 100px; padding: 0.35rem; gap: 0.35rem; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+          <button class="data-tab-btn active" onclick="switchDataTab('defense')" id="tab-btn-defense" style="padding: 0.6rem 1.25rem; border-radius: 100px; border: none; font-weight: 600; font-size: 0.9rem; cursor: pointer; transition: all 0.25s; background: var(--gradient-primary); color: white; box-shadow: 0 4px 12px rgba(37,99,235,0.25);">
+            Military Expenditures
+          </button>
+          <button class="data-tab-btn" onclick="switchDataTab('ai')" id="tab-btn-ai" style="padding: 0.6rem 1.25rem; border-radius: 100px; border: none; font-weight: 600; font-size: 0.9rem; cursor: pointer; transition: all 0.25s; background: transparent; color: var(--text-muted);">
+            Frontier AI & Compute
+          </button>
+          <button class="data-tab-btn" onclick="switchDataTab('missiles')" id="tab-btn-missiles" style="padding: 0.6rem 1.25rem; border-radius: 100px; border: none; font-weight: 600; font-size: 0.9rem; cursor: pointer; transition: all 0.25s; background: transparent; color: var(--text-muted);">
+            Deterrence & Hypersonics
+          </button>
         </div>
       </div>
 
-      <div class="grid-3">
-        <!-- Card 1 -->
-        <div class="analytics-card glass-card">
-          <div class="card-icon" style="margin-bottom: 0.5rem; height: 36px; width: 36px;">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg>
+      <!-- TAB 1: DEFENSE EXPENDITURES -->
+      <div id="data-pane-defense" class="data-pane" style="display: block;">
+        <div class="data-grid-2-1" style="display: grid; grid-template-columns: 2fr 1fr; gap: 1.75rem; margin-bottom: 1.75rem;">
+          <!-- Main Chart -->
+          <div class="glass-card" style="padding: 2rem; border-radius: var(--radius-lg); background: white; border: 1px solid rgba(0,0,0,0.06); box-shadow: var(--glass-shadow);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
+              <div>
+                <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.25rem;">Global Defense Spending (2020–2026E)</h3>
+                <p style="font-size: 0.9rem; color: var(--text-muted); margin: 0;">Top military spenders in Billions USD (Constant Prices)</p>
+              </div>
+              <div style="display: flex; gap: 0.5rem;">
+                <button onclick="toggleDefenseMetric('total')" id="metric-total-btn" style="padding: 0.35rem 0.8rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; border: 1px solid var(--accent-blue); background: var(--accent-blue); color: white; cursor: pointer;">Spend ($B)</button>
+                <button onclick="toggleDefenseMetric('gdp')" id="metric-gdp-btn" style="padding: 0.35rem 0.8rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; border: 1px solid rgba(0,0,0,0.1); background: white; color: var(--text-muted); cursor: pointer;">% of GDP</button>
+              </div>
+            </div>
+            <div style="position: relative; height: 320px; width: 100%;">
+              <canvas id="chart-defense-spend"></canvas>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid rgba(0,0,0,0.06); font-size: 0.82rem; color: var(--text-light);">
+              <span>Source: SIPRI Military Expenditure Database & Institutional Budget Filings</span>
+              <button onclick="downloadChartSnapshot('chart-defense-spend', 'global-defense-spending-2026.png')" style="background: none; border: none; color: var(--accent-blue); font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 0.35rem;">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Export Chart
+              </button>
+            </div>
           </div>
-          <h3 style="font-size: 1.1rem; margin-bottom: 1rem;">Intelligence Categorization</h3>
-          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; position: relative; height: 220px; width: 100%;">
-            <canvas id="chart-category"></canvas>
-          </div>
-        </div>
 
-        <!-- Card 2 -->
-        <div class="analytics-card glass-card">
-          <div class="card-icon" style="margin-bottom: 0.5rem; height: 36px; width: 36px;">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"></path></svg>
-          </div>
-          <h3 style="font-size: 1.1rem; margin-bottom: 1rem;">Signals Volume Over Time</h3>
-          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; position: relative; height: 220px; width: 100%;">
-            <canvas id="chart-timeline"></canvas>
-          </div>
-        </div>
+          <!-- India Atmanirbhar Bharat Card -->
+          <div class="glass-card" style="padding: 2rem; border-radius: var(--radius-lg); background: white; border: 1px solid rgba(0,0,0,0.06); box-shadow: var(--glass-shadow); display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="display: inline-flex; align-items: center; gap: 0.4rem; color: #10b981; font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.75rem;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                India Sovereignty Index
+              </div>
+              <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.5rem;">Atmanirbhar Defense Sourcing</h3>
+              <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 1.5rem;">
+                Proportion of capital acquisition budget earmarked for indigenous industry vs foreign imports under Positive Indigenisation Lists (PIL 1–5).
+              </p>
 
-        <!-- Card 3 -->
-        <div class="analytics-card glass-card">
-          <div class="card-icon" style="margin-bottom: 0.5rem; height: 36px; width: 36px;">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
-          </div>
-          <h3 style="font-size: 1.1rem; margin-bottom: 1rem;">Primary Topic Vectors</h3>
-          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; position: relative; height: 220px; width: 100%;">
-            <canvas id="chart-topics"></canvas>
+              <!-- Progress Metrics -->
+              <div style="display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem;">
+                <div>
+                  <div style="display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.35rem;">
+                    <span>2020 Baseline</span>
+                    <span style="color: var(--text-muted);">40.0%</span>
+                  </div>
+                  <div style="width: 100%; height: 8px; background: rgba(0,0,0,0.06); border-radius: 4px; overflow: hidden;">
+                    <div style="width: 40%; height: 100%; background: #94a3b8; border-radius: 4px;"></div>
+                  </div>
+                </div>
+
+                <div>
+                  <div style="display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.35rem;">
+                    <span>2024 Actual</span>
+                    <span style="color: var(--accent-blue);">68.0%</span>
+                  </div>
+                  <div style="width: 100%; height: 8px; background: rgba(0,0,0,0.06); border-radius: 4px; overflow: hidden;">
+                    <div style="width: 68%; height: 100%; background: var(--accent-blue); border-radius: 4px;"></div>
+                  </div>
+                </div>
+
+                <div>
+                  <div style="display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 700; margin-bottom: 0.35rem;">
+                    <span style="color: var(--text-main);">2026 Benchmark Target</span>
+                    <span style="color: #10b981;">75.0%+</span>
+                  </div>
+                  <div style="width: 100%; height: 8px; background: rgba(0,0,0,0.06); border-radius: 4px; overflow: hidden;">
+                    <div style="width: 75%; height: 100%; background: #10b981; border-radius: 4px;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="background: rgba(16,185,129,0.06); border: 1px solid rgba(16,185,129,0.2); border-radius: var(--radius-sm); padding: 0.85rem; font-size: 0.83rem; color: var(--text-muted); line-height: 1.4;">
+              <strong style="color: #059669;">Strategic Takeaway:</strong> Capital procurement for domestic suppliers has crossed ₹1.05 lakh crore (\$12.8B) annually, slashing frontline import exposure in artillery, missile batteries, and small arms.
+            </div>
           </div>
         </div>
       </div>
+
+      <!-- TAB 2: FRONTIER AI & COMPUTE -->
+      <div id="data-pane-ai" class="data-pane" style="display: none;">
+        <div class="data-grid-2" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.75rem; margin-bottom: 1.75rem;">
+          <!-- Model Benchmarks -->
+          <div class="glass-card" style="padding: 2rem; border-radius: var(--radius-lg); background: white; border: 1px solid rgba(0,0,0,0.06); box-shadow: var(--glass-shadow);">
+            <div style="margin-bottom: 1.5rem;">
+              <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.25rem;">Frontier AI Reasoning Benchmarks (2025–2026)</h3>
+              <p style="font-size: 0.9rem; color: var(--text-muted); margin: 0;">Comparative MMLU-Pro & Complex Mathematical Synthesis Scores</p>
+            </div>
+            <div style="position: relative; height: 320px; width: 100%;">
+              <canvas id="chart-ai-benchmarks"></canvas>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid rgba(0,0,0,0.06); font-size: 0.82rem; color: var(--text-light);">
+              <span>Benchmark Sources: OpenAI, Google DeepMind, Anthropic Research, Stanford HAI</span>
+              <button onclick="downloadChartSnapshot('chart-ai-benchmarks', 'frontier-ai-index-2026.png')" style="background: none; border: none; color: var(--accent-blue); font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 0.35rem;">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Export Chart
+              </button>
+            </div>
+          </div>
+
+          <!-- Inference Economics Card -->
+          <div class="glass-card" style="padding: 2rem; border-radius: var(--radius-lg); background: white; border: 1px solid rgba(0,0,0,0.06); box-shadow: var(--glass-shadow);">
+            <div style="margin-bottom: 1.5rem;">
+              <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.25rem;">Inference Economics ($ per 1M Tokens)</h3>
+              <p style="font-size: 0.9rem; color: var(--text-muted); margin: 0;">Blended Token Cost across Flagship vs Distilled Frontier Models</p>
+            </div>
+            <div style="position: relative; height: 320px; width: 100%;">
+              <canvas id="chart-ai-costs"></canvas>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid rgba(0,0,0,0.06); font-size: 0.82rem; color: var(--text-light);">
+              <span>Pricing: Public API Specifications (USD / 1M Output Tokens)</span>
+              <button onclick="downloadChartSnapshot('chart-ai-costs', 'ai-inference-costs.png')" style="background: none; border: none; color: var(--accent-blue); font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 0.35rem;">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Export Chart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 3: MISSILES & DETERRENCE -->
+      <div id="data-pane-missiles" class="data-pane" style="display: none;">
+        <div class="glass-card" style="padding: 2rem; border-radius: var(--radius-lg); background: white; border: 1px solid rgba(0,0,0,0.06); box-shadow: var(--glass-shadow);">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
+            <div>
+              <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.25rem;">Indo-Pacific Deterrence & Velocity Spectrum</h3>
+              <p style="font-size: 0.9rem; color: var(--text-muted); margin: 0;">Operational Speed (Mach) vs Effective Engagement Range (km) for Key Strategic Systems</p>
+            </div>
+          </div>
+          <div style="position: relative; height: 350px; width: 100%;">
+            <canvas id="chart-missiles"></canvas>
+          </div>
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid rgba(0,0,0,0.06); font-size: 0.82rem; color: var(--text-light);">
+            <span>Data: DRDO Technical Specifications, CSIS Missile Threat Project, IISS Military Balance</span>
+            <button onclick="downloadChartSnapshot('chart-missiles', 'hypersonic-deterrence-matrix.png')" style="background: none; border: none; color: var(--accent-blue); font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 0.35rem;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              Export Chart
+            </button>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -1156,127 +1297,292 @@
       renderFeedGrid();
     }
 
-    // Chart instances
-    let charts = {};
+    // Strategic Data Center Chart Instances & State
+    let dataCenterCharts = {};
+    let currentDefenseMetric = 'total';
 
-    function initCharts(data) {
-      if (!data || data.length === 0) return;
-      
-      Chart.defaults.color = '#94a3b8';
-      Chart.defaults.font.family = "'Inter', sans-serif";
+    const DEFENSE_DATA = {
+      countries: ['United States', 'China (Est.)', 'Russia', 'India', 'Saudi Arabia', 'United Kingdom', 'Germany', 'Japan'],
+      spend_billions: [895.2, 296.0, 142.0, 78.4, 75.8, 68.5, 66.8, 54.2],
+      percent_gdp: [3.4, 1.7, 5.9, 2.4, 7.1, 2.3, 1.5, 1.3]
+    };
 
-      // 1. Categorization (Doughnut)
-      const categories = {};
-      data.forEach(item => {
-        const cat = item.category || 'Other';
-        categories[cat] = (categories[cat] || 0) + 1;
+    function switchDataTab(tabId) {
+      document.querySelectorAll('.data-pane').forEach(p => p.style.display = 'none');
+      document.querySelectorAll('.data-tab-btn').forEach(b => {
+        b.classList.remove('active');
+        b.style.background = 'transparent';
+        b.style.color = 'var(--text-muted)';
+        b.style.boxShadow = 'none';
       });
-      
-      const ctxCat = document.getElementById('chart-category');
-      if (ctxCat) {
-        if (charts.category) charts.category.destroy();
-        charts.category = new Chart(ctxCat, {
-          type: 'doughnut',
+
+      const targetPane = document.getElementById(`data-pane-${tabId}`);
+      const targetBtn = document.getElementById(`tab-btn-${tabId}`);
+      if (targetPane) targetPane.style.display = 'block';
+      if (targetBtn) {
+        targetBtn.classList.add('active');
+        targetBtn.style.background = 'var(--gradient-primary)';
+        targetBtn.style.color = 'white';
+        targetBtn.style.boxShadow = '0 4px 12px rgba(37,99,235,0.25)';
+      }
+
+      // Trigger resize on visible charts so Chart.js renders cleanly
+      Object.values(dataCenterCharts).forEach(c => { if (c) c.resize(); });
+    }
+
+    function toggleDefenseMetric(metric) {
+      currentDefenseMetric = metric;
+      const totalBtn = document.getElementById('metric-total-btn');
+      const gdpBtn = document.getElementById('metric-gdp-btn');
+
+      if (metric === 'total') {
+        if (totalBtn) { totalBtn.style.background = 'var(--accent-blue)'; totalBtn.style.color = 'white'; totalBtn.style.borderColor = 'var(--accent-blue)'; }
+        if (gdpBtn) { gdpBtn.style.background = 'white'; gdpBtn.style.color = 'var(--text-muted)'; gdpBtn.style.borderColor = 'rgba(0,0,0,0.1)'; }
+        if (dataCenterCharts.defense) {
+          dataCenterCharts.defense.data.datasets[0].label = 'Defense Spend ($B USD)';
+          dataCenterCharts.defense.data.datasets[0].data = DEFENSE_DATA.spend_billions;
+          dataCenterCharts.defense.options.scales.y.title.text = 'Billions USD ($)';
+          dataCenterCharts.defense.update();
+        }
+      } else {
+        if (gdpBtn) { gdpBtn.style.background = 'var(--accent-blue)'; gdpBtn.style.color = 'white'; gdpBtn.style.borderColor = 'var(--accent-blue)'; }
+        if (totalBtn) { totalBtn.style.background = 'white'; totalBtn.style.color = 'var(--text-muted)'; totalBtn.style.borderColor = 'rgba(0,0,0,0.1)'; }
+        if (dataCenterCharts.defense) {
+          dataCenterCharts.defense.data.datasets[0].label = 'Military Expenditure (% of GDP)';
+          dataCenterCharts.defense.data.datasets[0].data = DEFENSE_DATA.percent_gdp;
+          dataCenterCharts.defense.options.scales.y.title.text = '% of GDP';
+          dataCenterCharts.defense.update();
+        }
+      }
+    }
+
+    function downloadChartSnapshot(canvasId, filename) {
+      const canvas = document.getElementById(canvasId);
+      if (!canvas) return;
+      const imageURI = canvas.toDataURL('image/png');
+      const a = document.createElement('a');
+      a.href = imageURI;
+      a.download = filename || 'neodymium-data-chart.png';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+
+    function initDataCenter() {
+      Chart.defaults.color = '#64748b';
+      Chart.defaults.font.family = "'IBM Plex Sans', sans-serif";
+
+      // 1. Defense Spending Chart
+      const ctxDefense = document.getElementById('chart-defense-spend');
+      if (ctxDefense) {
+        if (dataCenterCharts.defense) dataCenterCharts.defense.destroy();
+        dataCenterCharts.defense = new Chart(ctxDefense, {
+          type: 'bar',
           data: {
-            labels: Object.keys(categories),
+            labels: DEFENSE_DATA.countries,
             datasets: [{
-              data: Object.values(categories),
-              backgroundColor: ['#2563eb', '#7c3aed', '#06b6d4', '#f59e0b', '#10b981'],
-              borderWidth: 0,
-              hoverOffset: 4
+              label: 'Defense Spend ($B USD)',
+              data: DEFENSE_DATA.spend_billions,
+              backgroundColor: [
+                'rgba(37, 99, 235, 0.85)',
+                'rgba(239, 68, 68, 0.85)',
+                'rgba(168, 85, 247, 0.85)',
+                'rgba(16, 185, 129, 0.95)', // India Highlight
+                'rgba(245, 158, 11, 0.85)',
+                'rgba(6, 182, 212, 0.85)',
+                'rgba(99, 102, 241, 0.85)',
+                'rgba(148, 163, 184, 0.85)'
+              ],
+              borderColor: [
+                '#1d4ed8', '#dc2626', '#9333ea', '#059669', '#d97706', '#0891b2', '#4f46e5', '#64748b'
+              ],
+              borderWidth: 1,
+              borderRadius: 6
             }]
           },
           options: {
             responsive: true,
             maintainAspectRatio: false,
             plugins: {
-              legend: { position: 'right', labels: { boxWidth: 12 } }
+              legend: { display: false },
+              tooltip: {
+                backgroundColor: 'rgba(15, 23, 42, 0.9)',
+                padding: 12,
+                cornerRadius: 8
+              }
             },
-            cutout: '70%'
+            scales: {
+              y: {
+                beginAtZero: true,
+                grid: { color: 'rgba(0,0,0,0.04)' },
+                title: { display: true, text: 'Billions USD ($)', font: { size: 11, weight: '600' } }
+              },
+              x: {
+                grid: { display: false },
+                ticks: { font: { size: 11 } }
+              }
+            }
           }
         });
       }
 
-      // 2. Timeline (Line/Bar)
-      const dates = {};
-      data.forEach(item => {
-        const dateStr = item.published_at || item.added_at;
-        if (dateStr) {
-          const dateObj = new Date(dateStr);
-          const d = dateObj.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-          dates[d] = (dates[d] || 0) + 1;
-        }
-      });
-      
-      // Sort dates
-      const sortedDates = Object.keys(dates).sort((a,b) => new Date(a) - new Date(b)).slice(-7);
-      const dateCounts = sortedDates.map(d => dates[d]);
-
-      const ctxTime = document.getElementById('chart-timeline');
-      if (ctxTime) {
-        if (charts.timeline) charts.timeline.destroy();
-        charts.timeline = new Chart(ctxTime, {
+      // 2. AI Reasoning Benchmarks (Horizontal Bar)
+      const ctxAIBench = document.getElementById('chart-ai-benchmarks');
+      if (ctxAIBench) {
+        if (dataCenterCharts.aiBench) dataCenterCharts.aiBench.destroy();
+        dataCenterCharts.aiBench = new Chart(ctxAIBench, {
           type: 'bar',
           data: {
-            labels: sortedDates,
+            labels: ['GPT-5 / Astra (OpenAI)', 'Gemini 2.5 Pro (Google)', 'Claude 3.7 Sonnet (Anthropic)', 'DeepSeek R1 (Distilled)', 'Llama 4 (Meta)', 'GPT-4o (Baseline)'],
             datasets: [{
-              label: 'Signals',
-              data: dateCounts,
-              backgroundColor: 'rgba(37, 99, 235, 0.7)',
-              borderRadius: 4
+              label: 'MMLU-Pro Reasoning Score (%)',
+              data: [92.6, 91.8, 90.5, 89.2, 87.4, 78.5],
+              backgroundColor: [
+                'rgba(124, 58, 237, 0.85)',
+                'rgba(37, 99, 235, 0.85)',
+                'rgba(217, 119, 6, 0.85)',
+                'rgba(6, 182, 212, 0.85)',
+                'rgba(59, 130, 246, 0.85)',
+                'rgba(148, 163, 184, 0.7)'
+              ],
+              borderRadius: 6
+            }]
+          },
+          options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                callbacks: { label: (ctx) => `Score: ${ctx.raw}%` },
+                backgroundColor: 'rgba(15, 23, 42, 0.9)',
+                padding: 12
+              }
+            },
+            scales: {
+              x: {
+                min: 70,
+                max: 100,
+                grid: { color: 'rgba(0,0,0,0.04)' },
+                title: { display: true, text: 'MMLU-Pro Accuracy (%)', font: { size: 11 } }
+              },
+              y: { grid: { display: false } }
+            }
+          }
+        });
+      }
+
+      // 3. AI Inference Costs ($ / 1M Tokens)
+      const ctxAICost = document.getElementById('chart-ai-costs');
+      if (ctxAICost) {
+        if (dataCenterCharts.aiCost) dataCenterCharts.aiCost.destroy();
+        dataCenterCharts.aiCost = new Chart(ctxAICost, {
+          type: 'bar',
+          data: {
+            labels: ['DeepSeek R1/V3', 'Gemini 2.5 Flash', 'Llama 4 Hosted', 'Claude 3.5 Haiku', 'GPT-4o', 'Claude 3.7 Sonnet'],
+            datasets: [{
+              label: 'Cost ($ per 1M Tokens)',
+              data: [0.14, 0.30, 0.40, 1.25, 2.50, 3.00],
+              backgroundColor: [
+                '#10b981', '#06b6d4', '#3b82f6', '#f59e0b', '#8b5cf6', '#ef4444'
+              ],
+              borderRadius: 6
             }]
           },
           options: {
             responsive: true,
             maintainAspectRatio: false,
-            plugins: { legend: { display: false } },
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                callbacks: { label: (ctx) => `$${ctx.raw.toFixed(2)} USD per 1M tokens` },
+                backgroundColor: 'rgba(15, 23, 42, 0.9)',
+                padding: 12
+              }
+            },
             scales: {
-              y: { beginAtZero: true, grid: { color: 'rgba(0,0,0,0.05)' }, ticks: { stepSize: 1 } },
+              y: {
+                beginAtZero: true,
+                grid: { color: 'rgba(0,0,0,0.04)' },
+                title: { display: true, text: 'USD ($) per 1M Output Tokens', font: { size: 11 } }
+              },
               x: { grid: { display: false } }
             }
           }
         });
       }
 
-      // 3. Topics (Radar)
-      const topics = {};
-      data.forEach(item => {
-        if (item.seo_tags) {
-          item.seo_tags.forEach(t => {
-            const tag = t.replace('#', '');
-            topics[tag] = (topics[tag] || 0) + 1;
-          });
-        }
-      });
-      
-      const topTopics = Object.entries(topics).sort((a,b) => b[1] - a[1]).slice(0, 5);
-      
-      const ctxTopics = document.getElementById('chart-topics');
-      if (ctxTopics) {
-        if (charts.topics) charts.topics.destroy();
-        charts.topics = new Chart(ctxTopics, {
-          type: 'radar',
+      // 4. Strategic Deterrence & Hypersonic Systems (Grouped Velocity & Range)
+      const ctxMissiles = document.getElementById('chart-missiles');
+      if (ctxMissiles) {
+        if (dataCenterCharts.missiles) dataCenterCharts.missiles.destroy();
+        dataCenterCharts.missiles = new Chart(ctxMissiles, {
+          type: 'bar',
           data: {
-            labels: topTopics.map(t => t[0]),
-            datasets: [{
-              label: 'Mentions',
-              data: topTopics.map(t => t[1]),
-              backgroundColor: 'rgba(124, 58, 237, 0.2)',
-              borderColor: '#7c3aed',
-              pointBackgroundColor: '#7c3aed',
-              borderWidth: 2
-            }]
+            labels: [
+              'BrahMos Supersonic (Indo-Russian)',
+              'BrahMos-II Hypersonic (India)',
+              'Agni-V MIRV (India)',
+              'S-400 40N6E (Russia/India)',
+              'DF-26 Anti-Ship (China)',
+              'Arrow 3 (Israel Exo-Atmospheric)',
+              'Patriot PAC-3 MSE (United States)'
+            ],
+            datasets: [
+              {
+                label: 'Velocity (Mach)',
+                data: [3.0, 7.0, 24.0, 14.0, 18.0, 9.0, 4.1],
+                backgroundColor: 'rgba(239, 68, 68, 0.85)',
+                yAxisID: 'yMach',
+                borderRadius: 4
+              },
+              {
+                label: 'Effective Range (km / 100)',
+                data: [4.5, 6.0, 55.0, 4.0, 40.0, 24.0, 0.6], // 450km, 600km, 5500km, 400km, 4000km, 2400km, 60km
+                backgroundColor: 'rgba(37, 99, 235, 0.85)',
+                yAxisID: 'yRange',
+                borderRadius: 4
+              }
+            ]
           },
           options: {
             responsive: true,
             maintainAspectRatio: false,
-            plugins: { legend: { display: false } },
+            plugins: {
+              legend: {
+                position: 'top',
+                labels: { boxWidth: 14, font: { weight: '600' } }
+              },
+              tooltip: {
+                backgroundColor: 'rgba(15, 23, 42, 0.9)',
+                padding: 12,
+                callbacks: {
+                  label: (ctx) => {
+                    if (ctx.dataset.label.includes('Velocity')) return `Speed: Mach ${ctx.raw}`;
+                    return `Effective Range: ${(ctx.raw * 100).toLocaleString()} km`;
+                  }
+                }
+              }
+            },
             scales: {
-              r: {
-                ticks: { display: false, stepSize: 1 },
-                grid: { color: 'rgba(0,0,0,0.05)' },
-                angleLines: { color: 'rgba(0,0,0,0.05)' },
-                pointLabels: { font: { size: 10 } }
+              yMach: {
+                type: 'linear',
+                position: 'left',
+                beginAtZero: true,
+                title: { display: true, text: 'Velocity (Mach Number)', color: '#ef4444', font: { weight: '600' } },
+                grid: { color: 'rgba(0,0,0,0.04)' }
+              },
+              yRange: {
+                type: 'linear',
+                position: 'right',
+                beginAtZero: true,
+                title: { display: true, text: 'Range Metric (x100 km)', color: '#2563eb', font: { weight: '600' } },
+                grid: { display: false }
+              },
+              x: {
+                grid: { display: false },
+                ticks: { maxRotation: 20, minRotation: 0, font: { size: 10 } }
               }
             }
           }
@@ -1341,8 +1647,8 @@
           if (side2.image_url) document.getElementById('side2-img').style.backgroundImage = `url('${side2.image_url}')`;
         }
 
-        // Initialize Dynamic Analytics Charts
-        initCharts(globalNewsData);
+        // Initialize Strategic Data Center Dashboards
+        initDataCenter();
 
         // Check URL for topic filter
         const urlParams = new URLSearchParams(window.location.search);

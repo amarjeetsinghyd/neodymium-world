@@ -14,6 +14,7 @@ import logging
 from datetime import datetime, timezone
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
+import media_resolver
 
 # ---------------------------------------------------------------------------
 # Logging — stdout so GitHub Actions captures it; no file written
@@ -25,38 +26,67 @@ logging.basicConfig(
 )
 
 # ---------------------------------------------------------------------------
-# Config
+# Config & Models
+# Primary: gemini-2.5-pro for think-tank grade writing & complex strategic reasoning
+# Fallback: gemini-2.5-flash for resilience & rate limits
 # ---------------------------------------------------------------------------
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 SARVAM_API_KEY = os.environ.get("SARVAM_API_KEY")
+GEMINI_PRIMARY_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-pro")
+GEMINI_FALLBACK_MODEL = "gemini-2.5-flash"
 
 ARTICLES_DIR = 'content/articles'
 SEEN_URLS_FILE = 'content/seen_urls.json'
-MAX_ARTICLES_PER_RUN = 5
-MAX_CHARS = 6000
-RATE_LIMIT_SLEEP = 8
-
-if GEMINI_API_KEY:
-    GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
-else:
-    GEMINI_URL = None
+MAX_ARTICLES_PER_RUN = 2  # High-impact curated stories (1-2 per run)
+MAX_CHARS = 8000
+RATE_LIMIT_SLEEP = 10
 
 SARVAM_URL = "https://api.sarvam.ai/v1/chat/completions"
 
+# Curated high-signal feeds: Frontier AI, Research Newsrooms, Defense, Space & Geopolitics
 RSS_FEEDS = [
-    {"region": "Western", "url": "https://breakingdefense.com/feed/"},
-    {"region": "Western", "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
-    {"region": "Western", "url": "https://www.wired.com/feed/category/tech/latest/rss"},
-    {"region": "Western", "url": "https://venturebeat.com/category/ai/feed/"},
+    # Frontier AI & Research Newsrooms (Captures GPT/Astra, Gemini, Claude launches)
+    {"region": "Western", "url": "https://openai.com/news/rss.xml"},
+    {"region": "Western", "url": "https://deepmind.google/blog/rss.xml"},
+    {"region": "Western", "url": "https://feeds.arstechnica.com/arstechnica/technology-lab"},
+    {"region": "Western", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"},
     {"region": "Western", "url": "https://www.technologyreview.com/feed/"},
+    {"region": "Western", "url": "https://venturebeat.com/category/ai/feed/"},
+
+    # Premier Global Defense, Aerospace & Space Doctrine
+    {"region": "Western", "url": "https://www.defenseone.com/rss/all/"},
+    {"region": "Western", "url": "https://breakingdefense.com/feed/"},
+    {"region": "Western", "url": "https://defensescoop.com/feed/"},
+    {"region": "Western", "url": "https://www.c4isrnet.com/arc/outboundfeeds/rss/"},
+    {"region": "Western", "url": "https://spacenews.com/feed/"},
+
+    # Indian Defense, Aerospace, Border Security & Strategic Tech
     {"region": "Indian", "url": "http://www.indiandefensenews.in/feeds/posts/default?alt=rss"},
+    {"region": "Indian", "url": "https://idrw.org/feed/"},
+    {"region": "Indian", "url": "https://theprint.in/category/defence/feed/"},
     {"region": "Indian", "url": "https://www.thehindu.com/sci-tech/technology/feeder/default.rss"},
-    {"region": "Indian", "url": "https://yourstory.com/feed/"},
-    {"region": "Indian", "url": "https://inc42.com/feed/"},
-    {"region": "Indian", "url": "https://feeds.feedburner.com/ndtv-gadgets-360"},
-    {"region": "Indian", "url": "https://www.firstpost.com/feed/rss/tech"},
-    {"region": "Indian", "url": "https://indianexpress.com/section/india/feed/"},
 ]
+
+# Anti-Spam & Irrelevant Topic Filter
+IRRELEVANT_KEYWORDS = [
+    'deal', 'deals', 'discount', 'discounts', 'sale', 'flipkart', 'amazon deal',
+    'coupon', 'coupons', 'cashback', 'earbuds', 'earphones', 'headphone',
+    'headphones', 'smartwatch', 'case cover', 'power bank', 'powerbank',
+    'unboxing', 'first look', 'smartphones under', 'phones under',
+    'fashion', 'clothing', 'beauty', 'skincare', 'makeup', 'dating app',
+    'food delivery', 'zomato', 'swiggy', 'blinkit', 'zepto', 'quick commerce',
+    'movie review', 'box office', 'trailer release', 'cricket', 'ipl',
+    'horoscope', 'recipe', 'bollywood', 'hollywood', 'celebrity'
+]
+
+def is_relevant_topic(title: str, summary: str = '') -> bool:
+    """Pre-screen RSS entries to prevent converting consumer gadgets or
+    sales into absurd 'defense/geopolitics' reports."""
+    text = f"{title} {summary}".lower()
+    for kw in IRRELEVANT_KEYWORDS:
+        if re.search(r'\b' + re.escape(kw) + r'\b', text):
+            return False
+    return True
 
 # ---------------------------------------------------------------------------
 # Seen-URL deduplication — loaded once at startup, O(1) lookup
@@ -160,66 +190,111 @@ def sanitize_filename(name: str) -> str:
     return re.sub(r'[^a-z0-9._-]', '-', name.lower()).strip('-')
 
 # ---------------------------------------------------------------------------
-# Gemini rewrite
+# Gemini API caller with primary (gemini-2.5-pro) and fallback (gemini-2.5-flash)
+# ---------------------------------------------------------------------------
+def call_gemini_api(prompt: str) -> str | None:
+    if not GEMINI_API_KEY:
+        logging.error("GEMINI_API_KEY is not set.")
+        return None
+
+    models_to_try = [GEMINI_PRIMARY_MODEL]
+    if GEMINI_FALLBACK_MODEL not in models_to_try:
+        models_to_try.append(GEMINI_FALLBACK_MODEL)
+
+    for model_name in models_to_try:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
+        payload = {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {
+                "temperature": 0.6,
+                "maxOutputTokens": 8192,
+                "responseMimeType": "application/json"
+            }
+        }
+        try:
+            logging.info(f"Generating briefing via {model_name}...")
+            resp = requests.post(url, json=payload, timeout=60)
+            if resp.status_code == 429:
+                logging.warning(f"Rate limited (429) on {model_name}. Attempting fallback...")
+                time.sleep(4)
+                continue
+            resp.raise_for_status()
+            data = resp.json()
+            candidates = data.get('candidates', [])
+            if not candidates or candidates[0].get('finishReason') not in ('STOP', None, ''):
+                logging.warning(f"{model_name} response incomplete or filtered (finishReason: {candidates[0].get('finishReason') if candidates else 'empty'}).")
+                continue
+            return candidates[0]['content']['parts'][0]['text']
+        except Exception as e:
+            logging.warning(f"Error calling {model_name}: {e}")
+            continue
+
+    logging.error("All Gemini model attempts failed.")
+    return None
+
+# ---------------------------------------------------------------------------
+# Strategic Intelligence Skill & Content Rewriter
 # ---------------------------------------------------------------------------
 def rewrite_content(title: str, text: str, region: str) -> dict | None:
     if region == "Indian":
-        identity = "Amarjeet Singh, Senior Analyst & Publisher at Neodymium World, specializing in Indian defense posture, Atmanirbhar Bharat, and South Asian geopolitics"
+        identity = "Amarjeet Singh, Senior Strategic Analyst & Publisher at Neodymium World, specializing in Indian defense posture, Atmanirbhar Bharat, border deterrence, and South Asian geopolitics"
     else:
-        identity = "Alexander Sterling, Global Defense & Tech Strategist, specializing in Western defense, NATO, and Silicon Valley tech shifts"
+        identity = "Alexander Sterling, Global Defense & Emerging Tech Strategist, specializing in Western defense modernization, NATO deterrence, aerospace, and critical supply chain hegemony"
 
-    prompt = f"""You are {identity}. You are writing an original, highly opinionated, and deeply analytical intelligence briefing based on the provided source material.
+    prompt = f"""You are {identity}. You are writing an in-depth, highly authoritative, and deeply engaging strategic intelligence feature (800 to 1,200 words) based on the provided source material.
 
-CRITICAL INSTRUCTION: Do NOT just rewrite or summarize the article. Google AdSense rejects simple rewrites as "Low value content." Instead, use the article only as a baseline to provide strategic forecasting, geopolitical implications, and market analysis.
-ZERO-FILLER RULE: Eliminate all fluff, filler words (e.g., "In today's fast-paced world", "It is important to note"), and repetition. Every single sentence must introduce new analytical value. Use active voice and short paragraphs (max 3 sentences).
+JOURNALISTIC & STRATEGIC STANDARDS:
+1. NATURAL JOURNALISTIC VOICE: Write like a seasoned national security correspondent (Foreign Policy, Reuters Special Reports, Janes, The Economist). Never sound like an AI assistant, corporate marketer, or a textbook.
+2. COMPELLING OPENING (LEDE & NUT GRAPH):
+   - Open with the decisive event, actors, and immediate development (the news peg).
+   - Follow immediately with the "nut graph" establishing the high-stakes strategic, technological, or geopolitical implications.
+3. ORGANIC, STORY-DRIVEN SUBHEADINGS: Do NOT use rigid, generic headers like "Strategic Context & Operational Baseline". Instead, use creative, descriptive, journalistic subheaders tailored specifically to this story (e.g., "The Hypersonic Standoff Dilemma", "Engineering Standoff Superiority", "Vulnerabilities Across the Chokepoints", "Deterrence Vectors on the Northern Border").
+4. EDITORIAL PULL QUOTE: Include exactly ONE significant pull quote or strategic verdict inside `<blockquote class="editorial-pullquote">"..."</blockquote>` highlighting the pivotal insight of the analysis.
+5. DEEP TECHNICAL & GEOPOLITICAL GROUNDING: Cite concrete numbers, platform ranges, payload capacities, contract values, doctrine shifts, and supply chain dependencies where applicable.
+6. ZERO ROBOTIC FLUFF: Strictly eliminate phrases like "delve into", "tapestry", "in today's rapidly changing world", "a testament to", "it remains to be seen". Do NOT use repetitive first-person openers ("I observe that", "I argue that"). Speak with seasoned institutional judgment.
+7. HTML ARTICLE BODY: The "Article Body" MUST be valid semantic HTML using <h2>, <p>, <blockquote class="editorial-pullquote">, <ul>, <li>, and <strong>. Ensure 4 to 6 substantial narrative sections with 3-5 rich sentences per paragraph.
 
-IMPORTANT: Return ONLY valid JSON, no markdown fences.
+IMPORTANT: Return ONLY a valid JSON object without markdown fences.
 
 Required JSON fields:
-- "Title": original, highly analytical headline under 80 chars
-- "seo_title": under 60 chars, keyword-front-loaded
-- "meta_description": under 155 chars, for search snippets
-- "social_hook": under 280 chars, strong hook for Discord/Twitter
-- "Category": one of [Intelligence, AI & Autonomy, Policy Watch, Space & Satellites, Cyber & EW, Defense Tech]
-- "SEO Tags": comma-separated keywords string
-- "Executive Summary": 3-sentence brief, authoritative tone, zero filler
-- "Key Takeaways": list of exactly 4 concise strings
-- "Article Body": full HTML body using <h2><p><ul><strong> tags. MUST INCLUDE specific <h2> sections titled "Expert Commentary" and "Strategic Forecasting". Write confidently from the first-person ("I project..."). Max 3 sentences per paragraph.
-- "FAQ": list of 3 objects each with "question" and "answer" strings focusing on strategic significance
-- "Reading Time": integer minutes
+- "Title": High-impact, natural journalistic headline under 85 chars
+- "seo_title": Keyword-front-loaded headline under 60 chars
+- "meta_description": Compelling search snippet under 155 chars
+- "social_hook": Engaging hook for social feeds / Discord under 280 chars
+- "Category": One of [Intelligence, AI & Autonomy, Policy Watch, Space & Satellites, Cyber & EW, Defense Tech]
+- "SEO Tags": List of 4 to 6 high-relevance topic strings (e.g. ["Hypersonic Weapons", "DRDO", "LAC Deterrence", "Atmanirbhar Bharat"])
+- "Executive Summary": Authoritative 3-sentence executive brief
+- "Key Takeaways": List of exactly 4 concise strategic takeaway strings
+- "Article Body": Full, comprehensive HTML body (800-1,200 words)
+- "Reading Time": Integer minutes (typically 6 to 8)
 
 ARTICLE TITLE: {title}
 ARTICLE TEXT: {text[:MAX_CHARS]}"""
 
     try:
+        raw = None
         if region == "Indian" and SARVAM_API_KEY:
             headers = {"Content-Type": "application/json", "api-subscription-key": SARVAM_API_KEY}
             payload = {
-                "model": "sarvam-105b", # Using a safe model string for Sarvam
+                "model": "sarvam-105b",
                 "messages": [
-                    {"role": "system", "content": "You are a JSON-generating expert analyst. ONLY output valid JSON. No markdown formatting."},
+                    {"role": "system", "content": "You are a JSON-generating expert defense analyst. ONLY output valid JSON. No markdown formatting."},
                     {"role": "user", "content": prompt}
                 ]
             }
-            resp = requests.post(SARVAM_URL, json=payload, headers=headers, timeout=30)
-            resp.raise_for_status()
-            raw = resp.json()['choices'][0]['message']['content']
-        else:
-            if not GEMINI_URL:
-                logging.error("GEMINI_URL is not set.")
-                return None
-            payload = {
-                "contents": [{"parts": [{"text": prompt}]}],
-                "generationConfig": {"temperature": 0.4, "maxOutputTokens": 2048, "responseMimeType": "application/json"}
-            }
-            resp = requests.post(GEMINI_URL, json=payload, timeout=30)
-            resp.raise_for_status()
-            data = resp.json()
-            candidates = data.get('candidates', [])
-            if not candidates or candidates[0].get('finishReason') not in ('STOP', None, ''):
-                logging.warning(f"Gemini blocked or empty for: {title}")
-                return None
-            raw = candidates[0]['content']['parts'][0]['text']
+            try:
+                resp = requests.post(SARVAM_URL, json=payload, headers=headers, timeout=45)
+                if resp.status_code == 200:
+                    raw = resp.json()['choices'][0]['message']['content']
+            except Exception as se:
+                logging.warning(f"Sarvam call failed: {se}. Falling back to Gemini.")
+
+        # If Sarvam was not used or failed, call Gemini Pro/Flash
+        if not raw:
+            raw = call_gemini_api(prompt)
+
+        if not raw:
+            return None
 
         # Strip accidental markdown fences
         raw = re.sub(r'^```json\s*|^```\s*|```$', '', raw.strip(), flags=re.MULTILINE)
@@ -230,16 +305,6 @@ ARTICLE TEXT: {text[:MAX_CHARS]}"""
     except Exception as e:
         logging.error(f"API error for '{title}': {e}")
         return None
-        raw = candidates[0]['content']['parts'][0]['text']
-        # Strip accidental markdown fences
-        raw = re.sub(r'^```json\s*|^```\s*|```$', '', raw.strip(), flags=re.MULTILINE)
-        return json.loads(raw)
-    except json.JSONDecodeError as e:
-        logging.error(f"Gemini JSON parse error for '{title}': {e}")
-        return None
-    except Exception as e:
-        logging.error(f"Gemini API error for '{title}': {e}")
-        return None
 
 # ---------------------------------------------------------------------------
 # Write article markdown
@@ -248,6 +313,25 @@ def write_article(slug: str, link: str, image_url: str,
                   published: str, full_report: dict):
     os.makedirs(ARTICLES_DIR, exist_ok=True)
     filepath = os.path.join(ARTICLES_DIR, f"{slug}.md")
+
+    # Normalize SEO Tags into a clean list of strings
+    raw_tags = full_report.get('SEO Tags', [])
+    if isinstance(raw_tags, str):
+        clean_tags = [t.strip().lstrip('#') for t in raw_tags.split(',') if t.strip()]
+    elif isinstance(raw_tags, list):
+        clean_tags = [str(t).strip().lstrip('#') for t in raw_tags if str(t).strip()]
+    else:
+        clean_tags = []
+
+    # Fallback to authentic defense/tech stock photography if RSS feed provided no image
+    if not image_url or not image_url.startswith('http'):
+        resolved = media_resolver.resolve_secondary_image(
+            full_report.get('Title', ''),
+            clean_tags,
+            full_report.get('Category', 'Intelligence')
+        )
+        image_url = resolved['url']
+
     frontmatter = {
         'title':            full_report.get('Title', ''),
         'seo_title':        full_report.get('seo_title', '')[:60],
@@ -255,18 +339,21 @@ def write_article(slug: str, link: str, image_url: str,
         'social_hook':      full_report.get('social_hook', '')[:280],
         'slug':             slug,
         'category':         full_report.get('Category', 'Intelligence'),
-        'seo_tags':         full_report.get('SEO Tags', ''),
+        'seo_tags':         clean_tags,
         'image_url':        image_url,
         'source_url':       link,
         'published_at':     published,
-        'reading_time':     full_report.get('Reading Time', 3),
+        'reading_time':     full_report.get('Reading Time', 6),
         'executive_summary': full_report.get('Executive Summary', ''),
         'key_takeaways':    full_report.get('Key Takeaways', []),
-        'faq':              full_report.get('FAQ', []),
         'article_url':      f'articles/{slug}.html',
         'draft':            False,
         'posted_to_discord': False,
     }
+    # Include FAQ only if explicitly present and non-empty
+    if full_report.get('FAQ'):
+        frontmatter['faq'] = full_report.get('FAQ')
+
     body = full_report.get('Article Body', '')
     content = f"---\n{yaml.dump(frontmatter, sort_keys=False, allow_unicode=True)}---\n\n{body}\n"
     with open(filepath, 'w', encoding='utf-8') as f:
@@ -277,7 +364,7 @@ def write_article(slug: str, link: str, image_url: str,
 # Main
 # ---------------------------------------------------------------------------
 def main():
-    seen_urls = load_seen_urls()  # O(1) set lookup — replaces per-file scan
+    seen_urls = load_seen_urls()  # O(1) set lookup
     processed = 0
     new_slugs = []
 
@@ -305,18 +392,25 @@ def main():
                 continue
 
             summary = getattr(entry, 'summary', '')
+
+            # Anti-Spam Topic Filter: Skip consumer gadgets, discounts, shopping deals
+            if not is_relevant_topic(title, summary):
+                logging.info(f"Skipping consumer/irrelevant topic: {title[:60]}")
+                seen_urls.add(link)
+                continue
+
             published = getattr(entry, 'published', datetime.now(timezone.utc).isoformat())
             image_url = get_image_url(entry)
 
-            # Rate-limit pause before Gemini call (skip on first article)
+            # Rate-limit pause before API call
             if processed > 0:
                 time.sleep(RATE_LIMIT_SLEEP)
 
-            # Fetch article text — lightweight, no trafilatura
+            # Fetch article text — lightweight
             text = fetch_article_text(link, summary)
             if not text:
                 logging.warning(f"No text extracted, skipping: {link}")
-                seen_urls.add(link)  # Mark as seen so we don't retry
+                seen_urls.add(link)
                 continue
 
             full_report = rewrite_content(title, text, region)
