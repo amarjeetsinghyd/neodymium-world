@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/the-unseen-battlefield-how-ai-weather-intelligence-reshapes-western-strategic-ad-526288.html</loc>
+        <lastmod>Thu, 03 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://lh3.googleusercontent.com/I3SASQw4etgOOVbcWS0lr7J14HFqWcee_ln6M0TBOWlvVg2XYCi3kpz4eAi81cAkyq47YvgU1FLzAlaiCNMLcsx9sFA3ufURiSg76Yz8hVm1-u_fYEY=w528-h297-n-nu-rw-lo</image:loc>
+            <image:title>The Unseen Battlefield: How AI Weather Intelligence Reshapes Western Strategic Advantage</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 03 Sep 2026 15:02:08 +0000</news:publication_date>
+            <news:title>The Unseen Battlefield: How AI Weather Intelligence Reshapes Western Strategic Advantage</news:title>
+            
+            <news:keywords>AI Weather Forecasting, Strategic Intelligence, NATO Deterrence, Supply Chain Resilience, Defense Modernization, Energy Security</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/gemini-3-8-flash-western-defense-s-new-ai-vanguard-in-a-contested-digital-realm-526359.html</loc>
+        <lastmod>Wed, 02 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Gemini 3.8 Flash: Western Defense&#39;s New AI Vanguard in a Contested Digital Realm</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 02 Sep 2026 16:18:31 +0000</news:publication_date>
+            <news:title>Gemini 3.8 Flash: Western Defense&#39;s New AI Vanguard in a Contested Digital Realm</news:title>
+            
+            <news:keywords>AI Defense, Cybersecurity, NATO Modernization, Autonomous Systems, Strategic Intelligence, Western Tech Hegemony</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/xiaomi-s-mijia-air-purifiers-a-strategic-penetration-of-india-s-health-tech-mark-661743.html</loc>
         <lastmod>Tue, 25 Au</lastmod>
         <changefreq>never</changefreq>
