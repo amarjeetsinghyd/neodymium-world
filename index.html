@@ -825,7 +825,7 @@
       <ul class="nav-links">
         <li><a href="#briefs" onclick="filterArticlesByCategory('all')">Intelligence Briefs</a></li>
         <li><a href="#analytics">Data & Analytics</a></li>
-        <li><a href="javascript:void(0)" onclick="filterArticlesByCategory('Policy Watch')">Policy Watch</a></li>
+        <li><a href="javascript:void(0)" onclick="filterArticlesByCategory('Geopolitics')">Geopolitics</a></li>
         <li><a href="javascript:void(0)" onclick="filterArticlesByCategory('Global Index')">Global Index</a></li>
       </ul>
     </div>
@@ -1626,8 +1626,8 @@
         // Populate Side Briefs (Index 1 and 2)
         const featuredArticle = news[0];
         
-        // Filter for editorials (Policy Watch) excluding the featured article
-        const editorials = news.filter(a => a.category === "Policy Watch" && a.slug !== featuredArticle.slug);
+        // Filter for editorials (Geopolitics) excluding the featured article
+        const editorials = news.filter(a => a.category === "Geopolitics" && a.slug !== featuredArticle.slug);
         
         const side1 = editorials[0] || news[1];
         if (side1) {

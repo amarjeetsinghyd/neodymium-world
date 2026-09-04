@@ -368,6 +368,10 @@ def main():
     processed = 0
     new_slugs = []
 
+    # Shuffle feeds to ensure we get a random mix of Indian and Western news,
+    # since we are only pulling 1 article per run to save Zapier/dlvr.it quotas.
+    random.shuffle(RSS_FEEDS)
+
     for feed_info in RSS_FEEDS:
         feed_url = feed_info["url"]
         region = feed_info["region"]
