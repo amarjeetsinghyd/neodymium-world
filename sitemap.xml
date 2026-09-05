@@ -212,6 +212,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/japan-forges-new-air-defense-paradigm-with-3d-printed-interceptor-drones-626261.html</loc>
+        <lastmod>Thu, 27 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cloudfront-us-east-1.images.arcpublishing.com/archetype/NEW7TEUUBFFM3DSXIJMIKV3HNU.jpg</image:loc>
+            <image:title>Japan Forges New Air Defense Paradigm with 3D-Printed Interceptor Drones</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 27 Aug 2026 11:17:16 +0000</news:publication_date>
+            <news:title>Japan Forges New Air Defense Paradigm with 3D-Printed Interceptor Drones</news:title>
+            
+            <news:keywords>Japan Defense, 3D Printing, Interceptor Drones, Asymmetric Warfare, Indo-Pacific Security, Supply Chain Resilience</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/xiaomi-s-mijia-air-purifiers-a-strategic-penetration-of-india-s-health-tech-mark-661743.html</loc>
         <lastmod>Tue, 25 Au</lastmod>
         <changefreq>never</changefreq>
@@ -231,6 +255,30 @@
             <news:title>Xiaomi&#39;s Mijia Air Purifiers: A Strategic Penetration of India&#39;s Health-Tech Market</news:title>
             
             <news:keywords>Xiaomi, Mijia, India market, air purifier, consumer electronics, Atmanirbhar Bharat, Chinese tech, Blinkit, IoT, smart home</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/dutch-navy-embraces-drone-interceptors-to-reshape-naval-defense-626294.html</loc>
+        <lastmod>Tue, 25 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cloudfront-us-east-1.images.arcpublishing.com/archetype/3OGBHCGR2NGHBD4TNAASNFQ5VI.jpg</image:loc>
+            <image:title>Dutch Navy Embraces Drone Interceptors to Reshape Naval Defense</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 25 Aug 2026 08:50:44 +0000</news:publication_date>
+            <news:title>Dutch Navy Embraces Drone Interceptors to Reshape Naval Defense</news:title>
+            
+            <news:keywords>Naval Defense, C-UAS, Drone Warfare, Destinus Hornet B2, NATO Modernization, Asymmetric Threats</news:keywords>
             
         </news:news>
     </url>
