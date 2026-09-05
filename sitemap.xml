@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-09-04</lastmod>
+        <lastmod>2026-09-05</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-09-04</lastmod>
+        <lastmod>2026-09-05</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -116,6 +116,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/from-warehouse-to-warfighter-shield-ai-s-x-bat-revives-decades-old-jet-tech-595748.html</loc>
+        <lastmod>Fri, 04 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.defenseone.com/media/img/cd/2026/09/04/2026_GEAerospace_AVEN_2915/thumb.jpg</image:loc>
+            <image:title>From Warehouse to Warfighter: Shield AI&#39;s X-BAT Revives Decades-Old Jet Tech</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 04 Sep 2026 06:00:00 -0400</news:publication_date>
+            <news:title>From Warehouse to Warfighter: Shield AI&#39;s X-BAT Revives Decades-Old Jet Tech</news:title>
+            
+            <news:keywords>Autonomous Fighters, Thrust Vectoring, Western Defense Modernization, GE Aerospace, Shield AI, Collaborative Combat Aircraft</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/the-unseen-battlefield-how-ai-weather-intelligence-reshapes-western-strategic-ad-526288.html</loc>
         <lastmod>Thu, 03 Se</lastmod>
         <changefreq>never</changefreq>
@@ -135,6 +159,30 @@
             <news:title>The Unseen Battlefield: How AI Weather Intelligence Reshapes Western Strategic Advantage</news:title>
             
             <news:keywords>AI Weather Forecasting, Strategic Intelligence, NATO Deterrence, Supply Chain Resilience, Defense Modernization, Energy Security</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/re-arming-the-west-ge-s-industrial-overhaul-for-a-high-tempo-future-595807.html</loc>
+        <lastmod>Thu, 03 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.defenseone.com/media/img/cd/2026/09/03/DBB_lander/thumb.jpg</image:loc>
+            <image:title>Re-Arming the West: GE&#39;s Industrial Overhaul for a High-Tempo Future</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 03 Sep 2026 04:24:20 -0400</news:publication_date>
+            <news:title>Re-Arming the West: GE&#39;s Industrial Overhaul for a High-Tempo Future</news:title>
+            
+            <news:keywords>Defense Industrial Base, Supply Chain Resilience, GE Aerospace, Defense Modernization, Collaborative Combat Aircraft, Hypersonic Testing, Automation in Defense</news:keywords>
             
         </news:news>
     </url>
@@ -1533,7 +1581,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-09-04</lastmod>
+        <lastmod>2026-09-05</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
