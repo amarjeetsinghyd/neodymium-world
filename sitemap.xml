@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-09-05</lastmod>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-09-05</lastmod>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -207,6 +207,54 @@
             <news:title>Gemini 3.8 Flash: Western Defense&#39;s New AI Vanguard in a Contested Digital Realm</news:title>
             
             <news:keywords>AI Defense, Cybersecurity, NATO Modernization, Autonomous Systems, Strategic Intelligence, Western Tech Hegemony</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/the-unseen-battlefield-ai-video-s-strategic-implications-for-western-defense-683194.html</loc>
+        <lastmod>Thu, 27 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>The Unseen Battlefield: AI Video&#39;s Strategic Implications for Western Defense</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 27 Aug 2026 16:11:32 +0000</news:publication_date>
+            <news:title>The Unseen Battlefield: AI Video&#39;s Strategic Implications for Western Defense</news:title>
+            
+            <news:keywords>Generative AI, Cognitive Warfare, Military Training, Dual-Use Technology, AI Hegemony, NATO Deterrence</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/unseen-threats-uncompromised-trust-double-blind-ai-evaluation-secures-western-de-683229.html</loc>
+        <lastmod>Thu, 27 Au</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://lh3.googleusercontent.com/fHN8sOK3p7BTKR4s-3lpYYnq5IEadmVKnqssJO4OmfL6remdC7E8voV-IEue8NPviKWUR7WtCtNTfsKZpld6y2jjwVhNAiqYL9-9EQzj5OURGXCCuug=w528-h297-n-nu-rw-lo</image:loc>
+            <image:title>Unseen Threats, Uncompromised Trust: Double-Blind AI Evaluation Secures Western Defense</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 27 Aug 2026 12:59:16 +0000</news:publication_date>
+            <news:title>Unseen Threats, Uncompromised Trust: Double-Blind AI Evaluation Secures Western Defense</news:title>
+            
+            <news:keywords>AI Security, Defense AI, Benchmark Contamination, Confidential Computing, NATO AI, Strategic Autonomy</news:keywords>
             
         </news:news>
     </url>
@@ -1629,7 +1677,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-09-05</lastmod>
+        <lastmod>2026-09-06</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
