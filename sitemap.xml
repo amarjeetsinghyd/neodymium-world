@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-09-06</lastmod>
+        <lastmod>2026-09-07</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-09-06</lastmod>
+        <lastmod>2026-09-07</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -1532,6 +1532,54 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/india-s-ai-ascent-from-classrooms-to-geopolitical-leverage-771836.html</loc>
+        <lastmod>Mon, 13 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://lh3.googleusercontent.com/0BYvIo8ObViyRtRGOYajXHdEGUFX6cKMTQ6lxys98kN0sB6H7rrTo1pdW8M4kCUGnBnidJWbIr6VvcxGKDEDD4YxOVqYRlyxj_a48uqNw_AytF7c-A=w528-h297-n-nu-rw-lo</image:loc>
+            <image:title>India&#39;s AI Ascent: From Classrooms to Geopolitical Leverage</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 13 Jul 2026 12:37:28 +0000</news:publication_date>
+            <news:title>India&#39;s AI Ascent: From Classrooms to Geopolitical Leverage</news:title>
+            
+            <news:keywords>India Defense, AI Robotics, Atmanirbhar Bharat, Indo-Pacific Strategy, Critical Supply Chain, Emerging Technologies</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/beyond-the-screen-deepmind-s-a24-play-signals-ai-s-strategic-convergence-771873.html</loc>
+        <lastmod>Fri, 03 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Beyond the Screen: DeepMind&#39;s A24 Play Signals AI&#39;s Strategic Convergence</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 03 Jul 2026 14:25:43 +0000</news:publication_date>
+            <news:title>Beyond the Screen: DeepMind&#39;s A24 Play Signals AI&#39;s Strategic Convergence</news:title>
+            
+            <news:keywords>AI Dual-Use, Google DeepMind, A24, AI Hegemony, Defense Innovation, Strategic Intelligence</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/ai-accelerators-google-s-2026-play-india-playbook-for-strategic-tech-dominance-809957.html</loc>
         <lastmod>Mon, 03 Au</lastmod>
         <changefreq>never</changefreq>
@@ -1725,7 +1773,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-09-06</lastmod>
+        <lastmod>2026-09-07</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
