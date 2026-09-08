@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-09-07</lastmod>
+        <lastmod>2026-09-08</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-09-07</lastmod>
+        <lastmod>2026-09-08</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -1628,6 +1628,54 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/google-s-ai-leap-reshaping-western-defense-deterrence-856874.html</loc>
+        <lastmod>Tue, 30 Ju</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Google&#39;s AI Leap: Reshaping Western Defense &amp; Deterrence</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 30 Jun 2026 16:02:40 +0000</news:publication_date>
+            <news:title>Google&#39;s AI Leap: Reshaping Western Defense &amp; Deterrence</news:title>
+            
+            <news:keywords>Generative AI, Defense Modernization, NATO Deterrence, Information Warfare, Strategic Intelligence, Critical Supply Chains</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/google-s-genie-forging-digital-battlefields-from-street-view-s-reality-857075.html</loc>
+        <lastmod>Sun, 17 Ma</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg</image:loc>
+            <image:title>Google&#39;s Genie: Forging Digital Battlefields from Street View&#39;s Reality</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 17 May 2026 19:53:18 +0000</news:publication_date>
+            <news:title>Google&#39;s Genie: Forging Digital Battlefields from Street View&#39;s Reality</news:title>
+            
+            <news:keywords>AI Simulation, Military Training, Digital Twins, Autonomous Systems, Urban Warfare, Google DeepMind</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/ai-accelerators-google-s-2026-play-india-playbook-for-strategic-tech-dominance-809957.html</loc>
         <lastmod>Mon, 03 Au</lastmod>
         <changefreq>never</changefreq>
@@ -1821,7 +1869,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-09-07</lastmod>
+        <lastmod>2026-09-08</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
