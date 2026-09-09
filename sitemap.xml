@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/governing-ai-how-school-privacy-pacts-shape-defense-s-digital-front-975594.html</loc>
+        <lastmod>2026-09-09</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25332715/STK419_DEEPFAKE_CVIRGINIA_J.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100</image:loc>
+            <image:title>Governing AI: How School Privacy Pacts Shape Defense&#39;s Digital Front</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2026-09-09T13:07:48-04:00</news:publication_date>
+            <news:title>Governing AI: How School Privacy Pacts Shape Defense&#39;s Digital Front</news:title>
+            
+            <news:keywords>AI Governance, Data Privacy, Defense AI, Emerging Tech Strategy, National Security, Critical Supply Chain</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/strategic-irrelevance-assessing-divergent-data-streams-in-defense-analysis-975634.html</loc>
+        <lastmod>2026-09-09</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/maxton-hall.jpeg?quality=90&amp;strip=all&amp;crop=0,0,100,100</image:loc>
+            <image:title>Strategic Irrelevance: Assessing Divergent Data Streams in Defense Analysis</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2026-09-09T09:00:00-04:00</news:publication_date>
+            <news:title>Strategic Irrelevance: Assessing Divergent Data Streams in Defense Analysis</news:title>
+            
+            <news:keywords>Data Integrity, Strategic Analysis, Intelligence Gaps, Persona Mismatch, Source Material Assessment, Defense AI</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/quantum-compass-western-forces-chart-a-gps-independent-future-943527.html</loc>
         <lastmod>Tue, 08 Se</lastmod>
         <changefreq>never</changefreq>
