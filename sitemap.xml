@@ -116,6 +116,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/the-hormuz-heist-iran-s-drone-capture-and-the-future-of-undersea-warfare-061551.html</loc>
+        <lastmod>Wed, 09 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail</image:loc>
+            <image:title>The Hormuz Heist: Iran&#39;s Drone Capture and the Future of Undersea Warfare</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 09 Sep 2026 15:30:34 +0000</news:publication_date>
+            <news:title>The Hormuz Heist: Iran&#39;s Drone Capture and the Future of Undersea Warfare</news:title>
+            
+            <news:keywords>Dive-LD, Autonomous Underwater Vehicles, Strait of Hormuz, Iran US Tensions, Undersea Intelligence, Atmanirbhar Bharat Defense</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/governing-ai-how-school-privacy-pacts-shape-defense-s-digital-front-975594.html</loc>
         <lastmod>2026-09-09</lastmod>
         <changefreq>never</changefreq>
@@ -183,6 +207,30 @@
             <news:title>Quantum Compass: Western Forces Chart a GPS-Independent Future</news:title>
             
             <news:keywords>Quantum Sensing, GPS-Denied Navigation, Western Defense Modernization, NATO Deterrence, Critical Supply Chain, Aerospace Innovation</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-unlocks-13-billion-for-multi-domain-defense-overhaul-bolstering-atmanirbha-061701.html</loc>
+        <lastmod>Mon, 07 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>India Unlocks $13 Billion for Multi-Domain Defense Overhaul, Bolstering Atmanirbhar Vision</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 07 Sep 2026 14:48:27 +0000</news:publication_date>
+            <news:title>India Unlocks $13 Billion for Multi-Domain Defense Overhaul, Bolstering Atmanirbhar Vision</news:title>
+            
+            <news:keywords>Indian Defense, Atmanirbhar Bharat, Border Deterrence, DAC, Military Modernization, Strategic Autonomy</news:keywords>
             
         </news:news>
     </url>
