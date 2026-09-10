@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-09-09</lastmod>
+        <lastmod>2026-09-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-09-09</lastmod>
+        <lastmod>2026-09-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/pacific-pivot-japan-south-korea-counter-china-s-naval-ascent-029810.html</loc>
+        <lastmod>Thu, 10 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/ASEV-e1788961707626-1024x577.jpg</image:loc>
+            <image:title>Pacific Pivot: Japan, South Korea Counter China&#39;s Naval Ascent</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 10 Sep 2026 06:29:00 +0000</news:publication_date>
+            <news:title>Pacific Pivot: Japan, South Korea Counter China&#39;s Naval Ascent</news:title>
+            
+            <news:keywords>Naval Modernization, Indo-Pacific Security, China PLAN, Japan JMSDF, South Korea Navy, Ballistic Missile Defense</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/pentagon-s-drone-chief-warns-funding-lapse-threatens-autonomous-warfare-momentum-029839.html</loc>
+        <lastmod>Wed, 09 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/260909_DVIDS_soldier_drone_9918644-scaled-e1788991336218-1024x577.jpg</image:loc>
+            <image:title>Pentagon&#39;s Drone Chief Warns: Funding Lapse Threatens Autonomous Warfare Momentum</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 09 Sep 2026 22:02:35 +0000</news:publication_date>
+            <news:title>Pentagon&#39;s Drone Chief Warns: Funding Lapse Threatens Autonomous Warfare Momentum</news:title>
+            
+            <news:keywords>Autonomous Warfare, Pentagon Funding, Defense Autonomy, Drone Technology, US Military Strategy, Cost Imposition Curve</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/governing-ai-how-school-privacy-pacts-shape-defense-s-digital-front-975594.html</loc>
@@ -2013,7 +2061,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-09-09</lastmod>
+        <lastmod>2026-09-10</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
