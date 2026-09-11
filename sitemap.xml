@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/why-india-should-consider-izdeliye-177s-for-super-sukhoi-longevity-148239.html</loc>
+        <lastmod>Fri, 11 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEip4W6F9qUcClISC6Zl-0alX6Ydnt9NX8nfszXeDiGyjtAi3vGqK2ujEbw6hdgDCHnfaRCFSCPD1BAEfqizEBQxo08pgfRhZRz9jAxWjoiRyOx7rTmgwHCQkFhjfkTzl-vPhBPmhyvDffKu5PtQg-TAikNGQduEpYLabe0ETtnNz8AF-V6ESkXMnt1Hxc4/s72-c/Saturn_Izdeliye_AL-177S_Turbofan.jpg</image:loc>
+            <image:title>Why India Should Consider Izdeliye 177S For Super Sukhoi Longevity</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 11 Sep 2026 16:30:00 +0000</news:publication_date>
+            <news:title>Why India Should Consider Izdeliye 177S For Super Sukhoi Longevity</news:title>
+            
+            <news:keywords>Su-30MKI, Izdeliye 177S, Super Sukhoi, Atmanirbhar Bharat, Indian Air Force, Defense Modernization</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-mountain-might-tata-s-zorawar-win-signals-new-era-for-border-deterrence-148331.html</loc>
+        <lastmod>Fri, 11 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhudombaM4Y1UZrerlUeLAaDTTnRpw8Q2fUuL0mert1RnLtpswn4jC0C6gVa9CBgMMeE1E70EoWK454lzbkWCGIt-SGiZ2dgMtHuqTv4z8aqKLCBGHI27YA7OLDfDOX2I9k8Cw10GgjgruYCztrPAJ3sqQPVoiFJU-j52YmEjNB-vyxfctDEc_lZwdMJ3w/s72-c/Zorawar_Light_Tank.jpg</image:loc>
+            <image:title>India&#39;s Mountain Might: TATA&#39;s Zorawar Win Signals New Era for Border Deterrence</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 11 Sep 2026 16:28:00 +0000</news:publication_date>
+            <news:title>India&#39;s Mountain Might: TATA&#39;s Zorawar Win Signals New Era for Border Deterrence</news:title>
+            
+            <news:keywords>Zorawar Light Tank, Indian Army, Atmanirbhar Bharat, LAC Deterrence, Defense Manufacturing, Strategic Autonomy</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/pacific-pivot-japan-south-korea-counter-china-s-naval-ascent-029810.html</loc>
         <lastmod>Thu, 10 Se</lastmod>
         <changefreq>never</changefreq>
