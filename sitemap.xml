@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-09-10</lastmod>
+        <lastmod>2026-09-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-09-10</lastmod>
+        <lastmod>2026-09-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -404,6 +404,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/canada-s-hyperspectral-leap-galaxia-s-strategic-acquisition-redefines-arctic-vig-116178.html</loc>
+        <lastmod>Thu, 03 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://i0.wp.com/spacenews.com/wp-content/uploads/2026/09/Orange-square-scaled.png?fit=1024%2C1024&amp;ssl=1</image:loc>
+            <image:title>Canada&#39;s Hyperspectral Leap: Galaxia&#39;s Strategic Acquisition Redefines Arctic Vigilance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 03 Sep 2026 13:00:00 +0000</news:publication_date>
+            <news:title>Canada&#39;s Hyperspectral Leap: Galaxia&#39;s Strategic Acquisition Redefines Arctic Vigilance</news:title>
+            
+            <news:keywords>Hyperspectral Imaging, Arctic Security, NATO Deterrence, Canada Space Industry, Earth Observation, Critical Supply Chains</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/re-arming-the-west-ge-s-industrial-overhaul-for-a-high-tempo-future-595807.html</loc>
         <lastmod>Thu, 03 Se</lastmod>
         <changefreq>never</changefreq>
@@ -447,6 +471,30 @@
             <news:title>Gemini 3.8 Flash: Western Defense&#39;s New AI Vanguard in a Contested Digital Realm</news:title>
             
             <news:keywords>AI Defense, Cybersecurity, NATO Modernization, Autonomous Systems, Strategic Intelligence, Western Tech Hegemony</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/durango-s-new-thrust-agile-space-expands-bolstering-us-orbital-hegemony-116220.html</loc>
+        <lastmod>Wed, 02 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/agile-space-industries-square-logo-scaled.png?fit=1024%2C1024&amp;ssl=1</image:loc>
+            <image:title>Durango&#39;s New Thrust: Agile Space Expands, Bolstering US Orbital Hegemony</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 02 Sep 2026 12:00:00 +0000</news:publication_date>
+            <news:title>Durango&#39;s New Thrust: Agile Space Expands, Bolstering US Orbital Hegemony</news:title>
+            
+            <news:keywords>Space Propulsion, Defense Industrial Base, Supply Chain Resilience, Orbital Maneuvering, US Space Strategy, Additive Manufacturing</news:keywords>
             
         </news:news>
     </url>
@@ -2109,7 +2157,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-09-10</lastmod>
+        <lastmod>2026-09-11</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
