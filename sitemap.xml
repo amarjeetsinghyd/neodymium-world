@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-09-11</lastmod>
+        <lastmod>2026-09-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-09-11</lastmod>
+        <lastmod>2026-09-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/xi-modi-summit-hinted-a-diplomatic-lifeline-amidst-strategic-rivalry-201686.html</loc>
+        <lastmod>Sat, 12 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0bDE17z3fzx35cp5QXLQKORjm5w7hNgdxH5Ef1XlUcuFYBWGdiaN70VC0dq4xF5B35hXxF1mq9QTcX2n7HED7jrxOYHa2_TYrr77pQ0hVbzZF2KVmxkiPT1ZDA8_QxMLy6sWvcfhAFVWO29GvPne7FU0qWkIWQUPjkTOJGqzpot6n6s6lBWxlLYXlyIs/s72-c/Modi_Jinping_Bilateral_Meeting.jpg</image:loc>
+            <image:title>Xi-Modi Summit Hinted: A Diplomatic Lifeline Amidst Strategic Rivalry</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 12 Sep 2026 06:02:00 +0000</news:publication_date>
+            <news:title>Xi-Modi Summit Hinted: A Diplomatic Lifeline Amidst Strategic Rivalry</news:title>
+            
+            <news:keywords>India-China Relations, LAC Deterrence, BRICS Summit, Atmanirbhar Bharat, South Asian Geopolitics, Diplomacy</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/xi-jinping-s-delhi-arrival-for-brics-summit-marks-pivotal-india-china-engagement-201754.html</loc>
+        <lastmod>Sat, 12 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjitxrMwKRtp4tB26H4JmBAOIJMhbvRO3H7AWySI9PMtnqi1nZHPGU9YoExWVa9Ct1IsjsyH6NtLfEBKNrJGVz3i1DcYZlbZoedSEIE7ylMCAP6TWHl1rvgLhM_rtvRAcvj6uEdnYMGpveZ9w-gIipuRhYCPLTYRO7iDUrBXxsX4m4Y_fKYbQVHkm0_rZA/s72-c/Jinping.jpg</image:loc>
+            <image:title>Xi Jinping’s Delhi Arrival For BRICS Summit Marks Pivotal India-China Engagement</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 12 Sep 2026 06:01:00 +0000</news:publication_date>
+            <news:title>Xi Jinping’s Delhi Arrival For BRICS Summit Marks Pivotal India-China Engagement</news:title>
+            
+            <news:keywords>India-China Relations, BRICS Summit, Border Deterrence, Atmanirbhar Bharat, Indo-Pacific, Strategic Autonomy</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/why-india-should-consider-izdeliye-177s-for-super-sukhoi-longevity-148239.html</loc>
@@ -2205,7 +2253,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-09-11</lastmod>
+        <lastmod>2026-09-12</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
