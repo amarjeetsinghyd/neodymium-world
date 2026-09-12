@@ -308,6 +308,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/the-uncharted-nexus-genomic-atlases-and-geopolitical-strategy-231725.html</loc>
+        <lastmod>Tue, 08 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://lh3.googleusercontent.com/vOjFcTcdX2GCEB9yk-tJ7GAfyhTAMo-zW7scq3TrT9qk1mYw5qE0BdUqI8XQclMuUchZr7pYUFdVt3ZzrXc1NGFFJOqi7kIUX_QuAXZR7lkVzxjk=w528-h297-n-nu-rw-lo</image:loc>
+            <image:title>The Uncharted Nexus: Genomic Atlases and Geopolitical Strategy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 08 Sep 2026 14:00:15 +0000</news:publication_date>
+            <news:title>The Uncharted Nexus: Genomic Atlases and Geopolitical Strategy</news:title>
+            
+            <news:keywords>Source Material Mismatch, Strategic Analysis Constraints, Defense Intelligence, Genomics &amp; Geopolitics, Analytical Integrity</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-unlocks-13-billion-for-multi-domain-defense-overhaul-bolstering-atmanirbha-061701.html</loc>
         <lastmod>Mon, 07 Se</lastmod>
         <changefreq>never</changefreq>
@@ -2007,6 +2031,30 @@
             <news:title>Google&#39;s Genie: Forging Digital Battlefields from Street View&#39;s Reality</news:title>
             
             <news:keywords>AI Simulation, Military Training, Digital Twins, Autonomous Systems, Urban Warfare, Google DeepMind</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/the-omni-paradox-generative-ai-s-dual-use-gambit-in-global-security-231756.html</loc>
+        <lastmod>Sun, 17 Ma</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>The Omni Paradox: Generative AI&#39;s Dual-Use Gambit in Global Security</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 17 May 2026 19:50:57 +0000</news:publication_date>
+            <news:title>The Omni Paradox: Generative AI&#39;s Dual-Use Gambit in Global Security</news:title>
+            
+            <news:keywords>Generative AI, Information Warfare, NATO Deterrence, Defense Modernization, Digital Verification, Cognitive Domain</news:keywords>
             
         </news:news>
     </url>
