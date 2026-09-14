@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-09-13</lastmod>
+        <lastmod>2026-09-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-09-13</lastmod>
+        <lastmod>2026-09-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -2108,6 +2108,54 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/the-algorithmic-arms-race-google-s-ai-for-science-and-the-new-front-in-defense-h-378787.html</loc>
+        <lastmod>Sun, 17 Ma</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>The Algorithmic Arms Race: Google&#39;s AI for Science and the New Front in Defense Hegemony</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 17 May 2026 13:50:34 +0000</news:publication_date>
+            <news:title>The Algorithmic Arms Race: Google&#39;s AI for Science and the New Front in Defense Hegemony</news:title>
+            
+            <news:keywords>AI in Defense, Strategic Competition, Dual-Use Technology, Defense R&amp;D, Technological Hegemony, NATO Modernization</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/singapore-s-ai-gambit-a-strategic-leap-in-the-global-tech-race-378850.html</loc>
+        <lastmod>Sat, 16 Ma</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://lh3.googleusercontent.com/Woiv_MqlJsgv6bSWD505JCSu936VdLLtR0y7Ev1wPWDmuhFK1SYxkpyU4N2vhSpSMl22NAtbxuZ1yFMHIcDFwABNZIgRtX0ccRXxWiBaHETRXUQEZQ=w528-h297-n-nu-rw-lo</image:loc>
+            <image:title>Singapore&#39;s AI Gambit: A Strategic Leap in the Global Tech Race</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 16 May 2026 09:13:34 +0000</news:publication_date>
+            <news:title>Singapore&#39;s AI Gambit: A Strategic Leap in the Global Tech Race</news:title>
+            
+            <news:keywords>Singapore AI, Google DeepMind, National Security, Dual-Use Technology, Tech Hegemony, Critical Supply Chains</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/ai-accelerators-google-s-2026-play-india-playbook-for-strategic-tech-dominance-809957.html</loc>
         <lastmod>Mon, 03 Au</lastmod>
         <changefreq>never</changefreq>
@@ -2349,7 +2397,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-09-13</lastmod>
+        <lastmod>2026-09-14</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
