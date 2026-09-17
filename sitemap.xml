@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-09-16</lastmod>
+        <lastmod>2026-09-17</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-09-16</lastmod>
+        <lastmod>2026-09-17</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/saras-mk-ii-s-electrical-nerve-centre-a-strategic-leap-for-atmanirbhar-bharat-636642.html</loc>
+        <lastmod>Thu, 17 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTGbBltcBJ6m9klH2GPNZHgtb5mLJa3ZegKjBEFtA9FMCkeOGHtLss2G08gdCbczGV7G21PzupMPeA4TES42HFte2C7TBKIJffRIwgkb_z3GLtyaZovufBHkK5-PuUBlJSJiXhNE6DgFB-QGYQDgPE_dzJvNrVN4M8tx1_YfMsIe_j3Hf06W8cfMKlkq0/s72-c/SARAS_Civil_Passenger_Aircraft.jpg</image:loc>
+            <image:title>SARAS MK-II&#39;s Electrical Nerve Centre: A Strategic Leap for Atmanirbhar Bharat</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 17 Sep 2026 06:00:00 +0000</news:publication_date>
+            <news:title>SARAS MK-II&#39;s Electrical Nerve Centre: A Strategic Leap for Atmanirbhar Bharat</news:title>
+            
+            <news:keywords>SARAS MK-II, Atmanirbhar Bharat, SFO Technologies, Aerospace Manufacturing, Defense Indigenization, Indian Civil Aviation</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/drdo-s-strategic-tech-handover-fuels-india-s-atmanirbhar-bharat-push-636870.html</loc>
+        <lastmod>Thu, 17 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEget-x9khNTUAKluiAKrbrm04roo_a3bsKURexcEBe2B_KDzjg3Ezm_obN-RUm44MByDIVJ-YF_IV60lxBnoENweg9G9uqYI9LiSbe1GNPfV33DjVt60BT-8TsPuFj-pLmbD_ND7RV66tGe-farlHGy_MoSLQQ7Hz_mYXtoljhKDKITXwPUFezw_H01KGU/s72-c/DRDO_Multi-Influence_Ground_Mine_Semi-Active_Homing_Laser_System_SALHS.jpg</image:loc>
+            <image:title>DRDO&#39;s Strategic Tech Handover Fuels India&#39;s Atmanirbhar Bharat Push</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 17 Sep 2026 05:58:00 +0000</news:publication_date>
+            <news:title>DRDO&#39;s Strategic Tech Handover Fuels India&#39;s Atmanirbhar Bharat Push</news:title>
+            
+            <news:keywords>DRDO, Atmanirbhar Bharat, Defense Manufacturing, Technology Transfer, Indian Navy, Aerospace India, Missile Technology</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/collision-at-sea-india-s-protest-signals-deeper-breach-of-trust-549844.html</loc>
@@ -2637,7 +2685,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-09-16</lastmod>
+        <lastmod>2026-09-17</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
