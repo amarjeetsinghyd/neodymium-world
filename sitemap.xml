@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/ai-s-dual-edge-sword-bioweapons-autonomous-bots-and-the-new-global-chessboard-752834.html</loc>
+        <lastmod>Fri, 18 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://wp.technologyreview.com/wp-content/uploads/2024/12/MM10211_240711_05211.jpg?w=840</image:loc>
+            <image:title>AI&#39;s Dual-Edge Sword: Bioweapons, Autonomous Bots, and the New Global Chessboard</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 18 Sep 2026 12:10:00 +0000</news:publication_date>
+            <news:title>AI&#39;s Dual-Edge Sword: Bioweapons, Autonomous Bots, and the New Global Chessboard</news:title>
+            
+            <news:keywords>AI Warfare, Bioweapons Threat, Autonomous Systems, NATO Deterrence, Critical Supply Chains, Geopolitical Competition</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/the-algorithmic-shadow-ai-s-existential-threat-to-western-security-752869.html</loc>
+        <lastmod>Fri, 18 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg</image:loc>
+            <image:title>The Algorithmic Shadow: AI&#39;s Existential Threat to Western Security</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 18 Sep 2026 11:29:22 +0000</news:publication_date>
+            <news:title>The Algorithmic Shadow: AI&#39;s Existential Threat to Western Security</news:title>
+            
+            <news:keywords>AI Existential Risk, Autonomous Weapons, Cyber Warfare, Biological Threats, NATO Deterrence, Critical Infrastructure</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/watermarking-s-hidden-peril-a-new-vector-for-adversarial-ai-in-defense-721527.html</loc>
         <lastmod>Thu, 17 Se</lastmod>
         <changefreq>never</changefreq>
