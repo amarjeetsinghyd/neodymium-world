@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-09-17</lastmod>
+        <lastmod>2026-09-18</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-09-17</lastmod>
+        <lastmod>2026-09-18</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/watermarking-s-hidden-peril-a-new-vector-for-adversarial-ai-in-defense-721527.html</loc>
+        <lastmod>Thu, 17 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-generated-watermark-500x500.jpg</image:loc>
+            <image:title>Watermarking&#39;s Hidden Peril: A New Vector for Adversarial AI in Defense</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 17 Sep 2026 18:33:13 +0000</news:publication_date>
+            <news:title>Watermarking&#39;s Hidden Peril: A New Vector for Adversarial AI in Defense</news:title>
+            
+            <news:keywords>AI Security, LLM Safety, Adversarial AI, Defense Modernization, National Security, SynthID</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/ai-s-economic-shadow-a-strategic-threat-to-western-resilience-667920.html</loc>
@@ -159,6 +183,30 @@
             <news:title>DRDO&#39;s Strategic Tech Handover Fuels India&#39;s Atmanirbhar Bharat Push</news:title>
             
             <news:keywords>DRDO, Atmanirbhar Bharat, Defense Manufacturing, Technology Transfer, Indian Navy, Aerospace India, Missile Technology</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/celestial-breach-cyberattack-on-meteor-watchers-signals-widening-space-front-721560.html</loc>
+        <lastmod>Wed, 16 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2026/09/astroid-international-meteor-organization-500x500.jpg</image:loc>
+            <image:title>Celestial Breach: Cyberattack on Meteor Watchers Signals Widening Space Front</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 16 Sep 2026 21:08:14 +0000</news:publication_date>
+            <news:title>Celestial Breach: Cyberattack on Meteor Watchers Signals Widening Space Front</news:title>
+            
+            <news:keywords>Cyber Warfare, Space Security, Critical Infrastructure, Nation-State Hacking, Orbital Resilience, IMO Cyberattack</news:keywords>
             
         </news:news>
     </url>
@@ -2733,7 +2781,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-09-17</lastmod>
+        <lastmod>2026-09-18</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         

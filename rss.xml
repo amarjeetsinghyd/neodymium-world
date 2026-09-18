@@ -23,6 +23,44 @@
     <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Watermarking&#39;s Hidden Peril: A New Vector for Adversarial AI in Defense</title>
+      <link>https://neodymium.world/articles/watermarking-s-hidden-peril-a-new-vector-for-adversarial-ai-in-defense-721527.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/watermarking-s-hidden-peril-a-new-vector-for-adversarial-ai-in-defense-721527.html</guid>
+      <pubDate>Thu, 17 Sep 2026 18:33:13 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        A subtle change in AI watermarking could open a Pandora&#39;s Box for national security. New findings show it can make LLMs follow harmful commands they&#39;d otherwise refuse. What does this mean for defense AI and critical infrastructure? #AI #NationalSecurity #DefenseTech
+        
+        [SPLIT]
+        ⚡ Adversarial prompt injection techniques are significantly more effective when watermarking is active, increasing compliance with malicious requests.
+        [SPLIT]
+        ⚡ &#39;Sampling drift&#39; can alter not only LLM textual responses but also critical actions of AI agents, including incorrect tool invocation and argument passing.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/watermarking-s-hidden-peril-a-new-vector-for-adversarial-ai-in-defense-721527.html
+      ]]></description>
+      
+      <category>AI Security</category>
+      
+      <category>LLM Safety</category>
+      
+      <category>Adversarial AI</category>
+      
+      <category>Defense Modernization</category>
+      
+      <category>National Security</category>
+      
+      <category>SynthID</category>
+      
+      
+      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-generated-watermark-500x500.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-generated-watermark-500x500.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-generated-watermark-500x500.jpg" />
+      
+    </item>
+    
+    <item>
       <title>AI&#39;s Economic Shadow: A Strategic Threat to Western Resilience</title>
       <link>https://neodymium.world/articles/ai-s-economic-shadow-a-strategic-threat-to-western-resilience-667920.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/ai-s-economic-shadow-a-strategic-threat-to-western-resilience-667920.html</guid>
@@ -173,6 +211,44 @@
       <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEget-x9khNTUAKluiAKrbrm04roo_a3bsKURexcEBe2B_KDzjg3Ezm_obN-RUm44MByDIVJ-YF_IV60lxBnoENweg9G9uqYI9LiSbe1GNPfV33DjVt60BT-8TsPuFj-pLmbD_ND7RV66tGe-farlHGy_MoSLQQ7Hz_mYXtoljhKDKITXwPUFezw_H01KGU/s72-c/DRDO_Multi-Influence_Ground_Mine_Semi-Active_Homing_Laser_System_SALHS.jpg" length="0" type="image/jpeg" />
       <media:content url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEget-x9khNTUAKluiAKrbrm04roo_a3bsKURexcEBe2B_KDzjg3Ezm_obN-RUm44MByDIVJ-YF_IV60lxBnoENweg9G9uqYI9LiSbe1GNPfV33DjVt60BT-8TsPuFj-pLmbD_ND7RV66tGe-farlHGy_MoSLQQ7Hz_mYXtoljhKDKITXwPUFezw_H01KGU/s72-c/DRDO_Multi-Influence_Ground_Mine_Semi-Active_Homing_Laser_System_SALHS.jpg" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEget-x9khNTUAKluiAKrbrm04roo_a3bsKURexcEBe2B_KDzjg3Ezm_obN-RUm44MByDIVJ-YF_IV60lxBnoENweg9G9uqYI9LiSbe1GNPfV33DjVt60BT-8TsPuFj-pLmbD_ND7RV66tGe-farlHGy_MoSLQQ7Hz_mYXtoljhKDKITXwPUFezw_H01KGU/s72-c/DRDO_Multi-Influence_Ground_Mine_Semi-Active_Homing_Laser_System_SALHS.jpg" />
+      
+    </item>
+    
+    <item>
+      <title>Celestial Breach: Cyberattack on Meteor Watchers Signals Widening Space Front</title>
+      <link>https://neodymium.world/articles/celestial-breach-cyberattack-on-meteor-watchers-signals-widening-space-front-721560.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/celestial-breach-cyberattack-on-meteor-watchers-signals-widening-space-front-721560.html</guid>
+      <pubDate>Wed, 16 Sep 2026 21:08:14 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        A cyberattack cripples the International Meteor Organization, an unassuming target that nonetheless exposes critical vulnerabilities in the global space domain. This isn&#39;t just about meteors; it&#39;s a stark warning for Western defense, orbital intelligence, and the escalating silen
+        
+        [SPLIT]
+        ⚡ Nation-state actors are likely probing for vulnerabilities across the entire space ecosystem, not just direct military targets.
+        [SPLIT]
+        ⚡ Aging digital infrastructure remains a significant cyber vulnerability, demanding urgent modernization across all sectors related to national security.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/celestial-breach-cyberattack-on-meteor-watchers-signals-widening-space-front-721560.html
+      ]]></description>
+      
+      <category>Cyber Warfare</category>
+      
+      <category>Space Security</category>
+      
+      <category>Critical Infrastructure</category>
+      
+      <category>Nation-State Hacking</category>
+      
+      <category>Orbital Resilience</category>
+      
+      <category>IMO Cyberattack</category>
+      
+      
+      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/astroid-international-meteor-organization-500x500.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/astroid-international-meteor-organization-500x500.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/astroid-international-meteor-organization-500x500.jpg" />
       
     </item>
     
@@ -705,82 +781,6 @@
       <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/code-vulnerability-security-500x500.jpg" length="0" type="image/jpeg" />
       <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/code-vulnerability-security-500x500.jpg" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/code-vulnerability-security-500x500.jpg" />
-      
-    </item>
-    
-    <item>
-      <title>The Hormuz Heist: Iran&#39;s Drone Capture and the Future of Undersea Warfare</title>
-      <link>https://neodymium.world/articles/the-hormuz-heist-iran-s-drone-capture-and-the-future-of-undersea-warfare-061551.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/the-hormuz-heist-iran-s-drone-capture-and-the-future-of-undersea-warfare-061551.html</guid>
-      <pubDate>Wed, 09 Sep 2026 15:30:34 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Iran claims capture of a US Dive-LD autonomous submersible near the Strait of Hormuz. This incident isn&#39;t just a minor loss; it&#39;s a potential intelligence goldmine for Tehran and a stark lesson in the risks of deploying advanced, &#39;attritable&#39; autonomous systems in contested water
-        
-        [SPLIT]
-        ⚡ The incident exposes a critical flaw in the &#34;attritable&#34; autonomous systems doctrine, where technological loss can translate into strategic intelligence compromise.
-        [SPLIT]
-        ⚡ The capture provides Iran with invaluable seabed mapping data, particularly concerning sensitive Omani waters, enhancing its maritime domain awareness in the Strait of Hormuz.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/the-hormuz-heist-iran-s-drone-capture-and-the-future-of-undersea-warfare-061551.html
-      ]]></description>
-      
-      <category>Dive-LD</category>
-      
-      <category>Autonomous Underwater Vehicles</category>
-      
-      <category>Strait of Hormuz</category>
-      
-      <category>Iran US Tensions</category>
-      
-      <category>Undersea Intelligence</category>
-      
-      <category>Atmanirbhar Bharat Defense</category>
-      
-      
-      <enclosure url="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" length="0" type="image/jpeg" />
-      <media:content url="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" />
-      
-    </item>
-    
-    <item>
-      <title>Governing AI: How School Privacy Pacts Shape Defense&#39;s Digital Front</title>
-      <link>https://neodymium.world/articles/governing-ai-how-school-privacy-pacts-shape-defense-s-digital-front-975594.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/governing-ai-how-school-privacy-pacts-shape-defense-s-digital-front-975594.html</guid>
-      <pubDate>2026-09-09T13:07:48-04:00</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Microsoft&#39;s landmark AI privacy agreement with teachers&#39; unions isn&#39;t just about classrooms. It&#39;s a critical bellwether for data integrity, ethical AI, and the future of autonomous systems in defense. Alexander Sterling breaks down the strategic implications.
-        
-        [SPLIT]
-        ⚡ The emphasis on &#39;iron-clad&#39; data privacy and avoiding training on sensitive data directly translates to the imperative for robust data integrity in defense AI systems.
-        [SPLIT]
-        ⚡ Mandating human review for &#39;high-risk&#39; AI decisions in schools foreshadows stricter human-in-the-loop requirements for autonomous defense systems, especially in lethal applications.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/governing-ai-how-school-privacy-pacts-shape-defense-s-digital-front-975594.html
-      ]]></description>
-      
-      <category>AI Governance</category>
-      
-      <category>Data Privacy</category>
-      
-      <category>Defense AI</category>
-      
-      <category>Emerging Tech Strategy</category>
-      
-      <category>National Security</category>
-      
-      <category>Critical Supply Chain</category>
-      
-      
-      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25332715/STK419_DEEPFAKE_CVIRGINIA_J.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
-      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25332715/STK419_DEEPFAKE_CVIRGINIA_J.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25332715/STK419_DEEPFAKE_CVIRGINIA_J.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
       
     </item>
     
