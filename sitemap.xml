@@ -452,6 +452,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/the-gemini-gambit-google-s-ai-leap-and-the-future-of-western-defense-924797.html</loc>
+        <lastmod>Tue, 15 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>The Gemini Gambit: Google&#39;s AI Leap and the Future of Western Defense</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 15 Sep 2026 17:05:57 +0000</news:publication_date>
+            <news:title>The Gemini Gambit: Google&#39;s AI Leap and the Future of Western Defense</news:title>
+            
+            <news:keywords>Conversational AI, Defense Modernization, Command &amp; Control, ISR, Human-AI Teaming, Strategic Competition</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/openai-s-rogue-ai-a-precursor-to-autonomous-cyber-warfare-319961.html</loc>
         <lastmod>2026-09-12</lastmod>
         <changefreq>never</changefreq>
@@ -2631,6 +2655,30 @@
             <news:title>AI&#39;s Crucible: Accelerating Western Defense Innovation and Hegemony</news:title>
             
             <news:keywords>AI in Defense, Defense R&amp;D, NATO Modernization, Critical Supply Chains, Emerging Technologies, Accelerated Discovery</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/nato-s-industrial-reckoning-the-supply-chain-imperative-for-eastern-flank-deterr-924829.html</loc>
+        <lastmod>Sat, 16 Ma</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://lh3.googleusercontent.com/fR4KAfFp4Ns7W90QSrwVipuPprhWP4kEnH-hYbP07bEryUBVGjCAm4yEgo6MRBZAhf6Hp6TTzA-z9EKXm7doG9A-hHTbL1IVeIcjtVg_8cI06LYf=w528-h297-n-nu-rw-lo</image:loc>
+            <image:title>NATO&#39;s Industrial Reckoning: The Supply Chain Imperative for Eastern Flank Deterrence</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 16 May 2026 07:53:11 +0000</news:publication_date>
+            <news:title>NATO&#39;s Industrial Reckoning: The Supply Chain Imperative for Eastern Flank Deterrence</news:title>
+            
+            <news:keywords>NATO Deterrence, Defense Industrial Base, Supply Chain Resilience, Eastern Flank, Strategic Competition, Ammunition Shortages</news:keywords>
             
         </news:news>
     </url>
