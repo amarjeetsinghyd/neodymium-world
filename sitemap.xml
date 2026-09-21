@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/weaponizing-connectivity-america-s-imperative-for-digital-deterrence-017629.html</loc>
+        <lastmod>Mon, 21 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://breakingdefense.com/wp-content/uploads/sites/13/2024/12/GettyImages-927165254-e1734638126397-1024x576.jpg</image:loc>
+            <image:title>Weaponizing Connectivity: America&#39;s Imperative for Digital Deterrence</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 21 Sep 2026 18:46:00 +0000</news:publication_date>
+            <news:title>Weaponizing Connectivity: America&#39;s Imperative for Digital Deterrence</news:title>
+            
+            <news:keywords>Information Warfare, Digital Deterrence, Iran Sanctions, Starlink, Direct-to-Cell (D2C), Authoritarian Regimes</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/feinberg-s-covert-hill-briefing-a-blueprint-for-defense-in-peril-017658.html</loc>
+        <lastmod>Mon, 21 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/CRU34-pb-1024x576.png</image:loc>
+            <image:title>Feinberg&#39;s Covert Hill Briefing: A Blueprint for Defense in Peril</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 21 Sep 2026 17:30:00 +0000</news:publication_date>
+            <news:title>Feinberg&#39;s Covert Hill Briefing: A Blueprint for Defense in Peril</news:title>
+            
+            <news:keywords>Defense Budget, Midterm Elections, NATO Deterrence, Defense Modernization, Supply Chain Security, Aerospace Strategy</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-orbital-lifeline-refueling-satellites-reshaping-space-power-983838.html</loc>
         <lastmod>Mon, 21 Se</lastmod>
         <changefreq>never</changefreq>
