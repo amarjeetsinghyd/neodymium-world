@@ -92,6 +92,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/u-s-army-begins-ngc2-rollout-forging-digital-backbone-for-future-conflict-099945.html</loc>
+        <lastmod>Mon, 21 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>U.S. Army Begins NGC2 Rollout, Forging Digital Backbone for Future Conflict</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 21 Sep 2026 20:05:19 +0000</news:publication_date>
+            <news:title>U.S. Army Begins NGC2 Rollout, Forging Digital Backbone for Future Conflict</news:title>
+            
+            <news:keywords>NGC2, US Army Modernization, Command and Control, Network Warfare, DDIL Operations, Project Convergence</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/weaponizing-connectivity-america-s-imperative-for-digital-deterrence-017629.html</loc>
         <lastmod>Mon, 21 Se</lastmod>
         <changefreq>never</changefreq>
@@ -135,6 +159,30 @@
             <news:title>Feinberg&#39;s Covert Hill Briefing: A Blueprint for Defense in Peril</news:title>
             
             <news:keywords>Defense Budget, Midterm Elections, NATO Deterrence, Defense Modernization, Supply Chain Security, Aerospace Strategy</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/orbital-vigilance-pentagon-s-new-recon-satellites-reshape-space-deterrence-099986.html</loc>
+        <lastmod>Mon, 21 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Gaganyaan_vehicle_used_for_TVD1_mission.webp/1280px-Gaganyaan_vehicle_used_for_TVD1_mission.webp?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail</image:loc>
+            <image:title>Orbital Vigilance: Pentagon&#39;s New Recon Satellites Reshape Space Deterrence</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 21 Sep 2026 17:14:39 +0000</news:publication_date>
+            <news:title>Orbital Vigilance: Pentagon&#39;s New Recon Satellites Reshape Space Deterrence</news:title>
+            
+            <news:keywords>Space Domain Awareness, GHOST-R, Geostationary Orbit, Western Defense Modernization, Commercial Space, Kill Web</news:keywords>
             
         </news:news>
     </url>
