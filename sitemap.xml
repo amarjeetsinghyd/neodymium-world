@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-09-21</lastmod>
+        <lastmod>2026-09-22</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-09-21</lastmod>
+        <lastmod>2026-09-22</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/meta-s-muse-zero-day-a-strategic-vulnerability-in-agentic-ai-s-foundation-068047.html</loc>
+        <lastmod>Mon, 21 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-agent-hacking-500x500.jpg</image:loc>
+            <image:title>Meta&#39;s Muse Zero-Day: A Strategic Vulnerability in Agentic AI&#39;s Foundation</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 21 Sep 2026 22:24:38 +0000</news:publication_date>
+            <news:title>Meta&#39;s Muse Zero-Day: A Strategic Vulnerability in Agentic AI&#39;s Foundation</news:title>
+            
+            <news:keywords>AI Security, Zero-Day Vulnerability, Agentic AI, Cyber Warfare, Supply Chain Risk, Digital Deterrence</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/weaponizing-connectivity-america-s-imperative-for-digital-deterrence-017629.html</loc>
@@ -159,6 +183,30 @@
             <news:title>India&#39;s Artillery Autonomy: Tirupati Forge Secures Key Ammunition License</news:title>
             
             <news:keywords>Artillery Ammunition, Atmanirbhar Bharat, Indian Arms Act, Defense Manufacturing, Border Deterrence, Tirupati Forge</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/google-s-inside-play-unmasking-a-supply-chain-cyber-cartel-068080.html</loc>
+        <lastmod>Sun, 20 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2216350484-500x500.jpg</image:loc>
+            <image:title>Google&#39;s Inside Play: Unmasking a Supply Chain Cyber Cartel</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 20 Sep 2026 11:07:00 +0000</news:publication_date>
+            <news:title>Google&#39;s Inside Play: Unmasking a Supply Chain Cyber Cartel</news:title>
+            
+            <news:keywords>Supply Chain Security, Cyber Espionage, Threat Intelligence, TeamPCP, Mandiant, Digital Deterrence</news:keywords>
             
         </news:news>
     </url>
@@ -3117,7 +3165,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-09-21</lastmod>
+        <lastmod>2026-09-22</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
