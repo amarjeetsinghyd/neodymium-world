@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-09-22</lastmod>
+        <lastmod>2026-09-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-09-22</lastmod>
+        <lastmod>2026-09-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/strategic-blind-spot-air-force-cuts-threaten-china-intelligence-edge-154566.html</loc>
+        <lastmod>Tue, 22 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/CASI-1024x683.jpg</image:loc>
+            <image:title>Strategic Blind Spot: Air Force Cuts Threaten China Intelligence Edge</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 22 Sep 2026 21:46:08 +0000</news:publication_date>
+            <news:title>Strategic Blind Spot: Air Force Cuts Threaten China Intelligence Edge</news:title>
+            
+            <news:keywords>China Aerospace Studies Institute, US Air Force, China Military, Strategic Intelligence, National Security, Indo-Pacific Deterrence</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/australia-s-aerial-vanguard-triton-peregrine-ioc-reshapes-indo-pacific-standoff-154598.html</loc>
+        <lastmod>Tue, 22 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/RAAF_MQ-4C_A57-001_20240616raaf8202385_0038-e1790095939677-1024x576.jpg</image:loc>
+            <image:title>Australia&#39;s Aerial Vanguard: Triton, Peregrine IOC Reshapes Indo-Pacific Standoff</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 22 Sep 2026 18:40:00 +0000</news:publication_date>
+            <news:title>Australia&#39;s Aerial Vanguard: Triton, Peregrine IOC Reshapes Indo-Pacific Standoff</news:title>
+            
+            <news:keywords>Australia Defense, Indo-Pacific Security, MQ-4C Triton, MC-55A Peregrine, ISR &amp; EW, Regional Deterrence</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/meta-s-muse-zero-day-a-strategic-vulnerability-in-agentic-ai-s-foundation-068047.html</loc>
@@ -3213,7 +3261,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-09-22</lastmod>
+        <lastmod>2026-09-23</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
