@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/homeland-overwatch-falcon-peak-26-2-forges-new-us-counter-drone-strategy-187484.html</loc>
+        <lastmod>Wed, 23 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail</image:loc>
+            <image:title>Homeland Overwatch: Falcon Peak 26.2 Forges New US Counter-Drone Strategy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 23 Sep 2026 15:32:42 +0000</news:publication_date>
+            <news:title>Homeland Overwatch: Falcon Peak 26.2 Forges New US Counter-Drone Strategy</news:title>
+            
+            <news:keywords>Counter-UAS, Homeland Security, NORTHCOM, Anduril Lattice, Border Security, Drone Warfare</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/strategic-blind-spot-air-force-cuts-threaten-china-intelligence-edge-154566.html</loc>
         <lastmod>Tue, 22 Se</lastmod>
         <changefreq>never</changefreq>
@@ -87,6 +111,30 @@
             <news:title>Strategic Blind Spot: Air Force Cuts Threaten China Intelligence Edge</news:title>
             
             <news:keywords>China Aerospace Studies Institute, US Air Force, China Military, Strategic Intelligence, National Security, Indo-Pacific Deterrence</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/ai-s-frontline-ascendance-maven-s-rapid-proliferation-reshapes-western-warfare-187512.html</loc>
+        <lastmod>Tue, 22 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://defensescoop.com/wp-content/uploads/sites/8/2026/09/Cameron-Stanley.jpg?w=1024</image:loc>
+            <image:title>AI&#39;s Frontline Ascendance: Maven&#39;s Rapid Proliferation Reshapes Western Warfare</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 22 Sep 2026 21:20:22 +0000</news:publication_date>
+            <news:title>AI&#39;s Frontline Ascendance: Maven&#39;s Rapid Proliferation Reshapes Western Warfare</news:title>
+            
+            <news:keywords>AI Warfare, Maven Smart System, Pentagon Modernization, Secure Compute, Logistics AI, Data-Centric Warfare</news:keywords>
             
         </news:news>
     </url>
