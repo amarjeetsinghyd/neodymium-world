@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/ai-s-first-hack-a-reckoning-for-western-defense-273828.html</loc>
+        <lastmod>Thu, 24 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://wp.technologyreview.com/wp-content/uploads/2024/10/miotke_MIT_1.jpg?fit=2128,1196</image:loc>
+            <image:title>AI&#39;s First Hack: A Reckoning for Western Defense</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 24 Sep 2026 12:10:00 +0000</news:publication_date>
+            <news:title>AI&#39;s First Hack: A Reckoning for Western Defense</news:title>
+            
+            <news:keywords>AI Security, Cyber Warfare, Border Surveillance, China AI, Western Defense, Critical Infrastructure</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/ai-s-energy-crucible-geopolitical-stakes-in-the-climate-reckoning-273861.html</loc>
+        <lastmod>Thu, 24 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>AI&#39;s Energy Crucible: Geopolitical Stakes in the Climate Reckoning</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 24 Sep 2026 10:00:00 +0000</news:publication_date>
+            <news:title>AI&#39;s Energy Crucible: Geopolitical Stakes in the Climate Reckoning</news:title>
+            
+            <news:keywords>AI Energy Demand, Climate Security, Geopolitical Competition, Critical Supply Chains, NATO Energy Security, Defense Modernization</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-armoured-corps-forges-autonomous-edge-with-indigenous-mum-t-system-240708.html</loc>
         <lastmod>Thu, 24 Se</lastmod>
         <changefreq>never</changefreq>
