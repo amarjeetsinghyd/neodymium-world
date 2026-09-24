@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-09-23</lastmod>
+        <lastmod>2026-09-24</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-09-23</lastmod>
+        <lastmod>2026-09-24</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-armoured-corps-forges-autonomous-edge-with-indigenous-mum-t-system-240708.html</loc>
+        <lastmod>Thu, 24 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg</image:loc>
+            <image:title>India&#39;s Armoured Corps Forges Autonomous Edge with Indigenous MUM-T System</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 24 Sep 2026 08:20:00 +0000</news:publication_date>
+            <news:title>India&#39;s Armoured Corps Forges Autonomous Edge with Indigenous MUM-T System</news:title>
+            
+            <news:keywords>MUM-T, Indian Army, Atmanirbhar Bharat, EdgeForce Solutions, Robotics, Future Warfare, Border Deterrence</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/slinex-26-anchoring-india-s-maritime-strategy-in-a-contested-indian-ocean-240768.html</loc>
+        <lastmod>Thu, 24 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>SLINEX-26: Anchoring India&#39;s Maritime Strategy in a Contested Indian Ocean</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 24 Sep 2026 07:45:00 +0000</news:publication_date>
+            <news:title>SLINEX-26: Anchoring India&#39;s Maritime Strategy in a Contested Indian Ocean</news:title>
+            
+            <news:keywords>Indian Navy, Sri Lanka Navy, Indian Ocean Region, Maritime Security, SLINEX, Atmanirbhar Bharat</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/homeland-overwatch-falcon-peak-26-2-forges-new-us-counter-drone-strategy-187484.html</loc>
@@ -3309,7 +3357,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-09-23</lastmod>
+        <lastmod>2026-09-24</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
