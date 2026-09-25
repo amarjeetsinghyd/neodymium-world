@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/orbital-imperatives-western-defense-navigates-the-new-space-race-360255.html</loc>
+        <lastmod>Thu, 24 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://i0.wp.com/spacenews.com/wp-content/uploads/2026/09/space-minds-podcast-novaspace-1920-1080.jpg.jpg?fit=1024%2C576&amp;ssl=1</image:loc>
+            <image:title>Orbital Imperatives: Western Defense Navigates the New Space Race</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 24 Sep 2026 15:51:42 +0000</news:publication_date>
+            <news:title>Orbital Imperatives: Western Defense Navigates the New Space Race</news:title>
+            
+            <news:keywords>Space Warfare, Orbital Hegemony, NATO Space Policy, Critical Supply Chains, Counter-Space Weapons, Western Defense Modernization</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/moog-s-clean-room-expansion-accelerating-western-hegemony-in-space-defense-360285.html</loc>
+        <lastmod>Thu, 24 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://i0.wp.com/spacenews.com/wp-content/uploads/2025/03/moog-square.png?fit=1024%2C1024&amp;ssl=1</image:loc>
+            <image:title>Moog&#39;s Clean Room Expansion: Accelerating Western Hegemony in Space Defense</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 24 Sep 2026 15:05:28 +0000</news:publication_date>
+            <news:title>Moog&#39;s Clean Room Expansion: Accelerating Western Hegemony in Space Defense</news:title>
+            
+            <news:keywords>Space-Based Interceptors, Missile Defense, Critical Supply Chains, Western Defense Modernization, Aerospace Propulsion, NATO Deterrence</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/ai-s-first-hack-a-reckoning-for-western-defense-273828.html</loc>
         <lastmod>Thu, 24 Se</lastmod>
         <changefreq>never</changefreq>
