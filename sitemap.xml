@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-09-24</lastmod>
+        <lastmod>2026-09-25</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-09-24</lastmod>
+        <lastmod>2026-09-25</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -87,6 +87,30 @@
             <news:title>AI&#39;s First Hack: A Reckoning for Western Defense</news:title>
             
             <news:keywords>AI Security, Cyber Warfare, Border Surveillance, China AI, Western Defense, Critical Infrastructure</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/russia-s-maritime-drone-plot-a-new-front-in-europe-s-shadow-war-328464.html</loc>
+        <lastmod>Thu, 24 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cloudfront-us-east-1.images.arcpublishing.com/archetype/5PIUG2BHDNC2NKMUML6K5OIJBM.jpg</image:loc>
+            <image:title>Russia&#39;s Maritime Drone Plot: A New Front in Europe&#39;s Shadow War</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 24 Sep 2026 11:19:36 +0000</news:publication_date>
+            <news:title>Russia&#39;s Maritime Drone Plot: A New Front in Europe&#39;s Shadow War</news:title>
+            
+            <news:keywords>Russia Hybrid Warfare, NATO Security, Drone Warfare, Mediterranean Strategy, Maritime Security, European Defense</news:keywords>
             
         </news:news>
     </url>
@@ -591,6 +615,30 @@
             <news:title>The Algorithmic Shadow: AI&#39;s Existential Threat to Western Security</news:title>
             
             <news:keywords>AI Existential Risk, Autonomous Weapons, Cyber Warfare, Biological Threats, NATO Deterrence, Critical Infrastructure</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/western-armies-seek-battlefield-opacity-to-break-digital-stalemate-328529.html</loc>
+        <lastmod>Fri, 18 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cloudfront-us-east-1.images.arcpublishing.com/archetype/UZU4TTCHD5DA7MTOR4ZXPU3RS4.jpg</image:loc>
+            <image:title>Western Armies Seek Battlefield Opacity to Break Digital Stalemate</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 18 Sep 2026 09:01:16 +0000</news:publication_date>
+            <news:title>Western Armies Seek Battlefield Opacity to Break Digital Stalemate</news:title>
+            
+            <news:keywords>Battlefield Opacity, French Army, NATO Modernization, Electronic Warfare, AI in Defense, Maneuver Warfare</news:keywords>
             
         </news:news>
     </url>
@@ -3405,7 +3453,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-09-24</lastmod>
+        <lastmod>2026-09-25</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
