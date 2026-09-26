@@ -23,6 +23,82 @@
     <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Meta&#39;s Muse: A Clarion Call for AI Supply Chain Security</title>
+      <link>https://neodymium.world/articles/meta-s-muse-a-clarion-call-for-ai-supply-chain-security-413971.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/meta-s-muse-a-clarion-call-for-ai-supply-chain-security-413971.html</guid>
+      <pubDate>2026-09-25T12:49:53-04:00</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        The &#39;computer in the cloud&#39; paradigm just got a stark reality check. Meta&#39;s Muse revealed its filesystem, raising urgent questions for secure AI development, data sovereignty, and the defense sector&#39;s digital perimeter. Sterling unpacks the strategic fallout. #AISecurity #Defense
+        
+        [SPLIT]
+        ⚡ Ambiguity between &#39;intended behavior&#39; and security vulnerabilities can be critically exploited in defense contexts.
+        [SPLIT]
+        ⚡ Supply chain integrity for AI models and their operational environments demands rigorous, transparent auditing.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/meta-s-muse-a-clarion-call-for-ai-supply-chain-security-413971.html
+      ]]></description>
+      
+      <category>AI Security</category>
+      
+      <category>Cloud Computing</category>
+      
+      <category>Supply Chain Risk</category>
+      
+      <category>Cyber Defense</category>
+      
+      <category>Data Sovereignty</category>
+      
+      <category>Emerging Tech</category>
+      
+      
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
+      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
+      
+    </item>
+    
+    <item>
+      <title>The AI&#39;s Tainted Core: Model Laundering as a New Vector of Strategic Threat</title>
+      <link>https://neodymium.world/articles/the-ai-s-tainted-core-model-laundering-as-a-new-vector-of-strategic-threat-414002.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/the-ai-s-tainted-core-model-laundering-as-a-new-vector-of-strategic-threat-414002.html</guid>
+      <pubDate>2026-09-25T11:51:56-04:00</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Beyond commercial disputes, &#39;model laundering&#39; represents a stealthy threat to defense AI. Alexander Sterling unpacks how tainted data could compromise Western military systems and erode strategic advantage. #AIDefense #TechSecurity #NATO
+        
+        [SPLIT]
+        ⚡ Adversaries could exploit laundered models to inject subtle biases, backdoors, or performance degradations into Western military AI.
+        [SPLIT]
+        ⚡ Securing the AI supply chain, from data sourcing to model deployment, is paramount for maintaining technological superiority and strategic trust.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/the-ai-s-tainted-core-model-laundering-as-a-new-vector-of-strategic-threat-414002.html
+      ]]></description>
+      
+      <category>AI Security</category>
+      
+      <category>Model Laundering</category>
+      
+      <category>Defense AI</category>
+      
+      <category>Data Provenance</category>
+      
+      <category>Critical Supply Chains</category>
+      
+      <category>NATO AI Strategy</category>
+      
+      
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STKB368_SUNO_C.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
+      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STKB368_SUNO_C.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STKB368_SUNO_C.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
+      
+    </item>
+    
+    <item>
       <title>Orbital Imperatives: Western Defense Navigates the New Space Race</title>
       <link>https://neodymium.world/articles/orbital-imperatives-western-defense-navigates-the-new-space-race-360255.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/orbital-imperatives-western-defense-navigates-the-new-space-race-360255.html</guid>
@@ -705,82 +781,6 @@
       <enclosure url="https://idrw.org/wp-content/uploads/2026/09/1789802434303.jpg" length="0" type="image/jpeg" />
       <media:content url="https://idrw.org/wp-content/uploads/2026/09/1789802434303.jpg" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://idrw.org/wp-content/uploads/2026/09/1789802434303.jpg" />
-      
-    </item>
-    
-    <item>
-      <title>Google&#39;s Inside Play: Unmasking a Supply Chain Cyber Cartel</title>
-      <link>https://neodymium.world/articles/google-s-inside-play-unmasking-a-supply-chain-cyber-cartel-068080.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/google-s-inside-play-unmasking-a-supply-chain-cyber-cartel-068080.html</guid>
-      <pubDate>Sun, 20 Sep 2026 11:07:00 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        A mole inside TeamPCP? Google&#39;s Mandiant pulled off a stunning infiltration, monitoring the notorious supply chain hacking spree from within. This isn&#39;t just a cyber story; it&#39;s a blueprint for proactive intelligence and safeguarding critical digital infrastructure. #CyberSecurit
-        
-        [SPLIT]
-        ⚡ Supply chain attacks represent a profound and cascading vulnerability for Western digital hegemony.
-        [SPLIT]
-        ⚡ Proactive infiltration and disruption are essential to counter rapidly evolving, AI-enhanced cyber threats.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/google-s-inside-play-unmasking-a-supply-chain-cyber-cartel-068080.html
-      ]]></description>
-      
-      <category>Supply Chain Security</category>
-      
-      <category>Cyber Espionage</category>
-      
-      <category>Threat Intelligence</category>
-      
-      <category>TeamPCP</category>
-      
-      <category>Mandiant</category>
-      
-      <category>Digital Deterrence</category>
-      
-      
-      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2216350484-500x500.jpg" length="0" type="image/jpeg" />
-      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2216350484-500x500.jpg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2216350484-500x500.jpg" />
-      
-    </item>
-    
-    <item>
-      <title>India&#39;s Submerged Resolve: Arihant&#39;s K-15 Salvo Tests Signal Maturing Deterrence</title>
-      <link>https://neodymium.world/articles/india-s-submerged-resolve-arihant-s-k-15-salvo-tests-signal-maturing-deterrence-807178.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/india-s-submerged-resolve-arihant-s-k-15-salvo-tests-signal-maturing-deterrence-807178.html</guid>
-      <pubDate>Sat, 19 Sep 2026 08:30:00 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        India&#39;s INS Arihant has successfully conducted K-15 SLBM salvo tests, a critical step in validating its underwater nuclear deterrent. This move significantly strengthens India&#39;s second-strike capability &amp; strategic posture in the Indo-Pacific. #IndianNavy #NuclearDeterrence #Atma
-        
-        [SPLIT]
-        ⚡ Mastering complex multi-missile launches from submerged platforms significantly strengthens India&#39;s second-strike nuclear capability.
-        [SPLIT]
-        ⚡ The indigenous development and testing underscore India&#39;s Atmanirbhar Bharat initiative in critical defense technologies.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/india-s-submerged-resolve-arihant-s-k-15-salvo-tests-signal-maturing-deterrence-807178.html
-      ]]></description>
-      
-      <category>INS Arihant</category>
-      
-      <category>K-15 SLBM</category>
-      
-      <category>Nuclear Deterrence</category>
-      
-      <category>Indian Navy</category>
-      
-      <category>Atmanirbhar Bharat</category>
-      
-      <category>Second-Strike Capability</category>
-      
-      
-      <enclosure url="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" length="0" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
       
     </item>
     

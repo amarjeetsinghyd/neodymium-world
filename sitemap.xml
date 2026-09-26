@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-09-25</lastmod>
+        <lastmod>2026-09-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-09-25</lastmod>
+        <lastmod>2026-09-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/meta-s-muse-a-clarion-call-for-ai-supply-chain-security-413971.html</loc>
+        <lastmod>2026-09-25</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&amp;strip=all&amp;crop=0,0,100,100</image:loc>
+            <image:title>Meta&#39;s Muse: A Clarion Call for AI Supply Chain Security</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2026-09-25T12:49:53-04:00</news:publication_date>
+            <news:title>Meta&#39;s Muse: A Clarion Call for AI Supply Chain Security</news:title>
+            
+            <news:keywords>AI Security, Cloud Computing, Supply Chain Risk, Cyber Defense, Data Sovereignty, Emerging Tech</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/the-ai-s-tainted-core-model-laundering-as-a-new-vector-of-strategic-threat-414002.html</loc>
+        <lastmod>2026-09-25</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STKB368_SUNO_C.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100</image:loc>
+            <image:title>The AI&#39;s Tainted Core: Model Laundering as a New Vector of Strategic Threat</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2026-09-25T11:51:56-04:00</news:publication_date>
+            <news:title>The AI&#39;s Tainted Core: Model Laundering as a New Vector of Strategic Threat</news:title>
+            
+            <news:keywords>AI Security, Model Laundering, Defense AI, Data Provenance, Critical Supply Chains, NATO AI Strategy</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/orbital-imperatives-western-defense-navigates-the-new-space-race-360255.html</loc>
@@ -3501,7 +3549,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-09-25</lastmod>
+        <lastmod>2026-09-26</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
