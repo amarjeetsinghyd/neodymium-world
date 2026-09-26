@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/jaishankar-s-un-rebuke-india-s-hardened-stance-on-state-sponsored-terror-444360.html</loc>
+        <lastmod>Sat, 26 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwidWHLwFWObsRJKNe_VZ2XJl05PqX8_gplWh4GYJd3cnpf_PxJeKHJQJa6gEqvuAbj7TQgWZDvBBaa9zrBW_Qj3lA69NVE2Xf2ReeQk3j-FU7YMdQKcsfkeyKM1GjOSzfBJUWqhmzeFzCQYDnIc7pCKK3DoHmmmKhK3JzumWgMGY5C8BfB9qqFgOrok4/s72-c/Pakistan_Journalist_Insulted_By_Jaishankar.jpg</image:loc>
+            <image:title>Jaishankar&#39;s UN Rebuke: India&#39;s Hardened Stance on State-Sponsored Terror</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 26 Sep 2026 16:30:00 +0000</news:publication_date>
+            <news:title>Jaishankar&#39;s UN Rebuke: India&#39;s Hardened Stance on State-Sponsored Terror</news:title>
+            
+            <news:keywords>India Pakistan Relations, Border Deterrence, Atmanirbhar Bharat, South Asian Geopolitics, Counter-Terrorism, Indian Defense Posture</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-railgun-ambition-private-sector-powers-indigenous-hyper-velocity-future-444406.html</loc>
+        <lastmod>Sat, 26 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRpP2rNUGjPf3QhJOnTUrSar0ecK02AvImkpakC6fQ4vGZaze5RJ4p71hw-4jZRsDufBILUsAAD5YZpsR37rm1DP7gyN6XTwwGc2zLJ-g7tllh7YgbB6DgwkY7rdRKSTCkTBDp0OlT8il5jT-N8FBkwT6PC7-EYC_IvAxn3myVkOFwpLq0zlUmRfkEZ54/s72-c/DRDO_ARDE_Railgun.jpg</image:loc>
+            <image:title>India&#39;s Railgun Ambition: Private Sector Powers Indigenous Hyper-Velocity Future</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 26 Sep 2026 16:29:00 +0000</news:publication_date>
+            <news:title>India&#39;s Railgun Ambition: Private Sector Powers Indigenous Hyper-Velocity Future</news:title>
+            
+            <news:keywords>Railgun, DRDO, Atmanirbhar Bharat, Border Deterrence, Electromagnetic Launcher, Indian Military Modernization</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/meta-s-muse-a-clarion-call-for-ai-supply-chain-security-413971.html</loc>
         <lastmod>2026-09-25</lastmod>
         <changefreq>never</changefreq>
