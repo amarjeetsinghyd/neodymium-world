@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-09-26</lastmod>
+        <lastmod>2026-09-27</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-09-26</lastmod>
+        <lastmod>2026-09-27</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -111,6 +111,54 @@
             <news:title>India&#39;s Railgun Ambition: Private Sector Powers Indigenous Hyper-Velocity Future</news:title>
             
             <news:keywords>Railgun, DRDO, Atmanirbhar Bharat, Border Deterrence, Electromagnetic Launcher, Indian Military Modernization</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/raswdc-us-navy-s-gambit-for-unmanned-maritime-hegemony-502766.html</loc>
+        <lastmod>Fri, 25 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>RASWDC: US Navy&#39;s Gambit for Unmanned Maritime Hegemony</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 25 Sep 2026 14:34:04 +0000</news:publication_date>
+            <news:title>RASWDC: US Navy&#39;s Gambit for Unmanned Maritime Hegemony</news:title>
+            
+            <news:keywords>US Navy, Unmanned Systems, RASWDC, Maritime Strategy, AI in Warfare, Western Deterrence</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/northcom-pivots-to-urban-drone-defense-a-new-front-in-homeland-security-502793.html</loc>
+        <lastmod>Fri, 25 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail</image:loc>
+            <image:title>Northcom Pivots to Urban Drone Defense: A New Front in Homeland Security</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 25 Sep 2026 12:55:52 +0000</news:publication_date>
+            <news:title>Northcom Pivots to Urban Drone Defense: A New Front in Homeland Security</news:title>
+            
+            <news:keywords>Counter-UAS, Homeland Defense, Urban Warfare, Northcom, Asymmetric Threats, Critical Infrastructure Protection</news:keywords>
             
         </news:news>
     </url>
@@ -3597,7 +3645,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-09-26</lastmod>
+        <lastmod>2026-09-27</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
