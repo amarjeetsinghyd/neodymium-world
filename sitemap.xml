@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/the-orbital-nexus-how-commercial-space-redefines-western-security-627089.html</loc>
+        <lastmod>Mon, 28 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://i0.wp.com/spacenews.com/wp-content/uploads/2026/09/economist-enterprise.png?fit=900%2C902&amp;ssl=1</image:loc>
+            <image:title>The Orbital Nexus: How Commercial Space Redefines Western Security</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 28 Sep 2026 14:57:21 +0000</news:publication_date>
+            <news:title>The Orbital Nexus: How Commercial Space Redefines Western Security</news:title>
+            
+            <news:keywords>Space Economy, Western Security, Geopolitics, Defense Modernization, Supply Chain Hegemony, Orbital Deterrence</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/agile-propulsion-fortifying-us-space-hegemony-amidst-orbital-contestation-627122.html</loc>
+        <lastmod>Mon, 28 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/agile-space-industries-square-logo-scaled.png?fit=1024%2C1024&amp;ssl=1</image:loc>
+            <image:title>Agile Propulsion: Fortifying US Space Hegemony Amidst Orbital Contestation</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 28 Sep 2026 12:00:00 +0000</news:publication_date>
+            <news:title>Agile Propulsion: Fortifying US Space Hegemony Amidst Orbital Contestation</news:title>
+            
+            <news:keywords>In-Space Propulsion, Orbital Maneuverability, Space Force, Defense Industrial Base, Strategic Deterrence, Additive Manufacturing</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/jaishankar-s-un-rebuke-india-s-hardened-stance-on-state-sponsored-terror-444360.html</loc>
         <lastmod>Sat, 26 Se</lastmod>
         <changefreq>never</changefreq>
