@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/the-crucible-of-the-gulf-petersen-s-combat-return-reshapes-naval-doctrine-709037.html</loc>
+        <lastmod>Tue, 29 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.defenseone.com/media/img/cd/2026/09/29/IMG_1364/thumb.mpo</image:loc>
+            <image:title>The Crucible of the Gulf: Petersen&#39;s Combat Return Reshapes Naval Doctrine</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 29 Sep 2026 13:38:00 -0400</news:publication_date>
+            <news:title>The Crucible of the Gulf: Petersen&#39;s Combat Return Reshapes Naval Doctrine</news:title>
+            
+            <news:keywords>Naval Warfare, USS Frank E. Petersen Jr., Iran Conflict, Air Defense, Logistics, Western Defense Modernization</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/hegseth-mobilizes-dod-intelligence-for-election-defense-amidst-federal-retreat-709065.html</loc>
+        <lastmod>Mon, 28 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.defenseone.com/media/img/cd/2026/09/29/092826HegsethNG/thumb.jpg</image:loc>
+            <image:title>Hegseth Mobilizes DoD Intelligence for Election Defense Amidst Federal Retreat</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 28 Sep 2026 18:15:00 -0400</news:publication_date>
+            <news:title>Hegseth Mobilizes DoD Intelligence for Election Defense Amidst Federal Retreat</news:title>
+            
+            <news:keywords>Election Security, Cyber Command, Foreign Malign Influence, AI Disinformation, National Security, DoD Intelligence</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/the-orbital-nexus-how-commercial-space-redefines-western-security-627089.html</loc>
         <lastmod>Mon, 28 Se</lastmod>
         <changefreq>never</changefreq>
