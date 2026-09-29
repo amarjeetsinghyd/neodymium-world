@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-09-28</lastmod>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -207,6 +207,30 @@
             <news:title>Pentagon&#39;s AI Red Line: Anthropic Ban Signals Deeper Strategic Dilemma</news:title>
             
             <news:keywords>AI in Defense, Supply Chain Security, Pentagon AI Policy, Anthropic Ban, National Security Law, Defense Industrial Base</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/digital-deception-s-new-front-google-ads-expose-a-deeper-threat-to-western-resil-677693.html</loc>
+        <lastmod>Fri, 25 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2026/09/malware-infected-laptop-500x500.jpg</image:loc>
+            <image:title>Digital Deception&#39;s New Front: Google Ads Expose a Deeper Threat to Western Resilience</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 25 Sep 2026 19:38:59 +0000</news:publication_date>
+            <news:title>Digital Deception&#39;s New Front: Google Ads Expose a Deeper Threat to Western Resilience</news:title>
+            
+            <news:keywords>Cyber Warfare, Information Operations, Critical Infrastructure, Supply Chain Security, NATO Resilience, Digital Deception</news:keywords>
             
         </news:news>
     </url>
@@ -567,6 +591,30 @@
             <news:title>Australia&#39;s Aerial Vanguard: Triton, Peregrine IOC Reshapes Indo-Pacific Standoff</news:title>
             
             <news:keywords>Australia Defense, Indo-Pacific Security, MQ-4C Triton, MC-55A Peregrine, ISR &amp; EW, Regional Deterrence</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/data-integrity-s-front-line-a-hospital-s-warning-for-western-defense-677779.html</loc>
+        <lastmod>Tue, 22 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2255624329-500x500.jpg</image:loc>
+            <image:title>Data Integrity&#39;s Front Line: A Hospital&#39;s Warning for Western Defense</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 22 Sep 2026 16:55:40 +0000</news:publication_date>
+            <news:title>Data Integrity&#39;s Front Line: A Hospital&#39;s Warning for Western Defense</news:title>
+            
+            <news:keywords>Data Integrity, Cyber Resilience, Critical Infrastructure, Western Defense, Supply Chain Security, Human Factors</news:keywords>
             
         </news:news>
     </url>
@@ -3741,7 +3789,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-09-28</lastmod>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
