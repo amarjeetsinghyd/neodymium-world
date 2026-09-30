@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/himalayan-lifeline-bonv-aero-s-uavs-bolster-india-s-eastern-command-794338.html</loc>
+        <lastmod>Wed, 30 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://idrw.org/wp-content/uploads/2026/09/HTcfPbWagAEXgB7.jpg</image:loc>
+            <image:title>Himalayan Lifeline: BonV Aero&#39;s UAVs Bolster India&#39;s Eastern Command</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 30 Sep 2026 16:42:00 +0000</news:publication_date>
+            <news:title>Himalayan Lifeline: BonV Aero&#39;s UAVs Bolster India&#39;s Eastern Command</news:title>
+            
+            <news:keywords>UAV Logistics, Indian Army, Eastern Command, Atmanirbhar Bharat, Himalayan Warfare, Border Deterrence</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-high-stakes-himalayan-gambit-a-xinjiang-air-corridor-794386.html</loc>
+        <lastmod>Wed, 30 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://idrw.org/wp-content/uploads/2026/09/Pakistan-airspace.jpg</image:loc>
+            <image:title>India&#39;s High-Stakes Himalayan Gambit: A Xinjiang Air Corridor?</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 30 Sep 2026 15:50:00 +0000</news:publication_date>
+            <news:title>India&#39;s High-Stakes Himalayan Gambit: A Xinjiang Air Corridor?</news:title>
+            
+            <news:keywords>Xinjiang Air Corridor, Pakistan Airspace Ban, Aksai Chin, India China Relations, Geopolitics, Airspace Sovereignty</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/the-crucible-of-the-gulf-petersen-s-combat-return-reshapes-naval-doctrine-709037.html</loc>
         <lastmod>Tue, 29 Se</lastmod>
         <changefreq>never</changefreq>
