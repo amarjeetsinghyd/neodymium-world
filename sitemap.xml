@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-01</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-01</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/can-amca-meet-its-september-2028-first-flight-target-india-s-stealth-fighter-rac-851604.html</loc>
+        <lastmod>Thu, 01 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggEkKgtmRR7am0uBn289RyKqVFguhnfVleysC1fxHRwgRAYCfrzBzedHbsMO0KC-_Xlm95uImx2bR3Muuxq3RuCb568w2eiQJET_zV0KCkXhlfdS6RmgYRpsdXC_1GypKAdutHpKu_PzpvtLLtGQ54cY1Iwdek2SBybm_W_gQB3ZTzEae4M9wT89LvxNA/s72-c/AMCA_Manufacturing.jpg</image:loc>
+            <image:title>Can AMCA Meet Its September 2028 First Flight Target? India&#39;s Stealth Fighter Race Against Time</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 01 Oct 2026 05:14:11 +0000</news:publication_date>
+            <news:title>Can AMCA Meet Its September 2028 First Flight Target? India&#39;s Stealth Fighter Race Against Time</news:title>
+            
+            <news:keywords>AMCA, Tejas Mk2, Atmanirbhar Bharat, Stealth Fighter, Indian Air Force, DRDO</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/ge-engine-deliveries-bolster-tejas-mk-1a-reshaping-india-s-air-power-trajectory-851650.html</loc>
+        <lastmod>Thu, 01 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXThHFOpjXrYCI2vXz4s8Iw7pxbphyphenhyphenVBKr6Gw2P7TZPH875cfEgf_XdmGQ2bxoFZcsUgBBfNjz1QdFbTNsA7MIc3NSZFUoS-jXPPiwWFvomATE7qKvRlBYCKtITpTQNQVsi9nJ-L2-xQMCIBcnr-5ccjhtkjkKpUu_h8Y_NDEPKEdHBwx0rjrbE-Ba6sQ/s72-c/LCA_Tejas_Fighter_Manufacturing_HAL_1.jpg</image:loc>
+            <image:title>GE Engine Deliveries Bolster Tejas Mk-1A, Reshaping India&#39;s Air Power Trajectory</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 01 Oct 2026 05:10:00 +0000</news:publication_date>
+            <news:title>GE Engine Deliveries Bolster Tejas Mk-1A, Reshaping India&#39;s Air Power Trajectory</news:title>
+            
+            <news:keywords>Tejas Mk-1A, GE F404 Engine, Indian Air Force, Atmanirbhar Bharat, Aerospace Industry, South Asian Geopolitics</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/himalayan-lifeline-bonv-aero-s-uavs-bolster-india-s-eastern-command-794338.html</loc>
@@ -3909,7 +3957,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-01</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
