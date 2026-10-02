@@ -92,6 +92,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/the-silent-chokepoint-memory-shortage-threatens-western-digital-dominance-968133.html</loc>
+        <lastmod>Thu, 01 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1723107474-500x500.jpg</image:loc>
+            <image:title>The Silent Chokepoint: Memory Shortage Threatens Western Digital Dominance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 01 Oct 2026 17:49:56 +0000</news:publication_date>
+            <news:title>The Silent Chokepoint: Memory Shortage Threatens Western Digital Dominance</news:title>
+            
+            <news:keywords>Memory Shortage, High-Bandwidth Memory, AI in Defense, Supply Chain Resilience, Semiconductor Geopolitics, Western Defense Modernization</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/strategic-scope-and-data-relevancy-a-neodymium-world-perspective-936773.html</loc>
         <lastmod>Thu, 01 Oc</lastmod>
         <changefreq>never</changefreq>
@@ -159,6 +183,30 @@
             <news:title>GE Engine Deliveries Bolster Tejas Mk-1A, Reshaping India&#39;s Air Power Trajectory</news:title>
             
             <news:keywords>Tejas Mk-1A, GE F404 Engine, Indian Air Force, Atmanirbhar Bharat, Aerospace Industry, South Asian Geopolitics</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/us-navy-commits-1-billion-to-robotic-fleet-reshaping-maritime-dominance-967816.html</loc>
+        <lastmod>Wed, 30 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>US Navy Commits $1 Billion to Robotic Fleet, Reshaping Maritime Dominance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 30 Sep 2026 19:46:59 +0000</news:publication_date>
+            <news:title>US Navy Commits $1 Billion to Robotic Fleet, Reshaping Maritime Dominance</news:title>
+            
+            <news:keywords>Unmanned Surface Vessels, US Navy, Naval Modernization, Autonomous Systems, Defense Acquisition, Distributed Maritime Operations</news:keywords>
             
         </news:news>
     </url>
