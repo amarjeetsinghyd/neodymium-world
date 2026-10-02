@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-10-01</lastmod>
+        <lastmod>2026-10-02</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-10-01</lastmod>
+        <lastmod>2026-10-02</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/the-unseen-divide-how-wealth-shapes-the-global-ai-calculus-936581.html</loc>
+        <lastmod>Fri, 02 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/sci-tech/technology/s69n0r/article71494761.ece/alternates/LANDSCAPE_1200/AFP__20260916__C8G86LW__v1__HighRes__BritainPoliticsTechnologyAiProtest.jpg</image:loc>
+            <image:title>The Unseen Divide: How Wealth Shapes the Global AI Calculus</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 02 Oct 2026 07:52:00 +0530</news:publication_date>
+            <news:title>The Unseen Divide: How Wealth Shapes the Global AI Calculus</news:title>
+            
+            <news:keywords>AI Perception, Pew Research, Global Inequality, India AI Strategy, Digital Divide, National Policy</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/strategic-scope-and-data-relevancy-a-neodymium-world-perspective-936773.html</loc>
+        <lastmod>Thu, 01 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/tckcnc/article71532011.ece/alternates/LANDSCAPE_1200/TH03-PTI-SeveraG69GBJ4PJ.3.jpg.jpg</image:loc>
+            <image:title>Strategic Scope and Data Relevancy: A Neodymium World Perspective</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 01 Oct 2026 14:00:07 +0530</news:publication_date>
+            <news:title>Strategic Scope and Data Relevancy: A Neodymium World Perspective</news:title>
+            
+            <news:keywords>Strategic Analysis, Data Relevance, Intelligence Mandate, Geopolitics, Defense Policy, National Security</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/can-amca-meet-its-september-2028-first-flight-target-india-s-stealth-fighter-rac-851604.html</loc>
@@ -3981,7 +4029,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-10-01</lastmod>
+        <lastmod>2026-10-02</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
