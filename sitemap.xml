@@ -164,6 +164,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/beneath-the-calm-an-air-incident-s-echoes-in-a-volatile-middle-east-049818.html</loc>
+        <lastmod>Thu, 01 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1519074069444-1ba4fff16def?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Beneath the Calm: An Air Incident&#39;s Echoes in a Volatile Middle East</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 01 Oct 2026 11:46:27 +0000</news:publication_date>
+            <news:title>Beneath the Calm: An Air Incident&#39;s Echoes in a Volatile Middle East</news:title>
+            
+            <news:keywords>India-Israel Relations, Middle East Geopolitics, Aviation Security, Abraham Accords, Regional Stability, Intelligence Analysis</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/can-amca-meet-its-september-2028-first-flight-target-india-s-stealth-fighter-rac-851604.html</loc>
         <lastmod>Thu, 01 Oc</lastmod>
         <changefreq>never</changefreq>
@@ -303,6 +327,30 @@
             <news:title>India&#39;s High-Stakes Himalayan Gambit: A Xinjiang Air Corridor?</news:title>
             
             <news:keywords>Xinjiang Air Corridor, Pakistan Airspace Ban, Aksai Chin, India China Relations, Geopolitics, Airspace Sovereignty</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/finland-s-iceye-to-manufacture-sar-satellites-in-india-bolstering-strategic-auto-049955.html</loc>
+        <lastmod>Wed, 30 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Finland&#39;s ICEYE to Manufacture SAR Satellites in India, Bolstering Strategic Autonomy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 30 Sep 2026 12:13:25 +0000</news:publication_date>
+            <news:title>Finland&#39;s ICEYE to Manufacture SAR Satellites in India, Bolstering Strategic Autonomy</news:title>
+            
+            <news:keywords>SAR Satellites, Atmanirbhar Bharat, Space Diplomacy, Border Surveillance, India Defense, Geospatial Intelligence</news:keywords>
             
         </news:news>
     </url>
