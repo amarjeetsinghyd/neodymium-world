@@ -23,6 +23,44 @@
     <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Apple&#39;s Privacy Overhaul: Reclaiming the Digital Frontier from AI&#39;s Unsanctioned Grasp</title>
+      <link>https://neodymium.world/articles/apple-s-privacy-overhaul-reclaiming-the-digital-frontier-from-ai-s-unsanctioned--020606.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/apple-s-privacy-overhaul-reclaiming-the-digital-frontier-from-ai-s-unsanctioned--020606.html</guid>
+      <pubDate>Fri, 02 Oct 2026 23:03:16 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Apple&#39;s macOS privacy overhaul isn&#39;t just about consumer data; it&#39;s a strategic move in the digital battlespace. Alexander Sterling unpacks how AI agents&#39; &#39;Full Disk Access&#39; can compromise national security, setting a new precedent for digital defense and supply chain integrity. 
+        
+        [SPLIT]
+        ⚡ The &#39;Full Disk Access&#39; permission on macOS, initially designed for legitimate system-level functions, became an Achilles&#39; heel for data privacy and security.
+        [SPLIT]
+        ⚡ The Meta Muse incident highlights a critical trust deficit between OS providers and third-party developers regarding data handling and user consent.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/apple-s-privacy-overhaul-reclaiming-the-digital-frontier-from-ai-s-unsanctioned--020606.html
+      ]]></description>
+      
+      <category>AI Security</category>
+      
+      <category>Data Sovereignty</category>
+      
+      <category>macOS Privacy</category>
+      
+      <category>Full Disk Access</category>
+      
+      <category>Information Warfare</category>
+      
+      <category>Critical Infrastructure</category>
+      
+      
+      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-500x500.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-500x500.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-500x500.jpg" />
+      
+    </item>
+    
+    <item>
       <title>The Unseen Divide: How Wealth Shapes the Global AI Calculus</title>
       <link>https://neodymium.world/articles/the-unseen-divide-how-wealth-shapes-the-global-ai-calculus-936581.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/the-unseen-divide-how-wealth-shapes-the-global-ai-calculus-936581.html</guid>
@@ -209,6 +247,44 @@
       <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXThHFOpjXrYCI2vXz4s8Iw7pxbphyphenhyphenVBKr6Gw2P7TZPH875cfEgf_XdmGQ2bxoFZcsUgBBfNjz1QdFbTNsA7MIc3NSZFUoS-jXPPiwWFvomATE7qKvRlBYCKtITpTQNQVsi9nJ-L2-xQMCIBcnr-5ccjhtkjkKpUu_h8Y_NDEPKEdHBwx0rjrbE-Ba6sQ/s72-c/LCA_Tejas_Fighter_Manufacturing_HAL_1.jpg" length="0" type="image/jpeg" />
       <media:content url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXThHFOpjXrYCI2vXz4s8Iw7pxbphyphenhyphenVBKr6Gw2P7TZPH875cfEgf_XdmGQ2bxoFZcsUgBBfNjz1QdFbTNsA7MIc3NSZFUoS-jXPPiwWFvomATE7qKvRlBYCKtITpTQNQVsi9nJ-L2-xQMCIBcnr-5ccjhtkjkKpUu_h8Y_NDEPKEdHBwx0rjrbE-Ba6sQ/s72-c/LCA_Tejas_Fighter_Manufacturing_HAL_1.jpg" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXThHFOpjXrYCI2vXz4s8Iw7pxbphyphenhyphenVBKr6Gw2P7TZPH875cfEgf_XdmGQ2bxoFZcsUgBBfNjz1QdFbTNsA7MIc3NSZFUoS-jXPPiwWFvomATE7qKvRlBYCKtITpTQNQVsi9nJ-L2-xQMCIBcnr-5ccjhtkjkKpUu_h8Y_NDEPKEdHBwx0rjrbE-Ba6sQ/s72-c/LCA_Tejas_Fighter_Manufacturing_HAL_1.jpg" />
+      
+    </item>
+    
+    <item>
+      <title>Critical Zimbra Flaw Exploited: A New Vector for Strategic Espionage</title>
+      <link>https://neodymium.world/articles/critical-zimbra-flaw-exploited-a-new-vector-for-strategic-espionage-020647.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/critical-zimbra-flaw-exploited-a-new-vector-for-strategic-espionage-020647.html</guid>
+      <pubDate>Wed, 30 Sep 2026 20:44:48 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        🚨 BREAKING: A critical Zimbra vulnerability is being actively exploited to steal emails &amp; credentials. This isn&#39;t just a tech issue—it&#39;s a direct threat to strategic intelligence and critical supply chains. Who&#39;s behind it, and what&#39;s at stake for Western defenses? #CyberSecurity
+        
+        [SPLIT]
+        ⚡ The exploit chain involves targeting the SNMP notification path via crafted SMTP requests, leading to web shells, privilege escalation, and data exfiltration.
+        [SPLIT]
+        ⚡ Widespread compromise across sectors and geographies indicates a broad, potentially state-sponsored, intelligence-gathering operation against critical infrastructure and supply chain entities.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/critical-zimbra-flaw-exploited-a-new-vector-for-strategic-espionage-020647.html
+      ]]></description>
+      
+      <category>Zimbra Vulnerability</category>
+      
+      <category>CVE-2026-73570</category>
+      
+      <category>Cyber Espionage</category>
+      
+      <category>Critical Infrastructure</category>
+      
+      <category>Supply Chain Security</category>
+      
+      <category>National Security</category>
+      
+      
+      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" />
       
     </item>
     
@@ -703,82 +779,6 @@
       <enclosure url="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" length="0" type="image/jpeg" />
       <media:content url="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
-      
-    </item>
-    
-    <item>
-      <title>Northcom Pivots to Urban Drone Defense: A New Front in Homeland Security</title>
-      <link>https://neodymium.world/articles/northcom-pivots-to-urban-drone-defense-a-new-front-in-homeland-security-502793.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/northcom-pivots-to-urban-drone-defense-a-new-front-in-homeland-security-502793.html</guid>
-      <pubDate>Fri, 25 Sep 2026 12:55:52 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        America&#39;s cities are the next battleground for drone defense. Northcom&#39;s urban C-UAS demo isn&#39;t just a test; it&#39;s a strategic pivot. Alexander Sterling breaks down the high-stakes implications for homeland security, critical infrastructure, and the future of Western defense. #Cou
-        
-        [SPLIT]
-        ⚡ The urban environment introduces severe complexities for C-UAS, particularly regarding collateral damage, legal frameworks, and technical clutter.
-        [SPLIT]
-        ⚡ Northcom&#39;s role as lead synchronizer is accelerating the adoption of critical counter-drone technologies for the joint force.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/northcom-pivots-to-urban-drone-defense-a-new-front-in-homeland-security-502793.html
-      ]]></description>
-      
-      <category>Counter-UAS</category>
-      
-      <category>Homeland Defense</category>
-      
-      <category>Urban Warfare</category>
-      
-      <category>Northcom</category>
-      
-      <category>Asymmetric Threats</category>
-      
-      <category>Critical Infrastructure Protection</category>
-      
-      
-      <enclosure url="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" length="0" type="image/jpeg" />
-      <media:content url="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" />
-      
-    </item>
-    
-    <item>
-      <title>Meta&#39;s Muse: A Clarion Call for AI Supply Chain Security</title>
-      <link>https://neodymium.world/articles/meta-s-muse-a-clarion-call-for-ai-supply-chain-security-413971.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/meta-s-muse-a-clarion-call-for-ai-supply-chain-security-413971.html</guid>
-      <pubDate>2026-09-25T12:49:53-04:00</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        The &#39;computer in the cloud&#39; paradigm just got a stark reality check. Meta&#39;s Muse revealed its filesystem, raising urgent questions for secure AI development, data sovereignty, and the defense sector&#39;s digital perimeter. Sterling unpacks the strategic fallout. #AISecurity #Defense
-        
-        [SPLIT]
-        ⚡ Ambiguity between &#39;intended behavior&#39; and security vulnerabilities can be critically exploited in defense contexts.
-        [SPLIT]
-        ⚡ Supply chain integrity for AI models and their operational environments demands rigorous, transparent auditing.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/meta-s-muse-a-clarion-call-for-ai-supply-chain-security-413971.html
-      ]]></description>
-      
-      <category>AI Security</category>
-      
-      <category>Cloud Computing</category>
-      
-      <category>Supply Chain Risk</category>
-      
-      <category>Cyber Defense</category>
-      
-      <category>Data Sovereignty</category>
-      
-      <category>Emerging Tech</category>
-      
-      
-      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
-      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
       
     </item>
     
