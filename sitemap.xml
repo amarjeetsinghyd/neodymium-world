@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-10-04</lastmod>
+        <lastmod>2026-10-05</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-10-04</lastmod>
+        <lastmod>2026-10-05</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -308,6 +308,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/gemini-4-argon-reshaping-the-digital-battlefield-s-strategic-calculus-198882.html</loc>
+        <lastmod>Wed, 30 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Gemini 4 Argon: Reshaping the Digital Battlefield&#39;s Strategic Calculus</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 30 Sep 2026 20:01:45 +0000</news:publication_date>
+            <news:title>Gemini 4 Argon: Reshaping the Digital Battlefield&#39;s Strategic Calculus</news:title>
+            
+            <news:keywords>Frontier AI, Cybersecurity Defense, Western Defense, AI Ethics, Dual-Use Technology, NATO Deterrence</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/us-navy-commits-1-billion-to-robotic-fleet-reshaping-maritime-dominance-967816.html</loc>
         <lastmod>Wed, 30 Se</lastmod>
         <changefreq>never</changefreq>
@@ -375,6 +399,30 @@
             <news:title>India&#39;s High-Stakes Himalayan Gambit: A Xinjiang Air Corridor?</news:title>
             
             <news:keywords>Xinjiang Air Corridor, Pakistan Airspace Ban, Aksai Chin, India China Relations, Geopolitics, Airspace Sovereignty</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/the-bio-attribution-imperative-watermarking-ai-s-new-frontier-198912.html</loc>
+        <lastmod>Wed, 30 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://lh3.googleusercontent.com/wNhpZFcXYLXFb6alIt0H5NRvEoso2ONZDhPKz6MYEcGltHPbDeHddzkvv5GXl3abW1PZ5ci1Y9lKoYOIjMuHLxATXfWp88-Al6eEmDENrpejIFeimw=w528-h297-n-nu-rw-lo</image:loc>
+            <image:title>The Bio-Attribution Imperative: Watermarking AI&#39;s New Frontier</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 30 Sep 2026 15:03:07 +0000</news:publication_date>
+            <news:title>The Bio-Attribution Imperative: Watermarking AI&#39;s New Frontier</news:title>
+            
+            <news:keywords>Biosecurity, AI Attribution, Synthetic Biology, Dual-Use Technology, Global Defense, Critical Supply Chains</news:keywords>
             
         </news:news>
     </url>
@@ -4221,7 +4269,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-10-04</lastmod>
+        <lastmod>2026-10-05</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
