@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/the-silent-breach-western-defense-s-vulnerable-human-element-235455.html</loc>
+        <lastmod>Mon, 05 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.defenseone.com/media/img/cd/2026/10/05/GettyImages_2287542931-1/thumb.jpg</image:loc>
+            <image:title>The Silent Breach: Western Defense&#39;s Vulnerable Human Element</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 05 Oct 2026 14:00:00 -0400</news:publication_date>
+            <news:title>The Silent Breach: Western Defense&#39;s Vulnerable Human Element</news:title>
+            
+            <news:keywords>Cyber Warfare, Personnel Security, NATO Deterrence, Foreign Intelligence, AI Cyberattacks, Critical Infrastructure Security</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/dni-clayton-s-dual-mandate-america-s-ai-czar-and-the-geopolitical-race-235491.html</loc>
+        <lastmod>Mon, 05 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.defenseone.com/media/img/cd/2026/10/05/100526ClaytonNG-1/thumb.jpg</image:loc>
+            <image:title>DNI Clayton&#39;s Dual Mandate: America&#39;s AI Czar and the Geopolitical Race</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 05 Oct 2026 11:00:00 -0400</news:publication_date>
+            <news:title>DNI Clayton&#39;s Dual Mandate: America&#39;s AI Czar and the Geopolitical Race</news:title>
+            
+            <news:keywords>AI Governance, National Security, Geopolitical Competition, US Intelligence, Defense Modernization, Critical Technology</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-ai-frontier-bridging-the-lab-to-battlefield-gap-for-strategic-autonomy-109641.html</loc>
         <lastmod>Sun, 04 Oc</lastmod>
         <changefreq>never</changefreq>
