@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-10-06</lastmod>
+        <lastmod>2026-10-07</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-10-06</lastmod>
+        <lastmod>2026-10-07</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-strategic-imperative-forging-autonomy-in-a-contested-continent-370472.html</loc>
+        <lastmod>Wed, 07 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://idrw.org/wp-content/uploads/2026/10/image001_20261006143301_571724.jpg</image:loc>
+            <image:title>India&#39;s Strategic Imperative: Forging Autonomy in a Contested Continent</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 07 Oct 2026 10:20:00 +0000</news:publication_date>
+            <news:title>India&#39;s Strategic Imperative: Forging Autonomy in a Contested Continent</news:title>
+            
+            <news:keywords>Indian Defense, Atmanirbhar Bharat, Border Deterrence, South Asian Geopolitics, Strategic Autonomy, Defense Modernization</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-akash-exports-a-strategic-foothold-in-central-asia-370526.html</loc>
+        <lastmod>Wed, 07 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://idrw.org/wp-content/uploads/2026/09/AkashPrimeSAM-2.jpg</image:loc>
+            <image:title>India&#39;s Akash Exports: A Strategic Foothold in Central Asia</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 07 Oct 2026 09:35:00 +0000</news:publication_date>
+            <news:title>India&#39;s Akash Exports: A Strategic Foothold in Central Asia</news:title>
+            
+            <news:keywords>Akash-1S, Indian Defense Exports, Central Asia Geopolitics, Atmanirbhar Bharat, Air Defense Systems, Strategic Autonomy</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/drdo-s-stratospheric-breakthrough-persistent-eyes-on-india-s-borders-314420.html</loc>
@@ -4413,7 +4461,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-10-06</lastmod>
+        <lastmod>2026-10-07</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
