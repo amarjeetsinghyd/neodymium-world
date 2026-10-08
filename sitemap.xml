@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-10-07</lastmod>
+        <lastmod>2026-10-08</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-10-07</lastmod>
+        <lastmod>2026-10-08</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -135,6 +135,30 @@
             <news:title>India&#39;s Defense Industry Forges New Frontiers, Anchoring in Morocco</news:title>
             
             <news:keywords>India Defense Exports, MKU Morocco, Atmanirbhar Bharat, Defense Manufacturing, South Asian Geopolitics, African Defense Market</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/edge-ai-s-new-vanguard-embeddinggemma-2-and-the-future-of-battlefield-intelligen-457890.html</loc>
+        <lastmod>Tue, 06 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Edge AI&#39;s New Vanguard: EmbeddingGemma 2 and the Future of Battlefield Intelligence</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 06 Oct 2026 19:57:04 +0000</news:publication_date>
+            <news:title>Edge AI&#39;s New Vanguard: EmbeddingGemma 2 and the Future of Battlefield Intelligence</news:title>
+            
+            <news:keywords>Edge AI, Multimodal Intelligence, On-Device Processing, NATO Modernization, Battlefield AI, Data Fusion</news:keywords>
             
         </news:news>
     </url>
@@ -1167,6 +1191,30 @@
             <news:title>SLINEX-26: Anchoring India&#39;s Maritime Strategy in a Contested Indian Ocean</news:title>
             
             <news:keywords>Indian Navy, Sri Lanka Navy, Indian Ocean Region, Maritime Security, SLINEX, Atmanirbhar Bharat</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/cognitive-sovereignty-private-ai-compute-and-the-new-defense-perimeter-457965.html</loc>
+        <lastmod>Wed, 23 Se</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://lh3.googleusercontent.com/CsJavGl89SJwjdXVDdaKtAEpLbqHa_nzOW89VTThwA8rgYr9Gf3CSiUWk18i5thA57k8zhwdwmvf3F2yagtJ-P1ag-9ppxsPXcUe99DRY9asIRP2yA=w528-h297-n-nu-rw-lo</image:loc>
+            <image:title>Cognitive Sovereignty: Private AI Compute and the New Defense Perimeter</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 23 Sep 2026 16:00:57 +0000</news:publication_date>
+            <news:title>Cognitive Sovereignty: Private AI Compute and the New Defense Perimeter</news:title>
+            
+            <news:keywords>Private AI Compute, National Security, AI Sovereignty, Defense Modernization, Supply Chain Security, NATO Deterrence</news:keywords>
             
         </news:news>
     </url>
@@ -4509,7 +4557,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-10-07</lastmod>
+        <lastmod>2026-10-08</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
