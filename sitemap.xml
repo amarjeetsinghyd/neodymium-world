@@ -4724,6 +4724,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/pollo-ai-turns-creative-ideas-into-campaigns-with-openai-488606.html</loc>
+        <lastmod>Thu, 08 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Pollo AI Turns Creative Ideas into Campaigns with OpenAI</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 08 Oct 2026 12:00:00 GMT</news:publication_date>
+            <news:title>Pollo AI Turns Creative Ideas into Campaigns with OpenAI</news:title>
+            
+            <news:keywords>Generative AI, Information Warfare, OpenAI, Cognitive Domain, NATO Deterrence, Strategic Communication</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/strategic-forecasting-the-unpredictability-doctrine-in-defense-geopolitics-767648.html</loc>
         <lastmod>Mon, 03 Au</lastmod>
         <changefreq>never</changefreq>
@@ -4767,6 +4791,30 @@
             <news:title>Tata&#39;s Blueprint: Pre-1947 Industrial Strategy as a Geopolitical Playbook</news:title>
             
             <news:keywords>Atmanirbhar Bharat, Geopolitics, Defense Tech, Indian History, Strategic Autonomy, Economic Nationalism, Colonialism, Corporate Strategy</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/the-ai-acceleration-oracle-s-blueprint-for-defense-modernization-488569.html</loc>
+        <lastmod>Thu, 08 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>The AI Acceleration: Oracle&#39;s Blueprint for Defense Modernization</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 08 Oct 2026 16:00:00 GMT</news:publication_date>
+            <news:title>The AI Acceleration: Oracle&#39;s Blueprint for Defense Modernization</news:title>
+            
+            <news:keywords>Defense AI, Military Modernization, NATO Tech, Strategic Autonomy, AI Ethics, Decision Support Systems</news:keywords>
             
         </news:news>
     </url>
