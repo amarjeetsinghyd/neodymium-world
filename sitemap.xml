@@ -380,6 +380,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/pentagon-retreats-from-algorithmic-truth-a-strategic-reassessment-of-ai-lie-dete-656141.html</loc>
+        <lastmod>Mon, 05 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cloudfront-us-east-1.images.arcpublishing.com/archetype/CGSLKS4QGBEK5ARFHZQ7G6H3ME.jpg</image:loc>
+            <image:title>Pentagon Retreats from Algorithmic Truth: A Strategic Reassessment of AI Lie Detection</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 05 Oct 2026 23:43:37 +0000</news:publication_date>
+            <news:title>Pentagon Retreats from Algorithmic Truth: A Strategic Reassessment of AI Lie Detection</news:title>
+            
+            <news:keywords>AI Ethics, Pentagon AI, Polygraph Modernization, Counterintelligence, National Security Vetting, Defense Technology</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/the-silent-breach-western-defense-s-vulnerable-human-element-235455.html</loc>
         <lastmod>Mon, 05 Oc</lastmod>
         <changefreq>never</changefreq>
@@ -543,6 +567,30 @@
             <news:title>The Silent Chokepoint: Memory Shortage Threatens Western Digital Dominance</news:title>
             
             <news:keywords>Memory Shortage, High-Bandwidth Memory, AI in Defense, Supply Chain Resilience, Semiconductor Geopolitics, Western Defense Modernization</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/pentagon-s-drone-dominance-a-new-era-of-autonomous-warfare-emerges-656216.html</loc>
+        <lastmod>Thu, 01 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cloudfront-us-east-1.images.arcpublishing.com/archetype/5P3QO3TXHJGJNCRVDV4YDT266Y.jpg</image:loc>
+            <image:title>Pentagon&#39;s Drone Dominance: A New Era of Autonomous Warfare Emerges</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 01 Oct 2026 14:02:08 +0000</news:publication_date>
+            <news:title>Pentagon&#39;s Drone Dominance: A New Era of Autonomous Warfare Emerges</news:title>
+            
+            <news:keywords>Drone Dominance, Autonomous Systems, Defense Modernization, US Defense Industry, Supply Chain Resilience, Tactical UAVs</news:keywords>
             
         </news:news>
     </url>
