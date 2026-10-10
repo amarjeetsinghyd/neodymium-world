@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-10-09</lastmod>
+        <lastmod>2026-10-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-10-09</lastmod>
+        <lastmod>2026-10-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -4292,6 +4292,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/ai-redefines-cyber-defense-sophos-openai-forge-a-new-frontier-628061.html</loc>
+        <lastmod>Fri, 09 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>AI Redefines Cyber Defense: Sophos &amp; OpenAI Forge a New Frontier</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 09 Oct 2026 07:00:00 GMT</news:publication_date>
+            <news:title>AI Redefines Cyber Defense: Sophos &amp; OpenAI Forge a New Frontier</news:title>
+            
+            <news:keywords>Cybersecurity AI, Defense Modernization, Managed Detection Response, OpenAI Daybreak, Critical Infrastructure Protection, Human-Machine Teaming</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/ai-resolution-india-s-cx-battleground-and-strategic-imperative-626281.html</loc>
         <lastmod>Thu, 13 Au</lastmod>
         <changefreq>never</changefreq>
@@ -4407,6 +4431,30 @@
             <news:title>AI&#39;s Youth Frontier: A New Battleground for National Resilience</news:title>
             
             <news:keywords>Generative AI, Youth Development, National Security, Cognitive Warfare, Strategic Intelligence, Emerging Tech</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/asana-s-ai-cost-revolution-a-blueprint-for-western-autonomous-superiority-628092.html</loc>
+        <lastmod>Fri, 09 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Astra_MK-1_closeup.png/1280px-Astra_MK-1_closeup.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail</image:loc>
+            <image:title>Asana&#39;s AI Cost Revolution: A Blueprint for Western Autonomous Superiority</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 09 Oct 2026 07:00:00 GMT</news:publication_date>
+            <news:title>Asana&#39;s AI Cost Revolution: A Blueprint for Western Autonomous Superiority</news:title>
+            
+            <news:keywords>AI Efficiency, Autonomous Systems, Western Defense Modernization, GPT-6 Astra, Strategic AI, Operational Costs</news:keywords>
             
         </news:news>
     </url>
@@ -4653,7 +4701,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-10-09</lastmod>
+        <lastmod>2026-10-10</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
