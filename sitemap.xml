@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-10-10</lastmod>
+        <lastmod>2026-10-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-10-10</lastmod>
+        <lastmod>2026-10-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -4316,6 +4316,54 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/ai-s-strategic-alchemy-repurposing-western-defense-for-a-new-era-715203.html</loc>
+        <lastmod>Sat, 16 Ma</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://lh3.googleusercontent.com/WjgQH7IbetdRNwoNAOp7_2JAoHaEckFl7ph9ffhCEtEiGWqzonO9MtqdjOl3n_ZEIAb3uVQ3z-Hq3whlg3ob9lcx6vDOF5lb3MyTE1rIoAeX6peAhOM=w528-h297-n-nu-rw-lo</image:loc>
+            <image:title>AI&#39;s Strategic Alchemy: Repurposing Western Defense for a New Era</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 16 May 2026 07:40:27 +0000</news:publication_date>
+            <news:title>AI&#39;s Strategic Alchemy: Repurposing Western Defense for a New Era</news:title>
+            
+            <news:keywords>AI in Defense, Strategic Repurposing, Defense Modernization, NATO Deterrence, Supply Chain Resilience, Emerging Technology</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/europe-s-industrial-crucible-rekindling-the-arsenal-of-deterrence-715242.html</loc>
+        <lastmod>Sat, 16 Ma</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://lh3.googleusercontent.com/iLgzjfK9faS-SQePs9fq0zjKGOVGpcyS0J0wQ3SS7llJjJhzz214LUtuy82bJIjweaMRiRWcLMDhPxdP1Z2VitCvWEQyMpY8xLFekP2RG255e2td=w528-h297-n-nu-rw-lo</image:loc>
+            <image:title>Europe&#39;s Industrial Crucible: Rekindling the Arsenal of Deterrence</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 16 May 2026 03:14:17 +0000</news:publication_date>
+            <news:title>Europe&#39;s Industrial Crucible: Rekindling the Arsenal of Deterrence</news:title>
+            
+            <news:keywords>NATO Deterrence, European Defense, Supply Chain Resilience, Defense Industrial Base, Strategic Autonomy, Munitions Shortfall</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/ai-accelerators-google-s-2026-play-india-playbook-for-strategic-tech-dominance-809957.html</loc>
         <lastmod>Mon, 03 Au</lastmod>
         <changefreq>never</changefreq>
@@ -4749,7 +4797,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-10-10</lastmod>
+        <lastmod>2026-10-11</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
