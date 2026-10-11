@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/riyadh-under-fire-india-s-deepening-stakes-in-a-volatile-gulf-744039.html</loc>
+        <lastmod>Sun, 11 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Riyadh Under Fire: India&#39;s Deepening Stakes in a Volatile Gulf</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 11 Oct 2026 16:20:00 +0000</news:publication_date>
+            <news:title>Riyadh Under Fire: India&#39;s Deepening Stakes in a Volatile Gulf</news:title>
+            
+            <news:keywords>Gulf Security, India Foreign Policy, Energy Security, Houthi Threat, West Asia Geopolitics, Saudi Arabia</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-orbital-refuelling-leap-a-new-era-for-space-power-and-deterrence-744083.html</loc>
+        <lastmod>Sun, 11 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://idrw.org/wp-content/uploads/2026/10/images-2026-10-11T054820.717.jpg</image:loc>
+            <image:title>India&#39;s Orbital Refuelling Leap: A New Era for Space Power and Deterrence</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 11 Oct 2026 15:58:00 +0000</news:publication_date>
+            <news:title>India&#39;s Orbital Refuelling Leap: A New Era for Space Power and Deterrence</news:title>
+            
+            <news:keywords>Satellite Refuelling, Space Warfare, Atmanirbhar Bharat, Indian Space Program, Orbital Resilience, Strategic Autonomy</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/pentagon-s-ai-gambit-legislating-trust-amidst-frontier-risks-544239.html</loc>
         <lastmod>Thu, 08 Oc</lastmod>
         <changefreq>never</changefreq>
