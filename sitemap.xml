@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/bridging-the-digital-divide-us-army-s-ngc2-forges-a-new-battlefield-reality-002138.html</loc>
+        <lastmod>Wed, 14 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cloudfront-us-east-1.images.arcpublishing.com/archetype/46KWRVBE7FHOXPRK73YMDUZZSM.jpg</image:loc>
+            <image:title>Bridging the Digital Divide: US Army&#39;s NGC2 Forges a New Battlefield Reality</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 14 Oct 2026 16:00:00 +0000</news:publication_date>
+            <news:title>Bridging the Digital Divide: US Army&#39;s NGC2 Forges a New Battlefield Reality</news:title>
+            
+            <news:keywords>US Army, NGC2, Command and Control, Digital Battlefield, Indo-Pacific, Defense Modernization</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/hegseth-s-ausa-address-the-autonomous-imperative-for-western-defense-002165.html</loc>
+        <lastmod>Wed, 14 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg</image:loc>
+            <image:title>Hegseth&#39;s AUSA Address: The Autonomous Imperative for Western Defense</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 14 Oct 2026 13:55:47 +0000</news:publication_date>
+            <news:title>Hegseth&#39;s AUSA Address: The Autonomous Imperative for Western Defense</news:title>
+            
+            <news:keywords>Autonomous Warfare, AUSA 2026, Western Defense, AI in Military, NATO Deterrence, Supply Chain Security</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/army-s-gatekeeper-accelerating-innovation-to-counter-digital-threats-969693.html</loc>
         <lastmod>Tue, 13 Oc</lastmod>
         <changefreq>never</changefreq>
