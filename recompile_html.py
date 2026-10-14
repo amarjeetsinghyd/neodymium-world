@@ -291,15 +291,51 @@ def generate_sitemap(articles: list[dict], current_date: str):
         logging.error(f"Sitemap generation failed: {e}")
 
 # ---------------------------------------------------------------------------
-# Generate rss.xml
+# Generate rss.xml (strict rolling freshness for social auto-posters) & rss_archive.xml
 # ---------------------------------------------------------------------------
+RSS_FRESHNESS_HOURS = 36  # Max age for social auto-posting (Twitter/X quota guard)
+RSS_MAX_ITEMS = 2         # Maximum items in rss.xml at any given time
+
+def is_article_fresh(article: dict, now: datetime) -> bool:
+    pdt = article.get('published_dt')
+    if not pdt or pdt == datetime.min.replace(tzinfo=timezone.utc):
+        return False
+    age_seconds = (now - pdt).total_seconds()
+    # Accept if published within the past RSS_FRESHNESS_HOURS (with 10m forward clock-skew allowance)
+    return -600 <= age_seconds <= (RSS_FRESHNESS_HOURS * 3600)
+
 def generate_rss(articles: list[dict], current_date: str):
     try:
         tmpl = env.get_template('rss_template.xml')
-        rendered = tmpl.render(articles=articles[:20], current_date=current_date)
+        now = datetime.now(timezone.utc)
+
+        # 1. Social Feed (rss.xml): strictly fresh articles within last 36 hours, capped at 2 items.
+        # If posting was blocked due to quota exhaustion, older items naturally expire and are discarded.
+        fresh_articles = [a for a in articles if is_article_fresh(a, now)]
+        social_feed_items = fresh_articles[:RSS_MAX_ITEMS]
+
+        rendered_social = tmpl.render(
+            articles=social_feed_items,
+            current_date=current_date,
+            feed_url='https://neodymium.world/rss.xml',
+            feed_title='Neodymium Intelligence Feed (Daily Briefings)'
+        )
         with open('rss.xml', 'w', encoding='utf-8') as f:
-            f.write(rendered)
-        logging.info("rss.xml written.")
+            f.write(rendered_social)
+        logging.info(f"rss.xml written: {len(social_feed_items)} fresh articles (<= {RSS_FRESHNESS_HOURS}h window).")
+
+        # 2. Archive Feed (rss_archive.xml): comprehensive feed of last 25 articles for general RSS readers / aggregators
+        archive_items = articles[:25]
+        rendered_archive = tmpl.render(
+            articles=archive_items,
+            current_date=current_date,
+            feed_url='https://neodymium.world/rss_archive.xml',
+            feed_title='Neodymium Intelligence Archive Feed'
+        )
+        with open('rss_archive.xml', 'w', encoding='utf-8') as f:
+            f.write(rendered_archive)
+        logging.info(f"rss_archive.xml written: {len(archive_items)} archived articles.")
+
     except Exception as e:
         logging.error(f"RSS generation failed: {e}")
 

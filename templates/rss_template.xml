@@ -5,7 +5,7 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>Neodymium Intelligence Feed</title>
+    <title>{{ feed_title | default('Neodymium Intelligence Feed') }}</title>
     <link>https://neodymium.world/</link>
     <description>Premier institutional intelligence briefings on AI, defense technology, and global tech innovation from Neodymium World.</description>
     <language>en-us</language>
@@ -14,13 +14,13 @@
     <webMaster>user@neodymium.world (Amarjeet Singh)</webMaster>
     <image>
       <url>https://neodymium.world/logo_x.png</url>
-      <title>Neodymium Intelligence Feed</title>
+      <title>{{ feed_title | default('Neodymium Intelligence Feed') }}</title>
       <link>https://neodymium.world/</link>
       <width>144</width>
       <height>144</height>
     </image>
     <!-- Self-referencing atom:link is required by RSS validators -->
-    <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ feed_url | default('https://neodymium.world/rss.xml') }}" rel="self" type="application/rss+xml" />
     {% for item in articles %}
     <item>
       <title>{{ item.title | escape }}</title>
