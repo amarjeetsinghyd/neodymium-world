@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/army-s-gatekeeper-accelerating-innovation-to-counter-digital-threats-969693.html</loc>
+        <lastmod>Tue, 13 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/9833940-e1791923427465-1024x577.jpg</image:loc>
+            <image:title>Army&#39;s Gatekeeper: Accelerating Innovation to Counter Digital Threats</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 13 Oct 2026 20:23:16 +0000</news:publication_date>
+            <news:title>Army&#39;s Gatekeeper: Accelerating Innovation to Counter Digital Threats</news:title>
+            
+            <news:keywords>Project Gatekeeper, Army Modernization, DevSecOps, Software Supply Chain, Cybersecurity, Defense Innovation</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/precision-at-scale-western-air-defenses-adapt-to-the-drone-swarm-969724.html</loc>
+        <lastmod>Tue, 13 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/2015-0150-057-1024x683.jpg</image:loc>
+            <image:title>Precision at Scale: Western Air Defenses Adapt to the Drone Swarm</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 13 Oct 2026 19:23:00 +0000</news:publication_date>
+            <news:title>Precision at Scale: Western Air Defenses Adapt to the Drone Swarm</news:title>
+            
+            <news:keywords>APKWS, Counter-UAS, NATO Defense, Western Modernization, Precision Munitions, Supply Chain Hegemony</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/orbital-precision-the-western-edge-in-a-contested-leo-922032.html</loc>
         <lastmod>Mon, 12 Oc</lastmod>
         <changefreq>never</changefreq>
