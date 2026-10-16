@@ -23,6 +23,42 @@
     <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>US Army Doubles Down on Tactical Cyber with Second Expeditionary Battalion</title>
+      <link>https://neodymium.world/articles/us-army-doubles-down-on-tactical-cyber-with-second-expeditionary-battalion-173022.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/us-army-doubles-down-on-tactical-cyber-with-second-expeditionary-battalion-173022.html</guid>
+      <pubDate>Thu, 15 Oct 2026 17:00:00 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        The US Army is doubling its expeditionary cyber and EW footprint. A brand-new replica of the 11th Cyber Battalion is standing up in months to push non-kinetic effects straight to the tactical edge.
+        
+        [SPLIT]
+        ⚡ The new unit is slated to begin standing up in earnest within the coming months and will reach initial operating capability within a year.
+        [SPLIT]
+        ⚡ The pioneering 11th Cyber Battalion currently operates under Joint Task Force–Southern Border, delivering RF-enabled cyber effects to division commanders.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/us-army-doubles-down-on-tactical-cyber-with-second-expeditionary-battalion-173022.html
+      ]]></description>
+      
+      <category>US Army Cyber Command</category>
+      
+      <category>Expeditionary Cyber Battalion</category>
+      
+      <category>CEMA</category>
+      
+      <category>Electronic Warfare</category>
+      
+      <category>Transforming in Contact</category>
+      
+      
+      <enclosure url="https://cloudfront-us-east-1.images.arcpublishing.com/archetype/AHFXHECS5ZBLJDKOFAZDNF2LNI.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cloudfront-us-east-1.images.arcpublishing.com/archetype/AHFXHECS5ZBLJDKOFAZDNF2LNI.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cloudfront-us-east-1.images.arcpublishing.com/archetype/AHFXHECS5ZBLJDKOFAZDNF2LNI.jpg" />
+      
+    </item>
+    
+    <item>
       <title>IAF&#39;s Orbital Sentinel: GSAT-7C Secures India&#39;s Air Power Future</title>
       <link>https://neodymium.world/articles/iaf-s-orbital-sentinel-gsat-7c-secures-india-s-air-power-future-140551.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/iaf-s-orbital-sentinel-gsat-7c-secures-india-s-air-power-future-140551.html</guid>
@@ -57,44 +93,6 @@
       <enclosure url="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Gaganyaan_vehicle_used_for_TVD1_mission.webp/1280px-Gaganyaan_vehicle_used_for_TVD1_mission.webp?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" length="0" type="image/jpeg" />
       <media:content url="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Gaganyaan_vehicle_used_for_TVD1_mission.webp/1280px-Gaganyaan_vehicle_used_for_TVD1_mission.webp?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Gaganyaan_vehicle_used_for_TVD1_mission.webp/1280px-Gaganyaan_vehicle_used_for_TVD1_mission.webp?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" />
-      
-    </item>
-    
-    <item>
-      <title>Moscow&#39;s Six-Week Blitz: New Drone Base Escalates Ukraine Offensive</title>
-      <link>https://neodymium.world/articles/moscow-s-six-week-blitz-new-drone-base-escalates-ukraine-offensive-140595.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/moscow-s-six-week-blitz-new-drone-base-escalates-ukraine-offensive-140595.html</guid>
-      <pubDate>Thu, 15 Oct 2026 14:45:48 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        In just six weeks, Russia has erected a sprawling new drone base, confirmed by satellite intelligence. This rapid expansion of jet-powered UAV capabilities poses critical challenges to Ukrainian air defenses and reshapes the drone warfare landscape. Dive deep into the strategic i
-        
-        [SPLIT]
-        ⚡ The deployment of faster, jet-powered Geran-4/5 drones at scale complicates Ukrainian air defense efforts, demanding more sophisticated and integrated interception capabilities.
-        [SPLIT]
-        ⚡ The ongoing energy infrastructure warfare highlights the strategic interplay between military operations, economic leverage, and the geopolitical dynamics of international aid and sanctions.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/moscow-s-six-week-blitz-new-drone-base-escalates-ukraine-offensive-140595.html
-      ]]></description>
-      
-      <category>Russia-Ukraine War</category>
-      
-      <category>Drone Warfare</category>
-      
-      <category>OSINT</category>
-      
-      <category>Air Defense</category>
-      
-      <category>Geopolitics</category>
-      
-      <category>Military Infrastructure</category>
-      
-      
-      <enclosure url="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" length="0" type="image/jpeg" />
-      <media:content url="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" />
       
     </item>
     

@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/us-army-doubles-down-on-tactical-cyber-with-second-expeditionary-battalion-173022.html</loc>
+        <lastmod>Thu, 15 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cloudfront-us-east-1.images.arcpublishing.com/archetype/AHFXHECS5ZBLJDKOFAZDNF2LNI.jpg</image:loc>
+            <image:title>US Army Doubles Down on Tactical Cyber with Second Expeditionary Battalion</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 15 Oct 2026 17:00:00 +0000</news:publication_date>
+            <news:title>US Army Doubles Down on Tactical Cyber with Second Expeditionary Battalion</news:title>
+            
+            <news:keywords>US Army Cyber Command, Expeditionary Cyber Battalion, CEMA, Electronic Warfare, Transforming in Contact</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/iaf-s-orbital-sentinel-gsat-7c-secures-india-s-air-power-future-140551.html</loc>
         <lastmod>Thu, 15 Oc</lastmod>
         <changefreq>never</changefreq>
@@ -303,6 +327,30 @@
             <news:title>Gemini 4 Argon: A New Axis in Western Defense Modernization</news:title>
             
             <news:keywords>AI &amp; Autonomy, Western Defense, NATO Deterrence, Cyber Warfare, Robotics, Strategic Competition</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/inside-ausa-2026-the-western-defense-modernization-pivot-173060.html</loc>
+        <lastmod>Tue, 13 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cloudfront-us-east-1.images.arcpublishing.com/archetype/2LPJ45TXPFHTBNE24YPW32Q6KM.jpg</image:loc>
+            <image:title>Inside AUSA 2026: The Western Defense Modernization Pivot</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 13 Oct 2026 13:31:55 +0000</news:publication_date>
+            <news:title>Inside AUSA 2026: The Western Defense Modernization Pivot</news:title>
+            
+            <news:keywords>AUSA 2026, Defense Modernization, NATO Deterrence, Military Procurement, Critical Supply Chain</news:keywords>
             
         </news:news>
     </url>

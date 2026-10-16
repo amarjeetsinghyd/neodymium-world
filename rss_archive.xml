@@ -23,6 +23,42 @@
     <atom:link href="https://neodymium.world/rss_archive.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>US Army Doubles Down on Tactical Cyber with Second Expeditionary Battalion</title>
+      <link>https://neodymium.world/articles/us-army-doubles-down-on-tactical-cyber-with-second-expeditionary-battalion-173022.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/us-army-doubles-down-on-tactical-cyber-with-second-expeditionary-battalion-173022.html</guid>
+      <pubDate>Thu, 15 Oct 2026 17:00:00 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        The US Army is doubling its expeditionary cyber and EW footprint. A brand-new replica of the 11th Cyber Battalion is standing up in months to push non-kinetic effects straight to the tactical edge.
+        
+        [SPLIT]
+        ⚡ The new unit is slated to begin standing up in earnest within the coming months and will reach initial operating capability within a year.
+        [SPLIT]
+        ⚡ The pioneering 11th Cyber Battalion currently operates under Joint Task Force–Southern Border, delivering RF-enabled cyber effects to division commanders.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/us-army-doubles-down-on-tactical-cyber-with-second-expeditionary-battalion-173022.html
+      ]]></description>
+      
+      <category>US Army Cyber Command</category>
+      
+      <category>Expeditionary Cyber Battalion</category>
+      
+      <category>CEMA</category>
+      
+      <category>Electronic Warfare</category>
+      
+      <category>Transforming in Contact</category>
+      
+      
+      <enclosure url="https://cloudfront-us-east-1.images.arcpublishing.com/archetype/AHFXHECS5ZBLJDKOFAZDNF2LNI.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cloudfront-us-east-1.images.arcpublishing.com/archetype/AHFXHECS5ZBLJDKOFAZDNF2LNI.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cloudfront-us-east-1.images.arcpublishing.com/archetype/AHFXHECS5ZBLJDKOFAZDNF2LNI.jpg" />
+      
+    </item>
+    
+    <item>
       <title>IAF&#39;s Orbital Sentinel: GSAT-7C Secures India&#39;s Air Power Future</title>
       <link>https://neodymium.world/articles/iaf-s-orbital-sentinel-gsat-7c-secures-india-s-air-power-future-140551.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/iaf-s-orbital-sentinel-gsat-7c-secures-india-s-air-power-future-140551.html</guid>
@@ -399,6 +435,42 @@
       <enclosure url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" length="0" type="image/jpeg" />
       <media:content url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
+      
+    </item>
+    
+    <item>
+      <title>Inside AUSA 2026: The Western Defense Modernization Pivot</title>
+      <link>https://neodymium.world/articles/inside-ausa-2026-the-western-defense-modernization-pivot-173060.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/inside-ausa-2026-the-western-defense-modernization-pivot-173060.html</guid>
+      <pubDate>Tue, 13 Oct 2026 13:31:55 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        As AUSA 2026 unfolds on the show floor, allied force design is hitting a critical inflection point. Alexander Sterling breaks down the hardware, funding shifts, and supply chain realities driving Western defense modernization.
+        
+        [SPLIT]
+        ⚡ Supply chain vulnerabilities in rare earth elements and microelectronics remain the primary bottleneck for scaled production.
+        [SPLIT]
+        ⚡ Multidomain operations doctrine is shifting focus toward deeply integrated electronic warfare and autonomous ground assets.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/inside-ausa-2026-the-western-defense-modernization-pivot-173060.html
+      ]]></description>
+      
+      <category>AUSA 2026</category>
+      
+      <category>Defense Modernization</category>
+      
+      <category>NATO Deterrence</category>
+      
+      <category>Military Procurement</category>
+      
+      <category>Critical Supply Chain</category>
+      
+      
+      <enclosure url="https://cloudfront-us-east-1.images.arcpublishing.com/archetype/2LPJ45TXPFHTBNE24YPW32Q6KM.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cloudfront-us-east-1.images.arcpublishing.com/archetype/2LPJ45TXPFHTBNE24YPW32Q6KM.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cloudfront-us-east-1.images.arcpublishing.com/archetype/2LPJ45TXPFHTBNE24YPW32Q6KM.jpg" />
       
     </item>
     
@@ -893,82 +965,6 @@
       <enclosure url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" length="0" type="image/jpeg" />
       <media:content url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
-      
-    </item>
-    
-    <item>
-      <title>Edge AI&#39;s New Vanguard: EmbeddingGemma 2 and the Future of Battlefield Intelligence</title>
-      <link>https://neodymium.world/articles/edge-ai-s-new-vanguard-embeddinggemma-2-and-the-future-of-battlefield-intelligen-457890.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/edge-ai-s-new-vanguard-embeddinggemma-2-and-the-future-of-battlefield-intelligen-457890.html</guid>
-      <pubDate>Tue, 06 Oct 2026 19:57:04 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        A game-changer for the tactical edge? EmbeddingGemma 2&#39;s multimodal AI on consumer hardware signals a paradigm shift for defense. Alexander Sterling analyzes how this open-source model could redefine battlefield intelligence, secure data, and accelerate decision cycles for NATO f
-        
-        [SPLIT]
-        ⚡ The model significantly enhances decision superiority by accelerating data fusion and retrieval-augmented generation for mission planning.
-        [SPLIT]
-        ⚡ On-device capabilities bolster data privacy and operational resilience for forces operating in disconnected or contested zones.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/edge-ai-s-new-vanguard-embeddinggemma-2-and-the-future-of-battlefield-intelligen-457890.html
-      ]]></description>
-      
-      <category>Edge AI</category>
-      
-      <category>Multimodal Intelligence</category>
-      
-      <category>On-Device Processing</category>
-      
-      <category>NATO Modernization</category>
-      
-      <category>Battlefield AI</category>
-      
-      <category>Data Fusion</category>
-      
-      
-      <enclosure url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" length="0" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
-      
-    </item>
-    
-    <item>
-      <title>Digital Identity Heist: Weaponizing Trust in a New Era of Cyber Espionage</title>
-      <link>https://neodymium.world/articles/digital-identity-heist-weaponizing-trust-in-a-new-era-of-cyber-espionage-891003.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/digital-identity-heist-weaponizing-trust-in-a-new-era-of-cyber-espionage-891003.html</guid>
-      <pubDate>Tue, 06 Oct 2026 19:21:14 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        A new digital identity heist has shaken global internet trust, as attackers forged TLS certificates for Google and major brands. This isn&#39;t just a hack; it&#39;s a critical escalation in weaponizing core internet infrastructure, posing profound implications for national security and 
-        
-        [SPLIT]
-        ⚡ Such incidents expose systemic vulnerabilities in global digital infrastructure, demonstrating how control over seemingly minor components like ccTLDs can yield strategic leverage.
-        [SPLIT]
-        ⚡ The weaponization of digital identity poses significant risks to national security, potentially disrupting military communications, intelligence gathering, and critical supply chain integrity.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/digital-identity-heist-weaponizing-trust-in-a-new-era-of-cyber-espionage-891003.html
-      ]]></description>
-      
-      <category>TLS Certificates</category>
-      
-      <category>Cyber Espionage</category>
-      
-      <category>Digital Sovereignty</category>
-      
-      <category>Supply Chain Security</category>
-      
-      <category>NATO Deterrence</category>
-      
-      <category>Critical Infrastructure</category>
-      
-      
-      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/broken-https-tls-500x500.jpg" length="0" type="image/jpeg" />
-      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/broken-https-tls-500x500.jpg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/broken-https-tls-500x500.jpg" />
       
     </item>
     
