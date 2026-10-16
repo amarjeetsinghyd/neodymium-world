@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-10-15</lastmod>
+        <lastmod>2026-10-16</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-10-15</lastmod>
+        <lastmod>2026-10-16</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/iaf-s-orbital-sentinel-gsat-7c-secures-india-s-air-power-future-140551.html</loc>
+        <lastmod>Thu, 15 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Gaganyaan_vehicle_used_for_TVD1_mission.webp/1280px-Gaganyaan_vehicle_used_for_TVD1_mission.webp?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail</image:loc>
+            <image:title>IAF&#39;s Orbital Sentinel: GSAT-7C Secures India&#39;s Air Power Future</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 15 Oct 2026 15:03:52 +0000</news:publication_date>
+            <news:title>IAF&#39;s Orbital Sentinel: GSAT-7C Secures India&#39;s Air Power Future</news:title>
+            
+            <news:keywords>GSAT-7C, Indian Air Force, Satellite Communications, Atmanirbhar Bharat, Space Capabilities, Border Deterrence</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/moscow-s-six-week-blitz-new-drone-base-escalates-ukraine-offensive-140595.html</loc>
+        <lastmod>Thu, 15 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail</image:loc>
+            <image:title>Moscow&#39;s Six-Week Blitz: New Drone Base Escalates Ukraine Offensive</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 15 Oct 2026 14:45:48 +0000</news:publication_date>
+            <news:title>Moscow&#39;s Six-Week Blitz: New Drone Base Escalates Ukraine Offensive</news:title>
+            
+            <news:keywords>Russia-Ukraine War, Drone Warfare, OSINT, Air Defense, Geopolitics, Military Infrastructure</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/adaptation-dominance-pentagon-s-new-drone-task-force-reshapes-western-warfare-054629.html</loc>
@@ -5229,7 +5277,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-10-15</lastmod>
+        <lastmod>2026-10-16</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
