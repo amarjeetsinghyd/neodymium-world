@@ -27,6 +27,25 @@ logging.basicConfig(
 )
 
 # ---------------------------------------------------------------------------
+# Auto-load .env for local runs (without third-party dependencies)
+# ---------------------------------------------------------------------------
+def _load_dotenv():
+    env_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.env')
+    if os.path.exists(env_file):
+        try:
+            with open(env_file, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith('#') and '=' in line:
+                        k, v = line.split('=', 1)
+                        k, v = k.strip(), v.strip()
+                        if k and k not in os.environ:
+                            os.environ[k] = v
+        except Exception:
+            pass
+_load_dotenv()
+
+# ---------------------------------------------------------------------------
 # Config & Models
 # Primary: gemini-2.5-pro for think-tank grade writing & complex strategic reasoning
 # Fallback: gemini-2.5-flash for resilience & rate limits
