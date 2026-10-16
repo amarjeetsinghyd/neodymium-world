@@ -47,13 +47,13 @@ _load_dotenv()
 
 # ---------------------------------------------------------------------------
 # Config & Models
-# Primary: gemini-2.5-pro for think-tank grade writing & complex strategic reasoning
-# Fallback: gemini-2.5-flash for resilience & rate limits
+# Primary: gemini-3.5-flash-lite for ultra-fast, high-efficiency strategic analysis
+# Fallback: gemini-3.5-flash for resilience & complex reasoning
 # ---------------------------------------------------------------------------
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 SARVAM_API_KEY = os.environ.get("SARVAM_API_KEY")
-GEMINI_PRIMARY_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-pro")
-GEMINI_FALLBACK_MODEL = "gemini-2.5-flash"
+GEMINI_PRIMARY_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
+GEMINI_FALLBACK_MODEL = "gemini-3.5-flash"
 
 ARTICLES_DIR = 'content/articles'
 SEEN_URLS_FILE = 'content/seen_urls.json'
@@ -210,7 +210,7 @@ def sanitize_filename(name: str) -> str:
     return re.sub(r'[^a-z0-9._-]', '-', name.lower()).strip('-')
 
 # ---------------------------------------------------------------------------
-# Gemini API caller with primary (gemini-2.5-pro) and fallback (gemini-2.5-flash)
+# Gemini API caller with primary (gemini-3.5-flash-lite) and fallback (gemini-3.5-flash)
 # ---------------------------------------------------------------------------
 def call_gemini_api(prompt: str) -> str | None:
     if not GEMINI_API_KEY:
