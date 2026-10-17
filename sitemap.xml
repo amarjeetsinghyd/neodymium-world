@@ -5252,6 +5252,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/beneath-the-spread-how-credit-funds-deploy-ai-to-crush-deal-friction-256008.html</loc>
+        <lastmod>Fri, 16 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Beneath the Spread: How Credit Funds Deploy AI to Crush Deal Friction</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 16 Oct 2026 00:00:00 GMT</news:publication_date>
+            <news:title>Beneath the Spread: How Credit Funds Deploy AI to Crush Deal Friction</news:title>
+            
+            <news:keywords>AI Underwriting, Private Credit, Codex, Financial Technology, Risk Analysis</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/bharat-s-digital-frontier-villages-as-the-new-economic-engine-860130.html</loc>
         <lastmod>Fri, 24 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -5559,6 +5583,30 @@
             <news:title>Pollo AI Turns Creative Ideas into Campaigns with OpenAI</news:title>
             
             <news:keywords>Generative AI, Information Warfare, OpenAI, Cognitive Domain, NATO Deterrence, Strategic Communication</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/scaling-generative-ai-across-latin-america-s-largest-banking-network-255993.html</loc>
+        <lastmod>Fri, 16 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Scaling Generative AI Across Latin America’s Largest Banking Network</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 16 Oct 2026 19:00:00 GMT</news:publication_date>
+            <news:title>Scaling Generative AI Across Latin America’s Largest Banking Network</news:title>
+            
+            <news:keywords>Generative AI, Enterprise AI Governance, Fintech Transformation, OpenAI Enterprise, Responsible AI</news:keywords>
             
         </news:news>
     </url>
