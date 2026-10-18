@@ -164,6 +164,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/zero-click-spyware-vectors-emerge-inside-programmatic-ad-networks-343243.html</loc>
+        <lastmod>Thu, 15 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1-500x500.jpg</image:loc>
+            <image:title>Zero-Click Spyware Vectors Emerge Inside Programmatic Ad Networks</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 15 Oct 2026 20:32:41 +0000</news:publication_date>
+            <news:title>Zero-Click Spyware Vectors Emerge Inside Programmatic Ad Networks</news:title>
+            
+            <news:keywords>Mercenary Spyware, Zero-Click Exploits, Citizen Lab, AdFection, Candiru, Programmatic Advertising</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/us-army-doubles-down-on-tactical-cyber-with-second-expeditionary-battalion-173022.html</loc>
         <lastmod>Thu, 15 Oc</lastmod>
         <changefreq>never</changefreq>
@@ -231,6 +255,30 @@
             <news:title>Moscow&#39;s Six-Week Blitz: New Drone Base Escalates Ukraine Offensive</news:title>
             
             <news:keywords>Russia-Ukraine War, Drone Warfare, OSINT, Air Defense, Geopolitics, Military Infrastructure</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/the-cyber-refrigeration-sabotage-exposing-supply-chains-343259.html</loc>
+        <lastmod>Wed, 14 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2026/10/mass-fridge-hack-500x500-1792011300.jpg</image:loc>
+            <image:title>The Cyber-Refrigeration Sabotage Exposing Supply Chains</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 14 Oct 2026 21:35:09 +0000</news:publication_date>
+            <news:title>The Cyber-Refrigeration Sabotage Exposing Supply Chains</news:title>
+            
+            <news:keywords>Industrial Control Systems, Critical Infrastructure, Cyber Hygiene, Supply Chain Security, IoT Vulnerabilities</news:keywords>
             
         </news:news>
     </url>

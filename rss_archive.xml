@@ -169,6 +169,44 @@
     </item>
     
     <item>
+      <title>Zero-Click Spyware Vectors Emerge Inside Programmatic Ad Networks</title>
+      <link>https://neodymium.world/articles/zero-click-spyware-vectors-emerge-inside-programmatic-ad-networks-343243.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/zero-click-spyware-vectors-emerge-inside-programmatic-ad-networks-343243.html</guid>
+      <pubDate>Thu, 15 Oct 2026 20:32:41 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Programmatic ad infrastructure has been weaponized. Citizen Lab confirms the first-ever zero-click mercenary spyware campaigns delivered entirely through targeted web and mobile ads.
+        
+        [SPLIT]
+        ⚡ The AdFection campaign infected 45 iOS and Android devices at Al Jazeera between 2024 and 2025 using zero-click exploits requiring zero user interaction.
+        [SPLIT]
+        ⚡ Major tech platforms including Google, IAB Europe, and Beeswax have scrambled to revoke Discover-Tech&#39;s certified vendor status and platform access.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/zero-click-spyware-vectors-emerge-inside-programmatic-ad-networks-343243.html
+      ]]></description>
+      
+      <category>Mercenary Spyware</category>
+      
+      <category>Zero-Click Exploits</category>
+      
+      <category>Citizen Lab</category>
+      
+      <category>AdFection</category>
+      
+      <category>Candiru</category>
+      
+      <category>Programmatic Advertising</category>
+      
+      
+      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1-500x500.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1-500x500.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1-500x500.jpg" />
+      
+    </item>
+    
+    <item>
       <title>US Army Doubles Down on Tactical Cyber with Second Expeditionary Battalion</title>
       <link>https://neodymium.world/articles/us-army-doubles-down-on-tactical-cyber-with-second-expeditionary-battalion-173022.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/us-army-doubles-down-on-tactical-cyber-with-second-expeditionary-battalion-173022.html</guid>
@@ -277,6 +315,42 @@
       <enclosure url="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" length="0" type="image/jpeg" />
       <media:content url="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" />
+      
+    </item>
+    
+    <item>
+      <title>The Cyber-Refrigeration Sabotage Exposing Supply Chains</title>
+      <link>https://neodymium.world/articles/the-cyber-refrigeration-sabotage-exposing-supply-chains-343259.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/the-cyber-refrigeration-sabotage-exposing-supply-chains-343259.html</guid>
+      <pubDate>Wed, 14 Oct 2026 21:35:09 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        How a simple default password hack on 700 European supermarket freezers triggered fires, spoiled tons of food, and exposed a gaping hole in Western infrastructure security.
+        
+        [SPLIT]
+        ⚡ The attack targeted legacy controllers from Danfoss and Copeland that relied on predictable daily passwords and public firmware.
+        [SPLIT]
+        ⚡ Affected retail locations failed to implement basic cyber hygiene, including VPN isolation and strict IP allowlisting.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/the-cyber-refrigeration-sabotage-exposing-supply-chains-343259.html
+      ]]></description>
+      
+      <category>Industrial Control Systems</category>
+      
+      <category>Critical Infrastructure</category>
+      
+      <category>Cyber Hygiene</category>
+      
+      <category>Supply Chain Security</category>
+      
+      <category>IoT Vulnerabilities</category>
+      
+      
+      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/mass-fridge-hack-500x500-1792011300.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/mass-fridge-hack-500x500-1792011300.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/mass-fridge-hack-500x500-1792011300.jpg" />
       
     </item>
     
@@ -883,82 +957,6 @@
       <enclosure url="https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-jhu-moon-2000-1500.jpg?fit=1024%2C768&amp;ssl=1" length="0" type="image/jpeg" />
       <media:content url="https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-jhu-moon-2000-1500.jpg?fit=1024%2C768&amp;ssl=1" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-jhu-moon-2000-1500.jpg?fit=1024%2C768&amp;ssl=1" />
-      
-    </item>
-    
-    <item>
-      <title>The Silent Revolution: US Naval Power in the Age of Autonomous Warfare</title>
-      <link>https://neodymium.world/articles/the-silent-revolution-us-naval-power-in-the-age-of-autonomous-warfare-805450.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/the-silent-revolution-us-naval-power-in-the-age-of-autonomous-warfare-805450.html</guid>
-      <pubDate>Wed, 07 Oct 2026 17:45:20 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        The Black Sea&#39;s first drone-on-drone naval battle signals a new era. Is the US ready for autonomous maritime warfare? Alexander Sterling argues for a radical shift: expendable mass, integrated networks, and a redefined naval budget. #USNavy #DroneWarfare #MaritimeSecurity
-        
-        [SPLIT]
-        ⚡ US acquisition must prioritize rapid production of inexpensive, expendable unmanned systems, overcoming bureaucratic hurdles that stifle innovation.
-        [SPLIT]
-        ⚡ Beyond kinetic strike, autonomous platforms offer critical utility in logistics, reconnaissance, and rescue, demanding a broader strategic vision for their deployment.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/the-silent-revolution-us-naval-power-in-the-age-of-autonomous-warfare-805450.html
-      ]]></description>
-      
-      <category>Naval Drone Warfare</category>
-      
-      <category>US Navy</category>
-      
-      <category>Autonomous Systems</category>
-      
-      <category>Maritime Strategy</category>
-      
-      <category>CJADC2</category>
-      
-      <category>Expendable Platforms</category>
-      
-      
-      <enclosure url="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" length="0" type="image/jpeg" />
-      <media:content url="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" />
-      
-    </item>
-    
-    <item>
-      <title>Pentagon Moves to Forge &#39;FORTRESS America,&#39; Securing Homeland Against Hybrid Threats</title>
-      <link>https://neodymium.world/articles/pentagon-moves-to-forge-fortress-america-securing-homeland-against-hybrid-threat-805480.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/pentagon-moves-to-forge-fortress-america-securing-homeland-against-hybrid-threat-805480.html</guid>
-      <pubDate>Wed, 07 Oct 2026 17:30:55 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        The Pentagon just launched &#39;FORTRESS America,&#39; a sweeping initiative to insulate US military operations from global vulnerabilities. From energy independence for bases to re-shoring critical supply chains, this isn&#39;t just infrastructure; it&#39;s a new doctrine of resilient power pro
-        
-        [SPLIT]
-        ⚡ The program prioritizes energy independence for military installations, safeguarding against grid failures and cyberattacks.
-        [SPLIT]
-        ⚡ Strategic reshoring of critical supply chains is central, reducing reliance on foreign sources for defense manufacturing.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/pentagon-moves-to-forge-fortress-america-securing-homeland-against-hybrid-threat-805480.html
-      ]]></description>
-      
-      <category>FORTRESS America</category>
-      
-      <category>Defense Modernization</category>
-      
-      <category>Supply Chain Security</category>
-      
-      <category>Military Resilience</category>
-      
-      <category>Cyber Defense</category>
-      
-      <category>NATO Deterrence</category>
-      
-      
-      <enclosure url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" length="0" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
       
     </item>
     
