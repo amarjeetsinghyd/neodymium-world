@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-10-17</lastmod>
+        <lastmod>2026-10-18</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-10-17</lastmod>
+        <lastmod>2026-10-18</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/anthropic-breaks-ranks-with-draft-ai-law-in-us-capital-312733.html</loc>
+        <lastmod>Sat, 17 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/o2380b/article71595754.ece/alternates/LANDSCAPE_1200/2026-10-14T222837Z_814297647_RC2LU7ANS75E_RTRMADP_3_ANTHROPIC-IPO-INVESTORS.JPG</image:loc>
+            <image:title>Anthropic Breaks Ranks With Draft AI Law in US Capital</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 17 Oct 2026 14:49:17 +0530</news:publication_date>
+            <news:title>Anthropic Breaks Ranks With Draft AI Law in US Capital</news:title>
+            
+            <news:keywords>Anthropic, AI Regulation, US Congress, Artificial Intelligence, Technology Policy</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/anthropic-bans-cruel-behavior-toward-claude-ai-312757.html</loc>
+        <lastmod>Sat, 17 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/j1nmea/article71562470.ece/alternates/LANDSCAPE_1200/2026-09-29T205023Z_591228994_RC28TNA4R1J4_RTRMADP_3_USA-TRUMP.JPG</image:loc>
+            <image:title>Anthropic Bans &#39;Cruel&#39; Behavior Toward Claude AI</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 17 Oct 2026 13:29:00 +0530</news:publication_date>
+            <news:title>Anthropic Bans &#39;Cruel&#39; Behavior Toward Claude AI</news:title>
+            
+            <news:keywords>Anthropic, Claude AI, AI Safety, Machine Consciousness, AI Ethics, Dario Amodei</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/marines-field-next-gen-tech-to-survive-the-post-golden-hour-battlefield-225156.html</loc>
@@ -5397,7 +5445,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-10-17</lastmod>
+        <lastmod>2026-10-18</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
