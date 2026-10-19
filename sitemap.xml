@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/pritzker-warns-ai-employment-shock-demands-aggressive-state-action-438866.html</loc>
+        <lastmod>2026-10-19</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_20261019_Pritzker.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100</image:loc>
+            <image:title>Pritzker Warns AI Employment Shock Demands Aggressive State Action</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2026-10-19T10:30:00-04:00</news:publication_date>
+            <news:title>Pritzker Warns AI Employment Shock Demands Aggressive State Action</news:title>
+            
+            <news:keywords>Artificial Intelligence, JB Pritzker, Data Center Regulation, Workforce Automation, Political Realignment</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/autonomous-swarms-the-ai-agent-breaches-reshaping-cyber-defense-438882.html</loc>
+        <lastmod>2026-10-19</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_A-1.png?quality=90&amp;strip=all&amp;crop=0,0,100,100</image:loc>
+            <image:title>Autonomous Swarms: The AI Agent Breaches Reshaping Cyber Defense</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2026-10-19T09:58:41-04:00</news:publication_date>
+            <news:title>Autonomous Swarms: The AI Agent Breaches Reshaping Cyber Defense</news:title>
+            
+            <news:keywords>Autonomous AI Agents, Cyber Warfare, Norforge Intelligence, Industrial Security, Cairn Platform</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/anthropic-breaks-ranks-with-draft-ai-law-in-us-capital-312733.html</loc>
         <lastmod>Sat, 17 Oc</lastmod>
         <changefreq>never</changefreq>
