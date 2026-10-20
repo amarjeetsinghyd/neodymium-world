@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/netflix-battles-stagnant-growth-leadership-shakeups-and-churn-520575.html</loc>
+        <lastmod>Tue, 20 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/sci-tech/technology/r6be4t/article71603905.ece/alternates/LANDSCAPE_1200/Netflix%20logo.jpg</image:loc>
+            <image:title>Netflix Battles Stagnant Growth, Leadership Shakeups and Churn</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 20 Oct 2026 14:43:29 +0530</news:publication_date>
+            <news:title>Netflix Battles Stagnant Growth, Leadership Shakeups and Churn</news:title>
+            
+            <news:keywords>Netflix, Streaming Industry, Ted Sarandos, Media Economics, Content Strategy</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/us-bans-chinese-ai-deepseek-across-civilian-government-it-systems-520604.html</loc>
+        <lastmod>Tue, 20 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/da0d3i/article71603296.ece/alternates/LANDSCAPE_1200/2026-10-19T115057Z_857358559_RC2B6OAS34TQ_RTRMADP_3_TECH-AI.JPG</image:loc>
+            <image:title>US Bans Chinese AI DeepSeek Across Civilian Government IT Systems</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 20 Oct 2026 11:15:17 +0530</news:publication_date>
+            <news:title>US Bans Chinese AI DeepSeek Across Civilian Government IT Systems</news:title>
+            
+            <news:keywords>DeepSeek, US Homeland Security, Chinese AI, Cybersecurity, Data Exfiltration, Geopolitical Tech War</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/brahmos-2-the-export-driven-hypersonic-leap-487671.html</loc>
         <lastmod>Tue, 20 Oc</lastmod>
         <changefreq>never</changefreq>
