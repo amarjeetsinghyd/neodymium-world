@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/brahmos-2-the-export-driven-hypersonic-leap-487671.html</loc>
+        <lastmod>Tue, 20 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtrS3xEZdsuxOgtvo_-5ACwjbU6GMIhFbmK6eTji0wstm2eTme3BDDnZpJCEE_KdmGNYBph5y6JukGpEOUZOq2qfU8t8VNyod5Iv-tT8CVtsr_E-dkVyJSqxCVokvKSS7uf_E8-2trwwjv4dhpeVVTLt8Fnuc_t7TC-7CzjfKximuv6lr7vO6BfnSnKKI/s72-c/Zircon_Hypersonic_Missile.jpg</image:loc>
+            <image:title>BrahMos-2: The Export-Driven Hypersonic Leap</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 20 Oct 2026 05:02:48 +0000</news:publication_date>
+            <news:title>BrahMos-2: The Export-Driven Hypersonic Leap</news:title>
+            
+            <news:keywords>BrahMos-2, Hypersonic Missiles, 3M22 Zircon, Atmanirbhar Bharat, Indo-Russian Defense, Missile Export</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/missile-age-warfare-redefining-long-range-precision-strikes-487696.html</loc>
+        <lastmod>Tue, 20 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCnrKeDQZaMq6M4wc_ZLOl-zOw88XapkbEkRItYg1egUv-skA4ZRn3aWN7ICJ0qKSSYxw1LXXIWR9TAMU4VVEDuvffhcoo7O5A2yLNyNxx-rFZuvwxkgnsW6BFnck02Ov1GhAyYmdoWaiekKD2rSMjg2WJ5yivstnXquIeUBnhzuaph9m8r-gwiAkw-Ho/s72-c/Agni_Akash_Missile.jpg</image:loc>
+            <image:title>Missile Age Warfare: Redefining Long-Range Precision Strikes</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 20 Oct 2026 05:02:44 +0000</news:publication_date>
+            <news:title>Missile Age Warfare: Redefining Long-Range Precision Strikes</news:title>
+            
+            <news:keywords>Precision Strikes, Missile Warfare, Standoff Munitions, Defense Posture, Military Strategy</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/pritzker-warns-ai-employment-shock-demands-aggressive-state-action-438866.html</loc>
@@ -5589,7 +5637,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-20</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
