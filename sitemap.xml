@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/federal-judge-dismisses-childhood-abuse-lawsuit-against-openai-ceo-sam-altman-573866.html</loc>
+        <lastmod>2026-10-20</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STK201_SAM_ALTMAN_CVIRGINIA_D.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100</image:loc>
+            <image:title>Federal Judge Dismisses Childhood Abuse Lawsuit Against OpenAI CEO Sam Altman</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2026-10-20T19:04:19-04:00</news:publication_date>
+            <news:title>Federal Judge Dismisses Childhood Abuse Lawsuit Against OpenAI CEO Sam Altman</news:title>
+            
+            <news:keywords>Sam Altman, OpenAI, Legal Proceedings, Ann Altman, Federal Court</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/google-deploys-personal-intelligence-to-the-automotive-cockpit-573881.html</loc>
+        <lastmod>2026-10-20</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/google-gemini-personal-intelligence.png?quality=90&amp;strip=all&amp;crop=0,0,100,100</image:loc>
+            <image:title>Google Deploys Personal Intelligence to the Automotive Cockpit</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2026-10-20T18:11:34-04:00</news:publication_date>
+            <news:title>Google Deploys Personal Intelligence to the Automotive Cockpit</news:title>
+            
+            <news:keywords>Google Gemini, Android Auto, Automotive AI, Personal Intelligence, Connected Vehicles</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/netflix-battles-stagnant-growth-leadership-shakeups-and-churn-520575.html</loc>
@@ -5685,7 +5733,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         

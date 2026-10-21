@@ -23,76 +23,74 @@
     <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Netflix Battles Stagnant Growth, Leadership Shakeups and Churn</title>
-      <link>https://neodymium.world/articles/netflix-battles-stagnant-growth-leadership-shakeups-and-churn-520575.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/netflix-battles-stagnant-growth-leadership-shakeups-and-churn-520575.html</guid>
-      <pubDate>Tue, 20 Oct 2026 14:43:29 +0530</pubDate>
+      <title>Federal Judge Dismisses Childhood Abuse Lawsuit Against OpenAI CEO Sam Altman</title>
+      <link>https://neodymium.world/articles/federal-judge-dismisses-childhood-abuse-lawsuit-against-openai-ceo-sam-altman-573866.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/federal-judge-dismisses-childhood-abuse-lawsuit-against-openai-ceo-sam-altman-573866.html</guid>
+      <pubDate>2026-10-20T19:04:19-04:00</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
       <description><![CDATA[
-        Netflix is slashing its workforce, losing key executives, and facing a 20% drop in US/Canada downloads. Can co-CEO Ted Sarandos turn the streaming giant around with live programming?
+        A federal judge has officially dismissed the lawsuit filed against OpenAI CEO Sam Altman by his sister, closing a deeply personal legal battle.
         
         [SPLIT]
-        ⚡ The company laid off approximately 1,000 workers, constituting 6% of its global workforce.
+        ⚡ The dismissal was triggered by the plaintiff&#39;s failure to appear for a mandated independent medical examination and missed legal deadlines.
         [SPLIT]
-        ⚡ Key leadership exits include content head Bela Bajaria and film head Dan Lin.
+        ⚡ The Altman family previously issued a joint statement vehemently denying the allegations when the suit was initially filed last year.
         [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/netflix-battles-stagnant-growth-leadership-shakeups-and-churn-520575.html
+        🔗 Read full report → https://neodymium.world/articles/federal-judge-dismisses-childhood-abuse-lawsuit-against-openai-ceo-sam-altman-573866.html
       ]]></description>
       
-      <category>Netflix</category>
+      <category>Sam Altman</category>
       
-      <category>Streaming Industry</category>
+      <category>OpenAI</category>
       
-      <category>Ted Sarandos</category>
+      <category>Legal Proceedings</category>
       
-      <category>Media Economics</category>
+      <category>Ann Altman</category>
       
-      <category>Content Strategy</category>
+      <category>Federal Court</category>
       
       
-      <enclosure url="https://th-i.thgim.com/public/sci-tech/technology/r6be4t/article71603905.ece/alternates/LANDSCAPE_1200/Netflix%20logo.jpg" length="0" type="image/jpeg" />
-      <media:content url="https://th-i.thgim.com/public/sci-tech/technology/r6be4t/article71603905.ece/alternates/LANDSCAPE_1200/Netflix%20logo.jpg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://th-i.thgim.com/public/sci-tech/technology/r6be4t/article71603905.ece/alternates/LANDSCAPE_1200/Netflix%20logo.jpg" />
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STK201_SAM_ALTMAN_CVIRGINIA_D.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
+      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STK201_SAM_ALTMAN_CVIRGINIA_D.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STK201_SAM_ALTMAN_CVIRGINIA_D.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
       
     </item>
     
     <item>
-      <title>US Bans Chinese AI DeepSeek Across Civilian Government IT Systems</title>
-      <link>https://neodymium.world/articles/us-bans-chinese-ai-deepseek-across-civilian-government-it-systems-520604.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/us-bans-chinese-ai-deepseek-across-civilian-government-it-systems-520604.html</guid>
-      <pubDate>Tue, 20 Oct 2026 11:15:17 +0530</pubDate>
+      <title>Google Deploys Personal Intelligence to the Automotive Cockpit</title>
+      <link>https://neodymium.world/articles/google-deploys-personal-intelligence-to-the-automotive-cockpit-573881.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/google-deploys-personal-intelligence-to-the-automotive-cockpit-573881.html</guid>
+      <pubDate>2026-10-20T18:11:34-04:00</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
       <description><![CDATA[
-        Washington draws a hard line on artificial intelligence. The US Department of Homeland Security has officially ordered the removal and procurement ban of China&#39;s DeepSeek across all civilian IT systems, citing severe data transfer and espionage risks.
+        Google&#39;s Gemini AI is stepping off your phone and into your dashboard. With new Personal Intelligence integration, your car can now pull flight data from Gmail and navigate using your personal photo library.
         
         [SPLIT]
-        ⚡ The directive mandates the immediate removal of DeepSeek products and third-party services leveraging the model from all civilian federal networks.
+        ⚡ Drivers can execute complex voice commands such as fetching flight status from email confirmations or navigating to locations extracted from personal photos.
         [SPLIT]
-        ⚡ Federal agencies were previously instructed via a July memo to aggressively monitor inbound and outbound traffic flows to isolate DeepSeek signatures.
+        ⚡ Major automotive partners including Ford, GM, Honda, Nissan, Volvo, and Polestar are integrating native Google vehicle architectures.
         [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/us-bans-chinese-ai-deepseek-across-civilian-government-it-systems-520604.html
+        🔗 Read full report → https://neodymium.world/articles/google-deploys-personal-intelligence-to-the-automotive-cockpit-573881.html
       ]]></description>
       
-      <category>DeepSeek</category>
+      <category>Google Gemini</category>
       
-      <category>US Homeland Security</category>
+      <category>Android Auto</category>
       
-      <category>Chinese AI</category>
+      <category>Automotive AI</category>
       
-      <category>Cybersecurity</category>
+      <category>Personal Intelligence</category>
       
-      <category>Data Exfiltration</category>
-      
-      <category>Geopolitical Tech War</category>
+      <category>Connected Vehicles</category>
       
       
-      <enclosure url="https://th-i.thgim.com/public/incoming/da0d3i/article71603296.ece/alternates/LANDSCAPE_1200/2026-10-19T115057Z_857358559_RC2B6OAS34TQ_RTRMADP_3_TECH-AI.JPG" length="0" type="image/jpeg" />
-      <media:content url="https://th-i.thgim.com/public/incoming/da0d3i/article71603296.ece/alternates/LANDSCAPE_1200/2026-10-19T115057Z_857358559_RC2B6OAS34TQ_RTRMADP_3_TECH-AI.JPG" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://th-i.thgim.com/public/incoming/da0d3i/article71603296.ece/alternates/LANDSCAPE_1200/2026-10-19T115057Z_857358559_RC2B6OAS34TQ_RTRMADP_3_TECH-AI.JPG" />
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/google-gemini-personal-intelligence.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
+      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/google-gemini-personal-intelligence.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/google-gemini-personal-intelligence.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
       
     </item>
     
