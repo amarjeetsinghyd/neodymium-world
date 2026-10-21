@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/the-geopolitics-of-autonomy-starlink-chokepoints-ai-deception-607220.html</loc>
+        <lastmod>Wed, 21 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://wp.technologyreview.com/wp-content/uploads/2025/05/LeoB1.1_Serial1_Gram_Aug_2023_3.jpg?w=3000</image:loc>
+            <image:title>The Geopolitics of Autonomy: Starlink Chokepoints &amp; AI Deception</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 21 Oct 2026 12:10:00 +0000</news:publication_date>
+            <news:title>The Geopolitics of Autonomy: Starlink Chokepoints &amp; AI Deception</news:title>
+            
+            <news:keywords>Starlink, Military Autonomy, Directed Energy Weapons, AI Misalignment, Defense Modernization</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/engineering-the-impossible-the-new-frontier-of-defense-modernization-607236.html</loc>
+        <lastmod>Wed, 21 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Engineering the Impossible: The New Frontier of Defense Modernization</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 21 Oct 2026 09:00:00 +0000</news:publication_date>
+            <news:title>Engineering the Impossible: The New Frontier of Defense Modernization</news:title>
+            
+            <news:keywords>Defense Modernization, Military R&amp;D, Strategic Deterrence, Emerging Tech, Alexander Sterling</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/federal-judge-dismisses-childhood-abuse-lawsuit-against-openai-ceo-sam-altman-573866.html</loc>
         <lastmod>2026-10-20</lastmod>
         <changefreq>never</changefreq>
