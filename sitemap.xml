@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/iaf-presses-industry-for-autonomous-drone-dominance-693367.html</loc>
+        <lastmod>Thu, 22 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://static.pib.gov.in/WriteReadData/userfiles/image/2026/oct/PHOTO3_20261021203059_88086f.jpeg</image:loc>
+            <image:title>IAF Presses Industry for Autonomous Drone Dominance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 22 Oct 2026 16:29:00 +0000</news:publication_date>
+            <news:title>IAF Presses Industry for Autonomous Drone Dominance</news:title>
+            
+            <news:keywords>Indian Air Force, Autonomous Systems, Atmanirbhar Bharat, Military Drones, DRDO</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-issues-urgent-security-advisory-for-citizens-across-france-amid-unrest-693407.html</loc>
+        <lastmod>Thu, 22 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>India Issues Urgent Security Advisory for Citizens Across France Amid Unrest</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 22 Oct 2026 16:20:00 +0000</news:publication_date>
+            <news:title>India Issues Urgent Security Advisory for Citizens Across France Amid Unrest</news:title>
+            
+            <news:keywords>India France Relations, French Protests, Embassy Advisory, European Geopolitics, Consular Security</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/the-enterprise-software-tax-billions-burned-on-unwanted-upgrades-660396.html</loc>
         <lastmod>Wed, 21 Oc</lastmod>
         <changefreq>never</changefreq>
