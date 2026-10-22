@@ -23,6 +23,42 @@
     <atom:link href="https://neodymium.world/rss_archive.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>The Enterprise Software Tax: Billions Burned on Unwanted Upgrades</title>
+      <link>https://neodymium.world/articles/the-enterprise-software-tax-billions-burned-on-unwanted-upgrades-660396.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/the-enterprise-software-tax-billions-burned-on-unwanted-upgrades-660396.html</guid>
+      <pubDate>Wed, 21 Oct 2026 21:48:52 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Major enterprise firms are flushing 28% of their software budgets down the drain on unwanted vendor upgrades—and their own IT chiefs know it&#39;s making them worse off. Here is how vendor lock-in is quietly kneecapping global business.
+        
+        [SPLIT]
+        ⚡ Ninety-five percent of CIOs report purchasing vendor-driven changes within the past three years that they believed would reduce system performance or value.
+        [SPLIT]
+        ⚡ Seventy-six percent of IT leaders state they possess virtually zero leverage in contract negotiations against dominant software conglomerates.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/the-enterprise-software-tax-billions-burned-on-unwanted-upgrades-660396.html
+      ]]></description>
+      
+      <category>Enterprise Software</category>
+      
+      <category>Vendor Lock-in</category>
+      
+      <category>CIO Strategy</category>
+      
+      <category>Software Licensing</category>
+      
+      <category>IT Budgeting</category>
+      
+      
+      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-832621336-500x500.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-832621336-500x500.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-832621336-500x500.jpg" />
+      
+    </item>
+    
+    <item>
       <title>The Geopolitics of Autonomy: Starlink Chokepoints &amp; AI Deception</title>
       <link>https://neodymium.world/articles/the-geopolitics-of-autonomy-starlink-chokepoints-ai-deception-607220.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/the-geopolitics-of-autonomy-starlink-chokepoints-ai-deception-607220.html</guid>
@@ -91,6 +127,44 @@
       <enclosure url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" length="0" type="image/jpeg" />
       <media:content url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
+      
+    </item>
+    
+    <item>
+      <title>Critical PHP Zero-Days Threaten Millions of Global Web Servers</title>
+      <link>https://neodymium.world/articles/critical-php-zero-days-threaten-millions-of-global-web-servers-660412.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/critical-php-zero-days-threaten-millions-of-global-web-servers-660412.html</guid>
+      <pubDate>Wed, 21 Oct 2026 02:12:18 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Emergency patches drop for two severe PHP vulnerabilities rated 9.2 out of 10. With the PHP2Shell exploit circulating, millions of servers face immediate risk of remote code execution. Read the full strategic breakdown.
+        
+        [SPLIT]
+        ⚡ The purported PHP2Shell exploit enables unauthenticated remote code execution on targeted webservers.
+        [SPLIT]
+        ⚡ Security firms warn that mass automated exploitation will likely commence within minutes of patch publication.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/critical-php-zero-days-threaten-millions-of-global-web-servers-660412.html
+      ]]></description>
+      
+      <category>PHP Vulnerability</category>
+      
+      <category>CVE-2026-109618</category>
+      
+      <category>CVE-2026-109619</category>
+      
+      <category>Remote Code Execution</category>
+      
+      <category>Cyber Defense</category>
+      
+      <category>Web Security</category>
+      
+      
+      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-500x500.jpeg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-500x500.jpeg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-500x500.jpeg" />
       
     </item>
     
@@ -865,82 +939,6 @@
       <enclosure url="https://cloudfront-us-east-1.images.arcpublishing.com/archetype/46KWRVBE7FHOXPRK73YMDUZZSM.jpg" length="0" type="image/jpeg" />
       <media:content url="https://cloudfront-us-east-1.images.arcpublishing.com/archetype/46KWRVBE7FHOXPRK73YMDUZZSM.jpg" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://cloudfront-us-east-1.images.arcpublishing.com/archetype/46KWRVBE7FHOXPRK73YMDUZZSM.jpg" />
-      
-    </item>
-    
-    <item>
-      <title>America&#39;s Digital Fortress: Project Gatekeeper Reshapes Defense Tech Onboarding</title>
-      <link>https://neodymium.world/articles/america-s-digital-fortress-project-gatekeeper-reshapes-defense-tech-onboarding-054657.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/america-s-digital-fortress-project-gatekeeper-reshapes-defense-tech-onboarding-054657.html</guid>
-      <pubDate>Wed, 14 Oct 2026 15:16:56 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        The U.S. Army is unleashing AI to transform how it acquires critical software, slashing onboarding from months to minutes. This isn&#39;t just efficiency; it&#39;s a strategic pivot for defense modernization and securing our digital frontier. Alexander Sterling unpacks Project Gatekeeper
-        
-        [SPLIT]
-        ⚡ The initiative aims to lower barriers for innovative vendors, expanding the defense industrial base and fostering a more dynamic ecosystem.
-        [SPLIT]
-        ⚡ By vetting code in isolated environments, Gatekeeper enhances cybersecurity while maintaining stringent security requirements.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/america-s-digital-fortress-project-gatekeeper-reshapes-defense-tech-onboarding-054657.html
-      ]]></description>
-      
-      <category>Project Gatekeeper</category>
-      
-      <category>Defense Software</category>
-      
-      <category>AI in Defense</category>
-      
-      <category>Cybersecurity</category>
-      
-      <category>Defense Modernization</category>
-      
-      <category>US Army CIO</category>
-      
-      
-      <enclosure url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" length="0" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
-      
-    </item>
-    
-    <item>
-      <title>Hegseth&#39;s AUSA Address: The Autonomous Imperative for Western Defense</title>
-      <link>https://neodymium.world/articles/hegseth-s-ausa-address-the-autonomous-imperative-for-western-defense-002165.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/hegseth-s-ausa-address-the-autonomous-imperative-for-western-defense-002165.html</guid>
-      <pubDate>Wed, 14 Oct 2026 13:55:47 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Secretary of War Pete Hegseth at AUSA 2026 just signaled a pivotal moment for Western defense. His remarks on autonomous warfare are not just policy — they&#39;re a strategic imperative. What does this mean for NATO, supply chains, and the future of deterrence? Dive deep into the imp
-        
-        [SPLIT]
-        ⚡ A rapid acceleration in AI-driven platforms and counter-autonomy measures is now a non-negotiable requirement for NATO.
-        [SPLIT]
-        ⚡ Securing critical supply chains for advanced semiconductors and rare earths is paramount to achieving and sustaining technological superiority.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/hegseth-s-ausa-address-the-autonomous-imperative-for-western-defense-002165.html
-      ]]></description>
-      
-      <category>Autonomous Warfare</category>
-      
-      <category>AUSA 2026</category>
-      
-      <category>Western Defense</category>
-      
-      <category>AI in Military</category>
-      
-      <category>NATO Deterrence</category>
-      
-      <category>Supply Chain Security</category>
-      
-      
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg" length="0" type="image/jpeg" />
-      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg" />
       
     </item>
     

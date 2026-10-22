@@ -23,6 +23,42 @@
     <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>The Enterprise Software Tax: Billions Burned on Unwanted Upgrades</title>
+      <link>https://neodymium.world/articles/the-enterprise-software-tax-billions-burned-on-unwanted-upgrades-660396.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/the-enterprise-software-tax-billions-burned-on-unwanted-upgrades-660396.html</guid>
+      <pubDate>Wed, 21 Oct 2026 21:48:52 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Major enterprise firms are flushing 28% of their software budgets down the drain on unwanted vendor upgrades—and their own IT chiefs know it&#39;s making them worse off. Here is how vendor lock-in is quietly kneecapping global business.
+        
+        [SPLIT]
+        ⚡ Ninety-five percent of CIOs report purchasing vendor-driven changes within the past three years that they believed would reduce system performance or value.
+        [SPLIT]
+        ⚡ Seventy-six percent of IT leaders state they possess virtually zero leverage in contract negotiations against dominant software conglomerates.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/the-enterprise-software-tax-billions-burned-on-unwanted-upgrades-660396.html
+      ]]></description>
+      
+      <category>Enterprise Software</category>
+      
+      <category>Vendor Lock-in</category>
+      
+      <category>CIO Strategy</category>
+      
+      <category>Software Licensing</category>
+      
+      <category>IT Budgeting</category>
+      
+      
+      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-832621336-500x500.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-832621336-500x500.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-832621336-500x500.jpg" />
+      
+    </item>
+    
+    <item>
       <title>The Geopolitics of Autonomy: Starlink Chokepoints &amp; AI Deception</title>
       <link>https://neodymium.world/articles/the-geopolitics-of-autonomy-starlink-chokepoints-ai-deception-607220.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/the-geopolitics-of-autonomy-starlink-chokepoints-ai-deception-607220.html</guid>
@@ -55,42 +91,6 @@
       <enclosure url="https://wp.technologyreview.com/wp-content/uploads/2025/05/LeoB1.1_Serial1_Gram_Aug_2023_3.jpg?w=3000" length="0" type="image/jpeg" />
       <media:content url="https://wp.technologyreview.com/wp-content/uploads/2025/05/LeoB1.1_Serial1_Gram_Aug_2023_3.jpg?w=3000" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://wp.technologyreview.com/wp-content/uploads/2025/05/LeoB1.1_Serial1_Gram_Aug_2023_3.jpg?w=3000" />
-      
-    </item>
-    
-    <item>
-      <title>Engineering the Impossible: The New Frontier of Defense Modernization</title>
-      <link>https://neodymium.world/articles/engineering-the-impossible-the-new-frontier-of-defense-modernization-607236.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/engineering-the-impossible-the-new-frontier-of-defense-modernization-607236.html</guid>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        When geopolitical deterrence demands the impossible, how do Western defense planners bridge the gap between vision and reality? Alexander Sterling breaks it down.
-        
-        [SPLIT]
-        ⚡ Institutional risk aversion and over-internalized constraints remain primary bottlenecks in rapid defense acquisition and capability deployment.
-        [SPLIT]
-        ⚡ Bridging the gap between theoretical R&amp;D and operational theater utility demands a complete overhaul of traditional capability pipelines.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/engineering-the-impossible-the-new-frontier-of-defense-modernization-607236.html
-      ]]></description>
-      
-      <category>Defense Modernization</category>
-      
-      <category>Military R&amp;D</category>
-      
-      <category>Strategic Deterrence</category>
-      
-      <category>Emerging Tech</category>
-      
-      <category>Alexander Sterling</category>
-      
-      
-      <enclosure url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" length="0" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
       
     </item>
     
