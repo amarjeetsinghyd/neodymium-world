@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-10-22</lastmod>
+        <lastmod>2026-10-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-10-22</lastmod>
+        <lastmod>2026-10-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/reframing-the-hlft-42-hal-s-pivot-toward-pragmatic-trainer-design-746602.html</loc>
+        <lastmod>Fri, 23 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://idrw.org/wp-content/uploads/2026/10/HAL-HLFT-42-Technical-Infographic-1.png</image:loc>
+            <image:title>Reframing the HLFT-42: HAL&#39;s Pivot Toward Pragmatic Trainer Design</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 23 Oct 2026 08:35:00 +0000</news:publication_date>
+            <news:title>Reframing the HLFT-42: HAL&#39;s Pivot Toward Pragmatic Trainer Design</news:title>
+            
+            <news:keywords>HLFT-42, HAL, IAF Training, Atmanirbhar Bharat, Tejas LCA, Defense Procurement</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/godrej-aerospace-and-the-backbone-of-india-s-propulsion-engine-746635.html</loc>
+        <lastmod>Fri, 23 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://idrw.org/wp-content/uploads/2026/10/1792585502505.jpg</image:loc>
+            <image:title>Godrej Aerospace and the Backbone of India&#39;s Propulsion Engine</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 23 Oct 2026 08:02:00 +0000</news:publication_date>
+            <news:title>Godrej Aerospace and the Backbone of India&#39;s Propulsion Engine</news:title>
+            
+            <news:keywords>Godrej Aerospace, Atmanirbhar Bharat, ISRO, Airbreathing Propulsion, Indian Defense Manufacturing, Aerospace Supply Chain</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/iaf-presses-industry-for-autonomous-drone-dominance-693367.html</loc>
@@ -5877,7 +5925,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-10-22</lastmod>
+        <lastmod>2026-10-23</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
