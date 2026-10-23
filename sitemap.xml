@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/barzan-unveils-drones-and-usvs-at-milipol-amid-gulf-tensions-778917.html</loc>
+        <lastmod>Fri, 23 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://breakingdefense.com/wp-content/uploads/sites/13/2026/01/usv-barzan-1024x576.jpg</image:loc>
+            <image:title>Barzan Unveils Drones and USVs at Milipol Amid Gulf Tensions</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 23 Oct 2026 15:10:00 +0000</news:publication_date>
+            <news:title>Barzan Unveils Drones and USVs at Milipol Amid Gulf Tensions</news:title>
+            
+            <news:keywords>Barzan Holdings, Milipol 2026, Qatar Defense Industry, Unmanned Systems, Air Defense Architecture</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/hd-hyundai-and-kiewit-partner-for-us-shipyard-push-778933.html</loc>
+        <lastmod>Fri, 23 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://breakingdefense.com/wp-content/uploads/sites/13/2024/04/hyundai-shipyard-scaled-e1713974704181-1024x577.jpg</image:loc>
+            <image:title>HD Hyundai and Kiewit Partner for US Shipyard Push</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 23 Oct 2026 14:43:33 +0000</news:publication_date>
+            <news:title>HD Hyundai and Kiewit Partner for US Shipyard Push</news:title>
+            
+            <news:keywords>HD Hyundai, Kiewit Maritime, US Shipbuilding, US Navy Auxiliary, Defense Industrial Base</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/reframing-the-hlft-42-hal-s-pivot-toward-pragmatic-trainer-design-746602.html</loc>
         <lastmod>Fri, 23 Oc</lastmod>
         <changefreq>never</changefreq>
