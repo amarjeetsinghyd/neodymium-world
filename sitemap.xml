@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-10-23</lastmod>
+        <lastmod>2026-10-24</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-10-23</lastmod>
+        <lastmod>2026-10-24</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/quantum-secure-skies-sagar-defence-uas-tests-airborne-qkd-831404.html</loc>
+        <lastmod>Sat, 24 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://idrw.org/wp-content/uploads/2026/10/1792691222035.jpg</image:loc>
+            <image:title>Quantum-Secure Skies: Sagar Defence UAS Tests Airborne QKD</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 24 Oct 2026 08:33:00 +0000</news:publication_date>
+            <news:title>Quantum-Secure Skies: Sagar Defence UAS Tests Airborne QKD</news:title>
+            
+            <news:keywords>Sagar Defence, Quantum Key Distribution, C-DAC, Military Communications, Atmanirbhar Bharat, Post-Quantum Cryptography</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/itbp-chief-s-border-clashes-remark-exposes-command-friction-831433.html</loc>
+        <lastmod>Sat, 24 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>ITBP Chief’s Border Clashes Remark Exposes Command Friction</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 24 Oct 2026 08:06:00 +0000</news:publication_date>
+            <news:title>ITBP Chief’s Border Clashes Remark Exposes Command Friction</news:title>
+            
+            <news:keywords>ITBP, Line of Actual Control, Indian Army, Arunachal Pradesh, Border Deterrence, Atmanirbhar Bharat</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/barzan-unveils-drones-and-usvs-at-milipol-amid-gulf-tensions-778917.html</loc>
@@ -5973,7 +6021,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-10-23</lastmod>
+        <lastmod>2026-10-24</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
