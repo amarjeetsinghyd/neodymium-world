@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-10-24</lastmod>
+        <lastmod>2026-10-25</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-10-24</lastmod>
+        <lastmod>2026-10-25</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -164,6 +164,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/pentagon-mandates-ideological-neutrality-for-ai-procurement-918784.html</loc>
+        <lastmod>Fri, 23 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Pentagon Mandates Ideological Neutrality for AI Procurement</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 23 Oct 2026 16:40:41 +0000</news:publication_date>
+            <news:title>Pentagon Mandates Ideological Neutrality for AI Procurement</news:title>
+            
+            <news:keywords>Pentagon AI Procurement, Defense Contracting, Artificial Intelligence, DoD Acquisition, AI Neutrality Policy</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/barzan-unveils-drones-and-usvs-at-milipol-amid-gulf-tensions-778917.html</loc>
         <lastmod>Fri, 23 Oc</lastmod>
         <changefreq>never</changefreq>
@@ -255,6 +279,30 @@
             <news:title>Godrej Aerospace and the Backbone of India&#39;s Propulsion Engine</news:title>
             
             <news:keywords>Godrej Aerospace, Atmanirbhar Bharat, ISRO, Airbreathing Propulsion, Indian Defense Manufacturing, Aerospace Supply Chain</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/pentagon-bans-troops-from-prediction-market-bets-on-military-ops-918801.html</loc>
+        <lastmod>Thu, 22 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Pentagon Bans Troops From Prediction Market Bets on Military Ops</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 22 Oct 2026 21:09:11 +0000</news:publication_date>
+            <news:title>Pentagon Bans Troops From Prediction Market Bets on Military Ops</news:title>
+            
+            <news:keywords>Pete Hegseth, Pentagon Memo, Prediction Markets, Polymarket Insider Trading, Military Ethics</news:keywords>
             
         </news:news>
     </url>
@@ -6069,7 +6117,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-10-24</lastmod>
+        <lastmod>2026-10-25</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
