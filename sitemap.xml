@@ -6212,6 +6212,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/inside-openai-s-classified-containment-protocol-949283.html</loc>
+        <lastmod>Fri, 23 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Inside OpenAI&#39;s Classified Containment Protocol</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 23 Oct 2026 10:00:00 GMT</news:publication_date>
+            <news:title>Inside OpenAI&#39;s Classified Containment Protocol</news:title>
+            
+            <news:keywords>AI Containment, Frontier Models, Model Red-Teaming, Secure Compute, Defense AI</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/mixed-use-developments-india-s-new-geopolitical-economic-growth-engine-333939.html</loc>
         <lastmod>Wed, 29 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -6303,6 +6327,30 @@
             <news:title>Pollo AI Turns Creative Ideas into Campaigns with OpenAI</news:title>
             
             <news:keywords>Generative AI, Information Warfare, OpenAI, Cognitive Domain, NATO Deterrence, Strategic Communication</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/scaling-chatgpt-to-one-billion-inside-openai-s-infrastructure-949267.html</loc>
+        <lastmod>Fri, 23 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Scaling ChatGPT to One Billion: Inside OpenAI&#39;s Infrastructure</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 23 Oct 2026 17:00:00 GMT</news:publication_date>
+            <news:title>Scaling ChatGPT to One Billion: Inside OpenAI&#39;s Infrastructure</news:title>
+            
+            <news:keywords>OpenAI Infrastructure, Azure Cosmos DB, Distributed Systems, AI Scalability, Cloud Architecture</news:keywords>
             
         </news:news>
     </url>
