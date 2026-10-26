@@ -332,6 +332,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/are-yearlong-deployments-the-u-s-navy-s-new-normal-043987.html</loc>
+        <lastmod>Thu, 22 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.defenseone.com/media/img/cd/2026/10/22/9757199/thumb.jpg</image:loc>
+            <image:title>Are Yearlong Deployments the U.S. Navy&#39;s New Normal?</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 22 Oct 2026 21:44:00 -0400</news:publication_date>
+            <news:title>Are Yearlong Deployments the U.S. Navy&#39;s New Normal?</news:title>
+            
+            <news:keywords>U.S. Navy, Arleigh Burke-class, Force Management, Naval Readiness, Indo-Pacific Deterrence</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/pentagon-bans-troops-from-prediction-market-bets-on-military-ops-918801.html</loc>
         <lastmod>Thu, 22 Oc</lastmod>
         <changefreq>never</changefreq>
@@ -351,6 +375,30 @@
             <news:title>Pentagon Bans Troops From Prediction Market Bets on Military Ops</news:title>
             
             <news:keywords>Pete Hegseth, Pentagon Memo, Prediction Markets, Polymarket Insider Trading, Military Ethics</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/modularity-and-the-procurement-chokepoint-in-modern-defense-044005.html</loc>
+        <lastmod>Thu, 22 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.defenseone.com/media/img/cd/2026/10/22/DBB_lander/thumb.jpg</image:loc>
+            <image:title>Modularity and the Procurement Chokepoint in Modern Defense</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 22 Oct 2026 20:40:07 -0400</news:publication_date>
+            <news:title>Modularity and the Procurement Chokepoint in Modern Defense</news:title>
+            
+            <news:keywords>MOSA, Oshkosh Defense, Military Procurement, MQ-25 Stingray, Defense Acquisition</news:keywords>
             
         </news:news>
     </url>
