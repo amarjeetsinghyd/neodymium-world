@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-10-25</lastmod>
+        <lastmod>2026-10-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-10-25</lastmod>
+        <lastmod>2026-10-26</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/inside-anadrone-s-high-speed-target-drone-concept-for-india-s-air-defense-008258.html</loc>
+        <lastmod>Mon, 26 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://idrw.org/wp-content/uploads/2026/10/1791308006807.jpg</image:loc>
+            <image:title>Inside Anadrone’s High-Speed Target Drone Concept for India&#39;s Air Defense</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 26 Oct 2026 09:43:00 +0000</news:publication_date>
+            <news:title>Inside Anadrone’s High-Speed Target Drone Concept for India&#39;s Air Defense</news:title>
+            
+            <news:keywords>Anadrone Systems, Aerial Target Drone, Atmanirbhar Bharat, Indian Air Defense, UAV Development</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/iaf-rejects-permanent-asset-splitting-in-india-s-theaterisation-blueprint-008290.html</loc>
+        <lastmod>Mon, 26 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://img.etimg.com/thumb/width-1200,height-900,imgsize-95036,resizemode-75,msid-135182828/news/defence/theaterisation-must-mirror-indias-security-reality-no-permanent-division-of-iafs-fighter-assets-air-chief-marshal-ap-singh.jpg</image:loc>
+            <image:title>IAF Rejects Permanent Asset Splitting in India&#39;s Theaterisation Blueprint</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 26 Oct 2026 09:06:00 +0000</news:publication_date>
+            <news:title>IAF Rejects Permanent Asset Splitting in India&#39;s Theaterisation Blueprint</news:title>
+            
+            <news:keywords>IAF Theaterisation, Air Chief Marshal AP Singh, Indian Air Force, CDS, Military Integration, Atmanirbhar Bharat</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/quantum-secure-skies-sagar-defence-uas-tests-airborne-qkd-831404.html</loc>
@@ -6117,7 +6165,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-10-25</lastmod>
+        <lastmod>2026-10-26</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
