@@ -23,6 +23,78 @@
     <atom:link href="https://neodymium.world/rss_archive.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>OpenAI’s Algorithmic Breakthroughs Force a Defense Rethink</title>
+      <link>https://neodymium.world/articles/openai-s-algorithmic-breakthroughs-force-a-defense-rethink-093989.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/openai-s-algorithmic-breakthroughs-force-a-defense-rethink-093989.html</guid>
+      <pubDate>2026-10-26T19:34:58-04:00</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Can machine learning labs bypass peer review to rewrite fundamental physics and computer science? OpenAI just dropped three massive proofs, forcing a scramble across the national security and academic apparatus.
+        
+        [SPLIT]
+        ⚡ A computer science team led by Russell Impagliazzo, Ramamohan Paturi, and Ryan Williams validated that the Exponential Time Hypothesis is false.
+        [SPLIT]
+        ⚡ Theoretical physics proofs touching Quantum Chromodynamics are being shepherded by an elite panel including Nobel laureate David Gross.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/openai-s-algorithmic-breakthroughs-force-a-defense-rethink-093989.html
+      ]]></description>
+      
+      <category>OpenAI Breakthroughs</category>
+      
+      <category>Exponential Time Hypothesis</category>
+      
+      <category>Defense AI</category>
+      
+      <category>Algorithmic Warfare</category>
+      
+      <category>Machine Learning Verification</category>
+      
+      
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS537_AI_MATH_2.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
+      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS537_AI_MATH_2.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS537_AI_MATH_2.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
+      
+    </item>
+    
+    <item>
+      <title>Anthropic’s S-1 Exposes the Methane Trap Behind the AI Boom</title>
+      <link>https://neodymium.world/articles/anthropic-s-s-1-exposes-the-methane-trap-behind-the-ai-boom-094005.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/anthropic-s-s-1-exposes-the-methane-trap-behind-the-ai-boom-094005.html</guid>
+      <pubDate>2026-10-26T17:45:31-04:00</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        As Anthropic prepares to go public, its S-1 filing lays bare a brutal truth for the tech sector: generative AI is running on methane, and the grid can&#39;t keep up.
+        
+        [SPLIT]
+        ⚡ A severe shortage of industrial gas turbines and pipeline capacity is currently slowing data center construction timelines across the United States.
+        [SPLIT]
+        ⚡ The surge in fossil-fuel-powered compute risks erasing decades of air quality gains while exposing operators to volatile fuel and utility pricing.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/anthropic-s-s-1-exposes-the-methane-trap-behind-the-ai-boom-094005.html
+      ]]></description>
+      
+      <category>Anthropic S-1</category>
+      
+      <category>AI Data Centers</category>
+      
+      <category>Natural Gas Methane</category>
+      
+      <category>Energy Grid Security</category>
+      
+      <category>Hyperscale Compute</category>
+      
+      
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
+      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
+      
+    </item>
+    
+    <item>
       <title>Inside Anadrone’s High-Speed Target Drone Concept for India&#39;s Air Defense</title>
       <link>https://neodymium.world/articles/inside-anadrone-s-high-speed-target-drone-concept-for-india-s-air-defense-008258.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/inside-anadrone-s-high-speed-target-drone-concept-for-india-s-air-defense-008258.html</guid>
@@ -861,82 +933,6 @@
       <enclosure url="https://th-i.thgim.com/public/sci-tech/technology/r6be4t/article71603905.ece/alternates/LANDSCAPE_1200/Netflix%20logo.jpg" length="0" type="image/jpeg" />
       <media:content url="https://th-i.thgim.com/public/sci-tech/technology/r6be4t/article71603905.ece/alternates/LANDSCAPE_1200/Netflix%20logo.jpg" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://th-i.thgim.com/public/sci-tech/technology/r6be4t/article71603905.ece/alternates/LANDSCAPE_1200/Netflix%20logo.jpg" />
-      
-    </item>
-    
-    <item>
-      <title>US Bans Chinese AI DeepSeek Across Civilian Government IT Systems</title>
-      <link>https://neodymium.world/articles/us-bans-chinese-ai-deepseek-across-civilian-government-it-systems-520604.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/us-bans-chinese-ai-deepseek-across-civilian-government-it-systems-520604.html</guid>
-      <pubDate>Tue, 20 Oct 2026 11:15:17 +0530</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Washington draws a hard line on artificial intelligence. The US Department of Homeland Security has officially ordered the removal and procurement ban of China&#39;s DeepSeek across all civilian IT systems, citing severe data transfer and espionage risks.
-        
-        [SPLIT]
-        ⚡ The directive mandates the immediate removal of DeepSeek products and third-party services leveraging the model from all civilian federal networks.
-        [SPLIT]
-        ⚡ Federal agencies were previously instructed via a July memo to aggressively monitor inbound and outbound traffic flows to isolate DeepSeek signatures.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/us-bans-chinese-ai-deepseek-across-civilian-government-it-systems-520604.html
-      ]]></description>
-      
-      <category>DeepSeek</category>
-      
-      <category>US Homeland Security</category>
-      
-      <category>Chinese AI</category>
-      
-      <category>Cybersecurity</category>
-      
-      <category>Data Exfiltration</category>
-      
-      <category>Geopolitical Tech War</category>
-      
-      
-      <enclosure url="https://th-i.thgim.com/public/incoming/da0d3i/article71603296.ece/alternates/LANDSCAPE_1200/2026-10-19T115057Z_857358559_RC2B6OAS34TQ_RTRMADP_3_TECH-AI.JPG" length="0" type="image/jpeg" />
-      <media:content url="https://th-i.thgim.com/public/incoming/da0d3i/article71603296.ece/alternates/LANDSCAPE_1200/2026-10-19T115057Z_857358559_RC2B6OAS34TQ_RTRMADP_3_TECH-AI.JPG" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://th-i.thgim.com/public/incoming/da0d3i/article71603296.ece/alternates/LANDSCAPE_1200/2026-10-19T115057Z_857358559_RC2B6OAS34TQ_RTRMADP_3_TECH-AI.JPG" />
-      
-    </item>
-    
-    <item>
-      <title>BrahMos-2: The Export-Driven Hypersonic Leap</title>
-      <link>https://neodymium.world/articles/brahmos-2-the-export-driven-hypersonic-leap-487671.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/brahmos-2-the-export-driven-hypersonic-leap-487671.html</guid>
-      <pubDate>Tue, 20 Oct 2026 05:02:48 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Derived from Russia&#39;s 3M22 Zircon, BrahMos-2 is poised to redefine Indo-Russian defense cooperation and export-driven hypersonic deterrence across the Indo-Pacific.
-        
-        [SPLIT]
-        ⚡ The program signals a deliberate pivot toward high-value defense exports targeting allied nations in the Indo-Pacific.
-        [SPLIT]
-        ⚡ Transitioning from supersonic to hypersonic speeds fundamentally compresses adversary decision cycles at sea and on land.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/brahmos-2-the-export-driven-hypersonic-leap-487671.html
-      ]]></description>
-      
-      <category>BrahMos-2</category>
-      
-      <category>Hypersonic Missiles</category>
-      
-      <category>3M22 Zircon</category>
-      
-      <category>Atmanirbhar Bharat</category>
-      
-      <category>Indo-Russian Defense</category>
-      
-      <category>Missile Export</category>
-      
-      
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtrS3xEZdsuxOgtvo_-5ACwjbU6GMIhFbmK6eTji0wstm2eTme3BDDnZpJCEE_KdmGNYBph5y6JukGpEOUZOq2qfU8t8VNyod5Iv-tT8CVtsr_E-dkVyJSqxCVokvKSS7uf_E8-2trwwjv4dhpeVVTLt8Fnuc_t7TC-7CzjfKximuv6lr7vO6BfnSnKKI/s72-c/Zircon_Hypersonic_Missile.jpg" length="0" type="image/jpeg" />
-      <media:content url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtrS3xEZdsuxOgtvo_-5ACwjbU6GMIhFbmK6eTji0wstm2eTme3BDDnZpJCEE_KdmGNYBph5y6JukGpEOUZOq2qfU8t8VNyod5Iv-tT8CVtsr_E-dkVyJSqxCVokvKSS7uf_E8-2trwwjv4dhpeVVTLt8Fnuc_t7TC-7CzjfKximuv6lr7vO6BfnSnKKI/s72-c/Zircon_Hypersonic_Missile.jpg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtrS3xEZdsuxOgtvo_-5ACwjbU6GMIhFbmK6eTji0wstm2eTme3BDDnZpJCEE_KdmGNYBph5y6JukGpEOUZOq2qfU8t8VNyod5Iv-tT8CVtsr_E-dkVyJSqxCVokvKSS7uf_E8-2trwwjv4dhpeVVTLt8Fnuc_t7TC-7CzjfKximuv6lr7vO6BfnSnKKI/s72-c/Zircon_Hypersonic_Missile.jpg" />
       
     </item>
     
