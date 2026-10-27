@@ -23,6 +23,78 @@
     <atom:link href="https://neodymium.world/rss_archive.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>The Anthropic IPO, Grid Bottlenecks, and the AI Spending Wars</title>
+      <link>https://neodymium.world/articles/the-anthropic-ipo-grid-bottlenecks-and-the-ai-spending-wars-128541.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/the-anthropic-ipo-grid-bottlenecks-and-the-ai-spending-wars-128541.html</guid>
+      <pubDate>Tue, 27 Oct 2026 12:10:00 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Anthropic&#39;s 335-page IPO filing is here, laying bare the astronomical costs, safety failures, and strategic gambles defining the generative AI boom. Read the full intelligence breakdown.
+        
+        [SPLIT]
+        ⚡ Rising electricity consumption from data centers and electric vehicles is accelerating the urgent need for solid-state grid transformer deployments.
+        [SPLIT]
+        ⚡ Major technology firms like Microsoft are cutting massive swaths of corporate staff to offset multi-billion-dollar artificial intelligence spending initiatives.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/the-anthropic-ipo-grid-bottlenecks-and-the-ai-spending-wars-128541.html
+      ]]></description>
+      
+      <category>Anthropic IPO</category>
+      
+      <category>AI Investment Boom</category>
+      
+      <category>Solid State Transformers</category>
+      
+      <category>Critical Infrastructure</category>
+      
+      <category>Defense Tech Strategy</category>
+      
+      
+      <enclosure url="https://wp.technologyreview.com/wp-content/uploads/2026/04/Neanderthals_finals-top.jpg?w=840" length="0" type="image/jpeg" />
+      <media:content url="https://wp.technologyreview.com/wp-content/uploads/2026/04/Neanderthals_finals-top.jpg?w=840" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://wp.technologyreview.com/wp-content/uploads/2026/04/Neanderthals_finals-top.jpg?w=840" />
+      
+    </item>
+    
+    <item>
+      <title>Industrial Intelligence: The Next Growth Frontier in Manufacturing</title>
+      <link>https://neodymium.world/articles/industrial-intelligence-the-next-growth-frontier-in-manufacturing-128556.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/industrial-intelligence-the-next-growth-frontier-in-manufacturing-128556.html</guid>
+      <pubDate>Tue, 27 Oct 2026 11:19:18 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Discover how manufacturers are leveraging Physical AI and industrial intelligence to turn accumulated know-how into a compounding engine for profitable growth.
+        
+        [SPLIT]
+        ⚡ Physical AI enables machines to perceive conditions, reason about variables, and execute validated physical actions.
+        [SPLIT]
+        ⚡ Real-world deployments demonstrate dramatic efficiency gains, such as cutting defect analysis cycles from five days to under four hours.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/industrial-intelligence-the-next-growth-frontier-in-manufacturing-128556.html
+      ]]></description>
+      
+      <category>Industrial Intelligence</category>
+      
+      <category>Physical AI</category>
+      
+      <category>Manufacturing Technology</category>
+      
+      <category>Operational Efficiency</category>
+      
+      <category>Smart Factory</category>
+      
+      
+      <enclosure url="https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-1367303200.jpg?w=840" length="0" type="image/jpeg" />
+      <media:content url="https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-1367303200.jpg?w=840" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-1367303200.jpg?w=840" />
+      
+    </item>
+    
+    <item>
       <title>OpenAI’s Algorithmic Breakthroughs Force a Defense Rethink</title>
       <link>https://neodymium.world/articles/openai-s-algorithmic-breakthroughs-force-a-defense-rethink-093989.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/openai-s-algorithmic-breakthroughs-force-a-defense-rethink-093989.html</guid>
@@ -861,78 +933,6 @@
       <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STK201_SAM_ALTMAN_CVIRGINIA_D.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
       <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STK201_SAM_ALTMAN_CVIRGINIA_D.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STK201_SAM_ALTMAN_CVIRGINIA_D.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
-      
-    </item>
-    
-    <item>
-      <title>Google Deploys Personal Intelligence to the Automotive Cockpit</title>
-      <link>https://neodymium.world/articles/google-deploys-personal-intelligence-to-the-automotive-cockpit-573881.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/google-deploys-personal-intelligence-to-the-automotive-cockpit-573881.html</guid>
-      <pubDate>2026-10-20T18:11:34-04:00</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Google&#39;s Gemini AI is stepping off your phone and into your dashboard. With new Personal Intelligence integration, your car can now pull flight data from Gmail and navigate using your personal photo library.
-        
-        [SPLIT]
-        ⚡ Drivers can execute complex voice commands such as fetching flight status from email confirmations or navigating to locations extracted from personal photos.
-        [SPLIT]
-        ⚡ Major automotive partners including Ford, GM, Honda, Nissan, Volvo, and Polestar are integrating native Google vehicle architectures.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/google-deploys-personal-intelligence-to-the-automotive-cockpit-573881.html
-      ]]></description>
-      
-      <category>Google Gemini</category>
-      
-      <category>Android Auto</category>
-      
-      <category>Automotive AI</category>
-      
-      <category>Personal Intelligence</category>
-      
-      <category>Connected Vehicles</category>
-      
-      
-      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/google-gemini-personal-intelligence.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
-      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/google-gemini-personal-intelligence.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/google-gemini-personal-intelligence.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
-      
-    </item>
-    
-    <item>
-      <title>Netflix Battles Stagnant Growth, Leadership Shakeups and Churn</title>
-      <link>https://neodymium.world/articles/netflix-battles-stagnant-growth-leadership-shakeups-and-churn-520575.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/netflix-battles-stagnant-growth-leadership-shakeups-and-churn-520575.html</guid>
-      <pubDate>Tue, 20 Oct 2026 14:43:29 +0530</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Netflix is slashing its workforce, losing key executives, and facing a 20% drop in US/Canada downloads. Can co-CEO Ted Sarandos turn the streaming giant around with live programming?
-        
-        [SPLIT]
-        ⚡ The company laid off approximately 1,000 workers, constituting 6% of its global workforce.
-        [SPLIT]
-        ⚡ Key leadership exits include content head Bela Bajaria and film head Dan Lin.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/netflix-battles-stagnant-growth-leadership-shakeups-and-churn-520575.html
-      ]]></description>
-      
-      <category>Netflix</category>
-      
-      <category>Streaming Industry</category>
-      
-      <category>Ted Sarandos</category>
-      
-      <category>Media Economics</category>
-      
-      <category>Content Strategy</category>
-      
-      
-      <enclosure url="https://th-i.thgim.com/public/sci-tech/technology/r6be4t/article71603905.ece/alternates/LANDSCAPE_1200/Netflix%20logo.jpg" length="0" type="image/jpeg" />
-      <media:content url="https://th-i.thgim.com/public/sci-tech/technology/r6be4t/article71603905.ece/alternates/LANDSCAPE_1200/Netflix%20logo.jpg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://th-i.thgim.com/public/sci-tech/technology/r6be4t/article71603905.ece/alternates/LANDSCAPE_1200/Netflix%20logo.jpg" />
       
     </item>
     
