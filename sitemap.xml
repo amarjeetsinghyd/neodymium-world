@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-10-27</lastmod>
+        <lastmod>2026-10-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-10-27</lastmod>
+        <lastmod>2026-10-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/genie-4-the-new-frontier-of-real-time-world-simulation-183033.html</loc>
+        <lastmod>Tue, 27 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w528-h297-n-nu-rw-lo</image:loc>
+            <image:title>Genie 4: The New Frontier of Real-Time World Simulation</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 27 Oct 2026 16:01:38 +0000</news:publication_date>
+            <news:title>Genie 4: The New Frontier of Real-Time World Simulation</news:title>
+            
+            <news:keywords>Genie 4, World Simulation, Autonomous Systems, Defense Tech, Real-Time AI</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/the-anthropic-ipo-grid-bottlenecks-and-the-ai-spending-wars-128541.html</loc>
@@ -543,6 +567,30 @@
             <news:title>India Issues Urgent Security Advisory for Citizens Across France Amid Unrest</news:title>
             
             <news:keywords>India France Relations, French Protests, Embassy Advisory, European Geopolitics, Consular Security</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/mapping-the-canopy-the-geopolitical-frontier-of-global-forest-intelligence-183050.html</loc>
+        <lastmod>Thu, 22 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo</image:loc>
+            <image:title>Mapping the Canopy: The Geopolitical Frontier of Global Forest Intelligence</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 22 Oct 2026 14:30:24 +0000</news:publication_date>
+            <news:title>Mapping the Canopy: The Geopolitical Frontier of Global Forest Intelligence</news:title>
+            
+            <news:keywords>Geospatial Intelligence, Forest Mapping, Terrain Analysis, Remote Sensing, Environmental Security</news:keywords>
             
         </news:news>
     </url>
@@ -6309,7 +6357,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-10-27</lastmod>
+        <lastmod>2026-10-28</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
