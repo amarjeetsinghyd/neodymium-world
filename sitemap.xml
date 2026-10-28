@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/l-t-and-bae-begin-bvs10-sindhu-production-for-high-altitude-warfare-215345.html</loc>
+        <lastmod>Wed, 28 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjff6NoizGvdhWcoZXgxQcYyLA9mbPnOzqIk7M2fp2vQXu9P47an3zWMAYhXdB19DcAuoaQRW87dv5F1vlIH1XD48baitNq0afk_xX3U2kqs5qc-U9Jp1j6ZBdbxlsv0w4K8MOEAdszXpcKW7K5BEHNlOvXnmDcJreQ2LWTf_SU2eYhti-wm6c2zcpful8/s72-c/L&amp;T_BvS10_All-Terrain_Vehicle.jpg</image:loc>
+            <image:title>L&amp;T and BAE Begin BvS10 Sindhu Production for High-Altitude Warfare</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 28 Oct 2026 15:30:00 +0000</news:publication_date>
+            <news:title>L&amp;T and BAE Begin BvS10 Sindhu Production for High-Altitude Warfare</news:title>
+            
+            <news:keywords>BvS10 Sindhu, Larsen &amp; Toubro, BAE Systems, Indian Army Ladakh, Atmanirbhar Bharat, High Altitude Warfare</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/japan-eyes-indian-ranges-for-long-range-missile-and-drone-trials-215371.html</loc>
+        <lastmod>Wed, 28 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_TdV1P105hoYOEnp64J7kcEX8C-Kkk8C8x4v7BrUuLR7CJoFxmQUJGL89Ec6-ZKAOYExylsqtOE9xd6JfxJ7fgqI5IuSn1prIZQhS43n1hg9A6kzcchNXP1vIWZumcYPKsC58SIlrZS3NEXQpFULgix0L6Jtz0RG3OQjAWwzVESNEi5H-0812syAoiSc/s72-c/Japan_Type-12_Surface-To-Ship_Guided_Missile.jpg</image:loc>
+            <image:title>Japan Eyes Indian Ranges for Long-Range Missile and Drone Trials</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 28 Oct 2026 15:29:00 +0000</news:publication_date>
+            <news:title>Japan Eyes Indian Ranges for Long-Range Missile and Drone Trials</news:title>
+            
+            <news:keywords>India Japan Defense, Type 12 Missile, Indo Pacific Security, Atmanirbhar Bharat, Missile Testing Ranges</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/genie-4-the-new-frontier-of-real-time-world-simulation-183033.html</loc>
         <lastmod>Tue, 27 Oc</lastmod>
         <changefreq>never</changefreq>
