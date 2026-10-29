@@ -188,6 +188,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/sarvam-secures-five-year-mod-pact-to-build-sovereign-ai-for-tri-services-301998.html</loc>
+        <lastmod>Tue, 27 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Sarvam Secures Five-Year MoD Pact to Build Sovereign AI for Tri-Services</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 27 Oct 2026 12:50:58 +0000</news:publication_date>
+            <news:title>Sarvam Secures Five-Year MoD Pact to Build Sovereign AI for Tri-Services</news:title>
+            
+            <news:keywords>Sarvam AI, HQ IDS, Atmanirbhar Bharat, Military Artificial Intelligence, Defence Tech India, Chanakya Division</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/the-anthropic-ipo-grid-bottlenecks-and-the-ai-spending-wars-128541.html</loc>
         <lastmod>Tue, 27 Oc</lastmod>
         <changefreq>never</changefreq>
@@ -279,6 +303,30 @@
             <news:title>Anthropic’s S-1 Exposes the Methane Trap Behind the AI Boom</news:title>
             
             <news:keywords>Anthropic S-1, AI Data Centers, Natural Gas Methane, Energy Grid Security, Hyperscale Compute</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-rs-2-12-lakh-crore-defence-push-335-vajra-howitzers-vvip-choppers-302027.html</loc>
+        <lastmod>Mon, 26 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://upload.wikimedia.org/wikipedia/commons/b/bf/ATAGS.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail_unscaled</image:loc>
+            <image:title>India’s Rs 2.12 Lakh Crore Defence Push: 335 Vajra Howitzers &amp; VVIP Choppers</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 26 Oct 2026 15:09:41 +0000</news:publication_date>
+            <news:title>India’s Rs 2.12 Lakh Crore Defence Push: 335 Vajra Howitzers &amp; VVIP Choppers</news:title>
+            
+            <news:keywords>K9 Vajra, DAC Approvals, Atmanirbhar Bharat, Indian Army Artillery, Line of Actual Control, Defence Acquisition Council</news:keywords>
             
         </news:news>
     </url>
