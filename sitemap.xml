@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-10-28</lastmod>
+        <lastmod>2026-10-29</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-10-28</lastmod>
+        <lastmod>2026-10-29</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/k9-vajra-wins-fresh-momentum-as-atags-awaits-its-defining-test-270706.html</loc>
+        <lastmod>Thu, 29 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD5Ppi4x7tOKworSaQNjzppaLhwtYrI89aH0Yj6-FFmUG755qzAB2hQBpImCrCFMP_1U98uAXJUYrTZEtRqML8bbXp7NO8OkhCE1vbT-tL1LQUCwrfqHpizQPCVE83wfkA6mp2VeWvP77uyjR5LoChAYe_XuXO5yn-QNaDyQkv6xEj3siH6FAeK_Wloy0/s72-c/ATAGS.jpg</image:loc>
+            <image:title>K9 Vajra Wins Fresh Momentum as ATAGS Awaits Its Defining Test</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 29 Oct 2026 04:00:19 +0000</news:publication_date>
+            <news:title>K9 Vajra Wins Fresh Momentum as ATAGS Awaits Its Defining Test</news:title>
+            
+            <news:keywords>K9 Vajra, ATAGS, DAC Procurement, Atmanirbhar Bharat, Indian Artillery, Northern Border Deterrence</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/new-delhi-draws-a-hard-line-on-us-pakistan-f-16-sustainment-270737.html</loc>
+        <lastmod>Thu, 29 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4MO7Nf_P3u1pz6RMjEHiPo9zC2EKlX7oiETP9eQBE_bL3gNsx57wNboVAPMlwMwXyaB6dVmUXeW8lLbA7l-6_Mq4xMkO4R-FskiPPTlGyHL_gRXpVGh6tySvazojoinrmuMVLicq0sIePr-p0O77rp7NG3mWWMXc3AsNbNMs1Sup8I4XM9GQlbVGp00Y/s72-c/F-16_Pakistan.jpg</image:loc>
+            <image:title>New Delhi Draws a Hard Line on US-Pakistan F-16 Sustainment</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 29 Oct 2026 03:55:28 +0000</news:publication_date>
+            <news:title>New Delhi Draws a Hard Line on US-Pakistan F-16 Sustainment</news:title>
+            
+            <news:keywords>Rajnath Singh, US-Pakistan Relations, F-16 Sustainment, Atmanirbhar Bharat, ADMM-Plus, South Asian Geopolitics</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/l-t-and-bae-begin-bvs10-sindhu-production-for-high-altitude-warfare-215345.html</loc>
@@ -6405,7 +6453,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-10-28</lastmod>
+        <lastmod>2026-10-29</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
