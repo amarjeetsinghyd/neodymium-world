@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/google-s-orbiting-tpu-test-marks-a-new-era-for-edge-defense-ai-386834.html</loc>
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/project-suncatcher-google.png?quality=90&amp;strip=all&amp;crop=0,0,100,100</image:loc>
+            <image:title>Google&#39;s Orbiting TPU Test Marks a New Era for Edge Defense AI</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2026-10-30T14:21:38-04:00</news:publication_date>
+            <news:title>Google&#39;s Orbiting TPU Test Marks a New Era for Edge Defense AI</news:title>
+            
+            <news:keywords>Project Suncatcher, Space AI, Google TPUs, Edge Computing, Military Satellites</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/starbucks-deploys-tactical-ai-to-dominate-the-drive-thru-386848.html</loc>
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2268681559.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100</image:loc>
+            <image:title>Starbucks Deploys Tactical AI to Dominate the Drive-Thru</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2026-10-30T13:38:04-04:00</news:publication_date>
+            <news:title>Starbucks Deploys Tactical AI to Dominate the Drive-Thru</news:title>
+            
+            <news:keywords>Starbucks AI, Drive-Thru Automation, Retail Technology, Conversational AI, Brian Niccol</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/visv-2026-drdo-pushes-indigenous-tech-and-global-defense-pacts-357150.html</loc>
         <lastmod>Fri, 30 Oc</lastmod>
         <changefreq>never</changefreq>
