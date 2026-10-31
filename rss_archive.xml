@@ -23,6 +23,42 @@
     <atom:link href="https://neodymium.world/rss_archive.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Open the hives: Why France is turning tank gunners into FPV pilots</title>
+      <link>https://neodymium.world/articles/open-the-hives-why-france-is-turning-tank-gunners-into-fpv-pilots-441648.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/open-the-hives-why-france-is-turning-tank-gunners-into-fpv-pilots-441648.html</guid>
+      <pubDate>Fri, 30 Oct 2026 17:57:49 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        From AMX-10 RC gunners to FPV strike pilots: Inside the French Army&#39;s radical transformation of its light cavalry into dedicated hunter-drone squadrons.
+        
+        [SPLIT]
+        ⚡ During Exercise Hedgehog in Estonia, French FPV pilots accounted for 20% of total attrition inflicted on opposing U.S. forces with M2A4 Bradleys.
+        [SPLIT]
+        ⚡ The French Army plans to scale up to approximately 15 drone-combat units by summer 2027 to modernize tactical deterrence.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/open-the-hives-why-france-is-turning-tank-gunners-into-fpv-pilots-441648.html
+      ]]></description>
+      
+      <category>French Army</category>
+      
+      <category>FPV Drones</category>
+      
+      <category>1er RIMa</category>
+      
+      <category>Drone Warfare</category>
+      
+      <category>Military Modernization</category>
+      
+      
+      <enclosure url="https://one.sightlinemg.com/wp-content/uploads/2026/10/DSCF3298.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://one.sightlinemg.com/wp-content/uploads/2026/10/DSCF3298.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://one.sightlinemg.com/wp-content/uploads/2026/10/DSCF3298.jpg" />
+      
+    </item>
+    
+    <item>
       <title>Google&#39;s Orbiting TPU Test Marks a New Era for Edge Defense AI</title>
       <link>https://neodymium.world/articles/google-s-orbiting-tpu-test-marks-a-new-era-for-edge-defense-ai-386834.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/google-s-orbiting-tpu-test-marks-a-new-era-for-edge-defense-ai-386834.html</guid>
@@ -577,6 +613,42 @@
     </item>
     
     <item>
+      <title>Scaling Up: Defense Leaders Tackle AUSA 2026 Production Bottlenecks</title>
+      <link>https://neodymium.world/articles/scaling-up-defense-leaders-tackle-ausa-2026-production-bottlenecks-441664.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/scaling-up-defense-leaders-tackle-ausa-2026-production-bottlenecks-441664.html</guid>
+      <pubDate>Mon, 26 Oct 2026 13:29:39 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        From AUSA 2026 floor to the frontlines: Western defense leaders confront industrial capacity limits and the push for scaled AI integration. Read Alexander Sterling&#39;s deep dive.
+        
+        [SPLIT]
+        ⚡ Integrating artificial intelligence into legacy hardware requires rigorous software-defined architectures and standardized data backbones.
+        [SPLIT]
+        ⚡ Supply chain fragility for critical minerals and specialized microelectronics remains the primary vulnerability for Western prime contractors.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/scaling-up-defense-leaders-tackle-ausa-2026-production-bottlenecks-441664.html
+      ]]></description>
+      
+      <category>AUSA 2026</category>
+      
+      <category>Defense Industrial Base</category>
+      
+      <category>AI Integration</category>
+      
+      <category>Supply Chain Resiliency</category>
+      
+      <category>Military Modernization</category>
+      
+      
+      <enclosure url="https://one.sightlinemg.com/wp-content/uploads/2026/10/video-poster-2a1757af-01e8-416a-a12a-db520b334901.png" length="0" type="image/jpeg" />
+      <media:content url="https://one.sightlinemg.com/wp-content/uploads/2026/10/video-poster-2a1757af-01e8-416a-a12a-db520b334901.png" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://one.sightlinemg.com/wp-content/uploads/2026/10/video-poster-2a1757af-01e8-416a-a12a-db520b334901.png" />
+      
+    </item>
+    
+    <item>
       <title>Inside Anadrone’s High-Speed Target Drone Concept for India&#39;s Air Defense</title>
       <link>https://neodymium.world/articles/inside-anadrone-s-high-speed-target-drone-concept-for-india-s-air-defense-008258.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/inside-anadrone-s-high-speed-target-drone-concept-for-india-s-air-defense-008258.html</guid>
@@ -869,80 +941,6 @@
       <enclosure url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/01/usv-barzan-1024x576.jpg" length="0" type="image/jpeg" />
       <media:content url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/01/usv-barzan-1024x576.jpg" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/01/usv-barzan-1024x576.jpg" />
-      
-    </item>
-    
-    <item>
-      <title>HD Hyundai and Kiewit Partner for US Shipyard Push</title>
-      <link>https://neodymium.world/articles/hd-hyundai-and-kiewit-partner-for-us-shipyard-push-778933.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/hd-hyundai-and-kiewit-partner-for-us-shipyard-push-778933.html</guid>
-      <pubDate>Fri, 23 Oct 2026 14:43:33 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        South Korea&#39;s HD Hyundai and North American firm Kiewit are teaming up to build a high-tech US shipyard by 2029, targeting Navy auxiliary vessels and advanced industrial automation.
-        
-        [SPLIT]
-        ⚡ The joint venture directly addresses critical shortfalls in the US maritime industrial base by targeting both US Navy auxiliary vessels and commercial hulls.
-        [SPLIT]
-        ⚡ The initiative is anchored by broader bilateral trade frameworks, including a massive $350 billion South Korean investment pledge that earmarks $150 billion for US shipbuilding.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/hd-hyundai-and-kiewit-partner-for-us-shipyard-push-778933.html
-      ]]></description>
-      
-      <category>HD Hyundai</category>
-      
-      <category>Kiewit Maritime</category>
-      
-      <category>US Shipbuilding</category>
-      
-      <category>US Navy Auxiliary</category>
-      
-      <category>Defense Industrial Base</category>
-      
-      
-      <enclosure url="https://breakingdefense.com/wp-content/uploads/sites/13/2024/04/hyundai-shipyard-scaled-e1713974704181-1024x577.jpg" length="0" type="image/jpeg" />
-      <media:content url="https://breakingdefense.com/wp-content/uploads/sites/13/2024/04/hyundai-shipyard-scaled-e1713974704181-1024x577.jpg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://breakingdefense.com/wp-content/uploads/sites/13/2024/04/hyundai-shipyard-scaled-e1713974704181-1024x577.jpg" />
-      
-    </item>
-    
-    <item>
-      <title>Reframing the HLFT-42: HAL&#39;s Pivot Toward Pragmatic Trainer Design</title>
-      <link>https://neodymium.world/articles/reframing-the-hlft-42-hal-s-pivot-toward-pragmatic-trainer-design-746602.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/reframing-the-hlft-42-hal-s-pivot-toward-pragmatic-trainer-design-746602.html</guid>
-      <pubDate>Fri, 23 Oct 2026 08:35:00 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Is HAL&#39;s scaled-back HLFT-42 the pragmatic LIFT platform the IAF needs, or a latecomer to a crowded global market? Read our deep-dive analysis.
-        
-        [SPLIT]
-        ⚡ The updated aerodynamic layout borrows design philosophies from the legacy HF-24 Marut and the proven Tejas LCA ecosystem.
-        [SPLIT]
-        ⚡ Weight management and powerplant selection remain existential hurdles for ensuring the platform stays affordable to acquire and operate.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/reframing-the-hlft-42-hal-s-pivot-toward-pragmatic-trainer-design-746602.html
-      ]]></description>
-      
-      <category>HLFT-42</category>
-      
-      <category>HAL</category>
-      
-      <category>IAF Training</category>
-      
-      <category>Atmanirbhar Bharat</category>
-      
-      <category>Tejas LCA</category>
-      
-      <category>Defense Procurement</category>
-      
-      
-      <enclosure url="https://idrw.org/wp-content/uploads/2026/10/HAL-HLFT-42-Technical-Infographic-1.png" length="0" type="image/jpeg" />
-      <media:content url="https://idrw.org/wp-content/uploads/2026/10/HAL-HLFT-42-Technical-Infographic-1.png" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://idrw.org/wp-content/uploads/2026/10/HAL-HLFT-42-Technical-Infographic-1.png" />
       
     </item>
     

@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-10-30</lastmod>
+        <lastmod>2026-10-31</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-10-30</lastmod>
+        <lastmod>2026-10-31</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/open-the-hives-why-france-is-turning-tank-gunners-into-fpv-pilots-441648.html</loc>
+        <lastmod>Fri, 30 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://one.sightlinemg.com/wp-content/uploads/2026/10/DSCF3298.jpg</image:loc>
+            <image:title>Open the hives: Why France is turning tank gunners into FPV pilots</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 30 Oct 2026 17:57:49 +0000</news:publication_date>
+            <news:title>Open the hives: Why France is turning tank gunners into FPV pilots</news:title>
+            
+            <news:keywords>French Army, FPV Drones, 1er RIMa, Drone Warfare, Military Modernization</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/google-s-orbiting-tpu-test-marks-a-new-era-for-edge-defense-ai-386834.html</loc>
@@ -423,6 +447,30 @@
             <news:title>India’s Rs 2.12 Lakh Crore Defence Push: 335 Vajra Howitzers &amp; VVIP Choppers</news:title>
             
             <news:keywords>K9 Vajra, DAC Approvals, Atmanirbhar Bharat, Indian Army Artillery, Line of Actual Control, Defence Acquisition Council</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/scaling-up-defense-leaders-tackle-ausa-2026-production-bottlenecks-441664.html</loc>
+        <lastmod>Mon, 26 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://one.sightlinemg.com/wp-content/uploads/2026/10/video-poster-2a1757af-01e8-416a-a12a-db520b334901.png</image:loc>
+            <image:title>Scaling Up: Defense Leaders Tackle AUSA 2026 Production Bottlenecks</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 26 Oct 2026 13:29:39 +0000</news:publication_date>
+            <news:title>Scaling Up: Defense Leaders Tackle AUSA 2026 Production Bottlenecks</news:title>
+            
+            <news:keywords>AUSA 2026, Defense Industrial Base, AI Integration, Supply Chain Resiliency, Military Modernization</news:keywords>
             
         </news:news>
     </url>
@@ -6597,7 +6645,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-10-30</lastmod>
+        <lastmod>2026-10-31</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
