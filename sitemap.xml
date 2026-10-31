@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/scatter-the-fleet-india-s-missile-catamaran-concept-for-sea-denial-470655.html</loc>
+        <lastmod>Sat, 31 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRNkbgLOsomECUfFINMLf9ATbE3JuXRdus_2QnRn1mKdcyLlbVnwj6OnMY1eMq6P4yL_K3hEBBNIkrFKY86ApPj0oXr-xGIrZLS-R2KZr74Z6HU9HoMnvOINtbsVyH0AUTcTUsGpxNeYVuOd_Sg8dMrvh55IuHY0VK3EouP5eanf79AoCCW0T2rXU-Tr4/s72-c/Navy_Missile_Catamaran_Concept.jpg</image:loc>
+            <image:title>Scatter The Fleet: India’s Missile Catamaran Concept For Sea Denial</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 31 Oct 2026 15:30:00 +0000</news:publication_date>
+            <news:title>Scatter The Fleet: India’s Missile Catamaran Concept For Sea Denial</news:title>
+            
+            <news:keywords>Indian Navy, Missile Catamaran, Sea Denial, Indo-Pacific, Atmanirbhar Bharat, Asymmetric Warfare</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/iaf-nears-1b-multi-mission-tanker-deal-to-close-strategic-air-refueling-gap-470696.html</loc>
+        <lastmod>Sat, 31 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigFek-_m0aV5VUNfmg8SSBcjYcOmK-CTbslE6LPMh5BkSTXXM_IYTKuuymFpOWo7Z3nNj_p5sGU4ZyMQA03Vt6nh3eaUu4-F4dgd0ubUN_dhyphenhyphenbXIvSB1brXTD5tVXi6LkVvwTcfvag2-o9KIJJDvov5G7i1FdQeSB7fhe7xDCHeanbWblG8qjnV18n-Mg/s72-c/Russian_Il-78MKI_Refueler_Tanker_Aircraft.jpg</image:loc>
+            <image:title>IAF Nears $1B Multi-Mission Tanker Deal to Close Strategic Air-Refueling Gap</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 31 Oct 2026 15:29:00 +0000</news:publication_date>
+            <news:title>IAF Nears $1B Multi-Mission Tanker Deal to Close Strategic Air-Refueling Gap</news:title>
+            
+            <news:keywords>IAF Tanker Contract, Multi-Mission Tanker Transport, IL-78 MKI Replacement, Atmanirbhar Bharat, Indian Air Force</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/open-the-hives-why-france-is-turning-tank-gunners-into-fpv-pilots-441648.html</loc>
         <lastmod>Fri, 30 Oc</lastmod>
         <changefreq>never</changefreq>
