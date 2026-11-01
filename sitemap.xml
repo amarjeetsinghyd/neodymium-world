@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-10-31</lastmod>
+        <lastmod>2026-11-01</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-10-31</lastmod>
+        <lastmod>2026-11-01</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -111,6 +111,54 @@
             <news:title>IAF Nears $1B Multi-Mission Tanker Deal to Close Strategic Air-Refueling Gap</news:title>
             
             <news:keywords>IAF Tanker Contract, Multi-Mission Tanker Transport, IL-78 MKI Replacement, Atmanirbhar Bharat, Indian Air Force</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/building-the-ai-tamagotchi-how-off-the-shelf-hardware-beats-big-tech-531127.html</loc>
+        <lastmod>2026-10-31</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/verge-sean-hollister-muse-gadget-331A2564-01-3.jpg?quality=90&amp;strip=all&amp;crop=4,0,96,94.899920311255</image:loc>
+            <image:title>Building the AI Tamagotchi: How Off-the-Shelf Hardware Beats Big Tech</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2026-10-31T12:05:00-04:00</news:publication_date>
+            <news:title>Building the AI Tamagotchi: How Off-the-Shelf Hardware Beats Big Tech</news:title>
+            
+            <news:keywords>AI Hardware, Meta Muse Charm, ESP32-S3, Edge Computing, DIY Tech</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/apple-brings-ai-to-china-the-ios-27-3-geopolitical-calculus-531147.html</loc>
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25699392/DSC08596_processed.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100</image:loc>
+            <image:title>Apple Brings AI to China: The iOS 27.3 Geopolitical Calculus</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2026-10-30T18:32:53-04:00</news:publication_date>
+            <news:title>Apple Brings AI to China: The iOS 27.3 Geopolitical Calculus</news:title>
+            
+            <news:keywords>Apple Intelligence, China AI Regulation, Alibaba Qwen, iOS 27.3, Tech Geopolitics</news:keywords>
             
         </news:news>
     </url>
@@ -6693,7 +6741,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-10-31</lastmod>
+        <lastmod>2026-11-01</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
