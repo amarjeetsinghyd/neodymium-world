@@ -140,6 +140,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/esi-drives-lockheed-s-sda-missiles-array-558795.html</loc>
+        <lastmod>Fri, 30 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/ESI-Motion-Square-Logo-Blue-PNG.png?fit=969%2C1024&amp;ssl=1</image:loc>
+            <image:title>ESI Drives Lockheed&#39;s SDA Missiles Array</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 30 Oct 2026 18:54:34 +0000</news:publication_date>
+            <news:title>ESI Drives Lockheed&#39;s SDA Missiles Array</news:title>
+            
+            <news:keywords>ESI Motion, Lockheed Martin, Space Development Agency, PWSA, Solar Array Drive Electronics, Missile Defense</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/apple-brings-ai-to-china-the-ios-27-3-geopolitical-calculus-531147.html</loc>
         <lastmod>2026-10-30</lastmod>
         <changefreq>never</changefreq>
@@ -279,6 +303,30 @@
             <news:title>DRDO’s Vikram VT-21 Clears Trials to Overhaul Army Combat Fleets</news:title>
             
             <news:keywords>Vikram VT-21, DRDO, Atmanirbhar Bharat, Indian Army, Infantry Combat Vehicle, TASL</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/streamlining-orbital-cadence-inside-epsilon3-s-defense-playbook-558810.html</loc>
+        <lastmod>Thu, 29 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/space-minds-podcast-Epsilon3-2000-1500.jpg?fit=1024%2C768&amp;ssl=1</image:loc>
+            <image:title>Streamlining Orbital Cadence: Inside Epsilon3&#39;s Defense Playbook</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 29 Oct 2026 15:01:09 +0000</news:publication_date>
+            <news:title>Streamlining Orbital Cadence: Inside Epsilon3&#39;s Defense Playbook</news:title>
+            
+            <news:keywords>Space Industry Optimization, Epsilon3, Defense Industrial Base, Satellite Testing, SpaceNews</news:keywords>
             
         </news:news>
     </url>
