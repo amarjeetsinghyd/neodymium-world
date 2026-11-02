@@ -23,6 +23,44 @@
     <atom:link href="https://neodymium.world/rss_archive.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Leonardo DRS Joins Army’s Historic Directed Energy Push</title>
+      <link>https://neodymium.world/articles/leonardo-drs-joins-army-s-historic-directed-energy-push-659034.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/leonardo-drs-joins-army-s-historic-directed-energy-push-659034.html</guid>
+      <pubDate>Mon, 02 Nov 2026 18:19:40 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        The US Army is moving directed energy weapons from prototypes to the front lines. Now, Leonardo DRS is stepping in to solve the brutal engineering hurdles of fielding mobile lasers in combat.
+        
+        [SPLIT]
+        ⚡ Leonardo DRS will supply critical rugged integration, power, and thermal management expertise for the LOCUST X3 laser weapon systems.
+        [SPLIT]
+        ⚡ The initiative addresses the urgent operational demand for cost-effective, non-kinetic layered defenses against proliferating battlefield drones.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/leonardo-drs-joins-army-s-historic-directed-energy-push-659034.html
+      ]]></description>
+      
+      <category>Leonardo DRS</category>
+      
+      <category>AeroVironment</category>
+      
+      <category>Enduring-High Energy Laser</category>
+      
+      <category>Directed Energy Weapons</category>
+      
+      <category>Counter-UAS Defense</category>
+      
+      <category>US Army Modernization</category>
+      
+      
+      <enclosure url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" length="0" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
+      
+    </item>
+    
+    <item>
       <title>Bridging the Pacific Digital Chasm: INDOPACOM’s Network Overhaul</title>
       <link>https://neodymium.world/articles/bridging-the-pacific-digital-chasm-indopacom-s-network-overhaul-621111.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/bridging-the-pacific-digital-chasm-indopacom-s-network-overhaul-621111.html</guid>
@@ -315,6 +353,42 @@
       <enclosure url="https://one.sightlinemg.com/wp-content/uploads/2026/10/DSCF3298.jpg" length="0" type="image/jpeg" />
       <media:content url="https://one.sightlinemg.com/wp-content/uploads/2026/10/DSCF3298.jpg" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://one.sightlinemg.com/wp-content/uploads/2026/10/DSCF3298.jpg" />
+      
+    </item>
+    
+    <item>
+      <title>The Algorithmic Precipice: Trust, Hallucination, and Defense AI</title>
+      <link>https://neodymium.world/articles/the-algorithmic-precipice-trust-hallucination-and-defense-ai-659049.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/the-algorithmic-precipice-trust-hallucination-and-defense-ai-659049.html</guid>
+      <pubDate>Fri, 30 Oct 2026 16:00:00 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        When a chatbot&#39;s false intel nearly triggers a kinetic clash with China, the defense sector&#39;s blind rush into AI demands a hard stop. Alexander Sterling investigates the crisis of algorithmic trust.
+        
+        [SPLIT]
+        ⚡ Stanford benchmark data reveals that hallucination rates across 26 top frontier AI models range from 22% to 94%.
+        [SPLIT]
+        ⚡ The &#39;reversibility&#39; framework oversimplifies risk; low-consequence micro-decisions compound exponentially, poisoning the final human-in-the-loop verdict.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/the-algorithmic-precipice-trust-hallucination-and-defense-ai-659049.html
+      ]]></description>
+      
+      <category>Defense AI</category>
+      
+      <category>Military Intelligence</category>
+      
+      <category>AI Hallucinations</category>
+      
+      <category>Autonomous Weapons</category>
+      
+      <category>Explainable AI</category>
+      
+      
+      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg" />
       
     </item>
     
@@ -867,80 +941,6 @@
       <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
       <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
-      
-    </item>
-    
-    <item>
-      <title>India’s Rs 2.12 Lakh Crore Defence Push: 335 Vajra Howitzers &amp; VVIP Choppers</title>
-      <link>https://neodymium.world/articles/india-s-rs-2-12-lakh-crore-defence-push-335-vajra-howitzers-vvip-choppers-302027.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/india-s-rs-2-12-lakh-crore-defence-push-335-vajra-howitzers-vvip-choppers-302027.html</guid>
-      <pubDate>Mon, 26 Oct 2026 15:09:41 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        New Delhi just authorized a colossal Rs 2.12 lakh-crore military overhaul, scaling up K9 Vajra self-propelled howitzers to 500 units and greenlighting critical air defense and VVIP chopper procurements. Read the deep-dive strategic breakdown.
-        
-        [SPLIT]
-        ⚡ Plans to procure 335 additional K9 Vajra 155 mm/52 calibre tracked guns will push the total fleet to 500 units, expanding far beyond initial Field Artillery Rationalisation Plan targets.
-        [SPLIT]
-        ⚡ The Vajra platform successfully transitioned from a desert-trialed howitzer to a frontline high-altitude deterrent following emergency winterized deployments in Eastern Ladakh.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/india-s-rs-2-12-lakh-crore-defence-push-335-vajra-howitzers-vvip-choppers-302027.html
-      ]]></description>
-      
-      <category>K9 Vajra</category>
-      
-      <category>DAC Approvals</category>
-      
-      <category>Atmanirbhar Bharat</category>
-      
-      <category>Indian Army Artillery</category>
-      
-      <category>Line of Actual Control</category>
-      
-      <category>Defence Acquisition Council</category>
-      
-      
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/b/bf/ATAGS.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail_unscaled" length="0" type="image/jpeg" />
-      <media:content url="https://upload.wikimedia.org/wikipedia/commons/b/bf/ATAGS.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail_unscaled" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/b/bf/ATAGS.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail_unscaled" />
-      
-    </item>
-    
-    <item>
-      <title>Scaling Up: Defense Leaders Tackle AUSA 2026 Production Bottlenecks</title>
-      <link>https://neodymium.world/articles/scaling-up-defense-leaders-tackle-ausa-2026-production-bottlenecks-441664.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/scaling-up-defense-leaders-tackle-ausa-2026-production-bottlenecks-441664.html</guid>
-      <pubDate>Mon, 26 Oct 2026 13:29:39 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        From AUSA 2026 floor to the frontlines: Western defense leaders confront industrial capacity limits and the push for scaled AI integration. Read Alexander Sterling&#39;s deep dive.
-        
-        [SPLIT]
-        ⚡ Integrating artificial intelligence into legacy hardware requires rigorous software-defined architectures and standardized data backbones.
-        [SPLIT]
-        ⚡ Supply chain fragility for critical minerals and specialized microelectronics remains the primary vulnerability for Western prime contractors.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/scaling-up-defense-leaders-tackle-ausa-2026-production-bottlenecks-441664.html
-      ]]></description>
-      
-      <category>AUSA 2026</category>
-      
-      <category>Defense Industrial Base</category>
-      
-      <category>AI Integration</category>
-      
-      <category>Supply Chain Resiliency</category>
-      
-      <category>Military Modernization</category>
-      
-      
-      <enclosure url="https://one.sightlinemg.com/wp-content/uploads/2026/10/video-poster-2a1757af-01e8-416a-a12a-db520b334901.png" length="0" type="image/jpeg" />
-      <media:content url="https://one.sightlinemg.com/wp-content/uploads/2026/10/video-poster-2a1757af-01e8-416a-a12a-db520b334901.png" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://one.sightlinemg.com/wp-content/uploads/2026/10/video-poster-2a1757af-01e8-416a-a12a-db520b334901.png" />
       
     </item>
     

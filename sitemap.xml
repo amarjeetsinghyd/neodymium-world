@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/leonardo-drs-joins-army-s-historic-directed-energy-push-659034.html</loc>
+        <lastmod>Mon, 02 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Leonardo DRS Joins Army’s Historic Directed Energy Push</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 02 Nov 2026 18:19:40 +0000</news:publication_date>
+            <news:title>Leonardo DRS Joins Army’s Historic Directed Energy Push</news:title>
+            
+            <news:keywords>Leonardo DRS, AeroVironment, Enduring-High Energy Laser, Directed Energy Weapons, Counter-UAS Defense, US Army Modernization</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/bridging-the-pacific-digital-chasm-indopacom-s-network-overhaul-621111.html</loc>
         <lastmod>Sun, 01 No</lastmod>
         <changefreq>never</changefreq>
@@ -255,6 +279,30 @@
             <news:title>Open the hives: Why France is turning tank gunners into FPV pilots</news:title>
             
             <news:keywords>French Army, FPV Drones, 1er RIMa, Drone Warfare, Military Modernization</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/the-algorithmic-precipice-trust-hallucination-and-defense-ai-659049.html</loc>
+        <lastmod>Fri, 30 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg</image:loc>
+            <image:title>The Algorithmic Precipice: Trust, Hallucination, and Defense AI</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 30 Oct 2026 16:00:00 +0000</news:publication_date>
+            <news:title>The Algorithmic Precipice: Trust, Hallucination, and Defense AI</news:title>
+            
+            <news:keywords>Defense AI, Military Intelligence, AI Hallucinations, Autonomous Weapons, Explainable AI</news:keywords>
             
         </news:news>
     </url>
