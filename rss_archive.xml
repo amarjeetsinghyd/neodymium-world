@@ -23,6 +23,44 @@
     <atom:link href="https://neodymium.world/rss_archive.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Bridging the Pacific Digital Chasm: INDOPACOM’s Network Overhaul</title>
+      <link>https://neodymium.world/articles/bridging-the-pacific-digital-chasm-indopacom-s-network-overhaul-621111.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/bridging-the-pacific-digital-chasm-indopacom-s-network-overhaul-621111.html</guid>
+      <pubDate>Sun, 01 Nov 2026 23:37:52 -0500</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Advanced hardware means nothing if communication takes hours. Inside the Pentagon&#39;s high-stakes race to wire the Indo-Pacific for coalition warfare.
+        
+        [SPLIT]
+        ⚡ DISA Pacific is deploying a unified Pacific mission partner network to replace bespoke, single-nation systems and reduce device toggling.
+        [SPLIT]
+        ⚡ The newly unveiled Regional Network Operations Security Center Pacific increases theater personnel by 20 percent to counter undersea cable cuts and electronic warfare.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/bridging-the-pacific-digital-chasm-indopacom-s-network-overhaul-621111.html
+      ]]></description>
+      
+      <category>INDOPACOM</category>
+      
+      <category>DISA</category>
+      
+      <category>Pacific Defense Networks</category>
+      
+      <category>Zero Trust Architecture</category>
+      
+      <category>Military Communications</category>
+      
+      <category>Allied Interoperability</category>
+      
+      
+      <enclosure url="https://cdn.defenseone.com/media/img/cd/2026/11/01/9764180/thumb.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.defenseone.com/media/img/cd/2026/11/01/9764180/thumb.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.defenseone.com/media/img/cd/2026/11/01/9764180/thumb.jpg" />
+      
+    </item>
+    
+    <item>
       <title>Scatter The Fleet: India’s Missile Catamaran Concept For Sea Denial</title>
       <link>https://neodymium.world/articles/scatter-the-fleet-india-s-missile-catamaran-concept-for-sea-denial-470655.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/scatter-the-fleet-india-s-missile-catamaran-concept-for-sea-denial-470655.html</guid>
@@ -129,6 +167,44 @@
       <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/verge-sean-hollister-muse-gadget-331A2564-01-3.jpg?quality=90&amp;strip=all&amp;crop=4,0,96,94.899920311255" length="0" type="image/jpeg" />
       <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/verge-sean-hollister-muse-gadget-331A2564-01-3.jpg?quality=90&amp;strip=all&amp;crop=4,0,96,94.899920311255" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/verge-sean-hollister-muse-gadget-331A2564-01-3.jpg?quality=90&amp;strip=all&amp;crop=4,0,96,94.899920311255" />
+      
+    </item>
+    
+    <item>
+      <title>Across the Line: Inside NATO&#39;s AI-Driven Armor Vanguard</title>
+      <link>https://neodymium.world/articles/across-the-line-inside-nato-s-ai-driven-armor-vanguard-621171.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/across-the-line-inside-nato-s-ai-driven-armor-vanguard-621171.html</guid>
+      <pubDate>Sat, 31 Oct 2026 06:00:00 -0400</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Inside NATO&#39;s first high-tech armored push across the border: How hybrid-electric M1A3 Abrams, AR goggles, and robotic combat vehicles are rewriting modern land warfare.
+        
+        [SPLIT]
+        ⚡ Adversary gray-zone tactics, including AI-driven deepfakes and false-flag operations, now establish rapid local anti-access and area-denial (A2/AD) bubbles inside NATO&#39;s perimeter.
+        [SPLIT]
+        ⚡ Battalion formations increasingly integrate human-machine teams, combining manned command vehicles with Robotic Combat Vehicles (RCVs) and specialized electronic warfare units.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/across-the-line-inside-nato-s-ai-driven-armor-vanguard-621171.html
+      ]]></description>
+      
+      <category>NATO Modernization</category>
+      
+      <category>M1A3 Abrams</category>
+      
+      <category>Robotic Combat Vehicles</category>
+      
+      <category>Article V Operations</category>
+      
+      <category>Anti-Access Area Denial</category>
+      
+      <category>Ground Warfare</category>
+      
+      
+      <enclosure url="https://cdn.defenseone.com/media/img/cd/2026/10/30/NATO_LITHU_FINAL_HI_RES_2_UF_red_copy/thumb.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.defenseone.com/media/img/cd/2026/10/30/NATO_LITHU_FINAL_HI_RES_2_UF_red_copy/thumb.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.defenseone.com/media/img/cd/2026/10/30/NATO_LITHU_FINAL_HI_RES_2_UF_red_copy/thumb.jpg" />
       
     </item>
     
@@ -865,80 +941,6 @@
       <enclosure url="https://one.sightlinemg.com/wp-content/uploads/2026/10/video-poster-2a1757af-01e8-416a-a12a-db520b334901.png" length="0" type="image/jpeg" />
       <media:content url="https://one.sightlinemg.com/wp-content/uploads/2026/10/video-poster-2a1757af-01e8-416a-a12a-db520b334901.png" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://one.sightlinemg.com/wp-content/uploads/2026/10/video-poster-2a1757af-01e8-416a-a12a-db520b334901.png" />
-      
-    </item>
-    
-    <item>
-      <title>Inside Anadrone’s High-Speed Target Drone Concept for India&#39;s Air Defense</title>
-      <link>https://neodymium.world/articles/inside-anadrone-s-high-speed-target-drone-concept-for-india-s-air-defense-008258.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/inside-anadrone-s-high-speed-target-drone-concept-for-india-s-air-defense-008258.html</guid>
-      <pubDate>Mon, 26 Oct 2026 09:43:00 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        A newly revealed conceptual high-speed target drone by an Anadrone Systems engineer points toward the future of India&#39;s air defense simulation and testing capabilities. Here is our strategic breakdown.
-        
-        [SPLIT]
-        ⚡ Propulsion relies on a rear-mounted turbojet fed by a top-fuselage intake, delivering speeds between Mach 0.44 and Mach 0.74.
-        [SPLIT]
-        ⚡ Anadrone Systems has a proven industrial baseline, having previously supplied over 1,000 aerial target UAVs to Indian defense services.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/inside-anadrone-s-high-speed-target-drone-concept-for-india-s-air-defense-008258.html
-      ]]></description>
-      
-      <category>Anadrone Systems</category>
-      
-      <category>Aerial Target Drone</category>
-      
-      <category>Atmanirbhar Bharat</category>
-      
-      <category>Indian Air Defense</category>
-      
-      <category>UAV Development</category>
-      
-      
-      <enclosure url="https://idrw.org/wp-content/uploads/2026/10/1791308006807.jpg" length="0" type="image/jpeg" />
-      <media:content url="https://idrw.org/wp-content/uploads/2026/10/1791308006807.jpg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://idrw.org/wp-content/uploads/2026/10/1791308006807.jpg" />
-      
-    </item>
-    
-    <item>
-      <title>IAF Rejects Permanent Asset Splitting in India&#39;s Theaterisation Blueprint</title>
-      <link>https://neodymium.world/articles/iaf-rejects-permanent-asset-splitting-in-india-s-theaterisation-blueprint-008290.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/iaf-rejects-permanent-asset-splitting-in-india-s-theaterisation-blueprint-008290.html</guid>
-      <pubDate>Mon, 26 Oct 2026 09:06:00 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Air Chief Marshal AP Singh has drawn a hard line on military theaterisation, pushing back against permanent geographic splitting of IAF fighter assets. Read the full strategic breakdown inside.
-        
-        [SPLIT]
-        ⚡ Air Chief Marshal Singh highlighted Operation Sindoor as a benchmark for successful jointness through centralised asset allocation and swift reallocation.
-        [SPLIT]
-        ⚡ The service advocates for a phased transformation schedule to ensure frontline operational readiness remains uncompromised amid complex reforms.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/iaf-rejects-permanent-asset-splitting-in-india-s-theaterisation-blueprint-008290.html
-      ]]></description>
-      
-      <category>IAF Theaterisation</category>
-      
-      <category>Air Chief Marshal AP Singh</category>
-      
-      <category>Indian Air Force</category>
-      
-      <category>CDS</category>
-      
-      <category>Military Integration</category>
-      
-      <category>Atmanirbhar Bharat</category>
-      
-      
-      <enclosure url="https://img.etimg.com/thumb/width-1200,height-900,imgsize-95036,resizemode-75,msid-135182828/news/defence/theaterisation-must-mirror-indias-security-reality-no-permanent-division-of-iafs-fighter-assets-air-chief-marshal-ap-singh.jpg" length="0" type="image/jpeg" />
-      <media:content url="https://img.etimg.com/thumb/width-1200,height-900,imgsize-95036,resizemode-75,msid-135182828/news/defence/theaterisation-must-mirror-indias-security-reality-no-permanent-division-of-iafs-fighter-assets-air-chief-marshal-ap-singh.jpg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://img.etimg.com/thumb/width-1200,height-900,imgsize-95036,resizemode-75,msid-135182828/news/defence/theaterisation-must-mirror-indias-security-reality-no-permanent-division-of-iafs-fighter-assets-air-chief-marshal-ap-singh.jpg" />
       
     </item>
     
