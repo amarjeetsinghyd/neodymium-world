@@ -23,6 +23,44 @@
     <atom:link href="https://neodymium.world/rss_archive.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>When Fully Patched Means Vulnerable: The BlackX UEFI Bootkit Fallout</title>
+      <link>https://neodymium.world/articles/when-fully-patched-means-vulnerable-the-blackx-uefi-bootkit-fallout-737568.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/when-fully-patched-means-vulnerable-the-blackx-uefi-bootkit-fallout-737568.html</guid>
+      <pubDate>Tue, 03 Nov 2026 16:03:13 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Even fully patched Windows machines fell victim to the BlackX UEFI bootkit. Why are critical security mitigations buried in Microsoft documentation?
+        
+        [SPLIT]
+        ⚡ Organizations that installed all official Microsoft patches remained vulnerable because final protection required manual revocation of legacy certificates.
+        [SPLIT]
+        ⚡ Microsoft&#39;s patch deployment strategy deliberately avoids automatic revocation to prevent rendering millions of unready enterprise devices unbootable.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/when-fully-patched-means-vulnerable-the-blackx-uefi-bootkit-fallout-737568.html
+      ]]></description>
+      
+      <category>UEFI Bootkit</category>
+      
+      <category>Secure Boot</category>
+      
+      <category>BlackX Malware</category>
+      
+      <category>BlackLotus</category>
+      
+      <category>Cybersecurity Vulnerability</category>
+      
+      <category>Microsoft Patching</category>
+      
+      
+      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-500x500.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-500x500.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-500x500.jpg" />
+      
+    </item>
+    
+    <item>
       <title>Leonardo DRS Joins Army’s Historic Directed Energy Push</title>
       <link>https://neodymium.world/articles/leonardo-drs-joins-army-s-historic-directed-energy-push-659034.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/leonardo-drs-joins-army-s-historic-directed-energy-push-659034.html</guid>
@@ -243,6 +281,42 @@
       <enclosure url="https://cdn.defenseone.com/media/img/cd/2026/10/30/NATO_LITHU_FINAL_HI_RES_2_UF_red_copy/thumb.jpg" length="0" type="image/jpeg" />
       <media:content url="https://cdn.defenseone.com/media/img/cd/2026/10/30/NATO_LITHU_FINAL_HI_RES_2_UF_red_copy/thumb.jpg" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://cdn.defenseone.com/media/img/cd/2026/10/30/NATO_LITHU_FINAL_HI_RES_2_UF_red_copy/thumb.jpg" />
+      
+    </item>
+    
+    <item>
+      <title>Anthropic Extension Backdoor Exposes Thousands of Developer Machines</title>
+      <link>https://neodymium.world/articles/anthropic-extension-backdoor-exposes-thousands-of-developer-machines-737583.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/anthropic-extension-backdoor-exposes-thousands-of-developer-machines-737583.html</guid>
+      <pubDate>Fri, 30 Oct 2026 21:09:54 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        A compromised Anthropic extension on Cursor left up to 5,000 developer machines vulnerable to persistent backdoors for nearly 12 hours. Here is the breakdown of the supply chain failure.
+        
+        [SPLIT]
+        ⚡ The payload attempted to establish a persistent SSH backdoor and opened a reverse tunnel across Windows, macOS, and Linux.
+        [SPLIT]
+        ⚡ Auto-update configurations in modern IDEs dramatically accelerate the blast radius of compromised software distribution channels.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/anthropic-extension-backdoor-exposes-thousands-of-developer-machines-737583.html
+      ]]></description>
+      
+      <category>Anthropic</category>
+      
+      <category>Cursor</category>
+      
+      <category>Supply Chain Attack</category>
+      
+      <category>VS Code Extension</category>
+      
+      <category>Cybersecurity</category>
+      
+      
+      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-500x500.jpeg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-500x500.jpeg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-500x500.jpeg" />
       
     </item>
     
@@ -869,78 +943,6 @@
       <enclosure url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" length="0" type="image/jpeg" />
       <media:content url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
-      
-    </item>
-    
-    <item>
-      <title>The Anthropic IPO, Grid Bottlenecks, and the AI Spending Wars</title>
-      <link>https://neodymium.world/articles/the-anthropic-ipo-grid-bottlenecks-and-the-ai-spending-wars-128541.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/the-anthropic-ipo-grid-bottlenecks-and-the-ai-spending-wars-128541.html</guid>
-      <pubDate>Tue, 27 Oct 2026 12:10:00 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Anthropic&#39;s 335-page IPO filing is here, laying bare the astronomical costs, safety failures, and strategic gambles defining the generative AI boom. Read the full intelligence breakdown.
-        
-        [SPLIT]
-        ⚡ Rising electricity consumption from data centers and electric vehicles is accelerating the urgent need for solid-state grid transformer deployments.
-        [SPLIT]
-        ⚡ Major technology firms like Microsoft are cutting massive swaths of corporate staff to offset multi-billion-dollar artificial intelligence spending initiatives.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/the-anthropic-ipo-grid-bottlenecks-and-the-ai-spending-wars-128541.html
-      ]]></description>
-      
-      <category>Anthropic IPO</category>
-      
-      <category>AI Investment Boom</category>
-      
-      <category>Solid State Transformers</category>
-      
-      <category>Critical Infrastructure</category>
-      
-      <category>Defense Tech Strategy</category>
-      
-      
-      <enclosure url="https://wp.technologyreview.com/wp-content/uploads/2026/04/Neanderthals_finals-top.jpg?w=840" length="0" type="image/jpeg" />
-      <media:content url="https://wp.technologyreview.com/wp-content/uploads/2026/04/Neanderthals_finals-top.jpg?w=840" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://wp.technologyreview.com/wp-content/uploads/2026/04/Neanderthals_finals-top.jpg?w=840" />
-      
-    </item>
-    
-    <item>
-      <title>Industrial Intelligence: The Next Growth Frontier in Manufacturing</title>
-      <link>https://neodymium.world/articles/industrial-intelligence-the-next-growth-frontier-in-manufacturing-128556.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/industrial-intelligence-the-next-growth-frontier-in-manufacturing-128556.html</guid>
-      <pubDate>Tue, 27 Oct 2026 11:19:18 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Discover how manufacturers are leveraging Physical AI and industrial intelligence to turn accumulated know-how into a compounding engine for profitable growth.
-        
-        [SPLIT]
-        ⚡ Physical AI enables machines to perceive conditions, reason about variables, and execute validated physical actions.
-        [SPLIT]
-        ⚡ Real-world deployments demonstrate dramatic efficiency gains, such as cutting defect analysis cycles from five days to under four hours.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/industrial-intelligence-the-next-growth-frontier-in-manufacturing-128556.html
-      ]]></description>
-      
-      <category>Industrial Intelligence</category>
-      
-      <category>Physical AI</category>
-      
-      <category>Manufacturing Technology</category>
-      
-      <category>Operational Efficiency</category>
-      
-      <category>Smart Factory</category>
-      
-      
-      <enclosure url="https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-1367303200.jpg?w=840" length="0" type="image/jpeg" />
-      <media:content url="https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-1367303200.jpg?w=840" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-1367303200.jpg?w=840" />
       
     </item>
     

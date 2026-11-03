@@ -23,6 +23,44 @@
     <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>When Fully Patched Means Vulnerable: The BlackX UEFI Bootkit Fallout</title>
+      <link>https://neodymium.world/articles/when-fully-patched-means-vulnerable-the-blackx-uefi-bootkit-fallout-737568.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/when-fully-patched-means-vulnerable-the-blackx-uefi-bootkit-fallout-737568.html</guid>
+      <pubDate>Tue, 03 Nov 2026 16:03:13 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Even fully patched Windows machines fell victim to the BlackX UEFI bootkit. Why are critical security mitigations buried in Microsoft documentation?
+        
+        [SPLIT]
+        ⚡ Organizations that installed all official Microsoft patches remained vulnerable because final protection required manual revocation of legacy certificates.
+        [SPLIT]
+        ⚡ Microsoft&#39;s patch deployment strategy deliberately avoids automatic revocation to prevent rendering millions of unready enterprise devices unbootable.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/when-fully-patched-means-vulnerable-the-blackx-uefi-bootkit-fallout-737568.html
+      ]]></description>
+      
+      <category>UEFI Bootkit</category>
+      
+      <category>Secure Boot</category>
+      
+      <category>BlackX Malware</category>
+      
+      <category>BlackLotus</category>
+      
+      <category>Cybersecurity Vulnerability</category>
+      
+      <category>Microsoft Patching</category>
+      
+      
+      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-500x500.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-500x500.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-500x500.jpg" />
+      
+    </item>
+    
+    <item>
       <title>Leonardo DRS Joins Army’s Historic Directed Energy Push</title>
       <link>https://neodymium.world/articles/leonardo-drs-joins-army-s-historic-directed-energy-push-659034.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/leonardo-drs-joins-army-s-historic-directed-energy-push-659034.html</guid>

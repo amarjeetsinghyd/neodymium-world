@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/when-fully-patched-means-vulnerable-the-blackx-uefi-bootkit-fallout-737568.html</loc>
+        <lastmod>Tue, 03 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-500x500.jpg</image:loc>
+            <image:title>When Fully Patched Means Vulnerable: The BlackX UEFI Bootkit Fallout</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 03 Nov 2026 16:03:13 +0000</news:publication_date>
+            <news:title>When Fully Patched Means Vulnerable: The BlackX UEFI Bootkit Fallout</news:title>
+            
+            <news:keywords>UEFI Bootkit, Secure Boot, BlackX Malware, BlackLotus, Cybersecurity Vulnerability, Microsoft Patching</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/leonardo-drs-joins-army-s-historic-directed-energy-push-659034.html</loc>
         <lastmod>Mon, 02 No</lastmod>
         <changefreq>never</changefreq>
@@ -207,6 +231,30 @@
             <news:title>Across the Line: Inside NATO&#39;s AI-Driven Armor Vanguard</news:title>
             
             <news:keywords>NATO Modernization, M1A3 Abrams, Robotic Combat Vehicles, Article V Operations, Anti-Access Area Denial, Ground Warfare</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/anthropic-extension-backdoor-exposes-thousands-of-developer-machines-737583.html</loc>
+        <lastmod>Fri, 30 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-500x500.jpeg</image:loc>
+            <image:title>Anthropic Extension Backdoor Exposes Thousands of Developer Machines</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 30 Oct 2026 21:09:54 +0000</news:publication_date>
+            <news:title>Anthropic Extension Backdoor Exposes Thousands of Developer Machines</news:title>
+            
+            <news:keywords>Anthropic, Cursor, Supply Chain Attack, VS Code Extension, Cybersecurity</news:keywords>
             
         </news:news>
     </url>
