@@ -60,43 +60,5 @@
       
     </item>
     
-    <item>
-      <title>Bridging the Pacific Digital Chasm: INDOPACOM’s Network Overhaul</title>
-      <link>https://neodymium.world/articles/bridging-the-pacific-digital-chasm-indopacom-s-network-overhaul-621111.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/bridging-the-pacific-digital-chasm-indopacom-s-network-overhaul-621111.html</guid>
-      <pubDate>Sun, 01 Nov 2026 23:37:52 -0500</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Advanced hardware means nothing if communication takes hours. Inside the Pentagon&#39;s high-stakes race to wire the Indo-Pacific for coalition warfare.
-        
-        [SPLIT]
-        ⚡ DISA Pacific is deploying a unified Pacific mission partner network to replace bespoke, single-nation systems and reduce device toggling.
-        [SPLIT]
-        ⚡ The newly unveiled Regional Network Operations Security Center Pacific increases theater personnel by 20 percent to counter undersea cable cuts and electronic warfare.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/bridging-the-pacific-digital-chasm-indopacom-s-network-overhaul-621111.html
-      ]]></description>
-      
-      <category>INDOPACOM</category>
-      
-      <category>DISA</category>
-      
-      <category>Pacific Defense Networks</category>
-      
-      <category>Zero Trust Architecture</category>
-      
-      <category>Military Communications</category>
-      
-      <category>Allied Interoperability</category>
-      
-      
-      <enclosure url="https://cdn.defenseone.com/media/img/cd/2026/11/01/9764180/thumb.jpg" length="0" type="image/jpeg" />
-      <media:content url="https://cdn.defenseone.com/media/img/cd/2026/11/01/9764180/thumb.jpg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://cdn.defenseone.com/media/img/cd/2026/11/01/9764180/thumb.jpg" />
-      
-    </item>
-    
   </channel>
 </rss>
