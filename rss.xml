@@ -23,78 +23,76 @@
     <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>When Fully Patched Means Vulnerable: The BlackX UEFI Bootkit Fallout</title>
-      <link>https://neodymium.world/articles/when-fully-patched-means-vulnerable-the-blackx-uefi-bootkit-fallout-737568.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/when-fully-patched-means-vulnerable-the-blackx-uefi-bootkit-fallout-737568.html</guid>
-      <pubDate>Tue, 03 Nov 2026 16:03:13 +0000</pubDate>
+      <title>Israel Weapons Industry Expands Counter-Drone Footprint into Southeast Asia</title>
+      <link>https://neodymium.world/articles/israel-weapons-industry-expands-counter-drone-footprint-into-southeast-asia-793255.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/israel-weapons-industry-expands-counter-drone-footprint-into-southeast-asia-793255.html</guid>
+      <pubDate>Wed, 04 Nov 2026 11:09:00 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
       <description><![CDATA[
-        Even fully patched Windows machines fell victim to the BlackX UEFI bootkit. Why are critical security mitigations buried in Microsoft documentation?
+        Thailand&#39;s deployment of IWI&#39;s ARBEL counter-drone system marks a major shift in Southeast Asian defense modernization as tactical UAV threats surge.
         
         [SPLIT]
-        ⚡ Organizations that installed all official Microsoft patches remained vulnerable because final protection required manual revocation of legacy certificates.
+        ⚡ Four additional Southeast Asian militaries are currently advancing through various stages of the ARBEL procurement process.
         [SPLIT]
-        ⚡ Microsoft&#39;s patch deployment strategy deliberately avoids automatic revocation to prevent rendering millions of unready enterprise devices unbootable.
+        ⚡ The ARBEL system functions by replacing the lower receiver of standard infantry rifles, offering a cost-effective upgrade path without necessitating total inventory replacement.
         [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/when-fully-patched-means-vulnerable-the-blackx-uefi-bootkit-fallout-737568.html
+        🔗 Read full report → https://neodymium.world/articles/israel-weapons-industry-expands-counter-drone-footprint-into-southeast-asia-793255.html
       ]]></description>
       
-      <category>UEFI Bootkit</category>
+      <category>Israel Weapons Industry</category>
       
-      <category>Secure Boot</category>
+      <category>ARBEL ADS</category>
       
-      <category>BlackX Malware</category>
+      <category>Counter-UAS</category>
       
-      <category>BlackLotus</category>
+      <category>Thailand Ministry of Defense</category>
       
-      <category>Cybersecurity Vulnerability</category>
-      
-      <category>Microsoft Patching</category>
+      <category>Southeast Asia Defense</category>
       
       
-      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-500x500.jpg" length="0" type="image/jpeg" />
-      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-500x500.jpg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-500x500.jpg" />
+      <enclosure url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/IWI-Arbel-Anti-Drone-H41A2673-scaled-e1793725029714-1024x576.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/IWI-Arbel-Anti-Drone-H41A2673-scaled-e1793725029714-1024x576.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/IWI-Arbel-Anti-Drone-H41A2673-scaled-e1793725029714-1024x576.jpg" />
       
     </item>
     
     <item>
-      <title>Leonardo DRS Joins Army’s Historic Directed Energy Push</title>
-      <link>https://neodymium.world/articles/leonardo-drs-joins-army-s-historic-directed-energy-push-659034.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/leonardo-drs-joins-army-s-historic-directed-energy-push-659034.html</guid>
-      <pubDate>Mon, 02 Nov 2026 18:19:40 +0000</pubDate>
+      <title>Thales Secures US Navy Deal to Automate Mine Countermeasures</title>
+      <link>https://neodymium.world/articles/thales-secures-us-navy-deal-to-automate-mine-countermeasures-793289.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/thales-secures-us-navy-deal-to-automate-mine-countermeasures-793289.html</guid>
+      <pubDate>Tue, 03 Nov 2026 22:40:45 +0000</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
       <description><![CDATA[
-        The US Army is moving directed energy weapons from prototypes to the front lines. Now, Leonardo DRS is stepping in to solve the brutal engineering hurdles of fielding mobile lasers in combat.
+        The US Navy is leaning hard into autonomous mine countermeasures. Thales subsidiary Advanced Acoustic Concepts just landed a $53.9M deal integrating the SAMDIS 600 sonar and HII&#39;s REMUS 620 UUV to keep sailors out of the strike zone.
         
         [SPLIT]
-        ⚡ Leonardo DRS will supply critical rugged integration, power, and thermal management expertise for the LOCUST X3 laser weapon systems.
+        ⚡ The core technology relies on Thales&#39; SAMDIS 600 three-beam sonar, which drastically reduces false positives via multi-angle imaging.
         [SPLIT]
-        ⚡ The initiative addresses the urgent operational demand for cost-effective, non-kinetic layered defenses against proliferating battlefield drones.
+        ⚡ Unmanned integration pairs the sonar payload with HII&#39;s REMUS 620 UUV and Sea Launcher systems for autonomous launch, search, and recovery.
         [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/leonardo-drs-joins-army-s-historic-directed-energy-push-659034.html
+        🔗 Read full report → https://neodymium.world/articles/thales-secures-us-navy-deal-to-automate-mine-countermeasures-793289.html
       ]]></description>
       
-      <category>Leonardo DRS</category>
+      <category>Thales</category>
       
-      <category>AeroVironment</category>
+      <category>US Navy</category>
       
-      <category>Enduring-High Energy Laser</category>
+      <category>Mine Countermeasures</category>
       
-      <category>Directed Energy Weapons</category>
+      <category>SAMDIS 600</category>
       
-      <category>Counter-UAS Defense</category>
+      <category>HII REMUS 620</category>
       
-      <category>US Army Modernization</category>
+      <category>Advanced Acoustic Concepts</category>
       
       
-      <enclosure url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" length="0" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
+      <enclosure url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/image003-e1793743253636-1024x577.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/image003-e1793743253636-1024x577.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/image003-e1793743253636-1024x577.jpg" />
       
     </item>
     

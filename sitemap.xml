@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-11-03</lastmod>
+        <lastmod>2026-11-04</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-11-03</lastmod>
+        <lastmod>2026-11-04</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/israel-weapons-industry-expands-counter-drone-footprint-into-southeast-asia-793255.html</loc>
+        <lastmod>Wed, 04 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/IWI-Arbel-Anti-Drone-H41A2673-scaled-e1793725029714-1024x576.jpg</image:loc>
+            <image:title>Israel Weapons Industry Expands Counter-Drone Footprint into Southeast Asia</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 04 Nov 2026 11:09:00 +0000</news:publication_date>
+            <news:title>Israel Weapons Industry Expands Counter-Drone Footprint into Southeast Asia</news:title>
+            
+            <news:keywords>Israel Weapons Industry, ARBEL ADS, Counter-UAS, Thailand Ministry of Defense, Southeast Asia Defense</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/thales-secures-us-navy-deal-to-automate-mine-countermeasures-793289.html</loc>
+        <lastmod>Tue, 03 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/image003-e1793743253636-1024x577.jpg</image:loc>
+            <image:title>Thales Secures US Navy Deal to Automate Mine Countermeasures</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 03 Nov 2026 22:40:45 +0000</news:publication_date>
+            <news:title>Thales Secures US Navy Deal to Automate Mine Countermeasures</news:title>
+            
+            <news:keywords>Thales, US Navy, Mine Countermeasures, SAMDIS 600, HII REMUS 620, Advanced Acoustic Concepts</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/when-fully-patched-means-vulnerable-the-blackx-uefi-bootkit-fallout-737568.html</loc>
@@ -6981,7 +7029,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-11-03</lastmod>
+        <lastmod>2026-11-04</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
