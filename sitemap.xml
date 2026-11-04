@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/inside-the-6-34b-binance-heist-a-masterclass-in-apt-social-engineering-824893.html</loc>
+        <lastmod>Wed, 04 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2026/10/binance-500x500.jpg</image:loc>
+            <image:title>Inside the $6.34B Binance Heist: A Masterclass in APT Social Engineering</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 04 Nov 2026 16:06:03 +0000</news:publication_date>
+            <news:title>Inside the $6.34B Binance Heist: A Masterclass in APT Social Engineering</news:title>
+            
+            <news:keywords>Binance Heist, North Korea Cyber Operations, TraderTraitor, EIP-7702 Exploit, Defense Tech, Cryptocurrency Security</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/israel-weapons-industry-expands-counter-drone-footprint-into-southeast-asia-793255.html</loc>
         <lastmod>Wed, 04 No</lastmod>
         <changefreq>never</changefreq>
@@ -663,6 +687,30 @@
             <news:title>Japan Eyes Indian Ranges for Long-Range Missile and Drone Trials</news:title>
             
             <news:keywords>India Japan Defense, Type 12 Missile, Indo Pacific Security, Atmanirbhar Bharat, Missile Testing Ranges</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/critical-uefi-firmware-flaw-threatens-global-server-infrastructure-824909.html</loc>
+        <lastmod>Tue, 27 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2024/04/malware-500x500.jpg</image:loc>
+            <image:title>Critical UEFI Firmware Flaw Threatens Global Server Infrastructure</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 27 Oct 2026 20:25:55 +0000</news:publication_date>
+            <news:title>Critical UEFI Firmware Flaw Threatens Global Server Infrastructure</news:title>
+            
+            <news:keywords>UEFI Firmware, EDK2 Vulnerability, Server Security, Cyber Defense, Supply Chain Security</news:keywords>
             
         </news:news>
     </url>

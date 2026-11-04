@@ -23,6 +23,44 @@
     <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Inside the $6.34B Binance Heist: A Masterclass in APT Social Engineering</title>
+      <link>https://neodymium.world/articles/inside-the-6-34b-binance-heist-a-masterclass-in-apt-social-engineering-824893.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/inside-the-6-34b-binance-heist-a-masterclass-in-apt-social-engineering-824893.html</guid>
+      <pubDate>Wed, 04 Nov 2026 16:06:03 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        How did North Korean state-backed hackers orchestrate the largest cryptocurrency heist in history, targeting $6.34B from Binance? We break down the zero-day malware, fake job interviews, and EIP-7702 exploits that bypassed enterprise defenses.
+        
+        [SPLIT]
+        ⚡ The attack began as early as June, utilizing compromised development tools like Homebrew and elaborate fake recruitment interviews to achieve initial endpoint penetration.
+        [SPLIT]
+        ⚡ Threat actors escalated privileges by weaponizing internal AI tooling to compromise multiple engineer devices and infiltrate core wallet signing services.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/inside-the-6-34b-binance-heist-a-masterclass-in-apt-social-engineering-824893.html
+      ]]></description>
+      
+      <category>Binance Heist</category>
+      
+      <category>North Korea Cyber Operations</category>
+      
+      <category>TraderTraitor</category>
+      
+      <category>EIP-7702 Exploit</category>
+      
+      <category>Defense Tech</category>
+      
+      <category>Cryptocurrency Security</category>
+      
+      
+      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/binance-500x500.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/binance-500x500.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/binance-500x500.jpg" />
+      
+    </item>
+    
+    <item>
       <title>Israel Weapons Industry Expands Counter-Drone Footprint into Southeast Asia</title>
       <link>https://neodymium.world/articles/israel-weapons-industry-expands-counter-drone-footprint-into-southeast-asia-793255.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/israel-weapons-industry-expands-counter-drone-footprint-into-southeast-asia-793255.html</guid>
@@ -55,44 +93,6 @@
       <enclosure url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/IWI-Arbel-Anti-Drone-H41A2673-scaled-e1793725029714-1024x576.jpg" length="0" type="image/jpeg" />
       <media:content url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/IWI-Arbel-Anti-Drone-H41A2673-scaled-e1793725029714-1024x576.jpg" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/IWI-Arbel-Anti-Drone-H41A2673-scaled-e1793725029714-1024x576.jpg" />
-      
-    </item>
-    
-    <item>
-      <title>Thales Secures US Navy Deal to Automate Mine Countermeasures</title>
-      <link>https://neodymium.world/articles/thales-secures-us-navy-deal-to-automate-mine-countermeasures-793289.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/thales-secures-us-navy-deal-to-automate-mine-countermeasures-793289.html</guid>
-      <pubDate>Tue, 03 Nov 2026 22:40:45 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        The US Navy is leaning hard into autonomous mine countermeasures. Thales subsidiary Advanced Acoustic Concepts just landed a $53.9M deal integrating the SAMDIS 600 sonar and HII&#39;s REMUS 620 UUV to keep sailors out of the strike zone.
-        
-        [SPLIT]
-        ⚡ The core technology relies on Thales&#39; SAMDIS 600 three-beam sonar, which drastically reduces false positives via multi-angle imaging.
-        [SPLIT]
-        ⚡ Unmanned integration pairs the sonar payload with HII&#39;s REMUS 620 UUV and Sea Launcher systems for autonomous launch, search, and recovery.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/thales-secures-us-navy-deal-to-automate-mine-countermeasures-793289.html
-      ]]></description>
-      
-      <category>Thales</category>
-      
-      <category>US Navy</category>
-      
-      <category>Mine Countermeasures</category>
-      
-      <category>SAMDIS 600</category>
-      
-      <category>HII REMUS 620</category>
-      
-      <category>Advanced Acoustic Concepts</category>
-      
-      
-      <enclosure url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/image003-e1793743253636-1024x577.jpg" length="0" type="image/jpeg" />
-      <media:content url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/image003-e1793743253636-1024x577.jpg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/image003-e1793743253636-1024x577.jpg" />
       
     </item>
     
