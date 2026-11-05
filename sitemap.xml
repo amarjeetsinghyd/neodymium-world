@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-11-04</lastmod>
+        <lastmod>2026-11-05</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-11-04</lastmod>
+        <lastmod>2026-11-05</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -159,6 +159,30 @@
             <news:title>When Fully Patched Means Vulnerable: The BlackX UEFI Bootkit Fallout</news:title>
             
             <news:keywords>UEFI Bootkit, Secure Boot, BlackX Malware, BlackLotus, Cybersecurity Vulnerability, Microsoft Patching</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/neutralizing-orbital-decay-airbus-deploys-passive-damping-to-secure-leo-879872.html</loc>
+        <lastmod>Tue, 03 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/AIRBUS_Blue.png?fit=1024%2C1024&amp;ssl=1</image:loc>
+            <image:title>Neutralizing Orbital Decay: Airbus Deploys Passive Damping to Secure LEO</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 03 Nov 2026 13:30:00 +0000</news:publication_date>
+            <news:title>Neutralizing Orbital Decay: Airbus Deploys Passive Damping to Secure LEO</news:title>
+            
+            <news:keywords>Airbus Detumbler, Space Debris, Low Earth Orbit, Space Traffic Management, Active Debris Removal, Satellite Defense</news:keywords>
             
         </news:news>
     </url>
@@ -687,6 +711,30 @@
             <news:title>Japan Eyes Indian Ranges for Long-Range Missile and Drone Trials</news:title>
             
             <news:keywords>India Japan Defense, Type 12 Missile, Indo Pacific Security, Atmanirbhar Bharat, Missile Testing Ranges</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/orbital-energy-supremacy-flexell-and-satoro-target-space-solar-dominance-879948.html</loc>
+        <lastmod>Wed, 28 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/LOGO_FLEXELLBlack.png?fit=1024%2C1024&amp;ssl=1</image:loc>
+            <image:title>Orbital Energy Supremacy: Flexell and Satoro Target Space Solar Dominance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 28 Oct 2026 14:43:08 +0000</news:publication_date>
+            <news:title>Orbital Energy Supremacy: Flexell and Satoro Target Space Solar Dominance</news:title>
+            
+            <news:keywords>Space Solar Cells, Flexell Space, Perovskite Solar, Satellite-as-a-Service, Satoro, LEO Megaconstellations</news:keywords>
             
         </news:news>
     </url>
@@ -7077,7 +7125,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-11-04</lastmod>
+        <lastmod>2026-11-05</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
