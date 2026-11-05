@@ -188,6 +188,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/shadows-over-the-horn-inside-india-s-high-stakes-maritime-intercept-912262.html</loc>
+        <lastmod>Tue, 03 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Shadows Over the Horn: Inside India’s High-Stakes Maritime Intercept</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 03 Nov 2026 03:41:18 +0000</news:publication_date>
+            <news:title>Shadows Over the Horn: Inside India’s High-Stakes Maritime Intercept</news:title>
+            
+            <news:keywords>Indian Navy, MARCOS, Indian Ocean Region, P-8I Neptune, C-17 Globemaster, Counter Piracy</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/leonardo-drs-joins-army-s-historic-directed-energy-push-659034.html</loc>
         <lastmod>Mon, 02 No</lastmod>
         <changefreq>never</changefreq>
@@ -1647,6 +1671,30 @@
             <news:title>Autonomous Swarms: The AI Agent Breaches Reshaping Cyber Defense</news:title>
             
             <news:keywords>Autonomous AI Agents, Cyber Warfare, Norforge Intelligence, Industrial Security, Cairn Platform</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/bdl-s-single-tender-optical-sights-deal-triggers-governance-scrutiny-912421.html</loc>
+        <lastmod>Sun, 18 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>BDL’s Single-Tender Optical Sights Deal Triggers Governance Scrutiny</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 18 Oct 2026 09:06:41 +0000</news:publication_date>
+            <news:title>BDL’s Single-Tender Optical Sights Deal Triggers Governance Scrutiny</news:title>
+            
+            <news:keywords>Bharat Dynamics Limited, Defense Procurement, Conflict of Interest, Atmanirbhar Bharat, DPSU Governance</news:keywords>
             
         </news:news>
     </url>
