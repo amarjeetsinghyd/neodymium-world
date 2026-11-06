@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-11-05</lastmod>
+        <lastmod>2026-11-06</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-11-05</lastmod>
+        <lastmod>2026-11-06</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/pralay-passes-the-new-spearhead-of-india-s-conventional-deterrence-965990.html</loc>
+        <lastmod>Fri, 06 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5uaWaYgPhcgSnaxbkIVkztOunLodWGXBuA8lV0qgTY2Fa7K-KXqnH_-dFkb_rJrjCrrmLu7lg2w0OciVmtqUuf2WJ3YWPzaT_rcTJVw5XgRV7Yzc6O4oVC5_5leqwxA3IvaFq6NlRUFElQhSFIVQL4Y2L1WYTUgyHsM7J1vmfeEhhhZsEq7C3hG7O2iI/s72-c/Pralay_Tactical_Ballistic_Missile_Test.jpg</image:loc>
+            <image:title>Pralay Passes: The New Spearhead of India&#39;s Conventional Deterrence</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 06 Nov 2026 04:08:00 +0000</news:publication_date>
+            <news:title>Pralay Passes: The New Spearhead of India&#39;s Conventional Deterrence</news:title>
+            
+            <news:keywords>Pralay Missile, DRDO, Atmanirbhar Bharat, LAC Deterrence, Tactical Ballistic Missile</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-tbm-ultimatum-breaking-china-s-heavy-engineering-monopoly-966020.html</loc>
+        <lastmod>Fri, 06 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQtXZ3Rl0ZHlKI1TPshG7zgEDMCHbS6-CnD1gMBnScc_vSvGhElRzsEa9zmG4eO-1pV_oQWGrHgjmHWlbWe__T4HI1Jn-YZ5RQh_cCtrGCepKqlXh3n-9HrUOkOKWvgiEkckxqAKEyGk359lcGCljJQL-9GEJ2e-9aRI0VD7UMT2-mfTCiNW4NinkaaW4/s72-c/Tunnel_Boring_Machine.jpg</image:loc>
+            <image:title>India&#39;s TBM Ultimatum: Breaking China&#39;s Heavy Engineering Monopoly</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 06 Nov 2026 04:07:00 +0000</news:publication_date>
+            <news:title>India&#39;s TBM Ultimatum: Breaking China&#39;s Heavy Engineering Monopoly</news:title>
+            
+            <news:keywords>Tunnel Boring Machines, Piyush Goyal, Atmanirbhar Bharat, LAC Border Infrastructure, Indigenization</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/inside-the-6-34b-binance-heist-a-masterclass-in-apt-social-engineering-824893.html</loc>
@@ -7173,7 +7221,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-11-05</lastmod>
+        <lastmod>2026-11-06</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
