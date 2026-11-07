@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-11-06</lastmod>
+        <lastmod>2026-11-07</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-11-06</lastmod>
+        <lastmod>2026-11-07</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/india-s-100-million-microreactor-gambit-reshapes-power-dynamics-048903.html</loc>
+        <lastmod>Sat, 07 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://idrw.org/wp-content/uploads/2026/10/factory-transition.jpg</image:loc>
+            <image:title>India&#39;s $100 Million Microreactor Gambit Reshapes Power Dynamics</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 07 Nov 2026 09:44:00 +0000</news:publication_date>
+            <news:title>India&#39;s $100 Million Microreactor Gambit Reshapes Power Dynamics</news:title>
+            
+            <news:keywords>Daratha Atomics, Nuclear Microreactors, Atmanirbhar Bharat, Indian Energy Security, Advanced Manufacturing</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/dismantling-bhatti-s-terror-network-amid-a-pivot-to-religious-radicalization-048934.html</loc>
+        <lastmod>Sat, 07 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://ommcomnews.com/wp-content/uploads/2026/11/New-Project-2026-11-06T130425.018.jpg</image:loc>
+            <image:title>Dismantling Bhatti&#39;s Terror Network Amid a Pivot to Religious Radicalization</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 07 Nov 2026 08:59:00 +0000</news:publication_date>
+            <news:title>Dismantling Bhatti&#39;s Terror Network Amid a Pivot to Religious Radicalization</news:title>
+            
+            <news:keywords>Shahzad Bhatti, Counter Terrorism, Indian Security Agencies, UAPA, Cross Border Terror, Intelligence Bureau</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/pralay-passes-the-new-spearhead-of-india-s-conventional-deterrence-965990.html</loc>
@@ -7269,7 +7317,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-11-06</lastmod>
+        <lastmod>2026-11-07</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
