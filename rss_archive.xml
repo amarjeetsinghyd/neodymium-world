@@ -23,6 +23,78 @@
     <atom:link href="https://neodymium.world/rss_archive.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Testing NYT Cooking’s AI: Weeknight Saviors and Baking Traps</title>
+      <link>https://neodymium.world/articles/testing-nyt-cooking-s-ai-weeknight-saviors-and-baking-traps-076195.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/testing-nyt-cooking-s-ai-weeknight-saviors-and-baking-traps-076195.html</guid>
+      <pubDate>2026-11-07T10:50:00-05:00</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Can an AI sous-chef save your weeknight dinner without ruining your cake? We put the new NYT Cooking AI assistant to the test.
+        
+        [SPLIT]
+        ⚡ It successfully utilizes insights from years of user comments to suggest practical and flavorful ingredient swaps.
+        [SPLIT]
+        ⚡ While excellent for weeknight dinners and savory adaptations, baking conversions require strict human oversight.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/testing-nyt-cooking-s-ai-weeknight-saviors-and-baking-traps-076195.html
+      ]]></description>
+      
+      <category>NYT Cooking AI</category>
+      
+      <category>Generative AI</category>
+      
+      <category>Recipe Assistant</category>
+      
+      <category>Kitchen Tech</category>
+      
+      <category>Food Automation</category>
+      
+      
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268844_NY_Times_Cooking_App_JTuohy_0006.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
+      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268844_NY_Times_Cooking_App_JTuohy_0006.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268844_NY_Times_Cooking_App_JTuohy_0006.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
+      
+    </item>
+    
+    <item>
+      <title>Ghost Offices and Chip Hegemony: The Bureaucratic Leak in US Export Controls</title>
+      <link>https://neodymium.world/articles/ghost-offices-and-chip-hegemony-the-bureaucratic-leak-in-us-export-controls-076210.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/ghost-offices-and-chip-hegemony-the-bureaucratic-leak-in-us-export-controls-076210.html</guid>
+      <pubDate>2026-11-07T10:43:45-05:00</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        When a $30,000 AI accelerator gets shipped to a gutted office space with dangling wires, US export control policy isn&#39;t just leaking—it&#39;s wide open.
+        
+        [SPLIT]
+        ⚡ Investigators uncovered direct ownership ties between approved purchasing fronts and private equity firms blacklisted by Washington since 2024.
+        [SPLIT]
+        ⚡ The policy framework shifted under recent administration adjustments, trading strict bans for a 15-percent government cut of all approved commercial sales.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/ghost-offices-and-chip-hegemony-the-bureaucratic-leak-in-us-export-controls-076210.html
+      ]]></description>
+      
+      <category>Nvidia H200</category>
+      
+      <category>Export Controls</category>
+      
+      <category>AI Supply Chain</category>
+      
+      <category>Commerce Department</category>
+      
+      <category>US-China Tech War</category>
+      
+      
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
+      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
+      
+    </item>
+    
+    <item>
       <title>India&#39;s $100 Million Microreactor Gambit Reshapes Power Dynamics</title>
       <link>https://neodymium.world/articles/india-s-100-million-microreactor-gambit-reshapes-power-dynamics-048903.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/india-s-100-million-microreactor-gambit-reshapes-power-dynamics-048903.html</guid>
@@ -873,78 +945,6 @@
       <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg" length="0" type="image/jpeg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg" />
-      
-    </item>
-    
-    <item>
-      <title>Google&#39;s Orbiting TPU Test Marks a New Era for Edge Defense AI</title>
-      <link>https://neodymium.world/articles/google-s-orbiting-tpu-test-marks-a-new-era-for-edge-defense-ai-386834.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/google-s-orbiting-tpu-test-marks-a-new-era-for-edge-defense-ai-386834.html</guid>
-      <pubDate>2026-10-30T14:21:38-04:00</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Google just successfully booted an AI chip-equipped satellite into orbit, running the Gemma 4 model in space. Project Suncatcher is paving the way for resilient space-based data centers by 2027.
-        
-        [SPLIT]
-        ⚡ Project Suncatcher aims to test thermal stress and radiation resilience ahead of a twin-satellite interconnection milestone in 2027.
-        [SPLIT]
-        ⚡ Orbital AI processing fundamentally reduces latency and dependency on vulnerable terrestrial ground stations during conflicts.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/google-s-orbiting-tpu-test-marks-a-new-era-for-edge-defense-ai-386834.html
-      ]]></description>
-      
-      <category>Project Suncatcher</category>
-      
-      <category>Space AI</category>
-      
-      <category>Google TPUs</category>
-      
-      <category>Edge Computing</category>
-      
-      <category>Military Satellites</category>
-      
-      
-      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/project-suncatcher-google.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
-      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/project-suncatcher-google.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/project-suncatcher-google.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
-      
-    </item>
-    
-    <item>
-      <title>Starbucks Deploys Tactical AI to Dominate the Drive-Thru</title>
-      <link>https://neodymium.world/articles/starbucks-deploys-tactical-ai-to-dominate-the-drive-thru-386848.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/starbucks-deploys-tactical-ai-to-dominate-the-drive-thru-386848.html</guid>
-      <pubDate>2026-10-30T13:38:04-04:00</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Starbucks is rolling out tactical AI to revolutionize the drive-thru experience, featuring personalized digital menus and automated barista support by 2027.
-        
-        [SPLIT]
-        ⚡ Dynamic digital menu boards will adapt visuals and layouts on a car-by-car basis, similar to recent tests by Taco Bell and McDonald&#39;s.
-        [SPLIT]
-        ⚡ Background AI models slated for 2027 will assist baristas with order accuracy and operational efficiency.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/starbucks-deploys-tactical-ai-to-dominate-the-drive-thru-386848.html
-      ]]></description>
-      
-      <category>Starbucks AI</category>
-      
-      <category>Drive-Thru Automation</category>
-      
-      <category>Retail Technology</category>
-      
-      <category>Conversational AI</category>
-      
-      <category>Brian Niccol</category>
-      
-      
-      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2268681559.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
-      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2268681559.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2268681559.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
       
     </item>
     

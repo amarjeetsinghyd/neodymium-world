@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/testing-nyt-cooking-s-ai-weeknight-saviors-and-baking-traps-076195.html</loc>
+        <lastmod>2026-11-07</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268844_NY_Times_Cooking_App_JTuohy_0006.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100</image:loc>
+            <image:title>Testing NYT Cooking’s AI: Weeknight Saviors and Baking Traps</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2026-11-07T10:50:00-05:00</news:publication_date>
+            <news:title>Testing NYT Cooking’s AI: Weeknight Saviors and Baking Traps</news:title>
+            
+            <news:keywords>NYT Cooking AI, Generative AI, Recipe Assistant, Kitchen Tech, Food Automation</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/ghost-offices-and-chip-hegemony-the-bureaucratic-leak-in-us-export-controls-076210.html</loc>
+        <lastmod>2026-11-07</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100</image:loc>
+            <image:title>Ghost Offices and Chip Hegemony: The Bureaucratic Leak in US Export Controls</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2026-11-07T10:43:45-05:00</news:publication_date>
+            <news:title>Ghost Offices and Chip Hegemony: The Bureaucratic Leak in US Export Controls</news:title>
+            
+            <news:keywords>Nvidia H200, Export Controls, AI Supply Chain, Commerce Department, US-China Tech War</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-100-million-microreactor-gambit-reshapes-power-dynamics-048903.html</loc>
         <lastmod>Sat, 07 No</lastmod>
         <changefreq>never</changefreq>
