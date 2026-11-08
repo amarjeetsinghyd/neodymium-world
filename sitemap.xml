@@ -1052,6 +1052,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/craft-prospect-launches-perseus-to-pioneer-space-optical-comms-163293.html</loc>
+        <lastmod>Tue, 27 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/Logos.png?fit=1024%2C1024&amp;ssl=1</image:loc>
+            <image:title>Craft Prospect Launches PERSEUS to Pioneer Space Optical Comms</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 27 Oct 2026 12:00:00 +0000</news:publication_date>
+            <news:title>Craft Prospect Launches PERSEUS to Pioneer Space Optical Comms</news:title>
+            
+            <news:keywords>Optical Communications, PCSEL Lasers, Space Communications, Craft Prospect, Fraunhofer CAP, Vector Photonics</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/industrial-intelligence-the-next-growth-frontier-in-manufacturing-128556.html</loc>
         <lastmod>Tue, 27 Oc</lastmod>
         <changefreq>never</changefreq>
@@ -1071,6 +1095,30 @@
             <news:title>Industrial Intelligence: The Next Growth Frontier in Manufacturing</news:title>
             
             <news:keywords>Industrial Intelligence, Physical AI, Manufacturing Technology, Operational Efficiency, Smart Factory</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/flexell-space-opens-paris-hub-to-deepen-european-defense-footprint-163308.html</loc>
+        <lastmod>Mon, 26 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/LOGO_FLEXELLBlack.png?fit=1024%2C1024&amp;ssl=1</image:loc>
+            <image:title>Flexell Space Opens Paris Hub to Deepen European Defense Footprint</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 26 Oct 2026 20:00:00 +0000</news:publication_date>
+            <news:title>Flexell Space Opens Paris Hub to Deepen European Defense Footprint</news:title>
+            
+            <news:keywords>Flexell Space, Space Solar Cells, European Space Agency, Satellite Power Solutions, Defense Supply Chain</news:keywords>
             
         </news:news>
     </url>
