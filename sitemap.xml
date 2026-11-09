@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-11-08</lastmod>
+        <lastmod>2026-11-09</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-11-08</lastmod>
+        <lastmod>2026-11-09</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -159,6 +159,54 @@
             <news:title>Dismantling Bhatti&#39;s Terror Network Amid a Pivot to Religious Radicalization</news:title>
             
             <news:keywords>Shahzad Bhatti, Counter Terrorism, Indian Security Agencies, UAPA, Cross Border Terror, Intelligence Bureau</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/pentagon-stands-up-operations-center-for-space-data-network-227780.html</loc>
+        <lastmod>Fri, 06 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/SpaceX_Starship_ignition_during_IFT-5.jpg/1280px-SpaceX_Starship_ignition_during_IFT-5.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail</image:loc>
+            <image:title>Pentagon Stands Up Operations Center for Space Data Network</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 06 Nov 2026 17:56:40 +0000</news:publication_date>
+            <news:title>Pentagon Stands Up Operations Center for Space Data Network</news:title>
+            
+            <news:keywords>Space Data Network, Space Systems Command, Golden Dome Missile Defense, Viasat, SpaceX, Military Satellites</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/the-electromagnetic-blind-spot-domestic-ew-testing-and-civilian-risk-227796.html</loc>
+        <lastmod>Fri, 06 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/The_Brahmos_Missile_system_passes_through_the_Rajpath_during_the_full_dress_rehearsal_for_the_Republic_Day_Parade_in_New_Delhi_on_January_23%2C2006.jpg/1280px-The_Brahmos_Missile_system_passes_through_the_Rajpath_during_the_full_dress_rehearsal_for_the_Republic_Day_Parade_in_New_Delhi_on_January_23%2C2006.jpg</image:loc>
+            <image:title>The Electromagnetic Blind Spot: Domestic EW Testing and Civilian Risk</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 06 Nov 2026 17:29:17 +0000</news:publication_date>
+            <news:title>The Electromagnetic Blind Spot: Domestic EW Testing and Civilian Risk</news:title>
+            
+            <news:keywords>Electronic Warfare, GPS Jamming, Aviation Safety, White Sands Missile Range, Defense Modernization</news:keywords>
             
         </news:news>
     </url>
@@ -7461,7 +7509,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-11-08</lastmod>
+        <lastmod>2026-11-09</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
