@@ -22,5 +22,77 @@
     <!-- Self-referencing atom:link is required by RSS validators -->
     <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Autonomous Swarms and Industrial Scalability: The Next Frontier of UAS Warfare</title>
+      <link>https://neodymium.world/articles/autonomous-swarms-and-industrial-scalability-the-next-frontier-of-uas-warfare-266303.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/autonomous-swarms-and-industrial-scalability-the-next-frontier-of-uas-warfare-266303.html</guid>
+      <pubDate>Mon, 09 Nov 2026 14:05:00 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        As Western defense forces pivot toward attritable mass and edge autonomy, the battle for air superiority shifts from multi-billion dollar fighters to resilient UAS swarms and industrial supply chain integrity.
+        
+        [SPLIT]
+        ⚡ Electronic warfare resiliency requires optical-flow navigation, AI target recognition, and decentralized mesh communication to operate in GPS-denied environments.
+        [SPLIT]
+        ⚡ Defense supply chain integrity faces escalating threats from gray-market components, counterfeit electronics, and fraudulent sub-tier contractors.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/autonomous-swarms-and-industrial-scalability-the-next-frontier-of-uas-warfare-266303.html
+      ]]></description>
+      
+      <category>UAS Innovation</category>
+      
+      <category>Defense Industrial Base</category>
+      
+      <category>Autonomous Swarms</category>
+      
+      <category>Electronic Warfare</category>
+      
+      <category>Supply Chain Security</category>
+      
+      
+      <enclosure url="https://one.sightlinemg.com/wp-content/uploads/2026/11/DNW-845-FULL-SHOW-THUMB.png" length="0" type="image/jpeg" />
+      <media:content url="https://one.sightlinemg.com/wp-content/uploads/2026/11/DNW-845-FULL-SHOW-THUMB.png" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://one.sightlinemg.com/wp-content/uploads/2026/11/DNW-845-FULL-SHOW-THUMB.png" />
+      
+    </item>
+    
+    <item>
+      <title>Sig Sauer and the Micro-Drone Revolution on the Frontline</title>
+      <link>https://neodymium.world/articles/sig-sauer-and-the-micro-drone-revolution-on-the-frontline-266319.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/sig-sauer-and-the-micro-drone-revolution-on-the-frontline-266319.html</guid>
+      <pubDate>Mon, 09 Nov 2026 14:04:00 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Sig Sauer is mounting pistols to micro-drones. We analyze how this radical counter-UAS shift redefines frontline combat and defense supply chains.
+        
+        [SPLIT]
+        ⚡ Small-unit commanders require immediate, organic kinetic solutions to neutralize hostile reconnaissance and attack drones below traditional air defense thresholds.
+        [SPLIT]
+        ⚡ The convergence of infantry weaponry and autonomous flight mechanics forces a rapid reevaluation of military procurement and tactical doctrine.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/sig-sauer-and-the-micro-drone-revolution-on-the-frontline-266319.html
+      ]]></description>
+      
+      <category>Sig Sauer</category>
+      
+      <category>Counter-UAS</category>
+      
+      <category>Micro-Drones</category>
+      
+      <category>Defense Modernization</category>
+      
+      <category>Small-Unit Tactics</category>
+      
+      
+      <enclosure url="https://one.sightlinemg.com/wp-content/uploads/2026/11/DNW-845-A-BLOCK-THUMB.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://one.sightlinemg.com/wp-content/uploads/2026/11/DNW-845-A-BLOCK-THUMB.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://one.sightlinemg.com/wp-content/uploads/2026/11/DNW-845-A-BLOCK-THUMB.jpg" />
+      
+    </item>
+    
   </channel>
 </rss>

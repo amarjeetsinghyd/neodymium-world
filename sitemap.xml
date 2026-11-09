@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/autonomous-swarms-and-industrial-scalability-the-next-frontier-of-uas-warfare-266303.html</loc>
+        <lastmod>Mon, 09 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://one.sightlinemg.com/wp-content/uploads/2026/11/DNW-845-FULL-SHOW-THUMB.png</image:loc>
+            <image:title>Autonomous Swarms and Industrial Scalability: The Next Frontier of UAS Warfare</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 09 Nov 2026 14:05:00 +0000</news:publication_date>
+            <news:title>Autonomous Swarms and Industrial Scalability: The Next Frontier of UAS Warfare</news:title>
+            
+            <news:keywords>UAS Innovation, Defense Industrial Base, Autonomous Swarms, Electronic Warfare, Supply Chain Security</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/sig-sauer-and-the-micro-drone-revolution-on-the-frontline-266319.html</loc>
+        <lastmod>Mon, 09 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://one.sightlinemg.com/wp-content/uploads/2026/11/DNW-845-A-BLOCK-THUMB.jpg</image:loc>
+            <image:title>Sig Sauer and the Micro-Drone Revolution on the Frontline</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 09 Nov 2026 14:04:00 +0000</news:publication_date>
+            <news:title>Sig Sauer and the Micro-Drone Revolution on the Frontline</news:title>
+            
+            <news:keywords>Sig Sauer, Counter-UAS, Micro-Drones, Defense Modernization, Small-Unit Tactics</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/testing-nyt-cooking-s-ai-weeknight-saviors-and-baking-traps-076195.html</loc>
         <lastmod>2026-11-07</lastmod>
         <changefreq>never</changefreq>

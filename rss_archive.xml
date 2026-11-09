@@ -23,6 +23,78 @@
     <atom:link href="https://neodymium.world/rss_archive.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Autonomous Swarms and Industrial Scalability: The Next Frontier of UAS Warfare</title>
+      <link>https://neodymium.world/articles/autonomous-swarms-and-industrial-scalability-the-next-frontier-of-uas-warfare-266303.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/autonomous-swarms-and-industrial-scalability-the-next-frontier-of-uas-warfare-266303.html</guid>
+      <pubDate>Mon, 09 Nov 2026 14:05:00 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        As Western defense forces pivot toward attritable mass and edge autonomy, the battle for air superiority shifts from multi-billion dollar fighters to resilient UAS swarms and industrial supply chain integrity.
+        
+        [SPLIT]
+        ⚡ Electronic warfare resiliency requires optical-flow navigation, AI target recognition, and decentralized mesh communication to operate in GPS-denied environments.
+        [SPLIT]
+        ⚡ Defense supply chain integrity faces escalating threats from gray-market components, counterfeit electronics, and fraudulent sub-tier contractors.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/autonomous-swarms-and-industrial-scalability-the-next-frontier-of-uas-warfare-266303.html
+      ]]></description>
+      
+      <category>UAS Innovation</category>
+      
+      <category>Defense Industrial Base</category>
+      
+      <category>Autonomous Swarms</category>
+      
+      <category>Electronic Warfare</category>
+      
+      <category>Supply Chain Security</category>
+      
+      
+      <enclosure url="https://one.sightlinemg.com/wp-content/uploads/2026/11/DNW-845-FULL-SHOW-THUMB.png" length="0" type="image/jpeg" />
+      <media:content url="https://one.sightlinemg.com/wp-content/uploads/2026/11/DNW-845-FULL-SHOW-THUMB.png" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://one.sightlinemg.com/wp-content/uploads/2026/11/DNW-845-FULL-SHOW-THUMB.png" />
+      
+    </item>
+    
+    <item>
+      <title>Sig Sauer and the Micro-Drone Revolution on the Frontline</title>
+      <link>https://neodymium.world/articles/sig-sauer-and-the-micro-drone-revolution-on-the-frontline-266319.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/sig-sauer-and-the-micro-drone-revolution-on-the-frontline-266319.html</guid>
+      <pubDate>Mon, 09 Nov 2026 14:04:00 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Sig Sauer is mounting pistols to micro-drones. We analyze how this radical counter-UAS shift redefines frontline combat and defense supply chains.
+        
+        [SPLIT]
+        ⚡ Small-unit commanders require immediate, organic kinetic solutions to neutralize hostile reconnaissance and attack drones below traditional air defense thresholds.
+        [SPLIT]
+        ⚡ The convergence of infantry weaponry and autonomous flight mechanics forces a rapid reevaluation of military procurement and tactical doctrine.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/sig-sauer-and-the-micro-drone-revolution-on-the-frontline-266319.html
+      ]]></description>
+      
+      <category>Sig Sauer</category>
+      
+      <category>Counter-UAS</category>
+      
+      <category>Micro-Drones</category>
+      
+      <category>Defense Modernization</category>
+      
+      <category>Small-Unit Tactics</category>
+      
+      
+      <enclosure url="https://one.sightlinemg.com/wp-content/uploads/2026/11/DNW-845-A-BLOCK-THUMB.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://one.sightlinemg.com/wp-content/uploads/2026/11/DNW-845-A-BLOCK-THUMB.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://one.sightlinemg.com/wp-content/uploads/2026/11/DNW-845-A-BLOCK-THUMB.jpg" />
+      
+    </item>
+    
+    <item>
       <title>Testing NYT Cooking’s AI: Weeknight Saviors and Baking Traps</title>
       <link>https://neodymium.world/articles/testing-nyt-cooking-s-ai-weeknight-saviors-and-baking-traps-076195.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/testing-nyt-cooking-s-ai-weeknight-saviors-and-baking-traps-076195.html</guid>
@@ -873,80 +945,6 @@
       <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-500x500.jpeg" length="0" type="image/jpeg" />
       <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-500x500.jpeg" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-500x500.jpeg" />
-      
-    </item>
-    
-    <item>
-      <title>ESI Drives Lockheed&#39;s SDA Missiles Array</title>
-      <link>https://neodymium.world/articles/esi-drives-lockheed-s-sda-missiles-array-558795.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/esi-drives-lockheed-s-sda-missiles-array-558795.html</guid>
-      <pubDate>Fri, 30 Oct 2026 18:54:34 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Lockheed Martin taps ESI Motion to supply critical Solar Array Drive Electronics for the Space Development Agency&#39;s expanding orbital missile defense network.
-        
-        [SPLIT]
-        ⚡ The deployment relies on flight-proven SuperNova and Pulsar motor controllers to guarantee precise power management in hostile orbital environments.
-        [SPLIT]
-        ⚡ The hardware directly supports the Proliferated Warfighter Space Architecture (PWSA), enhancing secure communications and global missile tracking.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/esi-drives-lockheed-s-sda-missiles-array-558795.html
-      ]]></description>
-      
-      <category>ESI Motion</category>
-      
-      <category>Lockheed Martin</category>
-      
-      <category>Space Development Agency</category>
-      
-      <category>PWSA</category>
-      
-      <category>Solar Array Drive Electronics</category>
-      
-      <category>Missile Defense</category>
-      
-      
-      <enclosure url="https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/ESI-Motion-Square-Logo-Blue-PNG.png?fit=969%2C1024&amp;ssl=1" length="0" type="image/jpeg" />
-      <media:content url="https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/ESI-Motion-Square-Logo-Blue-PNG.png?fit=969%2C1024&amp;ssl=1" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/ESI-Motion-Square-Logo-Blue-PNG.png?fit=969%2C1024&amp;ssl=1" />
-      
-    </item>
-    
-    <item>
-      <title>Apple Brings AI to China: The iOS 27.3 Geopolitical Calculus</title>
-      <link>https://neodymium.world/articles/apple-brings-ai-to-china-the-ios-27-3-geopolitical-calculus-531147.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/apple-brings-ai-to-china-the-ios-27-3-geopolitical-calculus-531147.html</guid>
-      <pubDate>2026-10-30T18:32:53-04:00</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Apple is officially deploying Apple Intelligence to the Chinese market in the upcoming iOS 27.3 beta, featuring a critical integration with Alibaba&#39;s Qwen LLM. Here is what this means for Big Tech compliance and AI dominance.
-        
-        [SPLIT]
-        ⚡ The initial rollout omits the advanced Siri AI upgrade, focusing instead on utility features like notification summaries, writing tools, and visual intelligence.
-        [SPLIT]
-        ⚡ Apple has partnered with Alibaba to integrate the Qwen chatbot, mirroring its Western integration strategy with OpenAI.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/apple-brings-ai-to-china-the-ios-27-3-geopolitical-calculus-531147.html
-      ]]></description>
-      
-      <category>Apple Intelligence</category>
-      
-      <category>China AI Regulation</category>
-      
-      <category>Alibaba Qwen</category>
-      
-      <category>iOS 27.3</category>
-      
-      <category>Tech Geopolitics</category>
-      
-      
-      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25699392/DSC08596_processed.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
-      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25699392/DSC08596_processed.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25699392/DSC08596_processed.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
       
     </item>
     
