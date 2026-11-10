@@ -7772,6 +7772,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/openai-academy-brings-ai-literacy-to-u-s-caregivers-343386.html</loc>
+        <lastmod>Tue, 10 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>OpenAI Academy Brings AI Literacy to U.S. Caregivers</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 10 Nov 2026 12:00:00 GMT</news:publication_date>
+            <news:title>OpenAI Academy Brings AI Literacy to U.S. Caregivers</news:title>
+            
+            <news:keywords>OpenAI Academy, ChatGPT Workshops, Caregiver AI Training, Artificial Intelligence Literacy, U.S. Technology Adoption</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/openai-s-cyber-gambit-ai-bolsters-ukraine-s-digital-frontline-against-russia-592086.html</loc>
         <lastmod>Wed, 23 Se</lastmod>
         <changefreq>never</changefreq>
@@ -7791,6 +7815,30 @@
             <news:title>OpenAI&#39;s Cyber Gambit: AI Bolsters Ukraine&#39;s Digital Frontline Against Russia</news:title>
             
             <news:keywords>Cyber Defense, Ukraine War, OpenAI Daybreak, Critical Infrastructure, AI in Warfare, Hybrid Warfare</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/openai-unveils-business-tools-in-chatgpt-for-strategic-insights-343400.html</loc>
+        <lastmod>Tue, 10 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>OpenAI Unveils Business Tools in ChatGPT for Strategic Insights</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 10 Nov 2026 10:00:00 GMT</news:publication_date>
+            <news:title>OpenAI Unveils Business Tools in ChatGPT for Strategic Insights</news:title>
+            
+            <news:keywords>ChatGPT Business, OpenAI Enterprise, AI Business Insights, Customer Engagement, AI Market Intelligence</news:keywords>
             
         </news:news>
     </url>
