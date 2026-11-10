@@ -23,6 +23,80 @@
     <atom:link href="https://neodymium.world/rss_archive.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>The Silicon Shift: Hollywood Stakes Its Future on Generative AI</title>
+      <link>https://neodymium.world/articles/the-silicon-shift-hollywood-stakes-its-future-on-generative-ai-312889.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/the-silicon-shift-hollywood-stakes-its-future-on-generative-ai-312889.html</guid>
+      <pubDate>2026-11-09T19:28:49-05:00</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Can generative AI rescue Hollywood&#39;s runaway production budgets? Paramount Skydance CEO David Ellison believes silicon-driven workflows are the industry&#39;s biggest creative unlock since CGI.
+        
+        [SPLIT]
+        ⚡ Paramount Skydance is actively developing proprietary AI tooling designed to compress production timelines and reduce skyrocketing project budgets.
+        [SPLIT]
+        ⚡ Runaway inflation in filmmaking—such as scaling a $4 million classic like Terminator into a modern $70 million endeavor—is a primary operational target for automation.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/the-silicon-shift-hollywood-stakes-its-future-on-generative-ai-312889.html
+      ]]></description>
+      
+      <category>Paramount Skydance</category>
+      
+      <category>David Ellison</category>
+      
+      <category>Generative AI</category>
+      
+      <category>Hollywood Tech</category>
+      
+      <category>CGI Evolution</category>
+      
+      
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2274329497.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
+      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2274329497.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2274329497.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
+      
+    </item>
+    
+    <item>
+      <title>Compromised Compute: Nvidia Probe Exposes US AI Hardware Vulnerabilities</title>
+      <link>https://neodymium.world/articles/compromised-compute-nvidia-probe-exposes-us-ai-hardware-vulnerabilities-312946.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/compromised-compute-nvidia-probe-exposes-us-ai-hardware-vulnerabilities-312946.html</guid>
+      <pubDate>2026-11-09T18:47:46-05:00</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        A federal counterintelligence investigation into Nvidia CEO Jensen Huang exposes a strategic vulnerability: how foreign intelligence targeting of private tech monopolies threatens Western military AI dominance.
+        
+        [SPLIT]
+        ⚡ Nvidia&#39;s Blackwell compute architecture directly underpins Western defense AI initiatives, elevating CEO security to a national security imperative.
+        [SPLIT]
+        ⚡ Information latency between intelligence agencies and executive leadership exacerbates supply chain counterespionage risks.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/compromised-compute-nvidia-probe-exposes-us-ai-hardware-vulnerabilities-312946.html
+      ]]></description>
+      
+      <category>Nvidia</category>
+      
+      <category>Jensen Huang</category>
+      
+      <category>Counterintelligence</category>
+      
+      <category>Blackwell Architecture</category>
+      
+      <category>US China Tech War</category>
+      
+      <category>AI Hardware Security</category>
+      
+      
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297774940.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
+      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297774940.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297774940.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
+      
+    </item>
+    
+    <item>
       <title>Autonomous Swarms and Industrial Scalability: The Next Frontier of UAS Warfare</title>
       <link>https://neodymium.world/articles/autonomous-swarms-and-industrial-scalability-the-next-frontier-of-uas-warfare-266303.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/autonomous-swarms-and-industrial-scalability-the-next-frontier-of-uas-warfare-266303.html</guid>
@@ -871,80 +945,6 @@
       <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/verge-sean-hollister-muse-gadget-331A2564-01-3.jpg?quality=90&amp;strip=all&amp;crop=4,0,96,94.899920311255" length="0" type="image/jpeg" />
       <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/verge-sean-hollister-muse-gadget-331A2564-01-3.jpg?quality=90&amp;strip=all&amp;crop=4,0,96,94.899920311255" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/verge-sean-hollister-muse-gadget-331A2564-01-3.jpg?quality=90&amp;strip=all&amp;crop=4,0,96,94.899920311255" />
-      
-    </item>
-    
-    <item>
-      <title>Across the Line: Inside NATO&#39;s AI-Driven Armor Vanguard</title>
-      <link>https://neodymium.world/articles/across-the-line-inside-nato-s-ai-driven-armor-vanguard-621171.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/across-the-line-inside-nato-s-ai-driven-armor-vanguard-621171.html</guid>
-      <pubDate>Sat, 31 Oct 2026 06:00:00 -0400</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Inside NATO&#39;s first high-tech armored push across the border: How hybrid-electric M1A3 Abrams, AR goggles, and robotic combat vehicles are rewriting modern land warfare.
-        
-        [SPLIT]
-        ⚡ Adversary gray-zone tactics, including AI-driven deepfakes and false-flag operations, now establish rapid local anti-access and area-denial (A2/AD) bubbles inside NATO&#39;s perimeter.
-        [SPLIT]
-        ⚡ Battalion formations increasingly integrate human-machine teams, combining manned command vehicles with Robotic Combat Vehicles (RCVs) and specialized electronic warfare units.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/across-the-line-inside-nato-s-ai-driven-armor-vanguard-621171.html
-      ]]></description>
-      
-      <category>NATO Modernization</category>
-      
-      <category>M1A3 Abrams</category>
-      
-      <category>Robotic Combat Vehicles</category>
-      
-      <category>Article V Operations</category>
-      
-      <category>Anti-Access Area Denial</category>
-      
-      <category>Ground Warfare</category>
-      
-      
-      <enclosure url="https://cdn.defenseone.com/media/img/cd/2026/10/30/NATO_LITHU_FINAL_HI_RES_2_UF_red_copy/thumb.jpg" length="0" type="image/jpeg" />
-      <media:content url="https://cdn.defenseone.com/media/img/cd/2026/10/30/NATO_LITHU_FINAL_HI_RES_2_UF_red_copy/thumb.jpg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://cdn.defenseone.com/media/img/cd/2026/10/30/NATO_LITHU_FINAL_HI_RES_2_UF_red_copy/thumb.jpg" />
-      
-    </item>
-    
-    <item>
-      <title>Anthropic Extension Backdoor Exposes Thousands of Developer Machines</title>
-      <link>https://neodymium.world/articles/anthropic-extension-backdoor-exposes-thousands-of-developer-machines-737583.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/anthropic-extension-backdoor-exposes-thousands-of-developer-machines-737583.html</guid>
-      <pubDate>Fri, 30 Oct 2026 21:09:54 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        A compromised Anthropic extension on Cursor left up to 5,000 developer machines vulnerable to persistent backdoors for nearly 12 hours. Here is the breakdown of the supply chain failure.
-        
-        [SPLIT]
-        ⚡ The payload attempted to establish a persistent SSH backdoor and opened a reverse tunnel across Windows, macOS, and Linux.
-        [SPLIT]
-        ⚡ Auto-update configurations in modern IDEs dramatically accelerate the blast radius of compromised software distribution channels.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/anthropic-extension-backdoor-exposes-thousands-of-developer-machines-737583.html
-      ]]></description>
-      
-      <category>Anthropic</category>
-      
-      <category>Cursor</category>
-      
-      <category>Supply Chain Attack</category>
-      
-      <category>VS Code Extension</category>
-      
-      <category>Cybersecurity</category>
-      
-      
-      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-500x500.jpeg" length="0" type="image/jpeg" />
-      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-500x500.jpeg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-500x500.jpeg" />
       
     </item>
     
