@@ -23,6 +23,42 @@
     <atom:link href="https://neodymium.world/rss_archive.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Physical AI at Scale: How Gemini Robotics 2.5 Signals a Breakthrough in Autonomous Dexterity</title>
+      <link>https://neodymium.world/articles/physical-ai-at-scale-how-gemini-robotics-2-5-signals-a-breakthrough-in-autonomou-397418.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/physical-ai-at-scale-how-gemini-robotics-2-5-signals-a-breakthrough-in-autonomou-397418.html</guid>
+      <pubDate>Mon, 09 Nov 2026 19:51:47 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        The release of Gemini Robotics 2.5 marks a strategic pivot for physical AI. High-precision Vision-Language-Action models are moving from lab-bound demos to real-world operational environments, redefining defense logistics and dual-use manufacturing.
+        
+        [SPLIT]
+        ⚡ Enhanced fine-motor control and zero-shot spatial adaptation unlock critical dual-use applications, including field maintenance and ordnance handling.
+        [SPLIT]
+        ⚡ Integrated safety constraints and real-time feedback loops address long-standing reliability barriers in human-machine collaborative environments.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/physical-ai-at-scale-how-gemini-robotics-2-5-signals-a-breakthrough-in-autonomou-397418.html
+      ]]></description>
+      
+      <category>Physical AI</category>
+      
+      <category>Vision-Language-Action Models</category>
+      
+      <category>Autonomous Logistics</category>
+      
+      <category>Dual-Use Technology</category>
+      
+      <category>Robotic Dexterity</category>
+      
+      
+      <enclosure url="https://lh3.googleusercontent.com/F1CrVEYRb8lJOyyxGgcyow-Td1de-nkp7K8MZrhjrKPANJUc0EYB754Ninn-Yrppjdb54nolOWo6Rk8iDaRNuixWwLaEKc0K9ImGooxen9fj9IOh=w528-h297-n-nu-rw-lo" length="0" type="image/jpeg" />
+      <media:content url="https://lh3.googleusercontent.com/F1CrVEYRb8lJOyyxGgcyow-Td1de-nkp7K8MZrhjrKPANJUc0EYB754Ninn-Yrppjdb54nolOWo6Rk8iDaRNuixWwLaEKc0K9ImGooxen9fj9IOh=w528-h297-n-nu-rw-lo" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://lh3.googleusercontent.com/F1CrVEYRb8lJOyyxGgcyow-Td1de-nkp7K8MZrhjrKPANJUc0EYB754Ninn-Yrppjdb54nolOWo6Rk8iDaRNuixWwLaEKc0K9ImGooxen9fj9IOh=w528-h297-n-nu-rw-lo" />
+      
+    </item>
+    
+    <item>
       <title>The Silicon Shift: Hollywood Stakes Its Future on Generative AI</title>
       <link>https://neodymium.world/articles/the-silicon-shift-hollywood-stakes-its-future-on-generative-ai-312889.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/the-silicon-shift-hollywood-stakes-its-future-on-generative-ai-312889.html</guid>
@@ -499,6 +535,42 @@
     </item>
     
     <item>
+      <title>Google Deploys Gemini Omni 1.2 Flash for Scalable Video Defense</title>
+      <link>https://neodymium.world/articles/google-deploys-gemini-omni-1-2-flash-for-scalable-video-defense-397435.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/google-deploys-gemini-omni-1-2-flash-for-scalable-video-defense-397435.html</guid>
+      <pubDate>Thu, 05 Nov 2026 17:05:16 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Google DeepMind has dropped Gemini Omni 1.2 Flash with 15-second native generation, 30% lower inference costs, and multi-turn conversational editing across enterprise pipelines.
+        
+        [SPLIT]
+        ⚡ Inference pricing drops 30% to $0.07 per second for 720p video production through the Gemini API and Google Cloud pipelines.
+        [SPLIT]
+        ⚡ Multi-turn conversational editing allows precise modifications—such as background swaps or lighting changes—without regenerating entire sequences.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/google-deploys-gemini-omni-1-2-flash-for-scalable-video-defense-397435.html
+      ]]></description>
+      
+      <category>Gemini Omni 1.2 Flash</category>
+      
+      <category>Google DeepMind</category>
+      
+      <category>Generative AI</category>
+      
+      <category>Video Synthesis</category>
+      
+      <category>Enterprise AI</category>
+      
+      
+      <enclosure url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" length="0" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
+      
+    </item>
+    
+    <item>
       <title>Electromagnetic Launch: Re-engineering Responsive Space and Missile Defense</title>
       <link>https://neodymium.world/articles/electromagnetic-launch-re-engineering-responsive-space-and-missile-defense-996235.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/electromagnetic-launch-re-engineering-responsive-space-and-missile-defense-996235.html</guid>
@@ -873,78 +945,6 @@
       <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRNkbgLOsomECUfFINMLf9ATbE3JuXRdus_2QnRn1mKdcyLlbVnwj6OnMY1eMq6P4yL_K3hEBBNIkrFKY86ApPj0oXr-xGIrZLS-R2KZr74Z6HU9HoMnvOINtbsVyH0AUTcTUsGpxNeYVuOd_Sg8dMrvh55IuHY0VK3EouP5eanf79AoCCW0T2rXU-Tr4/s72-c/Navy_Missile_Catamaran_Concept.jpg" length="0" type="image/jpeg" />
       <media:content url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRNkbgLOsomECUfFINMLf9ATbE3JuXRdus_2QnRn1mKdcyLlbVnwj6OnMY1eMq6P4yL_K3hEBBNIkrFKY86ApPj0oXr-xGIrZLS-R2KZr74Z6HU9HoMnvOINtbsVyH0AUTcTUsGpxNeYVuOd_Sg8dMrvh55IuHY0VK3EouP5eanf79AoCCW0T2rXU-Tr4/s72-c/Navy_Missile_Catamaran_Concept.jpg" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRNkbgLOsomECUfFINMLf9ATbE3JuXRdus_2QnRn1mKdcyLlbVnwj6OnMY1eMq6P4yL_K3hEBBNIkrFKY86ApPj0oXr-xGIrZLS-R2KZr74Z6HU9HoMnvOINtbsVyH0AUTcTUsGpxNeYVuOd_Sg8dMrvh55IuHY0VK3EouP5eanf79AoCCW0T2rXU-Tr4/s72-c/Navy_Missile_Catamaran_Concept.jpg" />
-      
-    </item>
-    
-    <item>
-      <title>IAF Nears $1B Multi-Mission Tanker Deal to Close Strategic Air-Refueling Gap</title>
-      <link>https://neodymium.world/articles/iaf-nears-1b-multi-mission-tanker-deal-to-close-strategic-air-refueling-gap-470696.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/iaf-nears-1b-multi-mission-tanker-deal-to-close-strategic-air-refueling-gap-470696.html</guid>
-      <pubDate>Sat, 31 Oct 2026 15:29:00 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        India&#39;s air power projection is getting a much-needed upgrade. The IAF is closing in on a ₹9,000 crore contract for six MMTT aircraft to bridge critical refueler gaps by 2030.
-        
-        [SPLIT]
-        ⚡ Deliveries are tightly scheduled between 2028 and 2030 to mitigate aging fleet issues plaguing the current Ilyushin IL-78s.
-        [SPLIT]
-        ⚡ The MMTTs will vastly expand the operational radius of frontline fighters like the Su-30MKI and Rafale.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/iaf-nears-1b-multi-mission-tanker-deal-to-close-strategic-air-refueling-gap-470696.html
-      ]]></description>
-      
-      <category>IAF Tanker Contract</category>
-      
-      <category>Multi-Mission Tanker Transport</category>
-      
-      <category>IL-78 MKI Replacement</category>
-      
-      <category>Atmanirbhar Bharat</category>
-      
-      <category>Indian Air Force</category>
-      
-      
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigFek-_m0aV5VUNfmg8SSBcjYcOmK-CTbslE6LPMh5BkSTXXM_IYTKuuymFpOWo7Z3nNj_p5sGU4ZyMQA03Vt6nh3eaUu4-F4dgd0ubUN_dhyphenhyphenbXIvSB1brXTD5tVXi6LkVvwTcfvag2-o9KIJJDvov5G7i1FdQeSB7fhe7xDCHeanbWblG8qjnV18n-Mg/s72-c/Russian_Il-78MKI_Refueler_Tanker_Aircraft.jpg" length="0" type="image/jpeg" />
-      <media:content url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigFek-_m0aV5VUNfmg8SSBcjYcOmK-CTbslE6LPMh5BkSTXXM_IYTKuuymFpOWo7Z3nNj_p5sGU4ZyMQA03Vt6nh3eaUu4-F4dgd0ubUN_dhyphenhyphenbXIvSB1brXTD5tVXi6LkVvwTcfvag2-o9KIJJDvov5G7i1FdQeSB7fhe7xDCHeanbWblG8qjnV18n-Mg/s72-c/Russian_Il-78MKI_Refueler_Tanker_Aircraft.jpg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigFek-_m0aV5VUNfmg8SSBcjYcOmK-CTbslE6LPMh5BkSTXXM_IYTKuuymFpOWo7Z3nNj_p5sGU4ZyMQA03Vt6nh3eaUu4-F4dgd0ubUN_dhyphenhyphenbXIvSB1brXTD5tVXi6LkVvwTcfvag2-o9KIJJDvov5G7i1FdQeSB7fhe7xDCHeanbWblG8qjnV18n-Mg/s72-c/Russian_Il-78MKI_Refueler_Tanker_Aircraft.jpg" />
-      
-    </item>
-    
-    <item>
-      <title>Building the AI Tamagotchi: How Off-the-Shelf Hardware Beats Big Tech</title>
-      <link>https://neodymium.world/articles/building-the-ai-tamagotchi-how-off-the-shelf-hardware-beats-big-tech-531127.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/building-the-ai-tamagotchi-how-off-the-shelf-hardware-beats-big-tech-531127.html</guid>
-      <pubDate>2026-10-31T12:05:00-04:00</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Meta wants to sell you an AI Tamagotchi this holiday season. But for $50 and some vibe coding, you can build a better, fully customized version yourself.
-        
-        [SPLIT]
-        ⚡ Using LLM-driven coding tools allows non-programmers to rapidly implement complex features like local voice synthesis and custom avatars.
-        [SPLIT]
-        ⚡ Corporate AI devices frequently launch with software limitations that require extensive manual patching or third-party workarounds.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/building-the-ai-tamagotchi-how-off-the-shelf-hardware-beats-big-tech-531127.html
-      ]]></description>
-      
-      <category>AI Hardware</category>
-      
-      <category>Meta Muse Charm</category>
-      
-      <category>ESP32-S3</category>
-      
-      <category>Edge Computing</category>
-      
-      <category>DIY Tech</category>
-      
-      
-      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/verge-sean-hollister-muse-gadget-331A2564-01-3.jpg?quality=90&amp;strip=all&amp;crop=4,0,96,94.899920311255" length="0" type="image/jpeg" />
-      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/verge-sean-hollister-muse-gadget-331A2564-01-3.jpg?quality=90&amp;strip=all&amp;crop=4,0,96,94.899920311255" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/verge-sean-hollister-muse-gadget-331A2564-01-3.jpg?quality=90&amp;strip=all&amp;crop=4,0,96,94.899920311255" />
       
     </item>
     
