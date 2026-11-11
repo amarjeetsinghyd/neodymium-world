@@ -22,5 +22,43 @@
     <!-- Self-referencing atom:link is required by RSS validators -->
     <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>AlphaGenome 2 Bridges Single-Cell Biology and Human Genetics</title>
+      <link>https://neodymium.world/articles/alphagenome-2-bridges-single-cell-biology-and-human-genetics-431152.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/alphagenome-2-bridges-single-cell-biology-and-human-genetics-431152.html</guid>
+      <pubDate>Wed, 11 Nov 2026 15:00:15 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        AlphaGenome 2 is here. By training on over 100 million single-cell profiles, this next-gen AI model predicts how DNA variants impact specific human cell types and disease states like never before.
+        
+        [SPLIT]
+        ⚡ The model was trained on more than 107 million individual cell profiles across 68 tissues, integrating bulk and single-cell data.
+        [SPLIT]
+        ⚡ It identifies nearly twice as many variants that alter gene expression in specialized cells compared to previous iterations.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/alphagenome-2-bridges-single-cell-biology-and-human-genetics-431152.html
+      ]]></description>
+      
+      <category>AlphaGenome 2</category>
+      
+      <category>Genomics AI</category>
+      
+      <category>Single-Cell Biology</category>
+      
+      <category>Human Genetics</category>
+      
+      <category>Gene Expression</category>
+      
+      <category>Drug Discovery</category>
+      
+      
+      <enclosure url="https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo" length="0" type="image/jpeg" />
+      <media:content url="https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo" />
+      
+    </item>
+    
   </channel>
 </rss>

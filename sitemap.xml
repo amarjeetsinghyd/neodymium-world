@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/alphagenome-2-bridges-single-cell-biology-and-human-genetics-431152.html</loc>
+        <lastmod>Wed, 11 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo</image:loc>
+            <image:title>AlphaGenome 2 Bridges Single-Cell Biology and Human Genetics</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 11 Nov 2026 15:00:15 +0000</news:publication_date>
+            <news:title>AlphaGenome 2 Bridges Single-Cell Biology and Human Genetics</news:title>
+            
+            <news:keywords>AlphaGenome 2, Genomics AI, Single-Cell Biology, Human Genetics, Gene Expression, Drug Discovery</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/physical-ai-at-scale-how-gemini-robotics-2-5-signals-a-breakthrough-in-autonomou-397418.html</loc>
         <lastmod>Mon, 09 No</lastmod>
         <changefreq>never</changefreq>
@@ -519,6 +543,30 @@
             <news:title>Thales Secures US Navy Deal to Automate Mine Countermeasures</news:title>
             
             <news:keywords>Thales, US Navy, Mine Countermeasures, SAMDIS 600, HII REMUS 620, Advanced Acoustic Concepts</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/google-antigravity-rewrites-the-calculus-of-agentic-cheminformatics-431167.html</loc>
+        <lastmod>Tue, 03 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://lh3.googleusercontent.com/UFTBrp1IrRBrc6_f4ibNgtV35iY8F2iTYaqOb1lzR-qZNy-Mb5726xrLKTozohfdZ_3quHe50uyn8z-Wh_Eril_8CVh7py7gH0188sl_EXkoJknlqg=w528-h297-n-nu-rw-lo</image:loc>
+            <image:title>Google Antigravity Rewrites the Calculus of Agentic Cheminformatics</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 03 Nov 2026 17:01:49 +0000</news:publication_date>
+            <news:title>Google Antigravity Rewrites the Calculus of Agentic Cheminformatics</news:title>
+            
+            <news:keywords>Google Antigravity, Cheminformatics, Drug Discovery, Macrocycles, Autonomous Agents</news:keywords>
             
         </news:news>
     </url>
