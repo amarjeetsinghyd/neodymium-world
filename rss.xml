@@ -23,40 +23,74 @@
     <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>AlphaGenome 2 Bridges Single-Cell Biology and Human Genetics</title>
-      <link>https://neodymium.world/articles/alphagenome-2-bridges-single-cell-biology-and-human-genetics-431152.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/alphagenome-2-bridges-single-cell-biology-and-human-genetics-431152.html</guid>
-      <pubDate>Wed, 11 Nov 2026 15:00:15 +0000</pubDate>
+      <title>Nvidia Board Weighs Ouster of CEO Jensen Huang Amid Crisis</title>
+      <link>https://neodymium.world/articles/nvidia-board-weighs-ouster-of-ceo-jensen-huang-amid-crisis-485844.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/nvidia-board-weighs-ouster-of-ceo-jensen-huang-amid-crisis-485844.html</guid>
+      <pubDate>2026-11-11T17:44:36-05:00</pubDate>
       <dc:creator>Amarjeet Singh</dc:creator>
       <!-- Description: executive summary or first key takeaway only (no full HTML body).
            This keeps the RSS file small and avoids duplicate-content issues with Google. -->
       <description><![CDATA[
-        AlphaGenome 2 is here. By training on over 100 million single-cell profiles, this next-gen AI model predicts how DNA variants impact specific human cell types and disease states like never before.
+        Tech industry seismic shift: Nvidia&#39;s board is reportedly moving to dismiss CEO Jensen Huang following cascading revelations of workplace affairs and security concerns. Read the full strategic breakdown.
         
         [SPLIT]
-        ⚡ The model was trained on more than 107 million individual cell profiles across 68 tissues, integrating bulk and single-cell data.
+        ⚡ The latest report highlights an alleged relationship with Kimberly Powell, Vice President of Health Care and a direct report.
         [SPLIT]
-        ⚡ It identifies nearly twice as many variants that alter gene expression in specialized cells compared to previous iterations.
+        ⚡ Nvidia stock tumbled over 7 percent in after-hours trading as markets reacted to impending governance instability.
         [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/alphagenome-2-bridges-single-cell-biology-and-human-genetics-431152.html
+        🔗 Read full report → https://neodymium.world/articles/nvidia-board-weighs-ouster-of-ceo-jensen-huang-amid-crisis-485844.html
       ]]></description>
       
-      <category>AlphaGenome 2</category>
+      <category>Nvidia</category>
       
-      <category>Genomics AI</category>
+      <category>Jensen Huang</category>
       
-      <category>Single-Cell Biology</category>
+      <category>Corporate Governance</category>
       
-      <category>Human Genetics</category>
+      <category>Semiconductor Supply Chain</category>
       
-      <category>Gene Expression</category>
-      
-      <category>Drug Discovery</category>
+      <category>Tech Leadership</category>
       
       
-      <enclosure url="https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo" length="0" type="image/jpeg" />
-      <media:content url="https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo" />
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25824934/2192224191.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
+      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25824934/2192224191.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25824934/2192224191.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
+      
+    </item>
+    
+    <item>
+      <title>The Great Gatekeeping: Why United Grounded Autonomous AI Agents</title>
+      <link>https://neodymium.world/articles/the-great-gatekeeping-why-united-grounded-autonomous-ai-agents-485858.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/the-great-gatekeeping-why-united-grounded-autonomous-ai-agents-485858.html</guid>
+      <pubDate>2026-11-11T16:54:21-05:00</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        AI can draft your emails and write your code, but United Airlines just slammed the door on personal agents booking flights. Here is why autonomous transactions hit a regulatory wall.
+        
+        [SPLIT]
+        ⚡ Federal aviation mandates require direct user attestation regarding hazardous materials and explosives in luggage.
+        [SPLIT]
+        ⚡ Major enterprises, including eBay and leading financial institutions, are similarly erecting barriers against autonomous web scrapers and agents.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/the-great-gatekeeping-why-united-grounded-autonomous-ai-agents-485858.html
+      ]]></description>
+      
+      <category>AI Agents</category>
+      
+      <category>Aviation Regulation</category>
+      
+      <category>Data Privacy</category>
+      
+      <category>Autonomous Commerce</category>
+      
+      <category>Cyber Security</category>
+      
+      
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23176430/1237621702.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
+      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23176430/1237621702.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23176430/1237621702.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
       
     </item>
     
