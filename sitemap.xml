@@ -7796,6 +7796,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/holiday-extras-re-engineers-digital-infrastructure-with-codex-518424.html</loc>
+        <lastmod>Thu, 12 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Holiday Extras Re-engineers Digital Infrastructure with Codex</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 12 Nov 2026 09:30:00 GMT</news:publication_date>
+            <news:title>Holiday Extras Re-engineers Digital Infrastructure with Codex</news:title>
+            
+            <news:keywords>Holiday Extras, Codex, Digital Transformation, Software Engineering, Booking Conversion</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/india-s-startup-ecosystem-fintech-healthtech-and-ai-dominate-august-2026-funding-101606.html</loc>
         <lastmod>Tue, 18 Au</lastmod>
         <changefreq>never</changefreq>
@@ -7935,6 +7959,30 @@
             <news:title>OpenAI Academy Brings AI Literacy to U.S. Caregivers</news:title>
             
             <news:keywords>OpenAI Academy, ChatGPT Workshops, Caregiver AI Training, Artificial Intelligence Literacy, U.S. Technology Adoption</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/openai-pledges-2m-for-child-ai-safety-metrics-518440.html</loc>
+        <lastmod>Thu, 12 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>OpenAI Pledges $2M for Child AI Safety Metrics</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 12 Nov 2026 00:00:00 GMT</news:publication_date>
+            <news:title>OpenAI Pledges $2M for Child AI Safety Metrics</news:title>
+            
+            <news:keywords>OpenAI, AI Safety, Child Protection, Algorithmic Governance, Tech Policy</news:keywords>
             
         </news:news>
     </url>
