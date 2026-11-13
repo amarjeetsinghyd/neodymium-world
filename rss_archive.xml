@@ -23,6 +23,80 @@
     <atom:link href="https://neodymium.world/rss_archive.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Silicon Leak: Alice Huang&#39;s Network and the Nvidia Chip Breach</title>
+      <link>https://neodymium.world/articles/silicon-leak-alice-huang-s-network-and-the-nvidia-chip-breach-570971.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/silicon-leak-alice-huang-s-network-and-the-nvidia-chip-breach-570971.html</guid>
+      <pubDate>Fri, 13 Nov 2026 16:56:34 +0530</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        A high-stakes chip scandal exposes severe vulnerabilities in US export controls, as banned Nvidia processors route straight to Chinese networks via Singapore intermediaries.
+        
+        [SPLIT]
+        ⚡ The scandal led to the abrupt resignation of Nvidia CEO Jensen Huang following revelations of improper personal ties to Alice Huang.
+        [SPLIT]
+        ⚡ Singapore-based intermediaries like Megaspeed International and Aperia Cloud Services are facing active international investigations.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/silicon-leak-alice-huang-s-network-and-the-nvidia-chip-breach-570971.html
+      ]]></description>
+      
+      <category>Nvidia Export Controls</category>
+      
+      <category>Alice Huang</category>
+      
+      <category>Semiconductor Security</category>
+      
+      <category>US-China Tech War</category>
+      
+      <category>H800 Chips</category>
+      
+      <category>Supply Chain Intelligence</category>
+      
+      
+      <enclosure url="https://th-i.thgim.com/public/incoming/gbewjn/article71697634.ece/alternates/LANDSCAPE_1200/2026-11-12T140122Z_573929441_RC2BKOA12WOP_RTRMADP_3_NVIDIA-PROBE-SINGAPORE.JPG" length="0" type="image/jpeg" />
+      <media:content url="https://th-i.thgim.com/public/incoming/gbewjn/article71697634.ece/alternates/LANDSCAPE_1200/2026-11-12T140122Z_573929441_RC2BKOA12WOP_RTRMADP_3_NVIDIA-PROBE-SINGAPORE.JPG" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://th-i.thgim.com/public/incoming/gbewjn/article71697634.ece/alternates/LANDSCAPE_1200/2026-11-12T140122Z_573929441_RC2BKOA12WOP_RTRMADP_3_NVIDIA-PROBE-SINGAPORE.JPG" />
+      
+    </item>
+    
+    <item>
+      <title>Sovereign Tech Fallout: Global Cloud Outage Exposes Critical Risks</title>
+      <link>https://neodymium.world/articles/sovereign-tech-fallout-global-cloud-outage-exposes-critical-risks-571119.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/sovereign-tech-fallout-global-cloud-outage-exposes-critical-risks-571119.html</guid>
+      <pubDate>Fri, 13 Nov 2026 16:48:24 +0530</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        When a cloud outage paralyzes the UK NHS, European exchanges, and Indian enterprises, it reveals an uncomfortable truth: single-vendor software monopolies are a strategic threat to national security. Here is our deep-dive analysis.
+        
+        [SPLIT]
+        ⚡ Unplanned SaaS disruptions open dangerous shadow-IT attack vectors as personnel migrate sensitive communications to unmonitored personal accounts.
+        [SPLIT]
+        ⚡ India&#39;s digital transition requires multi-vendor diversification and open-source stacks rather than replacing one foreign platform monopoly with a domestic equivalent.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/sovereign-tech-fallout-global-cloud-outage-exposes-critical-risks-571119.html
+      ]]></description>
+      
+      <category>Sovereign Cloud</category>
+      
+      <category>Digital Autonomy</category>
+      
+      <category>Atmanirbhar Bharat</category>
+      
+      <category>Critical Infrastructure</category>
+      
+      <category>Cyber Resiliency</category>
+      
+      
+      <enclosure url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" length="0" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
+      
+    </item>
+    
+    <item>
       <title>Nvidia Board Weighs Ouster of CEO Jensen Huang Amid Crisis</title>
       <link>https://neodymium.world/articles/nvidia-board-weighs-ouster-of-ceo-jensen-huang-amid-crisis-485844.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/nvidia-board-weighs-ouster-of-ceo-jensen-huang-amid-crisis-485844.html</guid>
@@ -863,82 +937,6 @@
       <enclosure url="https://lh3.googleusercontent.com/UFTBrp1IrRBrc6_f4ibNgtV35iY8F2iTYaqOb1lzR-qZNy-Mb5726xrLKTozohfdZ_3quHe50uyn8z-Wh_Eril_8CVh7py7gH0188sl_EXkoJknlqg=w528-h297-n-nu-rw-lo" length="0" type="image/jpeg" />
       <media:content url="https://lh3.googleusercontent.com/UFTBrp1IrRBrc6_f4ibNgtV35iY8F2iTYaqOb1lzR-qZNy-Mb5726xrLKTozohfdZ_3quHe50uyn8z-Wh_Eril_8CVh7py7gH0188sl_EXkoJknlqg=w528-h297-n-nu-rw-lo" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://lh3.googleusercontent.com/UFTBrp1IrRBrc6_f4ibNgtV35iY8F2iTYaqOb1lzR-qZNy-Mb5726xrLKTozohfdZ_3quHe50uyn8z-Wh_Eril_8CVh7py7gH0188sl_EXkoJknlqg=w528-h297-n-nu-rw-lo" />
-      
-    </item>
-    
-    <item>
-      <title>When Fully Patched Means Vulnerable: The BlackX UEFI Bootkit Fallout</title>
-      <link>https://neodymium.world/articles/when-fully-patched-means-vulnerable-the-blackx-uefi-bootkit-fallout-737568.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/when-fully-patched-means-vulnerable-the-blackx-uefi-bootkit-fallout-737568.html</guid>
-      <pubDate>Tue, 03 Nov 2026 16:03:13 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Even fully patched Windows machines fell victim to the BlackX UEFI bootkit. Why are critical security mitigations buried in Microsoft documentation?
-        
-        [SPLIT]
-        ⚡ Organizations that installed all official Microsoft patches remained vulnerable because final protection required manual revocation of legacy certificates.
-        [SPLIT]
-        ⚡ Microsoft&#39;s patch deployment strategy deliberately avoids automatic revocation to prevent rendering millions of unready enterprise devices unbootable.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/when-fully-patched-means-vulnerable-the-blackx-uefi-bootkit-fallout-737568.html
-      ]]></description>
-      
-      <category>UEFI Bootkit</category>
-      
-      <category>Secure Boot</category>
-      
-      <category>BlackX Malware</category>
-      
-      <category>BlackLotus</category>
-      
-      <category>Cybersecurity Vulnerability</category>
-      
-      <category>Microsoft Patching</category>
-      
-      
-      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-500x500.jpg" length="0" type="image/jpeg" />
-      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-500x500.jpg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-500x500.jpg" />
-      
-    </item>
-    
-    <item>
-      <title>Neutralizing Orbital Decay: Airbus Deploys Passive Damping to Secure LEO</title>
-      <link>https://neodymium.world/articles/neutralizing-orbital-decay-airbus-deploys-passive-damping-to-secure-leo-879872.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/neutralizing-orbital-decay-airbus-deploys-passive-damping-to-secure-leo-879872.html</guid>
-      <pubDate>Tue, 03 Nov 2026 13:30:00 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        With 36,500+ tracked debris objects threatening Low Earth Orbit, Airbus reaches TRL 8 on its 200g Detumbler. Passive magnetic damping neutralizes satellite tumbling without electrical power, enabling active debris removal at scale.
-        
-        [SPLIT]
-        ⚡ Utilizes permanent magnet rotors to generate eddy current braking proportional to B rather than B², exponentially accelerating energy dissipation.
-        [SPLIT]
-        ⚡ Meets European Space Agency Zero Debris requirements by reducing spin rates from 3°/s to 0.75°/s within a single year for platforms up to 1.5 tons.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/neutralizing-orbital-decay-airbus-deploys-passive-damping-to-secure-leo-879872.html
-      ]]></description>
-      
-      <category>Airbus Detumbler</category>
-      
-      <category>Space Debris</category>
-      
-      <category>Low Earth Orbit</category>
-      
-      <category>Space Traffic Management</category>
-      
-      <category>Active Debris Removal</category>
-      
-      <category>Satellite Defense</category>
-      
-      
-      <enclosure url="https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/AIRBUS_Blue.png?fit=1024%2C1024&amp;ssl=1" length="0" type="image/jpeg" />
-      <media:content url="https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/AIRBUS_Blue.png?fit=1024%2C1024&amp;ssl=1" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/AIRBUS_Blue.png?fit=1024%2C1024&amp;ssl=1" />
       
     </item>
     

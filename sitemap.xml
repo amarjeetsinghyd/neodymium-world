@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-11-12</lastmod>
+        <lastmod>2026-11-13</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-11-12</lastmod>
+        <lastmod>2026-11-13</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/silicon-leak-alice-huang-s-network-and-the-nvidia-chip-breach-570971.html</loc>
+        <lastmod>Fri, 13 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/gbewjn/article71697634.ece/alternates/LANDSCAPE_1200/2026-11-12T140122Z_573929441_RC2BKOA12WOP_RTRMADP_3_NVIDIA-PROBE-SINGAPORE.JPG</image:loc>
+            <image:title>Silicon Leak: Alice Huang&#39;s Network and the Nvidia Chip Breach</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 13 Nov 2026 16:56:34 +0530</news:publication_date>
+            <news:title>Silicon Leak: Alice Huang&#39;s Network and the Nvidia Chip Breach</news:title>
+            
+            <news:keywords>Nvidia Export Controls, Alice Huang, Semiconductor Security, US-China Tech War, H800 Chips, Supply Chain Intelligence</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/sovereign-tech-fallout-global-cloud-outage-exposes-critical-risks-571119.html</loc>
+        <lastmod>Fri, 13 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Sovereign Tech Fallout: Global Cloud Outage Exposes Critical Risks</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 13 Nov 2026 16:48:24 +0530</news:publication_date>
+            <news:title>Sovereign Tech Fallout: Global Cloud Outage Exposes Critical Risks</news:title>
+            
+            <news:keywords>Sovereign Cloud, Digital Autonomy, Atmanirbhar Bharat, Critical Infrastructure, Cyber Resiliency</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/nvidia-board-weighs-ouster-of-ceo-jensen-huang-amid-crisis-485844.html</loc>
@@ -7749,7 +7797,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-11-12</lastmod>
+        <lastmod>2026-11-13</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
