@@ -116,6 +116,54 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/silicon-valley-s-geopolitical-blind-spot-and-the-nvidia-crisis-602813.html</loc>
+        <lastmod>Fri, 13 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://wp.technologyreview.com/wp-content/uploads/2026/06/mars2026-kvitsoy4.jpg?w=840</image:loc>
+            <image:title>Silicon Valley&#39;s Geopolitical Blind Spot and the Nvidia Crisis</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 13 Nov 2026 13:10:00 +0000</news:publication_date>
+            <news:title>Silicon Valley&#39;s Geopolitical Blind Spot and the Nvidia Crisis</news:title>
+            
+            <news:keywords>Nvidia, Silicon Valley, Geopolitics, Chip Security Act, AI Supply Chain</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/when-brain-implants-come-out-the-real-neural-ethics-begin-602829.html</loc>
+        <lastmod>Fri, 13 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>When Brain Implants Come Out, the Real Neural Ethics Begin</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 13 Nov 2026 10:00:00 +0000</news:publication_date>
+            <news:title>When Brain Implants Come Out, the Real Neural Ethics Begin</news:title>
+            
+            <news:keywords>Brain-Computer Interfaces, Neural Implants, Trial Ethics, Biotechnology, Participant Autonomy</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/nvidia-board-weighs-ouster-of-ceo-jensen-huang-amid-crisis-485844.html</loc>
         <lastmod>2026-11-11</lastmod>
         <changefreq>never</changefreq>
