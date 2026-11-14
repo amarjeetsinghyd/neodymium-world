@@ -164,6 +164,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/windows-zero-day-signdrop-exploit-grants-system-rights-via-clfs-682673.html</loc>
+        <lastmod>Fri, 13 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1237693734-500x500-1783631088.jpg</image:loc>
+            <image:title>Windows Zero-Day SignDrop Exploit Grants System Rights Via CLFS</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 13 Nov 2026 16:26:32 +0000</news:publication_date>
+            <news:title>Windows Zero-Day SignDrop Exploit Grants System Rights Via CLFS</news:title>
+            
+            <news:keywords>Windows Zero-Day, SignDrop, CLFS Vulnerability, Privilege Escalation, Windows Defender, Cybersecurity</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/silicon-valley-s-geopolitical-blind-spot-and-the-nvidia-crisis-602813.html</loc>
         <lastmod>Fri, 13 No</lastmod>
         <changefreq>never</changefreq>
@@ -279,6 +303,30 @@
             <news:title>AlphaGenome 2 Bridges Single-Cell Biology and Human Genetics</news:title>
             
             <news:keywords>AlphaGenome 2, Genomics AI, Single-Cell Biology, Human Genetics, Gene Expression, Drug Discovery</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/grok-build-leak-exposes-spacexsi-secrets-and-thousands-of-apps-682690.html</loc>
+        <lastmod>Tue, 10 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-500x500.webp</image:loc>
+            <image:title>Grok Build Leak Exposes SpaceXSI Secrets and Thousands of Apps</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 10 Nov 2026 21:12:59 +0000</news:publication_date>
+            <news:title>Grok Build Leak Exposes SpaceXSI Secrets and Thousands of Apps</news:title>
+            
+            <news:keywords>Grok Build, SpaceXSI, Cybersecurity, Passive DNS, Data Leak, AI Agents</news:keywords>
             
         </news:news>
     </url>

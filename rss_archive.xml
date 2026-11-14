@@ -171,6 +171,44 @@
     </item>
     
     <item>
+      <title>Windows Zero-Day SignDrop Exploit Grants System Rights Via CLFS</title>
+      <link>https://neodymium.world/articles/windows-zero-day-signdrop-exploit-grants-system-rights-via-clfs-682673.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/windows-zero-day-signdrop-exploit-grants-system-rights-via-clfs-682673.html</guid>
+      <pubDate>Fri, 13 Nov 2026 16:26:32 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        A disgruntled researcher just dropped &#39;SignDrop&#39;, a Windows zero-day exploiting the Common Log File System and Windows Defender to grant full System rights. Here is the technical breakdown.
+        
+        [SPLIT]
+        ⚡ The attack ingeniously weaponizes an October 2025 Microsoft security mitigation against itself by manipulating Object Manager symbolic links.
+        [SPLIT]
+        ⚡ Veteran security researcher Will Dormann successfully reproduced the exploit, noting it requires specific build parameters and authentication modes.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/windows-zero-day-signdrop-exploit-grants-system-rights-via-clfs-682673.html
+      ]]></description>
+      
+      <category>Windows Zero-Day</category>
+      
+      <category>SignDrop</category>
+      
+      <category>CLFS Vulnerability</category>
+      
+      <category>Privilege Escalation</category>
+      
+      <category>Windows Defender</category>
+      
+      <category>Cybersecurity</category>
+      
+      
+      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1237693734-500x500-1783631088.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1237693734-500x500-1783631088.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1237693734-500x500-1783631088.jpg" />
+      
+    </item>
+    
+    <item>
       <title>Silicon Valley&#39;s Geopolitical Blind Spot and the Nvidia Crisis</title>
       <link>https://neodymium.world/articles/silicon-valley-s-geopolitical-blind-spot-and-the-nvidia-crisis-602813.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/silicon-valley-s-geopolitical-blind-spot-and-the-nvidia-crisis-602813.html</guid>
@@ -349,6 +387,44 @@
       <enclosure url="https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo" length="0" type="image/jpeg" />
       <media:content url="https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo" />
+      
+    </item>
+    
+    <item>
+      <title>Grok Build Leak Exposes SpaceXSI Secrets and Thousands of Apps</title>
+      <link>https://neodymium.world/articles/grok-build-leak-exposes-spacexsi-secrets-and-thousands-of-apps-682690.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/grok-build-leak-exposes-spacexsi-secrets-and-thousands-of-apps-682690.html</guid>
+      <pubDate>Tue, 10 Nov 2026 21:12:59 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Vibe-coding has a major security problem. Over 35,000 Grok Build apps—including internal SpaceXSI sales and strategy data—were left wide open due to a basic DNS architecture oversight.
+        
+        [SPLIT]
+        ⚡ The vulnerability stems from placing randomly generated &#39;dice words&#39; to the left of the domain (grok.me), allowing passive DNS logging to capture unique application URLs.
+        [SPLIT]
+        ⚡ SpaceXSI itself fell victim to the flaw, exposing internal onboarding plans, sales territory maps, and advertising proposals across 24 company-built apps.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/grok-build-leak-exposes-spacexsi-secrets-and-thousands-of-apps-682690.html
+      ]]></description>
+      
+      <category>Grok Build</category>
+      
+      <category>SpaceXSI</category>
+      
+      <category>Cybersecurity</category>
+      
+      <category>Passive DNS</category>
+      
+      <category>Data Leak</category>
+      
+      <category>AI Agents</category>
+      
+      
+      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-500x500.webp" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-500x500.webp" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-500x500.webp" />
       
     </item>
     
@@ -861,80 +937,6 @@
       <enclosure url="https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/2019-99-Amorim-Logos-UN-Vertical-Cork-Solutions-Green-scaled.png?fit=1024%2C500&amp;ssl=1" length="0" type="image/jpeg" />
       <media:content url="https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/2019-99-Amorim-Logos-UN-Vertical-Cork-Solutions-Green-scaled.png?fit=1024%2C500&amp;ssl=1" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/2019-99-Amorim-Logos-UN-Vertical-Cork-Solutions-Green-scaled.png?fit=1024%2C500&amp;ssl=1" />
-      
-    </item>
-    
-    <item>
-      <title>Google Deploys Gemini Omni 1.2 Flash for Scalable Video Defense</title>
-      <link>https://neodymium.world/articles/google-deploys-gemini-omni-1-2-flash-for-scalable-video-defense-397435.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/google-deploys-gemini-omni-1-2-flash-for-scalable-video-defense-397435.html</guid>
-      <pubDate>Thu, 05 Nov 2026 17:05:16 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Google DeepMind has dropped Gemini Omni 1.2 Flash with 15-second native generation, 30% lower inference costs, and multi-turn conversational editing across enterprise pipelines.
-        
-        [SPLIT]
-        ⚡ Inference pricing drops 30% to $0.07 per second for 720p video production through the Gemini API and Google Cloud pipelines.
-        [SPLIT]
-        ⚡ Multi-turn conversational editing allows precise modifications—such as background swaps or lighting changes—without regenerating entire sequences.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/google-deploys-gemini-omni-1-2-flash-for-scalable-video-defense-397435.html
-      ]]></description>
-      
-      <category>Gemini Omni 1.2 Flash</category>
-      
-      <category>Google DeepMind</category>
-      
-      <category>Generative AI</category>
-      
-      <category>Video Synthesis</category>
-      
-      <category>Enterprise AI</category>
-      
-      
-      <enclosure url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" length="0" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
-      
-    </item>
-    
-    <item>
-      <title>Electromagnetic Launch: Re-engineering Responsive Space and Missile Defense</title>
-      <link>https://neodymium.world/articles/electromagnetic-launch-re-engineering-responsive-space-and-missile-defense-996235.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/electromagnetic-launch-re-engineering-responsive-space-and-missile-defense-996235.html</guid>
-      <pubDate>Thu, 05 Nov 2026 14:15:38 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Can ground-based catapults solve space launch constraints? Auriga Space CEO Winnie Lai reveals how electromagnetic launch tech could enable rapid LEO reconstitution and transform Golden Dome missile defense logistics.
-        
-        [SPLIT]
-        ⚡ Rapid-turnaround kinetic catapults enable responsive space access, reducing LEO insertion cycles from months to mere hours during active military operations.
-        [SPLIT]
-        ⚡ Integration with missile defense architectures such as Golden Dome provides scalable interceptor replenishment against saturation raids by hypersonic glide vehicles.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/electromagnetic-launch-re-engineering-responsive-space-and-missile-defense-996235.html
-      ]]></description>
-      
-      <category>Electromagnetic Launch</category>
-      
-      <category>Auriga Space</category>
-      
-      <category>Responsive Space Access</category>
-      
-      <category>Golden Dome Interceptors</category>
-      
-      <category>Kinetic Propulsion</category>
-      
-      <category>LEO Defense</category>
-      
-      
-      <enclosure url="https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/space-minds-podcast-auriga-2000-1500.jpg?fit=1024%2C768&amp;ssl=1" length="0" type="image/jpeg" />
-      <media:content url="https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/space-minds-podcast-auriga-2000-1500.jpg?fit=1024%2C768&amp;ssl=1" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/space-minds-podcast-auriga-2000-1500.jpg?fit=1024%2C768&amp;ssl=1" />
       
     </item>
     
