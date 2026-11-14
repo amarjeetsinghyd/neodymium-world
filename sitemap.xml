@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-11-13</lastmod>
+        <lastmod>2026-11-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-11-13</lastmod>
+        <lastmod>2026-11-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/astra-delivers-first-virupaksha-aesa-radar-prototype-to-drdo-654938.html</loc>
+        <lastmod>Sat, 14 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://idrw.org/wp-content/uploads/2026/11/GjZjONwXkAA8ILc.jpg</image:loc>
+            <image:title>Astra Delivers First Virupaksha AESA Radar Prototype to DRDO</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 14 Nov 2026 10:54:00 +0000</news:publication_date>
+            <news:title>Astra Delivers First Virupaksha AESA Radar Prototype to DRDO</news:title>
+            
+            <news:keywords>Virupaksha Radar, AESA Radar, Su-30MKI, DRDO, Atmanirbhar Bharat, Astra Microwave</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/mitra-shakti-2026-india-and-sri-lanka-deepen-counter-terrorism-ties-654971.html</loc>
+        <lastmod>Sat, 14 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://static.pib.gov.in/WriteReadData/userfiles/image/2026/nov/IMG_8584.JPGcopy.jpg_20261113155501_90f1a2.jpeg</image:loc>
+            <image:title>Mitra Shakti 2026: India and Sri Lanka Deepen Counter-Terrorism Ties</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sat, 14 Nov 2026 10:15:00 +0000</news:publication_date>
+            <news:title>Mitra Shakti 2026: India and Sri Lanka Deepen Counter-Terrorism Ties</news:title>
+            
+            <news:keywords>Mitra Shakti 2026, India Sri Lanka Relations, Counter Terrorism, Atmanirbhar Bharat, South Asian Geopolitics</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/silicon-leak-alice-huang-s-network-and-the-nvidia-chip-breach-570971.html</loc>
@@ -7845,7 +7893,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-11-13</lastmod>
+        <lastmod>2026-11-14</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
