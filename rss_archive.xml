@@ -355,6 +355,42 @@
     </item>
     
     <item>
+      <title>Google DeepMind Deploys Gemini 4 Hydrogen for High-Velocity Workflows</title>
+      <link>https://neodymium.world/articles/google-deepmind-deploys-gemini-4-hydrogen-for-high-velocity-workflows-771391.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/google-deepmind-deploys-gemini-4-hydrogen-for-high-velocity-workflows-771391.html</guid>
+      <pubDate>Thu, 12 Nov 2026 18:00:50 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Google DeepMind just dropped Gemini 4 Hydrogen, an enterprise-grade execution engine built to power multi-agent workflows, slash latency, and outpace previous models across complex software development tasks. Here is the strategic breakdown.
+        
+        [SPLIT]
+        ⚡ Priced flat at $1.50 per million input tokens and $7.50 per million output tokens across a 1M-token context window.
+        [SPLIT]
+        ⚡ Integrates with Google Antigravity&#39;s Orchestrator to dynamically route tasks between heavy reasoning models and fast execution units, cutting quota consumption by 24%.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/google-deepmind-deploys-gemini-4-hydrogen-for-high-velocity-workflows-771391.html
+      ]]></description>
+      
+      <category>Gemini 4 Hydrogen</category>
+      
+      <category>Google DeepMind</category>
+      
+      <category>Agentic Workflows</category>
+      
+      <category>Enterprise AI</category>
+      
+      <category>Multi-Model Orchestration</category>
+      
+      
+      <enclosure url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" length="0" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
+      
+    </item>
+    
+    <item>
       <title>Nvidia Board Weighs Ouster of CEO Jensen Huang Amid Crisis</title>
       <link>https://neodymium.world/articles/nvidia-board-weighs-ouster-of-ceo-jensen-huang-amid-crisis-485844.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/nvidia-board-weighs-ouster-of-ceo-jensen-huang-amid-crisis-485844.html</guid>
@@ -499,6 +535,42 @@
       <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-500x500.webp" length="0" type="image/jpeg" />
       <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-500x500.webp" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-500x500.webp" />
+      
+    </item>
+    
+    <item>
+      <title>Orbital Transparency: How Open AI Weather Datasets Redefine Atmospheric ISR</title>
+      <link>https://neodymium.world/articles/orbital-transparency-how-open-ai-weather-datasets-redefine-atmospheric-isr-771424.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/orbital-transparency-how-open-ai-weather-datasets-redefine-atmospheric-isr-771424.html</guid>
+      <pubDate>Tue, 10 Nov 2026 11:13:04 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        The democratization of geostationary satellite precipitation datasets isn&#39;t just a climate breakthrough—it&#39;s a paradigm shift for dual-use atmospheric intelligence, operational planning, and theater-level ISR capabilities.
+        
+        [SPLIT]
+        ⚡ High-temporal-resolution weather inputs serve as dual-use assets, directly enhancing tactical ISR, aviation transit routing, and maritime operations.
+        [SPLIT]
+        ⚡ Machine learning frameworks trained on orbital feeds reduce weather forecasting latency from hours to seconds compared to legacy physics models.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/orbital-transparency-how-open-ai-weather-datasets-redefine-atmospheric-isr-771424.html
+      ]]></description>
+      
+      <category>AI Weather Models</category>
+      
+      <category>Satellite ISR</category>
+      
+      <category>Dual-Use Datasets</category>
+      
+      <category>Geostationary Intelligence</category>
+      
+      <category>Defense Meteorology</category>
+      
+      
+      <enclosure url="https://lh3.googleusercontent.com/ggsqfaBnOayx-i7z9Kj8AeZruz8BSo0N7tsnqwH8Z3REnHcDKBt-QSA3DR4UUM8lcwklWihSARoEN2AyQFhoRFGFlk2-0-xGuKt_rtGoFwpJg8LHVQ=w528-h297-n-nu-rw-lo" length="0" type="image/jpeg" />
+      <media:content url="https://lh3.googleusercontent.com/ggsqfaBnOayx-i7z9Kj8AeZruz8BSo0N7tsnqwH8Z3REnHcDKBt-QSA3DR4UUM8lcwklWihSARoEN2AyQFhoRFGFlk2-0-xGuKt_rtGoFwpJg8LHVQ=w528-h297-n-nu-rw-lo" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://lh3.googleusercontent.com/ggsqfaBnOayx-i7z9Kj8AeZruz8BSo0N7tsnqwH8Z3REnHcDKBt-QSA3DR4UUM8lcwklWihSARoEN2AyQFhoRFGFlk2-0-xGuKt_rtGoFwpJg8LHVQ=w528-h297-n-nu-rw-lo" />
       
     </item>
     
@@ -865,78 +937,6 @@
       <enclosure url="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/SpaceX_Starship_ignition_during_IFT-5.jpg/1280px-SpaceX_Starship_ignition_during_IFT-5.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" length="0" type="image/jpeg" />
       <media:content url="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/SpaceX_Starship_ignition_during_IFT-5.jpg/1280px-SpaceX_Starship_ignition_during_IFT-5.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/SpaceX_Starship_ignition_during_IFT-5.jpg/1280px-SpaceX_Starship_ignition_during_IFT-5.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" />
-      
-    </item>
-    
-    <item>
-      <title>The Electromagnetic Blind Spot: Domestic EW Testing and Civilian Risk</title>
-      <link>https://neodymium.world/articles/the-electromagnetic-blind-spot-domestic-ew-testing-and-civilian-risk-227796.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/the-electromagnetic-blind-spot-domestic-ew-testing-and-civilian-risk-227796.html</guid>
-      <pubDate>Fri, 06 Nov 2026 17:29:17 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        As the U.S. military ramps up domestic electronic warfare testing to counter drone threats, civilian aviation is paying the price—sometimes fatally. An in-depth look at the invisible dangers of domestic GPS jamming.
-        
-        [SPLIT]
-        ⚡ A recent NTSB preliminary report links active military GPS denial exercises at White Sands Missile Range to a fatal May medical evacuation aircraft crash.
-        [SPLIT]
-        ⚡ Failures in issuing reliable Notices to Airmen (NOTAMs) and unexpected signal bleed have caught commercial pilots and air traffic controllers off guard.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/the-electromagnetic-blind-spot-domestic-ew-testing-and-civilian-risk-227796.html
-      ]]></description>
-      
-      <category>Electronic Warfare</category>
-      
-      <category>GPS Jamming</category>
-      
-      <category>Aviation Safety</category>
-      
-      <category>White Sands Missile Range</category>
-      
-      <category>Defense Modernization</category>
-      
-      
-      <enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/The_Brahmos_Missile_system_passes_through_the_Rajpath_during_the_full_dress_rehearsal_for_the_Republic_Day_Parade_in_New_Delhi_on_January_23%2C2006.jpg/1280px-The_Brahmos_Missile_system_passes_through_the_Rajpath_during_the_full_dress_rehearsal_for_the_Republic_Day_Parade_in_New_Delhi_on_January_23%2C2006.jpg" length="0" type="image/jpeg" />
-      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/The_Brahmos_Missile_system_passes_through_the_Rajpath_during_the_full_dress_rehearsal_for_the_Republic_Day_Parade_in_New_Delhi_on_January_23%2C2006.jpg/1280px-The_Brahmos_Missile_system_passes_through_the_Rajpath_during_the_full_dress_rehearsal_for_the_Republic_Day_Parade_in_New_Delhi_on_January_23%2C2006.jpg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/The_Brahmos_Missile_system_passes_through_the_Rajpath_during_the_full_dress_rehearsal_for_the_Republic_Day_Parade_in_New_Delhi_on_January_23%2C2006.jpg/1280px-The_Brahmos_Missile_system_passes_through_the_Rajpath_during_the_full_dress_rehearsal_for_the_Republic_Day_Parade_in_New_Delhi_on_January_23%2C2006.jpg" />
-      
-    </item>
-    
-    <item>
-      <title>Pralay Passes: The New Spearhead of India&#39;s Conventional Deterrence</title>
-      <link>https://neodymium.world/articles/pralay-passes-the-new-spearhead-of-india-s-conventional-deterrence-965990.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/pralay-passes-the-new-spearhead-of-india-s-conventional-deterrence-965990.html</guid>
-      <pubDate>Fri, 06 Nov 2026 04:08:00 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        India&#39;s indigenous Pralay quasi-ballistic missile just aced its latest user trial off Odisha coast. Here is why this sub-strategic asset fundamentally alters conventional deterrence along the Line of Actual Control.
-        
-        [SPLIT]
-        ⚡ The quasi-ballistic trajectory and advanced maneuvering capabilities allow Pralay to evade modern integrated air defense systems.
-        [SPLIT]
-        ⚡ The weapon system directly supports the Atmanirbhar Bharat mandate, reducing foreign dependence for critical high-precision tactical strike assets.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/pralay-passes-the-new-spearhead-of-india-s-conventional-deterrence-965990.html
-      ]]></description>
-      
-      <category>Pralay Missile</category>
-      
-      <category>DRDO</category>
-      
-      <category>Atmanirbhar Bharat</category>
-      
-      <category>LAC Deterrence</category>
-      
-      <category>Tactical Ballistic Missile</category>
-      
-      
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5uaWaYgPhcgSnaxbkIVkztOunLodWGXBuA8lV0qgTY2Fa7K-KXqnH_-dFkb_rJrjCrrmLu7lg2w0OciVmtqUuf2WJ3YWPzaT_rcTJVw5XgRV7Yzc6O4oVC5_5leqwxA3IvaFq6NlRUFElQhSFIVQL4Y2L1WYTUgyHsM7J1vmfeEhhhZsEq7C3hG7O2iI/s72-c/Pralay_Tactical_Ballistic_Missile_Test.jpg" length="0" type="image/jpeg" />
-      <media:content url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5uaWaYgPhcgSnaxbkIVkztOunLodWGXBuA8lV0qgTY2Fa7K-KXqnH_-dFkb_rJrjCrrmLu7lg2w0OciVmtqUuf2WJ3YWPzaT_rcTJVw5XgRV7Yzc6O4oVC5_5leqwxA3IvaFq6NlRUFElQhSFIVQL4Y2L1WYTUgyHsM7J1vmfeEhhhZsEq7C3hG7O2iI/s72-c/Pralay_Tactical_Ballistic_Missile_Test.jpg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5uaWaYgPhcgSnaxbkIVkztOunLodWGXBuA8lV0qgTY2Fa7K-KXqnH_-dFkb_rJrjCrrmLu7lg2w0OciVmtqUuf2WJ3YWPzaT_rcTJVw5XgRV7Yzc6O4oVC5_5leqwxA3IvaFq6NlRUFElQhSFIVQL4Y2L1WYTUgyHsM7J1vmfeEhhhZsEq7C3hG7O2iI/s72-c/Pralay_Tactical_Ballistic_Missile_Test.jpg" />
       
     </item>
     
