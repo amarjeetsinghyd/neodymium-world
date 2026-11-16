@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-11-15</lastmod>
+        <lastmod>2026-11-16</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-11-15</lastmod>
+        <lastmod>2026-11-16</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -87,6 +87,30 @@
             <news:title>Jensen Huang&#39;s Fall: Inside Nvidia&#39;s Silicon Watershed</news:title>
             
             <news:keywords>Jensen Huang, Nvidia, Artificial Intelligence, Silicon Supply Chain, Geopolitics</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/inside-pakistan-s-air-to-air-missile-arsenal-from-chinese-pl-15s-to-indigenous-f-832185.html</loc>
+        <lastmod>Sun, 15 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/The_Brahmos_Missile_system_passes_through_the_Rajpath_during_the_full_dress_rehearsal_for_the_Republic_Day_Parade_in_New_Delhi_on_January_23%2C2006.jpg/1280px-The_Brahmos_Missile_system_passes_through_the_Rajpath_during_the_full_dress_rehearsal_for_the_Republic_Day_Parade_in_New_Delhi_on_January_23%2C2006.jpg</image:loc>
+            <image:title>Inside Pakistan’s air-to-air missile arsenal: From Chinese PL-15s to indigenous Fa’az</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Sun, 15 Nov 2026 09:44:32 +0000</news:publication_date>
+            <news:title>Inside Pakistan’s air-to-air missile arsenal: From Chinese PL-15s to indigenous Fa’az</news:title>
+            
+            <news:keywords>Fa’az Missile, PL-15E, Pakistan Air Force, BVRAAM, Atmanirbhar Bharat, South Asian Geopolitics</news:keywords>
             
         </news:news>
     </url>
@@ -279,6 +303,30 @@
             <news:title>When Brain Implants Come Out, the Real Neural Ethics Begin</news:title>
             
             <news:keywords>Brain-Computer Interfaces, Neural Implants, Trial Ethics, Biotechnology, Participant Autonomy</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/exclusive-first-tejas-mk1a-headed-for-january-2027-delivery-832208.html</loc>
+        <lastmod>Fri, 13 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://upload.wikimedia.org/wikipedia/commons/7/74/Tejas_MK1_in_service_for_7_years.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail_unscaled</image:loc>
+            <image:title>Exclusive: First Tejas Mk1A Headed for January 2027 Delivery</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 13 Nov 2026 04:27:29 +0000</news:publication_date>
+            <news:title>Exclusive: First Tejas Mk1A Headed for January 2027 Delivery</news:title>
+            
+            <news:keywords>Tejas Mk1A, IAF, HAL, GE F404, Atmanirbhar Bharat, Indian Defense</news:keywords>
             
         </news:news>
     </url>
@@ -8037,7 +8085,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-11-15</lastmod>
+        <lastmod>2026-11-16</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
