@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/modi-s-manila-visit-shapes-indo-pacific-maritime-strategy-870892.html</loc>
+        <lastmod>Mon, 16 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://ommcomnews.com/wp-content/uploads/2026/11/New-Project-43-2.jpg</image:loc>
+            <image:title>Modi’s Manila Visit Shapes Indo-Pacific Maritime Strategy</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 16 Nov 2026 16:58:00 +0000</news:publication_date>
+            <news:title>Modi’s Manila Visit Shapes Indo-Pacific Maritime Strategy</news:title>
+            
+            <news:keywords>ASEAN-India Summit, Indo-Pacific Security, Act East Policy, Maritime Cooperation, East Asia Summit</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/starship-s-tower-catch-signals-a-new-era-of-responsive-space-power-870952.html</loc>
+        <lastmod>Mon, 16 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://idrw.org/wp-content/uploads/2026/11/images-31.jpg</image:loc>
+            <image:title>Starship’s Tower Catch Signals a New Era of Responsive Space Power</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 16 Nov 2026 16:21:00 +0000</news:publication_date>
+            <news:title>Starship’s Tower Catch Signals a New Era of Responsive Space Power</news:title>
+            
+            <news:keywords>SpaceX Starship, Military Space Logistics, Responsive Space, Space Power, Constellation Replenishment</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/jensen-huang-s-fall-inside-nvidia-s-silicon-watershed-743288.html</loc>
         <lastmod>Sun, 15 No</lastmod>
         <changefreq>never</changefreq>
