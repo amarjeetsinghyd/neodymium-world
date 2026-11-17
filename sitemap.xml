@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/astra-microwave-locks-march-2027-deadline-for-first-uttam-radars-953119.html</loc>
+        <lastmod>Tue, 17 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://idrw.org/wp-content/uploads/2026/11/images-33.jpg</image:loc>
+            <image:title>Astra Microwave Locks March 2027 Deadline for First Uttam Radars</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 17 Nov 2026 13:10:00 +0000</news:publication_date>
+            <news:title>Astra Microwave Locks March 2027 Deadline for First Uttam Radars</news:title>
+            
+            <news:keywords>Uttam Radar, Astra Microwave, Tejas Mk1A, Atmanirbhar Bharat, HAL, AESA Radar</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/ge-s-f404-supply-slump-stalls-tejas-mk1a-production-lines-953159.html</loc>
+        <lastmod>Tue, 17 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://idrw.org/wp-content/uploads/2026/05/F404_2_Mar2025-Blog-India-1920x1080-6.jpg</image:loc>
+            <image:title>GE’s F404 Supply Slump Stalls Tejas Mk1A Production Lines</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 17 Nov 2026 12:09:00 +0000</news:publication_date>
+            <news:title>GE’s F404 Supply Slump Stalls Tejas Mk1A Production Lines</news:title>
+            
+            <news:keywords>Tejas Mk1A, GE F404, HAL, Atmanirbhar Bharat, Indian Air Force</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/modi-s-manila-visit-shapes-indo-pacific-maritime-strategy-870892.html</loc>
         <lastmod>Mon, 16 No</lastmod>
         <changefreq>never</changefreq>
