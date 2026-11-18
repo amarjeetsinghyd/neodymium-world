@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/agnikul-s-quad-engine-test-proves-india-s-private-launch-viability-038377.html</loc>
+        <lastmod>Wed, 18 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwVPn94XjxNKuccgEA15IzXXUTSzVCyujAk6gRTAM5dqS6n-BBSMloo251tJWd8EHnLGh_2G3ZVxMhezM4bgPVWtW8Q0891vaSeNp5gGqKpDWuqAciKut44m_JoIaxIOv4XRUFwisVJCtyRA00OHrIvqiMt9pIz4xCVYvKDOVZRnWkuO47j9LODQrqN2Y/s72-c/AgniKul_Pump-Fed_Rocket_Engine_Test.jpg</image:loc>
+            <image:title>Agnikul’s Quad-Engine Test Proves India&#39;s Private Launch Viability</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 18 Nov 2026 15:26:00 +0000</news:publication_date>
+            <news:title>Agnikul’s Quad-Engine Test Proves India&#39;s Private Launch Viability</news:title>
+            
+            <news:keywords>Agnikul Cosmos, Semi-Cryogenic Engines, Atmanirbhar Bharat, Indian Private Space, Agnibaan Launch Vehicle</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/sanjay-seth-touches-down-in-brussels-for-schuman-forum-2026-038460.html</loc>
+        <lastmod>Wed, 18 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9AAWTtfKibyxgxX5nB7rJxHGYzf0UREV-C10yorH9HvTLR-eV7bp-ssXsd4F9RgrZ-h1vbsm2PLhoEWu_NsXfBGxnuDMPzT8u8gzHnR7dzyJk3aCypJ-OW6k-GdolwrXSvv0jqFA5eUy3F8pbxP9xuOVtTa_yAoij5l4TLCHx9YVqpxpHy0G8fw6MxQU/s72-c/MoS_For_Defence_Sanjay_Seth.jpg</image:loc>
+            <image:title>Sanjay Seth Touches Down in Brussels for Schuman Forum 2026</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 18 Nov 2026 15:24:00 +0000</news:publication_date>
+            <news:title>Sanjay Seth Touches Down in Brussels for Schuman Forum 2026</news:title>
+            
+            <news:keywords>Sanjay Seth, Schuman Security and Defence Forum 2026, India-EU Relations, Atmanirbhar Bharat, Defense Cooperation</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/weaponized-saas-supply-chains-inside-the-optimizely-malware-exploitation-005870.html</loc>
         <lastmod>Tue, 17 No</lastmod>
         <changefreq>never</changefreq>
