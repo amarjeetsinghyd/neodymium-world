@@ -23,6 +23,44 @@
     <atom:link href="https://neodymium.world/rss_archive.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Weaponized SaaS Supply Chains: Inside the Optimizely Malware Exploitation</title>
+      <link>https://neodymium.world/articles/weaponized-saas-supply-chains-inside-the-optimizely-malware-exploitation-005870.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/weaponized-saas-supply-chains-inside-the-optimizely-malware-exploitation-005870.html</guid>
+      <pubDate>Tue, 17 Nov 2026 22:32:16 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        A silent compromise within Optimizely’s trusted CDN delivered advanced iOS exploit kits and card skimmers across 178 major enterprise sites, including Zoom, Salesforce, and the BBC. Strategic intelligence analyst Alexander Sterling unpacks this digital supply chain assault.
+        
+        [SPLIT]
+        ⚡ The attack payload featured advanced iOS exploit kits (Coruna and DarkSword) linked to Russian state-aligned threat actors alongside commercial financial skimming engines.
+        [SPLIT]
+        ⚡ High-value enterprise and media portals—including Zoom, Salesforce, CNN, and the BBC—served as unintended distribution vectors for high-tier mobile zero-day and N-day exploits.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/weaponized-saas-supply-chains-inside-the-optimizely-malware-exploitation-005870.html
+      ]]></description>
+      
+      <category>Supply Chain Security</category>
+      
+      <category>Optimizely Breach</category>
+      
+      <category>iOS Exploit Kits</category>
+      
+      <category>Kremlin Cyber Espionage</category>
+      
+      <category>Cyber Warfare</category>
+      
+      <category>SaaS Vulnerabilities</category>
+      
+      
+      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/malicious-website-500x500.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/malicious-website-500x500.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/malicious-website-500x500.jpg" />
+      
+    </item>
+    
+    <item>
       <title>Astra Microwave Locks March 2027 Deadline for First Uttam Radars</title>
       <link>https://neodymium.world/articles/astra-microwave-locks-march-2027-deadline-for-first-uttam-radars-953119.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/astra-microwave-locks-march-2027-deadline-for-first-uttam-radars-953119.html</guid>
@@ -833,6 +871,42 @@
     </item>
     
     <item>
+      <title>The *sshole Exploit: Active Intrusions Target Critical Linux Vulnerability</title>
+      <link>https://neodymium.world/articles/the-sshole-exploit-active-intrusions-target-critical-linux-vulnerability-005965.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/the-sshole-exploit-active-intrusions-target-critical-linux-vulnerability-005965.html</guid>
+      <pubDate>Mon, 09 Nov 2026 19:41:34 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        A severe zero-day style Linux vulnerability dubbed *sshole is under active exploitation by sophisticated threat actors. Here is what infrastructure defenders need to know right now.
+        
+        [SPLIT]
+        ⚡ Threat actors, including groups tracked as GT10, are utilizing AI-generated backdoors such as TAC Agent to establish persistence on compromised Alpine Linux systems.
+        [SPLIT]
+        ⚡ Exploitation requires specific preconditions, including passwordless account configurations and oversized password inputs exceeding 256 characters.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/the-sshole-exploit-active-intrusions-target-critical-linux-vulnerability-005965.html
+      ]]></description>
+      
+      <category>Linux Security</category>
+      
+      <category>OpenSSH Vulnerability</category>
+      
+      <category>Cyber Warfare</category>
+      
+      <category>Alpine Linux</category>
+      
+      <category>Threat Intelligence</category>
+      
+      
+      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" />
+      
+    </item>
+    
+    <item>
       <title>The Silicon Shift: Hollywood Stakes Its Future on Generative AI</title>
       <link>https://neodymium.world/articles/the-silicon-shift-hollywood-stakes-its-future-on-generative-ai-312889.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/the-silicon-shift-hollywood-stakes-its-future-on-generative-ai-312889.html</guid>
@@ -865,80 +939,6 @@
       <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2274329497.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
       <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2274329497.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2274329497.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
-      
-    </item>
-    
-    <item>
-      <title>Compromised Compute: Nvidia Probe Exposes US AI Hardware Vulnerabilities</title>
-      <link>https://neodymium.world/articles/compromised-compute-nvidia-probe-exposes-us-ai-hardware-vulnerabilities-312946.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/compromised-compute-nvidia-probe-exposes-us-ai-hardware-vulnerabilities-312946.html</guid>
-      <pubDate>2026-11-09T18:47:46-05:00</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        A federal counterintelligence investigation into Nvidia CEO Jensen Huang exposes a strategic vulnerability: how foreign intelligence targeting of private tech monopolies threatens Western military AI dominance.
-        
-        [SPLIT]
-        ⚡ Nvidia&#39;s Blackwell compute architecture directly underpins Western defense AI initiatives, elevating CEO security to a national security imperative.
-        [SPLIT]
-        ⚡ Information latency between intelligence agencies and executive leadership exacerbates supply chain counterespionage risks.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/compromised-compute-nvidia-probe-exposes-us-ai-hardware-vulnerabilities-312946.html
-      ]]></description>
-      
-      <category>Nvidia</category>
-      
-      <category>Jensen Huang</category>
-      
-      <category>Counterintelligence</category>
-      
-      <category>Blackwell Architecture</category>
-      
-      <category>US China Tech War</category>
-      
-      <category>AI Hardware Security</category>
-      
-      
-      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297774940.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" length="0" type="image/jpeg" />
-      <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297774940.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297774940.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" />
-      
-    </item>
-    
-    <item>
-      <title>Autonomous Swarms and Industrial Scalability: The Next Frontier of UAS Warfare</title>
-      <link>https://neodymium.world/articles/autonomous-swarms-and-industrial-scalability-the-next-frontier-of-uas-warfare-266303.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/autonomous-swarms-and-industrial-scalability-the-next-frontier-of-uas-warfare-266303.html</guid>
-      <pubDate>Mon, 09 Nov 2026 14:05:00 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        As Western defense forces pivot toward attritable mass and edge autonomy, the battle for air superiority shifts from multi-billion dollar fighters to resilient UAS swarms and industrial supply chain integrity.
-        
-        [SPLIT]
-        ⚡ Electronic warfare resiliency requires optical-flow navigation, AI target recognition, and decentralized mesh communication to operate in GPS-denied environments.
-        [SPLIT]
-        ⚡ Defense supply chain integrity faces escalating threats from gray-market components, counterfeit electronics, and fraudulent sub-tier contractors.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/autonomous-swarms-and-industrial-scalability-the-next-frontier-of-uas-warfare-266303.html
-      ]]></description>
-      
-      <category>UAS Innovation</category>
-      
-      <category>Defense Industrial Base</category>
-      
-      <category>Autonomous Swarms</category>
-      
-      <category>Electronic Warfare</category>
-      
-      <category>Supply Chain Security</category>
-      
-      
-      <enclosure url="https://one.sightlinemg.com/wp-content/uploads/2026/11/DNW-845-FULL-SHOW-THUMB.png" length="0" type="image/jpeg" />
-      <media:content url="https://one.sightlinemg.com/wp-content/uploads/2026/11/DNW-845-FULL-SHOW-THUMB.png" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://one.sightlinemg.com/wp-content/uploads/2026/11/DNW-845-FULL-SHOW-THUMB.png" />
       
     </item>
     

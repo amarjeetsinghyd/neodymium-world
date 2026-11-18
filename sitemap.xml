@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-11-17</lastmod>
+        <lastmod>2026-11-18</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-11-17</lastmod>
+        <lastmod>2026-11-18</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/weaponized-saas-supply-chains-inside-the-optimizely-malware-exploitation-005870.html</loc>
+        <lastmod>Tue, 17 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2026/11/malicious-website-500x500.jpg</image:loc>
+            <image:title>Weaponized SaaS Supply Chains: Inside the Optimizely Malware Exploitation</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 17 Nov 2026 22:32:16 +0000</news:publication_date>
+            <news:title>Weaponized SaaS Supply Chains: Inside the Optimizely Malware Exploitation</news:title>
+            
+            <news:keywords>Supply Chain Security, Optimizely Breach, iOS Exploit Kits, Kremlin Cyber Espionage, Cyber Warfare, SaaS Vulnerabilities</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/astra-microwave-locks-march-2027-deadline-for-first-uttam-radars-953119.html</loc>
@@ -591,6 +615,30 @@
             <news:title>Physical AI at Scale: How Gemini Robotics 2.5 Signals a Breakthrough in Autonomous Dexterity</news:title>
             
             <news:keywords>Physical AI, Vision-Language-Action Models, Autonomous Logistics, Dual-Use Technology, Robotic Dexterity</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/the-sshole-exploit-active-intrusions-target-critical-linux-vulnerability-005965.html</loc>
+        <lastmod>Mon, 09 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg</image:loc>
+            <image:title>The *sshole Exploit: Active Intrusions Target Critical Linux Vulnerability</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 09 Nov 2026 19:41:34 +0000</news:publication_date>
+            <news:title>The *sshole Exploit: Active Intrusions Target Critical Linux Vulnerability</news:title>
+            
+            <news:keywords>Linux Security, OpenSSH Vulnerability, Cyber Warfare, Alpine Linux, Threat Intelligence</news:keywords>
             
         </news:news>
     </url>
@@ -8205,7 +8253,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-11-17</lastmod>
+        <lastmod>2026-11-18</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         

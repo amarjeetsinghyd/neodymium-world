@@ -23,6 +23,44 @@
     <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Weaponized SaaS Supply Chains: Inside the Optimizely Malware Exploitation</title>
+      <link>https://neodymium.world/articles/weaponized-saas-supply-chains-inside-the-optimizely-malware-exploitation-005870.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/weaponized-saas-supply-chains-inside-the-optimizely-malware-exploitation-005870.html</guid>
+      <pubDate>Tue, 17 Nov 2026 22:32:16 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        A silent compromise within Optimizely’s trusted CDN delivered advanced iOS exploit kits and card skimmers across 178 major enterprise sites, including Zoom, Salesforce, and the BBC. Strategic intelligence analyst Alexander Sterling unpacks this digital supply chain assault.
+        
+        [SPLIT]
+        ⚡ The attack payload featured advanced iOS exploit kits (Coruna and DarkSword) linked to Russian state-aligned threat actors alongside commercial financial skimming engines.
+        [SPLIT]
+        ⚡ High-value enterprise and media portals—including Zoom, Salesforce, CNN, and the BBC—served as unintended distribution vectors for high-tier mobile zero-day and N-day exploits.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/weaponized-saas-supply-chains-inside-the-optimizely-malware-exploitation-005870.html
+      ]]></description>
+      
+      <category>Supply Chain Security</category>
+      
+      <category>Optimizely Breach</category>
+      
+      <category>iOS Exploit Kits</category>
+      
+      <category>Kremlin Cyber Espionage</category>
+      
+      <category>Cyber Warfare</category>
+      
+      <category>SaaS Vulnerabilities</category>
+      
+      
+      <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/malicious-website-500x500.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/malicious-website-500x500.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/malicious-website-500x500.jpg" />
+      
+    </item>
+    
+    <item>
       <title>Astra Microwave Locks March 2027 Deadline for First Uttam Radars</title>
       <link>https://neodymium.world/articles/astra-microwave-locks-march-2027-deadline-for-first-uttam-radars-953119.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/astra-microwave-locks-march-2027-deadline-for-first-uttam-radars-953119.html</guid>
@@ -57,42 +95,6 @@
       <enclosure url="https://idrw.org/wp-content/uploads/2026/11/images-33.jpg" length="0" type="image/jpeg" />
       <media:content url="https://idrw.org/wp-content/uploads/2026/11/images-33.jpg" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://idrw.org/wp-content/uploads/2026/11/images-33.jpg" />
-      
-    </item>
-    
-    <item>
-      <title>GE’s F404 Supply Slump Stalls Tejas Mk1A Production Lines</title>
-      <link>https://neodymium.world/articles/ge-s-f404-supply-slump-stalls-tejas-mk1a-production-lines-953159.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/ge-s-f404-supply-slump-stalls-tejas-mk1a-production-lines-953159.html</guid>
-      <pubDate>Tue, 17 Nov 2026 12:09:00 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Supply chain friction hits Atmanirbhar Bharat as GE Aerospace struggles to maintain the promised four-engine monthly delivery rate for the HAL Tejas Mk1A.
-        
-        [SPLIT]
-        ⚡ The ongoing supply shortfall disrupts HAL&#39;s final assembly lines, leaving multiple Tejas Mk1A airframes completed but grounded without propulsion systems.
-        [SPLIT]
-        ⚡ Meeting the government&#39;s year-end target of 22 cumulative engines now hinges entirely on an aggressive delivery surge throughout December.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/ge-s-f404-supply-slump-stalls-tejas-mk1a-production-lines-953159.html
-      ]]></description>
-      
-      <category>Tejas Mk1A</category>
-      
-      <category>GE F404</category>
-      
-      <category>HAL</category>
-      
-      <category>Atmanirbhar Bharat</category>
-      
-      <category>Indian Air Force</category>
-      
-      
-      <enclosure url="https://idrw.org/wp-content/uploads/2026/05/F404_2_Mar2025-Blog-India-1920x1080-6.jpg" length="0" type="image/jpeg" />
-      <media:content url="https://idrw.org/wp-content/uploads/2026/05/F404_2_Mar2025-Blog-India-1920x1080-6.jpg" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://idrw.org/wp-content/uploads/2026/05/F404_2_Mar2025-Blog-India-1920x1080-6.jpg" />
       
     </item>
     
