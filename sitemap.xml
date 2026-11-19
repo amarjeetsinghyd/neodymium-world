@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/toti-rejects-overseas-warship-building-for-us-based-foreign-shipyards-125559.html</loc>
+        <lastmod>Thu, 19 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://breakingdefense.com/wp-content/uploads/sites/13/2025/07/IMG_5929-scaled-e1751502454360-1024x577.jpeg</image:loc>
+            <image:title>Toti Rejects Overseas Warship Building for US-Based Foreign Shipyards</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 19 Nov 2026 21:08:27 +0000</news:publication_date>
+            <news:title>Toti Rejects Overseas Warship Building for US-Based Foreign Shipyards</news:title>
+            
+            <news:keywords>US Navy, William Toti, Shipbuilding Industrial Base, Frigate Program, Defense Acquisition</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/the-succession-battle-shaping-the-house-armed-services-committee-125574.html</loc>
+        <lastmod>Thu, 19 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/CRU40-pb-1024x576.png</image:loc>
+            <image:title>The Succession Battle Shaping the House Armed Services Committee</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 19 Nov 2026 19:54:46 +0000</news:publication_date>
+            <news:title>The Succession Battle Shaping the House Armed Services Committee</news:title>
+            
+            <news:keywords>HASC Leadership, House Armed Services Committee, Trent Kelly, Ronny Jackson, Mike Rogers, Defense Authorization</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/appropriators-slash-trump-s-17b-golden-dome-request-in-draft-bill-091672.html</loc>
         <lastmod>Thu, 19 No</lastmod>
         <changefreq>never</changefreq>
