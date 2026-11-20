@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/when-uniforms-clash-the-jorhat-traffic-incident-and-civil-military-friction-210916.html</loc>
+        <lastmod>Fri, 20 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://idrw.org/wp-content/uploads/2026/11/images-39.jpg</image:loc>
+            <image:title>When Uniforms Clash: The Jorhat Traffic Incident and Civil-Military Friction</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 20 Nov 2026 16:37:00 +0000</news:publication_date>
+            <news:title>When Uniforms Clash: The Jorhat Traffic Incident and Civil-Military Friction</news:title>
+            
+            <news:keywords>Jorhat MVI, Civil-Military Relations, Assam District Administration, Army Driver Licence, Atmanirbhar Bharat</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/the-digital-pacifier-hidden-costs-of-early-smartphone-exposure-178071.html</loc>
         <lastmod>Fri, 20 No</lastmod>
         <changefreq>never</changefreq>
@@ -87,6 +111,30 @@
             <news:title>The Digital Pacifier: Hidden Costs of Early Smartphone Exposure</news:title>
             
             <news:keywords>Child Development, Screen Time, AIIMS Delhi, Digital Pacifier, Public Health</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/balen-shah-s-new-delhi-debut-tests-india-s-himalayan-deterrence-210937.html</loc>
+        <lastmod>Fri, 20 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Balen Shah’s New Delhi Debut Tests India’s Himalayan Deterrence</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 20 Nov 2026 16:13:00 +0000</news:publication_date>
+            <news:title>Balen Shah’s New Delhi Debut Tests India’s Himalayan Deterrence</news:title>
+            
+            <news:keywords>Balendra Shah, India Nepal Relations, Neighbourhood First Policy, Lipulekh Dispute, Himalayan Border Security</news:keywords>
             
         </news:news>
     </url>
