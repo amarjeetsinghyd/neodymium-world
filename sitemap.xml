@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-11-19</lastmod>
+        <lastmod>2026-11-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-11-19</lastmod>
+        <lastmod>2026-11-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/the-digital-pacifier-hidden-costs-of-early-smartphone-exposure-178071.html</loc>
+        <lastmod>Fri, 20 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/yumh59/article71723663.ece/alternates/LANDSCAPE_1200/10510_21-3-2019_18-26-55_4_USINGMOBILE_09.JPG</image:loc>
+            <image:title>The Digital Pacifier: Hidden Costs of Early Smartphone Exposure</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 20 Nov 2026 16:31:19 +0530</news:publication_date>
+            <news:title>The Digital Pacifier: Hidden Costs of Early Smartphone Exposure</news:title>
+            
+            <news:keywords>Child Development, Screen Time, AIIMS Delhi, Digital Pacifier, Public Health</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/anthropic-s-record-2-trillion-nasdaq-debut-reshapes-ai-power-dynamics-178100.html</loc>
+        <lastmod>Fri, 20 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://th-i.thgim.com/public/incoming/336j8a/article71723598.ece/alternates/LANDSCAPE_1200/image%2029.jpg</image:loc>
+            <image:title>Anthropic’s Record $2 Trillion Nasdaq Debut Reshapes AI Power Dynamics</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 20 Nov 2026 15:26:37 +0530</news:publication_date>
+            <news:title>Anthropic’s Record $2 Trillion Nasdaq Debut Reshapes AI Power Dynamics</news:title>
+            
+            <news:keywords>Anthropic IPO, Claude Chatbot, Nasdaq Debut, Artificial Intelligence, Tech Market Valuation</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/toti-rejects-overseas-warship-building-for-us-based-foreign-shipyards-125559.html</loc>
@@ -8397,7 +8445,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-11-19</lastmod>
+        <lastmod>2026-11-20</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
