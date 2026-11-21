@@ -68,6 +68,30 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/the-pentagon-s-missing-blueprint-for-munitions-sovereignty-292621.html</loc>
+        <lastmod>Fri, 20 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.defenseone.com/media/img/cd/2026/11/20/9736344/thumb.jpg</image:loc>
+            <image:title>The Pentagon&#39;s Missing Blueprint for Munitions Sovereignty</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 20 Nov 2026 20:18:33 -0500</news:publication_date>
+            <news:title>The Pentagon&#39;s Missing Blueprint for Munitions Sovereignty</news:title>
+            
+            <news:keywords>Munitions Stockpiles, GAO Report, Defense Industrial Base, Pentagon Acquisitions, Patriot Interceptors</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/when-uniforms-clash-the-jorhat-traffic-incident-and-civil-military-friction-210916.html</loc>
         <lastmod>Fri, 20 No</lastmod>
         <changefreq>never</changefreq>
@@ -159,6 +183,30 @@
             <news:title>Anthropic’s Record $2 Trillion Nasdaq Debut Reshapes AI Power Dynamics</news:title>
             
             <news:keywords>Anthropic IPO, Claude Chatbot, Nasdaq Debut, Artificial Intelligence, Tech Market Valuation</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/the-homefront-perimeter-army-rewires-installation-defense-292652.html</loc>
+        <lastmod>Fri, 20 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.defenseone.com/media/img/cd/2026/11/20/10107265/thumb.jpg</image:loc>
+            <image:title>The Homefront Perimeter: Army Rewires Installation Defense</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 20 Nov 2026 14:42:56 -0500</news:publication_date>
+            <news:title>The Homefront Perimeter: Army Rewires Installation Defense</news:title>
+            
+            <news:keywords>Defense Critical Infrastructure, U.S. Army Installations, Civilian Military Integration, Domestic Shield Program, Counter UAS Defense</news:keywords>
             
         </news:news>
     </url>

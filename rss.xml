@@ -23,6 +23,42 @@
     <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>The Pentagon&#39;s Missing Blueprint for Munitions Sovereignty</title>
+      <link>https://neodymium.world/articles/the-pentagon-s-missing-blueprint-for-munitions-sovereignty-292621.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/the-pentagon-s-missing-blueprint-for-munitions-sovereignty-292621.html</guid>
+      <pubDate>Fri, 20 Nov 2026 20:18:33 -0500</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        The U.S. military is burning through critical missile stockpiles faster than it can build them—and a scathing new GAO report reveals that managing the crisis is literally no one&#39;s job.
+        
+        [SPLIT]
+        ⚡ Decades-long production timelines for complex assets like Patriot interceptors clash with the high-consumption realities of modern asymmetric warfare.
+        [SPLIT]
+        ⚡ Decentralized inventory tracking across individual military services creates massive blind spots and prevents comprehensive department-wide oversight.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/the-pentagon-s-missing-blueprint-for-munitions-sovereignty-292621.html
+      ]]></description>
+      
+      <category>Munitions Stockpiles</category>
+      
+      <category>GAO Report</category>
+      
+      <category>Defense Industrial Base</category>
+      
+      <category>Pentagon Acquisitions</category>
+      
+      <category>Patriot Interceptors</category>
+      
+      
+      <enclosure url="https://cdn.defenseone.com/media/img/cd/2026/11/20/9736344/thumb.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.defenseone.com/media/img/cd/2026/11/20/9736344/thumb.jpg" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://cdn.defenseone.com/media/img/cd/2026/11/20/9736344/thumb.jpg" />
+      
+    </item>
+    
+    <item>
       <title>When Uniforms Clash: The Jorhat Traffic Incident and Civil-Military Friction</title>
       <link>https://neodymium.world/articles/when-uniforms-clash-the-jorhat-traffic-incident-and-civil-military-friction-210916.html</link>
       <guid isPermaLink="true">https://neodymium.world/articles/when-uniforms-clash-the-jorhat-traffic-incident-and-civil-military-friction-210916.html</guid>
@@ -55,42 +91,6 @@
       <enclosure url="https://idrw.org/wp-content/uploads/2026/11/images-39.jpg" length="0" type="image/jpeg" />
       <media:content url="https://idrw.org/wp-content/uploads/2026/11/images-39.jpg" medium="image" width="1200" height="630" />
       <media:thumbnail url="https://idrw.org/wp-content/uploads/2026/11/images-39.jpg" />
-      
-    </item>
-    
-    <item>
-      <title>The Digital Pacifier: Hidden Costs of Early Smartphone Exposure</title>
-      <link>https://neodymium.world/articles/the-digital-pacifier-hidden-costs-of-early-smartphone-exposure-178071.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/the-digital-pacifier-hidden-costs-of-early-smartphone-exposure-178071.html</guid>
-      <pubDate>Fri, 20 Nov 2026 16:31:19 +0530</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        When toddlers swipe screens before holding a pencil, what are the hidden developmental costs? A deep dive into AIIMS Delhi&#39;s alarming screen time data.
-        
-        [SPLIT]
-        ⚡ Smartphones are widely deployed as digital pacifiers to manage tantrums and routine household chores.
-        [SPLIT]
-        ⚡ Early exposure to fast-paced digital interfaces correlates with attention regulation issues and delayed speech.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/the-digital-pacifier-hidden-costs-of-early-smartphone-exposure-178071.html
-      ]]></description>
-      
-      <category>Child Development</category>
-      
-      <category>Screen Time</category>
-      
-      <category>AIIMS Delhi</category>
-      
-      <category>Digital Pacifier</category>
-      
-      <category>Public Health</category>
-      
-      
-      <enclosure url="https://th-i.thgim.com/public/incoming/yumh59/article71723663.ece/alternates/LANDSCAPE_1200/10510_21-3-2019_18-26-55_4_USINGMOBILE_09.JPG" length="0" type="image/jpeg" />
-      <media:content url="https://th-i.thgim.com/public/incoming/yumh59/article71723663.ece/alternates/LANDSCAPE_1200/10510_21-3-2019_18-26-55_4_USINGMOBILE_09.JPG" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://th-i.thgim.com/public/incoming/yumh59/article71723663.ece/alternates/LANDSCAPE_1200/10510_21-3-2019_18-26-55_4_USINGMOBILE_09.JPG" />
       
     </item>
     
