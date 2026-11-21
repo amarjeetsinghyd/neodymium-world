@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-11-20</lastmod>
+        <lastmod>2026-11-21</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-11-20</lastmod>
+        <lastmod>2026-11-21</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -188,6 +188,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/counter-uas-evolution-frontline-defenses-against-cheap-drones-263316.html</loc>
+        <lastmod>Thu, 19 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://one.sightlinemg.com/wp-content/uploads/2026/11/DNW-846-FULL-SHOW-THUMB.png</image:loc>
+            <image:title>Counter-UAS Evolution: Frontline Defenses Against Cheap Drones</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Thu, 19 Nov 2026 19:57:54 +0000</news:publication_date>
+            <news:title>Counter-UAS Evolution: Frontline Defenses Against Cheap Drones</news:title>
+            
+            <news:keywords>Counter-UAS, Anti-Drone Systems, Defense Procurement, Electronic Warfare, Force Protection</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/the-succession-battle-shaping-the-house-armed-services-committee-125574.html</loc>
         <lastmod>Thu, 19 No</lastmod>
         <changefreq>never</changefreq>
@@ -327,6 +351,30 @@
             <news:title>Weaponized SaaS Supply Chains: Inside the Optimizely Malware Exploitation</news:title>
             
             <news:keywords>Supply Chain Security, Optimizely Breach, iOS Exploit Kits, Kremlin Cyber Espionage, Cyber Warfare, SaaS Vulnerabilities</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/the-iron-medevac-ukraine-pivots-to-heavy-aerial-evacuation-drones-263333.html</loc>
+        <lastmod>Tue, 17 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://one.sightlinemg.com/wp-content/uploads/2026/11/Drone-Rescue.00_00_31_11.Still001.jpg</image:loc>
+            <image:title>The Iron Medevac: Ukraine Pivots to Heavy Aerial Evacuation Drones</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 17 Nov 2026 20:31:20 +0000</news:publication_date>
+            <news:title>The Iron Medevac: Ukraine Pivots to Heavy Aerial Evacuation Drones</news:title>
+            
+            <news:keywords>Medevac Drones, Ukraine War, Battlefield Casualty Care, Unmanned Systems, Frontline Logistics</news:keywords>
             
         </news:news>
     </url>
@@ -8493,7 +8541,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-11-20</lastmod>
+        <lastmod>2026-11-21</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
