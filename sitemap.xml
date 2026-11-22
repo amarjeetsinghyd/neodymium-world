@@ -356,6 +356,54 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/gemini-4-neon-enters-the-defense-and-intelligence-architecture-379792.html</loc>
+        <lastmod>Wed, 18 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg</image:loc>
+            <image:title>Gemini 4 Neon Enters the Defense and Intelligence Architecture</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 18 Nov 2026 21:35:43 +0000</news:publication_date>
+            <news:title>Gemini 4 Neon Enters the Defense and Intelligence Architecture</news:title>
+            
+            <news:keywords>Gemini 4 Neon, Military AI, Autonomous Agents, Cyber Defense, Defense Modernization</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/google-deepmind-deploys-genie-4-for-real-time-interactive-world-generation-379808.html</loc>
+        <lastmod>Wed, 18 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Google DeepMind Deploys Genie 4 for Real-Time Interactive World Generation</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 18 Nov 2026 18:13:42 +0000</news:publication_date>
+            <news:title>Google DeepMind Deploys Genie 4 for Real-Time Interactive World Generation</news:title>
+            
+            <news:keywords>Genie 4, Google DeepMind, World Models, Generative AI, Project Genie</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/agnikul-s-quad-engine-test-proves-india-s-private-launch-viability-038377.html</loc>
         <lastmod>Wed, 18 No</lastmod>
         <changefreq>never</changefreq>
