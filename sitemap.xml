@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-11-22</lastmod>
+        <lastmod>2026-11-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-11-22</lastmod>
+        <lastmod>2026-11-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -2079,6 +2079,30 @@
             <news:title>New Delhi Draws a Hard Line on US-Pakistan F-16 Sustainment</news:title>
             
             <news:keywords>Rajnath Singh, US-Pakistan Relations, F-16 Sustainment, Atmanirbhar Bharat, ADMM-Plus, South Asian Geopolitics</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/gemini-4-carbon-and-the-reshaping-of-autonomous-cyber-defense-443006.html</loc>
+        <lastmod>Wed, 28 Oc</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg</image:loc>
+            <image:title>Gemini 4 Carbon and the Reshaping of Autonomous Cyber Defense</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 28 Oct 2026 17:00:58 +0000</news:publication_date>
+            <news:title>Gemini 4 Carbon and the Reshaping of Autonomous Cyber Defense</news:title>
+            
+            <news:keywords>Gemini 4 Carbon, Google DeepMind, Cyber Defense, Agentic AI, Cybersecurity, US Government Testing</news:keywords>
             
         </news:news>
     </url>
@@ -8204,6 +8228,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/deepmind-s-lyria-3-deployment-signals-new-battleground-in-audio-provenance-443296.html</loc>
+        <lastmod>Wed, 18 Fe</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://lh3.googleusercontent.com/WaabCY2Z_smMKiEvzihBKsLEg8g8pNqP_TIy1il9bQGD1zbwwoyAjwawnHB5WRpqyeozc4kiNDFTJY1UTbvoia-FwMM8rI9LPVmt3ESbzKAcDf5j=w528-h297-n-nu-rw-lo</image:loc>
+            <image:title>DeepMind’s Lyria 3 Deployment Signals New Battleground in Audio Provenance</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 18 Feb 2026 16:01:38 +0000</news:publication_date>
+            <news:title>DeepMind’s Lyria 3 Deployment Signals New Battleground in Audio Provenance</news:title>
+            
+            <news:keywords>Generative AI, Google DeepMind, Lyria 3, Synthetic Media, SynthID, Cognitive Warfare</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/ai-accelerators-google-s-2026-play-india-playbook-for-strategic-tech-dominance-809957.html</loc>
         <lastmod>Mon, 03 Au</lastmod>
         <changefreq>never</changefreq>
@@ -8685,7 +8733,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-11-22</lastmod>
+        <lastmod>2026-11-23</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
