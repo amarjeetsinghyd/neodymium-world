@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-24</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-24</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,30 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/iran-war-drives-india-and-china-to-record-russian-oil-imports-531100.html</loc>
+        <lastmod>Tue, 24 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Iran War Drives India and China to Record Russian Oil Imports</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 24 Nov 2026 14:08:00 +0000</news:publication_date>
+            <news:title>Iran War Drives India and China to Record Russian Oil Imports</news:title>
+            
+            <news:keywords>Russian Oil, India Energy Strategy, China Energy Security, Iran War, Global Oil Markets</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/canada-enters-nato-innovation-fund-amid-us-defense-rift-349991.html</loc>
@@ -8588,6 +8612,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/beyond-velocity-how-revolut-deploys-agentic-ai-to-harden-global-financial-defens-535909.html</loc>
+        <lastmod>Mon, 16 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+            <image:title>Beyond Velocity: How Revolut Deploys Agentic AI to Harden Global Financial Defense</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Mon, 16 Nov 2026 09:30:00 GMT</news:publication_date>
+            <news:title>Beyond Velocity: How Revolut Deploys Agentic AI to Harden Global Financial Defense</news:title>
+            
+            <news:keywords>Agentic AI, Revolut, DevSecOps, Financial Cybersecurity, OpenAI Codex, GPT-5.5</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/bharat-s-digital-frontier-villages-as-the-new-economic-engine-860130.html</loc>
         <lastmod>Fri, 24 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -8733,7 +8781,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-24</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         

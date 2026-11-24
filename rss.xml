@@ -22,5 +22,41 @@
     <!-- Self-referencing atom:link is required by RSS validators -->
     <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Iran War Drives India and China to Record Russian Oil Imports</title>
+      <link>https://neodymium.world/articles/iran-war-drives-india-and-china-to-record-russian-oil-imports-531100.html</link>
+      <guid isPermaLink="true">https://neodymium.world/articles/iran-war-drives-india-and-china-to-record-russian-oil-imports-531100.html</guid>
+      <pubDate>Tue, 24 Nov 2026 14:08:00 +0000</pubDate>
+      <dc:creator>Amarjeet Singh</dc:creator>
+      <!-- Description: executive summary or first key takeaway only (no full HTML body).
+           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
+      <description><![CDATA[
+        Middle East war disruptions and Ukrainian strikes on Russian refineries drove India and China to absorb over 80% of Russia’s crude exports. But with surging premiums, can this Eurasian energy surge endure past 2026?
+        
+        [SPLIT]
+        ⚡ Ukrainian strikes disabled nearly 50% of Russian refining capacity, forcing Moscow to export unrefined crude to maintain revenue.
+        [SPLIT]
+        ⚡ Surging ESPO spot premiums of up to $30/bbl over Brent are pricing out China&#39;s independent &#39;teapot&#39; refiners.
+        [SPLIT]
+        🔗 Read full report → https://neodymium.world/articles/iran-war-drives-india-and-china-to-record-russian-oil-imports-531100.html
+      ]]></description>
+      
+      <category>Russian Oil</category>
+      
+      <category>India Energy Strategy</category>
+      
+      <category>China Energy Security</category>
+      
+      <category>Iran War</category>
+      
+      <category>Global Oil Markets</category>
+      
+      
+      <enclosure url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" length="0" type="image/jpeg" />
+      <media:content url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="630" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
+      
+    </item>
+    
   </channel>
 </rss>
