@@ -8588,6 +8588,30 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/autonomous-ai-agents-secure-the-defense-supply-chain-edge-647822.html</loc>
+        <lastmod>Tue, 24 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg</image:loc>
+            <image:title>Autonomous AI Agents Secure the Defense Supply Chain Edge</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 24 Nov 2026 00:00:00 GMT</news:publication_date>
+            <news:title>Autonomous AI Agents Secure the Defense Supply Chain Edge</news:title>
+            
+            <news:keywords>AI Agents, Defense Contracting, Supply Chain Hegemony, Defense Modernization, Military Tech</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/b2b-gtm-ai-driven-noise-reduction-is-the-real-growth-hack-071787.html</loc>
         <lastmod>Sat, 25 Ju</lastmod>
         <changefreq>never</changefreq>
@@ -9135,6 +9159,30 @@
             <news:title>Pollo AI Turns Creative Ideas into Campaigns with OpenAI</news:title>
             
             <news:keywords>Generative AI, Information Warfare, OpenAI, Cognitive Domain, NATO Deterrence, Strategic Communication</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/scaling-autonomous-coding-agents-across-15-000-repositories-647841.html</loc>
+        <lastmod>Tue, 24 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg</image:loc>
+            <image:title>Scaling Autonomous Coding Agents Across 15,000 Repositories</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 24 Nov 2026 00:00:00 GMT</news:publication_date>
+            <news:title>Scaling Autonomous Coding Agents Across 15,000 Repositories</news:title>
+            
+            <news:keywords>AI Agents, Autonomous Coding, Software Engineering, GPT-5.6 Luna, Infrastructure, DevSecOps</news:keywords>
             
         </news:news>
     </url>
