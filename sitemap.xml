@@ -116,6 +116,54 @@
     </url>
     
     <url>
+        <loc>https://neodymium.world/articles/the-navy-s-foreign-shipyard-paradox-and-the-battle-for-industrial-base-reform-733490.html</loc>
+        <lastmod>Wed, 25 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.defenseone.com/media/img/cd/2026/11/24/DBB_lander/thumb.jpg</image:loc>
+            <image:title>The Navy’s Foreign Shipyard Paradox and the Battle for Industrial Base Reform</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 25 Nov 2026 10:00:00 -0500</news:publication_date>
+            <news:title>The Navy’s Foreign Shipyard Paradox and the Battle for Industrial Base Reform</news:title>
+            
+            <news:keywords>US Navy, Shipbuilding Crisis, Defense Spending Bill, Philly Shipyard, Hanwha, FFG-62 Frigate</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/forging-the-mid-pacific-defense-industrial-base-in-hawaii-733507.html</loc>
+        <lastmod>Tue, 24 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.defenseone.com/media/img/cd/2026/11/24/202610_AMTS_046/thumb.jpg</image:loc>
+            <image:title>Forging the Mid-Pacific Defense Industrial Base in Hawaii</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 24 Nov 2026 17:58:06 -0500</news:publication_date>
+            <news:title>Forging the Mid-Pacific Defense Industrial Base in Hawaii</news:title>
+            
+            <news:keywords>Defense Industrial Base, Pearl Harbor Naval Shipyard, Pacific Deterrence, Advanced Manufacturing, Supply Chain Resilience</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/iran-war-drives-india-and-china-to-record-russian-oil-imports-531100.html</loc>
         <lastmod>Tue, 24 No</lastmod>
         <changefreq>never</changefreq>

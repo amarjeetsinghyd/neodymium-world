@@ -58,43 +58,5 @@
       
     </item>
     
-    <item>
-      <title>Algorithmic DoS: How AI Data Harvesters Are Paralysing Open Government</title>
-      <link>https://neodymium.world/articles/algorithmic-dos-how-ai-data-harvesters-are-paralysing-open-government-615153.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/algorithmic-dos-how-ai-data-harvesters-are-paralysing-open-government-615153.html</guid>
-      <pubDate>Wed, 25 Nov 2026 10:00:00 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        Venture-backed startups and automated LLM tools are flooding public records systems with tens of thousands of automated FOIA requests daily. Is America&#39;s open-government infrastructure facing a structural Denial-of-Service attack?
-        
-        [SPLIT]
-        ⚡ Commercial entities account for up to 96% of public records inquiries at key federal agencies, transforming open-government mandates into proprietary corporate intelligence pipelines.
-        [SPLIT]
-        ⚡ Local administrative nodes face severe operational gridlock, diverting critical public-sector labor away from core governance functions toward manual data processing.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/algorithmic-dos-how-ai-data-harvesters-are-paralysing-open-government-615153.html
-      ]]></description>
-      
-      <category>Freedom of Information Act</category>
-      
-      <category>FOIA Modernization</category>
-      
-      <category>State Capacity</category>
-      
-      <category>Artificial Intelligence</category>
-      
-      <category>Venture Capital</category>
-      
-      <category>Public Sector Tech</category>
-      
-      
-      <enclosure url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" length="0" type="image/jpeg" />
-      <media:content url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
-      
-    </item>
-    
   </channel>
 </rss>
