@@ -68,6 +68,54 @@
     <!-- Article pages with Google News sitemap extension -->
     
     <url>
+        <loc>https://neodymium.world/articles/mh-60r-romeo-fleet-complete-upgrading-india-s-asw-edge-818693.html</loc>
+        <lastmod>Fri, 27 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOmfCO5fqE9lK8akpdHpqmDflDuDaLRw6p5LB_9jL9v_EL02hT-JcAmN4cWp7_Srt40NiOA1zWNOsGwy8PbdgCQtogFEMaD6OR72i0wtiGWbnWvbnpxyC-GkZFYTuTs6D7D9Z-fhYGmFLU5km0qpKpuIAo_X_mwVpZ5ZPAqUvfc-nRPU4FImgcri4YnWo/s72-c/MH-60R_Helicopter.jpg</image:loc>
+            <image:title>MH-60R Romeo Fleet Complete: Upgrading India&#39;s ASW Edge</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 27 Nov 2026 15:41:00 +0000</news:publication_date>
+            <news:title>MH-60R Romeo Fleet Complete: Upgrading India&#39;s ASW Edge</news:title>
+            
+            <news:keywords>MH-60R Seahawk, Indian Navy, Anti-Submarine Warfare, Atmanirbhar Bharat, Indo-Pacific Deterrence, Naval Aviation</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/inside-india-s-chandrayaan-5-lunar-rover-hardware-reveal-818717.html</loc>
+        <lastmod>Fri, 27 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMJWCQKbGi2U9OjVkKQUzkkzh-HH1ic3us6Wnw3FuNPOeOqaWlQywYC8_92giH3W1BkMe6GC_YnOwDXTgMXw2n78-EcvcnnmaJQSYjS8eYNQIaUhKreQGaY9Nfdn9ovRrpl4nWj5lUewCy0x4JBE37aG3Ptnuh-p6atS_wFvqAsKEAkAGCyI72dossQjI/s72-c/Chandrayaan-5_Rover.jpg</image:loc>
+            <image:title>Inside India&#39;s Chandrayaan-5 Lunar Rover Hardware Reveal</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Fri, 27 Nov 2026 15:40:00 +0000</news:publication_date>
+            <news:title>Inside India&#39;s Chandrayaan-5 Lunar Rover Hardware Reveal</news:title>
+            
+            <news:keywords>Chandrayaan-5, ISRO, Lunar Rover, Space Technology, Atmanirbhar Bharat</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
         <loc>https://neodymium.world/articles/army-s-flagship-mv-75-tiltrotor-slips-past-initial-testing-target-786370.html</loc>
         <lastmod>Wed, 25 No</lastmod>
         <changefreq>never</changefreq>
