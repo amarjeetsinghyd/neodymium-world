@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-11-26</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-11-26</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -66,6 +66,54 @@
         <priority>0.4</priority>
     </url>
     <!-- Article pages with Google News sitemap extension -->
+    
+    <url>
+        <loc>https://neodymium.world/articles/army-s-flagship-mv-75-tiltrotor-slips-past-initial-testing-target-786370.html</loc>
+        <lastmod>Wed, 25 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/MV-75-photo-B-e1795550259743.jpg</image:loc>
+            <image:title>Army&#39;s Flagship MV-75 Tiltrotor Slips Past Initial Testing Target</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 25 Nov 2026 18:15:00 +0000</news:publication_date>
+            <news:title>Army&#39;s Flagship MV-75 Tiltrotor Slips Past Initial Testing Target</news:title>
+            
+            <news:keywords>MV-75 Cheyenne II, FLRAA, US Army Aviation, Bell Textron, Defense Acquisition</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/the-mediterranean-gambit-ukraine-s-strike-on-russia-s-libyan-lifeline-786388.html</loc>
+        <lastmod>Wed, 25 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Capture-decran-le-2026-11-25-a-18.08.48-1024x561.png</image:loc>
+            <image:title>The Mediterranean Gambit: Ukraine&#39;s Strike on Russia&#39;s Libyan Lifeline</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 25 Nov 2026 17:45:00 +0000</news:publication_date>
+            <news:title>The Mediterranean Gambit: Ukraine&#39;s Strike on Russia&#39;s Libyan Lifeline</news:title>
+            
+            <news:keywords>Mediterranean Security, Naval Drones, NATO Southern Flank, Libya Conflict, Russian Navy</news:keywords>
+            
+        </news:news>
+    </url>
     
     <url>
         <loc>https://neodymium.world/articles/asymmetric-arsenals-dual-use-ai-breaches-and-silicon-evasion-strain-western-edge-615103.html</loc>
@@ -8925,7 +8973,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-11-26</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         

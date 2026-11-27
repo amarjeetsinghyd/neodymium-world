@@ -22,41 +22,5 @@
     <!-- Self-referencing atom:link is required by RSS validators -->
     <atom:link href="https://neodymium.world/rss.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>Asymmetric Arsenals: Dual-Use AI Breaches and Silicon Evasion Strain Western Edge</title>
-      <link>https://neodymium.world/articles/asymmetric-arsenals-dual-use-ai-breaches-and-silicon-evasion-strain-western-edge-615103.html</link>
-      <guid isPermaLink="true">https://neodymium.world/articles/asymmetric-arsenals-dual-use-ai-breaches-and-silicon-evasion-strain-western-edge-615103.html</guid>
-      <pubDate>Wed, 25 Nov 2026 13:10:00 +0000</pubDate>
-      <dc:creator>Amarjeet Singh</dc:creator>
-      <!-- Description: executive summary or first key takeaway only (no full HTML body).
-           This keeps the RSS file small and avoids duplicate-content issues with Google. -->
-      <description><![CDATA[
-        From AI-powered breaches of US spy agencies to illicit $270M GPU flows in China, Western defense modernizers face dual threats of digital exploitation and structural friction. Alexander Sterling breaks down the strategic fallout.
-        
-        [SPLIT]
-        ⚡ Illicit financing networks totaling hundreds of millions continue bypassing semiconductor export limits, fueling Chinese AI server infrastructure.
-        [SPLIT]
-        ⚡ Automated data collection and bot-driven public records clearing overload civilian-military bureaucracies, creating systemic operational friction.
-        [SPLIT]
-        🔗 Read full report → https://neodymium.world/articles/asymmetric-arsenals-dual-use-ai-breaches-and-silicon-evasion-strain-western-edge-615103.html
-      ]]></description>
-      
-      <category>Defense Tech</category>
-      
-      <category>Cyber Warfare</category>
-      
-      <category>Semiconductor Sanctions</category>
-      
-      <category>Arctic Infrastructure</category>
-      
-      <category>AI Security</category>
-      
-      
-      <enclosure url="https://wp.technologyreview.com/wp-content/uploads/2026/08/3_HighChair-crop.jpg?w=840" length="0" type="image/jpeg" />
-      <media:content url="https://wp.technologyreview.com/wp-content/uploads/2026/08/3_HighChair-crop.jpg?w=840" medium="image" width="1200" height="630" />
-      <media:thumbnail url="https://wp.technologyreview.com/wp-content/uploads/2026/08/3_HighChair-crop.jpg?w=840" />
-      
-    </item>
-    
   </channel>
 </rss>
