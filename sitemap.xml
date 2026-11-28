@@ -5,14 +5,14 @@
     <!-- Homepage -->
     <url>
         <loc>https://neodymium.world/</loc>
-        <lastmod>2026-11-27</lastmod>
+        <lastmod>2026-11-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Archive -->
     <url>
         <loc>https://neodymium.world/archive.html</loc>
-        <lastmod>2026-11-27</lastmod>
+        <lastmod>2026-11-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -111,6 +111,30 @@
             <news:title>Inside India&#39;s Chandrayaan-5 Lunar Rover Hardware Reveal</news:title>
             
             <news:keywords>Chandrayaan-5, ISRO, Lunar Rover, Space Technology, Atmanirbhar Bharat</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/backblaze-policy-update-triggers-digital-sovereignty-anxiety-869943.html</loc>
+        <lastmod>Wed, 25 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1219679299-500x500.jpg</image:loc>
+            <image:title>Backblaze Policy Update Triggers Digital Sovereignty Anxiety</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Wed, 25 Nov 2026 18:38:29 +0000</news:publication_date>
+            <news:title>Backblaze Policy Update Triggers Digital Sovereignty Anxiety</news:title>
+            
+            <news:keywords>Backblaze Privacy, Cloud Storage Security, Data Privacy Compliance, Targeted Advertising, Zero-Knowledge Encryption</news:keywords>
             
         </news:news>
     </url>
@@ -279,6 +303,30 @@
             <news:title>Iran War Drives India and China to Record Russian Oil Imports</news:title>
             
             <news:keywords>Russian Oil, India Energy Strategy, China Energy Security, Iran War, Global Oil Markets</news:keywords>
+            
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://neodymium.world/articles/autonomous-ai-agents-exploit-zero-day-without-human-help-869958.html</loc>
+        <lastmod>Tue, 24 No</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.8</priority>
+        
+        <image:image>
+            <image:loc>https://cdn.arstechnica.net/wp-content/uploads/2026/11/cairn-banner-500x500.jpg</image:loc>
+            <image:title>Autonomous AI Agents Exploit Zero-Day Without Human Help</image:title>
+        </image:image>
+        
+        <news:news>
+            <news:publication>
+                <news:name>Neodymium</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>Tue, 24 Nov 2026 12:30:05 +0000</news:publication_date>
+            <news:title>Autonomous AI Agents Exploit Zero-Day Without Human Help</news:title>
+            
+            <news:keywords>Autonomous Cyber Attacks, Zero-Day Exploits, Cairn Framework, AI Penetration Testing, Threat Intelligence</news:keywords>
             
         </news:news>
     </url>
@@ -9021,7 +9069,7 @@
     
     <url>
         <loc>https://neodymium.world/articles/gemini-enterprise-from-pilot-to-production-playbook-575430.html</loc>
-        <lastmod>2026-11-27</lastmod>
+        <lastmod>2026-11-28</lastmod>
         <changefreq>never</changefreq>
         <priority>0.8</priority>
         
